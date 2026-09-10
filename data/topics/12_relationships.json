@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "relationships",
+  "topics": [
+    {"id":"PSY-REL-001","title_ja":"友人の多さと健康は、どう関係している？","concepts_en":["social integration","social relationships and health"],"angle_ja":"交友人数だけでなく、役割、支援、交流の意味を調べる。","search_query":"social relationships mortality social integration longitudinal meta analysis","priority":1,"source_ids":["SRC011"],"caution_ja":"観察研究の関連を、友達を増やせば寿命が確実に延びるという因果効果にしない。"},
+    {"id":"PSY-REL-002","title_ja":"一人でいることと孤独を感じることは違う？","concepts_en":["loneliness","social isolation","solitude"],"angle_ja":"客観的な接触の少なさと主観的な寂しさを区別する。","search_query":"loneliness social isolation solitude distinction health systematic review","priority":1,"source_ids":["SRC011"],"caution_ja":"一人の時間を好むことを病気と扱わない。追加文献で各概念の測定を確認する。"},
+    {"id":"PSY-REL-003","title_ja":"助けてもらえる感覚と、実際に受けた助けは同じ効果？","concepts_en":["perceived support","received support"],"angle_ja":"相談できる安心と、具体的な支援の違いを調べる。","search_query":"perceived received social support stress health meta analysis","priority":2,"source_ids":["SRC011"],"caution_ja":"支援を受ける人は元々困難が大きい場合があり、単純比較で害と断定しない。"},
+    {"id":"PSY-REL-004","title_ja":"話を聞いてもらうと、なぜ安心できる？","concepts_en":["active listening","perceived responsiveness"],"angle_ja":"助言、共感、遮らず聞くことの違いを研究する。","search_query":"active listening perceived responsiveness well being randomized experiment","priority":1,"source_ids":[],"caution_ja":"共感することを、事実に反する内容まで同意することと混同しない。"},
+    {"id":"PSY-REL-005","title_ja":"自分のことを話すと距離は縮まる？","concepts_en":["self disclosure","interpersonal closeness"],"angle_ja":"話の深さ、相互性、相手の反応を分けて調べる。","search_query":"self disclosure interpersonal closeness reciprocity meta analysis","priority":2,"source_ids":[],"caution_ja":"秘密の開示や親密さを強制しない。安全性と関係性の前提を確認する。"},
+    {"id":"PSY-REL-006","title_ja":"相手が喜んでいるとき、どんな反応が関係を育てる？","concepts_en":["capitalization","active constructive responding"],"angle_ja":"よい出来事を共有した際の応答と関係の満足度を研究する。","search_query":"capitalization active constructive responding relationship satisfaction study","priority":2,"source_ids":[],"caution_ja":"定型文だけで関係が改善すると保証しない。研究参加者の偏りを確認する。"},
+    {"id":"PSY-REL-007","title_ja":"断ることが苦手な人に、アサーションは役立つ？","concepts_en":["assertiveness training","boundary setting"],"angle_ja":"攻撃や我慢ではない意思表示の練習を調べる。","search_query":"assertiveness training randomized trial systematic review adults","priority":1,"source_ids":[],"caution_ja":"権力差や暴力のある関係では、伝え方だけを解決策にしない。"},
+    {"id":"PSY-REL-008","title_ja":"恋愛の愛着スタイルは一生変わらない？","concepts_en":["adult attachment","attachment change"],"angle_ja":"安心、不安、回避の傾向と関係・経験の変化を研究する。","search_query":"adult attachment stability change longitudinal review relationships","priority":1,"source_ids":[],"caution_ja":"ネット診断から本人や相手を固定タイプに分類して断罪しない。"},
+    {"id":"PSY-REL-009","title_ja":"謝れば許される？信頼を取り戻す謝罪の条件","concepts_en":["apology","trust repair"],"angle_ja":"責任の認識、修復行動、再発防止と言葉の違いを調べる。","search_query":"apology trust repair responsibility restitution meta analysis","priority":2,"source_ids":[],"caution_ja":"被害を受けた人に許しを要求しない。短期評価と実際の信頼回復を区別する。"},
+    {"id":"PSY-REL-010","title_ja":"対立のとき、相手の立場を想像するだけで分かり合える？","concepts_en":["perspective taking","perspective getting"],"angle_ja":"想像することと、直接尋ねて知ることを比較する。","search_query":"perspective taking perspective getting interpersonal accuracy experiments","priority":2,"source_ids":[],"caution_ja":"相手の気持ちを推測で決めつけない。理解と同意は区別する。"}
+  ]
+}

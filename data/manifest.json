@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "dataset_name": "Psychology Blog: Human Science Topic Database",
+  "language": "ja",
+  "created_on": "2026-09-11",
+  "timezone": "Asia/Tokyo",
+  "repository": "Matsu71/Psychology_Blog",
+  "phase": "topic_discovery",
+  "category_count": 20,
+  "topic_count": 200,
+  "source_count": 35,
+  "reference_linked_count": 84,
+  "search_pending_count": 116,
+  "topic_defaults": {
+    "record_status": "theme_candidate",
+    "evidence_appraisal": "not_assessed",
+    "publication_ready": false,
+    "source_link_role": "research_entry_point_not_claim_level_evidence"
+  },
+  "research_status_rule": {
+    "nonempty_source_ids": "reference_linked",
+    "empty_source_ids": "search_pending"
+  },
+  "priority_legend": {
+    "1": "初期の記事化候補として優先的に調査する。科学的確実性を意味しない。",
+    "2": "補完・発展・条件差を掘り下げる候補。科学的確実性を意味しない。"
+  },
+  "files": {
+    "categories": "data/categories.json",
+    "sources": "data/sources.json",
+    "topic_files": "data/topics/*.json",
+    "methodology": "docs/METHODOLOGY.md",
+    "data_dictionary": "docs/DATA_DICTIONARY.md",
+    "validator": "scripts/validate.py"
+  },
+  "initial_shortlist": [
+    "PSY-SLP-001", "PSY-SLP-002", "PSY-SLP-004", "PSY-SLP-008",
+    "PSY-SLP-009", "PSY-GEN-001", "PSY-GEN-002", "PSY-ADD-001",
+    "PSY-ADD-002", "PSY-ADD-006", "PSY-HAB-001", "PSY-LEA-001"
+  ],
+  "coverage_notes_ja": [
+    "20分類は編集上の初期分類であり、学会の標準分類や全分野の網羅性を主張しない。",
+    "200件は記事テーマ候補数であり、確認済み効果数・論文数・完成記事数ではない。",
+    "35資料には論文、公的解説、参考文献一覧を含む。すべての原論文全文を精査したわけではない。",
+    "84テーマには関連資料の入口があるが、背景資料だけの場合もある。116テーマは個別の出典確認が未着手。",
+    "検索文字列は今後の調査用。全検索式を実行したことや、最新文献の網羅を意味しない。",
+    "記事本文、治療推奨、商用公開用の医学的監修はこのデータセットに含まれない。",
+    "確認日は閲覧日であり、エビデンスの最終更新日ではない。"
+  ]
+}

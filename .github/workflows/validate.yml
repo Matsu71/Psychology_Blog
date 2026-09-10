@@ -1,0 +1,25 @@
+name: Validate topic database
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and export
+        run: python3 scripts/validate.py --export build
+      - name: Save portable topic database
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-blog-topic-database
+          path: build/
+          if-no-files-found: error
+          retention-days: 14

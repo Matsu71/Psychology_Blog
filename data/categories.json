@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "categories": [
+    {"id":"sleep","name_ja":"睡眠・体内時計","id_prefix":"SLP","file":"data/topics/01_sleep.json","topic_count":10,"scope_ja":"睡眠時間、光、カフェイン、不眠、睡眠行動。"},
+    {"id":"genetics","name_ja":"遺伝・環境・気質","id_prefix":"GEN","file":"data/topics/02_genetics.json","topic_count":10,"scope_ja":"行動遺伝学、遺伝率、双生児、遺伝子と環境の関係。"},
+    {"id":"addiction","name_ja":"依存・報酬・禁煙","id_prefix":"ADD","file":"data/topics/03_addiction.json","topic_count":10,"scope_ja":"ニコチン、離脱、欲求、再発、行動依存の概念。"},
+    {"id":"habits","name_ja":"習慣形成・行動変容","id_prefix":"HAB","file":"data/topics/04_habits.json","topic_count":10,"scope_ja":"反復、合図、自動性、実行計画、環境設計。"},
+    {"id":"personality","name_ja":"性格・自己理解","id_prefix":"PER","file":"data/topics/05_personality.json","topic_count":10,"scope_ja":"性格の測定、発達、自己評価と他者評価。遺伝的説明はgeneticsが主担当。"},
+    {"id":"motivation","name_ja":"動機づけ・先延ばし","id_prefix":"MOT","file":"data/topics/06_motivation.json","topic_count":10,"scope_ja":"着手、目標、内発的動機、完璧主義、失敗後の行動。"},
+    {"id":"learning","name_ja":"学習・記憶・勉強法","id_prefix":"LEA","file":"data/topics/07_learning.json","topic_count":10,"scope_ja":"記憶保持、復習、学習技法、理解の自己評価。"},
+    {"id":"attention","name_ja":"注意・集中・仕事の効率","id_prefix":"ATT","file":"data/topics/08_attention.json","topic_count":10,"scope_ja":"切り替え、中断、疲労、休憩、没頭。"},
+    {"id":"decisions","name_ja":"意思決定・認知バイアス","id_prefix":"DEC","file":"data/topics/09_decisions.json","topic_count":10,"scope_ja":"判断、選択、損得、リスクの見積もり。"},
+    {"id":"emotions","name_ja":"感情・ストレス対処","id_prefix":"EMO","file":"data/topics/10_emotions.json","topic_count":10,"scope_ja":"日常の感情調整、反すう、怒り、ストレス反応。治療はmental_healthが主担当。"},
+    {"id":"mental_health","name_ja":"メンタルヘルス・心理療法","id_prefix":"MEN","file":"data/topics/11_mental_health.json","topic_count":10,"scope_ja":"相談、心理療法、臨床的な介入と安全性。診断や個別治療は提供しない。"},
+    {"id":"relationships","name_ja":"対人関係・コミュニケーション","id_prefix":"REL","file":"data/topics/12_relationships.json","topic_count":10,"scope_ja":"支援、孤独、傾聴、愛着、対立、信頼。"},
+    {"id":"social","name_ja":"社会心理・集団・心理効果","id_prefix":"SOC","file":"data/topics/13_social.json","topic_count":10,"scope_ja":"規範、同調、援助、印象、集団での行動と追試。"},
+    {"id":"wellbeing","name_ja":"幸福・生活満足度","id_prefix":"WEL","file":"data/topics/14_wellbeing.json","topic_count":10,"scope_ja":"幸福の測定、感謝、比較、余暇、意味、自然。"},
+    {"id":"exercise","name_ja":"運動・身体活動・回復","id_prefix":"EXE","file":"data/topics/15_exercise.json","topic_count":10,"scope_ja":"運動と気分、認知、睡眠、継続、休息。"},
+    {"id":"nutrition","name_ja":"食行動・栄養・心身","id_prefix":"NUT","file":"data/topics/16_nutrition.json","topic_count":10,"scope_ja":"食欲、加工食品、食べ方、食事と気分、腸脳相関。"},
+    {"id":"development","name_ja":"発達・子育て・思春期","id_prefix":"DEV","file":"data/topics/17_development.json","topic_count":10,"scope_ja":"子どもの学習、感情、自己調整、家庭・学校の支援。"},
+    {"id":"aging","name_ja":"加齢・認知機能・介護","id_prefix":"AGE","file":"data/topics/18_aging.json","topic_count":10,"scope_ja":"加齢による変化、認知訓練、社会参加、介護者支援。"},
+    {"id":"digital","name_ja":"スマホ・SNS・デジタル生活","id_prefix":"DIG","file":"data/topics/19_digital.json","topic_count":10,"scope_ja":"サービスの使い方と生活・気分。注意の実験はattention、診断概念はaddictionも参照。"},
+    {"id":"research_literacy","name_ja":"研究の読み方・再現性","id_prefix":"RES","file":"data/topics/20_research_literacy.json","topic_count":10,"scope_ja":"因果、統計、効果量、追試、研究の質、訂正と更新。"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "wellbeing",
+  "topics": [
+    {"id":"PSY-WEL-001","title_ja":"幸福は『今の気分』と『人生への満足』で違う？","concepts_en":["experienced well being","life satisfaction"],"angle_ja":"幸福の測定方法が違うと研究結果もどう変わるかを調べる。","search_query":"experienced well being evaluative life satisfaction measurement review","priority":1,"source_ids":[],"caution_ja":"別の尺度で測った幸福を一つのランキングに安易に統合しない。"},
+    {"id":"PSY-WEL-002","title_ja":"よかったことを書き留める習慣は気分に役立つ？","concepts_en":["gratitude interventions","positive affect"],"angle_ja":"感謝の記録、頻度、比較条件、長期継続を調べる。","search_query":"gratitude journaling intervention well being randomized meta analysis","priority":1,"source_ids":["SRC014"],"caution_ja":"公的機関のセルフケア提案と効果量評価を分ける。つらい人に感謝を強要しない。"},
+    {"id":"PSY-WEL-003","title_ja":"よいことにも慣れる：快楽順応は避けられる？","concepts_en":["hedonic adaptation","savoring"],"angle_ja":"買い物や生活の変化への慣れと、味わう行動を研究する。","search_query":"hedonic adaptation positive events savoring intervention review","priority":1,"source_ids":[],"caution_ja":"重大な生活困難にも全員が完全適応するとしない。"},
+    {"id":"PSY-WEL-004","title_ja":"物を買うのと経験を買うのでは、満足度が違う？","concepts_en":["experiential purchases","material purchases"],"angle_ja":"共有、記憶、比較、収入の制約を含めて調べる。","search_query":"experiential material purchases happiness meta analysis socioeconomic","priority":2,"source_ids":[],"caution_ja":"必要な生活用品まで経験より劣ると扱わず、支出を一律に勧めない。"},
+    {"id":"PSY-WEL-005","title_ja":"お金が増えれば幸福も増える？","concepts_en":["income","subjective well being"],"angle_ja":"生活の安心、日々の気分、人生評価を分けて研究する。","search_query":"income emotional well being life satisfaction adversarial collaboration study","priority":1,"source_ids":[],"caution_ja":"過去の米国の金額を日本の現在の閾値に換算して断言しない。"},
+    {"id":"PSY-WEL-006","title_ja":"人のために何かすると、自分も幸福になる？","concepts_en":["prosocial behavior","well being"],"angle_ja":"小さな親切、ボランティア、寄付の違いを比較する。","search_query":"prosocial behavior kindness volunteering well being randomized meta analysis","priority":1,"source_ids":[],"caution_ja":"見返りの保証や無理な自己犠牲の正当化にしない。"},
+    {"id":"PSY-WEL-007","title_ja":"他人と比べるほど満足しにくくなる？","concepts_en":["social comparison","relative well being"],"angle_ja":"上方比較と下方比較、刺激になる場合と苦しくなる場合を調べる。","search_query":"social comparison upward downward subjective well being meta analysis","priority":1,"source_ids":[],"caution_ja":"すべての比較を悪いとせず、目的や本人の状況を確認する。"},
+    {"id":"PSY-WEL-008","title_ja":"人生の意味を感じることは健康と関係する？","concepts_en":["purpose in life","meaning in life"],"angle_ja":"役割、目標、日常の充実と長期的な健康の関連を調べる。","search_query":"purpose meaning life health mortality longitudinal meta analysis","priority":2,"source_ids":[],"caution_ja":"意味を見いだせない人を責めず、相関と介入効果を区別する。"},
+    {"id":"PSY-WEL-009","title_ja":"自由時間が多ければ多いほど幸せなのか？","concepts_en":["time affluence","discretionary time"],"angle_ja":"自由時間の量、選べる感覚、活動内容を分ける。","search_query":"discretionary time time affluence subjective well being study","priority":2,"source_ids":[],"caution_ja":"失業、介護、病気による時間の変化を自発的な余暇と一括りにしない。"},
+    {"id":"PSY-WEL-010","title_ja":"自然の中で過ごすと気分はよくなる？","concepts_en":["nature exposure","restoration"],"angle_ja":"緑地での活動、景色を見ること、運動や交流との違いを調べる。","search_query":"nature exposure green space mental well being randomized systematic review","priority":1,"source_ids":[],"caution_ja":"自然への接触と運動・休息の効果を分け、万能治療として紹介しない。"}
+  ]
+}

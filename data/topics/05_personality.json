@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "personality",
+  "topics": [
+    {"id":"PSY-PER-001","title_ja":"性格を5つの軸で見る：ビッグファイブは何を測る？","concepts_en":["Big Five","personality measurement"],"angle_ja":"性格を固定タイプではなく連続的な特徴として考える。","search_query":"Big Five personality measurement reliability validity cross cultural review","priority":1,"source_ids":[],"caution_ja":"診断や人の価値の順位付けにしない。尺度の信頼性と日本語版の妥当性を確認する。"},
+    {"id":"PSY-PER-002","title_ja":"大人になってから性格は変わる？","concepts_en":["personality change","lifespan development"],"angle_ja":"平均的な年齢変化、個人内変化、他人との順位の安定を分ける。","search_query":"adult personality trait change longitudinal meta analysis interventions","priority":1,"source_ids":[],"caution_ja":"集団平均の変化を個人の必然的な変化としない。"},
+    {"id":"PSY-PER-003","title_ja":"内向的な人は人付き合いで不利なのか？","concepts_en":["introversion extraversion","person environment fit"],"angle_ja":"刺激の好み、交流の量、疲れ、満足度を区別する。","search_query":"introversion extraversion social interaction well being experience sampling","priority":1,"source_ids":[],"caution_ja":"内向性と社交不安を同一視せず、外向的になることを一律に勧めない。"},
+    {"id":"PSY-PER-004","title_ja":"心配しやすい性格には長所もある？","concepts_en":["neuroticism","vigilance","health behavior"],"angle_ja":"不安傾向と備え、健康行動、日常の負担を調べる。","search_query":"neuroticism health behavior conscientiousness interaction longitudinal","priority":2,"source_ids":[],"caution_ja":"つらい症状を長所だから我慢すべきと扱わない。性格特性と疾患を分ける。"},
+    {"id":"PSY-PER-005","title_ja":"まじめさと健康・仕事の成果はどう関係する？","concepts_en":["conscientiousness","health and performance"],"angle_ja":"計画性、継続、生活条件がどう絡むかを調べる。","search_query":"conscientiousness health job performance longitudinal meta analysis","priority":2,"source_ids":[],"caution_ja":"相関を本人の努力だけの成果と解釈しない。経済条件や測定法を確認する。"},
+    {"id":"PSY-PER-006","title_ja":"自分の性格を、本人と周囲は同じように見ている？","concepts_en":["self other agreement","personality perception"],"angle_ja":"自己評価と他者評価が得意とする情報を比較する。","search_query":"self other agreement personality ratings meta analysis","priority":2,"source_ids":[],"caution_ja":"他人の評価を常に正解としない。関係性と観察できる状況の違いを扱う。"},
+    {"id":"PSY-PER-007","title_ja":"場面で性格が変わるのは『本当の自分』がないから？","concepts_en":["personality states","within person variability"],"angle_ja":"職場、家庭、友人関係での振る舞いの違いを研究する。","search_query":"personality states within person variability situations experience sampling","priority":2,"source_ids":[],"caution_ja":"状態と特性を分け、変化だけで病理や不誠実さを判断しない。"},
+    {"id":"PSY-PER-008","title_ja":"性格診断が『当たっている』と感じるのはなぜ？","concepts_en":["Barnum effect","Forer effect"],"angle_ja":"誰にでも当てはまる文章と、自分に合うと思う感覚を検討する。","search_query":"Barnum Forer effect personality feedback replication review","priority":1,"source_ids":[],"caution_ja":"すべての性格尺度が無意味という結論に飛躍しない。"},
+    {"id":"PSY-PER-009","title_ja":"『繊細な人』という言葉は研究ではどう扱われる？","concepts_en":["sensory processing sensitivity","differential susceptibility"],"angle_ja":"日常語、測定される特性、診断名の違いを整理する。","search_query":"sensory processing sensitivity differential susceptibility measurement review","priority":2,"source_ids":[],"caution_ja":"HSPというラベルだけで診断しない。研究上の尺度と商業的説明を分ける。"},
+    {"id":"PSY-PER-010","title_ja":"自信を高めることと、自分を受け入れることは同じ？","concepts_en":["self esteem","self compassion"],"angle_ja":"自己評価、失敗への反応、他者比較の違いを研究する。","search_query":"self esteem self compassion intervention meta analysis","priority":1,"source_ids":[],"caution_ja":"尺度間の重なりと自己報告の限界を確認し、自信の低さを責めない。"}
+  ]
+}

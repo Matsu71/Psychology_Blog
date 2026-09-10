@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "emotions",
+  "topics": [
+    {"id":"PSY-EMO-001","title_ja":"ストレスは全部悪いのか？短期反応と慢性的な負担","concepts_en":["acute stress","chronic stress"],"angle_ja":"状況、期間、回復の機会を分けてストレスを考える。","search_query":"acute chronic stress recovery human psychological physiological review","priority":1,"source_ids":["SRC028"],"caution_ja":"適度なストレスを口実に過重労働や苦痛を正当化しない。"},
+    {"id":"PSY-EMO-002","title_ja":"出来事の見方を変えると気分は変わる？","concepts_en":["cognitive reappraisal","emotion regulation"],"angle_ja":"意味の捉え直しと、無理な前向き思考の違いを扱う。","search_query":"cognitive reappraisal emotion regulation randomized meta analysis","priority":1,"source_ids":["SRC030"],"caution_ja":"基礎論文の個人差相関を治療効果に読み替えない。不当な扱いを我慢する方法にしない。"},
+    {"id":"PSY-EMO-003","title_ja":"感情を隠すことと、感情が落ち着くことは同じ？","concepts_en":["expressive suppression","emotional experience"],"angle_ja":"表情、内面の気分、対人関係の違いを調べる。","search_query":"expressive suppression emotion culture interpersonal functioning review","priority":1,"source_ids":["SRC030"],"caution_ja":"抑制を常に悪いと断言せず、文化と状況による適切さを確認する。"},
+    {"id":"PSY-EMO-004","title_ja":"考えて整理することと、考えすぎることはどう違う？","concepts_en":["rumination","reflective problem solving"],"angle_ja":"同じ考えが巡る状態と問題解決に進む状態を研究する。","search_query":"rumination reflection problem solving depression systematic review","priority":1,"source_ids":[],"caution_ja":"思考の多さだけで診断しない。生活への支障と背景を確認する。"},
+    {"id":"PSY-EMO-005","title_ja":"感情に名前をつけると落ち着ける？","concepts_en":["affect labeling","emotion differentiation"],"angle_ja":"『嫌な気分』を具体的に言葉にする練習の根拠を調べる。","search_query":"affect labeling emotion differentiation regulation experimental study","priority":2,"source_ids":[],"caution_ja":"脳活動の変化だけで日常の改善を証明したとしない。"},
+    {"id":"PSY-EMO-006","title_ja":"ゆっくり呼吸すると緊張は下がる？","concepts_en":["slow breathing","autonomic regulation"],"angle_ja":"呼吸の速度、主観的な不安、生理指標を分けて調べる。","search_query":"slow paced breathing stress anxiety randomized trial meta analysis","priority":1,"source_ids":["SRC028"],"caution_ja":"息止めや過換気を伴う危険な自己実践にしない。疾患やめまいへの注意を確認する。"},
+    {"id":"PSY-EMO-007","title_ja":"嫌な出来事を書き出すと気持ちは軽くなる？","concepts_en":["expressive writing","journaling"],"angle_ja":"日記と構造化された筆記介入、短期と長期の変化を分ける。","search_query":"expressive writing psychological health systematic review randomized trial","priority":1,"source_ids":["SRC028"],"caution_ja":"一般的な日記の提案と介入効果を混同しない。トラウマ体験の詳述を強要しない。"},
+    {"id":"PSY-EMO-008","title_ja":"怒りを発散すれば、怒りは収まる？","concepts_en":["anger venting","catharsis hypothesis"],"angle_ja":"愚痴、攻撃的行動、落ち着く活動を比較して調べる。","search_query":"anger venting catharsis arousal reducing activities meta analysis","priority":1,"source_ids":[],"caution_ja":"物や人への攻撃を対処法として勧めない。相談することと攻撃的発散を分ける。"},
+    {"id":"PSY-EMO-009","title_ja":"将来の幸福や後悔を、私たちは正しく予測できる？","concepts_en":["affective forecasting","impact bias"],"angle_ja":"買い物、仕事の選択、失敗の予測を研究する。","search_query":"affective forecasting impact bias adaptation meta analysis","priority":2,"source_ids":[],"caution_ja":"つらい出来事から全員すぐ回復できるという意味にしない。"},
+    {"id":"PSY-EMO-010","title_ja":"笑顔を作ると気分も変わる？表情フィードバックを検証する","concepts_en":["facial feedback hypothesis","replication"],"angle_ja":"有名な心理効果を、方法の違いと追試から検討する。","search_query":"facial feedback hypothesis registered replication meta analysis","priority":2,"source_ids":[],"caution_ja":"笑えばうつが治るといった医療的飛躍を避ける。追試の条件差を確認する。"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "decisions",
+  "topics": [
+    {"id":"PSY-DEC-001","title_ja":"なぜ自分の意見に合う情報ばかり集めてしまう？","concepts_en":["confirmation bias","selective exposure"],"angle_ja":"ニュースや買い物で、反対の証拠を探す工夫を検討する。","search_query":"confirmation bias selective exposure debiasing meta analysis","priority":1,"source_ids":[],"caution_ja":"意見が違う相手だけをバイアスのある人と決めつけない。"},
+    {"id":"PSY-DEC-002","title_ja":"最初に見た値段が判断の基準になる？","concepts_en":["anchoring effect","numeric judgment"],"angle_ja":"値札、交渉、見積もりで最初の数字の影響を調べる。","search_query":"anchoring numeric judgment consumer prices meta analysis replication","priority":1,"source_ids":[],"caution_ja":"実験内の効果を実際の全購入場面に一律適用しない。"},
+    {"id":"PSY-DEC-003","title_ja":"得する喜びより損する痛みが大きいのか？","concepts_en":["loss aversion","reference dependence"],"angle_ja":"同じ金額でも持っている状態や基準が違う場面を比較する。","search_query":"loss aversion reference dependence boundary conditions meta analysis","priority":1,"source_ids":[],"caution_ja":"損失の痛みは必ず利益の何倍という固定倍率にしない。"},
+    {"id":"PSY-DEC-004","title_ja":"もう払ったお金が、やめる判断を邪魔する？","concepts_en":["sunk cost effect","escalation of commitment"],"angle_ja":"合わない習い事、使わない契約、進行中の計画を例に調べる。","search_query":"sunk cost effect escalation commitment meta analysis decision making","priority":1,"source_ids":[],"caution_ja":"将来得られる便益まで無視すべきという話にしない。"},
+    {"id":"PSY-DEC-005","title_ja":"同じ内容でも言い方で選択は変わる？","concepts_en":["framing effect","risk communication"],"angle_ja":"成功率と失敗率など、表現形式と理解を比較する。","search_query":"framing effect risk communication absolute relative risk randomized study","priority":1,"source_ids":[],"caution_ja":"人を操る手法の指南ではなく、分母や絶対数の確認を中心にする。"},
+    {"id":"PSY-DEC-006","title_ja":"選択肢が多いほど選べなくなるのは本当？","concepts_en":["choice overload","decision difficulty"],"angle_ja":"商品の比較、知識、好みの明確さによる条件差を調べる。","search_query":"choice overload meta analysis moderators preference uncertainty","priority":1,"source_ids":[],"caution_ja":"有名な一実験だけで『選択肢は少ないほどよい』と一般化しない。"},
+    {"id":"PSY-DEC-007","title_ja":"未来の自分より今の自分を優先してしまうのはなぜ？","concepts_en":["present bias","delay discounting"],"angle_ja":"運動、学習、消費の選択を短期と長期の視点で研究する。","search_query":"present bias delay discounting health behavior systematic review","priority":1,"source_ids":[],"caution_ja":"経済的制約による合理的な短期選択を心理的欠陥と扱わない。"},
+    {"id":"PSY-DEC-008","title_ja":"『自分は大丈夫』と思うのはなぜ？","concepts_en":["optimism bias","risk perception"],"angle_ja":"健康リスクや締切予測を、自分と他人でどう見積もるか調べる。","search_query":"unrealistic optimism risk perception intervention systematic review","priority":2,"source_ids":[],"caution_ja":"希望を持つことと、リスクを過小評価することを区別する。"},
+    {"id":"PSY-DEC-009","title_ja":"ダニング＝クルーガー効果はどこまで本当？","concepts_en":["Dunning Kruger effect","metacognitive accuracy"],"angle_ja":"自信と成績の関係、統計的な見かけの説明を比較する。","search_query":"Dunning Kruger effect statistical artifacts metacognition replication","priority":2,"source_ids":[],"caution_ja":"他人を無知と断定するレッテルにせず、測定誤差と回帰効果を検討する。"},
+    {"id":"PSY-DEC-010","title_ja":"初期設定のままにするのはなぜ？デフォルト効果","concepts_en":["default effect","status quo bias"],"angle_ja":"通知設定、契約、選択画面で変更コストと意思表示を調べる。","search_query":"default effects choice architecture meta analysis opt in opt out","priority":1,"source_ids":[],"caution_ja":"効果と倫理を分け、撤回や変更のしやすさを扱う。"}
+  ]
+}

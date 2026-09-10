@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "learning",
+  "topics": [
+    {"id":"PSY-LEA-001","title_ja":"読み直すより思い出す練習：テスト効果を勉強に使うには？","concepts_en":["retrieval practice","testing effect"],"angle_ja":"資格学習や語学で、自分に問題を出す学習を調べる。","search_query":"retrieval practice testing effect educational meta analysis delayed retention","priority":1,"source_ids":["SRC027"],"caution_ja":"確認テストを成績評価や罰と混同しない。誤答の修正と学習材料を確認する。"},
+    {"id":"PSY-LEA-002","title_ja":"一夜漬けと分散学習、長く覚えられるのはどちら？","concepts_en":["distributed practice","spacing effect"],"angle_ja":"試験までの日数に応じた復習間隔の考え方を調べる。","search_query":"spacing effect distributed practice retention interval meta analysis","priority":1,"source_ids":["SRC027"],"caution_ja":"すべての教材に唯一の最適間隔があるとはしない。"},
+    {"id":"PSY-LEA-003","title_ja":"似た問題をまとめず、混ぜて解くと学びやすい？","concepts_en":["interleaved practice","discrimination learning"],"angle_ja":"数学、語学、技能で混合練習が向く条件を検討する。","search_query":"interleaving learning meta analysis task type similarity","priority":1,"source_ids":["SRC027"],"caution_ja":"2013年のレビューを現時点の最終評価にしない。教材と初心者への負荷を確認する。"},
+    {"id":"PSY-LEA-004","title_ja":"人に説明するつもりで学ぶと理解は深まる？","concepts_en":["self explanation","learning by teaching"],"angle_ja":"実際に説明することと、説明する予定だけの効果を比較する。","search_query":"self explanation learning by teaching meta analysis comprehension","priority":1,"source_ids":["SRC027"],"caution_ja":"自己説明の知見を他者への授業の効果にそのまま置き換えない。"},
+    {"id":"PSY-LEA-005","title_ja":"マーカーだらけのノートは勉強になる？","concepts_en":["highlighting","rereading"],"angle_ja":"やった気分と、後から思い出せることの違いを扱う。","search_query":"highlighting rereading learning effectiveness delayed tests review","priority":1,"source_ids":["SRC027"],"caution_ja":"マーカーや再読は一切無意味という二択にしない。目的と使い方を確認する。"},
+    {"id":"PSY-LEA-006","title_ja":"『なぜそうなる？』を自分に問う学習は役立つ？","concepts_en":["elaborative interrogation","prior knowledge"],"angle_ja":"丸暗記と理由づけを組み合わせる条件を調べる。","search_query":"elaborative interrogation prior knowledge learning review","priority":2,"source_ids":["SRC027"],"caution_ja":"知識が不足したまま誤った理由を作る可能性を扱う。"},
+    {"id":"PSY-LEA-007","title_ja":"『分かったつもり』はどうすれば見抜ける？","concepts_en":["metacognition","judgments of learning"],"angle_ja":"読みやすさや親しみと、実際の理解度のずれを調べる。","search_query":"metacognitive calibration judgments of learning fluency delayed tests","priority":1,"source_ids":[],"caution_ja":"自己評価のずれを能力の低さと断定しない。測定タイミングを区別する。"},
+    {"id":"PSY-LEA-008","title_ja":"視覚型・聴覚型に合わせて学ぶ方法には根拠がある？","concepts_en":["learning styles","meshing hypothesis"],"angle_ja":"好きな学び方と、学習成果を高める方法を区別する。","search_query":"learning styles meshing hypothesis systematic review randomized study","priority":1,"source_ids":[],"caution_ja":"学習スタイル説の検証と、障害に応じた合理的配慮を混同しない。"},
+    {"id":"PSY-LEA-009","title_ja":"間違えてから答えを見ることにも学習効果はある？","concepts_en":["errorful learning","corrective feedback"],"angle_ja":"練習中の誤り、訂正のタイミング、自信との関係を調べる。","search_query":"learning from errors corrective feedback timing retrieval practice","priority":1,"source_ids":[],"caution_ja":"誤答を放置してよいという意味にしない。安全が重要な技能は実地の失敗と分ける。"},
+    {"id":"PSY-LEA-010","title_ja":"覚えた後に眠ると記憶はどう変わる？","concepts_en":["sleep dependent memory consolidation","declarative procedural memory"],"angle_ja":"知識と技能で睡眠の役割が同じかを調べる。","search_query":"sleep memory consolidation declarative procedural randomized human review","priority":1,"source_ids":["SRC001"],"caution_ja":"睡眠の一般説明は入口にとどめ、寝るだけで未学習内容が身につくと表現しない。"}
+  ]
+}

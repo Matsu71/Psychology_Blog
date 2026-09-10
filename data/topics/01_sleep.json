@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "sleep",
+  "topics": [
+    {"id":"PSY-SLP-001","title_ja":"自分に必要な睡眠時間はどう見極める？","concepts_en":["sleep duration","individual differences"],"angle_ja":"年齢、日中の眠気、平日と休日の差から睡眠を考える記事。","search_query":"adult sleep duration individual differences daytime functioning systematic review","priority":1,"source_ids":["SRC001"],"caution_ja":"万人に同じ時間を保証しない。強い眠気やいびきは生活改善だけで扱わない。"},
+    {"id":"PSY-SLP-002","title_ja":"朝の光と夜の明るさは体内時計にどう関わる？","concepts_en":["circadian entrainment","light exposure"],"angle_ja":"在宅勤務や室内中心の生活で、光を浴びる時間帯を考える。","search_query":"humans morning evening light exposure circadian phase randomized trial","priority":1,"source_ids":["SRC003"],"caution_ja":"照度、波長、時刻を区別。光療法の自己処方や太陽の直視を勧めない。"},
+    {"id":"PSY-SLP-003","title_ja":"夜型は怠けなのか？クロノタイプと社会的時差","concepts_en":["chronotype","social jetlag"],"angle_ja":"本人の好みと学校・仕事の時刻のずれを整理する。","search_query":"chronotype social jetlag health behavior longitudinal human study","priority":1,"source_ids":["SRC003"],"caution_ja":"生活習慣、年齢、遺伝、勤務条件を分け、朝型の優劣論にしない。"},
+    {"id":"PSY-SLP-004","title_ja":"コーヒーは何時まで？カフェインと睡眠の個人差","concepts_en":["caffeine","sleep latency"],"angle_ja":"摂取量、時間、耐性、飲料ごとの違いを調べる。","search_query":"caffeine timing dose sleep randomized crossover trial adults","priority":1,"source_ids":["SRC002","SRC003"],"caution_ja":"万人に共通の締切時刻や安全量を推測して提示しない。"},
+    {"id":"PSY-SLP-005","title_ja":"寝酒で眠れるのに、睡眠の質は下がるのか？","concepts_en":["alcohol","sleep architecture"],"angle_ja":"寝つきと夜間の睡眠維持を別の指標として比較する。","search_query":"alcohol bedtime sleep architecture fragmentation systematic review humans","priority":1,"source_ids":["SRC002"],"caution_ja":"飲酒を睡眠法として勧めない。依存が疑われる場合の断酒は医療相談を前提にする。"},
+    {"id":"PSY-SLP-006","title_ja":"昼寝は味方か、夜の睡眠の敵か？","concepts_en":["napping","sleep inertia"],"angle_ja":"長さ、時間帯、起床直後のぼんやり感を整理する。","search_query":"daytime nap duration timing sleep inertia nocturnal sleep randomized trial","priority":1,"source_ids":["SRC002"],"caution_ja":"健常者と不眠症、交代勤務者を混同しない。運転前の安全性も確認する。"},
+    {"id":"PSY-SLP-007","title_ja":"休日の寝だめで平日の睡眠不足は取り戻せる？","concepts_en":["sleep debt","catch-up sleep"],"angle_ja":"眠気、認知成績、代謝、体内時計で回復の意味を分ける。","search_query":"weekend recovery sleep restriction cognitive metabolic randomized trial","priority":1,"source_ids":[],"caution_ja":"一つの指標の回復を全身の完全回復と表現しない。"},
+    {"id":"PSY-SLP-008","title_ja":"眠ろうと頑張るほど眠れないのはなぜ？","concepts_en":["sleep effort","cognitive behavioral therapy for insomnia"],"angle_ja":"睡眠への不安と不眠の悪循環、CBT-Iという治療の考え方を紹介する。","search_query":"insomnia sleep effort cognitive behavioral therapy systematic review adults","priority":1,"source_ids":["SRC002"],"caution_ja":"睡眠制限療法を自己流の睡眠削減として勧めない。治療部分は専門家確認が必要。"},
+    {"id":"PSY-SLP-009","title_ja":"眠いのに寝ない：就寝先延ばしはなぜ起きる？","concepts_en":["bedtime procrastination","self-regulation"],"angle_ja":"夜の自由時間、スマホ、仕事の制約と就寝行動を切り分ける。","search_query":"bedtime procrastination chronotype self regulation longitudinal intervention","priority":1,"source_ids":["SRC010"],"caution_ja":"初期研究は自己報告の相関研究。自己管理の弱さだけを原因にしない。"},
+    {"id":"PSY-SLP-010","title_ja":"睡眠アプリの点数はどこまで信じてよい？","concepts_en":["consumer sleep wearables","orthosomnia"],"angle_ja":"睡眠日誌、体感、機器の推定値の使い分けを調べる。","search_query":"consumer wearable sleep tracker validation polysomnography orthosomnia","priority":2,"source_ids":[],"caution_ja":"製品・世代ごとの精度を確認。機器の点数で診断や治療判断をしない。"}
+  ]
+}

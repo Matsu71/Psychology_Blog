@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "category_id": "motivation",
+  "topics": [
+    {"id":"PSY-MOT-001","title_ja":"先延ばしは時間管理の問題か、感情の問題か？","concepts_en":["procrastination","emotion regulation"],"angle_ja":"嫌な気分から逃れる行動と将来の負担を切り分ける。","search_query":"procrastination emotion regulation short term mood repair systematic review","priority":1,"source_ids":["SRC010"],"caution_ja":"就寝先延ばしの研究は一例。仕事や学業への一般化は追加文献で確認する。"},
+    {"id":"PSY-MOT-002","title_ja":"やる気が出るのを待つより、先に少し動くべき？","concepts_en":["action initiation","behavioral activation"],"angle_ja":"課題の分割、始めやすさ、気分の変化を調べる。","search_query":"task initiation graded tasks behavioral activation motivation randomized trial","priority":1,"source_ids":[],"caution_ja":"日常の行動開始と臨床的な行動活性化療法を同一視しない。"},
+    {"id":"PSY-MOT-003","title_ja":"自分で選んだ目標は、押し付けられた目標より続く？","concepts_en":["self determination theory","autonomous motivation"],"angle_ja":"自律性、得意になれる感覚、人とのつながりを調べる。","search_query":"self determination autonomous motivation behavior maintenance meta analysis","priority":1,"source_ids":[],"caution_ja":"自律性を支援の不要さと取り違えない。文化や制度による違いを確認する。"},
+    {"id":"PSY-MOT-004","title_ja":"目標は具体的で難しい方がよいのか？","concepts_en":["goal setting","learning versus performance goals"],"angle_ja":"学習中の課題と慣れた仕事で目標の置き方を比較する。","search_query":"goal setting difficult specific goals complex tasks meta analysis","priority":1,"source_ids":[],"caution_ja":"難しい目標が常に最適とはしない。不正や疲弊など副作用も調べる。"},
+    {"id":"PSY-MOT-005","title_ja":"成功を想像するだけで行動は増える？","concepts_en":["mental contrasting","positive fantasies"],"angle_ja":"理想像だけの想像と、障害・実行計画を組み合わせる方法を比較する。","search_query":"mental contrasting implementation intentions positive fantasies meta analysis","priority":2,"source_ids":["SRC026"],"caution_ja":"参照論文は実行意図の入口。想像法の比較は別途確認し、願えばかなうと表現しない。"},
+    {"id":"PSY-MOT-006","title_ja":"完璧にやろうとするほど着手できなくなる？","concepts_en":["perfectionism","procrastination"],"angle_ja":"高い基準と失敗への過剰な心配を分けて調べる。","search_query":"perfectionism concerns strivings procrastination meta analysis","priority":1,"source_ids":[],"caution_ja":"完璧主義を単一の特性として一律に悪者にしない。"},
+    {"id":"PSY-MOT-007","title_ja":"ご褒美をもらうと好きなことまで嫌になる？","concepts_en":["overjustification","intrinsic motivation"],"angle_ja":"報酬の予告、評価の伝え方、もともとの関心を区別する。","search_query":"extrinsic rewards intrinsic motivation undermining meta analysis","priority":2,"source_ids":[],"caution_ja":"『褒めるとやる気が消える』という極端な一般化を避ける。"},
+    {"id":"PSY-MOT-008","title_ja":"成長マインドセットは誰に、どんな場面で役立つ？","concepts_en":["growth mindset","heterogeneous treatment effects"],"angle_ja":"能力観を変える介入の条件と実生活での限界を調べる。","search_query":"growth mindset intervention achievement randomized trial meta analysis heterogeneity","priority":2,"source_ids":[],"caution_ja":"信じるだけで能力が上がるとしない。効果の大きさと支援環境を確認する。"},
+    {"id":"PSY-MOT-009","title_ja":"失敗したとき、自分に厳しい方が再挑戦できる？","concepts_en":["self compassion","motivation after failure"],"angle_ja":"自己批判、責任の引き受け、再挑戦の行動を分ける。","search_query":"self compassion failure motivation self improvement experimental study","priority":1,"source_ids":[],"caution_ja":"短期の実験課題から長期の人生成果を保証しない。"},
+    {"id":"PSY-MOT-010","title_ja":"新年や月曜日にやる気が出る『フレッシュスタート』は続く？","concepts_en":["fresh start effect","temporal landmarks"],"angle_ja":"節目で始める行動と、その後の維持を分けて考える。","search_query":"fresh start effect temporal landmarks goal pursuit replication field study","priority":2,"source_ids":[],"caution_ja":"開始率の増加を継続率の改善と混同しない。"}
+  ]
+}
