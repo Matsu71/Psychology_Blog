@@ -1,0 +1,89 @@
+name: Finish reviewed learning delivery
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/finish-reviewed-learning-20260911.yml'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+jobs:
+  finish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the staged delivery and preserve existing article identities
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          target=Path('research/reviewed_deliveries/learning-20260911')
+          if not target.is_dir() or not list(target.rglob('*.json')):
+              raise SystemExit('The referenced learning delivery is not present in this checkout. No manuscript or completion status will be invented.')
+          for name in ['scripts/apply_reviewed_delivery.py','scripts/validate_reviewed_delivery.py','scripts/reconcile_article_progress.py']:
+              if not Path(name).is_file():
+                  raise SystemExit('Missing required integration tool: '+name)
+          rows=json.loads(Path('data/articles/catalog.json').read_text())['articles']
+          Path('/tmp/article-identities.json').write_text(json.dumps([(r['topic_id'],r['title_ja']) for r in rows],ensure_ascii=False))
+          PY
+      - name: Apply prepared manuscripts and validate without relaxing checks
+        run: |
+          python3 scripts/apply_reviewed_delivery.py
+          python3 scripts/reconcile_article_progress.py
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+          python3 scripts/validate_reviewed_delivery.py
+          python3 scripts/reconcile_article_progress.py --check
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          before=json.loads(Path('/tmp/article-identities.json').read_text())
+          rows=json.loads(Path('data/articles/catalog.json').read_text())['articles']
+          assert before==[[r['topic_id'],r['title_ja']] for r in rows], 'Canonical topic IDs or ordering changed'
+          for row in rows:
+              if row.get('manuscript_path'):
+                  path=Path(row['manuscript_path'])
+                  assert path.is_file()
+                  assert hashlib.sha256(path.read_bytes()).hexdigest()==row['manuscript_sha256']
+          PY
+      - name: Push only validated content and confirm remote head
+        run: |
+          before=$(git rev-parse HEAD)
+          test "$before" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent main update; no overwrite.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md
+          if [ -d articles ]; then git add articles; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: integrate checked learning revisions and reconcile delivery progress'
+            git push origin HEAD:main
+          fi
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)"
+          mkdir -p reviewed-learning-export
+          git rev-parse HEAD > reviewed-learning-export/pushed_commit.txt
+          git fetch --depth=1 origin main
+          git show origin/main:data/articles/progress.json > reviewed-learning-export/remote_progress.json
+          cmp data/articles/progress.json reviewed-learning-export/remote_progress.json
+          echo 'Remote main commit and progress bytes verified. This is not scientific approval or completion of 300 articles.' > reviewed-learning-export/push_verification.txt
+      - name: Export diagnostics without raw paper text
+        if: always()
+        run: |
+          mkdir -p reviewed-learning-export
+          git archive --format=zip --output=reviewed-learning-export/repository.zip HEAD
+          git rev-parse HEAD > reviewed-learning-export/checkout_commit.txt
+          git status --short > reviewed-learning-export/uncommitted_status.txt
+          git diff > reviewed-learning-export/uncommitted.patch
+          if [ -f data/articles/progress.json ]; then cp data/articles/progress.json reviewed-learning-export/progress.json; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-reviewed-learning-final-check
+          path: reviewed-learning-export/
+          retention-days: 14
+          if-no-files-found: error
