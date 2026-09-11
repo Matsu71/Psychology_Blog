@@ -1,0 +1,119 @@
+name: Deliver continuation expansion 20260911b
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/continuation-expansion-20260911b.yml'
+      - 'scripts/build_expansion_20260911b.py'
+      - 'research/continuation_20260911b/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep catalog counts idempotent
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build_expansion_20260911b.py')
+          text=p.read_text()
+          changes=[
+            ("if row.get('authoring_batch') == BATCH:\n                    continue", "if row.get('authoring_batch') == BATCH:\n                    product['catalog_disposition'] = 'canonical_manuscript_and_claim_dossier_added'\n                    continue"),
+            ("progress['manuscript_count'] = baseline_progress['manuscript_count'] + added", "progress['manuscript_count'] = sum(bool(r.get(manuscript_key)) and (ROOT / r[manuscript_key]).is_file() for r in rows)"),
+            ("progress['claim_dossier_count'] = baseline_progress['claim_dossier_count'] + added", "progress['claim_dossier_count'] = sum(bool(r.get(claim_key)) and (ROOT / r[claim_key]).is_file() for r in rows)"),
+            ("result['validation'] = validation", "result['validation'] = [{'script': r['script'], 'returncode': r['returncode']} for r in validation]"),
+            ("canonical_manuscripts_added=added", "canonical_manuscripts_added=sum(p.get('catalog_disposition') == 'canonical_manuscript_and_claim_dossier_added' for p in products)")
+          ]
+          for old,new in changes:
+            if old in text:
+              assert text.count(old)==1,old
+              text=text.replace(old,new)
+            elif new not in text:
+              raise SystemExit('Builder changed; reconcile instead of applying a guessed patch.')
+          p.write_text(text)
+          PY
+          python3 -m py_compile scripts/build_expansion_20260911b.py
+      - name: Render authored prose and claim dossiers
+        run: python3 scripts/build_expansion_20260911b.py
+      - name: Validate references, hashes, protected records and readiness labels
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 - <<'PY'
+          import json,hashlib,subprocess
+          from pathlib import Path
+          manifest=Path('data/articles/batches/continuation-20260911b/manifest.json')
+          report=json.loads(manifest.read_text())
+          assert report['publication_ready_count']==0 and report['goal_completed'] is False
+          assert report['authored_manuscripts']==report['claim_dossiers']
+          assert len({a['topic_id'] for a in report['articles']})==report['authored_manuscripts']
+          for article in report['articles']:
+            assert hashlib.sha256(Path(article['draft_path']).read_bytes()).hexdigest()==article['manuscript_sha256']
+            assert hashlib.sha256(Path(article['claim_path']).read_bytes()).hexdigest()==article['claim_sha256']
+            assert article['publication_ready'] is False
+          old_inputs=['data/sources.json','data/categories.json']+[str(p) for p in Path('data/topics').glob('*.json')]
+          for name in old_inputs:
+            assert subprocess.check_output(['git','show','HEAD:'+name])==Path(name).read_bytes(),name
+          print('PASS: authored articles, source resolution, hashes, protected records, no publication-ready inflation.')
+          if report['canonical_integration']['completed']:
+            print('Canonical catalog integration passed existing validators.')
+          else:
+            print('Draft package saved; canonical integration pending:', report['canonical_integration']['reason'])
+          PY
+      - name: Add a visible manuscript index without hiding existing progress
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          m=json.loads(Path('data/articles/batches/continuation-20260911b/manifest.json').read_text())
+          p=Path('README.md');text=p.read_text()
+          title='## 継続執筆 2026-09-11B'
+          if title in text:text=text.split(title)[0].rstrip()+'\n'
+          if m['canonical_integration']['completed']:
+            count=m['canonical_integration']['manuscript_count'];d=m['canonical_integration']['claim_dossier_count']
+            text=re.sub(r'本文\d+件',f'本文{count}件',text)
+            text=re.sub(r'主張対応表\d+件',f'主張対応表{d}件',text)
+            status=f'正本カタログへの統合は検証通過。現在の本文は{count}件、根拠表は{d}件です。'
+          else:status='この追加原稿群は別管理の下書きとして保存しています。既存カタログの件数にはまだ含めません。'
+          text+='\n'+title+'\n\n'+f"新たな本文{m['authored_manuscripts']}件と根拠表を追加しました。"+status+'\n\n[原稿一覧と次の確認](docs/CONTINUATION_20260911B.md)\n\n公開承認や300記事の完成とは区別しています。\n'
+          p.write_text(text)
+          PY
+      - name: Commit verified data without force push
+        run: |
+          original=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$original" = "$remote" || { echo 'Concurrent update; refusing overwrite.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles data/articles docs/CONTINUATION_20260911B.md README.md scripts/build_expansion_20260911b.py
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: add research-linked continuation manuscripts and validated source dossiers'
+            git push origin HEAD:main
+          fi
+      - name: Preserve remote-ready work and diagnostics
+        if: always()
+        run: |
+          mkdir -p continuation-export
+          git archive --format=zip --output=continuation-export/repository.zip HEAD
+          git rev-parse HEAD > continuation-export/source_commit.txt
+          git status --short > continuation-export/uncommitted_status.txt
+          git diff > continuation-export/uncommitted.patch
+          if [ -f data/articles/batches/continuation-20260911b/manifest.json ]; then cp data/articles/batches/continuation-20260911b/manifest.json continuation-export/manifest.json; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-continuation-expansion-20260911b
+          path: continuation-export/
+          retention-days: 14
+          if-no-files-found: error
