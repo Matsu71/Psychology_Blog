@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "category_id": "language",
+  "topics": [
+    {
+      "id": "PSY-LAN-001",
+      "title_ja": "大人になってから外国語を学ぶのは遅い？",
+      "concepts_en": [
+        "second language acquisition",
+        "age of acquisition"
+      ],
+      "angle_ja": "成人の語学学習で発音、文法、実用会話の目標を分ける。",
+      "search_query": "second language acquisition age of acquisition systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC051",
+        "SRC092"
+      ],
+      "caution_ja": "母語話者並みと実用能力を混同せず、年齢で学習を諦めさせない。",
+      "related_topic_ids": [
+        "PSY-LEA-002",
+        "PSY-AGE-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "成人の語学学習で発音、文法、実用会話の目標を分ける。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-16719566",
+        "RB-29729947"
+      ]
+    },
+    {
+      "id": "PSY-LAN-002",
+      "title_ja": "二つの言語を話すと認知能力が高くなる？",
+      "concepts_en": [
+        "bilingualism",
+        "executive function"
+      ],
+      "angle_ja": "語学の実用的価値と脳への付加的な効果を分ける。",
+      "search_query": "bilingualism executive function systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC091"
+      ],
+      "caution_ja": "出版バイアスと交絡を確認し、認知症予防を保証しない。",
+      "related_topic_ids": [
+        "PSY-AGE-002",
+        "PSY-LEA-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "語学の実用的価値と脳への付加的な効果を分ける。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-29494195"
+      ]
+    },
+    {
+      "id": "PSY-LAN-003",
+      "title_ja": "外国語で考えると判断や感情は変わる？",
+      "concepts_en": [
+        "foreign language effect",
+        "decision bias"
+      ],
+      "angle_ja": "日本語と学習中の言語で選択を考える場面を比較する。",
+      "search_query": "foreign language effect decision bias systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "言語能力や課題の理解度を統制し、外国語なら常に合理的としない。",
+      "related_topic_ids": [
+        "PSY-DEC-005",
+        "PSY-EMO-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "日本語と学習中の言語で選択を考える場面を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-004",
+      "title_ja": "頭の中で言葉を使って考える量は人によって違う？",
+      "concepts_en": [
+        "inner speech",
+        "individual differences"
+      ],
+      "angle_ja": "頭の中の独り言が多い人と少ない人の経験を扱う。",
+      "search_query": "inner speech individual differences systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "内的経験の自己申告を単純な能力差や診断に結びつけない。",
+      "related_topic_ids": [
+        "PSY-PER-007",
+        "PSY-LEA-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "頭の中の独り言が多い人と少ない人の経験を扱う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-005",
+      "title_ja": "身ぶりを使って説明すると理解や記憶は変わる？",
+      "concepts_en": [
+        "gesture learning",
+        "embodied communication"
+      ],
+      "angle_ja": "道順や手順を言葉だけでなく動作でも説明する。",
+      "search_query": "gesture learning embodied communication systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "身ぶりの種類や視覚障害などの条件に応じて扱う。",
+      "related_topic_ids": [
+        "PSY-LEA-004",
+        "PSY-DEV-006"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "道順や手順を言葉だけでなく動作でも説明する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-006",
+      "title_ja": "話し方や訛りだけで信頼性を判断してしまう？",
+      "concepts_en": [
+        "accent bias",
+        "credibility judgments"
+      ],
+      "angle_ja": "内容が同じ説明でも話し方で印象が変わるか考える。",
+      "search_query": "accent bias credibility judgments systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "アクセントを能力や誠実さの指標として正当化しない。",
+      "related_topic_ids": [
+        "PSY-SOC-004",
+        "PSY-SOC-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "内容が同じ説明でも話し方で印象が変わるか考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-007",
+      "title_ja": "文字のメッセージはなぜ冷たく受け取られる？",
+      "concepts_en": [
+        "email tone miscommunication",
+        "perspective taking"
+      ],
+      "angle_ja": "短い返事が不機嫌なのか、単に忙しいのか迷う。",
+      "search_query": "email tone miscommunication perspective taking systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "文化、世代、相手との関係を確認し、特定の記号を万能な解決策にしない。",
+      "related_topic_ids": [
+        "PSY-REL-010",
+        "PSY-DIG-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "短い返事が不機嫌なのか、単に忙しいのか迷う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-008",
+      "title_ja": "話が上手いより質問が上手い方が好かれる？",
+      "concepts_en": [
+        "question asking",
+        "interpersonal liking"
+      ],
+      "angle_ja": "自分の話を増やすか、相手への追質問を増やすかを考える。",
+      "search_query": "question asking interpersonal liking systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC093",
+        "SRC094"
+      ],
+      "caution_ja": "尋問やプライバシー侵害を勧めず、相互性を重視する。",
+      "related_topic_ids": [
+        "PSY-REL-004",
+        "PSY-REL-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "自分の話を増やすか、相手への追質問を増やすかを考える。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-28447835"
+      ]
+    },
+    {
+      "id": "PSY-LAN-009",
+      "title_ja": "知らない人との短い会話は気分を変える？",
+      "concepts_en": [
+        "weak ties",
+        "conversation with strangers"
+      ],
+      "angle_ja": "店員や同じ場にいる人との短いやり取りを研究する。",
+      "search_query": "weak ties conversation with strangers systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "会話の強制をせず、相手の安全感と応じない権利を尊重する。",
+      "related_topic_ids": [
+        "PSY-REL-001",
+        "PSY-REL-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "店員や同じ場にいる人との短いやり取りを研究する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-010",
+      "title_ja": "説明が伝わったか確かめるには、分かりましたかで十分？",
+      "concepts_en": [
+        "teach back",
+        "communication comprehension"
+      ],
+      "angle_ja": "相手の言葉で手順を説明してもらい、伝え方を見直す。",
+      "search_query": "teach back communication comprehension systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "相手を試験するのではなく説明者の伝え方を確認する方法として扱う。",
+      "related_topic_ids": [
+        "PSY-LEA-004",
+        "PSY-LEA-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "相手の言葉で手順を説明してもらい、伝え方を見直す。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-011",
+      "title_ja": "自分への言葉を少し他人行儀にすると落ち着ける？",
+      "concepts_en": [
+        "distanced self talk",
+        "emotion regulation"
+      ],
+      "angle_ja": "失敗した自分に第三者へ話すように声をかける。",
+      "search_query": "distanced self talk emotion regulation systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "短期の感情調整と治療効果を区別する。",
+      "related_topic_ids": [
+        "PSY-EMO-002",
+        "PSY-MOT-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "失敗した自分に第三者へ話すように声をかける。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LAN-012",
+      "title_ja": "数字より一人の体験談が心に残るのはなぜ？",
+      "concepts_en": [
+        "narrative persuasion",
+        "anecdotal evidence"
+      ],
+      "angle_ja": "健康商品の体験談と比較試験のどちらを信じるか考える。",
+      "search_query": "narrative persuasion anecdotal evidence systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "体験談を研究の代替にせず、例の鮮明さと典型性を分ける。",
+      "related_topic_ids": [
+        "PSY-RES-001",
+        "PSY-DEC-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "健康商品の体験談と比較試験のどちらを信じるか考える。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

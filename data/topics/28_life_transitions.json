@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0",
+  "category_id": "life_transitions",
+  "topics": [
+    {
+      "id": "PSY-LIF-001",
+      "title_ja": "悲しみは決まった順番で乗り越えるもの？",
+      "concepts_en": [
+        "grief trajectories",
+        "bereavement adaptation"
+      ],
+      "angle_ja": "大切な人を失った後、周囲と回復の速さが違うと感じる。",
+      "search_query": "grief trajectories bereavement adaptation systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC086",
+        "SRC089"
+      ],
+      "caution_ja": "全員が同じ段階を通るとしない。長く続く支障と相談の必要性を扱う。",
+      "related_topic_ids": [
+        "PSY-MEN-001",
+        "PSY-EMO-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "大切な人を失った後、周囲と回復の速さが違うと感じる。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-14736317",
+        "RB-27276373"
+      ]
+    },
+    {
+      "id": "PSY-LIF-002",
+      "title_ja": "失業がつらいのは収入が減るからだけ？",
+      "concepts_en": [
+        "unemployment",
+        "mental health identity"
+      ],
+      "angle_ja": "生活のリズム、役割、人との接点が同時に変わる。",
+      "search_query": "unemployment mental health identity systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC088"
+      ],
+      "caution_ja": "職のない人を本人の努力不足と扱わず、逆因果と支援制度を区別する。",
+      "related_topic_ids": [
+        "PSY-WEL-008",
+        "PSY-MON-006"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "生活のリズム、役割、人との接点が同時に変わる。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-24121465"
+      ]
+    },
+    {
+      "id": "PSY-LIF-003",
+      "title_ja": "退職すると心身は楽になるのか、張り合いがなくなるのか？",
+      "concepts_en": [
+        "retirement transition",
+        "health trajectories"
+      ],
+      "angle_ja": "仕事を離れた後の睡眠、交流、活動を考える。",
+      "search_query": "retirement transition health trajectories systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC090"
+      ],
+      "caution_ja": "自発的退職、健康上の退職、経済状況で結果が異なることを確認する。",
+      "related_topic_ids": [
+        "PSY-AGE-006",
+        "PSY-WEL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "仕事を離れた後の睡眠、交流、活動を考える。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-19897238"
+      ]
+    },
+    {
+      "id": "PSY-LIF-004",
+      "title_ja": "引っ越しで生活満足度や人間関係はどう変わる？",
+      "concepts_en": [
+        "residential relocation",
+        "social networks"
+      ],
+      "angle_ja": "便利な家への移転と、なじみの関係を離れる負担を比較する。",
+      "search_query": "residential relocation social networks systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "習慣の変更ではなく生活満足と関係再構築を扱う。",
+      "related_topic_ids": [
+        "PSY-HAB-009",
+        "PSY-REL-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "便利な家への移転と、なじみの関係を離れる負担を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LIF-005",
+      "title_ja": "子どもが独立した後の寂しさにはどんな個人差がある？",
+      "concepts_en": [
+        "empty nest",
+        "parental well being"
+      ],
+      "angle_ja": "子ども中心の生活から自分の時間を作り直す。",
+      "search_query": "empty nest parental well being systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "空の巣という言葉で全親を病理化しない。",
+      "related_topic_ids": [
+        "PSY-DEV-010",
+        "PSY-WEL-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "子ども中心の生活から自分の時間を作り直す。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LIF-006",
+      "title_ja": "別れた後、振り返ることと考え続けることはどう違う？",
+      "concepts_en": [
+        "relationship breakup",
+        "rumination recovery"
+      ],
+      "angle_ja": "別れを整理する時間と、同じ確認を繰り返す時間を分ける。",
+      "search_query": "relationship breakup rumination recovery systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "回復の期限を示さず、連絡や復縁を強制しない。",
+      "related_topic_ids": [
+        "PSY-EMO-004",
+        "PSY-REL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "別れを整理する時間と、同じ確認を繰り返す時間を分ける。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LIF-007",
+      "title_ja": "家族の病気で先の喪失を心配する気持ちをどう理解する？",
+      "concepts_en": [
+        "anticipatory grief",
+        "caregiving uncertainty"
+      ],
+      "angle_ja": "今の生活を支えながら将来の別れも考えてしまう。",
+      "search_query": "anticipatory grief caregiving uncertainty systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC089"
+      ],
+      "caution_ja": "悲しみを不適切な反応とせず、専門的・社会的支援を優先する。",
+      "related_topic_ids": [
+        "PSY-AGE-008",
+        "PSY-MEN-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "今の生活を支えながら将来の別れも考えてしまう。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-27276373"
+      ]
+    },
+    {
+      "id": "PSY-LIF-008",
+      "title_ja": "ストレス対処は一つの得意技より使い分けが大切？",
+      "concepts_en": [
+        "coping flexibility",
+        "controllability"
+      ],
+      "angle_ja": "変えられる問題には働きかけ、変えにくい状況では支えを探す。",
+      "search_query": "coping flexibility controllability systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC056"
+      ],
+      "caution_ja": "分類だけで適切な対処を断定せず、本人の安全と選択肢を確認する。",
+      "related_topic_ids": [
+        "PSY-EMO-002",
+        "PSY-MOT-004"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "変えられる問題には働きかけ、変えにくい状況では支えを探す。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-22582737"
+      ]
+    },
+    {
+      "id": "PSY-LIF-009",
+      "title_ja": "つらい経験をすると必ず成長できる？",
+      "concepts_en": [
+        "posttraumatic growth",
+        "perceived actual change"
+      ],
+      "angle_ja": "前向きな意味を見つけることを周囲から期待される場面を扱う。",
+      "search_query": "posttraumatic growth perceived actual change systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC086"
+      ],
+      "caution_ja": "苦難を美化せず、主観的成長と測定された変化を区別する。",
+      "related_topic_ids": [
+        "PSY-WEL-008",
+        "PSY-RES-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "前向きな意味を見つけることを周囲から期待される場面を扱う。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-14736317"
+      ]
+    },
+    {
+      "id": "PSY-LIF-010",
+      "title_ja": "孤独を減らすには、会う人を増やすだけで十分？",
+      "concepts_en": [
+        "loneliness interventions",
+        "social cognition"
+      ],
+      "angle_ja": "交流機会はあるのに孤独を感じる場合の支援を調べる。",
+      "search_query": "loneliness interventions social cognition systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC064",
+        "SRC087"
+      ],
+      "caution_ja": "連絡先の数だけを処方せず、介入の種類と研究の質を確認する。",
+      "related_topic_ids": [
+        "PSY-REL-002",
+        "PSY-REL-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "交流機会はあるのに孤独を感じる場合の支援を調べる。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-25910392",
+        "RB-20716644"
+      ]
+    },
+    {
+      "id": "PSY-LIF-011",
+      "title_ja": "病気やけがで以前のようにできなくなったとき、目標をどう変える？",
+      "concepts_en": [
+        "goal adjustment",
+        "chronic illness adaptation"
+      ],
+      "angle_ja": "諦めることと、今できる目標に切り替えることを区別する。",
+      "search_query": "goal adjustment chronic illness adaptation systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "医学的なリハビリや治療を中断する助言にしない。",
+      "related_topic_ids": [
+        "PSY-MOT-004",
+        "PSY-EXE-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "諦めることと、今できる目標に切り替えることを区別する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-LIF-012",
+      "title_ja": "新しい学校や職場で自分だけ浮いていると感じるのはなぜ？",
+      "concepts_en": [
+        "belonging uncertainty",
+        "social transition"
+      ],
+      "angle_ja": "入学や転職直後の気まずさを、相性の悪さと決めつけない。",
+      "search_query": "belonging uncertainty social transition systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "実際の差別や排除を単なる思い込みとして片づけない。",
+      "related_topic_ids": [
+        "PSY-SOC-006",
+        "PSY-REL-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "入学や転職直後の気まずさを、相性の悪さと決めつけない。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

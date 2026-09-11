@@ -2,15 +2,175 @@
   "schema_version": "1.0",
   "category_id": "habits",
   "topics": [
-    {"id":"PSY-HAB-001","title_ja":"習慣は21日で身につく？必要な期間の個人差","concepts_en":["habit formation","automaticity"],"angle_ja":"行動や人によって形成の速度が違うという問いを扱う。","search_query":"habit formation automaticity real world duration longitudinal replication","priority":1,"source_ids":["SRC009"],"caution_ja":"一研究の平均やモデル推定値を万人共通の締切にしない。"},
-    {"id":"PSY-HAB-002","title_ja":"続けたい行動には『いつ・どこで』を決めるべき？","concepts_en":["context dependent repetition","habit cues"],"angle_ja":"歯磨き後や通勤前など、既存の文脈と新しい行動の接続を調べる。","search_query":"context stability repetition habit formation health behavior intervention","priority":1,"source_ids":["SRC009"],"caution_ja":"観察的な習慣形成研究から特定の手順の有効性を断言しない。"},
-    {"id":"PSY-HAB-003","title_ja":"一日サボると習慣はリセットされる？","concepts_en":["habit formation missed opportunity","behavior maintenance"],"angle_ja":"連続記録が途切れた後の立て直しを考える。","search_query":"habit formation missing one day lapse behavior maintenance","priority":1,"source_ids":["SRC009"],"caution_ja":"一回の欠落と長期中断を同じに扱わない。結論の対象行動を確認する。"},
-    {"id":"PSY-HAB-004","title_ja":"『毎日やっている』と『習慣になった』は違う？","concepts_en":["habit automaticity measurement","behavior frequency"],"angle_ja":"回数、意識的努力、自動性を測る指標を比較する。","search_query":"habit automaticity behavior frequency self report habit index validity","priority":2,"source_ids":["SRC009"],"caution_ja":"自己申告の自動性だけで行動の原因を確定しない。"},
-    {"id":"PSY-HAB-005","title_ja":"『もしXならYする』は行動を助ける？","concepts_en":["implementation intentions","if then planning"],"angle_ja":"運動、勉強、通院などで条件付き計画を検討する。","search_query":"implementation intentions if then planning health behavior meta analysis","priority":1,"source_ids":["SRC026"],"caution_ja":"書誌情報は確認したが効果量は未評価。行動の難度や実行機会の有無を確認する。"},
-    {"id":"PSY-HAB-006","title_ja":"やる気を増やすより、始める手間を減らす方がよい？","concepts_en":["behavioral friction","environmental restructuring"],"angle_ja":"道具の配置や選択肢の見え方と行動を調べる。","search_query":"behavioral friction environmental restructuring physical activity intervention","priority":1,"source_ids":[],"caution_ja":"対象行動と介入内容を明確にし、万能のライフハックにしない。"},
-    {"id":"PSY-HAB-007","title_ja":"記録をつけるだけで行動は変わる？","concepts_en":["self monitoring","behavior change techniques"],"angle_ja":"歩数、学習、睡眠などの記録とフィードバックの働きを分ける。","search_query":"self monitoring feedback behavior change randomized trial systematic review","priority":1,"source_ids":[],"caution_ja":"記録、目標設定、指導が同時にある研究で記録だけの効果としない。"},
-    {"id":"PSY-HAB-008","title_ja":"行動にご褒美をつけると、続くのか続かなくなるのか？","concepts_en":["incentives","maintenance after reward withdrawal"],"angle_ja":"報酬がある期間と、終了した後の継続を比較する。","search_query":"financial incentives health behavior maintenance after withdrawal systematic review","priority":2,"source_ids":[],"caution_ja":"報酬の種類・頻度・本人の動機を区別し、報酬は必ず悪いとも良いとも言わない。"},
-    {"id":"PSY-HAB-009","title_ja":"引っ越しや転職は悪い習慣を変えるチャンス？","concepts_en":["habit discontinuity","context change"],"angle_ja":"生活の節目と既存の合図の変化を調べる。","search_query":"habit discontinuity relocation context change behavior intervention","priority":2,"source_ids":[],"caution_ja":"節目にはストレスや制約も変わる。引っ越し自体を解決策として勧めない。"},
-    {"id":"PSY-HAB-010","title_ja":"自分を縛る仕組みは先延ばしを減らす？","concepts_en":["commitment devices","precommitment"],"angle_ja":"予約、締切、使いすぎ防止設定などの事前決定を比較する。","search_query":"commitment devices precommitment procrastination health behavior randomized trial","priority":2,"source_ids":[],"caution_ja":"金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。"}
+    {
+      "id": "PSY-HAB-001",
+      "title_ja": "習慣は21日で身につく？必要な期間の個人差",
+      "concepts_en": [
+        "habit formation",
+        "automaticity"
+      ],
+      "angle_ja": "行動や人によって形成の速度が違うという問いを扱う。",
+      "search_query": "habit formation automaticity real world duration longitudinal replication",
+      "priority": 1,
+      "source_ids": [
+        "SRC009",
+        "SRC039"
+      ],
+      "caution_ja": "一研究の平均やモデル推定値を万人共通の締切にしない。",
+      "research_brief_ids": [
+        "RB-39685110"
+      ]
+    },
+    {
+      "id": "PSY-HAB-002",
+      "title_ja": "続けたい行動には『いつ・どこで』を決めるべき？",
+      "concepts_en": [
+        "context dependent repetition",
+        "habit cues"
+      ],
+      "angle_ja": "歯磨き後や通勤前など、既存の文脈と新しい行動の接続を調べる。",
+      "search_query": "context stability repetition habit formation health behavior intervention",
+      "priority": 1,
+      "source_ids": [
+        "SRC009",
+        "SRC039"
+      ],
+      "caution_ja": "観察的な習慣形成研究から特定の手順の有効性を断言しない。",
+      "research_brief_ids": [
+        "RB-39685110"
+      ]
+    },
+    {
+      "id": "PSY-HAB-003",
+      "title_ja": "一日サボると習慣はリセットされる？",
+      "concepts_en": [
+        "habit formation missed opportunity",
+        "behavior maintenance"
+      ],
+      "angle_ja": "連続記録が途切れた後の立て直しを考える。",
+      "search_query": "habit formation missing one day lapse behavior maintenance",
+      "priority": 1,
+      "source_ids": [
+        "SRC009",
+        "SRC039"
+      ],
+      "caution_ja": "一回の欠落と長期中断を同じに扱わない。結論の対象行動を確認する。",
+      "research_brief_ids": [
+        "RB-39685110"
+      ]
+    },
+    {
+      "id": "PSY-HAB-004",
+      "title_ja": "『毎日やっている』と『習慣になった』は違う？",
+      "concepts_en": [
+        "habit automaticity measurement",
+        "behavior frequency"
+      ],
+      "angle_ja": "回数、意識的努力、自動性を測る指標を比較する。",
+      "search_query": "habit automaticity behavior frequency self report habit index validity",
+      "priority": 2,
+      "source_ids": [
+        "SRC009",
+        "SRC039"
+      ],
+      "caution_ja": "自己申告の自動性だけで行動の原因を確定しない。",
+      "research_brief_ids": [
+        "RB-39685110"
+      ]
+    },
+    {
+      "id": "PSY-HAB-005",
+      "title_ja": "『もしXならYする』は行動を助ける？",
+      "concepts_en": [
+        "implementation intentions",
+        "if then planning"
+      ],
+      "angle_ja": "運動、勉強、通院などで条件付き計画を検討する。",
+      "search_query": "implementation intentions if then planning health behavior meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC026",
+        "SRC098"
+      ],
+      "caution_ja": "書誌情報は確認したが効果量は未評価。行動の難度や実行機会の有無を確認する。",
+      "research_brief_ids": [
+        "RB-34054628"
+      ]
+    },
+    {
+      "id": "PSY-HAB-006",
+      "title_ja": "やる気を増やすより、始める手間を減らす方がよい？",
+      "concepts_en": [
+        "behavioral friction",
+        "environmental restructuring"
+      ],
+      "angle_ja": "道具の配置や選択肢の見え方と行動を調べる。",
+      "search_query": "behavioral friction environmental restructuring physical activity intervention",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "対象行動と介入内容を明確にし、万能のライフハックにしない。"
+    },
+    {
+      "id": "PSY-HAB-007",
+      "title_ja": "記録をつけるだけで行動は変わる？",
+      "concepts_en": [
+        "self monitoring",
+        "behavior change techniques"
+      ],
+      "angle_ja": "歩数、学習、睡眠などの記録とフィードバックの働きを分ける。",
+      "search_query": "self monitoring feedback behavior change randomized trial systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC045"
+      ],
+      "caution_ja": "記録、目標設定、指導が同時にある研究で記録だけの効果としない。",
+      "research_brief_ids": [
+        "RB-26479070"
+      ]
+    },
+    {
+      "id": "PSY-HAB-008",
+      "title_ja": "行動にご褒美をつけると、続くのか続かなくなるのか？",
+      "concepts_en": [
+        "incentives",
+        "maintenance after reward withdrawal"
+      ],
+      "angle_ja": "報酬がある期間と、終了した後の継続を比較する。",
+      "search_query": "financial incentives health behavior maintenance after withdrawal systematic review",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "報酬の種類・頻度・本人の動機を区別し、報酬は必ず悪いとも良いとも言わない。"
+    },
+    {
+      "id": "PSY-HAB-009",
+      "title_ja": "引っ越しや転職は悪い習慣を変えるチャンス？",
+      "concepts_en": [
+        "habit discontinuity",
+        "context change"
+      ],
+      "angle_ja": "生活の節目と既存の合図の変化を調べる。",
+      "search_query": "habit discontinuity relocation context change behavior intervention",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "節目にはストレスや制約も変わる。引っ越し自体を解決策として勧めない。"
+    },
+    {
+      "id": "PSY-HAB-010",
+      "title_ja": "自分を縛る仕組みは先延ばしを減らす？",
+      "concepts_en": [
+        "commitment devices",
+        "precommitment"
+      ],
+      "angle_ja": "予約、締切、使いすぎ防止設定などの事前決定を比較する。",
+      "search_query": "commitment devices precommitment procrastination health behavior randomized trial",
+      "priority": 2,
+      "source_ids": [
+        "SRC045"
+      ],
+      "caution_ja": "金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。",
+      "research_brief_ids": [
+        "RB-26479070"
+      ]
+    }
   ]
 }

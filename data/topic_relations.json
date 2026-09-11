@@ -1,0 +1,940 @@
+{
+  "schema_version": "1.0",
+  "relations": [
+    {
+      "from_topic_id": "PSY-WRK-001",
+      "to_topic_id": "PSY-ATT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-001",
+      "to_topic_id": "PSY-PER-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-002",
+      "to_topic_id": "PSY-EMO-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-002",
+      "to_topic_id": "PSY-MEN-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-003",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-003",
+      "to_topic_id": "PSY-SOC-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-004",
+      "to_topic_id": "PSY-WEL-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-004",
+      "to_topic_id": "PSY-MEN-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-005",
+      "to_topic_id": "PSY-EMO-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-006",
+      "to_topic_id": "PSY-PER-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-006",
+      "to_topic_id": "PSY-MOT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-007",
+      "to_topic_id": "PSY-PER-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-007",
+      "to_topic_id": "PSY-PER-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-008",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-008",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-009",
+      "to_topic_id": "PSY-ATT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-009",
+      "to_topic_id": "PSY-ATT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-010",
+      "to_topic_id": "PSY-ATT-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-010",
+      "to_topic_id": "PSY-DIG-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-011",
+      "to_topic_id": "PSY-PER-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-011",
+      "to_topic_id": "PSY-MOT-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-012",
+      "to_topic_id": "PSY-MOT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-012",
+      "to_topic_id": "PSY-MEN-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-013",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-013",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-014",
+      "to_topic_id": "PSY-REL-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-WRK-014",
+      "to_topic_id": "PSY-REL-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-001",
+      "to_topic_id": "PSY-WEL-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-001",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-002",
+      "to_topic_id": "PSY-DEC-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-003",
+      "to_topic_id": "PSY-DEC-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-004",
+      "to_topic_id": "PSY-DEC-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-005",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-005",
+      "to_topic_id": "PSY-MOT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-006",
+      "to_topic_id": "PSY-ATT-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-006",
+      "to_topic_id": "PSY-EMO-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-007",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-008",
+      "to_topic_id": "PSY-DEC-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-008",
+      "to_topic_id": "PSY-DEC-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-009",
+      "to_topic_id": "PSY-DIG-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-009",
+      "to_topic_id": "PSY-DEC-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-010",
+      "to_topic_id": "PSY-DEC-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-011",
+      "to_topic_id": "PSY-DEC-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-012",
+      "to_topic_id": "PSY-DEC-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-012",
+      "to_topic_id": "PSY-WEL-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-013",
+      "to_topic_id": "PSY-REL-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-013",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-014",
+      "to_topic_id": "PSY-SLP-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-014",
+      "to_topic_id": "PSY-MEN-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-001",
+      "to_topic_id": "PSY-REL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-001",
+      "to_topic_id": "PSY-PER-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-002",
+      "to_topic_id": "PSY-WEL-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-002",
+      "to_topic_id": "PSY-REL-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-003",
+      "to_topic_id": "PSY-WEL-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-004",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-005",
+      "to_topic_id": "PSY-REL-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-005",
+      "to_topic_id": "PSY-REL-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-006",
+      "to_topic_id": "PSY-WRK-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-006",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-007",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-007",
+      "to_topic_id": "PSY-EMO-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-008",
+      "to_topic_id": "PSY-DIG-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-008",
+      "to_topic_id": "PSY-REL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-009",
+      "to_topic_id": "PSY-PER-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-009",
+      "to_topic_id": "PSY-REL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-010",
+      "to_topic_id": "PSY-REL-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-010",
+      "to_topic_id": "PSY-WEL-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-011",
+      "to_topic_id": "PSY-DEV-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-011",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-012",
+      "to_topic_id": "PSY-MOT-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-INT-012",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-001",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-001",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-002",
+      "to_topic_id": "PSY-SLP-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-002",
+      "to_topic_id": "PSY-MEN-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-003",
+      "to_topic_id": "PSY-NUT-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-003",
+      "to_topic_id": "PSY-MEN-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-004",
+      "to_topic_id": "PSY-EMO-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-004",
+      "to_topic_id": "PSY-MEN-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-005",
+      "to_topic_id": "PSY-WEL-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-005",
+      "to_topic_id": "PSY-DIG-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-006",
+      "to_topic_id": "PSY-PER-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-006",
+      "to_topic_id": "PSY-NUT-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-007",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-007",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-008",
+      "to_topic_id": "PSY-MEN-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-009",
+      "to_topic_id": "PSY-DIG-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-009",
+      "to_topic_id": "PSY-MEN-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-010",
+      "to_topic_id": "PSY-DEC-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-010",
+      "to_topic_id": "PSY-HAB-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-011",
+      "to_topic_id": "PSY-HAB-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-011",
+      "to_topic_id": "PSY-AGE-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-012",
+      "to_topic_id": "PSY-DEC-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-HPS-012",
+      "to_topic_id": "PSY-RES-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-001",
+      "to_topic_id": "PSY-ATT-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-002",
+      "to_topic_id": "PSY-ATT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-002",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-003",
+      "to_topic_id": "PSY-SLP-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-003",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-004",
+      "to_topic_id": "PSY-ATT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-004",
+      "to_topic_id": "PSY-SOC-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-005",
+      "to_topic_id": "PSY-WEL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-006",
+      "to_topic_id": "PSY-ATT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-007",
+      "to_topic_id": "PSY-LEA-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-008",
+      "to_topic_id": "PSY-SLP-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-009",
+      "to_topic_id": "PSY-REL-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-009",
+      "to_topic_id": "PSY-MEN-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-010",
+      "to_topic_id": "PSY-RES-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-011",
+      "to_topic_id": "PSY-EMO-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-011",
+      "to_topic_id": "PSY-PER-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-012",
+      "to_topic_id": "PSY-ATT-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-ENV-012",
+      "to_topic_id": "PSY-WEL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-001",
+      "to_topic_id": "PSY-ATT-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-001",
+      "to_topic_id": "PSY-EXE-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-002",
+      "to_topic_id": "PSY-LEA-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-002",
+      "to_topic_id": "PSY-MOT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-003",
+      "to_topic_id": "PSY-DIG-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-003",
+      "to_topic_id": "PSY-ATT-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-004",
+      "to_topic_id": "PSY-WEL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-004",
+      "to_topic_id": "PSY-WEL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-005",
+      "to_topic_id": "PSY-ATT-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-006",
+      "to_topic_id": "PSY-DEC-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-006",
+      "to_topic_id": "PSY-ATT-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-007",
+      "to_topic_id": "PSY-ATT-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-007",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-008",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-008",
+      "to_topic_id": "PSY-MOT-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-009",
+      "to_topic_id": "PSY-EMO-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-009",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-010",
+      "to_topic_id": "PSY-REL-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-010",
+      "to_topic_id": "PSY-WEL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-011",
+      "to_topic_id": "PSY-MOT-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-012",
+      "to_topic_id": "PSY-SOC-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-CRE-012",
+      "to_topic_id": "PSY-SOC-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-001",
+      "to_topic_id": "PSY-LEA-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-001",
+      "to_topic_id": "PSY-AGE-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-002",
+      "to_topic_id": "PSY-AGE-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-002",
+      "to_topic_id": "PSY-LEA-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-003",
+      "to_topic_id": "PSY-DEC-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-003",
+      "to_topic_id": "PSY-EMO-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-004",
+      "to_topic_id": "PSY-PER-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-004",
+      "to_topic_id": "PSY-LEA-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-005",
+      "to_topic_id": "PSY-LEA-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-005",
+      "to_topic_id": "PSY-DEV-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-006",
+      "to_topic_id": "PSY-SOC-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-006",
+      "to_topic_id": "PSY-SOC-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-007",
+      "to_topic_id": "PSY-REL-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-007",
+      "to_topic_id": "PSY-DIG-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-008",
+      "to_topic_id": "PSY-REL-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-008",
+      "to_topic_id": "PSY-REL-005",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-009",
+      "to_topic_id": "PSY-REL-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-009",
+      "to_topic_id": "PSY-REL-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-010",
+      "to_topic_id": "PSY-LEA-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-010",
+      "to_topic_id": "PSY-LEA-007",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-011",
+      "to_topic_id": "PSY-EMO-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-011",
+      "to_topic_id": "PSY-MOT-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-012",
+      "to_topic_id": "PSY-RES-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LAN-012",
+      "to_topic_id": "PSY-DEC-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-001",
+      "to_topic_id": "PSY-MEN-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-001",
+      "to_topic_id": "PSY-EMO-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-002",
+      "to_topic_id": "PSY-WEL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-002",
+      "to_topic_id": "PSY-MON-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-003",
+      "to_topic_id": "PSY-AGE-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-003",
+      "to_topic_id": "PSY-WEL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-004",
+      "to_topic_id": "PSY-HAB-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-004",
+      "to_topic_id": "PSY-REL-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-005",
+      "to_topic_id": "PSY-DEV-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-005",
+      "to_topic_id": "PSY-WEL-009",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-006",
+      "to_topic_id": "PSY-EMO-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-006",
+      "to_topic_id": "PSY-REL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-007",
+      "to_topic_id": "PSY-AGE-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-007",
+      "to_topic_id": "PSY-MEN-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-008",
+      "to_topic_id": "PSY-EMO-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-008",
+      "to_topic_id": "PSY-MOT-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-009",
+      "to_topic_id": "PSY-WEL-008",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-009",
+      "to_topic_id": "PSY-RES-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-010",
+      "to_topic_id": "PSY-REL-002",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-010",
+      "to_topic_id": "PSY-REL-003",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-011",
+      "to_topic_id": "PSY-MOT-004",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-011",
+      "to_topic_id": "PSY-EXE-010",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-012",
+      "to_topic_id": "PSY-SOC-006",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-LIF-012",
+      "to_topic_id": "PSY-REL-001",
+      "relation": "related_question"
+    },
+    {
+      "from_topic_id": "PSY-MON-008",
+      "to_topic_id": "PSY-DEC-010",
+      "relation": "application_of"
+    },
+    {
+      "from_topic_id": "PSY-MON-008",
+      "to_topic_id": "PSY-DEC-004",
+      "relation": "application_of"
+    },
+    {
+      "from_topic_id": "PSY-HPS-012",
+      "to_topic_id": "PSY-DEC-005",
+      "relation": "application_of"
+    },
+    {
+      "from_topic_id": "PSY-HPS-012",
+      "to_topic_id": "PSY-RES-003",
+      "relation": "application_of"
+    },
+    {
+      "from_topic_id": "PSY-CRE-005",
+      "to_topic_id": "PSY-ATT-006",
+      "relation": "application_of"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "category_id": "creativity",
+  "topics": [
+    {
+      "id": "PSY-CRE-001",
+      "title_ja": "歩きながら考えるとアイデアは出やすくなる？",
+      "concepts_en": [
+        "walking",
+        "divergent thinking"
+      ],
+      "angle_ja": "机で詰まった企画を短い散歩中に考える。",
+      "search_query": "walking divergent thinking systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC083"
+      ],
+      "caution_ja": "発散課題の成績を全種類の仕事の質に一般化しない。",
+      "related_topic_ids": [
+        "PSY-ATT-006",
+        "PSY-EXE-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "机で詰まった企画を短い散歩中に考える。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-24749966"
+      ]
+    },
+    {
+      "id": "PSY-CRE-002",
+      "title_ja": "知りたいと思ったことは覚えやすい？",
+      "concepts_en": [
+        "curiosity",
+        "memory encoding"
+      ],
+      "angle_ja": "先に疑問を作ってから解説を読む学び方を研究する。",
+      "search_query": "curiosity memory encoding systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC084"
+      ],
+      "caution_ja": "興味を感じる内容だけ学べばよいとせず、実験課題の範囲を示す。",
+      "related_topic_ids": [
+        "PSY-LEA-001",
+        "PSY-MOT-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "先に疑問を作ってから解説を読む学び方を研究する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-25284006"
+      ]
+    },
+    {
+      "id": "PSY-CRE-003",
+      "title_ja": "退屈を避けて動画を次々替えると、もっと退屈になる？",
+      "concepts_en": [
+        "digital switching",
+        "boredom"
+      ],
+      "angle_ja": "動画がつまらないたびに飛ばし続ける行動を扱う。",
+      "search_query": "digital switching boredom systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "短期実験と長期の依存症を混同しない。",
+      "related_topic_ids": [
+        "PSY-DIG-006",
+        "PSY-ATT-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "動画がつまらないたびに飛ばし続ける行動を扱う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-004",
+      "title_ja": "壮大な景色や音楽で圧倒される感覚には意味がある？",
+      "concepts_en": [
+        "awe",
+        "small self"
+      ],
+      "angle_ja": "日常の外で驚きや畏敬を感じる経験を研究する。",
+      "search_query": "awe small self systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC070",
+        "SRC085"
+      ],
+      "caution_ja": "特定の旅行や高額な体験を必要条件にしない。",
+      "related_topic_ids": [
+        "PSY-WEL-010",
+        "PSY-WEL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "日常の外で驚きや畏敬を感じる経験を研究する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-31197192",
+        "RB-32955293"
+      ]
+    },
+    {
+      "id": "PSY-CRE-005",
+      "title_ja": "行き詰まった問題をいったん離れると解ける？",
+      "concepts_en": [
+        "incubation",
+        "creative problem solving"
+      ],
+      "angle_ja": "解けない問題を置き、別の軽い作業の後に戻る。",
+      "search_query": "incubation creative problem solving systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "注意の逸脱一般ではなく、休止後の問題解決を扱う派生テーマとする。",
+      "related_topic_ids": [
+        "PSY-ATT-006"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "解けない問題を置き、別の軽い作業の後に戻る。",
+        "observed_in_a_study": false
+      },
+      "parent_topic_ids": [
+        "PSY-ATT-006"
+      ]
+    },
+    {
+      "id": "PSY-CRE-006",
+      "title_ja": "アイデアを多く出す力と、よい案を選ぶ力は同じ？",
+      "concepts_en": [
+        "divergent convergent thinking",
+        "creative evaluation"
+      ],
+      "angle_ja": "企画会議で案を増やす段階と絞る段階を分ける。",
+      "search_query": "divergent convergent thinking creative evaluation systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC083"
+      ],
+      "caution_ja": "創造性を単一のテスト点数で決めつけない。",
+      "related_topic_ids": [
+        "PSY-DEC-006",
+        "PSY-ATT-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "企画会議で案を増やす段階と絞る段階を分ける。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-24749966"
+      ]
+    },
+    {
+      "id": "PSY-CRE-007",
+      "title_ja": "楽器や歌を趣味にすることは心の健康に関係する？",
+      "concepts_en": [
+        "music making",
+        "well being"
+      ],
+      "angle_ja": "音楽を聴くだけの場合と自分で演奏する場合を比較する。",
+      "search_query": "music making well being systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "趣味の効果と専門家による音楽療法を区別する。",
+      "related_topic_ids": [
+        "PSY-ATT-005",
+        "PSY-WEL-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "音楽を聴くだけの場合と自分で演奏する場合を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-008",
+      "title_ja": "大人が遊ぶ時間にはどんな価値がある？",
+      "concepts_en": [
+        "adult playfulness",
+        "play well being"
+      ],
+      "angle_ja": "成果や上達だけを目的にせず遊ぶ時間を考える。",
+      "search_query": "adult playfulness play well being systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "遊びの定義と自己選択を確認し、時間や金銭の余裕を無視しない。",
+      "related_topic_ids": [
+        "PSY-WEL-009",
+        "PSY-MOT-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "成果や上達だけを目的にせず遊ぶ時間を考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-009",
+      "title_ja": "笑いで気分を切り替える方法には向き不向きがある？",
+      "concepts_en": [
+        "humor styles",
+        "coping"
+      ],
+      "angle_ja": "自分を励ます冗談と自虐や相手を傷つける冗談を分ける。",
+      "search_query": "humor styles coping systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "ハラスメントを冗談で正当化せず、文化や文脈を確認する。",
+      "related_topic_ids": [
+        "PSY-EMO-002",
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "自分を励ます冗談と自虐や相手を傷つける冗談を分ける。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-010",
+      "title_ja": "懐かしさを感じると孤独や不安は変わる？",
+      "concepts_en": [
+        "nostalgia",
+        "social connectedness"
+      ],
+      "angle_ja": "昔の音楽や写真を見る時間の感情を調べる。",
+      "search_query": "nostalgia social connectedness systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "よい思い出だけとは限らず、悲嘆や苦痛への個人差を扱う。",
+      "related_topic_ids": [
+        "PSY-REL-002",
+        "PSY-WEL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "昔の音楽や写真を見る時間の感情を調べる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-011",
+      "title_ja": "制約がある方がアイデアを出しやすい？",
+      "concepts_en": [
+        "creative constraints",
+        "innovation"
+      ],
+      "angle_ja": "自由に考える場合と予算や材料を決めた場合を比較する。",
+      "search_query": "creative constraints innovation systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "過剰な締切や労働負担を創造性のためと正当化しない。",
+      "related_topic_ids": [
+        "PSY-MOT-004"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "自由に考える場合と予算や材料を決めた場合を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-CRE-012",
+      "title_ja": "皆で話すより、先に一人で案を書く方がよい？",
+      "concepts_en": [
+        "brainstorming",
+        "brainwriting production blocking"
+      ],
+      "angle_ja": "会議前に各自が案を書き、その後に共有する方法を調べる。",
+      "search_query": "brainstorming brainwriting production blocking systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "発案数と案の質を分け、チームの熟練度や発言しやすさを確認する。",
+      "related_topic_ids": [
+        "PSY-SOC-002",
+        "PSY-SOC-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "会議前に各自が案を書き、その後に共有する方法を調べる。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

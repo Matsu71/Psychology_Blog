@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "category_id": "environment",
+  "topics": [
+    {
+      "id": "PSY-ENV-001",
+      "title_ja": "暑い部屋では考える力や集中は変わる？",
+      "concepts_en": [
+        "heat exposure",
+        "cognitive performance"
+      ],
+      "angle_ja": "冷房の有無で勉強や仕事のしやすさが違うと感じる。",
+      "search_query": "heat exposure cognitive performance systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC081"
+      ],
+      "caution_ja": "熱中症の危険な自己実験を勧めず、温度以外の条件も確認する。",
+      "related_topic_ids": [
+        "PSY-ATT-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "冷房の有無で勉強や仕事のしやすさが違うと感じる。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-29990359"
+      ]
+    },
+    {
+      "id": "PSY-ENV-002",
+      "title_ja": "換気の悪い会議室では判断が鈍る？",
+      "concepts_en": [
+        "indoor air quality",
+        "ventilation cognition"
+      ],
+      "angle_ja": "午後の会議で眠くなる原因を空気、睡眠、会議内容に分ける。",
+      "search_query": "indoor air quality ventilation cognition systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC082"
+      ],
+      "caution_ja": "CO2をすべての汚染の代用にせず、実験条件から安全基準を作らない。",
+      "related_topic_ids": [
+        "PSY-ATT-001",
+        "PSY-SLP-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "午後の会議で眠くなる原因を空気、睡眠、会議内容に分ける。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-26502459"
+      ]
+    },
+    {
+      "id": "PSY-ENV-003",
+      "title_ja": "慣れた騒音でも睡眠やストレスに影響する？",
+      "concepts_en": [
+        "environmental noise",
+        "sleep disturbance"
+      ],
+      "angle_ja": "交通音を気にしなくなったことと、体への影響を分けて考える。",
+      "search_query": "environmental noise sleep disturbance systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "主観的な慣れと生理反応を区別。騒音の大きさ・時刻を確認する。",
+      "related_topic_ids": [
+        "PSY-SLP-001",
+        "PSY-EMO-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "交通音を気にしなくなったことと、体への影響を分けて考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-004",
+      "title_ja": "オープンなオフィスは会話を増やし集中を妨げる？",
+      "concepts_en": [
+        "open plan office",
+        "privacy distraction"
+      ],
+      "angle_ja": "隣の会話が聞こえる席と静かな席を仕事の種類で使い分ける。",
+      "search_query": "open plan office privacy distraction systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "全職場に同じ配置を推奨せず、交流の実測と自己報告を区別する。",
+      "related_topic_ids": [
+        "PSY-ATT-003",
+        "PSY-SOC-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "隣の会話が聞こえる席と静かな席を仕事の種類で使い分ける。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-005",
+      "title_ja": "近所に緑が増えると住民の気分は変わる？",
+      "concepts_en": [
+        "urban greening",
+        "neighborhood mental health"
+      ],
+      "angle_ja": "散歩の好みだけでなく住む場所の環境整備を考える。",
+      "search_query": "urban greening neighborhood mental health systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC070",
+        "SRC079",
+        "SRC080"
+      ],
+      "caution_ja": "特定都市の介入を全地域に一般化せず、緑以外の整備効果も扱う。",
+      "related_topic_ids": [
+        "PSY-WEL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "散歩の好みだけでなく住む場所の環境整備を考える。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-31197192",
+        "RB-30646029"
+      ]
+    },
+    {
+      "id": "PSY-ENV-006",
+      "title_ja": "散らかった部屋は本当に集中を妨げる？",
+      "concepts_en": [
+        "visual clutter",
+        "attention environment"
+      ],
+      "angle_ja": "机の上の物を減らすと作業しやすいかを研究する。",
+      "search_query": "visual clutter attention environment systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "片づけの価値観や住環境を道徳的に評価せず、研究条件を確認する。",
+      "related_topic_ids": [
+        "PSY-ATT-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "机の上の物を減らすと作業しやすいかを研究する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-007",
+      "title_ja": "においで昔の記憶がよみがえるのはなぜ？",
+      "concepts_en": [
+        "odor evoked autobiographical memory",
+        "emotion"
+      ],
+      "angle_ja": "昔使っていた香りで当時の場所や気分を思い出す。",
+      "search_query": "odor evoked autobiographical memory emotion systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "鮮明な記憶を正確な記憶と同一視しない。",
+      "related_topic_ids": [
+        "PSY-LEA-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "昔使っていた香りで当時の場所や気分を思い出す。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-008",
+      "title_ja": "窓のある部屋や日中の明るさは生活にどう関わる？",
+      "concepts_en": [
+        "daylight exposure",
+        "workplace well being"
+      ],
+      "angle_ja": "日中ずっと室内にいる生活で明るさと過ごし方を考える。",
+      "search_query": "daylight exposure workplace well being systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC041"
+      ],
+      "caution_ja": "窓、景色、日照、照度を分け、光療法の自己処方にしない。",
+      "related_topic_ids": [
+        "PSY-SLP-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "日中ずっと室内にいる生活で明るさと過ごし方を考える。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-35298459"
+      ]
+    },
+    {
+      "id": "PSY-ENV-009",
+      "title_ja": "安心できる触れ合いはストレスや痛みに関係する？",
+      "concepts_en": [
+        "touch interventions",
+        "affective touch"
+      ],
+      "angle_ja": "手を握る、マッサージを受けるなど本人が望む接触を研究する。",
+      "search_query": "touch interventions affective touch systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC078"
+      ],
+      "caution_ja": "同意と接触への好みを優先し、嫌な接触を健康のためと強制しない。",
+      "related_topic_ids": [
+        "PSY-REL-003",
+        "PSY-MEN-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "手を握る、マッサージを受けるなど本人が望む接触を研究する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-38589702"
+      ]
+    },
+    {
+      "id": "PSY-ENV-010",
+      "title_ja": "部屋の色だけで集中力や気分は変えられる？",
+      "concepts_en": [
+        "color psychology",
+        "contextual effects"
+      ],
+      "angle_ja": "勉強部屋を青くすれば集中できるという主張を検証する。",
+      "search_query": "color psychology contextual effects systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "色の万能効果をうたわず、明るさ・文化・期待の交絡を確認する。",
+      "related_topic_ids": [
+        "PSY-RES-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "勉強部屋を青くすれば集中できるという主張を検証する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-011",
+      "title_ja": "混雑した場所が疲れるのはなぜ？",
+      "concepts_en": [
+        "crowding",
+        "personal space"
+      ],
+      "angle_ja": "満員電車や混んだ店で同じ時間でも疲労が違う。",
+      "search_query": "crowding personal space systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "人の多さだけでなく選択可能性や安全感を考慮する。",
+      "related_topic_ids": [
+        "PSY-EMO-001",
+        "PSY-PER-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "満員電車や混んだ店で同じ時間でも疲労が違う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-ENV-012",
+      "title_ja": "自然の音を流すとリラックスできる？",
+      "concepts_en": [
+        "natural soundscapes",
+        "stress recovery"
+      ],
+      "angle_ja": "作業中の環境音や就寝前の音を比較する。",
+      "search_query": "natural soundscapes stress recovery systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "好み、音量、対照条件を区別し、音源だけで治療効果を保証しない。",
+      "related_topic_ids": [
+        "PSY-ATT-005",
+        "PSY-WEL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "作業中の環境音や就寝前の音を比較する。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

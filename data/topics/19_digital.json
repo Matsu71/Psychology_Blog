@@ -2,15 +2,156 @@
   "schema_version": "1.0",
   "category_id": "digital",
   "topics": [
-    {"id":"PSY-DIG-001","title_ja":"SNSを使うと幸福度が下がる、はどこまで本当？","concepts_en":["social media well being","bidirectional effects"],"angle_ja":"利用前後の気分、生活状況、個人差を調べる。","search_query":"social media use well being longitudinal randomized meta analysis","priority":1,"source_ids":["SRC012"],"caution_ja":"2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。"},
-    {"id":"PSY-DIG-002","title_ja":"SNSは見るだけと交流する使い方で違う？","concepts_en":["active passive social media use","social interaction"],"angle_ja":"時間だけでなく、相手、内容、目的を分けて研究する。","search_query":"active passive social media use well being meta analysis","priority":1,"source_ids":[],"caution_ja":"見るだけは必ず悪いという単純な二分類にせず、測定方法を確認する。"},
-    {"id":"PSY-DIG-003","title_ja":"不安なニュースを見続けてしまうのはなぜ？","concepts_en":["doomscrolling","negative news consumption"],"angle_ja":"不確実さを減らしたい行動と、不安の循環を調べる。","search_query":"doomscrolling negative news anxiety longitudinal study","priority":1,"source_ids":[],"caution_ja":"新しい概念の尺度や因果性は未確立な場合がある。情報確認の必要性と区別する。"},
-    {"id":"PSY-DIG-004","title_ja":"デジタルデトックスは気分や生活を改善する？","concepts_en":["digital detox","social media reduction"],"angle_ja":"完全停止、時間制限、使い方の変更を比較する。","search_query":"digital detox social media abstinence reduction randomized systematic review","priority":1,"source_ids":[],"caution_ja":"短期の利用制限を長期の解決策とせず、失われる支援や交流も評価する。"},
-    {"id":"PSY-DIG-005","title_ja":"見逃すのが怖い：FOMOはどう測られる？","concepts_en":["fear of missing out","social connectedness"],"angle_ja":"取り残される感覚、通知確認、孤独の関係を研究する。","search_query":"fear of missing out FOMO smartphone longitudinal meta analysis","priority":2,"source_ids":[],"caution_ja":"尺度の相関を一方向の原因とせず、診断ラベルとして使わない。"},
-    {"id":"PSY-DIG-006","title_ja":"無限スクロールや自動再生は、やめどきを変える？","concepts_en":["infinite scroll","stopping cues","autoplay"],"angle_ja":"終わりの合図や設計と、利用者の選択の自由を調べる。","search_query":"infinite scroll autoplay stopping cues user behavior experiment","priority":1,"source_ids":[],"caution_ja":"依存を強める設計の実装指南にせず、利用者保護の視点にする。"},
-    {"id":"PSY-DIG-007","title_ja":"会話中にスマホを見ると、相手はどう感じる？","concepts_en":["phubbing","relationship quality"],"angle_ja":"必要な連絡と無意識の確認、受け手の解釈を分ける。","search_query":"phubbing smartphone conversation relationship quality experimental meta analysis","priority":1,"source_ids":[],"caution_ja":"仕事やケア上の必要な利用を一方的に非難しない。相関研究の限界を確認する。"},
-    {"id":"PSY-DIG-008","title_ja":"オンラインの嫌な交流から心を守るには？","concepts_en":["online harassment","coping social support"],"angle_ja":"ミュート、相談、支援などの行動について効果と限界を調べる。","search_query":"online harassment coping social support mental health systematic review","priority":1,"source_ids":[],"caution_ja":"被害者に原因を求めず、差し迫る危険や犯罪は心理対処だけで済ませない。"},
-    {"id":"PSY-DIG-009","title_ja":"何度も見る情報は本当らしく感じる？","concepts_en":["illusory truth effect","misinformation"],"angle_ja":"繰り返し、親しみ、情報源の確認と真偽判断を研究する。","search_query":"illusory truth effect misinformation repetition accuracy intervention meta analysis","priority":1,"source_ids":[],"caution_ja":"繰り返された情報はすべて嘘という意味にしない。正確性と親しみを分ける。"},
-    {"id":"PSY-DIG-010","title_ja":"夜のスマホと睡眠は、ブルーライトだけの問題？","concepts_en":["bedtime screen use","sleep displacement","arousal"],"angle_ja":"光、時間の置き換わり、内容による覚醒を分けて調べる。","search_query":"bedtime smartphone sleep light displacement arousal systematic review","priority":1,"source_ids":["SRC003","SRC010"],"caution_ja":"夜間モードだけで影響がなくなると保証せず、具体的な機能は製品別に検証する。"}
+    {
+      "id": "PSY-DIG-001",
+      "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
+      "concepts_en": [
+        "social media well being",
+        "bidirectional effects"
+      ],
+      "angle_ja": "利用前後の気分、生活状況、個人差を調べる。",
+      "search_query": "social media use well being longitudinal randomized meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC012"
+      ],
+      "caution_ja": "2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。"
+    },
+    {
+      "id": "PSY-DIG-002",
+      "title_ja": "SNSは見るだけと交流する使い方で違う？",
+      "concepts_en": [
+        "active passive social media use",
+        "social interaction"
+      ],
+      "angle_ja": "時間だけでなく、相手、内容、目的を分けて研究する。",
+      "search_query": "active passive social media use well being meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "見るだけは必ず悪いという単純な二分類にせず、測定方法を確認する。"
+    },
+    {
+      "id": "PSY-DIG-003",
+      "title_ja": "不安なニュースを見続けてしまうのはなぜ？",
+      "concepts_en": [
+        "doomscrolling",
+        "negative news consumption"
+      ],
+      "angle_ja": "不確実さを減らしたい行動と、不安の循環を調べる。",
+      "search_query": "doomscrolling negative news anxiety longitudinal study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "新しい概念の尺度や因果性は未確立な場合がある。情報確認の必要性と区別する。"
+    },
+    {
+      "id": "PSY-DIG-004",
+      "title_ja": "デジタルデトックスは気分や生活を改善する？",
+      "concepts_en": [
+        "digital detox",
+        "social media reduction"
+      ],
+      "angle_ja": "完全停止、時間制限、使い方の変更を比較する。",
+      "search_query": "digital detox social media abstinence reduction randomized systematic review",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "短期の利用制限を長期の解決策とせず、失われる支援や交流も評価する。"
+    },
+    {
+      "id": "PSY-DIG-005",
+      "title_ja": "見逃すのが怖い：FOMOはどう測られる？",
+      "concepts_en": [
+        "fear of missing out",
+        "social connectedness"
+      ],
+      "angle_ja": "取り残される感覚、通知確認、孤独の関係を研究する。",
+      "search_query": "fear of missing out FOMO smartphone longitudinal meta analysis",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "尺度の相関を一方向の原因とせず、診断ラベルとして使わない。"
+    },
+    {
+      "id": "PSY-DIG-006",
+      "title_ja": "無限スクロールや自動再生は、やめどきを変える？",
+      "concepts_en": [
+        "infinite scroll",
+        "stopping cues",
+        "autoplay"
+      ],
+      "angle_ja": "終わりの合図や設計と、利用者の選択の自由を調べる。",
+      "search_query": "infinite scroll autoplay stopping cues user behavior experiment",
+      "priority": 1,
+      "source_ids": [
+        "SRC055"
+      ],
+      "caution_ja": "依存を強める設計の実装指南にせず、利用者保護の視点にする。",
+      "research_brief_ids": [
+        "RB-26121498"
+      ]
+    },
+    {
+      "id": "PSY-DIG-007",
+      "title_ja": "会話中にスマホを見ると、相手はどう感じる？",
+      "concepts_en": [
+        "phubbing",
+        "relationship quality"
+      ],
+      "angle_ja": "必要な連絡と無意識の確認、受け手の解釈を分ける。",
+      "search_query": "phubbing smartphone conversation relationship quality experimental meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "仕事やケア上の必要な利用を一方的に非難しない。相関研究の限界を確認する。"
+    },
+    {
+      "id": "PSY-DIG-008",
+      "title_ja": "オンラインの嫌な交流から心を守るには？",
+      "concepts_en": [
+        "online harassment",
+        "coping social support"
+      ],
+      "angle_ja": "ミュート、相談、支援などの行動について効果と限界を調べる。",
+      "search_query": "online harassment coping social support mental health systematic review",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "被害者に原因を求めず、差し迫る危険や犯罪は心理対処だけで済ませない。"
+    },
+    {
+      "id": "PSY-DIG-009",
+      "title_ja": "何度も見る情報は本当らしく感じる？",
+      "concepts_en": [
+        "illusory truth effect",
+        "misinformation"
+      ],
+      "angle_ja": "繰り返し、親しみ、情報源の確認と真偽判断を研究する。",
+      "search_query": "illusory truth effect misinformation repetition accuracy intervention meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC067"
+      ],
+      "caution_ja": "繰り返された情報はすべて嘘という意味にしない。正確性と親しみを分ける。",
+      "research_brief_ids": [
+        "RB-33731933"
+      ]
+    },
+    {
+      "id": "PSY-DIG-010",
+      "title_ja": "夜のスマホと睡眠は、ブルーライトだけの問題？",
+      "concepts_en": [
+        "bedtime screen use",
+        "sleep displacement",
+        "arousal"
+      ],
+      "angle_ja": "光、時間の置き換わり、内容による覚醒を分けて調べる。",
+      "search_query": "bedtime smartphone sleep light displacement arousal systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC003",
+        "SRC010",
+        "SRC041"
+      ],
+      "caution_ja": "夜間モードだけで影響がなくなると保証せず、具体的な機能は製品別に検証する。",
+      "research_brief_ids": [
+        "RB-35298459"
+      ]
+    }
   ]
 }

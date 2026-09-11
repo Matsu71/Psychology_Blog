@@ -2,15 +2,157 @@
   "schema_version": "1.0",
   "category_id": "nutrition",
   "topics": [
-    {"id":"PSY-NUT-001","title_ja":"ストレスを感じると食べたくなるのはなぜ？","concepts_en":["emotional eating","stress appetite"],"angle_ja":"食欲が増える人と減る人、短期と慢性ストレスを分ける。","search_query":"stress emotional eating appetite individual differences systematic review","priority":1,"source_ids":[],"caution_ja":"食行動を意志の弱さと責めない。疾患や摂食障害の問題を区別する。"},
-    {"id":"PSY-NUT-002","title_ja":"超加工食品は、なぜ食べすぎにつながる可能性がある？","concepts_en":["ultra processed foods","ad libitum intake"],"angle_ja":"食品の構成、食べる速度、エネルギー摂取を実験から検討する。","search_query":"ultra processed diets ad libitum energy intake randomized controlled trial","priority":1,"source_ids":["SRC032"],"caution_ja":"短期の入院試験を全食品や長期疾患リスクに一般化しない。訂正情報も確認する。"},
-    {"id":"PSY-NUT-003","title_ja":"スマホやテレビを見ながら食べると量は変わる？","concepts_en":["distracted eating","meal memory"],"angle_ja":"食事中の注意、その場の摂取量、後の間食を分ける。","search_query":"distracted eating television smartphone memory intake meta analysis","priority":1,"source_ids":[],"caution_ja":"小規模な実験課題の結果を長期の体重変化に読み替えない。"},
-    {"id":"PSY-NUT-004","title_ja":"ゆっくり食べると満腹になりやすい？","concepts_en":["eating rate","satiation"],"angle_ja":"食感、咀嚼、食事時間と満腹感・摂取量を比較する。","search_query":"eating rate chewing satiation energy intake randomized meta analysis","priority":1,"source_ids":["SRC032"],"caution_ja":"参照試験は加工度が異なる食事の比較。速度だけの因果効果は専用の研究で確認する。"},
-    {"id":"PSY-NUT-005","title_ja":"食べ物が見える場所にあると、つい手が伸びる？","concepts_en":["food cues","availability proximity"],"angle_ja":"配置、手間、空腹感と食行動を調べる。","search_query":"food availability proximity cues eating randomized systematic review","priority":1,"source_ids":[],"caution_ja":"食行動研究には撤回や再現性の問題があるため原典を確認する。"},
-    {"id":"PSY-NUT-006","title_ja":"睡眠不足と空腹感はどう関係する？","concepts_en":["sleep restriction","appetite food reward"],"angle_ja":"主観的食欲、摂取量、ホルモン指標を分ける。","search_query":"sleep restriction appetite energy intake food reward randomized review","priority":1,"source_ids":["SRC001"],"caution_ja":"ホルモン一つで食欲を説明せず、睡眠の一般資料と直接の介入研究を区別する。"},
-    {"id":"PSY-NUT-007","title_ja":"食生活の改善は気分のケアにも役立つ？","concepts_en":["dietary intervention","depression","nutritional psychiatry"],"angle_ja":"食事パターンを変える試験と観察研究を比較する。","search_query":"dietary improvement depression SMILES randomized trial systematic review","priority":1,"source_ids":["SRC017"],"caution_ja":"小規模な補助的治療の試験を、食事だけで治せるという話にしない。訂正・批判も読む。"},
-    {"id":"PSY-NUT-008","title_ja":"腸内細菌で性格や気分は変わる？人の研究を読む","concepts_en":["gut brain axis","microbiome mental health"],"angle_ja":"動物実験、人の関連研究、介入試験の距離を整理する。","search_query":"gut microbiome mental health human randomized systematic review probiotics","priority":2,"source_ids":[],"caution_ja":"動物の行動変化を人の性格改善としない。サプリや便移植を安易に推奨しない。"},
-    {"id":"PSY-NUT-009","title_ja":"空腹や満腹に注意を向ける食べ方には根拠がある？","concepts_en":["mindful eating","interoception"],"angle_ja":"食行動、ストレス、体重を別の結果として評価する。","search_query":"mindful eating emotional eating randomized systematic review","priority":2,"source_ids":["SRC013"],"caution_ja":"食べ方の研究を減量保証にしない。摂食障害のある人への適用は専門家判断が必要。"},
-    {"id":"PSY-NUT-010","title_ja":"厳しすぎる食事ルールは、かえって続きにくい？","concepts_en":["rigid flexible restraint","dietary adherence"],"angle_ja":"禁止の多さ、罪悪感、持続可能な食行動を研究する。","search_query":"rigid flexible dietary restraint adherence disordered eating longitudinal review","priority":2,"source_ids":[],"caution_ja":"体重や食事量で人の価値を評価しない。極端な制限や過食の自己治療にしない。"}
+    {
+      "id": "PSY-NUT-001",
+      "title_ja": "ストレスを感じると食べたくなるのはなぜ？",
+      "concepts_en": [
+        "emotional eating",
+        "stress appetite"
+      ],
+      "angle_ja": "食欲が増える人と減る人、短期と慢性ストレスを分ける。",
+      "search_query": "stress emotional eating appetite individual differences systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC072"
+      ],
+      "caution_ja": "食行動を意志の弱さと責めない。疾患や摂食障害の問題を区別する。",
+      "research_brief_ids": [
+        "RB-35129580"
+      ]
+    },
+    {
+      "id": "PSY-NUT-002",
+      "title_ja": "超加工食品は、なぜ食べすぎにつながる可能性がある？",
+      "concepts_en": [
+        "ultra processed foods",
+        "ad libitum intake"
+      ],
+      "angle_ja": "食品の構成、食べる速度、エネルギー摂取を実験から検討する。",
+      "search_query": "ultra processed diets ad libitum energy intake randomized controlled trial",
+      "priority": 1,
+      "source_ids": [
+        "SRC032"
+      ],
+      "caution_ja": "短期の入院試験を全食品や長期疾患リスクに一般化しない。訂正情報も確認する。"
+    },
+    {
+      "id": "PSY-NUT-003",
+      "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
+      "concepts_en": [
+        "distracted eating",
+        "meal memory"
+      ],
+      "angle_ja": "食事中の注意、その場の摂取量、後の間食を分ける。",
+      "search_query": "distracted eating television smartphone memory intake meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "小規模な実験課題の結果を長期の体重変化に読み替えない。"
+    },
+    {
+      "id": "PSY-NUT-004",
+      "title_ja": "ゆっくり食べると満腹になりやすい？",
+      "concepts_en": [
+        "eating rate",
+        "satiation"
+      ],
+      "angle_ja": "食感、咀嚼、食事時間と満腹感・摂取量を比較する。",
+      "search_query": "eating rate chewing satiation energy intake randomized meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC032"
+      ],
+      "caution_ja": "参照試験は加工度が異なる食事の比較。速度だけの因果効果は専用の研究で確認する。"
+    },
+    {
+      "id": "PSY-NUT-005",
+      "title_ja": "食べ物が見える場所にあると、つい手が伸びる？",
+      "concepts_en": [
+        "food cues",
+        "availability proximity"
+      ],
+      "angle_ja": "配置、手間、空腹感と食行動を調べる。",
+      "search_query": "food availability proximity cues eating randomized systematic review",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "食行動研究には撤回や再現性の問題があるため原典を確認する。"
+    },
+    {
+      "id": "PSY-NUT-006",
+      "title_ja": "睡眠不足と空腹感はどう関係する？",
+      "concepts_en": [
+        "sleep restriction",
+        "appetite food reward"
+      ],
+      "angle_ja": "主観的食欲、摂取量、ホルモン指標を分ける。",
+      "search_query": "sleep restriction appetite energy intake food reward randomized review",
+      "priority": 1,
+      "source_ids": [
+        "SRC001",
+        "SRC072",
+        "SRC101"
+      ],
+      "caution_ja": "ホルモン一つで食欲を説明せず、睡眠の一般資料と直接の介入研究を区別する。",
+      "research_brief_ids": [
+        "RB-35129580",
+        "RB-30827911"
+      ]
+    },
+    {
+      "id": "PSY-NUT-007",
+      "title_ja": "食生活の改善は気分のケアにも役立つ？",
+      "concepts_en": [
+        "dietary intervention",
+        "depression",
+        "nutritional psychiatry"
+      ],
+      "angle_ja": "食事パターンを変える試験と観察研究を比較する。",
+      "search_query": "dietary improvement depression SMILES randomized trial systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC017"
+      ],
+      "caution_ja": "小規模な補助的治療の試験を、食事だけで治せるという話にしない。訂正・批判も読む。"
+    },
+    {
+      "id": "PSY-NUT-008",
+      "title_ja": "腸内細菌で性格や気分は変わる？人の研究を読む",
+      "concepts_en": [
+        "gut brain axis",
+        "microbiome mental health"
+      ],
+      "angle_ja": "動物実験、人の関連研究、介入試験の距離を整理する。",
+      "search_query": "gut microbiome mental health human randomized systematic review probiotics",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "動物の行動変化を人の性格改善としない。サプリや便移植を安易に推奨しない。"
+    },
+    {
+      "id": "PSY-NUT-009",
+      "title_ja": "空腹や満腹に注意を向ける食べ方には根拠がある？",
+      "concepts_en": [
+        "mindful eating",
+        "interoception"
+      ],
+      "angle_ja": "食行動、ストレス、体重を別の結果として評価する。",
+      "search_query": "mindful eating emotional eating randomized systematic review",
+      "priority": 2,
+      "source_ids": [
+        "SRC013"
+      ],
+      "caution_ja": "食べ方の研究を減量保証にしない。摂食障害のある人への適用は専門家判断が必要。"
+    },
+    {
+      "id": "PSY-NUT-010",
+      "title_ja": "厳しすぎる食事ルールは、かえって続きにくい？",
+      "concepts_en": [
+        "rigid flexible restraint",
+        "dietary adherence"
+      ],
+      "angle_ja": "禁止の多さ、罪悪感、持続可能な食行動を研究する。",
+      "search_query": "rigid flexible dietary restraint adherence disordered eating longitudinal review",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "体重や食事量で人の価値を評価しない。極端な制限や過食の自己治療にしない。"
+    }
   ]
 }

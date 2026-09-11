@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0",
+  "category_id": "money_consumption",
+  "topics": [
+    {
+      "id": "PSY-MON-001",
+      "title_ja": "家事を外注して時間を買うと幸福度は上がる？",
+      "concepts_en": [
+        "time saving purchases",
+        "time scarcity"
+      ],
+      "angle_ja": "掃除代行や調理済み食品に使うお金と自由時間を比較する。",
+      "search_query": "time saving purchases time scarcity systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC069"
+      ],
+      "caution_ja": "支出の余裕、代わりにする活動、サービスの負担も確認する。",
+      "related_topic_ids": [
+        "PSY-WEL-005",
+        "PSY-WEL-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "掃除代行や調理済み食品に使うお金と自由時間を比較する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-28739889"
+      ]
+    },
+    {
+      "id": "PSY-MON-002",
+      "title_ja": "キャッシュレスだと現金より使いすぎる？",
+      "concepts_en": [
+        "cashless payment",
+        "spending behavior"
+      ],
+      "angle_ja": "カードやスマホで払う月と現金中心の月の感覚を比較する。",
+      "search_query": "cashless payment spending behavior systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "決済手段の平均効果を個人の必然とせず、予算管理機能の違いも扱う。",
+      "related_topic_ids": [
+        "PSY-DEC-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "カードやスマホで払う月と現金中心の月の感覚を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-003",
+      "title_ja": "同じお金なのにボーナスだけ使いやすいのはなぜ？",
+      "concepts_en": [
+        "mental accounting",
+        "windfall spending"
+      ],
+      "angle_ja": "臨時収入は普段なら買わない物に使いたくなる。",
+      "search_query": "mental accounting windfall spending systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "家計管理の便益もあり、心理的な区分けをすべて非合理としない。",
+      "related_topic_ids": [
+        "PSY-DEC-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "臨時収入は普段なら買わない物に使いたくなる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-004",
+      "title_ja": "買うときに支払いの痛みを感じるのはなぜ？",
+      "concepts_en": [
+        "pain of paying",
+        "payment coupling"
+      ],
+      "angle_ja": "月額料金は気にならないのに一括料金を高く感じる。",
+      "search_query": "pain of paying payment coupling systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "脳画像から実際の損得や依存症を診断しない。",
+      "related_topic_ids": [
+        "PSY-DEC-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "月額料金は気にならないのに一括料金を高く感じる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-005",
+      "title_ja": "疲れた夜に衝動買いしやすくなる？",
+      "concepts_en": [
+        "impulse buying",
+        "affect self regulation"
+      ],
+      "angle_ja": "帰宅後に通販を眺め、予定外の商品を買ってしまう。",
+      "search_query": "impulse buying affect self regulation systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "疲労で自制心が必ず枯渇するという単純モデルに固定しない。",
+      "related_topic_ids": [
+        "PSY-EMO-001",
+        "PSY-MOT-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "帰宅後に通販を眺め、予定外の商品を買ってしまう。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-006",
+      "title_ja": "お金の心配は考える余裕を奪う？",
+      "concepts_en": [
+        "financial scarcity",
+        "cognitive bandwidth"
+      ],
+      "angle_ja": "請求の心配で勉強や仕事に集中しにくい。",
+      "search_query": "financial scarcity cognitive bandwidth systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC076",
+        "SRC079",
+        "SRC080",
+        "SRC088"
+      ],
+      "caution_ja": "困窮を能力不足と扱わず、研究の再現性と構造的要因を確認する。",
+      "related_topic_ids": [
+        "PSY-ATT-007",
+        "PSY-EMO-004"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "請求の心配で勉強や仕事に集中しにくい。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-23990553",
+        "RB-30646029",
+        "RB-24121465"
+      ]
+    },
+    {
+      "id": "PSY-MON-007",
+      "title_ja": "パートナーとお金の話が難しいのはなぜ？",
+      "concepts_en": [
+        "financial communication",
+        "couple conflict"
+      ],
+      "angle_ja": "貯金、趣味、家計負担の優先順位が食い違う。",
+      "search_query": "financial communication couple conflict systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "一方の価値観を正解とせず、経済的支配や安全の問題を区別する。",
+      "related_topic_ids": [
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "貯金、趣味、家計負担の優先順位が食い違う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-008",
+      "title_ja": "使わないサブスクを解約できないのはなぜ？",
+      "concepts_en": [
+        "subscription inertia",
+        "default effects"
+      ],
+      "angle_ja": "無料期間が終わっても契約を見直さない。",
+      "search_query": "subscription inertia default effects systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "基本概念の応用記事として位置づけ、デフォルト効果の重複説明に終始しない。",
+      "related_topic_ids": [
+        "PSY-DEC-010",
+        "PSY-DEC-004"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "無料期間が終わっても契約を見直さない。",
+        "observed_in_a_study": false
+      },
+      "parent_topic_ids": [
+        "PSY-DEC-010",
+        "PSY-DEC-004"
+      ]
+    },
+    {
+      "id": "PSY-MON-009",
+      "title_ja": "期間限定や残りわずかに弱いのはなぜ？",
+      "concepts_en": [
+        "scarcity appeals",
+        "purchase urgency"
+      ],
+      "angle_ja": "必要か考える前にタイムセールで注文する。",
+      "search_query": "scarcity appeals purchase urgency systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "希少性の演出と本当の供給制約を分け、売り手の操作技法にしない。",
+      "related_topic_ids": [
+        "PSY-DIG-005",
+        "PSY-DEC-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "必要か考える前にタイムセールで注文する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-010",
+      "title_ja": "無料が魅力的すぎるのはなぜ？",
+      "concepts_en": [
+        "zero price effect",
+        "consumer choice"
+      ],
+      "angle_ja": "送料を無料にするため不要な物を追加する。",
+      "search_query": "zero price effect consumer choice systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "総支払額と便益を扱い、無料なら常に判断が狂うとしない。",
+      "related_topic_ids": [
+        "PSY-DEC-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "送料を無料にするため不要な物を追加する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-011",
+      "title_ja": "自分の持ち物を高く評価するのはなぜ？",
+      "concepts_en": [
+        "endowment effect",
+        "ownership valuation"
+      ],
+      "angle_ja": "中古品を売るとき、買い手の提示額が安すぎると感じる。",
+      "search_query": "endowment effect ownership valuation systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "経験、愛着、取引慣れ、実験手続きによる条件差を確認する。",
+      "related_topic_ids": [
+        "PSY-DEC-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "中古品を売るとき、買い手の提示額が安すぎると感じる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-012",
+      "title_ja": "最高の買い物を探し続けるほど満足しなくなる？",
+      "concepts_en": [
+        "maximizing",
+        "satisficing"
+      ],
+      "angle_ja": "比較サイトを巡り続け、買った後も他の商品が気になる。",
+      "search_query": "maximizing satisficing systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "入念な比較の利点を否定せず、選択の重要度を区別する。",
+      "related_topic_ids": [
+        "PSY-DEC-006",
+        "PSY-WEL-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "比較サイトを巡り続け、買った後も他の商品が気になる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-013",
+      "title_ja": "贈る側が喜ばれると思う物と欲しい物は違う？",
+      "concepts_en": [
+        "gift giving",
+        "giver recipient asymmetry"
+      ],
+      "angle_ja": "サプライズを選ぶか、相手が指定した品を贈るか悩む。",
+      "search_query": "gift giving giver recipient asymmetry systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "文化や親密さにより異なり、一つの贈り方を正解にしない。",
+      "related_topic_ids": [
+        "PSY-REL-004",
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "サプライズを選ぶか、相手が指定した品を贈るか悩む。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-MON-014",
+      "title_ja": "借金と心の健康はどう関係する？",
+      "concepts_en": [
+        "unsecured debt",
+        "financial stress mental health"
+      ],
+      "angle_ja": "返済の不安で眠りや人付き合いが変わる。",
+      "search_query": "unsecured debt financial stress mental health systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC088"
+      ],
+      "caution_ja": "逆因果と所得条件を確認し、個別の金融・法的助言とは分ける。",
+      "related_topic_ids": [
+        "PSY-SLP-008",
+        "PSY-MEN-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "返済の不安で眠りや人付き合いが変わる。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-24121465"
+      ]
+    }
+  ]
+}

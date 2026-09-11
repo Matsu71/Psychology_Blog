@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "category_id": "health_psychology",
+  "topics": [
+    {
+      "id": "PSY-HPS-001",
+      "title_ja": "月経前の気分変化はどう記録すると理解しやすい？",
+      "concepts_en": [
+        "premenstrual symptoms",
+        "prospective symptom tracking"
+      ],
+      "angle_ja": "気分や睡眠の変化を日付と一緒に振り返る。",
+      "search_query": "premenstrual symptoms prospective symptom tracking systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC096"
+      ],
+      "caution_ja": "性別のステレオタイプにせず、PMDDなどの診断と一般的な変化を区別する。",
+      "related_topic_ids": [
+        "PSY-EMO-001",
+        "PSY-SLP-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "気分や睡眠の変化を日付と一緒に振り返る。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-37973069"
+      ]
+    },
+    {
+      "id": "PSY-HPS-002",
+      "title_ja": "更年期の睡眠や気分の変化には何が関係する？",
+      "concepts_en": [
+        "menopausal transition",
+        "depression sleep"
+      ],
+      "angle_ja": "仕事の忙しさだけでは説明しにくい睡眠や気分の変化を扱う。",
+      "search_query": "menopausal transition depression sleep systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC095"
+      ],
+      "caution_ja": "ホルモンだけに還元せず、治療選択は医療者の評価が必要。",
+      "related_topic_ids": [
+        "PSY-SLP-008",
+        "PSY-MEN-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "仕事の忙しさだけでは説明しにくい睡眠や気分の変化を扱う。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-38642901"
+      ]
+    },
+    {
+      "id": "PSY-HPS-003",
+      "title_ja": "緊張するとお腹が痛くなるのは気のせい？",
+      "concepts_en": [
+        "disorders of gut brain interaction",
+        "irritable bowel syndrome"
+      ],
+      "angle_ja": "会議や試験前に腹部症状が出る場面を理解する。",
+      "search_query": "disorders of gut brain interaction irritable bowel syndrome systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "症状を心理のせいと決めつけず、身体疾患の評価を妨げない。",
+      "related_topic_ids": [
+        "PSY-NUT-008",
+        "PSY-MEN-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "会議や試験前に腹部症状が出る場面を理解する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-004",
+      "title_ja": "心臓のドキドキを気にすると不安が強くなる？",
+      "concepts_en": [
+        "interoception",
+        "anxiety sensitivity"
+      ],
+      "angle_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
+      "search_query": "interoception anxiety sensitivity systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC060"
+      ],
+      "caution_ja": "胸痛や呼吸苦を不安だけで説明せず、必要な医療評価を優先する。",
+      "related_topic_ids": [
+        "PSY-EMO-005",
+        "PSY-MEN-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-34586357"
+      ]
+    },
+    {
+      "id": "PSY-HPS-005",
+      "title_ja": "見た目を他人と比べると自分の体の評価は変わる？",
+      "concepts_en": [
+        "appearance comparison",
+        "body image"
+      ],
+      "angle_ja": "加工された写真を見た後に自分の姿を否定的に感じる。",
+      "search_query": "appearance comparison body image systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "体形の優劣や極端な食事制限を推奨しない。",
+      "related_topic_ids": [
+        "PSY-WEL-007",
+        "PSY-DIG-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "加工された写真を見た後に自分の姿を否定的に感じる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-006",
+      "title_ja": "自分の体を好きになれないとき、無理に肯定すべき？",
+      "concepts_en": [
+        "body neutrality",
+        "body functionality appreciation"
+      ],
+      "angle_ja": "見た目より体が日常でできることに目を向ける考え方を調べる。",
+      "search_query": "body neutrality body functionality appreciation systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "新しい概念は介入研究の量と尺度の妥当性を確認する。",
+      "related_topic_ids": [
+        "PSY-PER-010",
+        "PSY-NUT-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "見た目より体が日常でできることに目を向ける考え方を調べる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-007",
+      "title_ja": "ストレスがたまると風邪をひきやすくなる？",
+      "concepts_en": [
+        "psychological stress",
+        "viral susceptibility"
+      ],
+      "angle_ja": "忙しい時期の後に体調を崩しやすいという体感を研究と比較する。",
+      "search_query": "psychological stress viral susceptibility systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "感染を気の持ちように還元せず、曝露や睡眠などを区別する。",
+      "related_topic_ids": [
+        "PSY-EMO-001",
+        "PSY-SLP-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "忙しい時期の後に体調を崩しやすいという体感を研究と比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-008",
+      "title_ja": "副作用の説明を読むと症状が気になりやすくなる？",
+      "concepts_en": [
+        "nocebo information",
+        "adverse effect expectations"
+      ],
+      "angle_ja": "薬の説明を読んだ後の体調変化をどう解釈するか考える。",
+      "search_query": "nocebo information adverse effect expectations systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "実際の副作用を否定せず、必要な説明の省略や服薬中断を勧めない。",
+      "related_topic_ids": [
+        "PSY-MEN-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "薬の説明を読んだ後の体調変化をどう解釈するか考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-009",
+      "title_ja": "症状を検索するほど心配になるのはなぜ？",
+      "concepts_en": [
+        "cyberchondria",
+        "health anxiety"
+      ],
+      "angle_ja": "頭痛を検索して重大な病気の記事ばかり気になってしまう。",
+      "search_query": "cyberchondria health anxiety systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "適切な情報収集と過剰な確認を分け、受診を妨げない。",
+      "related_topic_ids": [
+        "PSY-DIG-003",
+        "PSY-MEN-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "頭痛を検索して重大な病気の記事ばかり気になってしまう。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-010",
+      "title_ja": "症状がないと健康上の注意を続けにくいのはなぜ？",
+      "concepts_en": [
+        "risk perception",
+        "preventive health behavior"
+      ],
+      "angle_ja": "健診結果に注意があっても日々の実感がなく行動しにくい。",
+      "search_query": "risk perception preventive health behavior systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "個別の検査値を診断せず、リスク説明と行動支援を扱う。",
+      "related_topic_ids": [
+        "PSY-DEC-008",
+        "PSY-HAB-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "健診結果に注意があっても日々の実感がなく行動しにくい。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-011",
+      "title_ja": "薬や通院を忘れることと、続けたくないことは違う？",
+      "concepts_en": [
+        "medication adherence",
+        "intentional nonadherence"
+      ],
+      "angle_ja": "忙しくて忘れる場合と副作用が心配で避ける場合を分ける。",
+      "search_query": "medication adherence intentional nonadherence systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "服薬量の自己調整を提案せず、医療者と相談するための整理にする。",
+      "related_topic_ids": [
+        "PSY-HAB-002",
+        "PSY-AGE-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "忙しくて忘れる場合と副作用が心配で避ける場合を分ける。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-HPS-012",
+      "title_ja": "リスクが半減という説明は、何人減るという説明と同じ？",
+      "concepts_en": [
+        "absolute relative risk",
+        "health risk communication"
+      ],
+      "angle_ja": "健康ニュースの大きな割合を分母と絶対数で読む。",
+      "search_query": "absolute relative risk health risk communication systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "例の数値は仮定と実測を区別し、個別治療の利益を推測しない。",
+      "related_topic_ids": [
+        "PSY-DEC-005",
+        "PSY-RES-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "健康ニュースの大きな割合を分母と絶対数で読む。",
+        "observed_in_a_study": false
+      },
+      "parent_topic_ids": [
+        "PSY-DEC-005",
+        "PSY-RES-003"
+      ]
+    }
+  ]
+}

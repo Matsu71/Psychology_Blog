@@ -2,42 +2,2501 @@
   "schema_version": "1.0",
   "accessed_on": "2026-09-11",
   "evidence_appraisal": "not_assessed",
-  "notes_ja": "テーマ調査の入口となる資料台帳。リンクはテーマ全体の結論を支持するとは限らず、背景説明や書誌確認を含む。抄録確認と全文精査は区別し、全資料の撤回・訂正の網羅的調査は未実施。",
+  "notes_ja": "旧35資料の確認状態は保持。追加資料は抄録中心の予備読解68件と訂正告知3件。掲載・確認の状態は各レコードを参照。全文査読相当の評価ではない。",
   "sources": [
-    {"id":"SRC001","title":"How Sleep Works","authors_display":"NHLBI","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nhlbi.nih.gov/health/sleep","verified_via_url":"https://www.nhlbi.nih.gov/health/sleep","verification_scope":"official_page_reviewed","notes_ja":"睡眠の一般的な仕組みと健康への関わり。個別介入の効果を確定する資料ではない。"},
-    {"id":"SRC002","title":"Insomnia - Treatment","authors_display":"NHLBI","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nhlbi.nih.gov/health/insomnia/treatment","verified_via_url":"https://www.nhlbi.nih.gov/health/insomnia/treatment","verification_scope":"official_page_reviewed","notes_ja":"不眠治療と生活習慣の公的解説。睡眠制限など治療の自己実施を勧める資料にはしない。"},
-    {"id":"SRC003","title":"How Sleep Works - Your Sleep/Wake Cycle","authors_display":"NHLBI","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle","verified_via_url":"https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle","verification_scope":"official_page_reviewed","notes_ja":"体内時計、光、年齢などの基礎説明。具体的な時間・照度の推奨は追加確認する。"},
-    {"id":"SRC004","title":"What is heritability?","authors_display":"MedlinePlus Genetics / National Library of Medicine","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/","verified_via_url":"https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/","verification_scope":"official_page_reviewed","notes_ja":"遺伝率は集団内のばらつきの指標で、個人の遺伝割合や不変性ではない。性格の具体的遺伝率を示す研究は別途必要。"},
-    {"id":"SRC005","title":"Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities","authors_display":"Mayhew AJ; Meyre D","year":2017,"journal":"Current Genomics 18(4):332–340","source_type":"journal_article","doi":"10.2174/1389202918666170307161450","url":"https://doi.org/10.2174/1389202918666170307161450","verified_via_url":"https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/","verification_scope":"bibliography_verified","notes_ja":"公的解説の参考文献欄で書誌を確認。原論文の全文・抄録と主張の対応は未精査。"},
-    {"id":"SRC006","title":"The heritability fallacy","authors_display":"Moore DS; Shenk D","year":2017,"journal":"Wiley Interdisciplinary Reviews: Cognitive Science 8(1–2)","source_type":"journal_article","doi":"10.1002/wcs.1400","url":"https://doi.org/10.1002/wcs.1400","verified_via_url":"https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/","verification_scope":"bibliography_verified","notes_ja":"公的解説の参考文献欄で書誌を確認。2017年は掲載号の年。"},
-    {"id":"SRC007","title":"Is nicotine addictive?","authors_display":"NIDA","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive","verification_scope":"official_page_reviewed","notes_ja":"ニコチンの依存・報酬・離脱・合図の概説。動物知見と人の知見を区別し、神経機序の詳細は原論文で確認する。"},
-    {"id":"SRC008","title":"Tobacco, Nicotine, and E-Cigarettes Research Report: References","authors_display":"NIDA","year":null,"journal":null,"source_type":"official_bibliography","doi":null,"url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verification_scope":"official_page_reviewed","notes_ja":"SRC018–SRC021の書誌確認元。最新研究を網羅した検索結果ではない。"},
-    {"id":"SRC009","title":"How are habits formed: Modelling habit formation in the real world","authors_display":"Lally P; van Jaarsveld CHM; Potts HWW; Wardle J","year":2010,"journal":"European Journal of Social Psychology 40(6):998–1009","source_type":"journal_article","doi":"10.1002/ejsp.674","url":"https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674","verified_via_url":"https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674","verification_scope":"abstract_reviewed","study_design":"prospective_observational","notes_ja":"日常での習慣形成を追跡した研究。初回オンライン公開は2009年。推定期間を万人共通の21日・66日ルールにしない。"},
-    {"id":"SRC010","title":"Bedtime procrastination: introducing a new area of procrastination","authors_display":"Kroese FM; De Ridder DTD; Evers C; Adriaanse MA","year":2014,"journal":"Frontiers in Psychology 5:611","source_type":"journal_article","doi":"10.3389/fpsyg.2014.00611","url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full","verified_via_url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full","verification_scope":"abstract_reviewed","study_design":"cross_sectional_self_report","notes_ja":"自己報告の関連研究。就寝先延ばしの因果機序や全種類の先延ばしへの一般化は未評価。参考文献も一部確認。"},
-    {"id":"SRC011","title":"Social Relationships and Mortality Risk: A Meta-analytic Review","authors_display":"Holt-Lunstad J; Smith TB; Layton JB","year":2010,"journal":"PLOS Medicine 7(7):e1000316","source_type":"journal_article","doi":"10.1371/journal.pmed.1000316","url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316","verified_via_url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316","verification_scope":"abstract_reviewed","study_design":"meta_analysis_of_observational_studies","notes_ja":"社会関係と死亡リスクの関連。友人を増やす介入の因果効果や個人の寿命予測とは別。"},
-    {"id":"SRC012","title":"Facebook Use Predicts Declines in Subjective Well-Being in Young Adults","authors_display":"Kross E; Verduyn P; Demiralp E; et al.","year":2013,"journal":"PLOS ONE 8(8):e69841","source_type":"journal_article","doi":"10.1371/journal.pone.0069841","url":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841","verified_via_url":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841","verification_scope":"abstract_reviewed","study_design":"observational_experience_sampling","notes_ja":"若年成人と当時のFacebookを対象とする短期研究。現在の全SNS・全年齢への因果的な結論にはしない。"},
-    {"id":"SRC013","title":"Meditation and Mindfulness: Effectiveness and Safety","authors_display":"NCCIH","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety","verified_via_url":"https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety","verification_scope":"official_page_reviewed","notes_ja":"複数用途の概説と限界・有害事象。介入の種類や対照群で結果が異なり、通常医療の代替としない。"},
-    {"id":"SRC014","title":"Caring for Your Mental Health","authors_display":"NIMH","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health","verified_via_url":"https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health","verification_scope":"official_page_reviewed","notes_ja":"セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。"},
-    {"id":"SRC015","title":"Why Most Published Research Findings Are False","authors_display":"Ioannidis JPA","year":2005,"journal":"PLOS Medicine 2(8):e124","source_type":"journal_article","doi":"10.1371/journal.pmed.0020124","url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124","verified_via_url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124","verification_scope":"article_text_reviewed","study_design":"methodological_essay_model","notes_ja":"方法論的な論考。心理学研究の大半が誤りと実測した論文ではない。全文の批判的査読相当の評価は未実施。","correction_notes_ja":"2022-08-25の訂正告知を確認。DOI:10.1371/journal.pmed.1004085。訂正内容の影響評価は未実施。撤回と同一視しない。"},
-    {"id":"SRC016","title":"Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015","authors_display":"Camerer CF; Dreber A; Holzmeister F; et al.","year":2018,"journal":"Nature Human Behaviour 2:637–644","source_type":"journal_article","doi":"10.1038/s41562-018-0399-z","url":"https://www.nature.com/articles/s41562-018-0399-z","verified_via_url":"https://www.nature.com/articles/s41562-018-0399-z","verification_scope":"abstract_reviewed","study_design":"multi_study_replication_project","notes_ja":"選ばれた社会科学実験の追試。対象集合の再現率を全心理学へ機械的に一般化しない。"},
-    {"id":"SRC017","title":"A randomised controlled trial of dietary improvement for adults with major depression (the ‘SMILES’ trial)","authors_display":"Jacka FN; O’Neil A; Opie R; et al.","year":2017,"journal":"BMC Medicine 15:23","source_type":"journal_article","doi":"10.1186/s12916-017-0791-y","url":"https://link.springer.com/article/10.1186/s12916-017-0791-y","verified_via_url":"https://link.springer.com/article/10.1186/s12916-017-0791-y","verification_scope":"abstract_reviewed","study_design":"randomized_controlled_trial","notes_ja":"食事改善を補助的治療として検討した小規模試験。食事だけで治るという推奨にしない。","correction_notes_ja":"掲載ページに2018-12-28の訂正・関連議論への案内あり。内容と結論への影響は記事化前に確認する。"},
-    {"id":"SRC018","title":"Association between nicotine dependence severity, BOLD response to smoking cues, and functional connectivity","authors_display":"Claus ED; Blaine SK; Filbey FM; Mayer AR; Hutchison KE","year":2013,"journal":"Neuropsychopharmacology 38(12):2363–2372","source_type":"journal_article","doi":"10.1038/npp.2013.134","url":"https://doi.org/10.1038/npp.2013.134","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verification_scope":"bibliography_verified","notes_ja":"NIDAの参考文献で書誌確認。結果の方向・効果量・脳画像と行動の対応は未精査。"},
-    {"id":"SRC019","title":"Cognitive function during nicotine withdrawal: Implications for nicotine dependence treatment","authors_display":"Ashare RL; Falcone M; Lerman C","year":2014,"journal":"Neuropharmacology 76 Pt B:581–591","source_type":"journal_article","doi":"10.1016/j.neuropharm.2013.04.034","url":"https://doi.org/10.1016/j.neuropharm.2013.04.034","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verification_scope":"bibliography_verified","notes_ja":"書誌確認のみ。離脱症状の緩和と非喫煙者の認知能力向上を区別する必要がある。"},
-    {"id":"SRC020","title":"Sleep changes in smokers before, during and 3 months after nicotine withdrawal","authors_display":"Jaehne A; Unbehaun T; Feige B; et al.","year":2015,"journal":"Addiction Biology 20(4):747–755","source_type":"journal_article","doi":"10.1111/adb.12151","url":"https://doi.org/10.1111/adb.12151","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verification_scope":"bibliography_verified","notes_ja":"書誌確認のみ。睡眠変化の期間や個人差は原文で確認する。"},
-    {"id":"SRC021","title":"Combined pharmacotherapy and behavioural interventions for smoking cessation","authors_display":"Stead LF; Koilpillai P; Fanshawe TR; Lancaster T","year":2016,"journal":"Cochrane Database of Systematic Reviews 3:CD008286","source_type":"journal_article","doi":"10.1002/14651858.CD008286.pub3","url":"https://doi.org/10.1002/14651858.CD008286.pub3","verified_via_url":"https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references","verification_scope":"bibliography_verified","notes_ja":"旧レビューの書誌確認。最新の推奨や国内の薬の承認・禁忌・供給の根拠にはそのまま使わない。"},
-    {"id":"SRC022","title":"Adverse events in meditation practices and meditation-based therapies: a systematic review","authors_display":"Farias M; Maraldi E; Wallenkampf KC; Lucchetti G","year":2020,"journal":"Acta Psychiatrica Scandinavica 142(5):374–393","source_type":"journal_article","doi":"10.1111/acps.13225","url":"https://pubmed.ncbi.nlm.nih.gov/32820538/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/32820538/","verification_scope":"abstract_reviewed","study_design":"systematic_review","notes_ja":"実験・観察・事例報告を含む有害事象のレビュー。頻度は収集方法や研究形式で変わる。"},
-    {"id":"SRC023","title":"The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials","authors_display":"Rusch HL; Rosario M; Levison LM; et al.","year":2019,"journal":"Annals of the New York Academy of Sciences 1445(1):5–16","source_type":"journal_article","doi":"10.1111/nyas.13996","url":"https://pubmed.ncbi.nlm.nih.gov/30575050/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/30575050/","verification_scope":"abstract_reviewed","study_design":"systematic_review_meta_analysis","notes_ja":"比較対象別に評価しており、有効な既存治療との比較と非特異的対照との比較を混同しない。未割当の追加調査候補資料。"},
-    {"id":"SRC024","title":"Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis","authors_display":"Hilton L; Hempel S; Ewing BA; et al.","year":2017,"journal":"Annals of Behavioral Medicine 51(2):199–213","source_type":"journal_article","doi":null,"url":"https://pubmed.ncbi.nlm.nih.gov/27658913/","verified_via_url":"https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety","verification_scope":"bibliography_verified","notes_ja":"公的ページの参考文献とPubMedへのリンクを確認。原論文の詳細評価は未実施。痛みを気のせいと扱わない。"},
-    {"id":"SRC025","title":"Mindfulness-based relapse prevention for substance use disorders: a systematic review and meta-analysis","authors_display":"Grant S; Colaiaco B; Motala A; et al.","year":2017,"journal":"Journal of Addiction Medicine 11(5):386–396","source_type":"journal_article","doi":null,"url":"https://pubmed.ncbi.nlm.nih.gov/28727663/","verified_via_url":"https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety","verification_scope":"bibliography_verified","notes_ja":"公的ページの参考文献で書誌を確認。原論文本文・抄録は未取得。未割当の追加調査候補資料。"},
-    {"id":"SRC026","title":"How do implementation intentions promote goal attainment? A test of component processes","authors_display":"Webb TL; Sheeran P","year":2007,"journal":"Journal of Experimental Social Psychology 43:295–302","source_type":"journal_article","doi":"10.1016/j.jesp.2006.02.001","url":"https://doi.org/10.1016/j.jesp.2006.02.001","verified_via_url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full","verification_scope":"bibliography_verified","notes_ja":"SRC010の参考文献欄で書誌を確認。効果量や日常行動への一般化は未評価。"},
-    {"id":"SRC027","title":"Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology","authors_display":"Dunlosky J; Rawson KA; Marsh EJ; Nathan MJ; Willingham DT","year":2013,"journal":"Psychological Science in the Public Interest 14(1):4–58","source_type":"journal_article","doi":"10.1177/1529100612453266","url":"https://pubmed.ncbi.nlm.nih.gov/26173288/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/26173288/","verification_scope":"abstract_reviewed","study_design":"review","notes_ja":"複数の学習方法を扱う基礎レビュー。2013年時点の評価を現在の最終結論にしない。"},
-    {"id":"SRC028","title":"I’m So Stressed Out! Fact Sheet","authors_display":"NIMH","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet","verified_via_url":"https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet","verification_scope":"official_page_reviewed","notes_ja":"ストレス・不安・セルフケア・相談に関する概説。呼吸法や筆記介入の個別試験の代わりにはしない。"},
-    {"id":"SRC029","title":"Psychotherapies","authors_display":"NIMH","year":null,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nimh.nih.gov/health/topics/psychotherapies","verified_via_url":"https://www.nimh.nih.gov/health/topics/psychotherapies","verification_scope":"official_page_reviewed","notes_ja":"心理療法と相談先の基礎解説。個別AI相談製品の有効性を検証した資料ではない。"},
-    {"id":"SRC030","title":"Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being","authors_display":"Gross JJ; John OP","year":2003,"journal":"Journal of Personality and Social Psychology 85(2):348–362","source_type":"journal_article","doi":"10.1037/0022-3514.85.2.348","url":"https://pubmed.ncbi.nlm.nih.gov/12916575/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/12916575/","verification_scope":"abstract_reviewed","study_design":"individual_difference_multi_study","notes_ja":"再評価・表出抑制の個人差と関連を検討。介入の因果的効果とは区別する。"},
-    {"id":"SRC031","title":"Physical activity","authors_display":"World Health Organization","year":2024,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.who.int/news-room/fact-sheets/detail/physical-activity","verified_via_url":"https://www.who.int/news-room/fact-sheets/detail/physical-activity","verification_scope":"official_page_reviewed","notes_ja":"2024-06-26付の公的ファクトシート。身体活動と座位行動の概説で、特定の運動処方や単回介入の効果量は別途確認する。"},
-    {"id":"SRC032","title":"Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake","authors_display":"Hall KD; Ayuketah A; Brychta R; et al.","year":2019,"journal":"Cell Metabolism 30(1):67–77.e3","source_type":"journal_article","doi":"10.1016/j.cmet.2019.05.008","url":"https://pubmed.ncbi.nlm.nih.gov/31105044/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/31105044/","verification_scope":"abstract_reviewed","study_design":"randomized_inpatient_crossover_trial","notes_ja":"短期の食事比較。摂取量の差を単一の添加物・食べる速度・全食品の長期疾患リスクに還元しない。","correction_notes_ja":"PubMedに訂正2件の案内あり。DOI:10.1016/j.cmet.2019.05.020、10.1016/j.cmet.2020.08.014。影響評価は未実施。"},
-    {"id":"SRC033","title":"ACTIVE cognitive training trial: ten-year outcomes in cognition and everyday functioning","title_form":"editorial_short_title","authors_display":"Rebok GW; Ball K; Guey LT; et al.; ACTIVE Study Group","year":2014,"journal":"Journal of the American Geriatrics Society 62(1):16–24","source_type":"journal_article","doi":"10.1111/jgs.12607","url":"https://pubmed.ncbi.nlm.nih.gov/24417410/","verified_via_url":"https://pubmed.ncbi.nlm.nih.gov/24417410/","verification_scope":"abstract_reviewed","study_design":"randomized_trial_long_term_followup","notes_ja":"正式題名はリンク先参照。特定訓練の追跡試験で、市販の全脳トレへの効果保証ではない。自己報告と客観評価を区別する。"},
-    {"id":"SRC034","title":"Children and Mental Health: Is This Just a Stage?","authors_display":"NIMH","year":2024,"journal":null,"source_type":"official_health_information","doi":null,"url":"https://www.nimh.nih.gov/health/publications/children-and-mental-health","verified_via_url":"https://www.nimh.nih.gov/health/publications/children-and-mental-health","verification_scope":"official_page_reviewed","notes_ja":"2024年改訂の子どもの心の健康・相談の解説。特定の育児介入の因果効果を検証した論文ではない。"},
-    {"id":"SRC035","title":"Parent Praise to 1- to 3-Year-Olds Predicts Children's Motivational Frameworks 5 Years Later","authors_display":"Gunderson EA; Gripshover SJ; Romero C; Dweck CS; Goldin-Meadow S; Levine SC","year":2013,"journal":"Child Development 84(5):1526–1541","source_type":"journal_article","doi":"10.1111/cdev.12064","url":"https://onlinelibrary.wiley.com/doi/10.1111/cdev.12064","verified_via_url":"https://onlinelibrary.wiley.com/doi/10.1111/cdev.12064","verification_scope":"abstract_reviewed","study_design":"longitudinal_observational","notes_ja":"家庭での褒め方と後の動機づけの関連。観察的予測を因果と断定し、保護者に責任を押し付けない。"}
-  ]
+    {
+      "id": "SRC001",
+      "title": "How Sleep Works",
+      "authors_display": "NHLBI",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nhlbi.nih.gov/health/sleep",
+      "verified_via_url": "https://www.nhlbi.nih.gov/health/sleep",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "睡眠の一般的な仕組みと健康への関わり。個別介入の効果を確定する資料ではない。"
+    },
+    {
+      "id": "SRC002",
+      "title": "Insomnia - Treatment",
+      "authors_display": "NHLBI",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+      "verified_via_url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "不眠治療と生活習慣の公的解説。睡眠制限など治療の自己実施を勧める資料にはしない。"
+    },
+    {
+      "id": "SRC003",
+      "title": "How Sleep Works - Your Sleep/Wake Cycle",
+      "authors_display": "NHLBI",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle",
+      "verified_via_url": "https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "体内時計、光、年齢などの基礎説明。具体的な時間・照度の推奨は追加確認する。"
+    },
+    {
+      "id": "SRC004",
+      "title": "What is heritability?",
+      "authors_display": "MedlinePlus Genetics / National Library of Medicine",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
+      "verified_via_url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "遺伝率は集団内のばらつきの指標で、個人の遺伝割合や不変性ではない。性格の具体的遺伝率を示す研究は別途必要。"
+    },
+    {
+      "id": "SRC005",
+      "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
+      "authors_display": "Mayhew AJ; Meyre D",
+      "year": 2017,
+      "journal": "Current Genomics 18(4):332–340",
+      "source_type": "journal_article",
+      "doi": "10.2174/1389202918666170307161450",
+      "url": "https://doi.org/10.2174/1389202918666170307161450",
+      "verified_via_url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "公的解説の参考文献欄で書誌を確認。原論文の全文・抄録と主張の対応は未精査。"
+    },
+    {
+      "id": "SRC006",
+      "title": "The heritability fallacy",
+      "authors_display": "Moore DS; Shenk D",
+      "year": 2017,
+      "journal": "Wiley Interdisciplinary Reviews: Cognitive Science 8(1–2)",
+      "source_type": "journal_article",
+      "doi": "10.1002/wcs.1400",
+      "url": "https://doi.org/10.1002/wcs.1400",
+      "verified_via_url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "公的解説の参考文献欄で書誌を確認。2017年は掲載号の年。"
+    },
+    {
+      "id": "SRC007",
+      "title": "Is nicotine addictive?",
+      "authors_display": "NIDA",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "ニコチンの依存・報酬・離脱・合図の概説。動物知見と人の知見を区別し、神経機序の詳細は原論文で確認する。"
+    },
+    {
+      "id": "SRC008",
+      "title": "Tobacco, Nicotine, and E-Cigarettes Research Report: References",
+      "authors_display": "NIDA",
+      "year": null,
+      "journal": null,
+      "source_type": "official_bibliography",
+      "doi": null,
+      "url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "SRC018–SRC021の書誌確認元。最新研究を網羅した検索結果ではない。"
+    },
+    {
+      "id": "SRC009",
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "authors_display": "Lally P; van Jaarsveld CHM; Potts HWW; Wardle J",
+      "year": 2010,
+      "journal": "European Journal of Social Psychology 40(6):998–1009",
+      "source_type": "journal_article",
+      "doi": "10.1002/ejsp.674",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+      "verified_via_url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "prospective_observational",
+      "notes_ja": "日常での習慣形成を追跡した研究。初回オンライン公開は2009年。推定期間を万人共通の21日・66日ルールにしない。"
+    },
+    {
+      "id": "SRC010",
+      "title": "Bedtime procrastination: introducing a new area of procrastination",
+      "authors_display": "Kroese FM; De Ridder DTD; Evers C; Adriaanse MA",
+      "year": 2014,
+      "journal": "Frontiers in Psychology 5:611",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2014.00611",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "verified_via_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "cross_sectional_self_report",
+      "notes_ja": "自己報告の関連研究。就寝先延ばしの因果機序や全種類の先延ばしへの一般化は未評価。参考文献も一部確認。"
+    },
+    {
+      "id": "SRC011",
+      "title": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+      "authors_display": "Holt-Lunstad J; Smith TB; Layton JB",
+      "year": 2010,
+      "journal": "PLOS Medicine 7(7):e1000316",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pmed.1000316",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316",
+      "verified_via_url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "meta_analysis_of_observational_studies",
+      "notes_ja": "社会関係と死亡リスクの関連。友人を増やす介入の因果効果や個人の寿命予測とは別。"
+    },
+    {
+      "id": "SRC012",
+      "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+      "authors_display": "Kross E; Verduyn P; Demiralp E; et al.",
+      "year": 2013,
+      "journal": "PLOS ONE 8(8):e69841",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pone.0069841",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841",
+      "verified_via_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "observational_experience_sampling",
+      "notes_ja": "若年成人と当時のFacebookを対象とする短期研究。現在の全SNS・全年齢への因果的な結論にはしない。"
+    },
+    {
+      "id": "SRC013",
+      "title": "Meditation and Mindfulness: Effectiveness and Safety",
+      "authors_display": "NCCIH",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "verified_via_url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "複数用途の概説と限界・有害事象。介入の種類や対照群で結果が異なり、通常医療の代替としない。"
+    },
+    {
+      "id": "SRC014",
+      "title": "Caring for Your Mental Health",
+      "authors_display": "NIMH",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+      "verified_via_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。"
+    },
+    {
+      "id": "SRC015",
+      "title": "Why Most Published Research Findings Are False",
+      "authors_display": "Ioannidis JPA",
+      "year": 2005,
+      "journal": "PLOS Medicine 2(8):e124",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pmed.0020124",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124",
+      "verified_via_url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124",
+      "verification_scope": "article_text_reviewed",
+      "study_design": "methodological_essay_model",
+      "notes_ja": "方法論的な論考。心理学研究の大半が誤りと実測した論文ではない。全文の批判的査読相当の評価は未実施。",
+      "correction_notes_ja": "2022-08-25の訂正告知を確認。DOI:10.1371/journal.pmed.1004085。訂正内容の影響評価は未実施。撤回と同一視しない。"
+    },
+    {
+      "id": "SRC016",
+      "title": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "authors_display": "Camerer CF; Dreber A; Holzmeister F; et al.",
+      "year": 2018,
+      "journal": "Nature Human Behaviour 2:637–644",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41562-018-0399-z",
+      "url": "https://www.nature.com/articles/s41562-018-0399-z",
+      "verified_via_url": "https://www.nature.com/articles/s41562-018-0399-z",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "multi_study_replication_project",
+      "notes_ja": "選ばれた社会科学実験の追試。対象集合の再現率を全心理学へ機械的に一般化しない。"
+    },
+    {
+      "id": "SRC017",
+      "title": "A randomised controlled trial of dietary improvement for adults with major depression (the ‘SMILES’ trial)",
+      "authors_display": "Jacka FN; O’Neil A; Opie R; et al.",
+      "year": 2017,
+      "journal": "BMC Medicine 15:23",
+      "source_type": "journal_article",
+      "doi": "10.1186/s12916-017-0791-y",
+      "url": "https://link.springer.com/article/10.1186/s12916-017-0791-y",
+      "verified_via_url": "https://link.springer.com/article/10.1186/s12916-017-0791-y",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "randomized_controlled_trial",
+      "notes_ja": "食事改善を補助的治療として検討した小規模試験。食事だけで治るという推奨にしない。",
+      "correction_notes_ja": "掲載ページに2018-12-28の訂正・関連議論への案内あり。内容と結論への影響は記事化前に確認する。"
+    },
+    {
+      "id": "SRC018",
+      "title": "Association between nicotine dependence severity, BOLD response to smoking cues, and functional connectivity",
+      "authors_display": "Claus ED; Blaine SK; Filbey FM; Mayer AR; Hutchison KE",
+      "year": 2013,
+      "journal": "Neuropsychopharmacology 38(12):2363–2372",
+      "source_type": "journal_article",
+      "doi": "10.1038/npp.2013.134",
+      "url": "https://doi.org/10.1038/npp.2013.134",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "NIDAの参考文献で書誌確認。結果の方向・効果量・脳画像と行動の対応は未精査。"
+    },
+    {
+      "id": "SRC019",
+      "title": "Cognitive function during nicotine withdrawal: Implications for nicotine dependence treatment",
+      "authors_display": "Ashare RL; Falcone M; Lerman C",
+      "year": 2014,
+      "journal": "Neuropharmacology 76 Pt B:581–591",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.neuropharm.2013.04.034",
+      "url": "https://doi.org/10.1016/j.neuropharm.2013.04.034",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "書誌確認のみ。離脱症状の緩和と非喫煙者の認知能力向上を区別する必要がある。"
+    },
+    {
+      "id": "SRC020",
+      "title": "Sleep changes in smokers before, during and 3 months after nicotine withdrawal",
+      "authors_display": "Jaehne A; Unbehaun T; Feige B; et al.",
+      "year": 2015,
+      "journal": "Addiction Biology 20(4):747–755",
+      "source_type": "journal_article",
+      "doi": "10.1111/adb.12151",
+      "url": "https://doi.org/10.1111/adb.12151",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "書誌確認のみ。睡眠変化の期間や個人差は原文で確認する。"
+    },
+    {
+      "id": "SRC021",
+      "title": "Combined pharmacotherapy and behavioural interventions for smoking cessation",
+      "authors_display": "Stead LF; Koilpillai P; Fanshawe TR; Lancaster T",
+      "year": 2016,
+      "journal": "Cochrane Database of Systematic Reviews 3:CD008286",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.CD008286.pub3",
+      "url": "https://doi.org/10.1002/14651858.CD008286.pub3",
+      "verified_via_url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/references",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "旧レビューの書誌確認。最新の推奨や国内の薬の承認・禁忌・供給の根拠にはそのまま使わない。"
+    },
+    {
+      "id": "SRC022",
+      "title": "Adverse events in meditation practices and meditation-based therapies: a systematic review",
+      "authors_display": "Farias M; Maraldi E; Wallenkampf KC; Lucchetti G",
+      "year": 2020,
+      "journal": "Acta Psychiatrica Scandinavica 142(5):374–393",
+      "source_type": "journal_article",
+      "doi": "10.1111/acps.13225",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32820538/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/32820538/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "systematic_review",
+      "notes_ja": "実験・観察・事例報告を含む有害事象のレビュー。頻度は収集方法や研究形式で変わる。"
+    },
+    {
+      "id": "SRC023",
+      "title": "The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials",
+      "authors_display": "Rusch HL; Rosario M; Levison LM; et al.",
+      "year": 2019,
+      "journal": "Annals of the New York Academy of Sciences 1445(1):5–16",
+      "source_type": "journal_article",
+      "doi": "10.1111/nyas.13996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30575050/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/30575050/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "systematic_review_meta_analysis",
+      "notes_ja": "比較対象別に評価しており、有効な既存治療との比較と非特異的対照との比較を混同しない。未割当の追加調査候補資料。"
+    },
+    {
+      "id": "SRC024",
+      "title": "Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis",
+      "authors_display": "Hilton L; Hempel S; Ewing BA; et al.",
+      "year": 2017,
+      "journal": "Annals of Behavioral Medicine 51(2):199–213",
+      "source_type": "journal_article",
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27658913/",
+      "verified_via_url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "公的ページの参考文献とPubMedへのリンクを確認。原論文の詳細評価は未実施。痛みを気のせいと扱わない。"
+    },
+    {
+      "id": "SRC025",
+      "title": "Mindfulness-based relapse prevention for substance use disorders: a systematic review and meta-analysis",
+      "authors_display": "Grant S; Colaiaco B; Motala A; et al.",
+      "year": 2017,
+      "journal": "Journal of Addiction Medicine 11(5):386–396",
+      "source_type": "journal_article",
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28727663/",
+      "verified_via_url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "公的ページの参考文献で書誌を確認。原論文本文・抄録は未取得。未割当の追加調査候補資料。"
+    },
+    {
+      "id": "SRC026",
+      "title": "How do implementation intentions promote goal attainment? A test of component processes",
+      "authors_display": "Webb TL; Sheeran P",
+      "year": 2007,
+      "journal": "Journal of Experimental Social Psychology 43:295–302",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jesp.2006.02.001",
+      "url": "https://doi.org/10.1016/j.jesp.2006.02.001",
+      "verified_via_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "SRC010の参考文献欄で書誌を確認。効果量や日常行動への一般化は未評価。"
+    },
+    {
+      "id": "SRC027",
+      "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
+      "authors_display": "Dunlosky J; Rawson KA; Marsh EJ; Nathan MJ; Willingham DT",
+      "year": 2013,
+      "journal": "Psychological Science in the Public Interest 14(1):4–58",
+      "source_type": "journal_article",
+      "doi": "10.1177/1529100612453266",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "review",
+      "notes_ja": "複数の学習方法を扱う基礎レビュー。2013年時点の評価を現在の最終結論にしない。"
+    },
+    {
+      "id": "SRC028",
+      "title": "I’m So Stressed Out! Fact Sheet",
+      "authors_display": "NIMH",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "verified_via_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "ストレス・不安・セルフケア・相談に関する概説。呼吸法や筆記介入の個別試験の代わりにはしない。"
+    },
+    {
+      "id": "SRC029",
+      "title": "Psychotherapies",
+      "authors_display": "NIMH",
+      "year": null,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "verified_via_url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "心理療法と相談先の基礎解説。個別AI相談製品の有効性を検証した資料ではない。"
+    },
+    {
+      "id": "SRC030",
+      "title": "Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being",
+      "authors_display": "Gross JJ; John OP",
+      "year": 2003,
+      "journal": "Journal of Personality and Social Psychology 85(2):348–362",
+      "source_type": "journal_article",
+      "doi": "10.1037/0022-3514.85.2.348",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12916575/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/12916575/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "individual_difference_multi_study",
+      "notes_ja": "再評価・表出抑制の個人差と関連を検討。介入の因果的効果とは区別する。"
+    },
+    {
+      "id": "SRC031",
+      "title": "Physical activity",
+      "authors_display": "World Health Organization",
+      "year": 2024,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "verified_via_url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "2024-06-26付の公的ファクトシート。身体活動と座位行動の概説で、特定の運動処方や単回介入の効果量は別途確認する。"
+    },
+    {
+      "id": "SRC032",
+      "title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake",
+      "authors_display": "Hall KD; Ayuketah A; Brychta R; et al.",
+      "year": 2019,
+      "journal": "Cell Metabolism 30(1):67–77.e3",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cmet.2019.05.008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "randomized_inpatient_crossover_trial",
+      "notes_ja": "短期の食事比較。摂取量の差を単一の添加物・食べる速度・全食品の長期疾患リスクに還元しない。",
+      "correction_notes_ja": "PubMedに訂正2件の案内あり。DOI:10.1016/j.cmet.2019.05.020、10.1016/j.cmet.2020.08.014。影響評価は未実施。"
+    },
+    {
+      "id": "SRC033",
+      "title": "ACTIVE cognitive training trial: ten-year outcomes in cognition and everyday functioning",
+      "title_form": "editorial_short_title",
+      "authors_display": "Rebok GW; Ball K; Guey LT; et al.; ACTIVE Study Group",
+      "year": 2014,
+      "journal": "Journal of the American Geriatrics Society 62(1):16–24",
+      "source_type": "journal_article",
+      "doi": "10.1111/jgs.12607",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24417410/",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/24417410/",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "randomized_trial_long_term_followup",
+      "notes_ja": "正式題名はリンク先参照。特定訓練の追跡試験で、市販の全脳トレへの効果保証ではない。自己報告と客観評価を区別する。"
+    },
+    {
+      "id": "SRC034",
+      "title": "Children and Mental Health: Is This Just a Stage?",
+      "authors_display": "NIMH",
+      "year": 2024,
+      "journal": null,
+      "source_type": "official_health_information",
+      "doi": null,
+      "url": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "verified_via_url": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "2024年改訂の子どもの心の健康・相談の解説。特定の育児介入の因果効果を検証した論文ではない。"
+    },
+    {
+      "id": "SRC035",
+      "title": "Parent Praise to 1- to 3-Year-Olds Predicts Children's Motivational Frameworks 5 Years Later",
+      "authors_display": "Gunderson EA; Gripshover SJ; Romero C; Dweck CS; Goldin-Meadow S; Levine SC",
+      "year": 2013,
+      "journal": "Child Development 84(5):1526–1541",
+      "source_type": "journal_article",
+      "doi": "10.1111/cdev.12064",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cdev.12064",
+      "verified_via_url": "https://onlinelibrary.wiley.com/doi/10.1111/cdev.12064",
+      "verification_scope": "abstract_reviewed",
+      "study_design": "longitudinal_observational",
+      "notes_ja": "家庭での褒め方と後の動機づけの関連。観察的予測を因果と断定し、保護者に責任を押し付けない。"
+    },
+    {
+      "id": "SRC036",
+      "title": "Heritability of personality: A meta-analysis of behavior genetic studies.",
+      "authors_display": "Vukasović T, Bratko D.",
+      "year": 2015,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000017",
+      "pmid": "25961374",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25961374/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Heritability+of+personality%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-05-11",
+      "provenance_query_ids": [
+        "SEED-001",
+        "DISC-PSY-GEN-001"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC037",
+      "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
+      "authors_display": "Mõttus R, Kandler C, Luciano M, Esko T, Vainik U, Estonian Biobank Research Team.",
+      "year": 2025,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspp0000550",
+      "pmid": "40146588",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40146588/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Heritability+of+personality%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2025-03-27",
+      "provenance_query_ids": [
+        "SEED-001"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR977966",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC038",
+      "title": "Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial.",
+      "authors_display": "Gardiner CL, Weakley J, Burke LM, Fernandez F, Johnston RD, Leota J, Russell S, Munteanu G, Townshend A, Halson SL.",
+      "year": 2025,
+      "journal": "Sleep",
+      "source_type": "journal_article",
+      "doi": "10.1093/sleep/zsae230",
+      "pmid": "39377163",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39377163/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Dose+and+timing+effects+of+caffeine%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2025-04-01",
+      "provenance_query_ids": [
+        "SEED-002"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC039",
+      "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants.",
+      "authors_display": "Singh B, Murphy A, Maher C, Smith AE.",
+      "year": 2024,
+      "journal": "Healthcare (Basel, Switzerland)",
+      "source_type": "journal_article",
+      "doi": "10.3390/healthcare12232488",
+      "pmid": "39685110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39685110/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Time+to+Form+a+Habit%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-12-09",
+      "provenance_query_ids": [
+        "SEED-003"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC040",
+      "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline.",
+      "authors_display": "Edinger JD, Arnedt JT, Bertisch SM, Carney CE, Harrington JJ, Lichstein KL, Sateia MJ, Troxel WM, Zhou ES, Kazmi U, Heald JL, Martin JL.",
+      "year": 2021,
+      "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+      "source_type": "journal_article",
+      "doi": "10.5664/jcsm.8986",
+      "pmid": "33164742",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Behavioral+and+psychological+treatments+for+chronic+insomnia%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-02-01",
+      "provenance_query_ids": [
+        "SEED-004"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "35029927",
+          "source": "MED",
+          "reference": "Am Fam Physician. 2022 Jan 1;105(1):97-98.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC041",
+      "title": "Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults.",
+      "authors_display": "Brown TM, Brainard GC, Cajochen C, Czeisler CA, Hanifin JP, Lockley SW, Lucas RJ, Münch M, O'Hagan JB, Peirson SN, Price LLA, Roenneberg T, Schlangen LJM, Skene DJ, Spitschan M, Vetter C, Zee PC, Wright KP.",
+      "year": 2022,
+      "journal": "PLoS biology",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pbio.3001571",
+      "pmid": "35298459",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35298459/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Recommendations+for+daytime%22+AND+light%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2022-03-17",
+      "provenance_query_ids": [
+        "SEED-005"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR247458",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC042",
+      "title": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation.",
+      "authors_display": "Van Dongen HP, Maislin G, Mullington JM, Dinges DF.",
+      "year": 2003,
+      "journal": "Sleep",
+      "source_type": "journal_article",
+      "doi": "10.1093/sleep/26.2.117",
+      "pmid": "12683469",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12683469/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22The+cumulative+cost+of+additional+wakefulness%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2003-03-01",
+      "provenance_query_ids": [
+        "SEED-006"
+      ],
+      "indexed_related_records": [
+        {
+          "source": "MED",
+          "reference": "Sleep. 2004 Jun 15;27(4):600",
+          "type": "Erratum in",
+          "orderIn": 1
+        },
+        {
+          "id": "12749539",
+          "source": "MED",
+          "reference": "Sleep. 2003 May 1;26(3):247-8; discussion 249.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC043",
+      "title": "Pharmacological and electronic cigarette interventions for smoking cessation in adults: component network meta-analyses.",
+      "authors_display": "Lindson N, Theodoulou A, Ordóñez-Mena JM, Fanshawe TR, Sutton AJ, Livingstone-Banks J, Hajizadeh A, Zhu S, Aveyard P, Freeman SC, Agrawal S, Hartmann-Boyce J.",
+      "year": 2023,
+      "journal": "The Cochrane database of systematic reviews",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.cd015226.pub2",
+      "pmid": "37696529",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37696529/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Pharmacological+and+electronic+cigarette+interventions%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-09-12",
+      "provenance_query_ids": [
+        "SEED-008"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC044",
+      "title": "Smoking cessation for improving mental health.",
+      "authors_display": "Taylor GM, Lindson N, Farley A, Leinberger-Jabari A, Sawyer K, Te Water Naudé R, Theodoulou A, King N, Burke C, Aveyard P.",
+      "year": 2021,
+      "journal": "The Cochrane database of systematic reviews",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.cd013522.pub2",
+      "pmid": "33687070",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33687070/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Smoking+cessation+for+improving+mental+health%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-03-09",
+      "provenance_query_ids": [
+        "SEED-009"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "33795507",
+          "source": "MED",
+          "reference": "Saudi Med J. 2021 Apr;42(4):459-460.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC045",
+      "title": "Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence.",
+      "authors_display": "Harkin B, Webb TL, Chang BP, Prestwich A, Conner M, Kellar I, Benn Y, Sheeran P.",
+      "year": 2016,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000025",
+      "pmid": "26479070",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26479070/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Does+monitoring+goal+progress%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-10-19",
+      "provenance_query_ids": [
+        "SEED-010"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC046",
+      "title": "A systematic review of personality trait change through intervention.",
+      "authors_display": "Roberts BW, Luo J, Briley DA, Chow PI, Su R, Hill PL.",
+      "year": 2017,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000088",
+      "pmid": "28054797",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22personality+trait+change+through+intervention%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2017-01-05",
+      "provenance_query_ids": [
+        "SEED-011"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC047",
+      "title": "Changing personality traits with the help of a digital personality change intervention.",
+      "authors_display": "Stieger M, Flückiger C, Rüegger D, Kowatsch T, Roberts BW, Allemand M.",
+      "year": 2021,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.2017548118",
+      "pmid": "33558417",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33558417/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Changing+personality+traits%22+AND+digital%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-02-01",
+      "provenance_query_ids": [
+        "SEED-012"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR322941",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC048",
+      "title": "To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses.",
+      "authors_display": "Sisk VF, Burgoyne AP, Sun J, Butler JL, Macnamara BN.",
+      "year": 2018,
+      "journal": "Psychological science",
+      "source_type": "journal_article",
+      "doi": "10.1177/0956797617739704",
+      "pmid": "29505339",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29505339/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22To+What+Extent+and+Under+Which+Circumstances%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-03-05",
+      "provenance_query_ids": [
+        "SEED-014"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC049",
+      "title": "A national experiment reveals where a growth mindset improves achievement.",
+      "authors_display": "Yeager DS, Hanselman P, Walton GM, Murray JS, Crosnoe R, Muller C, Tipton E, Schneider B, Hulleman CS, Hinojosa CP, Paunesku D, Romero C, Flint K, Roberts A, Trott J, Iachan R, Buontempo J, Yang SM, Carvalho CM, Hahn PR, Gopalan M, Mhatre P, Ferguson R, Duckworth AL, Dweck CS.",
+      "year": 2019,
+      "journal": "Nature",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41586-019-1466-y",
+      "pmid": "31391586",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31391586/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22A+national+experiment+reveals%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2019-08-07",
+      "provenance_query_ids": [
+        "SEED-015"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "31494041",
+          "source": "MED",
+          "reference": "Trends Cogn Sci. 2019 Nov;23(11):910-912. doi: 10.1016/j.tics.2019.08.005",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC050",
+      "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
+      "authors_display": "Yang C, Luo L, Vadillo MA, Yu R, Shanks DR.",
+      "year": 2021,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000309",
+      "pmid": "33683913",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33683913/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Testing%22+AND+TITLE%3A%22classroom+learning%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-03-08",
+      "provenance_query_ids": [
+        "SEED-016"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC051",
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+      "authors_display": "Cepeda NJ, Pashler H, Vul E, Wixted JT, Rohrer D.",
+      "year": 2006,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/0033-2909.132.3.354",
+      "pmid": "16719566",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Distributed+practice+in+verbal+recall%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2006-05-01",
+      "provenance_query_ids": [
+        "SEED-017"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC052",
+      "title": "Similarity matters: A meta-analysis of interleaved learning and its moderators.",
+      "authors_display": "Brunmair M, Richter T.",
+      "year": 2019,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000209",
+      "pmid": "31556629",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31556629/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22meta-analysis+of+interleaved+learning%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2019-09-26",
+      "provenance_query_ids": [
+        "SEED-018"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC053",
+      "title": "Learning Styles: Concepts and Evidence.",
+      "authors_display": "Pashler H, McDaniel M, Rohrer D, Bjork R.",
+      "year": 2008,
+      "journal": "Psychological science in the public interest : a journal of the American Psychological Society",
+      "source_type": "journal_article",
+      "doi": "10.1111/j.1539-6053.2009.01038.x",
+      "pmid": "26162104",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26162104/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Learning+styles%22+AND+TITLE%3A%22evidence%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2008-12-01",
+      "provenance_query_ids": [
+        "SEED-019"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC054",
+      "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance.",
+      "authors_display": "Albulescu P, Macsinga I, Rusu A, Sulea C, Bodnaru A, Tulbure BT.",
+      "year": 2022,
+      "journal": "PloS one",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pone.0272460",
+      "pmid": "36044424",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36044424/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22micro-breaks%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2022-08-31",
+      "provenance_query_ids": [
+        "SEED-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC055",
+      "title": "The attentional cost of receiving a cell phone notification.",
+      "authors_display": "Stothart C, Mitchum A, Yehnert C.",
+      "year": 2015,
+      "journal": "Journal of experimental psychology. Human perception and performance",
+      "source_type": "journal_article",
+      "doi": "10.1037/xhp0000100",
+      "pmid": "26121498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26121498/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22attentional+cost%22+AND+notification%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-06-29",
+      "provenance_query_ids": [
+        "SEED-021"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC056",
+      "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
+      "authors_display": "Webb TL, Miles E, Sheeran P.",
+      "year": 2012,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0027600",
+      "pmid": "22582737",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22582737/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Dealing+with+feeling%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2012-05-14",
+      "provenance_query_ids": [
+        "SEED-023"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "23607433",
+          "source": "MED",
+          "reference": "Psychol Bull. 2013 May;139(3):725-9. doi: 10.1037/a0030026",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC057",
+      "title": "Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials.",
+      "authors_display": "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K.",
+      "year": 2023,
+      "journal": "Scientific reports",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41598-022-27247-y",
+      "pmid": "36624160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36624160/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+breathwork+on+stress%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-01-09",
+      "provenance_query_ids": [
+        "SEED-024"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC058",
+      "title": "A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage?",
+      "authors_display": "Kjærvik SL, Bushman BJ.",
+      "year": 2024,
+      "journal": "Clinical psychology review",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cpr.2024.102414",
+      "pmid": "38518585",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38518585/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22anger%22+AND+TITLE%3A%22arousal%22+AND+FIRST_PDATE%3A%5B2024-01-01+TO+2024-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-03-11",
+      "provenance_query_ids": [
+        "SEED-025"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC059",
+      "title": "Mindfulness-based programmes for mental health promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised controlled trials.",
+      "authors_display": "Galante J, Friedrich C, Dawson AF, Modrego-Alarcón M, Gebbing P, Delgado-Suárez I, Gupta R, Dean L, Dalgleish T, White IR, Jones PB.",
+      "year": 2021,
+      "journal": "PLoS medicine",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pmed.1003481",
+      "pmid": "33428616",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33428616/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Mindfulness-based+programmes%22+AND+TITLE%3A%22nonclinical%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-01-11",
+      "provenance_query_ids": [
+        "SEED-027"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC060",
+      "title": "Effect of Pain Reprocessing Therapy vs Placebo and Usual Care for Patients With Chronic Back Pain: A Randomized Clinical Trial.",
+      "authors_display": "Ashar YK, Gordon A, Schubiner H, Uipi C, Knight K, Anderson Z, Carlisle J, Polisky L, Geuter S, Flood TF, Kragel PA, Dimidjian S, Lumley MA, Wager TD.",
+      "year": 2022,
+      "journal": "JAMA psychiatry",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamapsychiatry.2021.2669",
+      "pmid": "34586357",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34586357/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+Pain+Reprocessing+Therapy%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2022-01-01",
+      "provenance_query_ids": [
+        "SEED-028"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "35044434",
+          "source": "MED",
+          "reference": "JAMA Psychiatry. 2022 Mar 1;79(3):271-272. doi: 10.1001/jamapsychiatry.2021.3963",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "35044441",
+          "source": "MED",
+          "reference": "JAMA Psychiatry. 2022 Mar 1;79(3):272. doi: 10.1001/jamapsychiatry.2021.3966",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC061",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "authors_display": "Noetel M, Sanders T, Gallardo-Gómez D, Taylor P, Del Pozo Cruz B, van den Hoek D, Smith JJ, Mahoney J, Spathis J, Moresi M, Pagano R, Pagano L, Vasconcellos R, Arnott H, Varley B, Parker P, Biddle S, Lonsdale C.",
+      "year": 2024,
+      "journal": "BMJ (Clinical research ed.)",
+      "source_type": "journal_article",
+      "doi": "10.1136/bmj-2023-075847",
+      "pmid": "38355154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38355154/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-02-14",
+      "provenance_query_ids": [
+        "SEED-029"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "38355168",
+          "source": "MED",
+          "reference": "BMJ. 2024 Feb 14;384:q320. doi: 10.1136/bmj.q320.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "38471734",
+          "source": "MED",
+          "reference": "BMJ. 2024 Mar 12;384:q609. doi: 10.1136/bmj.q609.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "38499300",
+          "source": "MED",
+          "reference": "BMJ. 2024 Mar 18;384:q617. doi: 10.1136/bmj.q617.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "38806193",
+          "source": "MED",
+          "reference": "BMJ. 2024 May 28;385:q1024. doi: 10.1136/bmj.q1024.",
+          "type": "Erratum in",
+          "orderIn": 4
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC062",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "authors_display": "書誌に著者記載なし",
+      "year": 2024,
+      "journal": "BMJ (Clinical research ed.)",
+      "source_type": "journal_article",
+      "doi": "10.1136/bmj.q1024",
+      "pmid": "38806193",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38806193/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "関連する訂正告知。独立した効果検証研究の件数には含めない。 書誌のみ確認。訂正の内容と結論への影響は未精査。",
+      "accessed_on": "2026-09-11",
+      "record_role": "correction_notice",
+      "first_publication_date": "2024-05-28",
+      "provenance_query_ids": [
+        "SEED-029",
+        "SUP-013"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "38355154",
+          "source": "MED",
+          "reference": "BMJ. 2024 Feb 14;384:e075847. doi: 10.1136/bmj-2023-075847",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC063",
+      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
+      "authors_display": "Munro NR, Teague S, Somoray K, Simpson A, Budden T, Jackson B, Rebar A, Dimmock J.",
+      "year": 2026,
+      "journal": "British journal of sports medicine",
+      "source_type": "journal_article",
+      "doi": "10.1136/bjsports-2025-110301",
+      "pmid": "41667154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41667154/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2026-03-31",
+      "provenance_query_ids": [
+        "SEED-029"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC064",
+      "title": "Loneliness and social isolation as risk factors for mortality: a meta-analytic review.",
+      "authors_display": "Holt-Lunstad J, Smith TB, Baker M, Harris T, Stephenson D.",
+      "year": 2015,
+      "journal": "Perspectives on psychological science : a journal of the Association for Psychological Science",
+      "source_type": "journal_article",
+      "doi": "10.1177/1745691614568352",
+      "pmid": "25910392",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25910392/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Loneliness+and+Social+Isolation+as+Risk+Factors+for+Mortality%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-03-01",
+      "provenance_query_ids": [
+        "SEED-030"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC065",
+      "title": "The bystander-effect: a meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+      "authors_display": "Fischer P, Krueger JI, Greitemeyer T, Vogrincic C, Kastenmüller A, Frey D, Heene M, Wicher M, Kainbacher M.",
+      "year": 2011,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0023304",
+      "pmid": "21534650",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21534650/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22bystander-effect%22+AND+TITLE%3A%22meta-analytic%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2011-07-01",
+      "provenance_query_ids": [
+        "SEED-031"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC066",
+      "title": "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration.",
+      "authors_display": "Coles NA, March DS, Marmolejo-Ramos F, Larsen JT, Arinze NC, Ndukaihe ILG, Willis ML, Foroni F, Reggev N, Mokady A, Forscher PS, Hunter JF, Kaminski G, Yüvrük E, Kapucu A, Nagy T, Hajdu N, Tejada J, Freitag RMK, Zambrano D, Som B, Aczel B, Barzykowski K, Adamus S, Filip K, Yamada Y, Ikeda A, Eaves DL, Levitan CA, Leiweke S, Parzuchowski M, Butcher N, Pfuhl G, Basnight-Brown DM, Hinojosa JA, Montoro PR, Javela D LG, Vezirian K, IJzerman H, Trujillo N, Pressman SD, Gygax PM, Özdoğru AA, Ruiz-Fernandez S, Ellsworth PC, Gaertner L, Strack F, Marozzi M, Liuzza MT.",
+      "year": 2022,
+      "journal": "Nature human behaviour",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41562-022-01458-9",
+      "pmid": "36266452",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36266452/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22multi-lab%22+AND+TITLE%3A%22facial+feedback%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2022-10-20",
+      "provenance_query_ids": [
+        "SEED-032"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR324358",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "Link created based on a title-first author match",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC067",
+      "title": "Shifting attention to accuracy can reduce misinformation online.",
+      "authors_display": "Pennycook G, Epstein Z, Mosleh M, Arechar AA, Eckles D, Rand DG.",
+      "year": 2021,
+      "journal": "Nature",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41586-021-03344-2",
+      "pmid": "33731933",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33731933/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Shifting+attention+to+accuracy%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-03-17",
+      "provenance_query_ids": [
+        "SEED-033"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "33731950",
+          "source": "MED",
+          "reference": "Nature. 2021 Mar;591(7850):347. doi: 10.1038/d41586-021-00657-0",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "PPR322073",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "Link created based on a title-first author match",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC068",
+      "title": "Income and emotional well-being: A conflict resolved.",
+      "authors_display": "Killingsworth MA, Kahneman D, Mellers B.",
+      "year": 2023,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.2208661120",
+      "pmid": "36857342",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36857342/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Income+and+emotional+well-being%22+AND+TITLE%3A%22conflict%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-03-01",
+      "provenance_query_ids": [
+        "SEED-034"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC069",
+      "title": "Buying time promotes happiness.",
+      "authors_display": "Whillans AV, Dunn EW, Smeets P, Bekkers R, Norton MI.",
+      "year": 2017,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.1706541114",
+      "pmid": "28739889",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28739889/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Buying+time+promotes+happiness%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2017-07-24",
+      "provenance_query_ids": [
+        "SEED-035"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC070",
+      "title": "Spending at least 120 minutes a week in nature is associated with good health and wellbeing.",
+      "authors_display": "White MP, Alcock I, Grellier J, Wheeler BW, Hartig T, Warber SL, Bone A, Depledge MH, Fleming LE.",
+      "year": 2019,
+      "journal": "Scientific reports",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41598-019-44097-3",
+      "pmid": "31197192",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31197192/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Spending+at+least+120+minutes%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2019-06-13",
+      "provenance_query_ids": [
+        "SEED-036"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC071",
+      "title": "Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis.",
+      "authors_display": "Haghayegh S, Khoshnevis S, Smolensky MH, Diller KR, Castriotta RJ.",
+      "year": 2019,
+      "journal": "Sleep medicine reviews",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.smrv.2019.04.008",
+      "pmid": "31102877",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31102877/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Before-bedtime+passive+body+heating%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2019-04-19",
+      "provenance_query_ids": [
+        "SEED-037"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC072",
+      "title": "Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial.",
+      "authors_display": "Tasali E, Wroblewski K, Kahn E, Kilkus J, Schoeller DA.",
+      "year": 2022,
+      "journal": "JAMA internal medicine",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamainternmed.2021.8098",
+      "pmid": "35129580",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35129580/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+Sleep+Extension%22+AND+TITLE%3A%22Energy+Intake%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2022-04-01",
+      "provenance_query_ids": [
+        "SEED-038"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "35129582",
+          "source": "MED",
+          "reference": "JAMA Intern Med. 2022 Apr 1;182(4):374-375. doi: 10.1001/jamainternmed.2021.8063",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "35650485",
+          "source": "MED",
+          "reference": "MMW Fortschr Med. 2022 Jun;164(11):26-27. doi: 10.1007/s15006-022-1081-y",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC073",
+      "title": "Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial.",
+      "authors_display": "Lin FR, Pike JR, Albert MS, Arnold M, Burgard S, Chisolm T, Couper D, Deal JA, Goman AM, Glynn NW, Gmelin T, Gravens-Mueller L, Hayden KM, Huang AR, Knopman D, Mitchell CM, Mosley T, Pankow JS, Reed NS, Sanchez V, Schrack JA, Windham BG, Coresh J, ACHIEVE Collaborative Research Group.",
+      "year": 2023,
+      "journal": "Lancet (London, England)",
+      "source_type": "journal_article",
+      "doi": "10.1016/s0140-6736(23)01406-x",
+      "pmid": "37478886",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37478886/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Hearing+intervention+versus+health+education%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-07-18",
+      "provenance_query_ids": [
+        "SEED-041"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "37478885",
+          "source": "MED",
+          "reference": "Lancet. 2023 Sep 2;402(10404):750-751. doi: 10.1016/S0140-6736(23)01472-1.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "38693374",
+          "source": "MED",
+          "reference": "MMW Fortschr Med. 2024 May;166(8):24-26. doi: 10.1007/s15006-024-3880-9.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "38971589",
+          "source": "MED",
+          "reference": "Lancet. 2024 Jul 6;404(10447):29. doi: 10.1016/S0140-6736(24)00711-6.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "38971590",
+          "source": "MED",
+          "reference": "Lancet. 2024 Jul 6;404(10447):29-30. doi: 10.1016/S0140-6736(24)00712-8.",
+          "type": "Comment in",
+          "orderIn": 4
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC074",
+      "title": "A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial.",
+      "authors_display": "Ngandu T, Lehtisalo J, Solomon A, Levälahti E, Ahtiluoto S, Antikainen R, Bäckman L, Hänninen T, Jula A, Laatikainen T, Lindström J, Mangialasche F, Paajanen T, Pajala S, Peltonen M, Rauramaa R, Stigsdotter-Neely A, Strandberg T, Tuomilehto J, Soininen H, Kivipelto M.",
+      "year": 2015,
+      "journal": "Lancet (London, England)",
+      "source_type": "journal_article",
+      "doi": "10.1016/s0140-6736(15)60461-5",
+      "pmid": "25771249",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22multidomain+intervention%22+AND+TITLE%3A%22FINGER%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-03-12",
+      "provenance_query_ids": [
+        "SEED-042"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "25799934",
+          "source": "MED",
+          "reference": "Nat Rev Neurol. 2015 May;11(5):248. doi: 10.1038/nrneurol.2015.50",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "26595628",
+          "source": "MED",
+          "reference": "Lancet. 2015 Oct 24;386(10004):1625-6. doi: 10.1016/S0140-6736(15)00529-2",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "26595629",
+          "source": "MED",
+          "reference": "Lancet. 2015 Oct 24;386(10004):1626-7. doi: 10.1016/S0140-6736(15)00530-9",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "26595631",
+          "source": "MED",
+          "reference": "Lancet. 2015 Oct 24;386(10004):1627. doi: 10.1016/S0140-6736(15)00531-0",
+          "type": "Comment in",
+          "orderIn": 4
+        },
+        {
+          "id": "26688322",
+          "source": "MED",
+          "reference": "Mov Disord. 2016 Mar;31(3):299. doi: 10.1002/mds.26449",
+          "type": "Comment in",
+          "orderIn": 5
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC075",
+      "title": "Interventions for improving psychological detachment from work: A meta-analysis.",
+      "authors_display": "Karabinski T, Haun VC, Nübold A, Wendsche J, Wegge J.",
+      "year": 2021,
+      "journal": "Journal of occupational health psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/ocp0000280",
+      "pmid": "34096763",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22psychological+detachment%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-06-01",
+      "provenance_query_ids": [
+        "SEED-047"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC076",
+      "title": "Poverty impedes cognitive function.",
+      "authors_display": "Mani A, Mullainathan S, Shafir E, Zhao J.",
+      "year": 2013,
+      "journal": "Science (New York, N.Y.)",
+      "source_type": "journal_article",
+      "doi": "10.1126/science.1238041",
+      "pmid": "23990553",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23990553/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Poverty+impedes+cognitive+function%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2013-08-01",
+      "provenance_query_ids": [
+        "SEED-050"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "23990551",
+          "source": "MED",
+          "reference": "Science. 2013 Aug 30;341(6149):969-70. doi: 10.1126/science.1244172",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "24311665",
+          "source": "MED",
+          "reference": "Science. 2013 Dec 6;342(6163):1169. doi: 10.1126/science.1246680",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "24311666",
+          "source": "MED",
+          "reference": "Science. 2013 Dec 6;342(6163):1169. doi: 10.1126/science.1246799",
+          "type": "Comment in",
+          "orderIn": 3
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC077",
+      "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies.",
+      "authors_display": "Joel S, Eastwick PW, Allison CJ, Arriaga XB, Baker ZG, Bar-Kalifa E, Bergeron S, Birnbaum GE, Brock RL, Brumbaugh CC, Carmichael CL, Chen S, Clarke J, Cobb RJ, Coolsen MK, Davis J, de Jong DC, Debrot A, DeHaas EC, Derrick JL, Eller J, Estrada MJ, Faure R, Finkel EJ, Fraley RC, Gable SL, Gadassi-Polack R, Girme YU, Gordon AM, Gosnell CL, Hammond MD, Hannon PA, Harasymchuk C, Hofmann W, Horn AB, Impett EA, Jamieson JP, Keltner D, Kim JJ, Kirchner JL, Kluwer ES, Kumashiro M, Larson G, Lazarus G, Logan JM, Luchies LB, MacDonald G, Machia LV, Maniaci MR, Maxwell JA, Mizrahi M, Muise A, Niehuis S, Ogolsky BG, Oldham CR, Overall NC, Perrez M, Peters BJ, Pietromonaco PR, Powers SI, Prok T, Pshedetzky-Shochat R, Rafaeli E, Ramsdell EL, Reblin M, Reicherts M, Reifman A, Reis HT, Rhoades GK, Rholes WS, Righetti F, Rodriguez LM, Rogge R, Rosen NO, Saxbe D, Sened H, Simpson JA, Slotter EB, Stanley SM, Stocker S, Surra C, Ter Kuile H, Vaughn AA, Vicary AM, Visserman ML, Wolf S.",
+      "year": 2020,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.1917036117",
+      "pmid": "32719123",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32719123/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Machine+learning+uncovers%22+AND+TITLE%3A%22relationship%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2020-07-27",
+      "provenance_query_ids": [
+        "SEED-052"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC078",
+      "title": "A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.",
+      "authors_display": "Packheiser J, Hartmann H, Fredriksen K, Gazzola V, Keysers C, Michon F.",
+      "year": 2024,
+      "journal": "Nature human behaviour",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41562-024-01841-8",
+      "pmid": "38589702",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38589702/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22benefits+of+touch+interventions%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-04-08",
+      "provenance_query_ids": [
+        "SEED-054"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR678785",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC079",
+      "title": "Effect of Greening Vacant Land on Mental Health of Community-Dwelling Adults: A Cluster Randomized Trial.",
+      "authors_display": "South EC, Hohl BC, Kondo MC, MacDonald JM, Branas CC.",
+      "year": 2018,
+      "journal": "JAMA network open",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamanetworkopen.2018.0298",
+      "pmid": "30646029",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30646029/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+Greening+Vacant+Land%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-07-06",
+      "provenance_query_ids": [
+        "SEED-055"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30646026",
+          "source": "MED",
+          "reference": "JAMA Netw Open. 2018 Jul 6;1(3):e180299. doi: 10.1001/jamanetworkopen.2018.0299",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "30646107",
+          "source": "MED",
+          "reference": "JAMA Netw Open. 2018 Aug 3;1(4):e182583. doi: 10.1001/jamanetworkopen.2018.2583",
+          "type": "Erratum in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC080",
+      "title": "Error in Figure.",
+      "authors_display": "書誌に著者記載なし",
+      "year": 2018,
+      "journal": "JAMA network open",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamanetworkopen.2018.2583",
+      "pmid": "30646107",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30646107/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A30646107+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "関連する訂正告知。独立した効果検証研究の件数には含めない。 書誌のみ確認。訂正の内容と結論への影響は未精査。",
+      "accessed_on": "2026-09-11",
+      "record_role": "correction_notice",
+      "first_publication_date": "2018-08-03",
+      "provenance_query_ids": [
+        "SUP-014"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30646029",
+          "source": "MED",
+          "reference": "JAMA Netw Open. 2018 Jul 6;1(3):e180298. doi: 10.1001/jamanetworkopen.2018.0298",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC081",
+      "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
+      "authors_display": "Cedeño Laurent JG, Williams A, Oulhote Y, Zanobetti A, Allen JG, Spengler JD.",
+      "year": 2018,
+      "journal": "PLoS medicine",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pmed.1002605",
+      "pmid": "29990359",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29990359/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Reduced+cognitive+function%22+AND+TITLE%3A%22heat+wave%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-07-10",
+      "provenance_query_ids": [
+        "SEED-056"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC082",
+      "title": "Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers: A Controlled Exposure Study of Green and Conventional Office Environments.",
+      "authors_display": "Allen JG, MacNaughton P, Satish U, Santanam S, Vallarino J, Spengler JD.",
+      "year": 2016,
+      "journal": "Environmental health perspectives",
+      "source_type": "journal_article",
+      "doi": "10.1289/ehp.1510037",
+      "pmid": "26502459",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26502459/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Cognitive+Function+Scores%22+AND+TITLE%3A%22Carbon+Dioxide%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-10-26",
+      "provenance_query_ids": [
+        "SEED-057"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC083",
+      "title": "Give your ideas some legs: the positive effect of walking on creative thinking.",
+      "authors_display": "Oppezzo M, Schwartz DL.",
+      "year": 2014,
+      "journal": "Journal of experimental psychology. Learning, memory, and cognition",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0036577",
+      "pmid": "24749966",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Give+your+ideas+some+legs%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2014-04-21",
+      "provenance_query_ids": [
+        "SEED-058"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC084",
+      "title": "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit.",
+      "authors_display": "Gruber MJ, Gelman BD, Ranganath C.",
+      "year": 2014,
+      "journal": "Neuron",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.neuron.2014.08.060",
+      "pmid": "25284006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25284006/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22States+of+curiosity%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2014-10-02",
+      "provenance_query_ids": [
+        "SEED-059"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC085",
+      "title": "Big smile, small self: Awe walks promote prosocial positive emotions in older adults.",
+      "authors_display": "Sturm VE, Datta S, Roy ARK, Sible IJ, Kosik EL, Veziris CR, Chow TE, Morris NA, Neuhaus J, Kramer JH, Miller BL, Holley SR, Keltner D.",
+      "year": 2022,
+      "journal": "Emotion (Washington, D.C.)",
+      "source_type": "journal_article",
+      "doi": "10.1037/emo0000876",
+      "pmid": "32955293",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32955293/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Awe+walks%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2020-09-21",
+      "provenance_query_ids": [
+        "SEED-061"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC086",
+      "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
+      "authors_display": "Bonanno GA.",
+      "year": 2004,
+      "journal": "The American psychologist",
+      "source_type": "journal_article",
+      "doi": "10.1037/0003-066x.59.1.20",
+      "pmid": "14736317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14736317/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Loss%2C+trauma%2C+and+human+resilience%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2004-01-01",
+      "provenance_query_ids": [
+        "SEED-062"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "15796684",
+          "source": "MED",
+          "reference": "Am Psychol. 2005 Apr;60(3):261-2; discussion 265-7. doi: 10.1037/0003-066X.60.3.261",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "15796685",
+          "source": "MED",
+          "reference": "Am Psychol. 2005 Apr;60(3):262-4; discussion 265-7. doi: 10.1037/0003-066X.60.3.262b",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "15796686",
+          "source": "MED",
+          "reference": "Am Psychol. 2005 Apr;60(3):262; discussion 265-7. doi: 10.1037/0003-066X.60.3.262a",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "15796687",
+          "source": "MED",
+          "reference": "Am Psychol. 2005 Apr;60(3):264-5; discussion 265-7. doi: 10.1037/0003-066X.60.3.264",
+          "type": "Comment in",
+          "orderIn": 4
+        },
+        {
+          "id": "15796689",
+          "source": "MED",
+          "reference": "Am Psychol. 2005 Apr;60(3):265; discussion 265-7. doi: 10.1037/0003-066X.60.3.265a",
+          "type": "Comment in",
+          "orderIn": 5
+        },
+        {
+          "id": "23737299",
+          "source": "MED",
+          "reference": "J Trauma Stress. 2013 Jun;26(3):394-6. doi: 10.1002/jts.21804",
+          "type": "Comment in",
+          "orderIn": 6
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC087",
+      "title": "A meta-analysis of interventions to reduce loneliness.",
+      "authors_display": "Masi CM, Chen HY, Hawkley LC, Cacioppo JT.",
+      "year": 2011,
+      "journal": "Personality and social psychology review : an official journal of the Society for Personality and Social Psychology, Inc",
+      "source_type": "journal_article",
+      "doi": "10.1177/1088868310377394",
+      "pmid": "20716644",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20716644/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22meta-analysis+of+interventions+to+reduce+loneliness%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2010-08-17",
+      "provenance_query_ids": [
+        "SEED-063"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC088",
+      "title": "The relationship between personal unsecured debt and mental and physical health: a systematic review and meta-analysis.",
+      "authors_display": "Richardson T, Elliott P, Roberts R.",
+      "year": 2013,
+      "journal": "Clinical psychology review",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cpr.2013.08.009",
+      "pmid": "24121465",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24121465/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22personal+unsecured+debt%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2013-09-10",
+      "provenance_query_ids": [
+        "SEED-064"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC089",
+      "title": "Optimizing Treatment of Complicated Grief: A Randomized Clinical Trial.",
+      "authors_display": "Shear MK, Reynolds CF, Simon NM, Zisook S, Wang Y, Mauro C, Duan N, Lebowitz B, Skritskaya N.",
+      "year": 2016,
+      "journal": "JAMA psychiatry",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamapsychiatry.2016.0892",
+      "pmid": "27276373",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27276373/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Treatment+of+complicated+grief%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2016-07-01",
+      "provenance_query_ids": [
+        "SEED-065"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC090",
+      "title": "Self-rated health before and after retirement in France (GAZEL): a cohort study.",
+      "authors_display": "Westerlund H, Kivimäki M, Singh-Manoux A, Melchior M, Ferrie JE, Pentti J, Jokela M, Leineweber C, Goldberg M, Zins M, Vahtera J.",
+      "year": 2009,
+      "journal": "Lancet (London, England)",
+      "source_type": "journal_article",
+      "doi": "10.1016/s0140-6736(09)61570-1",
+      "pmid": "19897238",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19897238/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Self-rated+health+before+and+after+retirement%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2009-11-10",
+      "provenance_query_ids": [
+        "SEED-066"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "19897237",
+          "source": "MED",
+          "reference": "Lancet. 2009 Dec 5;374(9705):1872-3. doi: 10.1016/S0140-6736(09)61666-4.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC091",
+      "title": "Is bilingualism associated with enhanced executive functioning in adults? A meta-analytic review.",
+      "authors_display": "Lehtonen M, Soveri A, Laine A, Järvenpää J, de Bruin A, Antfolk J.",
+      "year": 2018,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000142",
+      "pmid": "29494195",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29494195/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Is+bilingualism+associated%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-03-01",
+      "provenance_query_ids": [
+        "SEED-068"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC092",
+      "title": "A critical period for second language acquisition: Evidence from 2/3 million English speakers.",
+      "authors_display": "Hartshorne JK, Tenenbaum JB, Pinker S.",
+      "year": 2018,
+      "journal": "Cognition",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cognition.2018.04.007",
+      "pmid": "29729947",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29729947/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22critical+period+for+second+language+acquisition%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-05-02",
+      "provenance_query_ids": [
+        "SEED-069"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "29903691",
+          "source": "MED",
+          "reference": "Trends Cogn Sci. 2018 Aug;22(8):669-671. doi: 10.1016/j.tics.2018.05.011",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC093",
+      "title": "It doesn't hurt to ask: Question-asking increases liking.",
+      "authors_display": "Huang K, Yeomans M, Brooks AW, Minson J, Gino F.",
+      "year": 2017,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspi0000097",
+      "pmid": "28447835",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28447835/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Question-asking+increases+liking%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2017-04-27",
+      "provenance_query_ids": [
+        "SEED-070"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "31714109",
+          "source": "MED",
+          "reference": "J Pers Soc Psychol. 2019 Dec;117(6):1139-1144. doi: 10.1037/pspi0000220.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "40111841",
+          "source": "MED",
+          "reference": "J Pers Soc Psychol. 2025 Mar;128(3):669. doi: 10.1037/pspi0000491.",
+          "type": "Erratum in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC094",
+      "title": "Correction to \"It doesn't hurt to ask: Question-asking increases liking\" by Huang et al. (2017).",
+      "authors_display": "書誌に著者記載なし",
+      "year": 2025,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspi0000491",
+      "pmid": "40111841",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40111841/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Question-asking+increases+liking%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "関連する訂正告知。独立した効果検証研究の件数には含めない。 抄録で訂正説明を確認。著者らは結論維持と記載するが、元データの独立再監査はしていない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "correction_notice",
+      "first_publication_date": "2025-03-01",
+      "provenance_query_ids": [
+        "SEED-070",
+        "SUP-015"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "28447835",
+          "source": "MED",
+          "reference": "J Pers Soc Psychol. 2017 Sep;113(3):430-452. doi: 10.1037/pspi0000097.",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC095",
+      "title": "The risk of depression in the menopausal stages: A systematic review and meta-analysis.",
+      "authors_display": "Badawy Y, Spector A, Li Z, Desai R.",
+      "year": 2024,
+      "journal": "Journal of affective disorders",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jad.2024.04.041",
+      "pmid": "38642901",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38642901/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22menopausal%22+AND+TITLE%3A%22depression%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-04-18",
+      "provenance_query_ids": [
+        "SEED-072"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC096",
+      "title": "Management of Premenstrual Disorders: ACOG Clinical Practice Guideline No. 7.",
+      "authors_display": "書誌に著者記載なし",
+      "year": 2023,
+      "journal": "Obstetrics and gynecology",
+      "source_type": "journal_article",
+      "doi": "10.1097/aog.0000000000005426",
+      "pmid": "37973069",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37973069/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Management+of+Premenstrual+Disorders%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-12-01",
+      "provenance_query_ids": [
+        "SEED-073"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC097",
+      "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
+      "authors_display": "Choi H, Cha Y, McCullough ME, Coles NA, Oishi S.",
+      "year": 2025,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.2425193122",
+      "pmid": "40627390",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40627390/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Gratitude%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2025-07-08",
+      "provenance_query_ids": [
+        "SEED-074",
+        "DISC-PSY-WEL-002"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC098",
+      "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
+      "authors_display": "Wang G, Wang Y, Gai X.",
+      "year": 2021,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2021.565202",
+      "pmid": "34054628",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34054628/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22implementation+intentions%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-05-12",
+      "provenance_query_ids": [
+        "SEED-075"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC099",
+      "title": "Hybrid working from home improves retention without damaging performance.",
+      "authors_display": "Bloom N, Han R, Liang J.",
+      "year": 2024,
+      "journal": "Nature",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41586-024-07500-2",
+      "pmid": "38867040",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38867040/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A10.1038%2Fs41586-024-07500-2%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-06-12",
+      "provenance_query_ids": [
+        "SUP-001"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC100",
+      "title": "Work time reduction via a 4-day workweek finds improvements in workers' well-being.",
+      "authors_display": "Fan W, Schor JB, Kelly O, Gu G.",
+      "year": 2025,
+      "journal": "Nature human behaviour",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41562-025-02259-6",
+      "pmid": "40691306",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40691306/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A10.1038%2Fs41562-025-02259-6%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2025-07-21",
+      "provenance_query_ids": [
+        "SUP-002"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC101",
+      "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
+      "authors_display": "Depner CM, Melanson EL, Eckel RH, Snell-Bergeon JK, Perreault L, Bergman BC, Higgins JA, Guerin MK, Stothard ER, Morton SJ, Wright KP.",
+      "year": 2019,
+      "journal": "Current biology : CB",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cub.2019.01.069",
+      "pmid": "30827911",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30827911/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Weekend+Recovery+Sleep%22+AND+FIRST_PDATE%3A%5B2019-01-01+TO+2019-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2019-02-28",
+      "provenance_query_ids": [
+        "SUP-009"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30889391",
+          "source": "MED",
+          "reference": "Curr Biol. 2019 Mar 18;29(6):R207-R209. doi: 10.1016/j.cub.2018.12.030.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC102",
+      "title": "Job strain as a risk factor for coronary heart disease: a collaborative meta-analysis of individual participant data.",
+      "authors_display": "Kivimäki M, Nyberg ST, Batty GD, Fransson EI, Heikkilä K, Alfredsson L, Bjorner JB, Borritz M, Burr H, Casini A, Clays E, De Bacquer D, Dragano N, Ferrie JE, Geuskens GA, Goldberg M, Hamer M, Hooftman WE, Houtman IL, Joensuu M, Jokela M, Kittel F, Knutsson A, Koskenvuo M, Koskinen A, Kouvonen A, Kumari M, Madsen IE, Marmot MG, Nielsen ML, Nordin M, Oksanen T, Pentti J, Rugulies R, Salo P, Siegrist J, Singh-Manoux A, Suominen SB, Väänänen A, Vahtera J, Virtanen M, Westerholm PJ, Westerlund H, Zins M, Steptoe A, Theorell T, IPD-Work Consortium.",
+      "year": 2012,
+      "journal": "Lancet (London, England)",
+      "source_type": "journal_article",
+      "doi": "10.1016/s0140-6736(12)60994-5",
+      "pmid": "22981903",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22981903/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Job+strain%22+AND+TITLE%3A%22coronary%22+AND+FIRST_PDATE%3A%5B2012-01-01+TO+2012-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2012-09-14",
+      "provenance_query_ids": [
+        "SUP-010"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "22981902",
+          "source": "MED",
+          "reference": "Lancet. 2012 Oct 27;380(9852):1455-6. doi: 10.1016/S0140-6736(12)61512-8.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "23299055",
+          "source": "MED",
+          "reference": "Evid Based Ment Health. 2013 May;16(2):53. doi: 10.1136/eb-2012-101161.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "23399067",
+          "source": "MED",
+          "reference": "Lancet. 2013 Feb 9;381(9865):448-9. doi: 10.1016/S0140-6736(13)60244-5.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "23399068",
+          "source": "MED",
+          "reference": "Lancet. 2013 Feb 9;381(9865):448. doi: 10.1016/S0140-6736(13)60242-1.",
+          "type": "Comment in",
+          "orderIn": 4
+        },
+        {
+          "id": "23399069",
+          "source": "MED",
+          "reference": "Lancet. 2013 Feb 9;381(9865):448. doi: 10.1016/S0140-6736(13)60243-3.",
+          "type": "Comment in",
+          "orderIn": 5
+        },
+        {
+          "id": "23956098",
+          "source": "MED",
+          "reference": "Am J Epidemiol. 2013 Sep 15;178(6):1007-8. doi: 10.1093/aje/kwt192.",
+          "type": "Comment in",
+          "orderIn": 6
+        },
+        {
+          "id": "23956099",
+          "source": "MED",
+          "reference": "Am J Epidemiol. 2013 Sep 15;178(6):1008-9. doi: 10.1093/aje/kwt193.",
+          "type": "Comment in",
+          "orderIn": 7
+        },
+        {
+          "id": "24171205",
+          "source": "MED",
+          "reference": "Am J Epidemiol. 2013 Sep 15;178(6):1009-10. doi: 10.1093/aje/kwt194.",
+          "type": "Comment in",
+          "orderIn": 8
+        },
+        {
+          "id": "26247332",
+          "source": "MED",
+          "reference": "Scand J Work Environ Health. 2015 Sep 1;41(5):504-5. doi: 10.5271/sjweh.3512.",
+          "type": "Comment in",
+          "orderIn": 9
+        },
+        {
+          "id": "26247405",
+          "source": "MED",
+          "reference": "Scand J Work Environ Health. 2015 Sep 1;41(5):506-7. doi: 10.5271/sjweh.3518.",
+          "type": "Comment in",
+          "orderIn": 10
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC103",
+      "title": "Long working hours and risk of coronary heart disease and stroke: a systematic review and meta-analysis of published and unpublished data for 603,838 individuals.",
+      "authors_display": "Kivimäki M, Jokela M, Nyberg ST, Singh-Manoux A, Fransson EI, Alfredsson L, Bjorner JB, Borritz M, Burr H, Casini A, Clays E, De Bacquer D, Dragano N, Erbel R, Geuskens GA, Hamer M, Hooftman WE, Houtman IL, Jöckel KH, Kittel F, Knutsson A, Koskenvuo M, Lunau T, Madsen IE, Nielsen ML, Nordin M, Oksanen T, Pejtersen JH, Pentti J, Rugulies R, Salo P, Shipley MJ, Siegrist J, Steptoe A, Suominen SB, Theorell T, Vahtera J, Westerholm PJ, Westerlund H, O'Reilly D, Kumari M, Batty GD, Ferrie JE, Virtanen M, IPD-Work Consortium.",
+      "year": 2015,
+      "journal": "Lancet (London, England)",
+      "source_type": "journal_article",
+      "doi": "10.1016/s0140-6736(15)60295-1",
+      "pmid": "26298822",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26298822/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Long+working+hours%22+AND+TITLE%3A%22stroke%22+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2015-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2015-08-19",
+      "provenance_query_ids": [
+        "SUP-011"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "26298821",
+          "source": "MED",
+          "reference": "Lancet. 2015 Oct 31;386(10005):1710-1. doi: 10.1016/S0140-6736(15)61000-5.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "39213325",
+          "source": "MED",
+          "reference": "Occup Med (Lond). 2024 Nov 28;74(8):567-568. doi: 10.1093/occmed/kqae078.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC104",
+      "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
+      "authors_display": "Rozental A, Bennett S, Forsström D, Ebert DD, Shafran R, Andersson G, Carlbring P.",
+      "year": 2018,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2018.01588",
+      "pmid": "30214421",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30214421/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22psychological+treatments%22+AND+TITLE%3A%22procrastination%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2018-08-30",
+      "provenance_query_ids": [
+        "SUP-019"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC105",
+      "title": "Effects of Self-Compassion Interventions on Reducing Depressive Symptoms, Anxiety, and Stress: A Meta-Analysis.",
+      "authors_display": "Han A, Kim TH.",
+      "year": 2023,
+      "journal": "Mindfulness",
+      "source_type": "journal_article",
+      "doi": "10.1007/s12671-023-02148-x",
+      "pmid": "37362192",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37362192/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22self-compassion%22+AND+TITLE%3A%22meta-analysis%22+AND+FIRST_PDATE%3A%5B2023-01-01+TO+2023-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-06-05",
+      "provenance_query_ids": [
+        "SUP-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC106",
+      "title": "Self-Esteem and Self-Compassion: A Narrative Review and Meta-Analysis on Their Links to Psychological Problems and Well-Being.",
+      "authors_display": "Muris P, Otgaar H.",
+      "year": 2023,
+      "journal": "Psychology research and behavior management",
+      "source_type": "journal_article",
+      "doi": "10.2147/prbm.s402455",
+      "pmid": "37554304",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37554304/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22self-compassion%22+AND+TITLE%3A%22meta-analysis%22+AND+FIRST_PDATE%3A%5B2023-01-01+TO+2023-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-08-03",
+      "provenance_query_ids": [
+        "SUP-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    }
+  ],
+  "updated_on": "2026-09-11"
 }

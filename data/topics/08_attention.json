@@ -2,15 +2,174 @@
   "schema_version": "1.0",
   "category_id": "attention",
   "topics": [
-    {"id":"PSY-ATT-001","title_ja":"マルチタスクは本当に時間の節約になる？","concepts_en":["task switching","switch costs"],"angle_ja":"並行処理と素早い切り替え、速度とミスを分けて調べる。","search_query":"task switching multitasking switch costs meta analysis adults","priority":1,"source_ids":[],"caution_ja":"すべての並行行動が不可能とはしない。課題の種類と熟練度を確認する。"},
-    {"id":"PSY-ATT-002","title_ja":"通知を見ていなくても集中は途切れる？","concepts_en":["notification distraction","sustained attention"],"angle_ja":"通知音、振動、実際の確認操作の効果を分ける。","search_query":"smartphone notification sustained attention randomized experiment","priority":1,"source_ids":[],"caution_ja":"実験室の短い課題から一日の生産性損失を推測しない。"},
-    {"id":"PSY-ATT-003","title_ja":"中断した仕事に戻りにくいのはなぜ？","concepts_en":["attention residue","interruption resumption"],"angle_ja":"作業途中の切り替えと、再開の手がかりを調べる。","search_query":"attention residue task interruption resumption work experimental study","priority":1,"source_ids":[],"caution_ja":"有名な概念名だけでなく、再現性と実際の仕事での検証を確認する。"},
-    {"id":"PSY-ATT-004","title_ja":"短い休憩で集中力は戻る？","concepts_en":["microbreaks","vigilance decrement"],"angle_ja":"休憩の頻度、内容、疲労感と作業成績を比較する。","search_query":"microbreaks fatigue performance systematic review meta analysis","priority":1,"source_ids":[],"caution_ja":"特定の分数を万能の黄金比として紹介しない。"},
-    {"id":"PSY-ATT-005","title_ja":"音楽を聴きながらの勉強は、どんなときに向く？","concepts_en":["background music","cognitive performance"],"angle_ja":"歌詞、音量、好み、作業の種類を整理する。","search_query":"background music lyrics cognition reading meta analysis","priority":1,"source_ids":[],"caution_ja":"気分の改善と理解・記憶の改善を同じ指標にしない。"},
-    {"id":"PSY-ATT-006","title_ja":"ぼんやりする時間は創造性に役立つ？","concepts_en":["mind wandering","incubation"],"angle_ja":"注意が必要な作業と、アイデアを練る場面を区別する。","search_query":"mind wandering incubation creativity experimental replication","priority":2,"source_ids":[],"caution_ja":"運転など危険な場面での注意逸脱を肯定しない。"},
-    {"id":"PSY-ATT-007","title_ja":"考え続けて疲れる『頭の疲労』は何を意味する？","concepts_en":["mental fatigue","subjective effort"],"angle_ja":"主観的な疲れ、意欲、作業能力のずれを調べる。","search_query":"mental fatigue cognitive performance subjective effort review humans","priority":2,"source_ids":[],"caution_ja":"単純な脳内エネルギー切れという説明に固定しない。"},
-    {"id":"PSY-ATT-008","title_ja":"締切が近いほど集中できるのはよいこと？","concepts_en":["time pressure","speed accuracy tradeoff"],"angle_ja":"短期の着手促進と、ミス・疲れ・創造性への影響を分ける。","search_query":"time pressure cognitive performance speed accuracy creativity meta analysis","priority":2,"source_ids":[],"caution_ja":"追い込めば必ず成果が上がるとしない。職場の過重負担を正当化しない。"},
-    {"id":"PSY-ATT-009","title_ja":"フロー状態は狙って作れる？","concepts_en":["flow","challenge skill balance"],"angle_ja":"没頭と技能・課題の難度・フィードバックの関係を調べる。","search_query":"flow state challenge skill balance intervention systematic review","priority":2,"source_ids":[],"caution_ja":"没頭の自己報告を客観的な成果向上と同一視しない。"},
-    {"id":"PSY-ATT-010","title_ja":"瞑想の練習で集中力は改善する？","concepts_en":["mindfulness","attention training"],"angle_ja":"注意課題での変化と日常への転移、比較条件を検討する。","search_query":"mindfulness meditation attention cognitive performance active control meta analysis","priority":2,"source_ids":["SRC013"],"caution_ja":"期待効果や対照群の違いを確認。瞑想が苦痛になる人への配慮を入れる。"}
+    {
+      "id": "PSY-ATT-001",
+      "title_ja": "マルチタスクは本当に時間の節約になる？",
+      "concepts_en": [
+        "task switching",
+        "switch costs"
+      ],
+      "angle_ja": "並行処理と素早い切り替え、速度とミスを分けて調べる。",
+      "search_query": "task switching multitasking switch costs meta analysis adults",
+      "priority": 1,
+      "source_ids": [
+        "SRC055"
+      ],
+      "caution_ja": "すべての並行行動が不可能とはしない。課題の種類と熟練度を確認する。",
+      "research_brief_ids": [
+        "RB-26121498"
+      ]
+    },
+    {
+      "id": "PSY-ATT-002",
+      "title_ja": "通知を見ていなくても集中は途切れる？",
+      "concepts_en": [
+        "notification distraction",
+        "sustained attention"
+      ],
+      "angle_ja": "通知音、振動、実際の確認操作の効果を分ける。",
+      "search_query": "smartphone notification sustained attention randomized experiment",
+      "priority": 1,
+      "source_ids": [
+        "SRC055"
+      ],
+      "caution_ja": "実験室の短い課題から一日の生産性損失を推測しない。",
+      "research_brief_ids": [
+        "RB-26121498"
+      ]
+    },
+    {
+      "id": "PSY-ATT-003",
+      "title_ja": "中断した仕事に戻りにくいのはなぜ？",
+      "concepts_en": [
+        "attention residue",
+        "interruption resumption"
+      ],
+      "angle_ja": "作業途中の切り替えと、再開の手がかりを調べる。",
+      "search_query": "attention residue task interruption resumption work experimental study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "有名な概念名だけでなく、再現性と実際の仕事での検証を確認する。"
+    },
+    {
+      "id": "PSY-ATT-004",
+      "title_ja": "短い休憩で集中力は戻る？",
+      "concepts_en": [
+        "microbreaks",
+        "vigilance decrement"
+      ],
+      "angle_ja": "休憩の頻度、内容、疲労感と作業成績を比較する。",
+      "search_query": "microbreaks fatigue performance systematic review meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC054"
+      ],
+      "caution_ja": "特定の分数を万能の黄金比として紹介しない。",
+      "research_brief_ids": [
+        "RB-36044424"
+      ]
+    },
+    {
+      "id": "PSY-ATT-005",
+      "title_ja": "音楽を聴きながらの勉強は、どんなときに向く？",
+      "concepts_en": [
+        "background music",
+        "cognitive performance"
+      ],
+      "angle_ja": "歌詞、音量、好み、作業の種類を整理する。",
+      "search_query": "background music lyrics cognition reading meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "気分の改善と理解・記憶の改善を同じ指標にしない。"
+    },
+    {
+      "id": "PSY-ATT-006",
+      "title_ja": "ぼんやりする時間は創造性に役立つ？",
+      "concepts_en": [
+        "mind wandering",
+        "incubation"
+      ],
+      "angle_ja": "注意が必要な作業と、アイデアを練る場面を区別する。",
+      "search_query": "mind wandering incubation creativity experimental replication",
+      "priority": 2,
+      "source_ids": [
+        "SRC083"
+      ],
+      "caution_ja": "運転など危険な場面での注意逸脱を肯定しない。",
+      "research_brief_ids": [
+        "RB-24749966"
+      ]
+    },
+    {
+      "id": "PSY-ATT-007",
+      "title_ja": "考え続けて疲れる『頭の疲労』は何を意味する？",
+      "concepts_en": [
+        "mental fatigue",
+        "subjective effort"
+      ],
+      "angle_ja": "主観的な疲れ、意欲、作業能力のずれを調べる。",
+      "search_query": "mental fatigue cognitive performance subjective effort review humans",
+      "priority": 2,
+      "source_ids": [
+        "SRC042",
+        "SRC054",
+        "SRC076",
+        "SRC081",
+        "SRC082"
+      ],
+      "caution_ja": "単純な脳内エネルギー切れという説明に固定しない。",
+      "research_brief_ids": [
+        "RB-12683469",
+        "RB-36044424",
+        "RB-23990553",
+        "RB-29990359",
+        "RB-26502459"
+      ]
+    },
+    {
+      "id": "PSY-ATT-008",
+      "title_ja": "締切が近いほど集中できるのはよいこと？",
+      "concepts_en": [
+        "time pressure",
+        "speed accuracy tradeoff"
+      ],
+      "angle_ja": "短期の着手促進と、ミス・疲れ・創造性への影響を分ける。",
+      "search_query": "time pressure cognitive performance speed accuracy creativity meta analysis",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "追い込めば必ず成果が上がるとしない。職場の過重負担を正当化しない。"
+    },
+    {
+      "id": "PSY-ATT-009",
+      "title_ja": "フロー状態は狙って作れる？",
+      "concepts_en": [
+        "flow",
+        "challenge skill balance"
+      ],
+      "angle_ja": "没頭と技能・課題の難度・フィードバックの関係を調べる。",
+      "search_query": "flow state challenge skill balance intervention systematic review",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "没頭の自己報告を客観的な成果向上と同一視しない。"
+    },
+    {
+      "id": "PSY-ATT-010",
+      "title_ja": "瞑想の練習で集中力は改善する？",
+      "concepts_en": [
+        "mindfulness",
+        "attention training"
+      ],
+      "angle_ja": "注意課題での変化と日常への転移、比較条件を検討する。",
+      "search_query": "mindfulness meditation attention cognitive performance active control meta analysis",
+      "priority": 2,
+      "source_ids": [
+        "SRC013",
+        "SRC059"
+      ],
+      "caution_ja": "期待効果や対照群の違いを確認。瞑想が苦痛になる人への配慮を入れる。",
+      "research_brief_ids": [
+        "RB-33428616"
+      ]
+    }
   ]
 }

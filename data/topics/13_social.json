@@ -2,15 +2,151 @@
   "schema_version": "1.0",
   "category_id": "social",
   "topics": [
-    {"id":"PSY-SOC-001","title_ja":"『みんながやっている』と聞くと行動が変わる？","concepts_en":["social norms","descriptive injunctive norms"],"angle_ja":"実際の多数派と、望ましいとされる行動の違いを調べる。","search_query":"descriptive injunctive social norms behavior field experiment meta analysis","priority":1,"source_ids":[],"caution_ja":"悪い行動の多さを強調すると逆効果になる条件も確認する。"},
-    {"id":"PSY-SOC-002","title_ja":"周囲に合わせてしまうのは、判断力が弱いから？","concepts_en":["conformity","informational normative influence"],"angle_ja":"正解を知りたい気持ちと、仲間外れを避ける気持ちを分ける。","search_query":"conformity informational normative influence replication cultural meta analysis","priority":1,"source_ids":[],"caution_ja":"同調を常に不合理と扱わず、情報が不足する状況を考慮する。"},
-    {"id":"PSY-SOC-003","title_ja":"人が多いほど助けてもらえない？傍観者効果の条件","concepts_en":["bystander effect","diffusion of responsibility"],"angle_ja":"危険度、顔見知り、責任の明確さによる違いを調べる。","search_query":"bystander effect dangerous emergencies field evidence meta analysis","priority":1,"source_ids":[],"caution_ja":"現実の緊急事態すべてに古典実験を一般化せず、安全確保を優先する。"},
-    {"id":"PSY-SOC-004","title_ja":"第一印象が他の評価まで引っ張る？ハロー効果","concepts_en":["halo effect","impression formation"],"angle_ja":"採用や商品評価で、別々の能力を分けて見る方法を調べる。","search_query":"halo effect impression formation personnel evaluation experiment","priority":1,"source_ids":[],"caution_ja":"見た目から性格を推測する診断にしない。評価方法による違いを確認する。"},
-    {"id":"PSY-SOC-005","title_ja":"自分の失敗は事情のせい、他人の失敗は性格のせい？","concepts_en":["attribution bias","correspondence bias"],"angle_ja":"遅刻やミスを見たとき、状況をどこまで考慮するかを研究する。","search_query":"attribution correspondence bias actor observer asymmetry meta analysis","priority":1,"source_ids":[],"caution_ja":"複数の帰属バイアスを一つにまとめず、文化差と再現性を確認する。"},
-    {"id":"PSY-SOC-006","title_ja":"自分はみんなに見られている？スポットライト効果","concepts_en":["spotlight effect","social attention"],"angle_ja":"服装の失敗や発表後の気まずさを例に、注目の見積もりを調べる。","search_query":"spotlight effect perceived social attention replication experimental study","priority":1,"source_ids":[],"caution_ja":"実際のいじめや監視、差別の経験まで思い込みとして否定しない。"},
-    {"id":"PSY-SOC-007","title_ja":"見慣れたものを好きになるのはなぜ？単純接触効果","concepts_en":["mere exposure effect","familiarity"],"angle_ja":"広告、音楽、人との接触で、親しみと好意の関係を調べる。","search_query":"mere exposure effect meta analysis repetition boundary conditions","priority":2,"source_ids":[],"caution_ja":"嫌がる相手への反復接触を恋愛手法として勧めない。"},
-    {"id":"PSY-SOC-008","title_ja":"強く説得されると、かえって反発したくなる？","concepts_en":["psychological reactance","autonomy threat"],"angle_ja":"健康の助言や職場の指示で、選択の自由と伝え方を調べる。","search_query":"psychological reactance health communication meta analysis","priority":1,"source_ids":[],"caution_ja":"相手を巧みに操る技法ではなく、選択を尊重する伝え方を中心にする。"},
-    {"id":"PSY-SOC-009","title_ja":"チームの『言いにくさ』は仕事の質に影響する？","concepts_en":["psychological safety","speaking up"],"angle_ja":"質問、失敗の報告、異論とチームの成果の関係を調べる。","search_query":"psychological safety team performance speaking up meta analysis","priority":1,"source_ids":[],"caution_ja":"心理的安全性を仲良しや無責任と混同せず、組織条件と逆因果を確認する。"},
-    {"id":"PSY-SOC-010","title_ja":"有名な社会的プライミング研究はどこまで再現した？","concepts_en":["social priming","replicability"],"angle_ja":"無意識への刺激で行動が変わるという話を、追試から読み直す。","search_query":"social behavioral priming registered replication meta analysis","priority":2,"source_ids":["SRC016"],"caution_ja":"参照論文は社会科学の限定された追試集合。すべてのプライミングを同一視しない。"}
+    {
+      "id": "PSY-SOC-001",
+      "title_ja": "『みんながやっている』と聞くと行動が変わる？",
+      "concepts_en": [
+        "social norms",
+        "descriptive injunctive norms"
+      ],
+      "angle_ja": "実際の多数派と、望ましいとされる行動の違いを調べる。",
+      "search_query": "descriptive injunctive social norms behavior field experiment meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "悪い行動の多さを強調すると逆効果になる条件も確認する。"
+    },
+    {
+      "id": "PSY-SOC-002",
+      "title_ja": "周囲に合わせてしまうのは、判断力が弱いから？",
+      "concepts_en": [
+        "conformity",
+        "informational normative influence"
+      ],
+      "angle_ja": "正解を知りたい気持ちと、仲間外れを避ける気持ちを分ける。",
+      "search_query": "conformity informational normative influence replication cultural meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC065"
+      ],
+      "caution_ja": "同調を常に不合理と扱わず、情報が不足する状況を考慮する。",
+      "research_brief_ids": [
+        "RB-21534650"
+      ]
+    },
+    {
+      "id": "PSY-SOC-003",
+      "title_ja": "人が多いほど助けてもらえない？傍観者効果の条件",
+      "concepts_en": [
+        "bystander effect",
+        "diffusion of responsibility"
+      ],
+      "angle_ja": "危険度、顔見知り、責任の明確さによる違いを調べる。",
+      "search_query": "bystander effect dangerous emergencies field evidence meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC065"
+      ],
+      "caution_ja": "現実の緊急事態すべてに古典実験を一般化せず、安全確保を優先する。",
+      "research_brief_ids": [
+        "RB-21534650"
+      ]
+    },
+    {
+      "id": "PSY-SOC-004",
+      "title_ja": "第一印象が他の評価まで引っ張る？ハロー効果",
+      "concepts_en": [
+        "halo effect",
+        "impression formation"
+      ],
+      "angle_ja": "採用や商品評価で、別々の能力を分けて見る方法を調べる。",
+      "search_query": "halo effect impression formation personnel evaluation experiment",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "見た目から性格を推測する診断にしない。評価方法による違いを確認する。"
+    },
+    {
+      "id": "PSY-SOC-005",
+      "title_ja": "自分の失敗は事情のせい、他人の失敗は性格のせい？",
+      "concepts_en": [
+        "attribution bias",
+        "correspondence bias"
+      ],
+      "angle_ja": "遅刻やミスを見たとき、状況をどこまで考慮するかを研究する。",
+      "search_query": "attribution correspondence bias actor observer asymmetry meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "複数の帰属バイアスを一つにまとめず、文化差と再現性を確認する。"
+    },
+    {
+      "id": "PSY-SOC-006",
+      "title_ja": "自分はみんなに見られている？スポットライト効果",
+      "concepts_en": [
+        "spotlight effect",
+        "social attention"
+      ],
+      "angle_ja": "服装の失敗や発表後の気まずさを例に、注目の見積もりを調べる。",
+      "search_query": "spotlight effect perceived social attention replication experimental study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "実際のいじめや監視、差別の経験まで思い込みとして否定しない。"
+    },
+    {
+      "id": "PSY-SOC-007",
+      "title_ja": "見慣れたものを好きになるのはなぜ？単純接触効果",
+      "concepts_en": [
+        "mere exposure effect",
+        "familiarity"
+      ],
+      "angle_ja": "広告、音楽、人との接触で、親しみと好意の関係を調べる。",
+      "search_query": "mere exposure effect meta analysis repetition boundary conditions",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "嫌がる相手への反復接触を恋愛手法として勧めない。"
+    },
+    {
+      "id": "PSY-SOC-008",
+      "title_ja": "強く説得されると、かえって反発したくなる？",
+      "concepts_en": [
+        "psychological reactance",
+        "autonomy threat"
+      ],
+      "angle_ja": "健康の助言や職場の指示で、選択の自由と伝え方を調べる。",
+      "search_query": "psychological reactance health communication meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "相手を巧みに操る技法ではなく、選択を尊重する伝え方を中心にする。"
+    },
+    {
+      "id": "PSY-SOC-009",
+      "title_ja": "チームの『言いにくさ』は仕事の質に影響する？",
+      "concepts_en": [
+        "psychological safety",
+        "speaking up"
+      ],
+      "angle_ja": "質問、失敗の報告、異論とチームの成果の関係を調べる。",
+      "search_query": "psychological safety team performance speaking up meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "心理的安全性を仲良しや無責任と混同せず、組織条件と逆因果を確認する。"
+    },
+    {
+      "id": "PSY-SOC-010",
+      "title_ja": "有名な社会的プライミング研究はどこまで再現した？",
+      "concepts_en": [
+        "social priming",
+        "replicability"
+      ],
+      "angle_ja": "無意識への刺激で行動が変わるという話を、追試から読み直す。",
+      "search_query": "social behavioral priming registered replication meta analysis",
+      "priority": 2,
+      "source_ids": [
+        "SRC016",
+        "SRC066"
+      ],
+      "caution_ja": "参照論文は社会科学の限定された追試集合。すべてのプライミングを同一視しない。",
+      "research_brief_ids": [
+        "RB-36266452"
+      ]
+    }
   ]
 }

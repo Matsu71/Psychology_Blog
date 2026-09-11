@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "category_id": "work",
+  "topics": [
+    {
+      "id": "PSY-WRK-001",
+      "title_ja": "在宅と出社を組み合わせると仕事の成果はどう変わる？",
+      "concepts_en": [
+        "hybrid work",
+        "employee retention"
+      ],
+      "angle_ja": "週2回在宅にするか、全日出社にするかを職場で検討する。",
+      "search_query": "hybrid work employee retention systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC099"
+      ],
+      "caution_ja": "単一企業のハイブリッド勤務試験を完全在宅や全職種へ一般化しない。",
+      "related_topic_ids": [
+        "PSY-ATT-001",
+        "PSY-PER-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "週2回在宅にするか、全日出社にするかを職場で検討する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-38867040"
+      ]
+    },
+    {
+      "id": "PSY-WRK-002",
+      "title_ja": "仕事を終えても頭から離れないのはなぜ？",
+      "concepts_en": [
+        "psychological detachment",
+        "recovery from work"
+      ],
+      "angle_ja": "退勤後もメールや明日の仕事が気になり休めない。",
+      "search_query": "psychological detachment recovery from work systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC075",
+        "SRC100"
+      ],
+      "caution_ja": "考えない努力だけを解決策にせず、業務量と連絡ルールも扱う。",
+      "related_topic_ids": [
+        "PSY-EMO-004",
+        "PSY-MEN-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "退勤後もメールや明日の仕事が気になり休めない。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-34096763",
+        "RB-40691306"
+      ]
+    },
+    {
+      "id": "PSY-WRK-003",
+      "title_ja": "仕事のストレスは忙しさだけで決まる？",
+      "concepts_en": [
+        "job demands resources",
+        "job control"
+      ],
+      "angle_ja": "仕事量は同じでも、裁量や相談相手の有無で負担が違う。",
+      "search_query": "job demands resources job control systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC090",
+        "SRC102"
+      ],
+      "caution_ja": "個人の受け止め方だけに還元せず、労働条件を含める。",
+      "related_topic_ids": [
+        "PSY-EMO-001",
+        "PSY-SOC-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "仕事量は同じでも、裁量や相談相手の有無で負担が違う。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-19897238",
+        "RB-22981903"
+      ]
+    },
+    {
+      "id": "PSY-WRK-004",
+      "title_ja": "頑張りに見合う評価がないと何が起きる？",
+      "concepts_en": [
+        "effort reward imbalance",
+        "organizational justice"
+      ],
+      "angle_ja": "責任ばかり増え、給与や評価が変わらないと感じる。",
+      "search_query": "effort reward imbalance organizational justice systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "自己報告の不公平感と客観的待遇を区別する。",
+      "related_topic_ids": [
+        "PSY-WEL-005",
+        "PSY-MEN-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "責任ばかり増え、給与や評価が変わらないと感じる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-WRK-005",
+      "title_ja": "笑顔で接客し続ける仕事はなぜ疲れる？",
+      "concepts_en": [
+        "emotional labor",
+        "surface acting"
+      ],
+      "angle_ja": "嫌な応対を受けても表情を変えられず疲れる。",
+      "search_query": "emotional labor surface acting systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "演技をやめれば解決するとせず、職務上の制約と支援を確認する。",
+      "related_topic_ids": [
+        "PSY-EMO-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "嫌な応対を受けても表情を変えられず疲れる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-WRK-006",
+      "title_ja": "仕事のやり方を自分で工夫すると満足度は上がる？",
+      "concepts_en": [
+        "job crafting",
+        "work engagement"
+      ],
+      "angle_ja": "作業分担や相談先を少し変え、自分の強みを活かす。",
+      "search_query": "job crafting work engagement systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "自由に変えられない仕事もあり、会社の安全手順に反する変更を勧めない。",
+      "related_topic_ids": [
+        "PSY-PER-005",
+        "PSY-MOT-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "作業分担や相談先を少し変え、自分の強みを活かす。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-WRK-007",
+      "title_ja": "好きな仕事より自分に合う仕事を選ぶべき？",
+      "concepts_en": [
+        "person job fit",
+        "vocational interests"
+      ],
+      "angle_ja": "仕事内容、価値観、得意なことを転職時に比較する。",
+      "search_query": "person job fit vocational interests systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "性格検査だけで適職を断定せず、経験や条件も含める。",
+      "related_topic_ids": [
+        "PSY-PER-001",
+        "PSY-PER-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "仕事内容、価値観、得意なことを転職時に比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-WRK-008",
+      "title_ja": "通勤時間は睡眠や気分にどれくらい関わる？",
+      "concepts_en": [
+        "commuting",
+        "subjective well being"
+      ],
+      "angle_ja": "家賃が安い遠方の家と職場に近い家の生活を比較する。",
+      "search_query": "commuting subjective well being systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC099"
+      ],
+      "caution_ja": "住居選択の自己選択や所得差を考慮し、一律の許容時間を出さない。",
+      "related_topic_ids": [
+        "PSY-SLP-001",
+        "PSY-WEL-009"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "家賃が安い遠方の家と職場に近い家の生活を比較する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-38867040"
+      ]
+    },
+    {
+      "id": "PSY-WRK-009",
+      "title_ja": "会議が続くと仕事が進まないのはなぜ？",
+      "concepts_en": [
+        "meeting load",
+        "work fragmentation"
+      ],
+      "angle_ja": "会議の合間が短く、集中作業を始められない。",
+      "search_query": "meeting load work fragmentation systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC054",
+        "SRC082"
+      ],
+      "caution_ja": "会議の本数だけで有害と判断せず、意思決定や連携の便益も扱う。",
+      "related_topic_ids": [
+        "PSY-ATT-001",
+        "PSY-ATT-003"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "会議の合間が短く、集中作業を始められない。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-36044424",
+        "RB-26502459"
+      ]
+    },
+    {
+      "id": "PSY-WRK-010",
+      "title_ja": "夜の仕事連絡は返さなくても負担になる？",
+      "concepts_en": [
+        "after hours work communication",
+        "telepressure"
+      ],
+      "angle_ja": "休日の業務通知に返信義務はなくても気になってしまう。",
+      "search_query": "after hours work communication telepressure systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC055",
+        "SRC075"
+      ],
+      "caution_ja": "関連研究だけで因果を断定せず、職場の期待と緊急連絡を区別する。",
+      "related_topic_ids": [
+        "PSY-ATT-002",
+        "PSY-DIG-005"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "休日の業務通知に返信義務はなくても気になってしまう。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-26121498",
+        "RB-34096763"
+      ]
+    },
+    {
+      "id": "PSY-WRK-011",
+      "title_ja": "実績があっても自信が持てない：インポスター感とは？",
+      "concepts_en": [
+        "impostor phenomenon",
+        "work self doubt"
+      ],
+      "angle_ja": "評価されても、実力がないと見抜かれる不安が消えない。",
+      "search_query": "impostor phenomenon work self doubt systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "一般的な経験と診断を混同せず、本人の能力不足と解釈しない。",
+      "related_topic_ids": [
+        "PSY-PER-010",
+        "PSY-MOT-006"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "評価されても、実力がないと見抜かれる不安が消えない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-WRK-012",
+      "title_ja": "仕事に熱中することと働きすぎをやめられないことは違う？",
+      "concepts_en": [
+        "workaholism",
+        "work engagement"
+      ],
+      "angle_ja": "休日も働きたいのか、働かないと不安なのかを整理する。",
+      "search_query": "workaholism work engagement systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC103"
+      ],
+      "caution_ja": "労働時間だけで依存を判定せず、制約や生活支障を確認する。",
+      "related_topic_ids": [
+        "PSY-MOT-003",
+        "PSY-MEN-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "休日も働きたいのか、働かないと不安なのかを整理する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-26298822"
+      ]
+    },
+    {
+      "id": "PSY-WRK-013",
+      "title_ja": "週4日勤務は休みが増えるだけでなく健康にも影響する？",
+      "concepts_en": [
+        "four day workweek",
+        "work time reduction"
+      ],
+      "angle_ja": "労働時間を減らす制度と、同じ時間を4日に圧縮する制度を比較する。",
+      "search_query": "four day workweek work time reduction systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC100",
+        "SRC103"
+      ],
+      "caution_ja": "時間短縮と圧縮労働を区別。自己選択企業の試験を全職場に適用しない。",
+      "related_topic_ids": [
+        "PSY-WEL-009",
+        "PSY-SLP-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "労働時間を減らす制度と、同じ時間を4日に圧縮する制度を比較する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-40691306",
+        "RB-26298822"
+      ]
+    },
+    {
+      "id": "PSY-WRK-014",
+      "title_ja": "職場で雑談する時間には意味がある？",
+      "concepts_en": [
+        "workplace social interaction",
+        "belonging"
+      ],
+      "angle_ja": "雑談は好きではないが、誰にも相談できない状態も困る。",
+      "search_query": "workplace social interaction belonging systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "交流を強制せず、孤独と静かに働きたい希望を区別する。",
+      "related_topic_ids": [
+        "PSY-REL-004",
+        "PSY-REL-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "雑談は好きではないが、誰にも相談できない状態も困る。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

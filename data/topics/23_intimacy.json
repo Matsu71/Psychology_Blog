@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "category_id": "intimacy",
+  "topics": [
+    {
+      "id": "PSY-INT-001",
+      "title_ja": "長続きする関係は性格の相性で予測できる？",
+      "concepts_en": [
+        "relationship quality prediction",
+        "couple longitudinal studies"
+      ],
+      "angle_ja": "交際前の条件と、交際中の支え合いを比較する。",
+      "search_query": "relationship quality prediction couple longitudinal studies systematic review human study",
+      "priority": 1,
+      "source_ids": [
+        "SRC077"
+      ],
+      "caution_ja": "集団の予測精度で個人の結婚や別れを判断しない。",
+      "related_topic_ids": [
+        "PSY-REL-008",
+        "PSY-PER-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "交際前の条件と、交際中の支え合いを比較する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-32719123"
+      ]
+    },
+    {
+      "id": "PSY-INT-002",
+      "title_ja": "二人で新しいことをすると関係は変わる？",
+      "concepts_en": [
+        "self expansion",
+        "shared novel activities"
+      ],
+      "angle_ja": "いつもの外食と初めての共同体験で気分が違うか考える。",
+      "search_query": "self expansion shared novel activities systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "新奇性と一緒に過ごす時間の効果を分け、無理な参加を勧めない。",
+      "related_topic_ids": [
+        "PSY-WEL-004",
+        "PSY-REL-006"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "いつもの外食と初めての共同体験で気分が違うか考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-003",
+      "title_ja": "性的な頻度が多いほど満足度は高い？",
+      "concepts_en": [
+        "sexual frequency",
+        "relationship well being"
+      ],
+      "angle_ja": "他人の平均と自分たちの満足の違いを整理する。",
+      "search_query": "sexual frequency relationship well being systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "頻度を義務にしない。関連と因果を分け、同意と個人差を優先する。",
+      "related_topic_ids": [
+        "PSY-WEL-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "他人の平均と自分たちの満足の違いを整理する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-004",
+      "title_ja": "親密になりたい頻度が違うとき、どう考える？",
+      "concepts_en": [
+        "sexual desire discrepancy",
+        "couple adjustment"
+      ],
+      "angle_ja": "片方が親密さを求めるとき、相手は休みたい。",
+      "search_query": "sexual desire discrepancy couple adjustment systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "要求の強制や病理化を避け、同意と健康状態を前提にする。",
+      "related_topic_ids": [
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "片方が親密さを求めるとき、相手は休みたい。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-005",
+      "title_ja": "親しい相手とも希望や境界を言葉にした方がよい？",
+      "concepts_en": [
+        "sexual communication",
+        "consent"
+      ],
+      "angle_ja": "察してほしい気持ちと、確認する会話の違いを考える。",
+      "search_query": "sexual communication consent systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "同意は継続的で撤回可能という前提を守り、交渉で覆す話にしない。",
+      "related_topic_ids": [
+        "PSY-REL-007",
+        "PSY-REL-004"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "察してほしい気持ちと、確認する会話の違いを考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-006",
+      "title_ja": "家事の不満は作業時間より考える負担から生じる？",
+      "concepts_en": [
+        "cognitive household labor",
+        "mental load"
+      ],
+      "angle_ja": "買い物だけでなく献立や在庫を考える役割が偏る。",
+      "search_query": "cognitive household labor mental load systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "性別で役割を固定せず、家族構成と労働時間を考慮する。",
+      "related_topic_ids": [
+        "PSY-WRK-003",
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "買い物だけでなく献立や在庫を考える役割が偏る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-007",
+      "title_ja": "睡眠不足の日はパートナーと衝突しやすい？",
+      "concepts_en": [
+        "sleep and couple conflict",
+        "emotion regulation"
+      ],
+      "angle_ja": "寝不足の翌日にいつもなら気にならない一言で言い合いになる。",
+      "search_query": "sleep and couple conflict emotion regulation systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "睡眠を原因と決めつけず、暴力や支配を疲れで正当化しない。",
+      "related_topic_ids": [
+        "PSY-SLP-001",
+        "PSY-EMO-002"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "寝不足の翌日にいつもなら気にならない一言で言い合いになる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-008",
+      "title_ja": "SNSで相手を確認し続けると安心できる？",
+      "concepts_en": [
+        "romantic jealousy",
+        "digital surveillance"
+      ],
+      "angle_ja": "既読やオンライン表示が気になり何度も確かめる。",
+      "search_query": "romantic jealousy digital surveillance systematic review human study",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "監視やアカウントの無断閲覧を勧めず、プライバシーを尊重する。",
+      "related_topic_ids": [
+        "PSY-DIG-005",
+        "PSY-REL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "既読やオンライン表示が気になり何度も確かめる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-009",
+      "title_ja": "似た者同士と正反対の二人、どちらが合う？",
+      "concepts_en": [
+        "similarity attraction",
+        "perceived similarity"
+      ],
+      "angle_ja": "趣味が同じ相手と価値観が合う相手の違いを整理する。",
+      "search_query": "similarity attraction perceived similarity systematic review human study",
+      "priority": 2,
+      "source_ids": [
+        "SRC077"
+      ],
+      "caution_ja": "実際の類似と似ているという知覚、交際開始と維持を分ける。",
+      "related_topic_ids": [
+        "PSY-PER-001",
+        "PSY-REL-008"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "趣味が同じ相手と価値観が合う相手の違いを整理する。",
+        "observed_in_a_study": false
+      },
+      "research_brief_ids": [
+        "RB-32719123"
+      ]
+    },
+    {
+      "id": "PSY-INT-010",
+      "title_ja": "恋人がいないことと不幸であることは同じ？",
+      "concepts_en": [
+        "singlehood",
+        "relationship status well being"
+      ],
+      "angle_ja": "周囲の結婚と比べず、自分の交流や生活満足を考える。",
+      "search_query": "singlehood relationship status well being systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "独身を欠如と扱わず、自発性や支援関係の違いを確認する。",
+      "related_topic_ids": [
+        "PSY-REL-002",
+        "PSY-WEL-007"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "周囲の結婚と比べず、自分の交流や生活満足を考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-011",
+      "title_ja": "子どもが生まれると夫婦関係はどう変わる？",
+      "concepts_en": [
+        "transition to parenthood",
+        "relationship satisfaction"
+      ],
+      "angle_ja": "育児、睡眠、仕事の分担が変わった時期を扱う。",
+      "search_query": "transition to parenthood relationship satisfaction systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "平均変化を全家庭の運命にせず、支援資源と個人差を記載する。",
+      "related_topic_ids": [
+        "PSY-DEV-010",
+        "PSY-SLP-001"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "育児、睡眠、仕事の分担が変わった時期を扱う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "id": "PSY-INT-012",
+      "title_ja": "運命の相手という考え方は関係を助ける？",
+      "concepts_en": [
+        "implicit theories relationships",
+        "destiny growth beliefs"
+      ],
+      "angle_ja": "衝突を相性の悪さと見るか、話し合いの課題と見るかを考える。",
+      "search_query": "implicit theories relationships destiny growth beliefs systematic review human study",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "努力すれば危険な関係も改善できるとせず、離れる選択も尊重する。",
+      "related_topic_ids": [
+        "PSY-MOT-008",
+        "PSY-REL-010"
+      ],
+      "daily_life_example": {
+        "type": "illustrative_scenario",
+        "description_ja": "衝突を相性の悪さと見るか、話し合いの課題と見るかを考える。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

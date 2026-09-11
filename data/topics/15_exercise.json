@@ -2,15 +2,189 @@
   "schema_version": "1.0",
   "category_id": "exercise",
   "topics": [
-    {"id":"PSY-EXE-001","title_ja":"一度体を動かすだけでも気分は変わる？","concepts_en":["acute exercise","affective response"],"angle_ja":"運動中、直後、数時間後の気分と強度を分けて調べる。","search_query":"acute exercise affect mood intensity randomized meta analysis","priority":1,"source_ids":["SRC031"],"caution_ja":"一般的な身体活動の知見は入口。単回運動の具体的な効果は別途確認する。"},
-    {"id":"PSY-EXE-002","title_ja":"運動はうつや不安のケアでどんな役割を持つ？","concepts_en":["exercise mental health","adjunctive treatment"],"angle_ja":"予防、症状軽減、治療補助を区別して調べる。","search_query":"exercise depression anxiety randomized trials network meta analysis","priority":1,"source_ids":["SRC031","SRC014"],"caution_ja":"運動で全員治るとせず、治療中断や過剰な運動を勧めない。"},
-    {"id":"PSY-EXE-003","title_ja":"散歩程度の運動にも意味はある？","concepts_en":["walking","physical activity dose response"],"angle_ja":"実行しやすい活動、量、継続と生活環境を調べる。","search_query":"walking physical activity dose response mental health systematic review","priority":1,"source_ids":["SRC031"],"caution_ja":"特定の歩数を全員必須の基準にしない。持病や転倒リスクに配慮する。"},
-    {"id":"PSY-EXE-004","title_ja":"座りっぱなしを中断すると何が変わる？","concepts_en":["sedentary behavior","sitting breaks"],"angle_ja":"運動習慣と座位時間を別々の行動として調べる。","search_query":"breaking sitting sedentary behavior cognition metabolic randomized crossover","priority":1,"source_ids":["SRC031"],"caution_ja":"短期の生理指標の変化を病気予防の確定効果としない。"},
-    {"id":"PSY-EXE-005","title_ja":"夜の運動は睡眠を妨げるのか？","concepts_en":["evening exercise","sleep"],"angle_ja":"終了時刻、強度、本人の習慣で違いがあるか調べる。","search_query":"evening exercise timing intensity sleep systematic review meta analysis","priority":1,"source_ids":[],"caution_ja":"夜は運動禁止という一律の結論にしない。不眠症の人は別に評価する。"},
-    {"id":"PSY-EXE-006","title_ja":"運動を続けるには、楽しさと達成感のどちらが大事？","concepts_en":["exercise adherence","affective responses"],"angle_ja":"運動中の快・不快、選択の自由、次回の参加を研究する。","search_query":"exercise affect enjoyment autonomy adherence longitudinal review","priority":1,"source_ids":["SRC009"],"caution_ja":"参照論文は行動習慣の入口。運動種別の比較は追加研究が必要。"},
-    {"id":"PSY-EXE-007","title_ja":"一人で運動するのと仲間と行うのでは続けやすさが違う？","concepts_en":["group exercise","social support adherence"],"angle_ja":"支援、責任感、競争、対人負担の違いを調べる。","search_query":"group individual exercise social support adherence randomized review","priority":2,"source_ids":[],"caution_ja":"集団参加が苦手な人に強制せず、自選による交絡を確認する。"},
-    {"id":"PSY-EXE-008","title_ja":"筋力トレーニングは気分や自己評価にも関係する？","concepts_en":["resistance training","depressive symptoms","self efficacy"],"angle_ja":"筋力、身体像、気分、自信を分けて研究する。","search_query":"resistance training depressive symptoms self efficacy randomized meta analysis","priority":2,"source_ids":[],"caution_ja":"身体の見た目で価値を測らない。安全な実施と健康状態を優先する。"},
-    {"id":"PSY-EXE-009","title_ja":"運動すると頭も働きやすくなる？","concepts_en":["exercise cognition","executive function"],"angle_ja":"単回と長期、年齢、認知課題の種類を比較する。","search_query":"exercise executive function cognition randomized umbrella review","priority":1,"source_ids":["SRC031"],"caution_ja":"脳画像の変化と実生活の能力向上を同一視せず、年齢層を確認する。"},
-    {"id":"PSY-EXE-010","title_ja":"休むことへの罪悪感は、運動の継続を妨げる？","concepts_en":["compulsive exercise","recovery","exercise dependence"],"angle_ja":"健康的な継続と、痛みや疲れを無視した運動の境界を調べる。","search_query":"compulsive exercise guilt rest injury recovery systematic review","priority":2,"source_ids":[],"caution_ja":"高頻度の運動だけで依存と診断しない。痛みや機能障害を軽視しない。"}
+    {
+      "id": "PSY-EXE-001",
+      "title_ja": "一度体を動かすだけでも気分は変わる？",
+      "concepts_en": [
+        "acute exercise",
+        "affective response"
+      ],
+      "angle_ja": "運動中、直後、数時間後の気分と強度を分けて調べる。",
+      "search_query": "acute exercise affect mood intensity randomized meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC031",
+        "SRC058",
+        "SRC063"
+      ],
+      "caution_ja": "一般的な身体活動の知見は入口。単回運動の具体的な効果は別途確認する。",
+      "research_brief_ids": [
+        "RB-38518585",
+        "RB-41667154"
+      ]
+    },
+    {
+      "id": "PSY-EXE-002",
+      "title_ja": "運動はうつや不安のケアでどんな役割を持つ？",
+      "concepts_en": [
+        "exercise mental health",
+        "adjunctive treatment"
+      ],
+      "angle_ja": "予防、症状軽減、治療補助を区別して調べる。",
+      "search_query": "exercise depression anxiety randomized trials network meta analysis",
+      "priority": 1,
+      "source_ids": [
+        "SRC031",
+        "SRC014",
+        "SRC061",
+        "SRC062",
+        "SRC063"
+      ],
+      "caution_ja": "運動で全員治るとせず、治療中断や過剰な運動を勧めない。",
+      "research_brief_ids": [
+        "RB-38355154",
+        "RB-41667154"
+      ]
+    },
+    {
+      "id": "PSY-EXE-003",
+      "title_ja": "散歩程度の運動にも意味はある？",
+      "concepts_en": [
+        "walking",
+        "physical activity dose response"
+      ],
+      "angle_ja": "実行しやすい活動、量、継続と生活環境を調べる。",
+      "search_query": "walking physical activity dose response mental health systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC031",
+        "SRC061",
+        "SRC062"
+      ],
+      "caution_ja": "特定の歩数を全員必須の基準にしない。持病や転倒リスクに配慮する。",
+      "research_brief_ids": [
+        "RB-38355154"
+      ]
+    },
+    {
+      "id": "PSY-EXE-004",
+      "title_ja": "座りっぱなしを中断すると何が変わる？",
+      "concepts_en": [
+        "sedentary behavior",
+        "sitting breaks"
+      ],
+      "angle_ja": "運動習慣と座位時間を別々の行動として調べる。",
+      "search_query": "breaking sitting sedentary behavior cognition metabolic randomized crossover",
+      "priority": 1,
+      "source_ids": [
+        "SRC031"
+      ],
+      "caution_ja": "短期の生理指標の変化を病気予防の確定効果としない。"
+    },
+    {
+      "id": "PSY-EXE-005",
+      "title_ja": "夜の運動は睡眠を妨げるのか？",
+      "concepts_en": [
+        "evening exercise",
+        "sleep"
+      ],
+      "angle_ja": "終了時刻、強度、本人の習慣で違いがあるか調べる。",
+      "search_query": "evening exercise timing intensity sleep systematic review meta analysis",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "夜は運動禁止という一律の結論にしない。不眠症の人は別に評価する。"
+    },
+    {
+      "id": "PSY-EXE-006",
+      "title_ja": "運動を続けるには、楽しさと達成感のどちらが大事？",
+      "concepts_en": [
+        "exercise adherence",
+        "affective responses"
+      ],
+      "angle_ja": "運動中の快・不快、選択の自由、次回の参加を研究する。",
+      "search_query": "exercise affect enjoyment autonomy adherence longitudinal review",
+      "priority": 1,
+      "source_ids": [
+        "SRC009",
+        "SRC039"
+      ],
+      "caution_ja": "参照論文は行動習慣の入口。運動種別の比較は追加研究が必要。",
+      "research_brief_ids": [
+        "RB-39685110"
+      ]
+    },
+    {
+      "id": "PSY-EXE-007",
+      "title_ja": "一人で運動するのと仲間と行うのでは続けやすさが違う？",
+      "concepts_en": [
+        "group exercise",
+        "social support adherence"
+      ],
+      "angle_ja": "支援、責任感、競争、対人負担の違いを調べる。",
+      "search_query": "group individual exercise social support adherence randomized review",
+      "priority": 2,
+      "source_ids": [
+        "SRC063"
+      ],
+      "caution_ja": "集団参加が苦手な人に強制せず、自選による交絡を確認する。",
+      "research_brief_ids": [
+        "RB-41667154"
+      ]
+    },
+    {
+      "id": "PSY-EXE-008",
+      "title_ja": "筋力トレーニングは気分や自己評価にも関係する？",
+      "concepts_en": [
+        "resistance training",
+        "depressive symptoms",
+        "self efficacy"
+      ],
+      "angle_ja": "筋力、身体像、気分、自信を分けて研究する。",
+      "search_query": "resistance training depressive symptoms self efficacy randomized meta analysis",
+      "priority": 2,
+      "source_ids": [
+        "SRC061",
+        "SRC062"
+      ],
+      "caution_ja": "身体の見た目で価値を測らない。安全な実施と健康状態を優先する。",
+      "research_brief_ids": [
+        "RB-38355154"
+      ]
+    },
+    {
+      "id": "PSY-EXE-009",
+      "title_ja": "運動すると頭も働きやすくなる？",
+      "concepts_en": [
+        "exercise cognition",
+        "executive function"
+      ],
+      "angle_ja": "単回と長期、年齢、認知課題の種類を比較する。",
+      "search_query": "exercise executive function cognition randomized umbrella review",
+      "priority": 1,
+      "source_ids": [
+        "SRC031",
+        "SRC074",
+        "SRC083"
+      ],
+      "caution_ja": "脳画像の変化と実生活の能力向上を同一視せず、年齢層を確認する。",
+      "research_brief_ids": [
+        "RB-25771249",
+        "RB-24749966"
+      ]
+    },
+    {
+      "id": "PSY-EXE-010",
+      "title_ja": "休むことへの罪悪感は、運動の継続を妨げる？",
+      "concepts_en": [
+        "compulsive exercise",
+        "recovery",
+        "exercise dependence"
+      ],
+      "angle_ja": "健康的な継続と、痛みや疲れを無視した運動の境界を調べる。",
+      "search_query": "compulsive exercise guilt rest injury recovery systematic review",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "高頻度の運動だけで依存と診断しない。痛みや機能障害を軽視しない。"
+    }
   ]
 }

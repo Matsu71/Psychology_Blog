@@ -2,15 +2,199 @@
   "schema_version": "1.0",
   "category_id": "research_literacy",
   "topics": [
-    {"id":"PSY-RES-001","title_ja":"『関係がある』は『原因である』とは違う","concepts_en":["correlation causation","confounding","reverse causality"],"angle_ja":"睡眠、運動、幸福のニュースを例に研究デザインを読む。","search_query":"causal inference observational studies confounding reverse causality psychology tutorial","priority":1,"source_ids":["SRC011","SRC012"],"caution_ja":"観察研究がすべて無価値という極端な説明にしない。"},
-    {"id":"PSY-RES-002","title_ja":"心理学の研究はなぜ追試が必要なのか？","concepts_en":["replication","registered reports"],"angle_ja":"同じ方法で確かめることと、別の条件で広げることを分ける。","search_query":"psychology reproducibility direct conceptual replication registered reports","priority":1,"source_ids":["SRC016"],"caution_ja":"一つの追試失敗を全研究の否定にせず、対象の選び方を確認する。"},
-    {"id":"PSY-RES-003","title_ja":"『有意差あり』でも日常で実感できる効果とは限らない？","concepts_en":["effect size","clinical practical significance"],"angle_ja":"統計的な検出と、生活で意味のある差を分ける。","search_query":"statistical significance effect size practical clinical importance psychology","priority":1,"source_ids":["SRC016"],"caution_ja":"大きな効果量だけで研究の質を判断しない。信頼区間と測定尺度を確認する。"},
-    {"id":"PSY-RES-004","title_ja":"メタ分析なら結論を信じてよい？","concepts_en":["meta analysis","heterogeneity","risk of bias"],"angle_ja":"統合される研究の質、違い、重複をどう読むかを扱う。","search_query":"meta analysis heterogeneity risk of bias publication bias interpretation","priority":1,"source_ids":["SRC011","SRC013"],"caution_ja":"メタ分析という形式だけで強い証拠と評価しない。"},
-    {"id":"PSY-RES-005","title_ja":"p値0.05は『95％の確率で正しい』という意味？","concepts_en":["p value interpretation","null hypothesis testing"],"angle_ja":"よくある統計の読み違いを、実用的な研究読解につなげる。","search_query":"p values interpretation probability hypothesis true statistical inference","priority":1,"source_ids":["SRC015"],"caution_ja":"p値だけで真偽を判定しない。例に使う数値は架空か実測かを明記する。"},
-    {"id":"PSY-RES-006","title_ja":"効果があった研究ばかりが目立つのはなぜ？","concepts_en":["publication bias","selective reporting","p hacking"],"angle_ja":"公表されない結果や、分析の選び方と見かけの効果を調べる。","search_query":"publication bias selective reporting p hacking preregistration psychology","priority":1,"source_ids":["SRC015","SRC016"],"caution_ja":"個々の研究者の不正を根拠なく推測しない。制度的要因と不正を区別する。"},
-    {"id":"PSY-RES-007","title_ja":"マウスで効いた方法は、人にも効く？","concepts_en":["translation animal human","external validity"],"angle_ja":"生物学的な仕組みの発見と、人への効果検証を区別する。","search_query":"animal human translation behavioral neuroscience external validity review","priority":1,"source_ids":["SRC007"],"caution_ja":"動物研究を無価値とせず、人への直接的な生活提案とは段階を分ける。"},
-    {"id":"PSY-RES-008","title_ja":"海外の大学生の研究は、日本の生活にも当てはまる？","concepts_en":["WEIRD samples","generalizability","cultural psychology"],"angle_ja":"年齢、文化、収入、生活環境と結果の移植可能性を考える。","search_query":"WEIRD samples psychology generalizability cross cultural replication","priority":1,"source_ids":[],"caution_ja":"文化を固定的な国民性として扱わず、集団内の違いも考慮する。"},
-    {"id":"PSY-RES-009","title_ja":"論文に訂正や撤回が出たら、記事はどう更新すべき？","concepts_en":["correction","retraction","research integrity"],"angle_ja":"原論文の状態、訂正の内容、既存記事への影響を確認する手順を扱う。","search_query":"scientific article correction retraction interpretation publication status","priority":1,"source_ids":["SRC015","SRC017","SRC032"],"caution_ja":"訂正と撤回は別物。訂正があるだけで結論が全部無効とはしない。"},
-    {"id":"PSY-RES-010","title_ja":"自分に合う習慣を試すとき、何を記録するとよい？","concepts_en":["N of 1","self experimentation","regression to mean"],"angle_ja":"低リスクな生活習慣で、比較期間と測定の限界を考える。","search_query":"N of 1 behavioral intervention self monitoring regression to mean methods","priority":2,"source_ids":[],"caution_ja":"薬、断食、睡眠削減など危険な自己実験は扱わない。個人の体験を一般的な因果証拠としない。"}
+    {
+      "id": "PSY-RES-001",
+      "title_ja": "『関係がある』は『原因である』とは違う",
+      "concepts_en": [
+        "correlation causation",
+        "confounding",
+        "reverse causality"
+      ],
+      "angle_ja": "睡眠、運動、幸福のニュースを例に研究デザインを読む。",
+      "search_query": "causal inference observational studies confounding reverse causality psychology tutorial",
+      "priority": 1,
+      "source_ids": [
+        "SRC011",
+        "SRC012",
+        "SRC067",
+        "SRC074",
+        "SRC076"
+      ],
+      "caution_ja": "観察研究がすべて無価値という極端な説明にしない。",
+      "research_brief_ids": [
+        "RB-33731933",
+        "RB-25771249",
+        "RB-23990553"
+      ]
+    },
+    {
+      "id": "PSY-RES-002",
+      "title_ja": "心理学の研究はなぜ追試が必要なのか？",
+      "concepts_en": [
+        "replication",
+        "registered reports"
+      ],
+      "angle_ja": "同じ方法で確かめることと、別の条件で広げることを分ける。",
+      "search_query": "psychology reproducibility direct conceptual replication registered reports",
+      "priority": 1,
+      "source_ids": [
+        "SRC016",
+        "SRC066",
+        "SRC068"
+      ],
+      "caution_ja": "一つの追試失敗を全研究の否定にせず、対象の選び方を確認する。",
+      "research_brief_ids": [
+        "RB-36266452",
+        "RB-36857342"
+      ]
+    },
+    {
+      "id": "PSY-RES-003",
+      "title_ja": "『有意差あり』でも日常で実感できる効果とは限らない？",
+      "concepts_en": [
+        "effect size",
+        "clinical practical significance"
+      ],
+      "angle_ja": "統計的な検出と、生活で意味のある差を分ける。",
+      "search_query": "statistical significance effect size practical clinical importance psychology",
+      "priority": 1,
+      "source_ids": [
+        "SRC016",
+        "SRC073"
+      ],
+      "caution_ja": "大きな効果量だけで研究の質を判断しない。信頼区間と測定尺度を確認する。",
+      "research_brief_ids": [
+        "RB-37478886"
+      ]
+    },
+    {
+      "id": "PSY-RES-004",
+      "title_ja": "メタ分析なら結論を信じてよい？",
+      "concepts_en": [
+        "meta analysis",
+        "heterogeneity",
+        "risk of bias"
+      ],
+      "angle_ja": "統合される研究の質、違い、重複をどう読むかを扱う。",
+      "search_query": "meta analysis heterogeneity risk of bias publication bias interpretation",
+      "priority": 1,
+      "source_ids": [
+        "SRC011",
+        "SRC013",
+        "SRC048"
+      ],
+      "caution_ja": "メタ分析という形式だけで強い証拠と評価しない。",
+      "research_brief_ids": [
+        "RB-29505339"
+      ]
+    },
+    {
+      "id": "PSY-RES-005",
+      "title_ja": "p値0.05は『95％の確率で正しい』という意味？",
+      "concepts_en": [
+        "p value interpretation",
+        "null hypothesis testing"
+      ],
+      "angle_ja": "よくある統計の読み違いを、実用的な研究読解につなげる。",
+      "search_query": "p values interpretation probability hypothesis true statistical inference",
+      "priority": 1,
+      "source_ids": [
+        "SRC015"
+      ],
+      "caution_ja": "p値だけで真偽を判定しない。例に使う数値は架空か実測かを明記する。"
+    },
+    {
+      "id": "PSY-RES-006",
+      "title_ja": "効果があった研究ばかりが目立つのはなぜ？",
+      "concepts_en": [
+        "publication bias",
+        "selective reporting",
+        "p hacking"
+      ],
+      "angle_ja": "公表されない結果や、分析の選び方と見かけの効果を調べる。",
+      "search_query": "publication bias selective reporting p hacking preregistration psychology",
+      "priority": 1,
+      "source_ids": [
+        "SRC015",
+        "SRC016",
+        "SRC091"
+      ],
+      "caution_ja": "個々の研究者の不正を根拠なく推測しない。制度的要因と不正を区別する。",
+      "research_brief_ids": [
+        "RB-29494195"
+      ]
+    },
+    {
+      "id": "PSY-RES-007",
+      "title_ja": "マウスで効いた方法は、人にも効く？",
+      "concepts_en": [
+        "translation animal human",
+        "external validity"
+      ],
+      "angle_ja": "生物学的な仕組みの発見と、人への効果検証を区別する。",
+      "search_query": "animal human translation behavioral neuroscience external validity review",
+      "priority": 1,
+      "source_ids": [
+        "SRC007"
+      ],
+      "caution_ja": "動物研究を無価値とせず、人への直接的な生活提案とは段階を分ける。"
+    },
+    {
+      "id": "PSY-RES-008",
+      "title_ja": "海外の大学生の研究は、日本の生活にも当てはまる？",
+      "concepts_en": [
+        "WEIRD samples",
+        "generalizability",
+        "cultural psychology"
+      ],
+      "angle_ja": "年齢、文化、収入、生活環境と結果の移植可能性を考える。",
+      "search_query": "WEIRD samples psychology generalizability cross cultural replication",
+      "priority": 1,
+      "source_ids": [
+        "SRC049",
+        "SRC053",
+        "SRC068",
+        "SRC097"
+      ],
+      "caution_ja": "文化を固定的な国民性として扱わず、集団内の違いも考慮する。",
+      "research_brief_ids": [
+        "RB-31391586",
+        "RB-26162104",
+        "RB-36857342",
+        "RB-40627390"
+      ]
+    },
+    {
+      "id": "PSY-RES-009",
+      "title_ja": "論文に訂正や撤回が出たら、記事はどう更新すべき？",
+      "concepts_en": [
+        "correction",
+        "retraction",
+        "research integrity"
+      ],
+      "angle_ja": "原論文の状態、訂正の内容、既存記事への影響を確認する手順を扱う。",
+      "search_query": "scientific article correction retraction interpretation publication status",
+      "priority": 1,
+      "source_ids": [
+        "SRC015",
+        "SRC017",
+        "SRC032"
+      ],
+      "caution_ja": "訂正と撤回は別物。訂正があるだけで結論が全部無効とはしない。"
+    },
+    {
+      "id": "PSY-RES-010",
+      "title_ja": "自分に合う習慣を試すとき、何を記録するとよい？",
+      "concepts_en": [
+        "N of 1",
+        "self experimentation",
+        "regression to mean"
+      ],
+      "angle_ja": "低リスクな生活習慣で、比較期間と測定の限界を考える。",
+      "search_query": "N of 1 behavioral intervention self monitoring regression to mean methods",
+      "priority": 2,
+      "source_ids": [],
+      "caution_ja": "薬、断食、睡眠削減など危険な自己実験は扱わない。個人の体験を一般的な因果証拠としない。"
+    }
   ]
 }

@@ -2,15 +2,179 @@
   "schema_version": "1.0",
   "category_id": "aging",
   "topics": [
-    {"id":"PSY-AGE-001","title_ja":"年齢を重ねると、すべての知的能力が下がる？","concepts_en":["cognitive aging","fluid crystallized abilities"],"angle_ja":"処理速度、知識、記憶などを別々に研究する。","search_query":"cognitive aging fluid crystallized abilities longitudinal review","priority":1,"source_ids":[],"caution_ja":"年齢集団の平均から個人の能力や価値を判断しない。世代差と加齢変化を分ける。"},
-    {"id":"PSY-AGE-002","title_ja":"脳トレで伸びるのはゲームの点数だけ？","concepts_en":["cognitive training","near far transfer"],"angle_ja":"訓練した能力、日常機能、長期の維持を区別して調べる。","search_query":"cognitive training older adults ACTIVE everyday function transfer systematic review","priority":1,"source_ids":["SRC033"],"caution_ja":"特定の研究プログラムの結果を市販の全アプリに適用しない。自己報告と客観指標を分ける。"},
-    {"id":"PSY-AGE-003","title_ja":"認知機能のケアは、一つの習慣より組み合わせが重要？","concepts_en":["multidomain lifestyle intervention","cognitive decline"],"angle_ja":"運動、食事、学習、血管リスクの複合介入を研究する。","search_query":"FINGER multidomain intervention cognition randomized trial systematic review","priority":1,"source_ids":[],"caution_ja":"複合介入の結果から一要素だけの効果を断定せず、認知症を確実に防ぐとしない。"},
-    {"id":"PSY-AGE-004","title_ja":"聞こえにくさは会話や認知機能にどう関わる？","concepts_en":["hearing loss","cognitive aging","hearing intervention"],"angle_ja":"社会参加、聞き取りの負荷、介入研究を比較する。","search_query":"hearing intervention cognitive decline ACHIEVE randomized trial","priority":1,"source_ids":[],"caution_ja":"観察的な関連と補聴介入の効果を分け、全員に認知症予防効果があるとしない。"},
-    {"id":"PSY-AGE-005","title_ja":"学び続けることは認知機能の予備力になる？","concepts_en":["cognitive reserve","lifelong learning"],"angle_ja":"教育、趣味、仕事の経験と後年の認知機能を研究する。","search_query":"cognitive reserve lifelong learning education aging longitudinal review","priority":2,"source_ids":[],"caution_ja":"教育歴や趣味には健康・経済条件の交絡がある。学歴で個人を評価しない。"},
-    {"id":"PSY-AGE-006","title_ja":"年齢を重ねた後の社会参加にはどんな意味がある？","concepts_en":["social participation","older adults well being"],"angle_ja":"交流、役割、移動や健康の制約を含めて調べる。","search_query":"older adults social participation health longitudinal intervention review","priority":1,"source_ids":["SRC011"],"caution_ja":"外出できる人の健康状態による逆因果を確認し、孤立を本人だけの責任にしない。"},
-    {"id":"PSY-AGE-007","title_ja":"加齢による睡眠の変化と、相談した方がよい不眠は違う？","concepts_en":["sleep aging","insomnia older adults"],"angle_ja":"眠る時刻、眠りの維持、日中機能を分ける。","search_query":"normal sleep aging insomnia older adults review","priority":1,"source_ids":["SRC003","SRC002"],"caution_ja":"困りごとをすべて年齢のせいにせず、薬や身体疾患なども評価する。"},
-    {"id":"PSY-AGE-008","title_ja":"家族を支える人の心身をどう守る？","concepts_en":["caregiver burden","respite support"],"angle_ja":"介護の負担、休息、社会的支援と相談の役割を調べる。","search_query":"caregiver burden respite psychological support randomized systematic review","priority":1,"source_ids":["SRC014"],"caution_ja":"一般的セルフケアだけで構造的負担を解決できるとせず、国内の支援制度は最新確認する。"},
-    {"id":"PSY-AGE-009","title_ja":"年齢とともに感情の扱い方は変わる？","concepts_en":["socioemotional selectivity","positivity effect"],"angle_ja":"将来時間の見通し、対人関係、感情記憶を研究する。","search_query":"socioemotional selectivity positivity effect aging meta analysis","priority":2,"source_ids":[],"caution_ja":"高齢者は必ず穏やかというステレオタイプにしない。"},
-    {"id":"PSY-AGE-010","title_ja":"忘れないためにメモや通知を使うと記憶力は衰える？","concepts_en":["prospective memory","cognitive offloading"],"angle_ja":"能力の訓練と、日常の失敗を減らす外部支援を分ける。","search_query":"prospective memory external aids cognitive offloading older adults intervention","priority":1,"source_ids":[],"caution_ja":"補助具への依存を悪いと決めつけず、生活機能と安全を優先する。"}
+    {
+      "id": "PSY-AGE-001",
+      "title_ja": "年齢を重ねると、すべての知的能力が下がる？",
+      "concepts_en": [
+        "cognitive aging",
+        "fluid crystallized abilities"
+      ],
+      "angle_ja": "処理速度、知識、記憶などを別々に研究する。",
+      "search_query": "cognitive aging fluid crystallized abilities longitudinal review",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "年齢集団の平均から個人の能力や価値を判断しない。世代差と加齢変化を分ける。"
+    },
+    {
+      "id": "PSY-AGE-002",
+      "title_ja": "脳トレで伸びるのはゲームの点数だけ？",
+      "concepts_en": [
+        "cognitive training",
+        "near far transfer"
+      ],
+      "angle_ja": "訓練した能力、日常機能、長期の維持を区別して調べる。",
+      "search_query": "cognitive training older adults ACTIVE everyday function transfer systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC033",
+        "SRC074",
+        "SRC091"
+      ],
+      "caution_ja": "特定の研究プログラムの結果を市販の全アプリに適用しない。自己報告と客観指標を分ける。",
+      "research_brief_ids": [
+        "RB-25771249",
+        "RB-29494195"
+      ]
+    },
+    {
+      "id": "PSY-AGE-003",
+      "title_ja": "認知機能のケアは、一つの習慣より組み合わせが重要？",
+      "concepts_en": [
+        "multidomain lifestyle intervention",
+        "cognitive decline"
+      ],
+      "angle_ja": "運動、食事、学習、血管リスクの複合介入を研究する。",
+      "search_query": "FINGER multidomain intervention cognition randomized trial systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC073",
+        "SRC074"
+      ],
+      "caution_ja": "複合介入の結果から一要素だけの効果を断定せず、認知症を確実に防ぐとしない。",
+      "research_brief_ids": [
+        "RB-37478886",
+        "RB-25771249"
+      ]
+    },
+    {
+      "id": "PSY-AGE-004",
+      "title_ja": "聞こえにくさは会話や認知機能にどう関わる？",
+      "concepts_en": [
+        "hearing loss",
+        "cognitive aging",
+        "hearing intervention"
+      ],
+      "angle_ja": "社会参加、聞き取りの負荷、介入研究を比較する。",
+      "search_query": "hearing intervention cognitive decline ACHIEVE randomized trial",
+      "priority": 1,
+      "source_ids": [
+        "SRC073"
+      ],
+      "caution_ja": "観察的な関連と補聴介入の効果を分け、全員に認知症予防効果があるとしない。",
+      "research_brief_ids": [
+        "RB-37478886"
+      ]
+    },
+    {
+      "id": "PSY-AGE-005",
+      "title_ja": "学び続けることは認知機能の予備力になる？",
+      "concepts_en": [
+        "cognitive reserve",
+        "lifelong learning"
+      ],
+      "angle_ja": "教育、趣味、仕事の経験と後年の認知機能を研究する。",
+      "search_query": "cognitive reserve lifelong learning education aging longitudinal review",
+      "priority": 2,
+      "source_ids": [
+        "SRC092"
+      ],
+      "caution_ja": "教育歴や趣味には健康・経済条件の交絡がある。学歴で個人を評価しない。",
+      "research_brief_ids": [
+        "RB-29729947"
+      ]
+    },
+    {
+      "id": "PSY-AGE-006",
+      "title_ja": "年齢を重ねた後の社会参加にはどんな意味がある？",
+      "concepts_en": [
+        "social participation",
+        "older adults well being"
+      ],
+      "angle_ja": "交流、役割、移動や健康の制約を含めて調べる。",
+      "search_query": "older adults social participation health longitudinal intervention review",
+      "priority": 1,
+      "source_ids": [
+        "SRC011",
+        "SRC064",
+        "SRC090"
+      ],
+      "caution_ja": "外出できる人の健康状態による逆因果を確認し、孤立を本人だけの責任にしない。",
+      "research_brief_ids": [
+        "RB-25910392",
+        "RB-19897238"
+      ]
+    },
+    {
+      "id": "PSY-AGE-007",
+      "title_ja": "加齢による睡眠の変化と、相談した方がよい不眠は違う？",
+      "concepts_en": [
+        "sleep aging",
+        "insomnia older adults"
+      ],
+      "angle_ja": "眠る時刻、眠りの維持、日中機能を分ける。",
+      "search_query": "normal sleep aging insomnia older adults review",
+      "priority": 1,
+      "source_ids": [
+        "SRC003",
+        "SRC002"
+      ],
+      "caution_ja": "困りごとをすべて年齢のせいにせず、薬や身体疾患なども評価する。"
+    },
+    {
+      "id": "PSY-AGE-008",
+      "title_ja": "家族を支える人の心身をどう守る？",
+      "concepts_en": [
+        "caregiver burden",
+        "respite support"
+      ],
+      "angle_ja": "介護の負担、休息、社会的支援と相談の役割を調べる。",
+      "search_query": "caregiver burden respite psychological support randomized systematic review",
+      "priority": 1,
+      "source_ids": [
+        "SRC014"
+      ],
+      "caution_ja": "一般的セルフケアだけで構造的負担を解決できるとせず、国内の支援制度は最新確認する。"
+    },
+    {
+      "id": "PSY-AGE-009",
+      "title_ja": "年齢とともに感情の扱い方は変わる？",
+      "concepts_en": [
+        "socioemotional selectivity",
+        "positivity effect"
+      ],
+      "angle_ja": "将来時間の見通し、対人関係、感情記憶を研究する。",
+      "search_query": "socioemotional selectivity positivity effect aging meta analysis",
+      "priority": 2,
+      "source_ids": [
+        "SRC085"
+      ],
+      "caution_ja": "高齢者は必ず穏やかというステレオタイプにしない。",
+      "research_brief_ids": [
+        "RB-32955293"
+      ]
+    },
+    {
+      "id": "PSY-AGE-010",
+      "title_ja": "忘れないためにメモや通知を使うと記憶力は衰える？",
+      "concepts_en": [
+        "prospective memory",
+        "cognitive offloading"
+      ],
+      "angle_ja": "能力の訓練と、日常の失敗を減らす外部支援を分ける。",
+      "search_query": "prospective memory external aids cognitive offloading older adults intervention",
+      "priority": 1,
+      "source_ids": [],
+      "caution_ja": "補助具への依存を悪いと決めつけず、生活機能と安全を優先する。"
+    }
   ]
 }
