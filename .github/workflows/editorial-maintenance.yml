@@ -1,0 +1,67 @@
+name: Editorial maintenance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/editorial-maintenance.yml'
+      - 'scripts/reconcile_article_progress.py'
+      - 'scripts/apply_reviewed_delivery.py'
+      - 'scripts/validate_reviewed_delivery.py'
+      - 'research/reviewed_deliveries/**'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+jobs:
+  deliver:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply reviewed delivery and reconcile actual progress
+        run: |
+          if [ -f scripts/apply_reviewed_delivery.py ]; then python3 scripts/apply_reviewed_delivery.py; fi
+          python3 scripts/reconcile_article_progress.py
+      - name: Validate data and manuscript references
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+          python3 scripts/reconcile_article_progress.py --check
+          if [ -f scripts/validate_reviewed_delivery.py ]; then python3 scripts/validate_reviewed_delivery.py; fi
+      - name: Verify stable regeneration
+        run: |
+          git diff > /tmp/before.patch
+          python3 scripts/reconcile_article_progress.py
+          git diff > /tmp/after.patch
+          cmp /tmp/before.patch /tmp/after.patch
+      - name: Commit validated content
+        run: |
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent main update; reconcile before retrying.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md
+          if [ -d articles ]; then git add articles; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: deliver validated research and synchronized article progress'
+            git push origin HEAD:main
+          fi
+      - name: Export remote snapshot and diagnostics
+        if: always()
+        run: |
+          mkdir -p maintenance-export
+          git archive --format=zip --output=maintenance-export/repository.zip HEAD
+          git rev-parse HEAD > maintenance-export/source_commit.txt
+          git status --short > maintenance-export/uncommitted_status.txt
+          git diff > maintenance-export/uncommitted.patch
+          cp data/articles/progress.json maintenance-export/progress.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-editorial-maintenance
+          path: maintenance-export/
+          retention-days: 14
+          if-no-files-found: error
