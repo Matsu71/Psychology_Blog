@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-002",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "退勤時に残る心配が、具体的な作業か不明確な責任かを分ける。",
+      "明日の最初の行動を短く残す。",
+      "連絡の緊急度や返信期待を、決められる範囲で確認する。"
+    ],
+    "safety": "過重労働や職場の問題を、本人の気持ちの切り替えだけに帰責しない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-WRK-002-01",
+    "CL-PSY-WRK-002-02",
+    "CL-PSY-WRK-002-03"
+  ],
+  "publication_ready": false
+}

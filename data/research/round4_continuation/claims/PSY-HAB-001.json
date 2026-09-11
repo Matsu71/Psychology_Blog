@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-001",
+  "title": "習慣は21日で身につく？必要な期間の個人差",
+  "claims": [
+    {
+      "id": "CL-PSY-HAB-001-01",
+      "topic_id": "PSY-HAB-001",
+      "statement_ja": "習慣形成の期間には大きな個人差・行動差があり、21日を普遍的な期限にはできない。",
+      "source_ids": [
+        "SRC039",
+        "SRC009"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "健康行動を中心とする研究。",
+      "cannot_infer_ja": "21日や66日まで続ければ全員必ず自動化するという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-HAB-001-02",
+      "topic_id": "PSY-HAB-001",
+      "statement_ja": "20研究を含むレビューでも、形成期間を報告したのは4研究だった。",
+      "source_ids": [
+        "SRC039"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "研究総数と期間推定の直接の根拠数を分ける。",
+      "cannot_infer_ja": "20研究が同じ日数を確認したと説明すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-HAB-001-03",
+      "topic_id": "PSY-HAB-001",
+      "statement_ja": "頻繁に行っていることと、考えずに始められる自動性は同じ指標ではない。",
+      "source_ids": [
+        "SRC039",
+        "SRC009"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "自己報告の自動性を含む習慣形成の測定。",
+      "cannot_infer_ja": "連続記録だけで習慣の強さを確定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-HAB-001-04",
+      "topic_id": "PSY-HAB-001",
+      "statement_ja": "日常の追跡研究は、合図や反復を考える入口になるが、特定の生活指導の因果効果をすべて証明するものではない。",
+      "source_ids": [
+        "SRC009"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "観察的な習慣形成の追跡。",
+      "cannot_infer_ja": "同じ時刻ならどんな行動も無条件に続くという保証。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

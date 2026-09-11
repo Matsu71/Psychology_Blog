@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DIG-001",
+  "title": "SNSを使うと幸福度が下がる、はどこまで本当？",
+  "claims": [
+    {
+      "id": "CL-PSY-DIG-001-01",
+      "topic_id": "PSY-DIG-001",
+      "statement_ja": "若年成人のFacebook利用と、その後の主観的幸福の低下が関連した初期研究がある。",
+      "source_ids": [
+        "SRC012"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "2013年の若年成人を対象とした短期の観察的経験サンプリング研究。",
+      "cannot_infer_ja": "現在のすべてのSNSが、全年齢の利用者を必ず不幸にするという因果的結論。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-DIG-001-02",
+      "topic_id": "PSY-DIG-001",
+      "statement_ja": "利用後の気分を追跡しても、観察研究だけで交絡や逆向きの関係を完全に除くことはできない。",
+      "source_ids": [
+        "SRC012"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "研究デザインからの限界。",
+      "cannot_infer_ja": "時間の前後が分かれば因果が確定するという解釈。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-DIG-001-03",
+      "topic_id": "PSY-DIG-001",
+      "statement_ja": "通信を制限する介入は、特定のSNSの使い方を比較する研究とは区別する必要がある。",
+      "source_ids": [
+        "SRC159"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "モバイルインターネット全体の遮断を扱う試験。",
+      "cannot_infer_ja": "SNSの閲覧、友人との会話、動画などのどれが結果を生んだかを単独で確定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

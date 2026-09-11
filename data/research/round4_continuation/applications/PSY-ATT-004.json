@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ATT-004",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "休憩の前後で、疲労感と作業の進み方を別々に振り返る。",
+      "作業量そのものが過大でないか確認する。",
+      "再開する作業を一行残すなど、負担の小さい工夫を試す。"
+    ],
+    "safety": "短い休憩を睡眠や十分な休養の代替にしない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-ATT-004-01",
+    "CL-PSY-ATT-004-02",
+    "CL-PSY-ATT-004-03"
+  ],
+  "publication_ready": false
+}

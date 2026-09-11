@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-006",
+  "title": "選択肢が多いほど選べなくなるのは本当？",
+  "claims": [
+    {
+      "id": "CL-PSY-DEC-006-01",
+      "topic_id": "PSY-DEC-006",
+      "statement_ja": "選択肢が多いと判断が難しくなるという現象は、すべての場面で一様に生じるわけではない。",
+      "source_ids": [
+        "SRC136"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "選択肢過多を扱うメタ分析。",
+      "cannot_infer_ja": "商品は常に少ないほどよい、選択肢を減らせば全員満足するという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-DEC-006-02",
+      "topic_id": "PSY-DEC-006",
+      "statement_ja": "全体平均と、個々の実験や条件での結果を分けて読む必要がある。",
+      "source_ids": [
+        "SRC136"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "研究間の異質性を含む統合結果。",
+      "cannot_infer_ja": "有名な一実験の結果を買い物、進路、医療選択すべてに拡張すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-DEC-006-03",
+      "topic_id": "PSY-DEC-006",
+      "statement_ja": "この資料の統計表記に関する訂正は、原文と対応させて扱う必要がある。",
+      "source_ids": [
+        "SRC136"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "前回の未完了作業で訂正本文を確認したという記録がある。訂正識別子と対象箇所の再取得が必要。",
+      "cannot_infer_ja": "訂正の内容を確認せず、原論文全体が無効または完全に問題なしと判定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

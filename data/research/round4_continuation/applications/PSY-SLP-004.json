@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-004",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "普段摂る飲料と時刻を確認する。",
+      "表示などで確認できる量と、分からない量を分ける。",
+      "睡眠の困りごとが続く場合は生活調整だけに頼らず相談する。"
+    ],
+    "safety": "研究の高用量条件を自己実験で再現しない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-SLP-004-01",
+    "CL-PSY-SLP-004-02",
+    "CL-PSY-SLP-004-03",
+    "CL-PSY-SLP-004-04"
+  ],
+  "publication_ready": false
+}

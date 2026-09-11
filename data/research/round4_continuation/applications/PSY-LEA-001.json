@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-001",
+  "application": {
+    "type": "evidence_informed_example_not_exact_protocol",
+    "steps": [
+      "短い範囲を学んだ後、資料を閉じて要点を一つ思い出す。",
+      "答えを確認し、誤りや抜けを訂正する。",
+      "覚えておきたい期間を考え、復習の機会を分ける。"
+    ],
+    "safety": "練習を罰や過剰な成績評価に変えない。安全上重要な技能を実地の失敗で学ぶこととは区別する。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-LEA-001-01",
+    "CL-PSY-LEA-001-02",
+    "CL-PSY-LEA-001-03",
+    "CL-PSY-LEA-001-04"
+  ],
+  "publication_ready": false
+}

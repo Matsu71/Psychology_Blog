@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-GEN-001",
+  "application": {
+    "type": "interpretive_guidance_not_intervention_claim",
+    "steps": [
+      "遺伝率を読むときは、集団・特性・測定方法を確認する。",
+      "家族の似た点と、本人の生活上の困りごとを分ける。",
+      "変えたいことがある場合は、性格全体より具体的な場面や行動を考える。"
+    ],
+    "safety": "遺伝情報を採用、教育機会、個人の価値の判断に使わない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-GEN-001-01",
+    "CL-PSY-GEN-001-02",
+    "CL-PSY-GEN-001-03",
+    "CL-PSY-GEN-001-04"
+  ],
+  "publication_ready": false
+}

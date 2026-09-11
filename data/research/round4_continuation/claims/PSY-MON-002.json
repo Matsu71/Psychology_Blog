@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-002",
+  "title": "キャッシュレスだと現金より使いすぎる？",
+  "claims": [
+    {
+      "id": "CL-PSY-MON-002-01",
+      "topic_id": "PSY-MON-002",
+      "statement_ja": "現金以外の決済と支出の関係を統合した研究があり、決済方法は消費行動の研究対象である。",
+      "source_ids": [
+        "SRC169"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "正確な書誌と本文の対象箇所を照合して採用する。",
+      "cannot_infer_ja": "キャッシュレスなら全員が必ず支出を増やすという結論。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MON-002-02",
+      "topic_id": "PSY-MON-002",
+      "statement_ja": "決済方法の平均効果と、特定の個人の家計管理の結果は分ける必要がある。",
+      "source_ids": [
+        "SRC169"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "研究対象となる決済手段、年代、買い物条件を最終確認する。",
+      "cannot_infer_ja": "カード、スマホ決済、分割払い、現金を同じ一軸だけで評価すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MON-002-03",
+      "topic_id": "PSY-MON-002",
+      "statement_ja": "登録済み資料に本文の確認がない場合、効果の方向・大きさ・条件差を数値で記事へ入れない。",
+      "source_ids": [],
+      "unresolved_source_keys": [],
+      "scope_ja": "本文の品質管理ルール。研究結果の主張ではない。",
+      "cannot_infer_ja": "題名や検索結果だけから、平均支出増加率を作ること。",
+      "status": "editorial_or_unresolved",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-002",
+  "application": {
+    "type": "editorial_decision_reflection_not_financial_advice",
+    "steps": [
+      "決済のしやすさと、支出の確認しやすさを分けて考える。",
+      "一つの支出分野で予算と合計を振り返る。",
+      "手段だけを責めず、購入場面や生活の条件も整理する。"
+    ],
+    "safety": "借入、信用契約、分割払いの個別判断を心理学の記事だけで決めない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-MON-002-01",
+    "CL-PSY-MON-002-02",
+    "CL-PSY-MON-002-03"
+  ],
+  "publication_ready": false
+}

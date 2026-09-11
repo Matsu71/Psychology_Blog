@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-001",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "続ける回数と、始める負担を別々に見る。",
+      "実行したい行動を生活のどこに置くか考える。",
+      "途切れた場合は再開の障壁を一つ確認する。"
+    ],
+    "safety": "健康に負担のある行動を、連続記録のために続けない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-HAB-001-01",
+    "CL-PSY-HAB-001-02",
+    "CL-PSY-HAB-001-03",
+    "CL-PSY-HAB-001-04"
+  ],
+  "publication_ready": false
+}

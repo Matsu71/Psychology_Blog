@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-PER-002",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "変えたい性格の名前より、生活で困る場面を挙げる。",
+      "その場面で増やしたい行動を一つ選ぶ。",
+      "本人の感覚と、観察できる行動の変化を分けて記録する。"
+    ],
+    "safety": "性格の違いを人の価値の優劣として扱わない。強い不調を性格改造で解決しようとしない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-PER-002-01",
+    "CL-PSY-PER-002-02",
+    "CL-PSY-PER-002-03"
+  ],
+  "publication_ready": false
+}

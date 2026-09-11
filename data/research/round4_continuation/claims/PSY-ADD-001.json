@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ADD-001",
+  "title": "なぜ人はタバコをやめにくくなるのか？",
+  "claims": [
+    {
+      "id": "CL-PSY-ADD-001-01",
+      "topic_id": "PSY-ADD-001",
+      "statement_ja": "ニコチン依存には、薬理作用、離脱、学習された合図などが関わり、意志の弱さだけでは説明できない。",
+      "source_ids": [
+        "SRC007"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "公的機関の依存の概説。神経機序の詳細は原著研究を別途確認する。",
+      "cannot_infer_ja": "脳内物質一つで依存を完全に説明すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-ADD-001-02",
+      "topic_id": "PSY-ADD-001",
+      "statement_ja": "禁煙支援には有効性が検討された選択肢があり、独力で耐えることだけが方法ではない。",
+      "source_ids": [
+        "SRC043"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "成人の禁煙介入の統合研究。海外の薬や電子タバコを含む。",
+      "cannot_infer_ja": "国外の結果を日本の承認・供給・禁忌を確認せず個別に推奨すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-ADD-001-03",
+      "topic_id": "PSY-ADD-001",
+      "statement_ja": "禁煙者では喫煙継続者より心理面の改善が関連したが、短期離脱と長期の変化は分ける必要がある。",
+      "source_ids": [
+        "SRC044"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "少なくとも6週間後の比較を扱う102研究。交絡が残る。",
+      "cannot_infer_ja": "禁煙すれば誰もがすぐに気分よくなり、離脱症状がないという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-001",
+  "application": {
+    "type": "organizational_discussion_example_not_policy_guarantee",
+    "steps": [
+      "仕事を、集中・相談・現場対応などに分けて整理する。",
+      "出社日数だけでなく、評価する成果と負担を決める。",
+      "実際の制度と研究の制度がどこで違うか確認する。"
+    ],
+    "safety": "一企業の結果を理由に、本人の配慮や職務上の必要を無視して勤務場所を強制しない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-WRK-001-01",
+    "CL-PSY-WRK-001-02",
+    "CL-PSY-WRK-001-03"
+  ],
+  "publication_ready": false
+}

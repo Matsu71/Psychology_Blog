@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-001",
+  "title": "家事を外注して時間を買うと幸福度は上がる？",
+  "claims": [
+    {
+      "id": "CL-PSY-MON-001-01",
+      "topic_id": "PSY-MON-001",
+      "statement_ja": "時間を節約する買い物と生活満足との関連を、4か国6271人の調査が検討した。",
+      "source_ids": [
+        "SRC069"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "調査部分は観察的な関連。",
+      "cannot_infer_ja": "サービスを利用する人の満足が高ければ、利用だけが原因だとすること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MON-001-02",
+      "topic_id": "PSY-MON-001",
+      "statement_ja": "フィールド実験では、物を買う条件と時間を節約する支出を比較し、短期の幸福感への利点が報告された。",
+      "source_ids": [
+        "SRC069"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "特定の参加者・支出条件・短期結果。",
+      "cannot_infer_ja": "全員の家計で外注が最も効率的な幸福の買い方とすること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MON-001-03",
+      "topic_id": "PSY-MON-001",
+      "statement_ja": "支出の余裕、減らせる負担、得た時間の使い道は、個人の判断では別に考慮する必要がある。",
+      "source_ids": [
+        "SRC069"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "研究の一般化の限界から導く判断上の留意点。",
+      "cannot_infer_ja": "借入や無理な支出を、幸福のために正当化すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

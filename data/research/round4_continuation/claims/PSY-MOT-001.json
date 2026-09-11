@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-001",
+  "title": "先延ばしは時間管理の問題か、感情の問題か？",
+  "claims": [
+    {
+      "id": "CL-PSY-MOT-001-01",
+      "topic_id": "PSY-MOT-001",
+      "statement_ja": "先延ばしへの心理的介入を比較した研究では、平均的には改善が見られるが、研究間のばらつきがある。",
+      "source_ids": [
+        "SRC104"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "12件の無作為化比較試験、計718人を扱うレビュー。自己報告の先延ばし指標。",
+      "cannot_infer_ja": "すべての人に同じ手順が効く、あるいは原因が感情だけであるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MOT-001-02",
+      "topic_id": "PSY-MOT-001",
+      "statement_ja": "認知行動療法を扱う一部の研究は有望だが、試験数が少なく、他の手法より確実に優れているとは言い切れない。",
+      "source_ids": [
+        "SRC104"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "少数研究の下位群の結果。",
+      "cannot_infer_ja": "短い作業テクニックを認知行動療法そのものと呼ぶこと。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MOT-001-03",
+      "topic_id": "PSY-MOT-001",
+      "statement_ja": "就寝の先延ばしは一般的な仕事の先延ばしと関連する研究対象だが、同じ原因で説明できるとは限らない。",
+      "source_ids": [
+        "SRC010"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "自己報告の関連研究。",
+      "cannot_infer_ja": "仕事・睡眠・学業の先延ばしを一つの意志力の問題で説明すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

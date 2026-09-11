@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-009",
+  "title": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
+  "claims": [
+    {
+      "id": "CL-PSY-SLP-009-01",
+      "topic_id": "PSY-SLP-009",
+      "statement_ja": "就寝先延ばしは、外的な理由だけでは説明されない就寝の遅れとして研究されてきた。",
+      "source_ids": [
+        "SRC010"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "初期の自己報告研究による概念の導入。",
+      "cannot_infer_ja": "夜更かしをする人が全員同じ問題を持つという診断。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-009-02",
+      "topic_id": "PSY-SLP-009",
+      "statement_ja": "自己調整などとの関連があっても、それだけで原因の方向は確定できない。",
+      "source_ids": [
+        "SRC010"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "相関的な研究設計。",
+      "cannot_infer_ja": "自制心を鍛えればすべて解消するという介入効果。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-009-03",
+      "topic_id": "PSY-SLP-009",
+      "statement_ja": "睡眠を制限した実験では、認知課題の低下と眠気の自己評価が同じ形では進まなかった。",
+      "source_ids": [
+        "SRC042"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "健康成人の実験的な睡眠制限。",
+      "cannot_infer_ja": "就寝先延ばしの原因や、個人に必要な睡眠時間を直接確定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

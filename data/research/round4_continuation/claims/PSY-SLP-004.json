@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-004",
+  "title": "コーヒーは何時まで？カフェインと睡眠の個人差",
+  "claims": [
+    {
+      "id": "CL-PSY-SLP-004-01",
+      "topic_id": "PSY-SLP-004",
+      "statement_ja": "カフェインの睡眠への影響は、摂取時刻だけでなく量も区別して評価する必要がある。",
+      "source_ids": [
+        "SRC038"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "23人の成人男性を対象に100mgと400mg、就寝4・8・12時間前を比較した交差試験。",
+      "cannot_infer_ja": "一杯という単位だけで全飲料の影響を比較すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-004-02",
+      "topic_id": "PSY-SLP-004",
+      "statement_ja": "この試験では400mgで就寝12時間前にも睡眠への影響が検出された。",
+      "source_ids": [
+        "SRC038"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "日常のカフェイン摂取が中程度の成人男性という限定された対象。",
+      "cannot_infer_ja": "全員が就寝12時間前から完全にカフェインを断つべきという基準。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-004-03",
+      "topic_id": "PSY-SLP-004",
+      "statement_ja": "100mg条件で明確な差が検出されなかったことは、全員への無影響の保証ではない。",
+      "source_ids": [
+        "SRC038"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "標本数と検討した条件に依存する無差の結果。",
+      "cannot_infer_ja": "100mgなら誰がいつ飲んでも睡眠に影響しないという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-004-04",
+      "topic_id": "PSY-SLP-004",
+      "statement_ja": "眠れたという本人の感覚と、測定された睡眠の変化は一致しない場合がある。",
+      "source_ids": [
+        "SRC038"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "この試験における主観的指標と測定指標の比較。",
+      "cannot_infer_ja": "本人の体感が無価値、あるいは市販の睡眠機器が常に正しいという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

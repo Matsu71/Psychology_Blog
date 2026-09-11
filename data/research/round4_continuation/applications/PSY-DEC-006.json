@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-006",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "候補を見る前に、使う目的を一文にする。",
+      "外せない条件と、妥協できる条件を分ける。",
+      "数を減らしたことで重要な選択肢を落としていないか確認する。"
+    ],
+    "safety": "金融・医療など高い損失を伴う判断を、選択肢削減だけで済ませない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-DEC-006-01",
+    "CL-PSY-DEC-006-02",
+    "CL-PSY-DEC-006-03"
+  ],
+  "publication_ready": false
+}

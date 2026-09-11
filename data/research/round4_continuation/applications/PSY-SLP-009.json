@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-009",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "寝られない理由が外的制約、眠れなさ、行動の後回しのどれに近いか整理する。",
+      "夜に残したい楽しみを一つと、その終点を考える。",
+      "翌日の眠気や支障も合わせて振り返る。"
+    ],
+    "safety": "睡眠時間をさらに削る方法として使わない。不眠や日中の強い眠気は別に評価する。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-SLP-009-01",
+    "CL-PSY-SLP-009-02",
+    "CL-PSY-SLP-009-03"
+  ],
+  "publication_ready": false
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.0",
+  "requests": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1073%2Fpnas.2107346118%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.neubiorev.2019.01.009%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effects+of+time+pressure+on+decision+making+under+uncertainty%3A+changes+in+affective+state+and+information+processing+strategy%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28time+pressure+decision+quality+meta-analysis%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=time+pressure+decision+quality+meta-analysis&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22A+review+of+the+psychological+literature+on+flow%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=A+review+of+the+psychological+literature+on+flow&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28flow+interventions+systematic+review+performance%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=flow+interventions+systematic+review+performance&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1126%2Fscience.185.4157.1124%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2F0749-5978%2885%2990049-4%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2F0749-5978%2885%2990049-4",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28sunk+cost+effect+meta+analysis+decision+making%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=sunk+cost+effect+meta+analysis+decision+making&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1257%2F002205102320161311%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1257%2F002205102320161311",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.cub.2011.10.030%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28unrealistic+optimism+review+risk+perception%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0022-3514.35.4.250%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1037%2F0022-3514.35.4.250",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fbul0000127%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Are+active+and+passive+social+media+use+related+to+mental+health%2C+wellbeing%2C+and+social+support+outcomes%3F+A+meta-analysis+of+141+studies%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28Valkenburg+active+passive+social+media+use+critical+scoping+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=Valkenburg+active+passive+social+media+use+critical+scoping+review&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28doomscrolling+scale+psychological+distress+validation%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28partner+phubbing+relationship+satisfaction+meta-analysis%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=partner+phubbing+relationship+satisfaction+meta-analysis&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28phubbing+experimental+conversation+quality%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28cyberbullying+adults+mental+health+systematic+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=cyberbullying+adults+mental+health+systematic+review&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28online+harassment+coping+adults+systematic+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=online+harassment+coping+adults+systematic+review&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1287%2Fmksc.17.1.4%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1287%2Fmksc.17.1.4",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs11747-019-00670-w%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1007%2Fs11747-019-00670-w",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1257%2Faer.96.3.694%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1257%2Faer.96.3.694",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28subscription+inertia+inattention+renewal+field+experiment%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=subscription+inertia+inattention+renewal+field+experiment&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Scarcity+tactics+in+marketing%3A+A+meta-analysis+of+product+scarcity+effects+on+consumer+purchase+intentions%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=Scarcity+tactics+in+marketing%3A+A+meta-analysis+of+product+scarcity+effects+on+consumer+purchase+intentions&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F1948550615616462%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1177%2F1948550615616462",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F1948550613488952%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1177%2F1948550613488952",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1089%2Fcpb.2008.0263%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Expand+Your+Horizon%3A+A+programme+that+improves+body+image+and+reduces+self-objectification+by+training+women+to+focus+on+body+functionality%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Crowding+and+personal+space+invasion+on+the+train%3A+Please+don%27t+make+me+sit+in+the+middle%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=Crowding+and+personal+space+invasion+on+the+train%3A+Please+don%27t+make+me+sit+in+the+middle&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28crowding+personal+space+stress+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28adult+playfulness+well-being+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28adult+playfulness+intervention+randomized%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fj.1467-8721.2008.00595.x%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1467-8721.2008.00595.x",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28nostalgia+well-being+meta-analysis%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0149206318805832%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1177%2F0149206318805832",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0956797611432178%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28foreign+language+effect+meta-analysis+decision%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Hedonic+Adaptation+to+Changes+in+Housing+Conditions%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=Hedonic+Adaptation+to+Changes+in+Housing+Conditions&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28residential+relocation+life+satisfaction+longitudinal%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=residential+relocation+life+satisfaction+longitudinal&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28empty+nest+revolving+door+prospective+women+quality+life+children+leaving+reentering+home%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://api.crossref.org/works?query.bibliographic=empty+nest+revolving+door+prospective+women+quality+life+children+leaving+reentering+home&rows=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28empty+nest+parental+wellbeing+longitudinal+review%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "date": "2026-09-11"
+    }
+  ]
+}

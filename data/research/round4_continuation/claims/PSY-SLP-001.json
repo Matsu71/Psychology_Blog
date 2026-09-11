@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-001",
+  "title": "自分に必要な睡眠時間はどう見極める？",
+  "claims": [
+    {
+      "id": "CL-PSY-SLP-001-01",
+      "topic_id": "PSY-SLP-001",
+      "statement_ja": "睡眠制限の実験では、4時間・6時間の就床機会を続けた条件で認知課題の低下が蓄積した。",
+      "source_ids": [
+        "SRC042"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "健康成人48人を対象とする14日間の実験。就床機会と実際の睡眠時間は同一ではない。",
+      "cannot_infer_ja": "この条件から各個人の必要睡眠時間を診断すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-001-02",
+      "topic_id": "PSY-SLP-001",
+      "statement_ja": "眠気の自己評価は、認知課題の変化と同じ形では悪化し続けなかった。",
+      "source_ids": [
+        "SRC042"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "実験内の主観と客観的課題の比較。",
+      "cannot_infer_ja": "自覚がなければ影響がない、または本人の感覚は無価値という主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-001-03",
+      "topic_id": "PSY-SLP-001",
+      "statement_ja": "習慣的に睡眠が短い過体重の成人への睡眠延長試験は、睡眠を増やすと生活上の結果も変化し得ることを示す。",
+      "source_ids": [
+        "SRC072"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "21～40歳80人の短期試験。",
+      "cannot_infer_ja": "長く寝るほど全員の健康がよくなるという一般化。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-001-04",
+      "topic_id": "PSY-SLP-001",
+      "statement_ja": "慢性不眠に対しては、睡眠衛生の助言だけを単独治療とすることは推奨されていない。",
+      "source_ids": [
+        "SRC040"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "AASMの成人慢性不眠の指針。",
+      "cannot_infer_ja": "眠れない人にただ長く寝床にいるよう勧めること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

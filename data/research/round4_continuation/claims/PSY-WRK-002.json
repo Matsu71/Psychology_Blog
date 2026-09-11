@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-002",
+  "title": "仕事を終えても頭から離れないのはなぜ？",
+  "claims": [
+    {
+      "id": "CL-PSY-WRK-002-01",
+      "topic_id": "PSY-WRK-002",
+      "statement_ja": "仕事から心理的に離れることを促す介入のメタ分析では、平均的な改善が報告された。",
+      "source_ids": [
+        "SRC075"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "30研究、34介入、3725人。方法と期間は一様ではない。",
+      "cannot_infer_ja": "考えないように努力すれば、どんな労働条件でも回復できるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-WRK-002-02",
+      "topic_id": "PSY-WRK-002",
+      "statement_ja": "仕事から離れられる感覚と、仕事量・勤務時間などの条件は分けて扱う必要がある。",
+      "source_ids": [
+        "SRC075",
+        "SRC100"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "個人向け介入と、組織の労働時間短縮を扱う別の研究。",
+      "cannot_infer_ja": "個人の対処と組織的な制度変更を同じ介入として扱うこと。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-WRK-002-03",
+      "topic_id": "PSY-WRK-002",
+      "statement_ja": "週4日勤務の研究は業務の再設計を伴う非無作為化の組織介入であり、日数だけの効果を切り出せない。",
+      "source_ids": [
+        "SRC100"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "141組織2896人の6か月試行と12対照企業。",
+      "cannot_infer_ja": "同じ仕事時間を4日に詰めても、必ず同じ効果が得られるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

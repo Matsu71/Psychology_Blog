@@ -1,0 +1,1273 @@
+{
+  "schema_version": "1.0",
+  "topics": [
+    {
+      "topic_id": "PSY-HAB-006",
+      "question": "行動を始める手間を減らすと実行しやすくなるか。",
+      "selectors": [
+        {
+          "doi": "10.1073/pnas.2107346118",
+          "title": "The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains"
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "選択環境全般の統合研究で、手間の削減だけの効果ではない。出版バイアスに関する反論・訂正・再分析を必ず併読する。",
+      "example": "運動着を出しておく工夫と、運動する意欲そのものを区別する。",
+      "source_ids": [
+        "R4SRC-30dbe088cb3b"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1073/pnas.2107346118",
+            "title": "The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "運動着を出しておく工夫と、運動する意欲そのものを区別する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-PER-009",
+      "question": "感覚処理感受性は、一般に言う繊細さや診断名とどう違うか。",
+      "selectors": [
+        {
+          "doi": "10.1016/j.neubiorev.2019.01.009",
+          "title": "Sensory Processing Sensitivity in the context of Environmental Sensitivity: A critical review and development of research agenda"
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "特性の概念・尺度のレビュー。ネット上のHSP診断や特定の対処法の有効性を承認するものではない。",
+      "example": "刺激に疲れやすい経験を固定的なタイプだけで理解しない。",
+      "source_ids": [
+        "R4SRC-62bdd458d5eb"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1016/j.neubiorev.2019.01.009",
+            "title": "Sensory Processing Sensitivity in the context of Environmental Sensitivity: A critical review and development of research agenda"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "刺激に疲れやすい経験を固定的なタイプだけで理解しない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-ATT-008",
+      "question": "時間の圧力は判断の速さと正確さにどう関わるか。",
+      "selectors": [
+        {
+          "title": "Effects of time pressure on decision making under uncertainty: changes in affective state and information processing strategy",
+          "required_terms": [
+            "time pressure",
+            "decision"
+          ]
+        },
+        {
+          "query": "time pressure decision quality meta-analysis",
+          "required_terms": [
+            "time pressure"
+          ]
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "時間制約下の意思決定と、締切による長期の生産性を分ける。速さと正確さを同じ指標にしない。",
+      "example": "締切前に着手できることと、ミスが減ることを別々に見る。",
+      "source_ids": [
+        "R4SRC-6c6a3ce05b12",
+        "R4SRC-4d10a9b920d0"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Effects of time pressure on decision making under uncertainty: changes in affective state and information processing strategy",
+            "required_terms": [
+              "time pressure",
+              "decision"
+            ]
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "time pressure decision quality meta-analysis",
+            "required_terms": [
+              "time pressure"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "締切前に着手できることと、ミスが減ることを別々に見る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-ATT-009",
+      "question": "フローを促す条件と、成果の改善は同じか。",
+      "selectors": [
+        {
+          "title": "A review of the psychological literature on flow",
+          "required_terms": [
+            "flow",
+            "review"
+          ]
+        },
+        {
+          "query": "flow interventions systematic review performance",
+          "required_terms": [
+            "flow"
+          ]
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "フローの自己報告、先行条件、客観的成績、因果的な介入を分ける。没頭を狙えば必ず成果が上がるとしない。",
+      "example": "楽しく集中した時間と、実際の成果を別々に振り返る。",
+      "source_ids": [
+        "R4SRC-e36b976ee9be"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "A review of the psychological literature on flow",
+            "required_terms": [
+              "flow",
+              "review"
+            ]
+          },
+          "status": "unresolved"
+        },
+        {
+          "selector": {
+            "query": "flow interventions systematic review performance",
+            "required_terms": [
+              "flow"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "楽しく集中した時間と、実際の成果を別々に振り返る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DEC-002",
+      "question": "最初に提示された数字が後の判断の基準になるか。",
+      "selectors": [
+        {
+          "doi": "10.1126/science.185.4157.1124",
+          "title": "Judgment under Uncertainty: Heuristics and Biases"
+        },
+        {
+          "doi": "10.1177/2515245918810225",
+          "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings"
+        }
+      ],
+      "relevance": "foundational_and_replication",
+      "limit": "基礎論考と複数課題の追試。アンカリングを実際の価格判断に適用する際は、該当課題の方法・結果を本文で特定する。",
+      "example": "値札や見積額を見た後、別の基準を探して比較する。",
+      "source_ids": [
+        "R4SRC-7b6ce6858cf5",
+        "SRC133"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1126/science.185.4157.1124",
+            "title": "Judgment under Uncertainty: Heuristics and Biases"
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "doi": "10.1177/2515245918810225",
+            "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "値札や見積額を見た後、別の基準を探して比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "question": "すでに払った費用は、やめる判断に影響するか。",
+      "selectors": [
+        {
+          "doi": "10.1016/0749-5978(85)90049-4",
+          "title": "The psychology of sunk cost"
+        },
+        {
+          "query": "sunk cost effect meta analysis decision making",
+          "required_terms": [
+            "sunk cost"
+          ]
+        }
+      ],
+      "relevance": "direct",
+      "limit": "回収できない過去費用と、継続による将来の便益・中止費用を分ける。過去を無視して何でもやめる助言にしない。",
+      "example": "合わない習い事を続ける理由に、これまで払った額だけが残っていないか考える。",
+      "source_ids": [
+        "R4SRC-a28d057130b8",
+        "R4SRC-14fb6f3495da"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1016/0749-5978(85)90049-4",
+            "title": "The psychology of sunk cost"
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "sunk cost effect meta analysis decision making",
+            "required_terms": [
+              "sunk cost"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "合わない習い事を続ける理由に、これまで払った額だけが残っていないか考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DEC-007",
+      "question": "現在と将来の利益を人はどう比較するか。",
+      "selectors": [
+        {
+          "doi": "10.1257/002205102320161311",
+          "title": "Time Discounting and Time Preference: A Critical Review"
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "現在バイアス、一般的な時間割引、不確実性、流動性の制約を区別する。困窮による短期選択を不合理と決めつけない。",
+      "example": "今の休息と将来の学習成果を選ぶとき、時間や資源の制約も考慮する。",
+      "source_ids": [
+        "R4SRC-782a6563a0a2"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1257/002205102320161311",
+            "title": "Time Discounting and Time Preference: A Critical Review"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "今の休息と将来の学習成果を選ぶとき、時間や資源の制約も考慮する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DEC-008",
+      "question": "自分のリスクを楽観的に見積もることはあるか。",
+      "selectors": [
+        {
+          "doi": "10.1016/j.cub.2011.10.030",
+          "title": "The optimism bias"
+        },
+        {
+          "query": "unrealistic optimism review risk perception",
+          "required_terms": [
+            "optimism"
+          ]
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "希望を持つこと、比較的楽観、絶対的な予測誤差を分ける。前向きな人が危険という説明にしない。",
+      "example": "自分だけは遅れないという予定が、実際の所要時間と合っているか振り返る。",
+      "source_ids": [
+        "R4SRC-922b53ecafc4",
+        "R4SRC-1c582652dfa1"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1016/j.cub.2011.10.030",
+            "title": "The optimism bias"
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "unrealistic optimism review risk perception",
+            "required_terms": [
+              "optimism"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "自分だけは遅れないという予定が、実際の所要時間と合っているか振り返る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-SOC-004",
+      "question": "一つの好印象が別の評価まで変えるか。",
+      "selectors": [
+        {
+          "doi": "10.1037/0022-3514.35.4.250",
+          "title": "The halo effect: Evidence for unconscious alteration of judgments"
+        }
+      ],
+      "relevance": "direct_foundational",
+      "limit": "古典実験の条件と追試を確認する。外見や話し方から能力・誠実さを判断することを正当化しない。",
+      "example": "発表が上手いことと、提示された根拠が強いことを分けて評価する。",
+      "source_ids": [
+        "R4SRC-91281148b882"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1037/0022-3514.35.4.250",
+            "title": "The halo effect: Evidence for unconscious alteration of judgments"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "発表が上手いことと、提示された根拠が強いことを分けて評価する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "question": "他人との比較が自己評価や感情にどう関わるか。",
+      "selectors": [
+        {
+          "doi": "10.1037/bul0000127",
+          "title": "A social comparison theory meta-analysis 60+ years on"
+        }
+      ],
+      "relevance": "direct",
+      "limit": "上方比較・下方比較、同化・対比、動機や状況を分ける。比較はすべて有害としない。",
+      "example": "他人の成果を見て学べるときと、自分を否定するときを区別する。",
+      "source_ids": [
+        "R4SRC-fe1cd8a9cff4"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1037/bul0000127",
+            "title": "A social comparison theory meta-analysis 60+ years on"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "他人の成果を見て学べるときと、自分を否定するときを区別する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DIG-002",
+      "question": "SNSの能動的・受動的な利用という分類で心の状態を説明できるか。",
+      "selectors": [
+        {
+          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+          "required_terms": [
+            "active",
+            "passive",
+            "meta"
+          ]
+        },
+        {
+          "query": "Valkenburg active passive social media use critical scoping review",
+          "required_terms": [
+            "active",
+            "passive"
+          ]
+        }
+      ],
+      "relevance": "direct",
+      "limit": "見るだけなら悪い、投稿すれば良いという二分法を避ける。相手、内容、目的、測定法を確認する。",
+      "example": "情報を読むことと、友人の投稿を比較し続けることを同じ受動利用と一括りにしない。",
+      "source_ids": [
+        "R4SRC-8b8288295405",
+        "R4SRC-97f0f72f63f3"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+            "required_terms": [
+              "active",
+              "passive",
+              "meta"
+            ]
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "Valkenburg active passive social media use critical scoping review",
+            "required_terms": [
+              "active",
+              "passive"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "情報を読むことと、友人の投稿を比較し続けることを同じ受動利用と一括りにしない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DIG-003",
+      "question": "不安なニュースを見続ける行動は、どう定義・測定されているか。",
+      "selectors": [
+        {
+          "query": "doomscrolling scale psychological distress validation",
+          "required_terms": [
+            "doomscrolling"
+          ]
+        }
+      ],
+      "relevance": "measurement_first",
+      "limit": "新しい尺度の自己報告研究と、使用を変える介入試験を分ける。相関から一方向の原因を確定しない。",
+      "example": "必要な情報確認と、不安が増えても止めにくい閲覧を分けて振り返る。",
+      "source_ids": [
+        "R4SRC-fb1f4d23cfd9"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "query": "doomscrolling scale psychological distress validation",
+            "required_terms": [
+              "doomscrolling"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "必要な情報確認と、不安が増えても止めにくい閲覧を分けて振り返る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DIG-007",
+      "question": "対面の会話中のスマホ利用は関係の評価とどう関わるか。",
+      "selectors": [
+        {
+          "query": "partner phubbing relationship satisfaction meta-analysis",
+          "required_terms": [
+            "phubbing",
+            "meta"
+          ]
+        },
+        {
+          "query": "phubbing experimental conversation quality",
+          "required_terms": [
+            "phubbing"
+          ]
+        }
+      ],
+      "relevance": "direct",
+      "limit": "自己報告の相関と会話実験を区別する。仕事やケアで必要な利用、相手の解釈を考慮する。",
+      "example": "食事中のスマホ利用について、緊急連絡の必要と会話への注意を話し合う。",
+      "source_ids": [
+        "R4SRC-e7645c5d1e01"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "query": "partner phubbing relationship satisfaction meta-analysis",
+            "required_terms": [
+              "phubbing",
+              "meta"
+            ]
+          },
+          "status": "unresolved"
+        },
+        {
+          "selector": {
+            "query": "phubbing experimental conversation quality",
+            "required_terms": [
+              "phubbing"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "食事中のスマホ利用について、緊急連絡の必要と会話への注意を話し合う。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-DIG-008",
+      "question": "オンラインの嫌がらせと成人の心の健康にはどんな関連があるか。",
+      "selectors": [
+        {
+          "query": "cyberbullying adults mental health systematic review",
+          "required_terms": [
+            "cyberbullying",
+            "review"
+          ]
+        },
+        {
+          "query": "online harassment coping adults systematic review",
+          "required_terms": [
+            "harassment"
+          ]
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "子どもだけの研究を成人へ無条件に転用しない。被害者の対処不足を原因にしない。",
+      "example": "嫌な交流を記録し、必要な安全確保や支援につなげる。",
+      "source_ids": [
+        "R4SRC-9e99a17a9130"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "query": "cyberbullying adults mental health systematic review",
+            "required_terms": [
+              "cyberbullying",
+              "review"
+            ]
+          },
+          "status": "unresolved"
+        },
+        {
+          "selector": {
+            "query": "online harassment coping adults systematic review",
+            "required_terms": [
+              "harassment"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "嫌な交流を記録し、必要な安全確保や支援につなげる。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-MON-004",
+      "question": "支払いの感覚と、消費の楽しさはどう結び付くか。",
+      "selectors": [
+        {
+          "doi": "10.1287/mksc.17.1.4",
+          "title": "The Red and the Black: Mental Accounting of Savings and Debt"
+        }
+      ],
+      "relevance": "foundational_model",
+      "limit": "概念モデルと実際の購買データを分ける。痛みという比喩を医学的な痛みや一つの脳部位と同一視しない。",
+      "example": "一括払いと月額表示で費用の感じ方が違うとき、総額を別に確認する。",
+      "source_ids": [
+        "R4SRC-7864133217d3"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1287/mksc.17.1.4",
+            "title": "The Red and the Black: Mental Accounting of Savings and Debt"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "一括払いと月額表示で費用の感じ方が違うとき、総額を別に確認する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-MON-005",
+      "question": "衝動買いには感情や個人差、環境がどう関わるか。",
+      "selectors": [
+        {
+          "doi": "10.1007/s11747-019-00670-w",
+          "title": "Impulse buying: a meta-analytic review"
+        }
+      ],
+      "relevance": "direct",
+      "limit": "衝動買いの統合研究があっても、疲れた夜だけの因果効果を確定できるとは限らない。タイトルの夜・疲労の部分は追加研究で確認する。",
+      "example": "予定外の購入を、商品、時間帯、気分、広告接触に分けて振り返る。",
+      "source_ids": [
+        "R4SRC-80b8aa108535"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1007/s11747-019-00670-w",
+            "title": "Impulse buying: a meta-analytic review"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "予定外の購入を、商品、時間帯、気分、広告接触に分けて振り返る。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "question": "使わない契約を継続する行動には何が関わるか。",
+      "selectors": [
+        {
+          "doi": "10.1257/aer.96.3.694",
+          "title": "Paying Not to Go to the Gym"
+        },
+        {
+          "query": "subscription inertia inattention renewal field experiment",
+          "required_terms": [
+            "subscription"
+          ]
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "ジム契約の研究を、現在の全サブスクリプションへ一括適用しない。将来利用の予測、解約の手間、更新条件を分ける。",
+      "example": "過去に払った金額ではなく、これから利用する見込みと費用を比較する。",
+      "source_ids": [
+        "R4SRC-c9aa7405844b",
+        "R4SRC-6c9686ab2c3c"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1257/aer.96.3.694",
+            "title": "Paying Not to Go to the Gym"
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "subscription inertia inattention renewal field experiment",
+            "required_terms": [
+              "subscription"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "過去に払った金額ではなく、これから利用する見込みと費用を比較する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-MON-009",
+      "question": "希少性や期間限定の訴求は購入判断にどう関わるか。",
+      "selectors": [
+        {
+          "title": "Scarcity tactics in marketing: A meta-analysis of product scarcity effects on consumer purchase intentions",
+          "required_terms": [
+            "scarcity",
+            "meta"
+          ]
+        }
+      ],
+      "relevance": "direct_limited_outcome",
+      "limit": "購入意図と実際の購入、供給の少なさと期限の短さを分ける。消費者を操作する指南にしない。",
+      "example": "残りわずかと表示されても、元々必要だったかを別に確認する。",
+      "source_ids": [
+        "R4SRC-dcbbdc32ffc3"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Scarcity tactics in marketing: A meta-analysis of product scarcity effects on consumer purchase intentions",
+            "required_terms": [
+              "scarcity",
+              "meta"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "残りわずかと表示されても、元々必要だったかを別に確認する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-INT-003",
+      "question": "性的な頻度と関係や幸福への満足は同じように増えるか。",
+      "selectors": [
+        {
+          "doi": "10.1177/1948550615616462",
+          "title": "Sexual Frequency Predicts Greater Well-Being, But More Is Not Always Better"
+        }
+      ],
+      "relevance": "direct",
+      "limit": "相関と因果、関係のある人とない人を分ける。平均頻度を義務や正常の基準にしない。",
+      "example": "他人の平均より、双方の希望と満足を確認する。",
+      "source_ids": [
+        "R4SRC-fed8dec5e50e"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1177/1948550615616462",
+            "title": "Sexual Frequency Predicts Greater Well-Being, But More Is Not Always Better"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "他人の平均より、双方の希望と満足を確認する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-INT-007",
+      "question": "睡眠とカップル間の対立はどう関わるか。",
+      "selectors": [
+        {
+          "doi": "10.1177/1948550613488952",
+          "title": "The Role of Sleep in Interpersonal Conflict: Do Sleepless Nights Mean Worse Fights?"
+        }
+      ],
+      "relevance": "direct",
+      "limit": "日記・観察・実験の各部分を確認する。寝不足を暴力や支配の言い訳にしない。",
+      "example": "疲れた日の重要な話し合いをどう扱うか、双方で考える。",
+      "source_ids": [],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1177/1948550613488952",
+            "title": "The Role of Sleep in Interpersonal Conflict: Do Sleepless Nights Mean Worse Fights?"
+          },
+          "status": "unresolved"
+        }
+      ],
+      "status": "source_unresolved",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "疲れた日の重要な話し合いをどう扱うか、双方で考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-INT-008",
+      "question": "SNS上の情報と恋愛の嫉妬や確認行動にはどんな関連があるか。",
+      "selectors": [
+        {
+          "doi": "10.1089/cpb.2008.0263",
+          "title": "More information than you ever wanted: does Facebook bring out the green-eyed monster?"
+        }
+      ],
+      "relevance": "direct_historical",
+      "limit": "当時のFacebookと標本の研究。現在の全SNSへ拡張せず、無断監視を対処法として勧めない。",
+      "example": "既読やオンライン表示から、相手の意図を確定しない。",
+      "source_ids": [
+        "R4SRC-4192e6e68e0f"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1089/cpb.2008.0263",
+            "title": "More information than you ever wanted: does Facebook bring out the green-eyed monster?"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "既読やオンライン表示から、相手の意図を確定しない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-HPS-006",
+      "question": "見た目だけでなく体の機能に目を向ける介入は、身体像にどう関わるか。",
+      "selectors": [
+        {
+          "title": "Expand Your Horizon: A programme that improves body image and reduces self-objectification by training women to focus on body functionality",
+          "required_terms": [
+            "horizon",
+            "body",
+            "functionality"
+          ]
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "身体機能への注目を、body neutralityという新しい言葉の全主張と同一視しない。対象者と身体機能の多様性を尊重する。",
+      "example": "見た目を無理に好きになることとは別に、体とどう付き合いたいかを考える。",
+      "source_ids": [
+        "R4SRC-95e557b960c4"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Expand Your Horizon: A programme that improves body image and reduces self-objectification by training women to focus on body functionality",
+            "required_terms": [
+              "horizon",
+              "body",
+              "functionality"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "見た目を無理に好きになることとは別に、体とどう付き合いたいかを考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-ENV-011",
+      "question": "混雑と個人空間の侵入はストレスとどう関わるか。",
+      "selectors": [
+        {
+          "title": "Crowding and personal space invasion on the train: Please don't make me sit in the middle",
+          "required_terms": [
+            "crowding",
+            "train"
+          ]
+        },
+        {
+          "query": "crowding personal space stress review",
+          "required_terms": [
+            "crowding"
+          ]
+        }
+      ],
+      "relevance": "limited_direct",
+      "limit": "交通環境の研究を全場面に一般化しない。人数と、選択可能性・安全感・本人の快適さを分ける。",
+      "example": "混雑した場所で疲れることを、社交性の不足だけで説明しない。",
+      "source_ids": [
+        "R4SRC-bd6074453223",
+        "R4SRC-2631467ad93a"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Crowding and personal space invasion on the train: Please don't make me sit in the middle",
+            "required_terms": [
+              "crowding",
+              "train"
+            ]
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "crowding personal space stress review",
+            "required_terms": [
+              "crowding"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "混雑した場所で疲れることを、社交性の不足だけで説明しない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-CRE-008",
+      "question": "成人の遊びや遊び心は、健康や適応とどう関わるか。",
+      "selectors": [
+        {
+          "query": "adult playfulness well-being review",
+          "required_terms": [
+            "playfulness"
+          ]
+        },
+        {
+          "query": "adult playfulness intervention randomized",
+          "required_terms": [
+            "playfulness"
+          ]
+        }
+      ],
+      "relevance": "concept_and_intervention_separate",
+      "limit": "遊びの時間、性格特性としての遊び心、治療的活動を区別する。関連研究から遊びを増やす因果効果を決めない。",
+      "example": "上達や収益を目的としない活動の時間を、本人の楽しみとして考える。",
+      "source_ids": [
+        "R4SRC-7f2ec073ea96",
+        "R4SRC-f801f90f287d"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "query": "adult playfulness well-being review",
+            "required_terms": [
+              "playfulness"
+            ]
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "adult playfulness intervention randomized",
+            "required_terms": [
+              "playfulness"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "上達や収益を目的としない活動の時間を、本人の楽しみとして考える。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-CRE-010",
+      "question": "懐かしさは感情や人とのつながりにどう関わるか。",
+      "selectors": [
+        {
+          "doi": "10.1111/j.1467-8721.2008.00595.x",
+          "title": "Nostalgia: Past, Present, and Future"
+        },
+        {
+          "query": "nostalgia well-being meta-analysis",
+          "required_terms": [
+            "nostalgia"
+          ]
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "短期の実験、日常の経験、悲嘆を分ける。懐かしさが誰にでも快いとは限らない。",
+      "example": "昔の音楽や写真で安心する場合と、つらくなる場合を一括りにしない。",
+      "source_ids": [
+        "R4SRC-065696479c82"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1111/j.1467-8721.2008.00595.x",
+            "title": "Nostalgia: Past, Present, and Future"
+          },
+          "status": "unresolved"
+        },
+        {
+          "selector": {
+            "query": "nostalgia well-being meta-analysis",
+            "required_terms": [
+              "nostalgia"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "昔の音楽や写真で安心する場合と、つらくなる場合を一括りにしない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-CRE-011",
+      "question": "制約は創造性を妨げるのか、促す場合もあるのか。",
+      "selectors": [
+        {
+          "doi": "10.1177/0149206318805832",
+          "title": "Creativity and Innovation Under Constraints: A Cross-Disciplinary Integrative Review"
+        }
+      ],
+      "relevance": "direct_conceptual",
+      "limit": "時間、資源、規則など制約の種類と強さを分ける。過重労働を創造性のためと正当化しない。",
+      "example": "材料を絞った発想課題と、無理な納期を同じ制約として扱わない。",
+      "source_ids": [
+        "R4SRC-41d58a1207b3"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1177/0149206318805832",
+            "title": "Creativity and Innovation Under Constraints: A Cross-Disciplinary Integrative Review"
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "材料を絞った発想課題と、無理な納期を同じ制約として扱わない。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-LAN-003",
+      "question": "外国語を使うと判断の仕方が変わる条件はあるか。",
+      "selectors": [
+        {
+          "doi": "10.1177/0956797611432178",
+          "title": "The Foreign-Language Effect: Thinking in a Foreign Tongue Reduces Decision Biases"
+        },
+        {
+          "query": "foreign language effect meta-analysis decision",
+          "required_terms": [
+            "foreign",
+            "language",
+            "meta"
+          ]
+        }
+      ],
+      "relevance": "direct_and_replication_needed",
+      "limit": "言語能力、課題の理解、感情的距離を分ける。外国語なら常に合理的とはしない。",
+      "example": "判断が変わった理由が、感情か、文章の理解の違いかを確認する。",
+      "source_ids": [
+        "R4SRC-8638c69e8602",
+        "R4SRC-0e66617fe9ee"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "doi": "10.1177/0956797611432178",
+            "title": "The Foreign-Language Effect: Thinking in a Foreign Tongue Reduces Decision Biases"
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "foreign language effect meta-analysis decision",
+            "required_terms": [
+              "foreign",
+              "language",
+              "meta"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "判断が変わった理由が、感情か、文章の理解の違いかを確認する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-LIF-004",
+      "question": "転居による住環境の改善と、満足の持続はどう関わるか。",
+      "selectors": [
+        {
+          "title": "Hedonic Adaptation to Changes in Housing Conditions",
+          "required_terms": [
+            "housing",
+            "adaptation"
+          ]
+        },
+        {
+          "query": "residential relocation life satisfaction longitudinal",
+          "required_terms": [
+            "residential",
+            "satisfaction"
+          ]
+        }
+      ],
+      "relevance": "direct_limited_context",
+      "limit": "住宅満足と人生全体の満足、自発的な転居とやむを得ない転居を分ける。引っ越しを普遍的な解決策にしない。",
+      "example": "便利さが増える一方、なじみの関係が変わることも考慮する。",
+      "source_ids": [
+        "R4SRC-8489402d3107"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "title": "Hedonic Adaptation to Changes in Housing Conditions",
+            "required_terms": [
+              "housing",
+              "adaptation"
+            ]
+          },
+          "status": "unresolved"
+        },
+        {
+          "selector": {
+            "query": "residential relocation life satisfaction longitudinal",
+            "required_terms": [
+              "residential",
+              "satisfaction"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "便利さが増える一方、なじみの関係が変わることも考慮する。",
+        "observed_in_a_study": false
+      }
+    },
+    {
+      "topic_id": "PSY-LIF-005",
+      "question": "子どもの独立後に、保護者の生活の質はどう変わるか。",
+      "selectors": [
+        {
+          "query": "empty nest revolving door prospective women quality life children leaving reentering home",
+          "required_terms": [
+            "nest",
+            "life"
+          ]
+        },
+        {
+          "query": "empty nest parental wellbeing longitudinal review",
+          "required_terms": [
+            "empty",
+            "nest"
+          ]
+        }
+      ],
+      "relevance": "direct_limited_population",
+      "limit": "母親だけの標本や特定文化の研究を全保護者に適用しない。空の巣というラベルで全員を病理化しない。",
+      "example": "寂しさ、自由な時間、親としての役割の変化を別々に考える。",
+      "source_ids": [
+        "R4SRC-5ed7b81a6d78",
+        "R4SRC-fd7b84f20ed5"
+      ],
+      "resolution_attempts": [
+        {
+          "selector": {
+            "query": "empty nest revolving door prospective women quality life children leaving reentering home",
+            "required_terms": [
+              "nest",
+              "life"
+            ]
+          },
+          "status": "bibliography_matched"
+        },
+        {
+          "selector": {
+            "query": "empty nest parental wellbeing longitudinal review",
+            "required_terms": [
+              "empty",
+              "nest"
+            ]
+          },
+          "status": "bibliography_matched"
+        }
+      ],
+      "status": "bibliography_matched_needs_content_review",
+      "canonical_registry_mutated": false,
+      "publication_ready": false,
+      "illustrative_example": {
+        "type": "illustrative_scenario",
+        "text_ja": "寂しさ、自由な時間、親としての役割の変化を別々に考える。",
+        "observed_in_a_study": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-001",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "就床時刻と起床時刻を、実睡眠時間とは分けて記録する。",
+      "日中の眠気や生活への支障を見る。",
+      "眠る機会の不足と、機会があっても眠れないことを分ける。"
+    ],
+    "safety": "必要時間を確かめるために睡眠を削らない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-SLP-001-01",
+    "CL-PSY-SLP-001-02",
+    "CL-PSY-SLP-001-03",
+    "CL-PSY-SLP-001-04"
+  ],
+  "publication_ready": false
+}

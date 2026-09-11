@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-007",
+  "title": "休日の寝だめで平日の睡眠不足は取り戻せる？",
+  "claims": [
+    {
+      "id": "CL-PSY-SLP-007-01",
+      "topic_id": "PSY-SLP-007",
+      "statement_ja": "週末に回復睡眠を取っても、その後に再び睡眠を制限すると代謝の変調を防ぎきれなかった実験がある。",
+      "source_ids": [
+        "SRC101"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "健康な若年成人36人を対象にした短期の実験。",
+      "cannot_infer_ja": "休日に長く寝ることが、眠気を含めあらゆる意味で無益という結論。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-007-02",
+      "topic_id": "PSY-SLP-007",
+      "statement_ja": "回復という言葉は、眠気、認知成績、代謝など、どの指標を指すかを明確にする必要がある。",
+      "source_ids": [
+        "SRC101",
+        "SRC042"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "異なる結果指標を扱う睡眠制限研究の比較。",
+      "cannot_infer_ja": "一つの指標が改善すれば全身が完全に回復したとすること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-SLP-007-03",
+      "topic_id": "PSY-SLP-007",
+      "statement_ja": "睡眠不足に慣れたという感覚だけでは、認知成績の変化を正確に把握できない場合がある。",
+      "source_ids": [
+        "SRC042"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "14日間の実験的睡眠制限。",
+      "cannot_infer_ja": "個人に必要な睡眠時間をこの実験だけで診断すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

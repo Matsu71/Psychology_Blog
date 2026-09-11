@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-001",
+  "title": "在宅と出社を組み合わせると仕事の成果はどう変わる？",
+  "claims": [
+    {
+      "id": "CL-PSY-WRK-001-01",
+      "topic_id": "PSY-WRK-001",
+      "statement_ja": "中国の技術企業1612人の無作為化比較では、週2日の在宅を含む勤務で満足度が改善し、退職率が約3分の1低下した。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "2021～2022年の6か月試験。一企業の従業員。",
+      "cannot_infer_ja": "日本のあらゆる企業・職種でも同じ退職率の変化が起きるという保証。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-WRK-001-02",
+      "topic_id": "PSY-WRK-001",
+      "statement_ja": "その後の人事評価や昇進などに悪影響の証拠は見られなかった。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "測定した評価指標と追跡期間の範囲。",
+      "cannot_infer_ja": "すべての種類の生産性、創造性、育成、長期成果が完全に同じと証明したという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-WRK-001-03",
+      "topic_id": "PSY-WRK-001",
+      "statement_ja": "この研究は完全在宅と全日出社の普遍的な優劣を決めるものではない。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "週2日在宅という具体的な制度の比較。",
+      "cannot_infer_ja": "在宅日を増やすほど成果が上がるという用量反応の主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

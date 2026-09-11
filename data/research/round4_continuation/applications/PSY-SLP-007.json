@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-007",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "平日と休日の睡眠機会の差を振り返る。",
+      "眠気、集中しやすさ、生活の支障を別々に見る。",
+      "不足を繰り返す外的な理由や不眠の可能性を整理する。"
+    ],
+    "safety": "実験の睡眠制限を自己流で再現しない。眠気が強いときの運転などを避ける判断が必要。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-SLP-007-01",
+    "CL-PSY-SLP-007-02",
+    "CL-PSY-SLP-007-03"
+  ],
+  "publication_ready": false
+}

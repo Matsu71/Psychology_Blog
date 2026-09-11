@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ATT-004",
+  "title": "短い休憩で集中力は戻る？",
+  "claims": [
+    {
+      "id": "CL-PSY-ATT-004-01",
+      "topic_id": "PSY-ATT-004",
+      "statement_ja": "短い休憩のメタ分析では、疲労の低下と活力の増加に小さな平均的改善が認められた。",
+      "source_ids": [
+        "SRC054"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "22独立標本、2335人。休憩の種類と作業内容は研究ごとに異なる。",
+      "cannot_infer_ja": "誰でも同じだけ回復するという個人への保証。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-ATT-004-02",
+      "topic_id": "PSY-ATT-004",
+      "statement_ja": "作業成績全体への平均効果は統計的に明確ではなかった。",
+      "source_ids": [
+        "SRC054"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "疲労・活力とは別の結果指標。",
+      "cannot_infer_ja": "休憩が無意味である、または必ず生産性を上げるという両極端の説明。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-ATT-004-03",
+      "topic_id": "PSY-ATT-004",
+      "statement_ja": "一つの休憩時間を、すべての課題に共通する最適値とする根拠にはならない。",
+      "source_ids": [
+        "SRC054"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "作業の負荷や休憩の長さによる違いを含む統合結果。",
+      "cannot_infer_ja": "特定の分数の作業・休憩サイクルが万能という主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

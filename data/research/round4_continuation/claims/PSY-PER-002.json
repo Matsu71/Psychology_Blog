@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-PER-002",
+  "title": "大人になってから性格は変わる？",
+  "claims": [
+    {
+      "id": "CL-PSY-PER-002-01",
+      "topic_id": "PSY-PER-002",
+      "statement_ja": "性格尺度は成人後も変化し得るため、不変と決めつけるのは適切ではない。",
+      "source_ids": [
+        "SRC046",
+        "SRC047"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "介入研究のレビューとデジタル介入の試験。",
+      "cannot_infer_ja": "希望した性格に全員が自由に変われるという保証。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-PER-002-02",
+      "topic_id": "PSY-PER-002",
+      "statement_ja": "介入のレビューには無作為化試験だけでなく単群前後比較も含まれ、すべてが同じ強さの因果的根拠ではない。",
+      "source_ids": [
+        "SRC046"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "207研究を扱うレビュー。臨床介入が中心。",
+      "cannot_infer_ja": "すべての変化を介入だけの効果とし、症状の改善と特性変化を区別しないこと。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-PER-002-03",
+      "topic_id": "PSY-PER-002",
+      "statement_ja": "スマートフォンを用いた試験では自己報告の変化が示され、一部は他者評定でも観察されたが、両者の結果は同一ではなかった。",
+      "source_ids": [
+        "SRC047"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "1523人、3か月の介入と待機条件を含む試験。",
+      "cannot_infer_ja": "本人が変わったと思えば全員から同じように見えるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

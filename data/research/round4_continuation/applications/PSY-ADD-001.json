@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ADD-001",
+  "application": {
+    "type": "support_seeking_and_reflection_not_treatment_protocol",
+    "steps": [
+      "吸いたくなる時刻や場面を整理する。",
+      "過去の禁煙で困った症状や状況を相談時に伝える。",
+      "利用できる支援を、現在の国内情報に基づいて医療者と確認する。"
+    ],
+    "safety": "薬の選択・量・変更をこの記事だけで決めない。喫煙やニコチン摂取を集中法として勧めない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-ADD-001-01",
+    "CL-PSY-ADD-001-02",
+    "CL-PSY-ADD-001-03"
+  ],
+  "publication_ready": false
+}

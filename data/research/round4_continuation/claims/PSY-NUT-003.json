@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-NUT-003",
+  "title": "スマホやテレビを見ながら食べると量は変わる？",
+  "claims": [
+    {
+      "id": "CL-PSY-NUT-003-01",
+      "topic_id": "PSY-NUT-003",
+      "statement_ja": "食事中の注意、食事の記憶、摂取量の関係は、実験と統合研究で検討されている。",
+      "source_ids": [
+        "SRC149"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "食事への注意・記憶を扱う系統的レビュー。書誌と本文対象箇所の最終確認が必要。",
+      "cannot_infer_ja": "テレビとスマートフォンのすべての利用に、同じ量の影響があるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-NUT-003-02",
+      "topic_id": "PSY-NUT-003",
+      "statement_ja": "その場の摂取量と、その後の食事・間食への影響は別の結果である。",
+      "source_ids": [
+        "SRC149"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "同時点と後続時点の結果を分ける。",
+      "cannot_infer_ja": "一回の実験で差があれば、長期の体重も一定量変わるという推論。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-NUT-003-03",
+      "topic_id": "PSY-NUT-003",
+      "statement_ja": "本文の数値に不整合が疑われるレビューは、問題の数値を確認が済むまで記事に使用しない。",
+      "source_ids": [],
+      "unresolved_source_keys": [],
+      "scope_ja": "前回の未完了作業でテレビ視聴を扱う別レビューに確認課題が記録された。上記の出典に問題があると断定するものではない。",
+      "cannot_infer_ja": "疑いだけで論文を撤回扱いにすること、または不整合を無視して数値を転載すること。",
+      "status": "editorial_or_unresolved",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

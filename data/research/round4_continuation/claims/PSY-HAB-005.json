@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-005",
+  "title": "『もしXならYする』は行動を助ける？",
+  "status": "claim_extraction_pending",
+  "claims": [],
+  "existing_source_ids": [
+    "SRC026",
+    "SRC098",
+    "SRC124"
+  ],
+  "next_action_ja": "当該テーマの既存読解メモから主張を抽出し、対象・比較・反証・限界を個別に確認する。",
+  "publication_ready": false
+}

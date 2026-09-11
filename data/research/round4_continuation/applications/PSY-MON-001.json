@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-001",
+  "application": {
+    "type": "editorial_budget_reflection_not_financial_advice",
+    "steps": [
+      "減らしたい家事や負担を一つ具体化する。",
+      "料金、新たな手間、得られる時間を並べて比較する。",
+      "支出を増やさない代替策も含め、予算の範囲で判断する。"
+    ],
+    "safety": "無理な支出や借入を勧めない。家族やサービス提供者の負担を無視しない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-MON-001-01",
+    "CL-PSY-MON-001-02",
+    "CL-PSY-MON-001-03"
+  ],
+  "publication_ready": false
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "topics": [
+    {
+      "topic_id": "PSY-MOT-001",
+      "title": "先延ばしは時間管理の問題か、感情の問題か？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-MOT-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-SLP-004",
+      "title": "コーヒーは何時まで？カフェインと睡眠の個人差",
+      "claim_file": "data/research/round4_continuation/claims/PSY-SLP-004.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-SLP-009",
+      "title": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-SLP-009.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-ATT-004",
+      "title": "短い休憩で集中力は戻る？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-ATT-004.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-DIG-004",
+      "title": "デジタルデトックスは気分や生活を改善する？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-DIG-004.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-HAB-001",
+      "title": "習慣は21日で身につく？必要な期間の個人差",
+      "claim_file": "data/research/round4_continuation/claims/PSY-HAB-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "title": "キャッシュレスだと現金より使いすぎる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-MON-002.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-DEC-006",
+      "title": "選択肢が多いほど選べなくなるのは本当？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-DEC-006.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-PER-002",
+      "title": "大人になってから性格は変わる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-PER-002.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-SLP-007",
+      "title": "休日の寝だめで平日の睡眠不足は取り戻せる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-SLP-007.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-LEA-001",
+      "title": "読み直すより思い出す練習：テスト効果を勉強に使うには？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-LEA-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "title": "仕事を終えても頭から離れないのはなぜ？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-WRK-002.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-DIG-001",
+      "title": "SNSを使うと幸福度が下がる、はどこまで本当？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-DIG-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-NUT-003",
+      "title": "スマホやテレビを見ながら食べると量は変わる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-NUT-003.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-SLP-001",
+      "title": "自分に必要な睡眠時間はどう見極める？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-SLP-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-GEN-001",
+      "title": "性格には遺伝がどれくらい影響する？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-GEN-001.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "title": "お金が増えれば幸福も増える？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-WEL-005.json",
+      "status": "claim_map_draft"
+    },
+    {
+      "topic_id": "PSY-HAB-005",
+      "title": "『もしXならYする』は行動を助ける？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-HAB-005.json",
+      "status": "claim_extraction_pending"
+    },
+    {
+      "topic_id": "PSY-LAN-008",
+      "title": "話が上手いより質問が上手い方が好かれる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-LAN-008.json",
+      "status": "claim_extraction_pending"
+    },
+    {
+      "topic_id": "PSY-MON-001",
+      "title": "家事を外注して時間を買うと幸福度は上がる？",
+      "claim_file": "data/research/round4_continuation/claims/PSY-MON-001.json",
+      "status": "claim_map_draft"
+    }
+  ]
+}
