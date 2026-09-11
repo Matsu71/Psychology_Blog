@@ -1,0 +1,79 @@
+name: Integrate research reader guides
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/integrate-reader-guides-20260911.yml'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+jobs:
+  integrate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Integrate manuscripts without relaxing existing checks
+        run: python3 scripts/integrate_reader_guides_20260911.py
+      - name: Keep fallback references accurate
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/research/reader_guides_20260911_report.json')
+          r=json.loads(p.read_text())
+          if not r['canonical_integrated']:
+              for row in r['products']:
+                  row['claim_dossier_path']='data/articles/revisions/research-literacy-20260911/'+row['topic_id']+'.json'
+                  row['canonical_replaced']=False
+              p.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+              d=Path('docs/READER_GUIDES_20260911.md')
+              text=d.read_text()
+              for row in r['products']:
+                  text=text.replace('../data/articles/claims/'+row['topic_id']+'.json','../'+row['claim_dossier_path'])
+              d.write_text(text)
+          for row in r['products']:
+              assert Path(row['manuscript_path']).is_file()
+              assert Path(row['claim_dossier_path']).is_file()
+          assert r['publication_ready_count']==0
+          PY
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+          python3 scripts/reconcile_article_progress.py --check
+      - name: Commit verified files and compare remote report
+        run: |
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent main update. Refusing overwrite.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: integrate research-literacy claim maps and checked progress'
+            git push origin HEAD:main
+          fi
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)"
+          git fetch --depth=1 origin main
+          mkdir -p reader-guide-export
+          git rev-parse HEAD > reader-guide-export/pushed_commit.txt
+          git show origin/main:data/research/reader_guides_20260911_report.json > reader-guide-export/remote_report.json
+          cmp data/research/reader_guides_20260911_report.json reader-guide-export/remote_report.json
+      - name: Export manuscript and validation evidence
+        if: always()
+        run: |
+          mkdir -p reader-guide-export
+          git archive --format=zip --output=reader-guide-export/repository.zip HEAD
+          git rev-parse HEAD > reader-guide-export/checkout_commit.txt
+          git status --short > reader-guide-export/uncommitted_status.txt
+          git diff > reader-guide-export/uncommitted.patch
+          if [ -f data/research/reader_guides_20260911_report.json ]; then cp data/research/reader_guides_20260911_report.json reader-guide-export/local_report.json; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-reader-guides-verified
+          path: reader-guide-export/
+          retention-days: 14
+          if-no-files-found: error
