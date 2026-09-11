@@ -1,0 +1,76 @@
+name: Deliver continuation expansion 20260911d
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/continuation-expansion-20260911d.yml'
+      - 'scripts/build_continuation_20260911d.py'
+      - 'research/continuation_20260911d/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate authored inputs and render manuscripts
+        run: |
+          python3 -m py_compile scripts/build_continuation_20260911d.py
+          python3 scripts/build_continuation_20260911d.py
+      - name: Check canonical data and evidence references
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          manifest=json.loads(Path('data/articles/batches/continuation-20260911d/manifest.json').read_text())
+          assert manifest['authored_manuscripts']==12
+          assert manifest['claim_dossiers']==12
+          assert manifest['publication_ready_count']==0
+          assert manifest['goal_completed'] is False
+          for item in manifest['articles']:
+              assert hashlib.sha256(Path(item['manuscript_path']).read_bytes()).hexdigest()==item['manuscript_sha256']
+              assert hashlib.sha256(Path(item['claim_path']).read_bytes()).hexdigest()==item['claim_sha256']
+          print('PASS: authored manuscript and claim references, preserved prior content, explicit publication holds.')
+          PY
+      - name: Commit checked content without changing workflow permissions
+        run: |
+          base=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$base" = "$remote" || { echo 'Concurrent main update; refusing to overwrite it.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/manuscripts/continuation-20260911d data/articles docs/CONTINUATION_20260911D.md README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: add evidence-linked manuscripts and preserve explicit review status'
+            git push origin HEAD:main
+          fi
+      - name: Export current commit and recoverable working output
+        if: always()
+        run: |
+          mkdir -p continuation-export
+          git archive --format=zip --output=continuation-export/repository.zip HEAD
+          git rev-parse HEAD > continuation-export/source_commit.txt
+          git status --short > continuation-export/uncommitted_status.txt
+          git diff > continuation-export/uncommitted.patch
+          if [ -d articles/manuscripts/continuation-20260911d ]; then cp -R articles/manuscripts/continuation-20260911d continuation-export/manuscripts; fi
+          if [ -d data/articles/revisions/continuation-20260911d ]; then cp -R data/articles/revisions/continuation-20260911d continuation-export/claims; fi
+          if [ -f data/articles/batches/continuation-20260911d/manifest.json ]; then cp data/articles/batches/continuation-20260911d/manifest.json continuation-export/manifest.json; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-continuation-expansion-20260911d
+          path: continuation-export/
+          retention-days: 14
+          if-no-files-found: error
