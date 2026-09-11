@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "goal_articles": 300,
+  "goal_completed": false,
+  "theme_count": 300,
+  "manuscript_count": 26,
+  "claim_dossier_count": 26,
+  "claim_and_caution_count": 74,
+  "revised_manuscript_count": 20,
+  "publication_ready_count": 0,
+  "top20_topic_ids": [
+    "PSY-MOT-001",
+    "PSY-SLP-004",
+    "PSY-SLP-009",
+    "PSY-ATT-004",
+    "PSY-DIG-004",
+    "PSY-HAB-001",
+    "PSY-MON-002",
+    "PSY-DEC-006",
+    "PSY-PER-002",
+    "PSY-SLP-007",
+    "PSY-LEA-001",
+    "PSY-WRK-002",
+    "PSY-DIG-001",
+    "PSY-NUT-003",
+    "PSY-SLP-001",
+    "PSY-GEN-001",
+    "PSY-WEL-005",
+    "PSY-HAB-005",
+    "PSY-LAN-008",
+    "PSY-MON-001"
+  ],
+  "top20_dossiers_present": 20,
+  "missing_top20_topic_ids": [],
+  "dossiers_with_unresolved_sources": [
+    "PSY-MON-002"
+  ],
+  "notes_ja": [
+    "出典の一意な照合は、出典がその主張を支持することの自動認定ではありません。",
+    "原稿の再編集と独立した科学的査読、医療上の安全確認、公開承認を分離しています。",
+    "300テーマの状態をすべて記録し、未着手の記事を完成数へ加算しません。"
+  ]
+}

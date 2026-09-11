@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-009",
+  "title_ja": "失敗した自分に厳しいほど伸びる？——思いやりと、改善する責任を分けない",
+  "category_id": "motivation",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "doi": "10.1177/0146167212445599"
+      },
+      "source_ids": [
+        "SRC267"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "37362192"
+      },
+      "source_ids": [
+        "SRC105"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-MOT-009-C01",
+      "claim_ja": "自分への思いやりを促す実験の一つで、失敗後のテストに向けた学習時間が増えた。",
+      "population_and_scope_ja": "2012年の4実験のうち一つの短期課題。",
+      "not_supported_ja": "あらゆる人の長期的な能力や仕事の成果が高まること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC267"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-009-C02",
+      "claim_ja": "症状への介入の効果を、再挑戦や成績の効果へ読み替えることはできない。",
+      "population_and_scope_ja": "2023年メタ分析のアウトカムと2012年の行動実験の違い。",
+      "not_supported_ja": "抑うつが軽減した証拠だけで仕事の成果改善を主張すること。",
+      "source_keys": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "SRC267",
+        "SRC105"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "失敗した出来事の具体的な修正点と、自分全体を否定する言葉を分けて書き出します。",
+      "改善に必要な次の行動を一つ決め、自己批判を続けた時間そのものを努力の量として評価しないようにします。",
+      "自分への声かけだけで負担が改善しない場合は、環境や支援の必要性も検討します。"
+    ],
+    "safety": "深刻な落ち込みや不安を、自己への言葉遣いだけで治療すべき問題とはしません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-014",
+      "severity": "major",
+      "finding_ja": "心の症状の改善から、再挑戦の増加や仕事の成果の改善は直接導けない。",
+      "next_action_ja": "動機づけや失敗後の行動を直接扱う研究を追加し、現在の原稿は自己批判と症状の議論に限定する。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "症状と再挑戦の根拠を分離する資料を追加して改稿。独立追試と長期効果の確認は残る。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

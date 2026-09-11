@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-007",
+  "title_ja": "休日の寝だめで帳消しになる？——回復したいものを分けて考える",
+  "category_id": "sleep",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "30827911"
+      },
+      "source_ids": [
+        "SRC101"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "12683469"
+      },
+      "source_ids": [
+        "SRC042"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-SLP-007-C01",
+      "claim_ja": "週末回復後に再び睡眠制限へ戻る実験では、代謝への影響を防ぎきれなかった。",
+      "population_and_scope_ja": "健康な若年成人36人の短期実験。",
+      "not_supported_ja": "休日の睡眠にあらゆる意味で価値がないこと。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC101"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SLP-007-C02",
+      "claim_ja": "睡眠制限による認知成績の変化と、眠気の自己評価の変化は一致しなかった。",
+      "population_and_scope_ja": "慢性的な睡眠制限を扱う実験室研究。",
+      "not_supported_ja": "自覚のない人が全員同じ程度に認知機能を失っているという個人診断。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC042"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SLP-007-C03",
+      "claim_ja": "眠気・認知・代謝、就床機会・実睡眠は別の指標として扱う必要がある。",
+      "population_and_scope_ja": "二つの実験の対象と測定内容の違い。",
+      "not_supported_ja": "一指標の回復を全身の完全回復と表すこと。",
+      "source_keys": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "SRC101",
+        "SRC042"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "『回復した』と思ったとき、眠気、気分、作業のしやすさのどの変化なのかを分けます。",
+      "休日だけで帳尻を合わせる発想に加えて、平日に不足が繰り返される条件を振り返ります。",
+      "必要な睡眠を意図的に削る実験はせず、強い眠気がある場合は安全を優先します。"
+    ],
+    "safety": "眠気のある状態の運転や危険な作業を正当化しません。睡眠時間の削減を自己実験として提案しません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-009",
+      "severity": "major",
+      "finding_ja": "睡眠制限実験の就床機会は実睡眠時間と違い、代謝・認知・眠気の回復を合算できない。",
+      "next_action_ja": "睡眠制限実験の訂正を照合し、各結果指標と期間の根拠を個別に示す。個人の必要睡眠時間を計算する記事にしない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "認知・代謝の過度な一般化を制限。2003年研究の訂正内容の確認が残るため、細かい数値の結論は保留。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

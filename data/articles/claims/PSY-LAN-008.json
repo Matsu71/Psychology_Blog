@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LAN-008",
+  "title_ja": "話がうまい人より、よく質問する人が好かれる？——会話研究をそのまま恋愛術にしない",
+  "category_id": "language",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "28447835"
+      },
+      "source_ids": [
+        "SRC093"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "40111841"
+      },
+      "source_ids": [
+        "SRC094"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-LAN-008-C01",
+      "claim_ja": "質問をすることと相手からの好意を、実験と会話の観察で検討した研究がある。",
+      "population_and_scope_ja": "2017年の初対面会話等を扱う研究群。",
+      "not_supported_ja": "万人に好かれる質問回数や、恋愛の成功保証。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC093"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LAN-008-C02",
+      "claim_ja": "2025年の訂正は、原論文と対応づけて参照する必要がある。",
+      "population_and_scope_ja": "訂正告知の存在と著者による説明。",
+      "not_supported_ja": "独立した再解析や追試によって全結果を再確認したという表示。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC094"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LAN-008-C03",
+      "claim_ja": "実験的な質問の操作と、追質問の観察的な関連は証拠の種類を分けて扱う。",
+      "population_and_scope_ja": "研究方法を日常会話へ適用する際の解釈。",
+      "not_supported_ja": "特定の追質問の例文の効果や、プライバシーへの踏み込みの正当化。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC093"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "質問を増やすことを目的にせず、相手の答えの中で実際に知りたい点を一つ尋ねます。",
+      "自分も適度に話し、相手が答えたくない話題や会話を終えたい合図を尊重します。",
+      "研究の効果を、自分や相手の人格を評価する基準や、人を操作する技法にしないようにします。"
+    ],
+    "safety": "詮索、圧力、相手が望まない親密さを促すためには使いません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "上位20との照合で不足していた原稿を追加。訂正と批判の本文照合・元解析の独立確認は未完了。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

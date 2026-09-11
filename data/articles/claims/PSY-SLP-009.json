@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SLP-009",
+  "title_ja": "眠いのに寝ない夜——就寝先延ばしを、意志の弱さだけで説明しない",
+  "category_id": "sleep",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "doi": "10.3389/fpsyg.2014.00611"
+      },
+      "source_ids": [
+        "SRC010"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "doi": "10.1111/spc3.12011"
+      },
+      "source_ids": [
+        "SRC266"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-SLP-009-C01",
+      "claim_ja": "就寝先延ばしは、外的な妨げがないのに意図した時刻の就寝を遅らせる行動として研究された。",
+      "population_and_scope_ja": "2014年の初期研究での概念と自己報告の評価。",
+      "not_supported_ja": "すべての遅寝・夜型・介護や勤務による遅い就寝の病理化。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC010"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SLP-009-C02",
+      "claim_ja": "初期の関連研究だけでは、就寝先延ばしの原因や対処法の効果は確定できない。",
+      "population_and_scope_ja": "横断的な自己報告研究の設計上の限界。",
+      "not_supported_ja": "自己制御の弱さが唯一の原因であること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC010"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SLP-009-C03",
+      "claim_ja": "短期の気分調整という先延ばしの理論は、夜の行動を考える補助線にはなるが、個人の理由を確定しない。",
+      "population_and_scope_ja": "一般理論と就寝行動への解釈を明示的に分離する。",
+      "not_supported_ja": "自由時間の不足を原因とする単一の因果説明。",
+      "source_keys": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "SRC010",
+        "SRC266"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "予定より遅く寝た日は、実際に寝る選択ができた時刻と、仕事や家事で拘束されていた時刻を分けて振り返ります。",
+      "寝る前に何を終えにくかったかを一つ記録し、個人の工夫で変えられる条件と、周囲の調整が必要な条件を分けます。",
+      "就寝時刻だけを厳しく管理するのではなく、日中に休息や自由時間を確保する余地も検討します。"
+    ],
+    "safety": "夜型を怠けと扱わず、睡眠障害や勤務条件による問題を自己管理だけの責任にしません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "初期研究の概念説明に限定。最新の就寝先延ばし介入・縦断研究との照合は未完了。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

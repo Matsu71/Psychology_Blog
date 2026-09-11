@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ADD-001",
+  "title_ja": "なぜタバコをやめにくいのか——意志の弱さという説明だけでは足りない",
+  "category_id": "addiction",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "url": "https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive",
+        "title": "Is nicotine addictive?"
+      },
+      "source_ids": [
+        "SRC007"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "33687070"
+      },
+      "source_ids": [
+        "SRC044"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S3": {
+      "selector": {
+        "key": "S3",
+        "pmid": "37696529"
+      },
+      "source_ids": [
+        "SRC043"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-ADD-001-C01",
+      "claim_ja": "ニコチンの作用、離脱、喫煙と結びついた合図を分けて考えることが、依存の説明に必要である。",
+      "population_and_scope_ja": "公的機関の一般的な仕組みの解説。",
+      "not_supported_ja": "個人の依存の重症度や治療法の診断。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC007"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ADD-001-C02",
+      "claim_ja": "禁煙は、一定期間後の不安・抑うつ・ストレスの改善と関連していた。",
+      "population_and_scope_ja": "102研究のレビュー。短期離脱ではなく少なくとも6週間後の比較。",
+      "not_supported_ja": "全員の症状が改善する保証、交絡のない個人の因果予測。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC044"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ADD-001-C03",
+      "claim_ja": "禁煙支援の研究と、日本での個別の薬・製品の選択は分けて扱う必要がある。",
+      "population_and_scope_ja": "海外を含む介入の統合研究の適用範囲。",
+      "not_supported_ja": "国内の承認や個別の安全性を確認しない薬・電子タバコの推奨。",
+      "source_keys": [
+        "S3"
+      ],
+      "source_ids": [
+        "SRC043"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "吸いたくなる場面を、時間、場所、気分、他の行動との組み合わせに分けて整理します。",
+      "禁煙中のつらさと、その後の長期的な状態を区別し、一度のつまずきを本人の価値の問題にしないようにします。",
+      "支援の選択は医療者に相談し、海外研究に出た製品を独断で利用する判断とは分けます。"
+    ],
+    "safety": "この記事は個別の治療・服薬・電子タバコの使用を指示しません。日本での最新の医療情報と安全確認が必要です。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-017",
+      "severity": "medical_release_gate",
+      "finding_ja": "海外の禁煙介入には、日本の現在の承認や入手条件と異なるものが含まれる。",
+      "next_action_ja": "国内の現在の治療・支援を確認し、医療上の安全確認を経る。独断で薬や電子タバコを推奨しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "国内の治療選択の記載は保留。医療上の安全確認と公的資料のURL照合が必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

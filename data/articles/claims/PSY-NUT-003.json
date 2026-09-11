@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-NUT-003",
+  "title_ja": "ながら食べは何が問題？食べた量と、後からの記憶を分けて考える",
+  "category_id": "nutrition",
+  "created_on": "2026-09-11",
+  "authoring_revision": "preserved_round4_draft",
+  "source_resolution": {
+    "attention_review": {
+      "selector": {
+        "key": "attention_review",
+        "doi": "10.3945/ajcn.112.045245",
+        "expected_title_words": [
+          "eating",
+          "attentively"
+        ]
+      },
+      "source_ids": [
+        "SRC149"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-NUT-003-C01",
+      "claim_ja": "食事中の注意、食事の記憶、摂取量の関係は、実験と統合研究で検討されている。",
+      "population_and_scope_ja": "食事への注意・記憶を扱う系統的レビュー。書誌と本文対象箇所の最終確認が必要。",
+      "not_supported_ja": "テレビとスマートフォンのすべての利用に、同じ量の影響があるという主張。",
+      "source_keys": [
+        "attention_review"
+      ],
+      "source_ids": [
+        "SRC149"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-NUT-003-C02",
+      "claim_ja": "その場の摂取量と、その後の食事・間食への影響は別の結果である。",
+      "population_and_scope_ja": "同時点と後続時点の結果を分ける。",
+      "not_supported_ja": "一回の実験で差があれば、長期の体重も一定量変わるという推論。",
+      "source_keys": [
+        "attention_review"
+      ],
+      "source_ids": [
+        "SRC149"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-NUT-003-C03",
+      "claim_ja": "本文の数値に不整合が疑われるレビューは、問題の数値を確認が済むまで記事に使用しない。",
+      "population_and_scope_ja": "前回の未完了作業でテレビ視聴を扱う別レビューに確認課題が記録された。上記の出典に問題があると断定するものではない。",
+      "not_supported_ja": "疑いだけで論文を撤回扱いにすること、または不整合を無視して数値を転載すること。",
+      "source_keys": [],
+      "source_ids": [],
+      "source_resolution_complete": false,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "食事中の画面利用と、食後に覚えている内容を振り返る。",
+      "負担が小さい範囲で、食事へ注意を向ける時間を作る。",
+      "摂取量の監視や罪悪感を増やさないようにする。"
+    ],
+    "safety": "摂食障害や強い食事不安への自己治療には用いない。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-007",
+      "severity": "blocking_for_result_section",
+      "finding_ja": "テレビ視聴を扱う別レビューの不整合と、食事への注意を扱う2013年レビューを混同してはならない。現稿は結果の具体的な説明が不足する。",
+      "next_action_ja": "不整合のある論文を一意に特定し、該当する値・表・解析を照合する。別のレビューについては独立して方法と結果を確認し、効果の方向と適用範囲を追記する。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "根拠文献の対象箇所と、別のレビューで見つかった不整合の所在を最終照合する。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

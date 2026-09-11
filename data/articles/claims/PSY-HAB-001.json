@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-001",
+  "title_ja": "習慣は21日で身につく？——『何日で完成』という約束を疑う",
+  "category_id": "habits",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "39685110"
+      },
+      "source_ids": [
+        "SRC039"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "doi": "10.1002/ejsp.674"
+      },
+      "source_ids": [
+        "SRC009"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-HAB-001-C01",
+      "claim_ja": "2024年のレビューは20研究を扱うが、形成期間を報告した研究は4件だった。",
+      "population_and_scope_ja": "健康行動に関する収載研究。期間の情報がある研究と全収載研究を分離。",
+      "not_supported_ja": "20研究すべてが同じ形成期間を実証したという説明。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC039"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-001-C02",
+      "claim_ja": "研究間で形成期間は異なり、報告された平均と中央値も同一ではない。",
+      "population_and_scope_ja": "報告中央値59～66日、平均106～154日という研究ごとの要約。",
+      "not_supported_ja": "個人が66日で必ず習慣を完成させるという期限。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC039"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-001-C03",
+      "claim_ja": "反復の回数と、本人が感じる自動性は区別して扱う必要がある。",
+      "population_and_scope_ja": "日常行動と自動性の追跡研究。",
+      "not_supported_ja": "記録が途切れると脳内の習慣が必ずリセットされること。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC009"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "日数だけで自己評価せず、続けたい行動の負担と、実行できる機会を確認します。",
+      "『実行したか』と『どのくらい意識的な努力が必要だったか』を別々に振り返ります。",
+      "中断した場合も研究上の万能な失敗基準は置かず、再開しやすい条件を考えます。"
+    ],
+    "safety": "期間の数値は研究の記述であり、全員への約束ではありません。健康上無理のある運動や食事を、習慣化のために続けることは勧めません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-004",
+      "severity": "major",
+      "finding_ja": "レビュー全体の20研究と形成期間を報告した4研究を分ける必要がある。各研究の平均・中央値・推定モデルは同一ではない。",
+      "next_action_ja": "期間の原表、各研究の対象・測定・欠測、リスク評価を照合する。『66日が正解』という見出しに変更しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "平均・中央値・研究数の混同を修正。元の期間表と各研究の測定・欠測の最終照合は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

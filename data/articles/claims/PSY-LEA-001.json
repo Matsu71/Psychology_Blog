@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-001",
+  "title_ja": "読むだけで覚えたつもり？——思い出す練習を、点数のためではなく学習に使う",
+  "category_id": "learning",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "33683913"
+      },
+      "source_ids": [
+        "SRC050"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "26173288"
+      },
+      "source_ids": [
+        "SRC027"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-LEA-001-C01",
+      "claim_ja": "教室での小テストを用いた学習に、平均的な成績改善が報告されている。",
+      "population_and_scope_ja": "222研究・48478人のメタ分析。比較条件により効果は異なる。",
+      "not_supported_ja": "すべての教材・人で同じだけ点数が増えるという保証。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC050"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-001-C02",
+      "claim_ja": "標準化効果量約0.50は、点数が50％増えることを意味しない。",
+      "population_and_scope_ja": "異なる尺度の結果をまとめる統計指標の解釈。",
+      "not_supported_ja": "個人の成績の増加率への直接換算。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC050"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-001-C03",
+      "claim_ja": "練習テスト、訂正、再学習の役割と条件を区別して使う必要がある。",
+      "population_and_scope_ja": "統合研究と学習法レビューの比較。",
+      "not_supported_ja": "読む学習が一切無意味で、誤答を放置してよいこと。",
+      "source_keys": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "SRC050",
+        "SRC027"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "短い範囲を読んだ後、教材を閉じて重要な問いに答えてみます。",
+      "答え合わせで誤りを直し、覚えたつもりだった部分を次の復習対象として記録します。",
+      "練習での誤答を罰や自己評価の材料にせず、学習内容を見直す情報として扱います。"
+    ],
+    "safety": "医療や運転など安全が重要な技能では、実地で失敗して覚えるという意味にしません。想起練習と安全な実習の手順を区別します。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-011",
+      "severity": "major",
+      "finding_ja": "標準化効果量を点数の増加率へ変換できない。復習の具体的な手順は、論文の介入そのものとは限らない。",
+      "next_action_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "効果量を百分率へ変換しない改稿。対象教材・対照条件・長期保持の主張の最終照合は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

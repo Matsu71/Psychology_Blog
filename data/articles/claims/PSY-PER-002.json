@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-PER-002",
+  "title_ja": "大人になってから性格は変わる？——『変われる』と『自由自在』の間を読む",
+  "category_id": "personality",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "28054797"
+      },
+      "source_ids": [
+        "SRC046"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "33558417"
+      },
+      "source_ids": [
+        "SRC047"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-PER-002-C01",
+      "claim_ja": "介入研究を統合すると、性格尺度に変化が報告されている。",
+      "population_and_scope_ja": "臨床介入を多く含む207研究のレビュー。",
+      "not_supported_ja": "すべてが因果を確定した研究であること、全変化が永続すること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC046"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-PER-002-C02",
+      "claim_ja": "デジタルの性格変容介入では、希望する方向への自己報告の変化と一部の他者評定の変化が観察された。",
+      "population_and_scope_ja": "1523人の特定の介入・比較条件。",
+      "not_supported_ja": "市販のあらゆるアプリや自己流の練習が同じ効果を持つこと。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC047"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-PER-002-C03",
+      "claim_ja": "症状、性格尺度、本人の評価、周囲の評価を分けて解釈する必要がある。",
+      "population_and_scope_ja": "S1とS2の測定と対象の違い。",
+      "not_supported_ja": "性格の安定性も個人差も存在しないという結論。",
+      "source_keys": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "SRC046",
+        "SRC047"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "変えたい人格のラベルではなく、困っている場面と具体的な行動を一つ挙げます。",
+      "自分の実感と実際の行動、必要なら信頼できる人の観察を別々の情報として扱います。",
+      "変化を急いで自分を否定するのではなく、負担や目標が自分に合っているかを確かめます。"
+    ],
+    "safety": "気分の不調や強い不安を、性格が悪いからと決めつけません。治療を受けている場合は自己流の介入で置き換えません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-010",
+      "severity": "major",
+      "finding_ja": "集団の遺伝率、介入中の症状変化、性格特性の変化、本人と他者の評価は別の概念である。",
+      "next_action_ja": "測定法と解析モデルを確認し、各研究の対象を分ける。遺伝率を個人の変えられない割合にしない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "症状と特性、自己報告と他者評価の混同を制限。長期追跡と対照条件の詳細点検は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

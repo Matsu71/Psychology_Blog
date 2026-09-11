@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WEL-005",
+  "title_ja": "年収が増えれば幸せになる？——『幸福の上限額』という話を読む前に",
+  "category_id": "wellbeing",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "36857342"
+      },
+      "source_ids": [
+        "SRC068"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-WEL-005-C01",
+      "claim_ja": "所得と感情的な幸福との関係の形は、幸福感の水準によって異なった。",
+      "population_and_scope_ja": "2023年の共同再分析が扱う米国の経験サンプリングデータ。",
+      "not_supported_ja": "全員に共通する所得の頭打ちや、日本での特定の最適年収。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC068"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WEL-005-C02",
+      "claim_ja": "観察的な所得と幸福の関係は、個人の所得を増やす介入の効果とは区別する必要がある。",
+      "population_and_scope_ja": "研究設計と個人への適用範囲の解釈。",
+      "not_supported_ja": "昇給額から個人の幸福の増加を確実に計算できること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC068"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "収入に関する記事では、日々の気分、人生への満足、生活の安心のどれを測ったのか確認します。",
+      "働き方を選ぶ際は、金額とともに変化する時間や負担も別の項目として比較します。",
+      "研究の金額を、自分や他人の満足度の基準として押し付けないようにします。"
+    ],
+    "safety": "個別の転職・投資・家計判断を、この関連研究だけから決めることは勧めません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-016",
+      "severity": "moderate",
+      "finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
+      "next_action_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "金額の閾値や因果への飛躍を避けて再編集。分析の分位点・指標の詳細について最終照合が必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

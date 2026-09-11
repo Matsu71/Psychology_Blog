@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-001",
+  "title_ja": "物ではなく時間を買うと幸せになる？——家事の外注を考えるための研究",
+  "category_id": "money_consumption",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "28739889"
+      },
+      "source_ids": [
+        "SRC069"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-MON-001-C01",
+      "claim_ja": "時間節約への支出は調査で生活満足と関連し、実験でも短期的な幸福感への利点が報告された。",
+      "population_and_scope_ja": "4か国の調査と特定条件のフィールド実験を区別して記述。",
+      "not_supported_ja": "あらゆる外注が全家計で長期の幸福を高めること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC069"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-001-C02",
+      "claim_ja": "支出の余裕や時間の使い道を無視して、個人に外注の利益を保証できない。",
+      "population_and_scope_ja": "研究の対象・期間から個人へ一般化する際の限界。",
+      "not_supported_ja": "特定サービスの購入推奨や金銭的な損得の保証。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC069"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "日常で負担が大きい作業を一つ挙げ、楽しんで行っている作業とは分けます。",
+      "サービス代だけでなく、手配や確認にかかる時間、家計への負担も含めて考えます。",
+      "空いた時間をどう使ったかを振り返り、他人の正解より自分の生活条件を優先します。"
+    ],
+    "safety": "支出の余裕がない人に、幸福のためにお金を使うべきだと要求する記事ではありません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-016",
+      "severity": "moderate",
+      "finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
+      "next_action_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "調査と実験を分離した改稿。介入手続きと測定期間の最終照合は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

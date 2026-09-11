@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DIG-004",
+  "title_ja": "デジタルデトックスは効く？改善した人の数だけでなく、続けられたかを見る",
+  "category_id": "digital",
+  "created_on": "2026-09-11",
+  "authoring_revision": "preserved_round4_draft",
+  "source_resolution": {
+    "internet_trial": {
+      "selector": {
+        "key": "internet_trial",
+        "doi": "10.1093/pnasnexus/pgaf017",
+        "expected_title_words": [
+          "blocking",
+          "mobile",
+          "internet"
+        ]
+      },
+      "source_ids": [
+        "SRC159"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-DIG-004-C01",
+      "claim_ja": "スマートフォンのモバイルインターネットを遮断する試験では、注意や心理的な指標の改善が報告された。",
+      "population_and_scope_ja": "指定した機能を短期間遮断する介入。SNSだけの削除や全機器の禁止とは違う。",
+      "not_supported_ja": "すべてのデジタルデトックスに同じ効果があるという主張。",
+      "source_keys": [
+        "internet_trial"
+      ],
+      "source_ids": [
+        "SRC159"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-004-C02",
+      "claim_ja": "事前に定めた遵守基準を満たした参加者は25.5％だったという点も、実行可能性の評価に必要である。",
+      "population_and_scope_ja": "前回の本文指定箇所確認メモに基づく。分母、遵守基準、解析集団を最終照合する。",
+      "not_supported_ja": "全参加者が問題なく継続できた、遵守者の成績を全員の成績とすること。",
+      "source_keys": [
+        "internet_trial"
+      ],
+      "source_ids": [
+        "SRC159"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-004-C03",
+      "claim_ja": "介入の平均的な効果と、仕事や生活を含めた個人の最適な使い方は別の問いである。",
+      "population_and_scope_ja": "対象・期間・機能制限の範囲に限った推論。",
+      "not_supported_ja": "必要な連絡や支援まで断つことが健康に良いという推奨。",
+      "source_keys": [
+        "internet_trial"
+      ],
+      "source_ids": [
+        "SRC159"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "必要な通信と、見直したい機能を分ける。",
+      "変更の負担と得られた時間の両方を振り返る。",
+      "仕事や支援へのアクセスが失われる制限は避ける。"
+    ],
+    "safety": "緊急連絡や必要な支援を断たない。研究で扱った制限と個人への提案を混同しない。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-003",
+      "severity": "major",
+      "finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
+      "next_action_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": null,
+  "publication_ready": false,
+  "independent_review_completed": false
+}

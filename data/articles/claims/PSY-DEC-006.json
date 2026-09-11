@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-006",
+  "title_ja": "選択肢が多いと選べない？——『少ない方がよい』では片づかない買い物の心理",
+  "category_id": "decisions",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "doi": "10.1086/651235"
+      },
+      "source_ids": [
+        "SRC136"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "doi": "10.1016/j.jcps.2014.08.002"
+      },
+      "source_ids": [
+        "SRC269"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S3": {
+      "selector": {
+        "key": "S3",
+        "doi": "10.1016/j.jcps.2015.07.001"
+      },
+      "source_ids": [
+        "SRC270"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-DEC-006-C01",
+      "claim_ja": "2010年のメタ分析では選択肢過多の平均効果はほぼゼロで、研究間のばらつきが大きかった。",
+      "population_and_scope_ja": "50実験・63条件・5036人の統合結果。",
+      "not_supported_ja": "すべての場面で影響ゼロであること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC136"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEC-006-C02",
+      "claim_ja": "2015年のレビューは、比較の複雑さや好みの不確かさなどの条件差を検討した。",
+      "population_and_scope_ja": "条件を分けたメタ分析。",
+      "not_supported_ja": "万人への最適な選択肢数や、一つの生活手順の確定効果。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC269"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEC-006-C03",
+      "claim_ja": "2015年レビューの訂正は、2010年レビューと分けて記録する必要がある。",
+      "population_and_scope_ja": "訂正対象の論文識別と統計記載。",
+      "not_supported_ja": "別論文も同じ訂正を受けたことや、訂正の存在だけで全結論が無効になること。",
+      "source_keys": [
+        "S2",
+        "S3"
+      ],
+      "source_ids": [
+        "SRC269",
+        "SRC270"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "候補を増やす前に、必要な条件と妥協できる条件を書き分けます。",
+      "迷いが候補数から来ているのか、比較項目の多さや自分の好みの曖昧さから来ているのかを考えます。",
+      "重要度の低い選択まで最高の一つを探し続けていないか振り返ります。これらは編集上の応用で、単一の検証済み手順ではありません。"
+    ],
+    "safety": "大切な契約や健康上の選択について、比較を省略することを勧める記事ではありません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-006",
+      "severity": "blocking_for_quantitative_claims",
+      "finding_ja": "前の作業に訂正本文の確認記録があるが、今回の原稿データに訂正告知の識別子と対象箇所がまだ結合されていない。",
+      "next_action_ja": "既存の第4回読解資料から訂正識別子・原文箇所・変更内容を再取得し、修正前後を記録する。それまで数値を掲載しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "訂正論文と原著の識別を反映した改稿。条件別解析の全文点検と最終的な出典確認は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

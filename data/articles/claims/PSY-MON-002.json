@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-002",
+  "title_ja": "キャッシュレスだと使いすぎる？支払いやすさと、家計の見えやすさを分ける",
+  "category_id": "money_consumption",
+  "created_on": "2026-09-11",
+  "authoring_revision": "preserved_round4_draft",
+  "source_resolution": {
+    "cashless_meta": {
+      "selector": {
+        "key": "cashless_meta",
+        "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+        "expected_title_words": [
+          "cashless",
+          "meta"
+        ]
+      },
+      "source_ids": [
+        "SRC169"
+      ],
+      "resolution_method": "exact_title_requires_identifier_check",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-MON-002-C01",
+      "claim_ja": "現金以外の決済と支出の関係を統合した研究があり、決済方法は消費行動の研究対象である。",
+      "population_and_scope_ja": "正確な書誌と本文の対象箇所を照合して採用する。",
+      "not_supported_ja": "キャッシュレスなら全員が必ず支出を増やすという結論。",
+      "source_keys": [
+        "cashless_meta"
+      ],
+      "source_ids": [
+        "SRC169"
+      ],
+      "source_resolution_complete": false,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-002-C02",
+      "claim_ja": "決済方法の平均効果と、特定の個人の家計管理の結果は分ける必要がある。",
+      "population_and_scope_ja": "研究対象となる決済手段、年代、買い物条件を最終確認する。",
+      "not_supported_ja": "カード、スマホ決済、分割払い、現金を同じ一軸だけで評価すること。",
+      "source_keys": [
+        "cashless_meta"
+      ],
+      "source_ids": [
+        "SRC169"
+      ],
+      "source_resolution_complete": false,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-002-C03",
+      "claim_ja": "登録済み資料に本文の確認がない場合、効果の方向・大きさ・条件差を数値で記事へ入れない。",
+      "population_and_scope_ja": "本文の品質管理ルール。研究結果の主張ではない。",
+      "not_supported_ja": "題名や検索結果だけから、平均支出増加率を作ること。",
+      "source_keys": [],
+      "source_ids": [],
+      "source_resolution_complete": false,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [
+    "cashless_meta"
+  ],
+  "application": {
+    "type": "editorial_decision_reflection_not_financial_advice",
+    "steps": [
+      "決済のしやすさと、支出の確認しやすさを分けて考える。",
+      "一つの支出分野で予算と合計を振り返る。",
+      "手段だけを責めず、購入場面や生活の条件も整理する。"
+    ],
+    "safety": "借入、信用契約、分割払いの個別判断を心理学の記事だけで決めない。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-008",
+      "severity": "blocking_for_result_section",
+      "finding_ja": "キャッシュレスの原稿は、結果の方向・大きさ・条件差を確認する前の構成稿である。",
+      "next_action_ja": "対象メタ分析の正式題名、収載研究、現金以外の手段、実支出と購入意図、年代、出版バイアスを読解し、結果部分を埋める。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "研究の結果部分は本文の照合後に補う。構成稿として扱い、完成記事に数えない。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

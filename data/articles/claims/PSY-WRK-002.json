@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-002",
+  "title_ja": "退勤したのに、頭の中では働いている——仕事から離れる時間を考える",
+  "category_id": "work",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "34096763"
+      },
+      "source_ids": [
+        "SRC075"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-WRK-002-C01",
+      "claim_ja": "心理的に仕事から離れることへの介入には、平均的な改善が報告されている。",
+      "population_and_scope_ja": "30研究・34介入・3725人の統合。",
+      "not_supported_ja": "どんな個人の工夫でも同じ効果があること、病気や生産性への直接効果。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC075"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-002-C02",
+      "claim_ja": "介入の期間や評価場面によって結果が異なる。",
+      "population_and_scope_ja": "当該メタ分析が検討した条件差。",
+      "not_supported_ja": "仕事を考えないよう我慢するだけで解決するという結論。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC075"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "休んでいるときに浮かぶ仕事を、今対応できることと、勤務時間にならないと動けないことに分けます。",
+      "勤務外の返信の期待が曖昧な場合は、自分だけで抱えず、緊急連絡の範囲を確認します。",
+      "個人の工夫を試しても負担が続くなら、業務量や支援の不足も別の問題として扱います。"
+    ],
+    "safety": "過重な業務や職場の問題を、本人の気持ちの切り替えの弱さへ還元しません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-015",
+      "severity": "moderate",
+      "finding_ja": "一企業の無作為化試験と、複数企業の非無作為化介入は同じ証拠の形式ではない。",
+      "next_action_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "直接アウトカムを心理的離脱へ限定して改稿。具体的介入ごとの比較と長期的な影響の精査は残る。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "items": [
+    {
+      "audit_id": "R4-QA-001",
+      "topic_ids": [
+        "PSY-MOT-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "心理的介入の効果は、先延ばしの原因が感情であることや、時間管理より感情調整が優れることを直接示さない。",
+      "remaining_check_ja": "感情調整に関する理論・縦断・介入研究を別に確認し、原因と対処の証拠を分離する。現稿の介入メタ分析を原因の根拠へ読み替えない。"
+    },
+    {
+      "audit_id": "R4-QA-002",
+      "topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "23人の男性の交差試験から、女性や疾患・服薬のある人を含む全員の安全時刻を導けない。100mgの無差は同等性の証明ではない。",
+      "remaining_check_ja": "試験の対象・除外基準・割付・解析・各指標の差と不確実性を全文で照合し、統合研究と比較する。"
+    },
+    {
+      "audit_id": "R4-QA-003",
+      "topic_ids": [
+        "PSY-DIG-004",
+        "PSY-DIG-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
+      "remaining_check_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。"
+    },
+    {
+      "audit_id": "R4-QA-004",
+      "topic_ids": [
+        "PSY-HAB-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "レビュー全体の20研究と形成期間を報告した4研究を分ける必要がある。各研究の平均・中央値・推定モデルは同一ではない。",
+      "remaining_check_ja": "期間の原表、各研究の対象・測定・欠測、リスク評価を照合する。『66日が正解』という見出しに変更しない。"
+    },
+    {
+      "audit_id": "R4-QA-005",
+      "topic_ids": [
+        "PSY-ATT-004"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "疲労・活力の改善は、作業成績の改善とは別である。",
+      "remaining_check_ja": "主要解析、課題別解析、異質性と信頼区間を確認する。休憩の固定分数を研究の結論として追加しない。"
+    },
+    {
+      "audit_id": "R4-QA-006",
+      "topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "前の作業に訂正本文の確認記録があるが、今回の原稿データに訂正告知の識別子と対象箇所がまだ結合されていない。",
+      "remaining_check_ja": "既存の第4回読解資料から訂正識別子・原文箇所・変更内容を再取得し、修正前後を記録する。それまで数値を掲載しない。"
+    },
+    {
+      "audit_id": "R4-QA-007",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "テレビ視聴を扱う別レビューの不整合と、食事への注意を扱う2013年レビューを混同してはならない。現稿は結果の具体的な説明が不足する。",
+      "remaining_check_ja": "不整合のある論文を一意に特定し、該当する値・表・解析を照合する。別のレビューについては独立して方法と結果を確認し、効果の方向と適用範囲を追記する。"
+    },
+    {
+      "audit_id": "R4-QA-008",
+      "topic_ids": [
+        "PSY-MON-002"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "キャッシュレスの原稿は、結果の方向・大きさ・条件差を確認する前の構成稿である。",
+      "remaining_check_ja": "対象メタ分析の正式題名、収載研究、現金以外の手段、実支出と購入意図、年代、出版バイアスを読解し、結果部分を埋める。"
+    },
+    {
+      "audit_id": "R4-QA-009",
+      "topic_ids": [
+        "PSY-SLP-007",
+        "PSY-SLP-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "睡眠制限実験の就床機会は実睡眠時間と違い、代謝・認知・眠気の回復を合算できない。",
+      "remaining_check_ja": "睡眠制限実験の訂正を照合し、各結果指標と期間の根拠を個別に示す。個人の必要睡眠時間を計算する記事にしない。"
+    },
+    {
+      "audit_id": "R4-QA-010",
+      "topic_ids": [
+        "PSY-PER-002",
+        "PSY-GEN-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "集団の遺伝率、介入中の症状変化、性格特性の変化、本人と他者の評価は別の概念である。",
+      "remaining_check_ja": "測定法と解析モデルを確認し、各研究の対象を分ける。遺伝率を個人の変えられない割合にしない。"
+    },
+    {
+      "audit_id": "R4-QA-011",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "標準化効果量を点数の増加率へ変換できない。復習の具体的な手順は、論文の介入そのものとは限らない。",
+      "remaining_check_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。"
+    },
+    {
+      "audit_id": "R4-QA-012",
+      "topic_ids": [
+        "PSY-HAB-005"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "理想と障害の対比を組み合わせた研究から、実行意図単独の効果は分離できない。",
+      "remaining_check_ja": "実行意図単独のレビュー・原著と、複合介入の研究を分けて追加する。書誌だけのWebb・Sheeran論文を読解済みへ昇格しない。"
+    },
+    {
+      "audit_id": "R4-QA-013",
+      "topic_ids": [
+        "PSY-EXE-002"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "メタ分析・アンブレラレビューの重複、訂正、低い確実性、臨床対象への適用を確認する必要がある。",
+      "remaining_check_ja": "研究重複の対応表、訂正内容、比較条件と有害事象を確認する。治療の置換や個別の強度処方を行わない。"
+    },
+    {
+      "audit_id": "R4-QA-014",
+      "topic_ids": [
+        "PSY-MOT-009"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "心の症状の改善から、再挑戦の増加や仕事の成果の改善は直接導けない。",
+      "remaining_check_ja": "動機づけや失敗後の行動を直接扱う研究を追加し、現在の原稿は自己批判と症状の議論に限定する。"
+    },
+    {
+      "audit_id": "R4-QA-015",
+      "topic_ids": [
+        "PSY-WRK-001",
+        "PSY-WRK-002"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "一企業の無作為化試験と、複数企業の非無作為化介入は同じ証拠の形式ではない。",
+      "remaining_check_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。"
+    },
+    {
+      "audit_id": "R4-QA-016",
+      "topic_ids": [
+        "PSY-MON-001",
+        "PSY-WEL-005"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
+      "remaining_check_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。"
+    },
+    {
+      "audit_id": "R4-QA-017",
+      "topic_ids": [
+        "PSY-ADD-001"
+      ],
+      "status": "open_recheck_revised_manuscripts",
+      "original_finding_ja": "海外の禁煙介入には、日本の現在の承認や入手条件と異なるものが含まれる。",
+      "remaining_check_ja": "国内の現在の治療・支援を確認し、医療上の安全確認を経る。独断で薬や電子タバコを推奨しない。"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "topic_ids": [],
+      "status": "registry_and_top20_alignment_resolved",
+      "original_finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "remaining_check_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。"
+    }
+  ],
+  "independent_scientific_review": false
+}

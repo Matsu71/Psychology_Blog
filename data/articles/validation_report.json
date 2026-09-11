@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "status": "structural_checks_passed",
+  "theme_count": 300,
+  "manuscripts": 26,
+  "revised_manuscripts": 20,
+  "top20_dossiers": 20,
+  "claims_and_cautions": 74,
+  "unresolved_source_selectors": 1,
+  "publication_ready_articles": 0,
+  "note_ja": "構造の検証と本文の科学的な主張の真偽は別です。出典の照合で科学的査読が完了したとは扱いません。"
+}

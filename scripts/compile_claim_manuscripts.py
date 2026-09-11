@@ -93,6 +93,9 @@ def main() -> None:
             if sel.get('doi'): matches.update(doi_index.get(doi(sel['doi']),[]))
             if sel.get('pmid'): matches.update(pmid_index.get(str(sel['pmid']),[]))
             method = 'exact_identifier'
+            if not matches and sel.get('url'):
+                matches.update(x['id'] for x in source_list if x.get('url','').rstrip('/') == sel['url'].rstrip('/'))
+                if matches: method = 'exact_identifier'
             if not matches and sel.get('title'):
                 matches.update(title_index.get(sel['title'].strip().casefold(),[]))
                 method = 'exact_title_requires_identifier_check'

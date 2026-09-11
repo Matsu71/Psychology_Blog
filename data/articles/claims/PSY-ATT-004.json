@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ATT-004",
+  "title_ja": "短い休憩は何を回復させる？——疲れが減ることと、仕事が速くなること",
+  "category_id": "attention",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "36044424"
+      },
+      "source_ids": [
+        "SRC054"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-ATT-004-C01",
+      "claim_ja": "短い休憩を統合したメタ分析では、疲労低下と活力増加に小さな平均的効果があった。",
+      "population_and_scope_ja": "22独立標本、2335人を扱う2022年レビュー。",
+      "not_supported_ja": "全員が同じ程度に回復することや、あらゆる仕事の効率が上がること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC054"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-004-C02",
+      "claim_ja": "作業成績全体への平均的改善は、統計的に明確ではなかった。",
+      "population_and_scope_ja": "当該メタ分析の全体解析。",
+      "not_supported_ja": "すべての課題で休憩が無意味、または逆効果という結論。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC054"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-004-C03",
+      "claim_ja": "主観的な疲労・活力と作業成績を別の結果として扱う必要がある。",
+      "population_and_scope_ja": "論文が別々に評価したアウトカムの解釈。",
+      "not_supported_ja": "特定の休憩間隔・長さを全員に最適とする処方。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC054"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "休憩の前後で、まず疲れや気分がどう変わったかを確認します。",
+      "作業の成果を見る場合は、速さだけでなくミスや再開のしやすさも別の観点として考えます。",
+      "短い休憩で回復しないときは、休憩の工夫だけでなく睡眠や仕事量も見直す必要があるか検討します。"
+    ],
+    "safety": "強い疲労や体調不良を、細切れの休憩だけで乗り切ることを勧めません。安全が関わる仕事では必要な休息や職場の規則を優先します。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-005",
+      "severity": "major",
+      "finding_ja": "疲労・活力の改善は、作業成績の改善とは別である。",
+      "next_action_ja": "主要解析、課題別解析、異質性と信頼区間を確認する。休憩の固定分数を研究の結論として追加しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "疲労と成績の混同を修正。数値の詳細と課題別解析は最終照合が残る。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-EMO-008",
+  "title_ja": "怒りは発散すれば収まる？『話すこと』と『興奮を強めること』は違う",
+  "category_id": "emotions",
+  "created_on": "2026-09-11",
+  "authoring_revision": "preserved_round4_draft",
+  "source_resolution": {
+    "anger": {
+      "selector": {
+        "key": "anger",
+        "pmid": "38518585"
+      },
+      "source_ids": [
+        "SRC058"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "breathing": {
+      "selector": {
+        "key": "breathing",
+        "pmid": "36624160"
+      },
+      "source_ids": [
+        "SRC057"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-EMO-008-C01",
+      "claim_ja": "怒りへの対処を統合した研究では、覚醒を下げる活動に平均的な怒りの低下が認められた。",
+      "population_and_scope_ja": "154研究、10189人を含む統合研究。",
+      "not_supported_ja": "誰にでも同じ活動が効き、怒りを持つこと自体が悪いという主張。",
+      "source_keys": [
+        "anger"
+      ],
+      "source_ids": [
+        "SRC058"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-EMO-008-C02",
+      "claim_ja": "覚醒を上げる活動全体には、怒りを減らす明確な平均的効果が示されなかった。",
+      "population_and_scope_ja": "怒り・攻撃性の指標を対象にした比較。",
+      "not_supported_ja": "運動一般が心身に悪い、相談や感情表現をしてはいけないという主張。",
+      "source_keys": [
+        "anger"
+      ],
+      "source_ids": [
+        "SRC058"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-EMO-008-C03",
+      "claim_ja": "呼吸を扱う介入にはストレスの平均的低下を示す研究があるが、方法・安全性・研究の質を区別する必要がある。",
+      "population_and_scope_ja": "ストレスの主解析は12RCT、785人。怒りのすべての場面を直接検証したものではない。",
+      "not_supported_ja": "息止めや速い呼吸を含むあらゆる方法が安全であるという主張。",
+      "source_keys": [
+        "breathing"
+      ],
+      "source_ids": [
+        "SRC057"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_safety_first_suggestion_not_treatment_protocol",
+    "steps": [
+      "怒りの原因と、今取りそうな行動を分ける。",
+      "危険な行動を避け、落ち着いて判断できる余地を作る。",
+      "問題の解決や支援への相談は、感情を落ち着かせることと別に扱う。"
+    ],
+    "safety": "物や人への攻撃を対処法として勧めない。差し迫った暴力の危険は自己対処だけで扱わない。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": null,
+  "publication_ready": false,
+  "independent_review_completed": false
+}

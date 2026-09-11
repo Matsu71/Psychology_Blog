@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DIG-001",
+  "title_ja": "SNSで不幸になるのか――『使った時間』だけでは分からないこと",
+  "category_id": "digital",
+  "created_on": "2026-09-11",
+  "authoring_revision": "preserved_round4_draft",
+  "source_resolution": {
+    "facebook": {
+      "selector": {
+        "key": "facebook",
+        "doi": "10.1371/journal.pone.0069841"
+      },
+      "source_ids": [
+        "SRC012"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "internet_trial": {
+      "selector": {
+        "key": "internet_trial",
+        "doi": "10.1093/pnasnexus/pgaf017",
+        "expected_title_words": [
+          "blocking",
+          "mobile",
+          "internet"
+        ]
+      },
+      "source_ids": [
+        "SRC159"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-DIG-001-C01",
+      "claim_ja": "若年成人のFacebook利用と、その後の主観的幸福の低下が関連した初期研究がある。",
+      "population_and_scope_ja": "2013年の若年成人を対象とした短期の観察的経験サンプリング研究。",
+      "not_supported_ja": "現在のすべてのSNSが、全年齢の利用者を必ず不幸にするという因果的結論。",
+      "source_keys": [
+        "facebook"
+      ],
+      "source_ids": [
+        "SRC012"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-001-C02",
+      "claim_ja": "利用後の気分を追跡しても、観察研究だけで交絡や逆向きの関係を完全に除くことはできない。",
+      "population_and_scope_ja": "研究デザインからの限界。",
+      "not_supported_ja": "時間の前後が分かれば因果が確定するという解釈。",
+      "source_keys": [
+        "facebook"
+      ],
+      "source_ids": [
+        "SRC012"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-001-C03",
+      "claim_ja": "通信を制限する介入は、特定のSNSの使い方を比較する研究とは区別する必要がある。",
+      "population_and_scope_ja": "モバイルインターネット全体の遮断を扱う試験。",
+      "not_supported_ja": "SNSの閲覧、友人との会話、動画などのどれが結果を生んだかを単独で確定すること。",
+      "source_keys": [
+        "internet_trial"
+      ],
+      "source_ids": [
+        "SRC159"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "使用時間と、利用目的を別々に見る。",
+      "利用の前後の気分と、その日に起きた他の出来事を合わせて振り返る。",
+      "必要な支援や交流を保ちながら、負担の大きい使い方を見直す。"
+    ],
+    "safety": "嫌がらせや危険な関係を、単なる使い方の問題として本人に帰責しない。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-003",
+      "severity": "major",
+      "finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
+      "next_action_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": null,
+  "publication_ready": false,
+  "independent_review_completed": false
+}

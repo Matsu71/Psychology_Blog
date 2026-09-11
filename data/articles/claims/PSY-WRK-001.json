@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-001",
+  "title_ja": "在宅か出社か、二択にする前に——ハイブリッド勤務の無作為化試験を読む",
+  "category_id": "work",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "38867040"
+      },
+      "source_ids": [
+        "SRC099"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-WRK-001-C01",
+      "claim_ja": "特定企業の無作為化試験で、週2日の在宅を含む勤務は満足度と定着に利点を示した。",
+      "population_and_scope_ja": "中国の従業員1612人、6か月間の比較。",
+      "not_supported_ja": "完全在宅や全職種に同じ効果があること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC099"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-001-C02",
+      "claim_ja": "退職率の約3分の1低下は相対的な変化である。",
+      "population_and_scope_ja": "当該研究の勤務条件の比較。",
+      "not_supported_ja": "33パーセントポイントの低下という換算。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC099"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-001-C03",
+      "claim_ja": "測定された人事評価等で悪影響の証拠がないことを、すべての成果の完全な同等性へ広げられない。",
+      "population_and_scope_ja": "追跡された評価指標に限定した解釈。",
+      "not_supported_ja": "長期のあらゆる生産性や組織文化への無影響。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC099"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "働く場所の評価では、仕事の満足、離職、成果、連携などの指標を分けます。",
+      "自分の仕事を集中作業と共同作業に分け、制度の対象と研究の対象がどの程度似ているか考えます。",
+      "勤務制度を変える場合は、経験談だけでなく、その職場での結果を確認する観点を持ちます。"
+    ],
+    "safety": "職場の情報管理や合意された勤務規則を無視する提案ではありません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-015",
+      "severity": "moderate",
+      "finding_ja": "一企業の無作為化試験と、複数企業の非無作為化介入は同じ証拠の形式ではない。",
+      "next_action_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "制度と対象の範囲を明確化。試験の割付・脱落・測定指標の最終照合は必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

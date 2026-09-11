@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-002",
+  "title_ja": "一夜漬けで覚えたのに忘れる——復習は『何回』だけでなく『いつ』も考える",
+  "category_id": "learning",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "16719566"
+      },
+      "source_ids": [
+        "SRC051"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "26173288"
+      },
+      "source_ids": [
+        "SRC027"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-LEA-002-C01",
+      "claim_ja": "学習の間隔の効果は、テストまでの保持期間と関係している。",
+      "population_and_scope_ja": "言語的な再生課題を中心とする184論文・317実験の統合。",
+      "not_supported_ja": "すべての技能や教材への一つの最適復習日程。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC051"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-002-C02",
+      "claim_ja": "分散した練習は、複数の学習方法を比較するレビューで有望と評価された。",
+      "population_and_scope_ja": "当該レビューが扱う学習場面と証拠。",
+      "not_supported_ja": "初期の読解や必要な集中練習が無意味であること。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC027"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "その知識をいつまで使いたいのかを決め、直前の詰め込みだけで終えない計画を考えます。",
+      "復習では覚えた範囲をただ眺めず、思い出せることと確認が必要なことを区別します。",
+      "日程を守れなかったことより、再開したときに何を確認するかを具体化します。"
+    ],
+    "safety": "安全が関わる技能の習得は、認められた実習や指導の手順を優先します。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-011",
+      "severity": "major",
+      "finding_ja": "標準化効果量を点数の増加率へ変換できない。復習の具体的な手順は、論文の介入そのものとは限らない。",
+      "next_action_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "固定の復習間隔を普遍化しない改稿。教材別・保持期間別の詳細と追試は最終確認が必要。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

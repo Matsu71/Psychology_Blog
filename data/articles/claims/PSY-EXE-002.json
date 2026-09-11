@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-EXE-002",
+  "title_ja": "運動は気分のケアに役立つ？——『動けば治る』と言わないための読み方",
+  "category_id": "exercise",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "pmid": "38355154"
+      },
+      "source_ids": [
+        "SRC061"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "38806193"
+      },
+      "source_ids": [
+        "SRC062"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-EXE-002-C01",
+      "claim_ja": "うつ病の臨床基準に該当する対象への運動介入で、平均的な症状軽減が報告された。",
+      "population_and_scope_ja": "2024年の218研究・14170人の統合。",
+      "not_supported_ja": "すべての人が運動だけで治ること、通常治療の中断。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC061"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-EXE-002-C02",
+      "claim_ja": "研究の多くにはバイアスリスクがあり、確実性を高いと扱えない。",
+      "population_and_scope_ja": "当該レビューによる研究の評価。",
+      "not_supported_ja": "研究数だけで個人への最適な運動を確定すること。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC061"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-EXE-002-C03",
+      "claim_ja": "訂正告知の内容を確認せず、細かい数値や運動の順位を公開すべきではない。",
+      "population_and_scope_ja": "原論文と訂正の照合に関する編集上の注意。",
+      "not_supported_ja": "訂正があるだけで論文全体が無効という断定。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC062"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "運動の研究は、症状の予防、治療中の補助、健康な人の気分転換のどれを扱うか分けて読みます。",
+      "本人に実行可能な活動や支援を、必要に応じて医療者と相談する材料として使います。",
+      "できない日を本人の失敗にせず、負担や身体症状がある場合は安全を優先します。"
+    ],
+    "safety": "服薬や治療を中断しません。痛み、強い不調、持病がある場合の具体的な運動は専門家の判断を必要とします。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-013",
+      "severity": "major",
+      "finding_ja": "メタ分析・アンブレラレビューの重複、訂正、低い確実性、臨床対象への適用を確認する必要がある。",
+      "next_action_ja": "研究重複の対応表、訂正内容、比較条件と有害事象を確認する。治療の置換や個別の強度処方を行わない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "医学的な最終確認と訂正本文の影響評価が必要。個別の運動処方は作成しない。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}

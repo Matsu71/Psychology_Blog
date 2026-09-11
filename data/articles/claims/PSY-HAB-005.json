@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-005",
+  "title_ja": "『もし帰宅したら、まず着替える』——行動を始める計画はどう役立つ？",
+  "category_id": "habits",
+  "created_on": "2026-09-11",
+  "authoring_revision": "editorial_revision",
+  "source_resolution": {
+    "S1": {
+      "selector": {
+        "key": "S1",
+        "doi": "10.1016/s0065-2601(06)38002-1"
+      },
+      "source_ids": [
+        "SRC124"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S2": {
+      "selector": {
+        "key": "S2",
+        "pmid": "30427874"
+      },
+      "source_ids": [
+        "SRC268"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "S3": {
+      "selector": {
+        "key": "S3",
+        "pmid": "34054628"
+      },
+      "source_ids": [
+        "SRC098"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    }
+  },
+  "claims": [
+    {
+      "id": "PSY-HAB-005-C01",
+      "claim_ja": "実行意図は、目標だけでなく行動の機会と反応を結びつける計画として検討されている。",
+      "population_and_scope_ja": "2006年のメタ分析が扱う方法。",
+      "not_supported_ja": "一度書けば必ず目標を達成できるという保証。",
+      "source_keys": [
+        "S1"
+      ],
+      "source_ids": [
+        "SRC124"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-005-C02",
+      "claim_ja": "身体活動研究の計画強化を含む効果を、単回の計画記入だけの効果と解釈できない。",
+      "population_and_scope_ja": "13RCTの2018年レビュー。",
+      "not_supported_ja": "介入の複数要素の効果を分離したという説明。",
+      "source_keys": [
+        "S2"
+      ],
+      "source_ids": [
+        "SRC268"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-005-C03",
+      "claim_ja": "理想と障害の対比を組み合わせた研究は、実行意図単独の研究とは別に扱う。",
+      "population_and_scope_ja": "複合介入のメタ分析との比較。",
+      "not_supported_ja": "組み合わせの効果を、もし〜なら計画のみへ帰属すること。",
+      "source_keys": [
+        "S1",
+        "S3"
+      ],
+      "source_ids": [
+        "SRC124",
+        "SRC098"
+      ],
+      "source_resolution_complete": true,
+      "evidence_certainty": "not_formally_assessed",
+      "claim_review_status": "authoring_claim_pending_source_text_check",
+      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    }
+  ],
+  "unresolved_source_keys": [],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "steps": [
+      "実際に遭遇する状況と、無理なく実行できる最初の行動を一つ結びつけます。",
+      "実行できなかった場合、文章の問題なのか、機会や体調の問題なのかを分けて見直します。",
+      "計画を固定した義務とせず、生活条件が変わったら内容も更新します。"
+    ],
+    "safety": "痛みや体調不良、医療者の指示より計画の達成を優先しません。"
+  },
+  "outstanding_audit_items": [
+    {
+      "audit_id": "R4-QA-012",
+      "severity": "major",
+      "finding_ja": "理想と障害の対比を組み合わせた研究から、実行意図単独の効果は分離できない。",
+      "next_action_ja": "実行意図単独のレビュー・原著と、複合介入の研究を分けて追加する。書誌だけのWebb・Sheeran論文を読解済みへ昇格しない。",
+      "status": "requires_recheck_after_revision"
+    },
+    {
+      "audit_id": "R4-QA-018",
+      "severity": "global_data_integrity",
+      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
+      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
+      "status": "requires_recheck_after_revision"
+    }
+  ],
+  "editorial_hold": "単独介入と複合介入を分離。最新研究と各介入の具体的手順の最終点検は残る。",
+  "publication_ready": false,
+  "independent_review_completed": false
+}
