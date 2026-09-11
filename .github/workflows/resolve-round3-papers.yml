@@ -1,0 +1,123 @@
+name: Resolve screened round 3 papers
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/resolve-round3-papers.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: psychology-round3-reading
+          run-id: 34548795256
+          github-token: ${{ github.token }}
+          path: _round3
+      - name: Retrieve abstracts for screened publication identifiers
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,json,time,urllib.parse,urllib.request,xml.etree.ElementTree as ET
+          from pathlib import Path
+          bundle=json.loads(Path('_round3/reader_bundle.json').read_text())
+          picks={1:[0],2:[0,1,2],3:[0,1],4:[0,1],5:[0,1],6:[0],8:[0],9:[0,1,2],10:[0],11:[1],13:[0],14:[1],15:[0],16:[0],18:[0,1],19:[1],20:[0],21:[0],23:[0],24:[0],26:[0],27:[0],28:[0],29:[0],32:[0],33:[0],34:[0],35:[0],36:[2],37:[0],38:[1],39:[2],40:[2],41:[0],42:[0,2],43:[1],44:[0,2],45:[0,1],46:[0],47:[1],48:[0],49:[0],50:[2],51:[0],52:[0],53:[0],54:[1],55:[0],56:[0],57:[0],58:[0],59:[0],60:[0],61:[0],64:[0],65:[0],67:[0,2],68:[0],70:[0],71:[0],72:[0],73:[0],74:[0],75:[1],76:[0],77:[2],78:[1],79:[0],80:[0],81:[0],82:[0],83:[0,1],84:[0],85:[0],86:[0],87:[0],88:[1],89:[0],91:[0],93:[0],94:[0],95:[1],96:[0],97:[1],98:[0],100:[0,1],101:[0],102:[0]}
+          tasks=[]
+          for s in bundle['searches']:
+              if s['provider']=='crossref':
+                  for i in picks.get(int(s['id'].split('-')[-1]),[]):
+                      r=s['records'][i]
+                      tasks.append({'topic_id':s['topic_id'],'doi':r['DOI'].lower(),'query':'DOI:"'+r['DOI']+'"','kind':'exact_doi','crossref_query_id':s['id']})
+          extra='''PER-009|TITLE:"Sensory Processing Sensitivity" AND AUTH_LAST:Greven
+          DEC-004|TITLE:"sunk cost" AND TITLE:"meta"
+          REL-010|TITLE:"Perspective mistaking"
+          ATT-009|TITLE:"flow" AND TITLE:"systematic review"
+          INT-003|TITLE:"Sexual Frequency Predicts"
+          INT-007|TITLE:"sleep" AND AUTH_LAST:Gordon AND FIRST_PDATE:[2013-01-01 TO 2014-12-31]
+          MON-012|TITLE:"Doing better but feeling worse"
+          LAN-003|TITLE:"foreign-language effect" AND AUTH_LAST:Keysar
+          LAN-005|TITLE:"gesture" AND TITLE:"meta-analysis"
+          LIF-005|TITLE:"empty nest" AND TITLE:"satisfaction"
+          HAB-010|TITLE_ABS:"commitment contracts" AND SRC:MED
+          HAB-006|TITLE_ABS:"environmental restructuring" AND TITLE_ABS:"behavior"
+          GEN-010|EXT_ID:40965930 AND SRC:MED
+          PER-008|EXT_ID:12061595 AND SRC:MED
+          REL-007|TITLE:"assertiveness" AND TITLE:"systematic"
+          REL-009|TITLE:"apology" AND TITLE:"trust"
+          SOC-004|TITLE:"halo effect" AND SRC:MED
+          WEL-007|TITLE:"social comparison" AND TITLE:"meta"
+          EXE-010|TITLE:"compulsive exercise" AND TITLE:"systematic"
+          NUT-008|TITLE:"probiotics" AND TITLE:"depression" AND TITLE:"meta-analysis"
+          NUT-010|TITLE_ABS:"rigid" AND TITLE_ABS:"flexible" AND TITLE_ABS:"restraint"
+          DEV-003|TITLE:"executive function" AND TITLE:"preschool" AND TITLE:"meta-analysis"
+          DEV-005|TITLE:"attachment" AND TITLE:"stability" AND TITLE:"meta-analysis"
+          AGE-001|TITLE:"When does age-related cognitive decline begin"
+          DIG-002|TITLE:"active" AND TITLE:"passive" AND TITLE:"social media" AND TITLE:"meta-analysis"
+          DIG-003|TITLE:"doomscrolling" AND SRC:MED
+          DIG-007|TITLE:"phubbing" AND TITLE:"meta-analysis"
+          DIG-008|TITLE:"online harassment" AND TITLE:"review"
+          RES-010|TITLE:"N-of-1" AND TITLE:"guidelines"
+          MON-005|TITLE:"impulse buying" AND TITLE:"meta-analysis"
+          MON-007|TITLE:"financial" AND TITLE:"couples" AND TITLE:"communication"
+          MON-009|TITLE:"scarcity" AND TITLE:"consumer" AND TITLE:"meta"
+          INT-004|TITLE:"Sexual Desire Discrepancy" AND TITLE:"Position"
+          INT-008|TITLE:"jealousy" AND TITLE:"social media" AND TITLE:"review"
+          INT-010|TITLE:"singlehood" AND TITLE:"well-being"
+          HPS-006|TITLE:"body functionality" AND TITLE:"meta-analysis"
+          HPS-010|TITLE:"risk perception" AND TITLE:"health behavior" AND TITLE:"meta-analysis"
+          ENV-006|TITLE:"clutter" AND TITLE:"attention"
+          ENV-011|TITLE:"crowding" AND TITLE:"stress" AND SRC:MED
+          CRE-008|TITLE:"adult playfulness" AND TITLE:"well-being"
+          CRE-010|TITLE:"nostalgia" AND TITLE:"meta-analysis"
+          CRE-011|TITLE:"constraints" AND TITLE:"creativity" AND TITLE:"meta"
+          LIF-004|TITLE:"relocation" AND TITLE:"well-being"
+          MON-011|TITLE:"endowment effect" AND TITLE:"review"'''
+          for line in extra.splitlines():
+              tid,q=line.strip().split('|',1); tasks.append({'topic_id':'PSY-'+tid,'query':q,'kind':'targeted_supplement'})
+          def request(url):
+              error=None
+              for n in range(3):
+                  try:
+                      with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/0.3','Accept':'application/json, application/xml'}),timeout=25) as r:return r.read()
+                  except Exception as e:error=str(e);time.sleep(n+1)
+              raise RuntimeError(error)
+          def task(x):
+              q='('+x['query']+') AND FIRST_PDATE:[1900-01-01 TO 2026-09-11]'
+              u='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':q,'format':'json','resultType':'core','pageSize':5})
+              y=dict(x,api_url=u)
+              try:y.update(status='completed',records=json.loads(request(u)).get('resultList',{}).get('result',[]))
+              except Exception as e:y.update(status='failed',records=[],error=str(e))
+              return y
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as p:results=list(p.map(task,tasks))
+          out=Path('resolved_output');out.mkdir(exist_ok=True)
+          (out/'resolved.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
+          # Only these explicitly selected OA full texts are retrieved for methodological reading.
+          ids=['PMC11641623','PMC7853203','PMC10495240','PMC8121093']
+          for row in results:
+              if row.get('doi')=='10.1093/pnasnexus/pgaf017':
+                  ids.extend(r['pmcid'] for r in row['records'] if r.get('pmcid'))
+          full=[]
+          for pmcid in dict.fromkeys(ids):
+              u='https://www.ebi.ac.uk/europepmc/webservices/rest/'+pmcid+'/fullTextXML'
+              try:
+                  xml=ET.fromstring(request(u)); sections=[]
+                  for sec in xml.findall('.//body/sec'):
+                      sections.append({'title':''.join(sec.find('title').itertext()) if sec.find('title') is not None else '', 'text':' '.join(sec.itertext())})
+                  full.append({'pmcid':pmcid,'url':u,'status':'completed','sections':sections,'back_text':' '.join(xml.find('back').itertext()) if xml.find('back') is not None else ''})
+              except Exception as e:full.append({'pmcid':pmcid,'url':u,'status':'failed','error':str(e)})
+          (out/'fulltext_reading.json').write_text(json.dumps(full,ensure_ascii=False,indent=2))
+          print('RESOLVED',len(results),'HITS',sum(bool(x['records']) for x in results),'FULLTEXT',[(x['pmcid'],x['status']) for x in full])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round3-resolved
+          path: resolved_output/
+          retention-days: 1
+          if-no-files-found: error
