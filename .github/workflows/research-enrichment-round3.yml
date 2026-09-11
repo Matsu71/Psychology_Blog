@@ -1,0 +1,173 @@
+name: Research enrichment round 3
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/research-enrichment-round3.yml'
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Search missing themes and targeted corroborating studies
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures, datetime, json, re, subprocess, time, urllib.parse, urllib.request, zipfile
+          from pathlib import Path
+          out=Path('round3_output'); out.mkdir(exist_ok=True)
+          cutoff='2026-09-11'
+          topics=[t for p in sorted(Path('data/topics').glob('*.json')) for t in json.loads(p.read_text())['topics']]
+          missing=[t for t in topics if not t['source_ids']]
+          seeds='''SLP-010|Consumer Sleep Technology An American Academy of Sleep Medicine Position Statement
+          SLP-010|Performance of seven consumer sleep tracking devices compared with polysomnography
+          SLP-004|The effect of caffeine on subsequent sleep A systematic review and meta-analysis
+          EXE-005|Effects of Evening Exercise on Sleep in Healthy Participants
+          GEN-007|Clinical use of current polygenic risk scores may exacerbate health disparities
+          GEN-009|Intergenerational transmission of trauma effects putative role of epigenetic mechanisms
+          GEN-010|The relationship between temperament and personality
+          ADD-009|Gambling near-misses enhance motivation to gamble and recruit win-related brain circuitry
+          ADD-010|Problematic smartphone use A conceptual overview and systematic review
+          HAB-008|Personal financial incentives for changing habitual health-related behaviors
+          HAB-009|Habit discontinuity and behaviour change
+          HAB-010|Commitment devices in health systematic review
+          HAB-005|Implementation intentions and goal achievement A meta-analysis of effects and processes
+          PER-003|Randomized trial of a week-long extraverted behavior intervention
+          PER-007|Whole Trait Theory
+          PER-008|The fallacy of personal validation A classroom demonstration of gullibility
+          PER-009|Sensory Processing Sensitivity in the context of Environmental Sensitivity
+          MOT-007|A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation
+          MOT-010|The fresh start effect Temporal landmarks motivate aspirational behavior
+          ATT-003|Why is it so hard to do my work The challenge of attention residue when switching between work tasks
+          ATT-005|The impact of background music on adult listeners A meta-analysis
+          ATT-009|The flow experience and its significance for human psychology
+          DEC-002|Many Labs 2 Investigating variation in replicability across sample and setting
+          DEC-003|A meta-analysis of loss aversion in risky contexts
+          DEC-004|A meta-analysis on the sunk cost effect
+          DEC-005|The risky-choice framing effect and its moderators A meta-analysis
+          DEC-006|Can there ever be too many options A meta-analytic review of choice overload
+          DEC-009|The Dunning-Kruger effect is mostly a statistical artefact
+          DEC-010|When and why defaults influence decisions A meta-analysis of default effects
+          REL-010|Perspective mistaking Accurately understanding the mind of another requires getting perspective not taking perspective
+          REL-009|The effectiveness of apologies in repairing trust A meta-analysis
+          SOC-001|The constructive destructive and reconstructive power of social norms
+          SOC-005|The actor-observer asymmetry in attribution A surprising meta-analysis
+          SOC-006|The spotlight effect in social judgment An egocentric bias in estimates of the salience of one's own actions and appearance
+          SOC-007|A re-examination of the mere exposure effect The influence of repeated exposure on recognition familiarity and liking
+          SOC-008|A meta-analytical review of research on psychological reactance in health communication
+          SOC-009|Psychological safety A meta-analytic review and extension
+          WEL-003|Beyond the hedonic treadmill Revising the adaptation theory of well-being
+          WEL-004|Experiential purchases and happiness A meta-analysis
+          WEL-006|A registered replication report on the effect of prosocial spending on well-being
+          WEL-008|Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events A Meta-Analysis
+          NUT-003|Eating attentively A systematic review and meta-analysis of the effect of food intake memory and awareness on eating
+          NUT-005|Altering the availability or proximity of food alcohol and tobacco products to change their selection and consumption
+          DEV-002|Revisiting the Marshmallow Test A conceptual replication investigating links between early delay of gratification and later outcomes
+          DEV-006|Shared picture book reading interventions for child language development A systematic review and meta-analysis
+          DEV-007|Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes A Systematic Review and Meta-analysis
+          AGE-010|Cognitive offloading
+          DIG-004|Taking a One-Week Break from Social Media Improves Well-Being Depression and Anxiety
+          DIG-004|Blocking mobile internet on smartphones improves sustained attention mental health and subjective well-being
+          DIG-001|The welfare effects of social media
+          DIG-005|Motivational emotional and behavioral correlates of fear of missing out
+          WRK-004|Effort-reward imbalance at work and risk of depressive disorders A systematic review and meta-analysis
+          WRK-005|On the costs and benefits of emotional labor A meta-analysis of three decades of research
+          WRK-006|Job crafting interventions systematic review meta-analysis
+          WRK-007|Consequences of individuals fit at work A meta-analysis of person-job person-organization person-group and person-supervisor fit
+          WRK-009|The relationship between meeting load and daily well-being of employees
+          WRK-011|Prevalence Predictors and Treatment of Impostor Syndrome A Systematic Review
+          WRK-014|Office chitchat as a social ritual The uplifting yet distracting effects of daily small talk at work
+          MON-002|Less cash more splash A meta-analysis on the cashless effect
+          MON-003|Mental accounting matters
+          MON-010|Zero as a special price The true value of free products
+          MON-011|The Endowment Effect
+          MON-012|Doing better but feeling worse Looking for the best job undermines satisfaction
+          MON-013|Give them what they want The benefits of explicitness in gift exchange
+          INT-002|Couples shared participation in novel and arousing activities and experienced relationship quality
+          INT-003|Sexual Frequency Predicts Greater Well-Being But More is Not Always Better
+          INT-005|Sexual communication and sexual satisfaction A meta-analysis
+          INT-006|Cognitive household labor gender inequality and consequences for maternal mental health and wellbeing
+          INT-007|The role of sleep in interpersonal conflict Do sleepless nights mean worse fights
+          INT-011|Changes in relationship satisfaction across the transition to parenthood A meta-analysis
+          INT-012|Implicit theories of relationships Assessment and prediction of romantic relationship initiation coping and longevity
+          HPS-003|ACG Clinical Guideline Management of Irritable Bowel Syndrome
+          HPS-004|Anxiety sensitivity and the anxiety disorders A meta-analytic review and synthesis
+          HPS-005|A meta-analytic review of the relationship between social media use and body image disturbance
+          HPS-007|Psychological stress and susceptibility to the common cold
+          HPS-008|The nocebo effect of drugs
+          HPS-009|Cyberchondria systematic review meta-analysis
+          HPS-011|Interventions for enhancing medication adherence
+          HPS-012|Using alternative statistical formats for presenting risks and risk reductions
+          ENV-003|WHO Environmental Noise Guidelines for the European Region A systematic review on environmental noise and effects on sleep
+          ENV-004|The impact of the open workspace on human collaboration
+          ENV-007|A naturalistic study of autobiographical memories evoked by olfactory and visual cues
+          ENV-010|Color and psychological functioning A review of theoretical and empirical work
+          ENV-012|A synthesis of health benefits of natural sounds and their distribution in national parks
+          CRE-003|Fast-forwarding to boredom How switching behavior on digital media makes people more bored
+          CRE-005|Does incubation enhance problem solving A meta-analytic review
+          CRE-007|Association of Music Interventions With Health-Related Quality of Life A Systematic Review and Meta-analysis
+          CRE-009|Humor styles and subjective well-being A meta-analysis
+          CRE-012|Productivity loss in brainstorming groups A meta-analytic integration
+          LAN-003|The foreign-language effect Thinking in a foreign tongue reduces decision biases
+          LAN-004|Not everybody has an inner voice Behavioral consequences of anendophasia
+          LAN-005|Gesture's role in learning A meta-analysis
+          LAN-006|Why don't we believe non-native speakers The influence of accent on credibility
+          LAN-007|Egocentrism over e-mail Can we communicate as well as we think
+          LAN-009|Mistakenly seeking solitude
+          LAN-010|The teach-back method A systematic review of implementation and impacts
+          LAN-011|Self-talk as a regulatory mechanism How you do it matters
+          LAN-012|The persuasive effect of narrative in health communication A meta-analysis
+          LIF-005|The empty nest midlife marital satisfaction and longitudinal change
+          LIF-006|Depressive symptom trajectory following romantic relationship breakup
+          LIF-011|Adaptive self-regulation of unattainable goals Goal disengagement goal reengagement and subjective well-being
+          LIF-012|A brief social-belonging intervention improves academic and health outcomes of minority students'''
+          seeds=[tuple(x.strip().split('|',1)) for x in seeds.splitlines() if x.strip()]
+          tasks=[]
+          for t in missing:
+              phrases=[x.replace('"','') for x in t['concepts_en'][:2]]
+              query='('+' OR '.join('TITLE_ABS:"'+x+'"' for x in phrases)+') AND SRC:MED'
+              tasks.append({'id':'R3-B-'+t['id'],'topic_id':t['id'],'provider':'europepmc','query':query})
+              tasks.append({'id':'R3-R-'+t['id'],'topic_id':t['id'],'provider':'europepmc','query':query+' AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Systematic Review")'})
+          for i,(tid,title) in enumerate(seeds,1):
+              tasks.append({'id':f'R3-C-{i:03d}','topic_id':'PSY-'+tid,'provider':'crossref','query':title})
+          def fetch(url):
+              error=None
+              for n in range(3):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/0.3 (public literature metadata)','Accept':'application/json'})
+                      with urllib.request.urlopen(req,timeout=25) as r: return json.load(r)
+                  except Exception as e:
+                      error=type(e).__name__+': '+str(e); time.sleep(1+n*2)
+              raise RuntimeError(error)
+          def process(task):
+              r=dict(task); r['searched_at_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+              if task['provider']=='europepmc':
+                  q='('+task['query']+') AND FIRST_PDATE:[1900-01-01 TO '+cutoff+']'
+                  url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':q,'format':'json','resultType':'core','pageSize':8})
+              else:
+                  url='https://api.crossref.org/works?'+urllib.parse.urlencode({'query.title':task['query'],'rows':3,'filter':'until-pub-date:'+cutoff})
+              r['api_url']=url
+              try:
+                  b=fetch(url)
+                  r.update(status='completed',records=b.get('resultList',{}).get('result',[]) if task['provider']=='europepmc' else b.get('message',{}).get('items',[]))
+              except Exception as e: r.update(status='failed',error=str(e),records=[])
+              print(json.dumps({'id':r['id'],'status':r['status'],'hits':len(r['records'])}),flush=True)
+              return r
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool: results=list(pool.map(process,tasks))
+          (out/'reader_bundle.json').write_text(json.dumps({'schema_version':'1.0','baseline_commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'baseline_missing_count':len(missing),'cutoff':cutoff,'searches':results},ensure_ascii=False,indent=2))
+          with zipfile.ZipFile(out/'repository_snapshot.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for file in subprocess.check_output(['git','ls-files'],text=True).splitlines(): z.write(file,file)
+          print('SUMMARY',len(results),sum(x['status']=='completed' for x in results),sum(len(x['records']) for x in results))
+          PY
+      - name: Save temporary source-reading and repository snapshot bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-round3-reading
+          path: round3_output/
+          retention-days: 1
+          if-no-files-found: error
