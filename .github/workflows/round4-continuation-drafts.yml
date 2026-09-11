@@ -1,0 +1,87 @@
+name: Round 4 continuation drafts
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/round4-continuation-drafts.yml'
+      - 'scripts/build_round4_continuation.py'
+      - 'research/round4_continuation_01.json'
+      - 'research/round4_continuation_02.json'
+      - 'research/round4_continuation_03.json'
+      - 'research/round4_continuation_04.json'
+      - 'research/round4_continuation_gaps.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: psychology-round4-continuation-drafts
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check authoring input and build matched bibliography and drafts
+        run: |
+          python3 -m py_compile scripts/build_round4_continuation.py
+          python3 scripts/build_round4_continuation.py
+      - name: Validate legacy database still remains internally consistent
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+      - name: Record content hashes and exact validation scope
+        run: |
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          roots=[Path('data/research/round4_continuation'),Path('docs/round4_continuation'),Path('articles/drafts/round4_continuation')]
+          manifest=[]
+          for root in roots:
+              for p in sorted(root.rglob('*')):
+                  if p.is_file() and p.name!='file_manifest.json':
+                      manifest.append({'path':str(p),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+          Path('data/research/round4_continuation/file_manifest.json').write_text(json.dumps({'schema_version':'1.0','files':manifest},ensure_ascii=False,indent=2)+'\n')
+          report=json.loads(Path('data/research/round4_continuation/report.json').read_text())
+          assert report['new_publication_ready_articles']==0
+          assert report['canonical_registry_mutated'] is False
+          print('PASS: additive package; article drafts are not marked publication-ready.')
+          PY
+      - name: Commit data and manuscripts only, preserving concurrent work
+        run: |
+          original=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$original" = "$remote" || { echo 'Concurrent main change detected. Package remains available in artifact; no overwrite attempted.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research/round4_continuation docs/round4_continuation articles/drafts/round4_continuation
+          if ! git diff --cached --quiet; then
+            git commit -m 'research: save matched gap dossiers, claim tables, everyday applications and 20 article drafts'
+            git push origin HEAD:main
+          fi
+          mkdir -p round4-export
+          git rev-parse HEAD > round4-export/source_commit.txt
+      - name: Export available package even when a later commit step fails
+        if: always()
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,shutil
+          out=Path('round4-export');out.mkdir(exist_ok=True)
+          for src,dst in [('data/research/round4_continuation','data'),('docs/round4_continuation','docs'),('articles/drafts/round4_continuation','articles')]:
+              if Path(src).is_dir():shutil.copytree(src,out/dst,dirs_exist_ok=True)
+          if not (out/'data/report.json').exists():
+              (out/'incomplete.json').write_text(json.dumps({'schema_version':'1.0','status':'generation_did_not_reach_report','publication_ready':False}))
+          PY
+      - name: Preserve verified or explicitly incomplete output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-round4-continuation-drafts
+          path: round4-export/
+          if-no-files-found: error
+          retention-days: 14
