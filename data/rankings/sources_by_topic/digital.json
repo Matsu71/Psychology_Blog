@@ -1,11 +1,32 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "digital",
   "topics": [
     {
       "topic_id": "PSY-DIG-001",
       "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-001-SRC159",
+          "source_id": "SRC159",
+          "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
         {
           "edge_id": "EV-PSY-DIG-001-SRC160",
           "source_id": "SRC160",
@@ -24,8 +45,8 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
+          "priority_rank": 2,
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-DIG-001-SRC245",
@@ -45,8 +66,8 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 2
+          "priority_rank": 2,
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-DIG-001-SRC012",
@@ -67,7 +88,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 3
+          "display_position": 4
         }
       ]
     },
@@ -132,8 +153,8 @@
           "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
           "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "supports",
-          "limits_ja": "参加者の遵守と欠測に大きな制約。全員が同じ効果を得る、単なる画面時間削減で同じ結果になるとはしない。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。",
           "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -372,15 +393,15 @@
           "edge_id": "EV-PSY-DIG-010-SRC010",
           "source_id": "SRC010",
           "title": "Bedtime procrastination: introducing a new area of procrastination",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

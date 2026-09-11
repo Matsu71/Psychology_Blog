@@ -88,7 +88,9 @@
         "RB-39377163"
       ],
       "source_review_ids": [
-        "R3-C004"
+        "R3-C004",
+        "SC6-SRC038",
+        "SC6-SRC111"
       ]
     },
     {
@@ -180,11 +182,16 @@
       "priority": 1,
       "source_ids": [
         "SRC010",
-        "SRC266"
+        "SRC266",
+        "SRC272",
+        "SRC273"
       ],
       "caution_ja": "初期研究は自己報告の相関研究。自己管理の弱さだけを原因にしない。",
       "source_review_ids": [
-        "R5-0bf714065f18"
+        "R5-0bf714065f18",
+        "SC6-SRC010",
+        "SC6-SRC272",
+        "SC6-SRC273"
       ]
     },
     {

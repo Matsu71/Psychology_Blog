@@ -4,7 +4,7 @@
   "category_count": 28,
   "topic_count": 300,
   "new_topic_count": 100,
-  "source_count": 270,
+  "source_count": 273,
   "legacy_source_count": 35,
   "added_source_count": 71,
   "reviewed_research_count": 68,
@@ -42,7 +42,7 @@
       "brief_linked_count": 5,
       "round3_source_review_topic_count": 3,
       "source_unregistered_count": 0,
-      "source_review_topic_count": 3
+      "source_review_topic_count": 4
     },
     {
       "category_id": "addiction",
@@ -62,7 +62,7 @@
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 4,
       "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_review_topic_count": 6
     },
     {
       "category_id": "personality",
@@ -72,7 +72,7 @@
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
       "source_unregistered_count": 0,
-      "source_review_topic_count": 4
+      "source_review_topic_count": 5
     },
     {
       "category_id": "motivation",
@@ -102,7 +102,7 @@
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
       "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_review_topic_count": 6
     },
     {
       "category_id": "decisions",
@@ -326,8 +326,8 @@
   "round3_missing_with_targeted_abstract": 79,
   "round3_existing_with_targeted_abstract": 9,
   "round3_new_search_request_count": 510,
-  "selected_fulltext_checks_count": 11,
-  "evidence_edge_count": 494,
+  "selected_fulltext_checks_count": 20,
+  "evidence_edge_count": 498,
   "editorial_scored_topic_count": 50,
   "round3_remaining_unregistered": [
     "PSY-HAB-006",
@@ -361,13 +361,15 @@
     "PSY-LIF-005"
   ],
   "research_queue_count": 300,
-  "current_targeted_review_topic_count": 136,
-  "current_selected_fulltext_topic_count": 13,
-  "source_review_count": 166,
-  "abstract_review_count": 143,
+  "current_targeted_review_topic_count": 138,
+  "current_selected_fulltext_topic_count": 20,
+  "source_review_count": 185,
+  "abstract_review_count": 162,
   "bibliography_review_count": 23,
   "editorial_delivery_added_sources": 40,
   "editorial_delivery_review_count": 42,
   "current_source_unregistered_topic_ids": [],
-  "updated_on": "2026-09-11"
+  "updated_on": "2026-09-11",
+  "source_check_pass": "source-editorial-pass-20260911",
+  "source_check_pass_records": 19
 }

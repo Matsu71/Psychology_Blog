@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "money_consumption",
   "topics": [
     {
@@ -36,19 +36,17 @@
           "edge_id": "EV-PSY-MON-002-SRC169",
           "source_id": "SRC169",
           "title": "Less cash, more splash? A meta-analysis on the cashless effect",
-          "review_scope": "bibliography",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_evaluated",
-          "limits_ja": "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。",
-          "priority_score": 49,
+          "conclusion_direction": "mixed",
+          "limits_ja": "意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。",
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 1,
-            "reading_depth_0_to_4": 1
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
-          "caps": [
-            "bibliography_only_max_49"
-          ],
+          "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",

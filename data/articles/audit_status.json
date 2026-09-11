@@ -7,18 +7,54 @@
       "topic_ids": [
         "PSY-MOT-001"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "心理的介入の効果は、先延ばしの原因が感情であることや、時間管理より感情調整が優れることを直接示さない。",
-      "remaining_check_ja": "感情調整に関する理論・縦断・介入研究を別に確認し、原因と対処の証拠を分離する。現稿の介入メタ分析を原因の根拠へ読み替えない。"
+      "remaining_check_ja": "感情調整に関する理論・縦断・介入研究を別に確認し、原因と対処の証拠を分離する。現稿の介入メタ分析を原因の根拠へ読み替えない。",
+      "per_topic_resolution": {
+        "PSY-MOT-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-001",
+          "topic_id": "PSY-MOT-001",
+          "source_check_ids": [
+            "SC6-SRC266",
+            "SC6-SRC104"
+          ],
+          "action_ja": "理論と介入効果を分け、時間管理との優劣・唯一の原因という説明をしない。",
+          "remaining_scope_ja": "全個人の原因・技法の最適順位は未確定。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-002",
       "topic_ids": [
         "PSY-SLP-004"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "23人の男性の交差試験から、女性や疾患・服薬のある人を含む全員の安全時刻を導けない。100mgの無差は同等性の証明ではない。",
-      "remaining_check_ja": "試験の対象・除外基準・割付・解析・各指標の差と不確実性を全文で照合し、統合研究と比較する。"
+      "remaining_check_ja": "試験の対象・除外基準・割付・解析・各指標の差と不確実性を全文で照合し、統合研究と比較する。",
+      "per_topic_resolution": {
+        "PSY-SLP-004": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-002",
+          "topic_id": "PSY-SLP-004",
+          "source_check_ids": [
+            "SC6-SRC038",
+            "SC6-SRC111"
+          ],
+          "action_ja": "30割付23解析、朝の習慣量と追加量、100mg無差と同等性、対象・除外を反映。",
+          "remaining_scope_ja": "全性別・疾患、分割摂取、遺伝による個人予測は未確定。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-003",
@@ -26,27 +62,78 @@
         "PSY-DIG-004",
         "PSY-DIG-001"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "partially_addressed",
       "original_finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
-      "remaining_check_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。"
+      "remaining_check_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
+      "per_topic_resolution": {
+        "PSY-DIG-004": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-003",
+          "topic_id": "PSY-DIG-004",
+          "source_check_ids": [
+            "SC6-SRC159"
+          ],
+          "action_ja": "467承諾、266導入、119遵守、313三時点自己報告を分け、主要解析は完全ケース中心と説明。",
+          "remaining_scope_ja": "独立再解析未実施。全SNS・臨床治療へ一般化しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-004",
       "topic_ids": [
         "PSY-HAB-001"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "レビュー全体の20研究と形成期間を報告した4研究を分ける必要がある。各研究の平均・中央値・推定モデルは同一ではない。",
-      "remaining_check_ja": "期間の原表、各研究の対象・測定・欠測、リスク評価を照合する。『66日が正解』という見出しに変更しない。"
+      "remaining_check_ja": "期間の原表、各研究の対象・測定・欠測、リスク評価を照合する。『66日が正解』という見出しに変更しない。",
+      "per_topic_resolution": {
+        "PSY-HAB-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-004",
+          "topic_id": "PSY-HAB-001",
+          "source_check_ids": [
+            "SC6-SRC039"
+          ],
+          "action_ja": "20研究と期間4研究、66という95％漸近値の推定中央値を分離。平均106～154を万能範囲にしない。",
+          "remaining_scope_ja": "原論文側の日数定義・報告差は残る。万能日数を設定しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-005",
       "topic_ids": [
         "PSY-ATT-004"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "疲労・活力の改善は、作業成績の改善とは別である。",
-      "remaining_check_ja": "主要解析、課題別解析、異質性と信頼区間を確認する。休憩の固定分数を研究の結論として追加しない。"
+      "remaining_check_ja": "主要解析、課題別解析、異質性と信頼区間を確認する。休憩の固定分数を研究の結論として追加しない。",
+      "per_topic_resolution": {
+        "PSY-ATT-004": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-005",
+          "topic_id": "PSY-ATT-004",
+          "source_check_ids": [
+            "SC6-SRC054"
+          ],
+          "action_ja": "指標別の分母、推定値・CIを採用。不一致のp値を使わず、固定日程を推奨しない。",
+          "remaining_scope_ja": "原文p値の不一致は未修復。最適日程の因果効果は未確認。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-006",
@@ -62,18 +149,54 @@
       "topic_ids": [
         "PSY-NUT-003"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "テレビ視聴を扱う別レビューの不整合と、食事への注意を扱う2013年レビューを混同してはならない。現稿は結果の具体的な説明が不足する。",
-      "remaining_check_ja": "不整合のある論文を一意に特定し、該当する値・表・解析を照合する。別のレビューについては独立して方法と結果を確認し、効果の方向と適用範囲を追記する。"
+      "remaining_check_ja": "不整合のある論文を一意に特定し、該当する値・表・解析を照合する。別のレビューについては独立して方法と結果を確認し、効果の方向と適用範囲を追記する。",
+      "per_topic_resolution": {
+        "PSY-NUT-003": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-007",
+          "topic_id": "PSY-NUT-003",
+          "source_check_ids": [
+            "SC6-SRC149",
+            "SC6-SRC150",
+            "SC6-SRC271"
+          ],
+          "action_ja": "2013年と2025年のレビューを分け、不一致の定量結果を除外。2019年107人RCTの無効果を併記。",
+          "remaining_scope_ja": "元論文のCI・F表記は未解決。長期体重効果を保証しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-008",
       "topic_ids": [
         "PSY-MON-002"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "キャッシュレスの原稿は、結果の方向・大きさ・条件差を確認する前の構成稿である。",
-      "remaining_check_ja": "対象メタ分析の正式題名、収載研究、現金以外の手段、実支出と購入意図、年代、出版バイアスを読解し、結果部分を埋める。"
+      "remaining_check_ja": "対象メタ分析の正式題名、収載研究、現金以外の手段、実支出と購入意図、年代、出版バイアスを読解し、結果部分を埋める。",
+      "per_topic_resolution": {
+        "PSY-MON-002": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-008",
+          "topic_id": "PSY-MON-002",
+          "source_check_ids": [
+            "SC6-SRC169"
+          ],
+          "action_ja": "DOIでSRC169確定。71論文392効果量、実支出と意思額、gと％、異質性を反映。",
+          "remaining_scope_ja": "研究間の関連を個人への処方にせず、正式な確実性評価とはしない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-009",
@@ -91,9 +214,42 @@
         "PSY-PER-002",
         "PSY-GEN-001"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "集団の遺伝率、介入中の症状変化、性格特性の変化、本人と他者の評価は別の概念である。",
-      "remaining_check_ja": "測定法と解析モデルを確認し、各研究の対象を分ける。遺伝率を個人の変えられない割合にしない。"
+      "remaining_check_ja": "測定法と解析モデルを確認し、各研究の対象を分ける。遺伝率を個人の変えられない割合にしない。",
+      "per_topic_resolution": {
+        "PSY-PER-002": "addressed_in_current_manuscript",
+        "PSY-GEN-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-010",
+          "topic_id": "PSY-PER-002",
+          "source_check_ids": [
+            "SC6-SRC046",
+            "SC6-SRC047"
+          ],
+          "action_ja": "症状と特性、本人と他者、同意者と開始者、比較期間を分離。",
+          "remaining_scope_ja": "全介入の元データ再解析未実施。自由な人格改造を保証しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        },
+        {
+          "audit_id": "R4-QA-010",
+          "topic_id": "PSY-GEN-001",
+          "source_check_ids": [
+            "SC6-SRC004",
+            "SC6-SRC036",
+            "SC6-SRC037"
+          ],
+          "action_ja": "個人と集団、測定法、本人と他者を分離。遺伝率を不変割合にしない。",
+          "remaining_scope_ja": "遺伝モデルの独立再解析未実施。育児・環境の無意味さは主張しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-011",
@@ -169,5 +325,7 @@
       "remaining_check_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。"
     }
   ],
-  "independent_scientific_review": false
+  "independent_scientific_review": false,
+  "updated_on": "2026-09-11",
+  "resolution_scope_ja": "旧原稿の具体的な問題への修正。元研究の未解決点の修復、網羅的学術レビュー、独立査読ではない。"
 }

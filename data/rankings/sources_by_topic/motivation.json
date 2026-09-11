@@ -1,11 +1,32 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "motivation",
   "topics": [
     {
       "topic_id": "PSY-MOT-001",
       "sources": [
+        {
+          "edge_id": "EV-PSY-MOT-001-SRC104",
+          "source_id": "SRC104",
+          "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "I²61.14％。比較条件制限、少ない長期追跡、介入要素の重なり、自己報告。介入効果を原因の証明にしない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
         {
           "edge_id": "EV-PSY-MOT-001-SRC266",
           "source_id": "SRC266",
@@ -13,7 +34,7 @@
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+          "limits_ja": "唯一の原因、全個人の機序、時間管理との優劣を確定する介入比較ではない。",
           "priority_score": 75.0,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -24,43 +45,22 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
+          "priority_rank": 2,
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-MOT-001-SRC010",
           "source_id": "SRC010",
           "title": "Bedtime procrastination: introducing a new area of procrastination",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 2
-        },
-        {
-          "edge_id": "EV-PSY-MOT-001-SRC104",
-          "source_id": "SRC104",
-          "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -78,15 +78,15 @@
           "edge_id": "EV-PSY-MOT-002-SRC104",
           "source_id": "SRC104",
           "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -104,15 +104,15 @@
           "edge_id": "EV-PSY-MOT-003-SRC047",
           "source_id": "SRC047",
           "title": "Changing personality traits with the help of a digital personality change intervention.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -245,15 +245,15 @@
           "edge_id": "EV-PSY-MOT-006-SRC104",
           "source_id": "SRC104",
           "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

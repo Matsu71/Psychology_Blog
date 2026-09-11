@@ -15,12 +15,14 @@
       "source_ids": [
         "SRC012",
         "SRC160",
-        "SRC245"
+        "SRC245",
+        "SRC159"
       ],
       "caution_ja": "2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。",
       "source_review_ids": [
         "R3-C053",
-        "R5-c3b567a85fb6"
+        "R5-c3b567a85fb6",
+        "SC6-SRC159"
       ]
     },
     {
@@ -78,7 +80,8 @@
       "source_review_ids": [
         "R3-C051",
         "R3-C052",
-        "R3-C053"
+        "R3-C053",
+        "SC6-SRC159"
       ]
     },
     {

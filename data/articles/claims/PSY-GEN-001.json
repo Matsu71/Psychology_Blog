@@ -1,15 +1,29 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-GEN-001",
-  "title_ja": "性格はどこまで遺伝する？——『40％』は、あなたの変えられない割合ではない",
+  "title_ja": "性格は何％が遺伝？『あなたの40％が決まる』ではない理由",
   "category_id": "genetics",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-GEN-001.json",
+  "authoring_input_sha256": "abea21abedef11d8632837eb38860ce0cd7223465f9ab7f744848f6edff6a385",
   "source_resolution": {
-    "S1": {
+    "SRC004": {
       "selector": {
-        "key": "S1",
-        "pmid": "25961374"
+        "source_id": "SRC004",
+        "doi": null
+      },
+      "source_ids": [
+        "SRC004"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC036": {
+      "selector": {
+        "source_id": "SRC036",
+        "doi": "10.1037/bul0000017"
       },
       "source_ids": [
         "SRC036"
@@ -17,10 +31,10 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC037": {
       "selector": {
-        "key": "S2",
-        "pmid": "40146588"
+        "source_id": "SRC037",
+        "doi": "10.1037/pspp0000550"
       },
       "source_ids": [
         "SRC037"
@@ -31,56 +45,75 @@
   },
   "claims": [
     {
-      "id": "PSY-GEN-001-C01",
-      "claim_ja": "2015年の統合研究は性格特性の遺伝率を平均約40％と推定した。",
-      "population_and_scope_ja": "収載した行動遺伝研究の集団・測定・モデルに基づく平均。",
-      "not_supported_ja": "個人の性格の40％が固定され、変えられないという意味。",
+      "id": "PSY-GEN-001-R6-C01",
+      "claim_ja": "遺伝率は集団内の特徴のばらつきについての推定で、個人の成分割合ではない。",
+      "population_and_scope_ja": "対象集団と環境に依存する統計的定義。",
+      "not_supported_ja": "遺伝率から個人の不変性や具体的遺伝子は分からない。",
       "source_keys": [
-        "S1"
+        "SRC004"
+      ],
+      "source_ids": [
+        "SRC004"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC004"
+      ],
+      "source_locators": {
+        "SRC004": [
+          "What is heritability? Definition and interpretation limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-GEN-001-R6-C02",
+      "claim_ja": "2015年の統合では平均約40％、双生児約47％、家族・養子約22％だった。",
+      "population_and_scope_ja": "自己報告中心の性格研究、採用62独立効果量、10万人超。",
+      "not_supported_ja": "全性格・全文化・全測定の固定値ではなく、残余を育児だけとしない。",
+      "source_keys": [
+        "SRC036"
       ],
       "source_ids": [
         "SRC036"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC036"
+      ],
+      "source_locators": {
+        "SRC036": [
+          "Abstract: selection and method differences"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-GEN-001-C02",
-      "claim_ja": "研究設計や性格の測定方法によって遺伝率の推定は変わり得る。",
-      "population_and_scope_ja": "2015年の設計差と2025年の複数評定を用いた研究。",
-      "not_supported_ja": "遺伝率はどの集団でも永久に同じ数字という説明。",
+      "id": "PSY-GEN-001-R6-C03",
+      "claim_ja": "複数評価者を用いる家族研究では、測定法が推定に関わる。",
+      "population_and_scope_ja": "2025年の本人・他者評価を組み合わせた研究。今回の確認は抄録。",
+      "not_supported_ja": "すべての方法の前提が正しいと確認したわけではない。親や環境の無意味さを示すものではない。",
       "source_keys": [
-        "S1",
-        "S2"
+        "SRC037"
       ],
       "source_ids": [
-        "SRC036",
         "SRC037"
       ],
       "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-GEN-001-C03",
-      "claim_ja": "遺伝率の推定から、個人の性格変化の可能性や保護者の責任を直接判断できない。",
-      "population_and_scope_ja": "集団の分散指標と個人への介入を区別した解釈。",
-      "not_supported_ja": "遺伝率が高い特徴は環境で絶対に変えられないという断定。",
-      "source_keys": [
-        "S1"
+      "source_check_ids": [
+        "SC6-SRC037"
       ],
-      "source_ids": [
-        "SRC036"
-      ],
-      "source_resolution_complete": true,
+      "source_locators": {
+        "SRC037": [
+          "Author institutional repository abstract; PubMed PMID40146588"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -88,29 +121,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "遺伝率の数字を見たら、対象集団と測定した性格特性、研究方法を確認します。",
-      "家族を理解する際は数字をレッテルとして使わず、具体的にどの行動がどんな場面で似ているかを見ます。",
-      "変えたい行動がある場合は、遺伝率の数字から諦めるのではなく、変化や支援を直接調べた研究を別に検討します。"
+      "遺伝の数字を読むときは、どの集団・特徴・測り方の数字か確認する。",
+      "家族の似かたと、遺伝率の推定を同じ意味にしない。",
+      "変えられない割合を計算するより、自分が困る場面と支えになる条件を分ける。"
     ],
-    "safety": "遺伝情報や性格検査から、本人の価値、適職、子どもの将来を断定するために使いません。"
+    "safety": "性格の遺伝率から、個人の適職、能力、将来や人の価値を判断しないでください。市販の遺伝子検査の予測精度を保証する数字でもありません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-010",
-      "severity": "major",
-      "finding_ja": "集団の遺伝率、介入中の症状変化、性格特性の変化、本人と他者の評価は別の概念である。",
-      "next_action_ja": "測定法と解析モデルを確認し、各研究の対象を分ける。遺伝率を個人の変えられない割合にしない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "個人割合との混同を修正。遺伝モデル・測定の誤差と対象集団の詳細確認は必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

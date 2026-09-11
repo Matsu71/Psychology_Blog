@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "policy_version": "work-priority-1.0",
+  "policy_version": "work-priority-1.1",
   "normal_json_warning_bytes": 1048576,
   "candidate_shard_target_records": 100,
   "repo_data_warning_bytes": 104857600,

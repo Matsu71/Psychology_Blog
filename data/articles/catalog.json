@@ -31,13 +31,18 @@
     {
       "topic_id": "PSY-SLP-004",
       "title_ja": "コーヒーは何時まで？カフェインと睡眠の個人差",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-SLP-004.md",
       "claim_dossier_path": "data/articles/claims/PSY-SLP-004.json",
-      "claim_count": 3,
+      "claim_count": 4,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "d4c22104be38ab9b7971294a009839f4496ca98fb1b48419d814fcf8cc60fe27",
-      "publication_ready": false
+      "manuscript_sha256": "fc811d43c0f1bde1ecdbfc86a75f65ca5cbc7df63a9b347da683dbd62d702664",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC038",
+        "SC6-SRC111"
+      ]
     },
     {
       "topic_id": "PSY-SLP-005",
@@ -77,13 +82,19 @@
     {
       "topic_id": "PSY-SLP-009",
       "title_ja": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-SLP-009.md",
       "claim_dossier_path": "data/articles/claims/PSY-SLP-009.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "a5ff1ebbf71ccd8bcf46ecbe5f5bc28c259882759be883fd593415f8297f2622",
-      "publication_ready": false
+      "manuscript_sha256": "417496eae42d3417b09890943d0b71e29659dbca43b087c72a86f4f26783f1d8",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC010",
+        "SC6-SRC272",
+        "SC6-SRC273"
+      ]
     },
     {
       "topic_id": "PSY-SLP-010",
@@ -96,13 +107,19 @@
     {
       "topic_id": "PSY-GEN-001",
       "title_ja": "性格には遺伝がどれくらい影響する？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-GEN-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-GEN-001.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "5b194ea44de836146f5ab3119f52b5baca5764787c7cb5e4d2889f7fb364072c",
-      "publication_ready": false
+      "manuscript_sha256": "989380733c157f86696acd9ffa25d0d45daa291c1f4760b4db4f1bdcf9d8a9fa",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC004",
+        "SC6-SRC036",
+        "SC6-SRC037"
+      ]
     },
     {
       "topic_id": "PSY-GEN-002",
@@ -262,13 +279,17 @@
     {
       "topic_id": "PSY-HAB-001",
       "title_ja": "習慣は21日で身につく？必要な期間の個人差",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-HAB-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-HAB-001.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "5bb142187217a76031bc7e3b0c99f49b1bbf73648f7748128157c44e9801a5fb",
-      "publication_ready": false
+      "manuscript_sha256": "787267a04e38ab916e3dde336a1af205fbb25edb092d8ab6f999da8fd0cdfe78",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC039"
+      ]
     },
     {
       "topic_id": "PSY-HAB-002",
@@ -356,13 +377,18 @@
     {
       "topic_id": "PSY-PER-002",
       "title_ja": "大人になってから性格は変わる？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-PER-002.md",
       "claim_dossier_path": "data/articles/claims/PSY-PER-002.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "216efe499bb3e32c1ba6bfa90bb15ca14f23a8244177c3224b55e5499d713732",
-      "publication_ready": false
+      "manuscript_sha256": "c987f07db0cb31d732568cfd719ddf4cad23d715bf0761425d7819a12782a776",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC046",
+        "SC6-SRC047"
+      ]
     },
     {
       "topic_id": "PSY-PER-003",
@@ -431,13 +457,18 @@
     {
       "topic_id": "PSY-MOT-001",
       "title_ja": "先延ばしは時間管理の問題か、感情の問題か？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-MOT-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-MOT-001.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "147a81454972224a6efe8f20098e60374dc9a4b790bae94c369e19aa61a2f1d6",
-      "publication_ready": false
+      "manuscript_sha256": "0dba6b31d56d54a4559675e82d040a018cfbc8ce459cc9d514570f1267be569e",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC266",
+        "SC6-SRC104"
+      ]
     },
     {
       "topic_id": "PSY-MOT-002",
@@ -627,13 +658,17 @@
     {
       "topic_id": "PSY-ATT-004",
       "title_ja": "短い休憩で集中力は戻る？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-ATT-004.md",
       "claim_dossier_path": "data/articles/claims/PSY-ATT-004.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "d71d0da63243042e463ea87525c15e47e18da104fa903debf73b06fa41db17c2",
-      "publication_ready": false
+      "manuscript_sha256": "813b754faf81ac3f130068edd49ab0aa7182329e510f8d19107cb420e8072139",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC054"
+      ]
     },
     {
       "topic_id": "PSY-ATT-005",
@@ -1274,13 +1309,18 @@
     {
       "topic_id": "PSY-NUT-003",
       "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
-      "state": "manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-NUT-003.md",
       "claim_dossier_path": "data/articles/claims/PSY-NUT-003.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "dd84bdcd08e5b2e0c6c0e31689838e064afc243fe03e485fbaa01720981922ba",
-      "publication_ready": false
+      "manuscript_sha256": "92f4c539982184272123a20e059af57789f9b6c229897b811a5921c121f01faa",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC149",
+        "SC6-SRC271"
+      ]
     },
     {
       "topic_id": "PSY-NUT-004",
@@ -1528,13 +1568,17 @@
     {
       "topic_id": "PSY-DIG-004",
       "title_ja": "デジタルデトックスは気分や生活を改善する？",
-      "state": "manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-DIG-004.md",
       "claim_dossier_path": "data/articles/claims/PSY-DIG-004.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "0d1c2d0405ca22829cce6b4536e2ba2dcf78e23048bdb4e2cc7aa57ad475c89d",
-      "publication_ready": false
+      "manuscript_sha256": "2cc8e9d78b9dea6ffb2902e3e588962da09a5ce965a0456254ea354977fe456b",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC159"
+      ]
     },
     {
       "topic_id": "PSY-DIG-005",
@@ -1796,15 +1840,17 @@
     {
       "topic_id": "PSY-MON-002",
       "title_ja": "キャッシュレスだと現金より使いすぎる？",
-      "state": "manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-MON-002.md",
       "claim_dossier_path": "data/articles/claims/PSY-MON-002.json",
       "claim_count": 3,
-      "unresolved_source_keys": [
-        "cashless_meta"
-      ],
-      "manuscript_sha256": "222c06c06a47489ea4dc42b2a93bfd3be4fe08c4e2e7409bae2983177939c6c6",
-      "publication_ready": false
+      "unresolved_source_keys": [],
+      "manuscript_sha256": "53b0a03c0a836cb2619e8f27647752886b09d850fdbe7e28f1a58685ae7e3a5b",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC6-SRC169"
+      ]
     },
     {
       "topic_id": "PSY-MON-003",

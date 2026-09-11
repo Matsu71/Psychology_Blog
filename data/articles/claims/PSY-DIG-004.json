@@ -1,20 +1,18 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-DIG-004",
-  "title_ja": "デジタルデトックスは効く？改善した人の数だけでなく、続けられたかを見る",
+  "title_ja": "デジタルデトックスは効く？『スマホ禁止』では見えない研究の条件",
   "category_id": "digital",
   "created_on": "2026-09-11",
-  "authoring_revision": "preserved_round4_draft",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-DIG-004.json",
+  "authoring_input_sha256": "09e9bcd70f03e4dd81ffee3863434a8d33831ca2b241821361578698ee49ad13",
   "source_resolution": {
-    "internet_trial": {
+    "SRC159": {
       "selector": {
-        "key": "internet_trial",
-        "doi": "10.1093/pnasnexus/pgaf017",
-        "expected_title_words": [
-          "blocking",
-          "mobile",
-          "internet"
-        ]
+        "source_id": "SRC159",
+        "doi": "10.1093/pnasnexus/pgaf017"
       },
       "source_ids": [
         "SRC159"
@@ -25,84 +23,118 @@
   },
   "claims": [
     {
-      "id": "PSY-DIG-004-C01",
-      "claim_ja": "スマートフォンのモバイルインターネットを遮断する試験では、注意や心理的な指標の改善が報告された。",
-      "population_and_scope_ja": "指定した機能を短期間遮断する介入。SNSだけの削除や全機器の禁止とは違う。",
-      "not_supported_ja": "すべてのデジタルデトックスに同じ効果があるという主張。",
+      "id": "PSY-DIG-004-R6-C01",
+      "claim_ja": "2週間のスマホのネット遮断で、心理指標と持続的注意に改善が報告された。",
+      "population_and_scope_ja": "無作為割付による即時介入対待機。通話・SMS・他端末は利用可能。",
+      "not_supported_ja": "SNSだけの効果、完全な端末放棄、臨床治療との直接比較ではない。",
       "source_keys": [
-        "internet_trial"
+        "SRC159"
       ],
       "source_ids": [
         "SRC159"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC159"
+      ],
+      "source_locators": {
+        "SRC159": [
+          "Results: Study design and compliance; ITT and TOT definitions",
+          "Primary analyses and attrition",
+          "Discussion: demand effects, selection and follow-up"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DIG-004-C02",
-      "claim_ja": "事前に定めた遵守基準を満たした参加者は25.5％だったという点も、実行可能性の評価に必要である。",
-      "population_and_scope_ja": "前回の本文指定箇所確認メモに基づく。分母、遵守基準、解析集団を最終照合する。",
-      "not_supported_ja": "全参加者が問題なく継続できた、遵守者の成績を全員の成績とすること。",
+      "id": "PSY-DIG-004-R6-C02",
+      "claim_ja": "467人中266人がアプリを導入し、119人が10/14日以上の遮断基準を満たした。",
+      "population_and_scope_ja": "本文Resultsの事前に定めた客観ログによる遵守基準。119/467=25.5％。",
+      "not_supported_ja": "25.5％は治療反応率ではない。アプリ導入と遵守と追跡完了は別。",
       "source_keys": [
-        "internet_trial"
+        "SRC159"
       ],
       "source_ids": [
         "SRC159"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC159"
+      ],
+      "source_locators": {
+        "SRC159": [
+          "Results: Study design and compliance; ITT and TOT definitions",
+          "Primary analyses and attrition",
+          "Discussion: demand effects, selection and follow-up"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DIG-004-C03",
-      "claim_ja": "介入の平均的な効果と、仕事や生活を含めた個人の最適な使い方は別の問いである。",
-      "population_and_scope_ja": "対象・期間・機能制限の範囲に限った推論。",
-      "not_supported_ja": "必要な連絡や支援まで断つことが健康に良いという推奨。",
+      "id": "PSY-DIG-004-R6-C03",
+      "claim_ja": "主要解析は遵守者だけに絞らないが、3時点のデータがそろった参加者中心だった。",
+      "population_and_scope_ja": "著者がITTと呼ぶ解析の実際の欠測取扱い。自己報告3時点完了313人。",
+      "not_supported_ja": "全アウトカムが313人、全467人を完全に追跡した解析とはしない。",
       "source_keys": [
-        "internet_trial"
+        "SRC159"
       ],
       "source_ids": [
         "SRC159"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC159"
+      ],
+      "source_locators": {
+        "SRC159": [
+          "Results: Study design and compliance; ITT and TOT definitions",
+          "Primary analyses and attrition",
+          "Discussion: demand effects, selection and follow-up"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
   "unresolved_source_keys": [],
   "application": {
-    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "必要な通信と、見直したい機能を分ける。",
-      "変更の負担と得られた時間の両方を振り返る。",
-      "仕事や支援へのアクセスが失われる制限は避ける。"
+      "減らしたいのは利用時間、通知による中断、夜更かしのどれかを一つ選ぶ。",
+      "必要な連絡や認証が使えることを確認してから、負担の小さい範囲を試す。",
+      "使わなかった時間に何をしたか、集中や気分はどうだったかを振り返る。"
     ],
-    "safety": "緊急連絡や必要な支援を断たない。研究で扱った制限と個人への提案を混同しない。"
+    "safety": "通話や医療・生活支援へのアクセスを確保してください。利用制限で不安や生活支障が増える場合は、制限の継続を優先しません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-003",
-      "severity": "major",
-      "finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
-      "next_action_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
   "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC159",
+      "issue": {
+        "id": "SC6-DIG-ITT",
+        "type": "interpretation_caution",
+        "status": "addressed_in_current_manuscript",
+        "detail_ja": "著者のITTという名称を全467人の完全追跡としない。313人を全注意課題の分母にしない。"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

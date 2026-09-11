@@ -50,12 +50,12 @@
       "source_id": "SRC159",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C052",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC159",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "スマホのインターネットを2週間遮断し、心理指標や持続注意の改善を報告。電話・SMSや別端末のネット利用は維持された。",
-      "conclusion_direction": "supports",
-      "limits_ja": "参加者の遵守と欠測に大きな制約。全員が同じ効果を得る、単なる画面時間削減で同じ結果になるとはしない。",
+      "finding_scope_ja": "467人を即時遮断と待機へ割付。266人導入、119人が10/14日以上の遮断基準を達成。3時点自己報告完了313人。主要解析は遵守者に限定しないが完全ケース中心。心理指標と持続的注意に改善を報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -244,6 +244,20 @@
       "finding_scope_ja": "成人のサイバーストーキング・ハラスメントと精神的健康を扱う43研究を整理し、多くの研究で不安、抑うつ、苦痛などとの関連が報告されたことを示しています。",
       "conclusion_direction": "mixed",
       "limits_ja": "主に関連を扱う研究群で、全被害者が同じ症状を持つとは言えません。ブロックや記録保存の手順の治療効果を比較したレビューでもなく、被害者の責任にしません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-001-SRC159",
+      "topic_id": "PSY-DIG-001",
+      "source_id": "SRC159",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC159",
+      "finding_scope_ja": "467人を即時遮断と待機へ割付。266人導入、119人が10/14日以上の遮断基準を達成。3時点自己報告完了313人。主要解析は遵守者に限定しないが完全ケース中心。心理指標と持続的注意に改善を報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

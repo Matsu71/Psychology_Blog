@@ -54,14 +54,14 @@
       "source_id": "SRC054",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "anchor_question_checked",
-      "source_review_id": null,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC054",
       "legacy_brief_ids": [
         "RB-36044424"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "19記録22独立標本N2335。活力d.36、疲労軽減d.35。成績15標本N1132 d.16、CI−.04～.37。課題・時間で条件差。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "dを％改善にしない。休憩時間の研究間回帰は最適分数の因果検証でない。本文と表のp値は一致せず、記事は一致する推定値とCIを使用。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

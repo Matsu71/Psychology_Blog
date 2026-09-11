@@ -1,29 +1,21 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-HAB-001",
-  "title_ja": "習慣は21日で身につく？——『何日で完成』という約束を疑う",
+  "title_ja": "習慣は21日で身につく？『66日なら完成』でもない理由",
   "category_id": "habits",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-HAB-001.json",
+  "authoring_input_sha256": "6f11c7f1cd9624df48706af8dff8af14d7e7077ecfec527d09d5696a9ca2ec7c",
   "source_resolution": {
-    "S1": {
+    "SRC039": {
       "selector": {
-        "key": "S1",
-        "pmid": "39685110"
+        "source_id": "SRC039",
+        "doi": "10.3390/healthcare12232488"
       },
       "source_ids": [
         "SRC039"
-      ],
-      "resolution_method": "exact_identifier",
-      "claim_support_verified_by_compiler": false
-    },
-    "S2": {
-      "selector": {
-        "key": "S2",
-        "doi": "10.1002/ejsp.674"
-      },
-      "source_ids": [
-        "SRC009"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -31,54 +23,81 @@
   },
   "claims": [
     {
-      "id": "PSY-HAB-001-C01",
-      "claim_ja": "2024年のレビューは20研究を扱うが、形成期間を報告した研究は4件だった。",
-      "population_and_scope_ja": "健康行動に関する収載研究。期間の情報がある研究と全収載研究を分離。",
-      "not_supported_ja": "20研究すべてが同じ形成期間を実証したという説明。",
+      "id": "PSY-HAB-001-R6-C01",
+      "claim_ja": "20研究のレビューのうち、習慣形成の期間を直接報告したのは4研究だった。",
+      "population_and_scope_ja": "健康行動のレビュー。習慣スコアの変化と、期間は別に整理。",
+      "not_supported_ja": "20研究全部で同じ完成日数が確かめられたわけではない。",
       "source_keys": [
-        "S1"
+        "SRC039"
       ],
       "source_ids": [
         "SRC039"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC039"
+      ],
+      "source_locators": {
+        "SRC039": [
+          "2.3 Eligibility and outcome definitions",
+          "3.2 Study characteristics; 3.3 Time to reach habit formation",
+          "4 Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-HAB-001-C02",
-      "claim_ja": "研究間で形成期間は異なり、報告された平均と中央値も同一ではない。",
-      "population_and_scope_ja": "報告中央値59～66日、平均106～154日という研究ごとの要約。",
-      "not_supported_ja": "個人が66日で必ず習慣を完成させるという期限。",
+      "id": "PSY-HAB-001-R6-C02",
+      "claim_ja": "66日は特定の研究の自動性曲線に基づく推定期間の中央値である。",
+      "population_and_scope_ja": "レビューが引用するLally研究の95％漸近値への到達推定。",
+      "not_supported_ja": "全員の完成期限、実測された一律の神経変化、医学的な推奨値ではない。",
       "source_keys": [
-        "S1"
+        "SRC039"
       ],
       "source_ids": [
         "SRC039"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC039"
+      ],
+      "source_locators": {
+        "SRC039": [
+          "2.3 Eligibility and outcome definitions",
+          "3.2 Study characteristics; 3.3 Time to reach habit formation",
+          "4 Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-HAB-001-C03",
-      "claim_ja": "反復の回数と、本人が感じる自動性は区別して扱う必要がある。",
-      "population_and_scope_ja": "日常行動と自動性の追跡研究。",
-      "not_supported_ja": "記録が途切れると脳内の習慣が必ずリセットされること。",
+      "id": "PSY-HAB-001-R6-C03",
+      "claim_ja": "研究で期間の測り方が異なり、日数のメタ分析は行われていない。",
+      "population_and_scope_ja": "レビュー本文の期間報告と、異質性についての説明。",
+      "not_supported_ja": "異なる平均と中央値を合算して唯一の習慣形成日数を出せない。",
       "source_keys": [
-        "S2"
+        "SRC039"
       ],
       "source_ids": [
-        "SRC009"
+        "SRC039"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC039"
+      ],
+      "source_locators": {
+        "SRC039": [
+          "2.3 Eligibility and outcome definitions",
+          "3.2 Study characteristics; 3.3 Time to reach habit formation",
+          "4 Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -86,29 +105,36 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "日数だけで自己評価せず、続けたい行動の負担と、実行できる機会を確認します。",
-      "『実行したか』と『どのくらい意識的な努力が必要だったか』を別々に振り返ります。",
-      "中断した場合も研究上の万能な失敗基準は置かず、再開しやすい条件を考えます。"
+      "日数だけでなく、始めるときの迷いや必要な準備を振り返る。",
+      "忙しい日にも実行できる場面と行動を具体化する。",
+      "一律の完成期限を設けず、負担と継続のしやすさを見て調整する。"
     ],
-    "safety": "期間の数値は研究の記述であり、全員への約束ではありません。健康上無理のある運動や食事を、習慣化のために続けることは勧めません。"
+    "safety": "つらさを我慢して連続記録を守ることを優先しません。食事・睡眠・運動に関する行動は、無理な制限や痛みを伴う自己実験にしないでください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-004",
-      "severity": "major",
-      "finding_ja": "レビュー全体の20研究と形成期間を報告した4研究を分ける必要がある。各研究の平均・中央値・推定モデルは同一ではない。",
-      "next_action_ja": "期間の原表、各研究の対象・測定・欠測、リスク評価を照合する。『66日が正解』という見出しに変更しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "平均・中央値・研究数の混同を修正。元の期間表と各研究の測定・欠測の最終照合は必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC039",
+      "issue": {
+        "id": "SC6-HAB-DURATION",
+        "type": "reporting_scope_caveat",
+        "status": "excluded_from_current_numeric_claims",
+        "detail_ja": "抄録の平均106～154日を全研究の平均範囲として反復しない。本文3.3には91日があり測定も異なる。"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-MOT-001",
-  "title_ja": "先延ばしは怠けだけではない——時間の問題と、気分の問題を分けて考える",
+  "title_ja": "先延ばしは時間管理の問題？『いま嫌な気分を避けたい』を分けて考える",
   "category_id": "motivation",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-MOT-001.json",
+  "authoring_input_sha256": "9ecaf735703dd80cdb7263a853cf75c975d4f5963f6b31659332959a695c8753",
   "source_resolution": {
-    "S1": {
+    "SRC266": {
       "selector": {
-        "key": "S1",
+        "source_id": "SRC266",
         "doi": "10.1111/spc3.12011"
       },
       "source_ids": [
@@ -17,10 +20,10 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC104": {
       "selector": {
-        "key": "S2",
-        "pmid": "30214421"
+        "source_id": "SRC104",
+        "doi": "10.3389/fpsyg.2018.01588"
       },
       "source_ids": [
         "SRC104"
@@ -31,56 +34,79 @@
   },
   "claims": [
     {
-      "id": "PSY-MOT-001-C01",
-      "claim_ja": "短期的な気分の調整を優先することは、先延ばしを説明する有力な理論の一つである。",
-      "population_and_scope_ja": "理論レビューによる説明。すべての個人・課題への原因認定ではない。",
-      "not_supported_ja": "先延ばしは必ず感情だけが原因であり、時間管理は無意味だという断定。",
+      "id": "PSY-MOT-001-R6-C01",
+      "claim_ja": "研究上の先延ばしは、遅延の不利益を予想しながら意図した行動を自発的に遅らせることを指す。",
+      "population_and_scope_ja": "レビューが採用する概念。戦略的な延期や外的制約とは区別。",
+      "not_supported_ja": "すべての遅延や忙しさを心理的欠陥・診断としない。",
       "source_keys": [
-        "S1"
+        "SRC104"
+      ],
+      "source_ids": [
+        "SRC104"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC104"
+      ],
+      "source_locators": {
+        "SRC104": [
+          "Methods: eligibility, non-active comparators, protocol deviations",
+          "Results: primary and subgroup analyses",
+          "Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-001-R6-C02",
+      "claim_ja": "短期の気分調整を優先するという理論的説明がある。",
+      "population_and_scope_ja": "2013年の理論レビュー。嫌悪的課題、現在と将来の自己の関係。",
+      "not_supported_ja": "先延ばしの全例の唯一の因果説明ではない。",
+      "source_keys": [
+        "SRC266"
       ],
       "source_ids": [
         "SRC266"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC266"
+      ],
+      "source_locators": {
+        "SRC266": [
+          "Abstract"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-MOT-001-C02",
-      "claim_ja": "心理的介入の無作為化試験を統合すると、先延ばしに小さな平均的改善が認められた。",
-      "population_and_scope_ja": "2018年の12試験・718人。主に自己報告の改善。",
-      "not_supported_ja": "特定の生活上の工夫の効果、長期の仕事の成果、原因の一意な証明。",
+      "id": "PSY-MOT-001-R6-C03",
+      "claim_ja": "心理的介入の統合は、小さな平均改善と大きな研究間差を報告した。",
+      "population_and_scope_ja": "12研究718人、非活動的対照、主に自己報告。",
+      "not_supported_ja": "特定技法単独の効果や時間管理との優劣を直接示さない。",
       "source_keys": [
-        "S2"
+        "SRC104"
       ],
       "source_ids": [
         "SRC104"
       ],
       "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-MOT-001-C03",
-      "claim_ja": "原因に関する説明と、対処による改善の証拠を分けて扱う必要がある。",
-      "population_and_scope_ja": "S1とS2の研究目的・方法の違いに関する解釈。",
-      "not_supported_ja": "異なる介入同士の優劣を直接比較したという主張。",
-      "source_keys": [
-        "S1",
-        "S2"
+      "source_check_ids": [
+        "SC6-SRC104"
       ],
-      "source_ids": [
-        "SRC266",
-        "SRC104"
-      ],
-      "source_resolution_complete": true,
+      "source_locators": {
+        "SRC104": [
+          "Methods: eligibility, non-active comparators, protocol deviations",
+          "Results: primary and subgroup analyses",
+          "Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -88,29 +114,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "先延ばしした作業を一つ選び、時間不足・工程の曖昧さ・不快な気分のどこで止まったか書き分けます。",
-      "『全部終える』より前に、最初に実行できる小さな工程を具体化します。これは編集上の提案であり、万人への検証済み処方ではありません。",
-      "生活の支障が続く場合は、性格の問題と決めつけず、仕事量や睡眠、気分の状態も含めて相談します。"
+      "先延ばししている作業の『最初に何をするか』を具体化する。",
+      "課題への不安・退屈と、時間不足・疲れを分けて振り返る。",
+      "自分で調整できない仕事量や条件は、相談や環境調整の課題として扱う。"
     ],
-    "safety": "強い落ち込みや不安、注意の困難を、気合いや簡単な工夫だけで解決すべき問題として扱いません。"
+    "safety": "生活への支障が強い場合は、一つの作業テクニックだけで解決しようとしないでください。睡眠や気分の不調など、別の支援が必要なこともあります。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-001",
-      "severity": "major",
-      "finding_ja": "心理的介入の効果は、先延ばしの原因が感情であることや、時間管理より感情調整が優れることを直接示さない。",
-      "next_action_ja": "感情調整に関する理論・縦断・介入研究を別に確認し、原因と対処の証拠を分離する。現稿の介入メタ分析を原因の根拠へ読み替えない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "理論と介入効果は分離して改稿済み。個別の主張と全文・追試の照合、独立した点検は未完了。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

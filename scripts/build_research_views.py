@@ -6,7 +6,7 @@ from pathlib import Path
 from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'work-priority-1.0'
+VERSION = 'work-priority-1.1'
 DATE = '2026-09-11'
 
 
@@ -35,6 +35,7 @@ def priority(edge: dict, assessment: dict, source: dict) -> dict:
     notes = assessment.get('integrity_notices', [])
     pending_correction = any('erratum in' in x.get('type', '').lower() for x in notes)
     suspected_retraction = any('retract' in x.get('type', '').lower() and 'preprint' not in x.get('type', '').lower() for x in notes)
+    open_reporting = any(x.get('status') == 'open_original_paper_check' for x in assessment.get('reporting_issues', []))
     excluded = source.get('record_role') == 'correction_notice' or suspected_retraction
     score = None
     caps = []
@@ -46,13 +47,16 @@ def priority(edge: dict, assessment: dict, source: dict) -> dict:
         if pending_correction:
             score = min(score, 65)
             caps.append('unresolved_indexed_correction_max_65')
+        if open_reporting:
+            score = min(score, 65)
+            caps.append('unresolved_reporting_issue_max_65')
         if edge['relation_role'] == 'context_only':
             score = min(score, 55)
             caps.append('background_only_max_55')
     return {'priority_score': score, 'components': {'theme_relevance_1_to_5': fit,
             'method_signals_0_to_4': method, 'reading_depth_0_to_4': depth},
             'caps': caps, 'excluded_from_evidence_priority': excluded,
-            'integrity_requires_followup': pending_correction or suspected_retraction,
+            'integrity_requires_followup': pending_correction or suspected_retraction or open_reporting,
             'score_interpretation': 'reading_and_research_priority_not_probability_of_truth'}
 
 
@@ -204,6 +208,9 @@ def build() -> dict:
     if (ROOT/'data/research/editorial_delivery_report.json').exists():
         from apply_editorial_delivery import render_delivery_docs
         render_delivery_docs()
+    if (ROOT/'data/research/source_text_checks.json').exists():
+        from apply_editorial_pass import render_docs as render_editorial_current
+        render_editorial_current()
     return {'topic_count':len(topics),'source_count':len(sources),'edge_count':len(edges),
         'editorial_count':len(editorial),'queue_count':len(queue),'source_unregistered_count':coverage['search_pending_count']}
 

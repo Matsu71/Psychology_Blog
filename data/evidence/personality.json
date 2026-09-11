@@ -38,32 +38,32 @@
       "id": "EV-PSY-PER-002-SRC046",
       "topic_id": "PSY-PER-002",
       "source_id": "SRC046",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC046",
       "legacy_brief_ids": [
         "RB-28054797"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "主に臨床介入207研究。平均約24週間、情緒安定性などの尺度変化を統合。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "RCTだけでなく非実験的・前後比較。症状・特性・一時的状態を区別し、望んだ人格へ必ず変わるとはしない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
       "id": "EV-PSY-PER-002-SRC047",
       "topic_id": "PSY-PER-002",
       "source_id": "SRC047",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC047",
       "legacy_brief_ids": [
         "RB-33558417"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "同意・事前測定1523人、介入開始875人。3か月支援と1か月待機。自己評価で希望方向の変化、一部他者評価にも変化。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "3か月同期間無介入比較ではない。本人と他者、増加目標と減少目標で違いがある。選択・離脱・他者評定欠測・短い追跡に注意。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "assessed_count": 50,
   "not_assessed_count": 250,
   "warning_ja": "50テーマの編集上の仮説。実際の人気・検索数・収益性のランキングではない。未評価250件は下位と判定したものではない。",

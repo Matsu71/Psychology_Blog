@@ -96,15 +96,22 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "provenance_review_ids": [
-        "R3-C004"
+        "R3-C004",
+        "SC6-SRC111"
       ],
       "limitations_ja": [
-        "摂取をやめる時刻の推定は統合モデルに基づく。8.8時間などの数字を万人に共通する安全な締切にしない。追加量・習慣・対象者の差を単回試験と比較する。"
+        "モデル時刻を個人の無影響境界にしない。単回試験と介入・対象が異なり、レビューと構成研究を独立人数に合算しない。"
       ],
       "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract: pooled outcomes and model-derived timing"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC111"
     },
     {
       "source_id": "SRC112",
@@ -801,35 +808,65 @@
     },
     {
       "source_id": "SRC149",
-      "review_scope": "abstract",
+      "review_scope": "selected_fulltext_sections",
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "provenance_review_ids": [
-        "R3-C042"
+        "R3-C042",
+        "SC6-SRC149"
       ],
       "limitations_ja": [
-        "短期の摂取量を長期の体重変化へ読み替えない。収載研究の訂正・撤回と新しい統合結果の照合が必要。"
+        "全24実験が同じ操作・結果ではない。SMDを％摂取量・体重変化にしない。記憶を唯一の機序とせず、2025年のテレビレビューと区別する。"
       ],
       "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: search, selection and measurement",
+        "Results: distraction during and after meals",
+        "Discussion and limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC149"
     },
     {
       "source_id": "SRC150",
-      "review_scope": "abstract",
-      "method_signals": 3,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "provenance_review_ids": [
-        "R3-C043"
+        "R3-C043",
+        "SC6-SRC150"
       ],
       "limitations_ja": [
-        "肯定的な題名だけで結論を要約しない。解析対象・異質性・アウトカム時点を明示する。"
+        "公開HTMLの抄録と4.4のCIに違いがあり、F統計量に負値の記載がある。修正値を推測せず該当定量結果を現稿から除外。撤回や結論無効を認定したものではない。"
       ],
       "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Results 4.1 and 4.4"
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-TV-CI",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "遅延CIは抄録.03～.57、本文4.4 .08～.53。即時CI下限も抄録−.01、本文.00で異なる。"
+        },
+        {
+          "id": "SC6-TV-F",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "本文4.4 F(1,27)=−1.84。通常のF統計量は非負。t等への推測修正はしない。"
+        }
+      ],
+      "latest_source_check_id": "SC6-SRC150"
     },
     {
       "source_id": "SRC151",
@@ -1002,15 +1039,13 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "本文の指定箇所を確認・正式なバイアス評価と確実性評価は未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "provenance_review_ids": [
-        "R3-C052"
+        "R3-C052",
+        "SC6-SRC159"
       ],
       "limitations_ja": [
-        "独立した参加者467人のうち事前基準の遵守者は119人。実行可能性に制約。",
-        "主解析は全時点の回答がある人が中心で、全割付者をそのまま含む解析ではない。",
-        "米国・カナダのiPhone利用者。本人による盲検は困難で期待効果が残る。",
-        "事前計画から一部の測定を変更。電話・SMS・他端末のネットは維持している。"
+        "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。"
       ],
       "integrity_status": "indexed_links_checked_not_exhaustive",
       "integrity_notices": [],
@@ -1034,7 +1069,22 @@
           "欠測を扱った補足解析と事前登録の一致を確認。",
           "臨床治療や全員向けのネット遮断の推奨にしない。"
         ]
-      }
+      },
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Results: Study design and compliance; ITT and TOT definitions",
+        "Primary analyses and attrition",
+        "Discussion: demand effects, selection and follow-up"
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-DIG-ITT",
+          "type": "interpretation_caution",
+          "status": "addressed_in_current_manuscript",
+          "detail_ja": "著者のITTという名称を全467人の完全追跡としない。313人を全注意課題の分母にしない。"
+        }
+      ],
+      "latest_source_check_id": "SC6-SRC159"
     },
     {
       "source_id": "SRC160",
@@ -1190,19 +1240,28 @@
     },
     {
       "source_id": "SRC169",
-      "review_scope": "bibliography",
-      "method_signals": 1,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "書誌のみ・信頼性未評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "provenance_review_ids": [
-        "R3-C062"
+        "R3-C062",
+        "SC6-SRC169"
       ],
       "limitations_ja": [
-        "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。"
+        "意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。"
       ],
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "3 Methodology: eligibility, selection, outlier removal",
+        "4.1 Overall effect; moderator analyses; robustness",
+        "5 Discussion and limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC169"
     },
     {
       "source_id": "SRC170",
@@ -2295,13 +2354,25 @@
     },
     {
       "source_id": "SRC004",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "limitations_ja": [
+        "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "What is heritability? Definition and interpretation limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC004",
+      "provenance_review_ids": [
+        "SC6-SRC004"
+      ]
     },
     {
       "source_id": "SRC005",
@@ -2355,13 +2426,26 @@
     },
     {
       "source_id": "SRC010",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "limitations_ja": [
+        "不眠、勤務・介護制約、夜型を意志の弱さで一括りにしない。横断研究で原因・治療効果は確定しない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Introduction: definition",
+        "Methods and Discussion"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC010",
+      "provenance_review_ids": [
+        "SC6-SRC010"
+      ]
     },
     {
       "source_id": "SRC011",
@@ -2615,21 +2699,33 @@
     },
     {
       "source_id": "SRC036",
-      "review_scope": "legacy_abstract_review",
+      "review_scope": "abstract",
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "前回の抄録読解から調査順を付与・今回本文未確認",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "limitations_ja": [
+        "集団・環境の分散の推定。個人の遺伝割合・不変性、残余のすべてが育児という意味でない。全文モデルを再解析していない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract: selection and method differences"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC036",
+      "provenance_review_ids": [
+        "SC6-SRC036"
+      ]
     },
     {
       "source_id": "SRC037",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
       "integrity_notices": [
         {
@@ -2639,15 +2735,27 @@
           "note": "CrossRef Pre-print loader",
           "orderIn": 10002
         }
+      ],
+      "limitations_ja": [
+        "全文モデル評価は未実施。加算・非加算など仮定の違いを考慮し、育児や環境が無意味と解釈しない。プレプリントと刊行版は独立根拠でない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Author institutional repository abstract; PubMed PMID40146588"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC037",
+      "provenance_review_ids": [
+        "SC6-SRC037"
       ]
     },
     {
       "source_id": "SRC038",
       "review_scope": "selected_fulltext_sections",
-      "method_signals": 4,
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "本文の指定箇所を確認・正式なバイアス評価と確実性評価は未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
       "integrity_notices": [],
       "selected_fulltext_check": {
@@ -2671,9 +2779,18 @@
         ]
       },
       "limitations_ja": [
-        "無作為化30人中23人を解析。離脱3人と非遵守4人の除外がある。",
-        "健康な若年男性の単回追加摂取。自宅での部分的PSG測定。",
-        "資金源・利益相反と登録内容の一致は今回未確認。"
+        "同等性試験でなく100mg無害を保証しない。単回追加量は1日総量・分割摂取と異なる。若年男性、睡眠・医学的条件・交代勤務を除外。遺伝効果の検出力不足、自宅環境、1条件1夜、複数比較の限界。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Materials and Methods: Participants, Experimental design, Statistical analysis",
+        "Results: Participants and dose/timing contrasts",
+        "Limitations and Practical Recommendations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC038",
+      "provenance_review_ids": [
+        "SC6-SRC038"
       ]
     },
     {
@@ -2682,7 +2799,7 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "本文の指定箇所を確認・正式なバイアス評価と確実性評価は未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
       "integrity_notices": [],
       "selected_fulltext_check": {
@@ -2705,9 +2822,25 @@
         ]
       },
       "limitations_ja": [
-        "形成期間を直接報告した研究は4件のみで、期間のメタ分析は実施していない。",
-        "自動性の前後差と介入による因果的な差は別。対照群なしの研究も含む。",
-        "少数・異質な研究で、出版バイアスの評価にも制約。"
+        "前後スコア差と期間を分け、前後差を因果にしない。抄録平均106～154に対し本文には自己報告平均91日もあるため、全研究の平均範囲として使わない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "2.3 Eligibility and outcome definitions",
+        "3.2 Study characteristics; 3.3 Time to reach habit formation",
+        "4 Discussion"
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-HAB-DURATION",
+          "type": "reporting_scope_caveat",
+          "status": "excluded_from_current_numeric_claims",
+          "detail_ja": "抄録の平均106～154日を全研究の平均範囲として反復しない。本文3.3には91日があり測定も異なる。"
+        }
+      ],
+      "latest_source_check_id": "SC6-SRC039",
+      "provenance_review_ids": [
+        "SC6-SRC039"
       ]
     },
     {
@@ -2859,21 +2992,33 @@
     },
     {
       "source_id": "SRC046",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "limitations_ja": [
+        "RCTだけでなく非実験的・前後比較。症状・特性・一時的状態を区別し、望んだ人格へ必ず変わるとはしない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract: sample, design and trait change"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC046",
+      "provenance_review_ids": [
+        "SC6-SRC046"
+      ]
     },
     {
       "source_id": "SRC047",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
       "integrity_notices": [
         {
@@ -2883,6 +3028,20 @@
           "note": "CrossRef Pre-print loader",
           "orderIn": 10002
         }
+      ],
+      "limitations_ja": [
+        "3か月同期間無介入比較ではない。本人と他者、増加目標と減少目標で違いがある。選択・離脱・他者評定欠測・短い追跡に注意。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: Participants, procedure and design",
+        "Results: self and observer ratings",
+        "Discussion"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC047",
+      "provenance_review_ids": [
+        "SC6-SRC047"
       ]
     },
     {
@@ -2959,7 +3118,7 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "本文の指定箇所を確認・正式なバイアス評価と確実性評価は未実施",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
       "integrity_notices": [],
       "selected_fulltext_check": {
@@ -2983,9 +3142,25 @@
         ]
       },
       "limitations_ja": [
-        "著者らの評価で22研究中4研究のみ低バイアス。",
-        "長期追跡が乏しく、介入直後の結果が中心。",
-        "作業成績のp値は抄録と本文に表記差がある。数値転記前に表・補足を照合。"
+        "dを％改善にしない。休憩時間の研究間回帰は最適分数の因果検証でない。本文と表のp値は一致せず、記事は一致する推定値とCIを使用。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: inclusion and synthesis",
+        "Results: Table 3 and moderators",
+        "Discussion"
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-BREAK-P",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "本文の成績p=.17、Table3 p=.116。dとCIは一致し両方5％非有意。記事ではpを用いず、データ修正は主張しない。"
+        }
+      ],
+      "latest_source_check_id": "SC6-SRC054",
+      "provenance_review_ids": [
+        "SC6-SRC054"
       ]
     },
     {
@@ -3898,13 +4073,27 @@
     },
     {
       "source_id": "SRC104",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_notices": [],
+      "limitations_ja": [
+        "I²61.14％。比較条件制限、少ない長期追跡、介入要素の重なり、自己報告。介入効果を原因の証明にしない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: eligibility, non-active comparators, protocol deviations",
+        "Results: primary and subgroup analyses",
+        "Discussion"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC104",
+      "provenance_review_ids": [
+        "SC6-SRC104"
+      ]
     },
     {
       "source_id": "SRC105",
@@ -4653,19 +4842,22 @@
       "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
       "limitations_ja": [
-        "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。"
+        "唯一の原因、全個人の機序、時間管理との優劣を確定する介入比較ではない。"
       ],
       "integrity_status": "selected_notices_checked_not_exhaustive",
       "integrity_notices": [],
       "provenance_review_ids": [
-        "R5-0bf714065f18"
+        "R5-0bf714065f18",
+        "SC6-SRC266"
       ],
       "checked_sections": [
-        "Abstract / 抄録"
+        "Abstract"
       ],
-      "checked_on": "2026-09-11"
+      "checked_on": "2026-09-11",
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC266"
     },
     {
       "source_id": "SRC267",
@@ -4752,6 +4944,73 @@
         "本文全体：p.348 The mean effect of assortment size on choice overload の記載訂正"
       ],
       "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC271",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "SC6-SRC271"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "limitations_ja": [
+        "英国、参加者・測定者非盲検、8週完了85人。特定アプリ上乗せの試験で、全注意介入の無効とはしない。2020年の利用者解析は同試験由来で独立追試に数えない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: design, sample, randomisation and blinding, statistical analyses",
+        "Results: sample, primary outcomes and adherence analyses",
+        "Discussion"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC271",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。"
+    },
+    {
+      "source_id": "SRC272",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "SC6-SRC272"
+      ],
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "limitations_ja": [
+        "相関の統合で因果は不明。著者GRADEを独立評価とせず、2023年同名学会要旨は別研究に数えない。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract: methods, findings, GRADE and causal caveat"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC272",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。"
+    },
+    {
+      "source_id": "SRC273",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "SC6-SRC273"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "limitations_ja": [
+        "横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Methods: Participants, Survey design",
+        "Results: selection",
+        "Discussion: limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SC6-SRC273",
+      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。"
     }
   ],
   "updated_on": "2026-09-11"

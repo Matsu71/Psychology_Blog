@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "pass_id": "source-editorial-pass-20260911",
+  "topic_count": 300,
+  "source_count": 273,
+  "manuscript_count": 26,
+  "source_checked_manuscripts": 10,
+  "checked_claims": 31,
+  "source_checks": 19,
+  "top20_source_checked": 10,
+  "unresolved_source_dossiers": 0,
+  "publication_ready_count": 0,
+  "goal_articles": 300,
+  "goal_completed": false,
+  "scope_ja": "ID・参照・ハッシュ・状態を検証。科学的真偽、独立査読、医療監修の自動認定ではない。"
+}

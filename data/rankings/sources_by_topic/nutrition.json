@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "nutrition",
   "topics": [
     {
@@ -62,15 +62,15 @@
           "edge_id": "EV-PSY-NUT-003-SRC149",
           "source_id": "SRC149",
           "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating.",
-          "review_scope": "abstract",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "短期の摂取量を長期の体重変化へ読み替えない。収載研究の訂正・撤回と新しい統合結果の照合が必要。",
-          "priority_score": 82.5,
+          "limits_ja": "全24実験が同じ操作・結果ではない。SMDを％摂取量・体重変化にしない。記憶を唯一の機序とせず、2025年のテレビレビューと区別する。",
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -80,18 +80,18 @@
           "display_position": 1
         },
         {
-          "edge_id": "EV-PSY-NUT-003-SRC150",
-          "source_id": "SRC150",
-          "title": "Watching Television While Eating Increases Food Intake: A Systematic Review and Meta-Analysis of Experimental Studies.",
-          "review_scope": "abstract",
+          "edge_id": "EV-PSY-NUT-003-SRC271",
+          "source_id": "SRC271",
+          "title": "A smartphone based attentive eating intervention for energy intake and weight loss: results from a randomised controlled trial",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "肯定的な題名だけで結論を要約しない。解析対象・異質性・アウトカム時点を明示する。",
-          "priority_score": 82.5,
+          "limits_ja": "英国、参加者・測定者非盲検、8週完了85人。特定アプリ上乗せの試験で、全注意介入の無効とはしない。2020年の利用者解析は同試験由来で独立追試に数えない。",
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -99,6 +99,30 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-NUT-003-SRC150",
+          "source_id": "SRC150",
+          "title": "Watching Television While Eating Increases Food Intake: A Systematic Review and Meta-Analysis of Experimental Studies.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "context_only",
+          "conclusion_direction": "mixed",
+          "limits_ja": "公開HTMLの抄録と4.4のCIに違いがあり、F統計量に負値の記載がある。修正値を推測せず該当定量結果を現稿から除外。撤回や結論無効を認定したものではない。",
+          "priority_score": 55,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [
+            "unresolved_reporting_issue_max_65",
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 3,
+          "display_position": 3
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "work",
   "topics": [
     {

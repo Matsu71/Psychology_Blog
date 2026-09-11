@@ -1,24 +1,8 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "definition_ja": "55％編集優先度＋45％調査不足。編集未評価は作業配分用に50を仮置きし、人気点数はnullのまま。",
   "topics": [
-    {
-      "topic_id": "PSY-MON-002",
-      "title_ja": "キャッシュレスだと現金より使いすぎる？",
-      "work_priority_score": 93.3,
-      "editorial_score": 96,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 90,
-      "evidence_state": "no_targeted_review",
-      "next_action_ja": "書誌・背景資料から、対象と結果が対応する抄録・全文を確認する。",
-      "legacy_brief_count": 0,
-      "source_review_count": 1,
-      "targeted_review_source_count": 0,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 1
-    },
     {
       "topic_id": "PSY-ATT-003",
       "title_ja": "中断した仕事に戻りにくいのはなぜ？",
@@ -33,23 +17,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 2
-    },
-    {
-      "topic_id": "PSY-PER-002",
-      "title_ja": "大人になってから性格は変わる？",
-      "work_priority_score": 86.0,
-      "editorial_score": 95,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 75,
-      "evidence_state": "legacy_review_needs_relevance_recheck",
-      "next_action_ja": "既存の読解メモはある。テーマとの適合性を再点検し、全文・反証・更新資料を確認する。",
-      "legacy_brief_count": 2,
-      "source_review_count": 0,
-      "targeted_review_source_count": 0,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 3
+      "queue_position": 1
     },
     {
       "topic_id": "PSY-SLP-007",
@@ -65,7 +33,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 4
+      "queue_position": 2
     },
     {
       "topic_id": "PSY-WRK-002",
@@ -81,39 +49,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 5
-    },
-    {
-      "topic_id": "PSY-MOT-001",
-      "title_ja": "先延ばしは時間管理の問題か、感情の問題か？",
-      "work_priority_score": 84.25,
-      "editorial_score": 100,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 65,
-      "evidence_state": "abstract_evidence_available",
-      "next_action_ja": "優先資料の全文・独立追試・反証・訂正を照合する。",
-      "legacy_brief_count": 1,
-      "source_review_count": 1,
-      "targeted_review_source_count": 1,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 6
-    },
-    {
-      "topic_id": "PSY-SLP-009",
-      "title_ja": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
-      "work_priority_score": 84.25,
-      "editorial_score": 100,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 65,
-      "evidence_state": "abstract_evidence_available",
-      "next_action_ja": "優先資料の全文・独立追試・反証・訂正を照合する。",
-      "legacy_brief_count": 0,
-      "source_review_count": 1,
-      "targeted_review_source_count": 1,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 7
+      "queue_position": 3
     },
     {
       "topic_id": "PSY-SLP-001",
@@ -129,7 +65,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 8
+      "queue_position": 4
     },
     {
       "topic_id": "PSY-WEL-005",
@@ -145,7 +81,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 9
+      "queue_position": 5
     },
     {
       "topic_id": "PSY-LAN-008",
@@ -161,7 +97,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 10
+      "queue_position": 6
     },
     {
       "topic_id": "PSY-MON-001",
@@ -177,7 +113,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 11
+      "queue_position": 7
     },
     {
       "topic_id": "PSY-ENV-001",
@@ -193,7 +129,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 12
+      "queue_position": 8
     },
     {
       "topic_id": "PSY-EMO-008",
@@ -209,7 +145,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 13
+      "queue_position": 9
     },
     {
       "topic_id": "PSY-DEC-006",
@@ -225,7 +161,7 @@
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 14
+      "queue_position": 10
     },
     {
       "topic_id": "PSY-REL-002",
@@ -241,7 +177,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 15
+      "queue_position": 11
     },
     {
       "topic_id": "PSY-MOT-006",
@@ -257,7 +193,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 16
+      "queue_position": 12
     },
     {
       "topic_id": "PSY-LEA-001",
@@ -273,7 +209,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 17
+      "queue_position": 13
     },
     {
       "topic_id": "PSY-ADD-001",
@@ -289,7 +225,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 18
+      "queue_position": 14
     },
     {
       "topic_id": "PSY-ADD-004",
@@ -305,7 +241,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 19
+      "queue_position": 15
     },
     {
       "topic_id": "PSY-WEL-002",
@@ -321,55 +257,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 20
-    },
-    {
-      "topic_id": "PSY-DIG-001",
-      "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
-      "work_priority_score": 79.3,
-      "editorial_score": 91,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 65,
-      "evidence_state": "abstract_evidence_available",
-      "next_action_ja": "優先資料の全文・独立追試・反証・訂正を照合する。",
-      "legacy_brief_count": 0,
-      "source_review_count": 2,
-      "targeted_review_source_count": 2,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 21
-    },
-    {
-      "topic_id": "PSY-NUT-003",
-      "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
-      "work_priority_score": 79.3,
-      "editorial_score": 91,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 65,
-      "evidence_state": "abstract_evidence_available",
-      "next_action_ja": "優先資料の全文・独立追試・反証・訂正を照合する。",
-      "legacy_brief_count": 0,
-      "source_review_count": 2,
-      "targeted_review_source_count": 2,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 22
-    },
-    {
-      "topic_id": "PSY-GEN-001",
-      "title_ja": "性格には遺伝がどれくらい影響する？",
-      "work_priority_score": 78.75,
-      "editorial_score": 90,
-      "editorial_fallback_for_queue": null,
-      "gap_score": 65,
-      "evidence_state": "abstract_evidence_available",
-      "next_action_ja": "優先資料の全文・独立追試・反証・訂正を照合する。",
-      "legacy_brief_count": 2,
-      "source_review_count": 0,
-      "targeted_review_source_count": 1,
-      "selected_fulltext_source_count": 0,
-      "publication_ready": false,
-      "queue_position": 23
+      "queue_position": 16
     },
     {
       "topic_id": "PSY-HAB-005",
@@ -385,7 +273,7 @@
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 24
+      "queue_position": 17
     },
     {
       "topic_id": "PSY-EXE-002",
@@ -401,7 +289,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 25
+      "queue_position": 18
     },
     {
       "topic_id": "PSY-LAN-001",
@@ -417,7 +305,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 26
+      "queue_position": 19
     },
     {
       "topic_id": "PSY-MEN-005",
@@ -433,7 +321,7 @@
       "targeted_review_source_count": 0,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 27
+      "queue_position": 20
     },
     {
       "topic_id": "PSY-DEC-004",
@@ -449,7 +337,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 28
+      "queue_position": 21
     },
     {
       "topic_id": "PSY-MON-008",
@@ -465,7 +353,7 @@
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 29
+      "queue_position": 22
     },
     {
       "topic_id": "PSY-PER-003",
@@ -481,7 +369,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 30
+      "queue_position": 23
     },
     {
       "topic_id": "PSY-EXE-005",
@@ -497,7 +385,7 @@
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 31
+      "queue_position": 24
     },
     {
       "topic_id": "PSY-CRE-003",
@@ -513,7 +401,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 32
+      "queue_position": 25
     },
     {
       "topic_id": "PSY-HPS-009",
@@ -529,7 +417,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 33
+      "queue_position": 26
     },
     {
       "topic_id": "PSY-INT-006",
@@ -545,7 +433,23 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 34
+      "queue_position": 27
+    },
+    {
+      "topic_id": "PSY-MOT-001",
+      "title_ja": "先延ばしは時間管理の問題か、感情の問題か？",
+      "work_priority_score": 75.25,
+      "editorial_score": 100,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 1,
+      "source_review_count": 3,
+      "targeted_review_source_count": 2,
+      "selected_fulltext_source_count": 1,
+      "publication_ready": false,
+      "queue_position": 28
     },
     {
       "topic_id": "PSY-SLP-004",
@@ -557,11 +461,27 @@
       "evidence_state": "selected_methods_checked",
       "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
       "legacy_brief_count": 1,
-      "source_review_count": 1,
+      "source_review_count": 3,
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 1,
       "publication_ready": false,
-      "queue_position": 35
+      "queue_position": 29
+    },
+    {
+      "topic_id": "PSY-SLP-009",
+      "title_ja": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
+      "work_priority_score": 75.25,
+      "editorial_score": 100,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 0,
+      "source_review_count": 4,
+      "targeted_review_source_count": 4,
+      "selected_fulltext_source_count": 2,
+      "publication_ready": false,
+      "queue_position": 30
     },
     {
       "topic_id": "PSY-HPS-012",
@@ -577,7 +497,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 36
+      "queue_position": 31
     },
     {
       "topic_id": "PSY-ATT-005",
@@ -593,7 +513,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 37
+      "queue_position": 32
     },
     {
       "topic_id": "PSY-HPS-003",
@@ -609,7 +529,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 38
+      "queue_position": 33
     },
     {
       "topic_id": "PSY-LIF-012",
@@ -625,7 +545,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 39
+      "queue_position": 34
     },
     {
       "topic_id": "PSY-SLP-010",
@@ -641,7 +561,7 @@
       "targeted_review_source_count": 4,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 40
+      "queue_position": 35
     },
     {
       "topic_id": "PSY-SOC-009",
@@ -657,7 +577,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 41
+      "queue_position": 36
     },
     {
       "topic_id": "PSY-ATT-004",
@@ -669,11 +589,11 @@
       "evidence_state": "selected_methods_checked",
       "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
       "legacy_brief_count": 1,
-      "source_review_count": 0,
+      "source_review_count": 1,
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 1,
       "publication_ready": false,
-      "queue_position": 42
+      "queue_position": 37
     },
     {
       "topic_id": "PSY-DIG-004",
@@ -685,11 +605,11 @@
       "evidence_state": "selected_methods_checked",
       "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
       "legacy_brief_count": 0,
-      "source_review_count": 3,
+      "source_review_count": 4,
       "targeted_review_source_count": 3,
       "selected_fulltext_source_count": 1,
       "publication_ready": false,
-      "queue_position": 43
+      "queue_position": 38
     },
     {
       "topic_id": "PSY-HAB-001",
@@ -701,11 +621,27 @@
       "evidence_state": "selected_methods_checked",
       "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
       "legacy_brief_count": 1,
-      "source_review_count": 0,
+      "source_review_count": 1,
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 1,
       "publication_ready": false,
-      "queue_position": 44
+      "queue_position": 39
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "title_ja": "キャッシュレスだと現金より使いすぎる？",
+      "work_priority_score": 73.05,
+      "editorial_score": 96,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 0,
+      "source_review_count": 2,
+      "targeted_review_source_count": 1,
+      "selected_fulltext_source_count": 1,
+      "publication_ready": false,
+      "queue_position": 40
     },
     {
       "topic_id": "PSY-DEV-002",
@@ -721,7 +657,7 @@
       "targeted_review_source_count": 2,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 45
+      "queue_position": 41
     },
     {
       "topic_id": "PSY-NUT-008",
@@ -737,7 +673,7 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 46
+      "queue_position": 42
     },
     {
       "topic_id": "PSY-WRK-011",
@@ -753,7 +689,23 @@
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
       "publication_ready": false,
-      "queue_position": 47
+      "queue_position": 43
+    },
+    {
+      "topic_id": "PSY-PER-002",
+      "title_ja": "大人になってから性格は変わる？",
+      "work_priority_score": 72.5,
+      "editorial_score": 95,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 2,
+      "source_review_count": 2,
+      "targeted_review_source_count": 2,
+      "selected_fulltext_source_count": 1,
+      "publication_ready": false,
+      "queue_position": 44
     },
     {
       "topic_id": "PSY-GEN-002",
@@ -768,6 +720,54 @@
       "source_review_count": 0,
       "targeted_review_source_count": 1,
       "selected_fulltext_source_count": 0,
+      "publication_ready": false,
+      "queue_position": 45
+    },
+    {
+      "topic_id": "PSY-DIG-001",
+      "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
+      "work_priority_score": 70.3,
+      "editorial_score": 91,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 0,
+      "source_review_count": 3,
+      "targeted_review_source_count": 3,
+      "selected_fulltext_source_count": 1,
+      "publication_ready": false,
+      "queue_position": 46
+    },
+    {
+      "topic_id": "PSY-NUT-003",
+      "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
+      "work_priority_score": 70.3,
+      "editorial_score": 91,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 0,
+      "source_review_count": 5,
+      "targeted_review_source_count": 3,
+      "selected_fulltext_source_count": 3,
+      "publication_ready": false,
+      "queue_position": 47
+    },
+    {
+      "topic_id": "PSY-GEN-001",
+      "title_ja": "性格には遺伝がどれくらい影響する？",
+      "work_priority_score": 69.75,
+      "editorial_score": 90,
+      "editorial_fallback_for_queue": null,
+      "gap_score": 45,
+      "evidence_state": "selected_methods_checked",
+      "next_action_ja": "補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。",
+      "legacy_brief_count": 2,
+      "source_review_count": 3,
+      "targeted_review_source_count": 3,
+      "selected_fulltext_source_count": 1,
       "publication_ready": false,
       "queue_position": 48
     },

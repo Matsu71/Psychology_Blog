@@ -190,14 +190,14 @@
       "source_id": "SRC038",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "anchor_question_checked",
-      "source_review_id": null,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC038",
       "legacy_brief_ids": [
         "RB-39377163"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "30人割付、3人辞退4人不遵守除外し健康男性23人を解析。朝は各人の習慣量、追加100/400mgを就寝12/8/4時間前に比較。400mgで一部指標悪化、100mgで明確な差なし。主観・客観にずれ。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "同等性試験でなく100mg無害を保証しない。単回追加量は1日総量・分割摂取と異なる。若年男性、睡眠・医学的条件・交代勤務を除外。遺伝効果の検出力不足、自宅環境、1条件1夜、複数比較の限界。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -206,12 +206,12 @@
       "source_id": "SRC111",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C004",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC111",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "24研究を統合し、カフェインによる睡眠時間・効率・入眠などへの影響を報告した。",
-      "conclusion_direction": "supports",
-      "limits_ja": "摂取をやめる時刻の推定は統合モデルに基づく。8.8時間などの数字を万人に共通する安全な締切にしない。追加量・習慣・対象者の差を単回試験と比較する。",
+      "finding_scope_ja": "24研究を統合し、カフェインと睡眠時間・寝つき等の差、量・時刻のモデルを検討。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "モデル時刻を個人の無影響境界にしない。単回試験と介入・対象が異なり、レビューと構成研究を独立人数に合算しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -354,14 +354,14 @@
       "id": "EV-PSY-SLP-009-SRC010",
       "topic_id": "PSY-SLP-009",
       "source_id": "SRC010",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC010",
       "legacy_brief_ids": [],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "外的理由によらず意図した時刻より就床を遅らせる行動を定義し、自己報告との関連を検討。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "不眠、勤務・介護制約、夜型を意志の弱さで一括りにしない。横断研究で原因・治療効果は確定しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -432,6 +432,34 @@
       "finding_scope_ja": "嫌な課題に直面したとき、将来の目標より今の気分を優先することが先延ばしに関わる、という理論的な整理です。時間をまたぐ自己の捉え方と気分調整を結びつけています。",
       "conclusion_direction": "mixed",
       "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-009-SRC272",
+      "topic_id": "PSY-SLP-009",
+      "source_id": "SRC272",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC272",
+      "finding_scope_ja": "43研究。就寝先延ばしは夜型・日中疲労と正、睡眠時間・質・自己コントロールと負の関連。著者GRADEはlow。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "相関の統合で因果は不明。著者GRADEを独立評価とせず、2023年同名学会要旨は別研究に数えない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-009-SRC273",
+      "topic_id": "PSY-SLP-009",
+      "source_id": "SRC273",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC273",
+      "finding_scope_ja": "日本語版BPSを日中勤務者20～65歳で検討。募集600人、解析574人、再検査280人。睡眠変数との関連を検討。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

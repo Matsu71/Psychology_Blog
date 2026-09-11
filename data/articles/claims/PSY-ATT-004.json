@@ -1,15 +1,18 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-ATT-004",
-  "title_ja": "短い休憩は何を回復させる？——疲れが減ることと、仕事が速くなること",
+  "title_ja": "短い休憩で集中力は戻る？疲れが減ることと、成果が上がることは別",
   "category_id": "attention",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-ATT-004.json",
+  "authoring_input_sha256": "e75b9159fb177cd7f0d12d3dcf6745da4436e3daa37a8aa1ca5c750e109dac84",
   "source_resolution": {
-    "S1": {
+    "SRC054": {
       "selector": {
-        "key": "S1",
-        "pmid": "36044424"
+        "source_id": "SRC054",
+        "doi": "10.1371/journal.pone.0272460"
       },
       "source_ids": [
         "SRC054"
@@ -20,54 +23,81 @@
   },
   "claims": [
     {
-      "id": "PSY-ATT-004-C01",
-      "claim_ja": "短い休憩を統合したメタ分析では、疲労低下と活力増加に小さな平均的効果があった。",
-      "population_and_scope_ja": "22独立標本、2335人を扱う2022年レビュー。",
-      "not_supported_ja": "全員が同じ程度に回復することや、あらゆる仕事の効率が上がること。",
+      "id": "PSY-ATT-004-R6-C01",
+      "claim_ja": "短い休憩の統合研究で活力と疲労に小さな平均的改善が見られた。",
+      "population_and_scope_ja": "22独立標本全体N2335。活力9標本N913、疲労9標本N803。",
+      "not_supported_ja": "全2335人が同一の指標・同一の休憩法を比較したわけではない。",
       "source_keys": [
-        "S1"
+        "SRC054"
       ],
       "source_ids": [
         "SRC054"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC054"
+      ],
+      "source_locators": {
+        "SRC054": [
+          "Methods: inclusion and synthesis",
+          "Results: Table 3 and moderators",
+          "Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-ATT-004-C02",
-      "claim_ja": "作業成績全体への平均的改善は、統計的に明確ではなかった。",
-      "population_and_scope_ja": "当該メタ分析の全体解析。",
-      "not_supported_ja": "すべての課題で休憩が無意味、または逆効果という結論。",
+      "id": "PSY-ATT-004-R6-C02",
+      "claim_ja": "成績の統合値はd=.16、95％信頼区間−.04～.37だった。",
+      "population_and_scope_ja": "15標本N1132。信頼区間は差がない値を含む。",
+      "not_supported_ja": "16％の速度向上や、休憩に価値がないという判断には変換できない。",
       "source_keys": [
-        "S1"
+        "SRC054"
       ],
       "source_ids": [
         "SRC054"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC054"
+      ],
+      "source_locators": {
+        "SRC054": [
+          "Methods: inclusion and synthesis",
+          "Results: Table 3 and moderators",
+          "Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-ATT-004-C03",
-      "claim_ja": "主観的な疲労・活力と作業成績を別の結果として扱う必要がある。",
-      "population_and_scope_ja": "論文が別々に評価したアウトカムの解釈。",
-      "not_supported_ja": "特定の休憩間隔・長さを全員に最適とする処方。",
+      "id": "PSY-ATT-004-R6-C03",
+      "claim_ja": "課題や休憩時間による条件差は、万人共通の最適間隔を決めない。",
+      "population_and_scope_ja": "課題別比較と研究間メタ回帰。",
+      "not_supported_ja": "時間そのものの無作為化比較や特定の日程の効果保証ではない。",
       "source_keys": [
-        "S1"
+        "SRC054"
       ],
       "source_ids": [
         "SRC054"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC054"
+      ],
+      "source_locators": {
+        "SRC054": [
+          "Methods: inclusion and synthesis",
+          "Results: Table 3 and moderators",
+          "Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -75,29 +105,36 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "休憩の前後で、まず疲れや気分がどう変わったかを確認します。",
-      "作業の成果を見る場合は、速さだけでなくミスや再開のしやすさも別の観点として考えます。",
-      "短い休憩で回復しないときは、休憩の工夫だけでなく睡眠や仕事量も見直す必要があるか検討します。"
+      "疲れ、眠気、課題の難しさを分け、いま何が作業を妨げているか考える。",
+      "短い休止を試すときは、再開する箇所を一つだけ残す。",
+      "休んでも強い疲れが続く場合、休憩法だけでなく睡眠や仕事量も見直す。"
     ],
-    "safety": "強い疲労や体調不良を、細切れの休憩だけで乗り切ることを勧めません。安全が関わる仕事では必要な休息や職場の規則を優先します。"
+    "safety": "この研究は病的な疲労の診断ではありません。強い眠気のある運転などでは、小休止だけで安全が回復したと判断しないでください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-005",
-      "severity": "major",
-      "finding_ja": "疲労・活力の改善は、作業成績の改善とは別である。",
-      "next_action_ja": "主要解析、課題別解析、異質性と信頼区間を確認する。休憩の固定分数を研究の結論として追加しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "疲労と成績の混同を修正。数値の詳細と課題別解析は最終照合が残る。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC054",
+      "issue": {
+        "id": "SC6-BREAK-P",
+        "type": "reporting_inconsistency",
+        "status": "open_original_paper_check",
+        "detail_ja": "本文の成績p=.17、Table3 p=.116。dとCIは一致し両方5％非有意。記事ではpを用いず、データ修正は主張しない。"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

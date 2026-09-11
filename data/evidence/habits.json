@@ -22,14 +22,14 @@
       "source_id": "SRC039",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "anchor_question_checked",
-      "source_review_id": null,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC039",
       "legacy_brief_ids": [
         "RB-39685110"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "20研究2601人中、期間報告は4研究。66日は引用されたLally研究の95％漸近値までの推定期間の中央値。測定法が異なり日数のメタ分析は実施できなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "前後スコア差と期間を分け、前後差を因果にしない。抄録平均106～154に対し本文には自己報告平均91日もあるため、全研究の平均範囲として使わない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

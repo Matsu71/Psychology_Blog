@@ -88,7 +88,7 @@
       "topic_file": "data/topics/01_sleep.json",
       "evidence_file": "data/evidence/sleep.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": 100
     },
     {
@@ -1528,7 +1528,7 @@
       "topic_file": "data/topics/16_nutrition.json",
       "evidence_file": "data/evidence/nutrition.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 91
     },
     {
@@ -1808,7 +1808,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": 91
     },
     {

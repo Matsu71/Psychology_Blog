@@ -20,16 +20,16 @@
       "id": "EV-PSY-MOT-001-SRC104",
       "topic_id": "PSY-MOT-001",
       "source_id": "SRC104",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC104",
       "legacy_brief_ids": [
         "RB-30214421"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "12研究21比較N718。平均g=.34。自己報告・非活動的対照。CBT下位群の研究数は少なく、介入方法の優劣とは別。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "I²61.14％。比較条件制限、少ない長期追跡、介入要素の重なり、自己報告。介入効果を原因の証明にしない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -272,10 +272,10 @@
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
       "relevance_scope": "source_text_screened",
-      "source_review_id": "R5-0bf714065f18",
-      "finding_scope_ja": "嫌な課題に直面したとき、将来の目標より今の気分を優先することが先延ばしに関わる、という理論的な整理です。時間をまたぐ自己の捉え方と気分調整を結びつけています。",
+      "source_review_id": "SC6-SRC266",
+      "finding_scope_ja": "嫌悪的課題を避けて短期の気分を優先することと将来の自己の目標の対立を論じる理論レビュー。",
       "conclusion_direction": "mixed",
-      "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+      "limits_ja": "唯一の原因、全個人の機序、時間管理との優劣を確定する介入比較ではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "habits",
   "topics": [
     {
@@ -12,8 +12,8 @@
           "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants.",
           "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "前後スコア差と期間を分け、前後差を因果にしない。抄録平均106～154に対し本文には自己報告平均91日もあるため、全研究の平均範囲として使わない。",
           "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,

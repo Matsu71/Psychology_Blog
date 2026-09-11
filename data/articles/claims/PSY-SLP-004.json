@@ -1,18 +1,32 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-SLP-004",
-  "title_ja": "コーヒーは何時まで？——睡眠を考えるなら、時刻だけでなく量も見る",
+  "title_ja": "コーヒーは何時まで？『時刻』だけでは決まらないカフェインと睡眠",
   "category_id": "sleep",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-SLP-004.json",
+  "authoring_input_sha256": "dca74ae4593d01054f0c28d3862667a7ecbe96246d5fd2adfd7f203342cbd270",
   "source_resolution": {
-    "S1": {
+    "SRC038": {
       "selector": {
-        "key": "S1",
-        "pmid": "39377163"
+        "source_id": "SRC038",
+        "doi": "10.1093/sleep/zsae230"
       },
       "source_ids": [
         "SRC038"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC111": {
+      "selector": {
+        "source_id": "SRC111",
+        "doi": "10.1016/j.smrv.2023.101764"
+      },
+      "source_ids": [
+        "SRC111"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -20,54 +34,105 @@
   },
   "claims": [
     {
-      "id": "PSY-SLP-004-C01",
-      "claim_ja": "23人の成人男性の交差試験では、カフェインの量と摂取時刻を変えて睡眠への影響を比較した。",
-      "population_and_scope_ja": "100mg・400mg、就寝12・8・4時間前などの試験条件。",
-      "not_supported_ja": "全飲料・全員への安全な摂取量や締切時刻の決定。",
+      "id": "PSY-SLP-004-R6-C01",
+      "claim_ja": "追加のカフェイン100mg・400mgと就寝前12・8・4時間を比較した交差試験の最終解析は23人だった。",
+      "population_and_scope_ja": "健康な18～40歳男性。30人割付、開始前辞退3人、手順不遵守除外4人。朝はその人の習慣量。",
+      "not_supported_ja": "23人を全割付数としない。全性別・年齢・疾患への安全量ではない。",
       "source_keys": [
-        "S1"
+        "SRC038"
       ],
       "source_ids": [
         "SRC038"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC038"
+      ],
+      "source_locators": {
+        "SRC038": [
+          "Materials and Methods: Participants, Experimental design, Statistical analysis",
+          "Results: Participants and dose/timing contrasts",
+          "Limitations and Practical Recommendations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-004-C02",
-      "claim_ja": "400mgでは就寝12時間前でも一部の睡眠指標に影響が検出された。",
-      "population_and_scope_ja": "特定の試験の結果。指標と条件を限定した表現。",
-      "not_supported_ja": "コーヒーを一杯飲むだけで必ず12時間後の睡眠が悪化すること。",
+      "id": "PSY-SLP-004-R6-C02",
+      "claim_ja": "400mgでは一部の睡眠指標に悪化が見られ、100mgでは明確な差が検出されなかった。",
+      "population_and_scope_ja": "単回追加量と各時刻、偽薬との比較。総睡眠時間など全指標が全時刻で有意だったわけではない。",
+      "not_supported_ja": "無差を同等性・無害の証明にしない。400mgを一日総量や推奨量としない。",
       "source_keys": [
-        "S1"
+        "SRC038"
       ],
       "source_ids": [
         "SRC038"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC038"
+      ],
+      "source_locators": {
+        "SRC038": [
+          "Materials and Methods: Participants, Experimental design, Statistical analysis",
+          "Results: Participants and dose/timing contrasts",
+          "Limitations and Practical Recommendations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-004-C03",
-      "claim_ja": "100mg条件で有意差が検出されなかったことは、万人への無影響・安全性の保証ではない。",
-      "population_and_scope_ja": "小規模試験の統計的非検出の解釈。",
-      "not_supported_ja": "同等性試験によって影響ゼロが証明されたという説明。",
+      "id": "PSY-SLP-004-R6-C03",
+      "claim_ja": "統合研究による締切時刻の目安は個人の安全時刻の実測ではない。",
+      "population_and_scope_ja": "24研究のレビューと、その結果を用いた統計モデル。",
+      "not_supported_ja": "モデルの推定時刻を万人の厳密な締切へ転用しない。",
       "source_keys": [
-        "S1"
+        "SRC111"
+      ],
+      "source_ids": [
+        "SRC111"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC111"
+      ],
+      "source_locators": {
+        "SRC111": [
+          "Abstract: pooled outcomes and model-derived timing"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SLP-004-R6-C04",
+      "claim_ja": "本人が感じる睡眠の質と客観的測定値は一致しない場合があった。",
+      "population_and_scope_ja": "交差試験内の自己報告と簡易型の睡眠ポリグラフによる比較。",
+      "not_supported_ja": "体感が常に無意味、一般向け睡眠機器が常に正しいという意味ではない。",
+      "source_keys": [
+        "SRC038"
       ],
       "source_ids": [
         "SRC038"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC038"
+      ],
+      "source_locators": {
+        "SRC038": [
+          "Materials and Methods: Participants, Experimental design, Statistical analysis",
+          "Results: Participants and dose/timing contrasts",
+          "Limitations and Practical Recommendations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -75,29 +140,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "睡眠を振り返るとき、最後に飲んだ時刻だけでなく、一日のカフェインを含む飲料と量も記録します。",
-      "個人的な記録の変化を医学的な診断や一般的な因果証拠として扱わず、生活条件も一緒に見ます。",
-      "眠れない状態が続く場合は、カフェインだけに原因を限定せず、専門家へ相談する材料にします。"
+      "飲む時刻だけでなく、量と就寝予定を一緒に確認する。",
+      "夜の一杯だけでなく、日中に何度も飲むパターンも振り返る。",
+      "少ない情報から『自分は影響を受けない』と決めず、困りごとが続く場合は相談する。"
     ],
-    "safety": "妊娠中、服薬中、持病がある場合などの個別の摂取判断は、この小規模試験だけから決めません。摂取量の数値は試験条件であり推奨量ではありません。"
+    "safety": "高用量の摂取や睡眠不足を使った自己実験は勧めません。妊娠・授乳、持病、服薬がある場合の摂取判断は、この小規模試験だけで行わないでください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-002",
-      "severity": "major",
-      "finding_ja": "23人の男性の交差試験から、女性や疾患・服薬のある人を含む全員の安全時刻を導けない。100mgの無差は同等性の証明ではない。",
-      "next_action_ja": "試験の対象・除外基準・割付・解析・各指標の差と不確実性を全文で照合し、統合研究と比較する。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "全指標の数値・信頼区間の転記は行わず、一般化を制限した改稿。全文照合と健康記事の最終点検は残る。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

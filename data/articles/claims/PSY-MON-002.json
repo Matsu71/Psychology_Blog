@@ -1,105 +1,130 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-MON-002",
-  "title_ja": "キャッシュレスだと使いすぎる？支払いやすさと、家計の見えやすさを分ける",
+  "title_ja": "キャッシュレスだと使いすぎる？『支払いの手軽さ』と『支出の見えやすさ』を分ける",
   "category_id": "money_consumption",
   "created_on": "2026-09-11",
-  "authoring_revision": "preserved_round4_draft",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-MON-002.json",
+  "authoring_input_sha256": "1e12dc37326c2d2f0e0c16282da63ff4a9b690a828a21799a1f1a02031fe60b4",
   "source_resolution": {
-    "cashless_meta": {
+    "SRC169": {
       "selector": {
-        "key": "cashless_meta",
-        "title": "Less cash, more splash? A meta-analysis on the cashless effect",
-        "expected_title_words": [
-          "cashless",
-          "meta"
-        ]
+        "source_id": "SRC169",
+        "doi": "10.1016/j.jretai.2024.05.003"
       },
       "source_ids": [
         "SRC169"
       ],
-      "resolution_method": "exact_title_requires_identifier_check",
+      "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     }
   },
   "claims": [
     {
-      "id": "PSY-MON-002-C01",
-      "claim_ja": "現金以外の決済と支出の関係を統合した研究があり、決済方法は消費行動の研究対象である。",
-      "population_and_scope_ja": "正確な書誌と本文の対象箇所を照合して採用する。",
-      "not_supported_ja": "キャッシュレスなら全員が必ず支出を増やすという結論。",
+      "id": "PSY-MON-002-R6-C01",
+      "claim_ja": "現金以外の決済では、統合した支出関連指標が平均的に高かった。",
+      "population_and_scope_ja": "外れ値除外後71論文392効果量。実支出、点数、支払意思額を含む。",
+      "not_supported_ja": "全利用者の家計支出が増加するという保証ではない。",
       "source_keys": [
-        "cashless_meta"
+        "SRC169"
       ],
       "source_ids": [
         "SRC169"
       ],
-      "source_resolution_complete": false,
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC169"
+      ],
+      "source_locators": {
+        "SRC169": [
+          "3 Methodology: eligibility, selection, outlier removal",
+          "4.1 Overall effect; moderator analyses; robustness",
+          "5 Discussion and limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-MON-002-C02",
-      "claim_ja": "決済方法の平均効果と、特定の個人の家計管理の結果は分ける必要がある。",
-      "population_and_scope_ja": "研究対象となる決済手段、年代、買い物条件を最終確認する。",
-      "not_supported_ja": "カード、スマホ決済、分割払い、現金を同じ一軸だけで評価すること。",
+      "id": "PSY-MON-002-R6-C02",
+      "claim_ja": "主要分析のHedges gは0.135、95％信頼区間は0.068～0.203だった。",
+      "population_and_scope_ja": "現金以外対現金の標準化差。研究間の異質性が大きい。",
+      "not_supported_ja": "13.5％の支出増、一定の円金額、成功確率には換算できない。",
       "source_keys": [
-        "cashless_meta"
+        "SRC169"
       ],
       "source_ids": [
         "SRC169"
       ],
-      "source_resolution_complete": false,
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC169"
+      ],
+      "source_locators": {
+        "SRC169": [
+          "3 Methodology: eligibility, selection, outlier removal",
+          "4.1 Overall effect; moderator analyses; robustness",
+          "5 Discussion and limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-MON-002-C03",
-      "claim_ja": "登録済み資料に本文の確認がない場合、効果の方向・大きさ・条件差を数値で記事へ入れない。",
-      "population_and_scope_ja": "本文の品質管理ルール。研究結果の主張ではない。",
-      "not_supported_ja": "題名や検索結果だけから、平均支出増加率を作ること。",
-      "source_keys": [],
-      "source_ids": [],
-      "source_resolution_complete": false,
+      "id": "PSY-MON-002-R6-C03",
+      "claim_ja": "消費の文脈により推定される効果に違いがあった。",
+      "population_and_scope_ja": "研究間のモデレーター分析。誇示的消費、向社会的支出など。",
+      "not_supported_ja": "モデレーターの関連自体が無作為化された因果効果とは限らない。",
+      "source_keys": [
+        "SRC169"
+      ],
+      "source_ids": [
+        "SRC169"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC169"
+      ],
+      "source_locators": {
+        "SRC169": [
+          "3 Methodology: eligibility, selection, outlier removal",
+          "4.1 Overall effect; moderator analyses; robustness",
+          "5 Discussion and limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
-  "unresolved_source_keys": [
-    "cashless_meta"
-  ],
+  "unresolved_source_keys": [],
   "application": {
-    "type": "editorial_decision_reflection_not_financial_advice",
+    "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "決済のしやすさと、支出の確認しやすさを分けて考える。",
-      "一つの支出分野で予算と合計を振り返る。",
-      "手段だけを責めず、購入場面や生活の条件も整理する。"
+      "気になる支出を一分野だけ選び、買う前の予算と実際の合計を比べる。",
+      "決済方法だけでなく、疲れていたか、急いでいたか、販売画面に促されたかも分けて振り返る。",
+      "明細の確認など、負担が増えすぎない方法を選ぶ。"
     ],
-    "safety": "借入、信用契約、分割払いの個別判断を心理学の記事だけで決めない。"
+    "safety": "支払い方法の変更で支出が必ず減るとは限りません。借入や分割払いの契約判断を、この心理学の平均効果だけで決めないでください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-008",
-      "severity": "blocking_for_result_section",
-      "finding_ja": "キャッシュレスの原稿は、結果の方向・大きさ・条件差を確認する前の構成稿である。",
-      "next_action_ja": "対象メタ分析の正式題名、収載研究、現金以外の手段、実支出と購入意図、年代、出版バイアスを読解し、結果部分を埋める。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "研究の結果部分は本文の照合後に補う。構成稿として扱い、完成記事に数えない。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

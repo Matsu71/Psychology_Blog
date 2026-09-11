@@ -24,12 +24,12 @@
       "source_id": "SRC169",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "title_only_provisional",
-      "source_review_id": "R3-C062",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC169",
       "legacy_brief_ids": [],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_evaluated",
-      "limits_ja": "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。",
+      "finding_scope_ja": "外れ値2効果量を除いた主要解析は71論文392効果量。実支出・購入点数・支払意思額を含む。平均標準化差は小さく、研究間の異質性が大きい。消費場面等の条件差を検討している。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "sleep",
   "topics": [
     {
@@ -237,12 +237,12 @@
           "title": "Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial.",
           "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": 95.0,
+          "conclusion_direction": "mixed",
+          "limits_ja": "同等性試験でなく100mg無害を保証しない。単回追加量は1日総量・分割摂取と異なる。若年男性、睡眠・医学的条件・交代勤務を除外。遺伝効果の検出力不足、自宅環境、1条件1夜、複数比較の限界。",
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 4,
+            "method_signals_0_to_4": 3,
             "reading_depth_0_to_4": 3
           },
           "caps": [],
@@ -258,8 +258,8 @@
           "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis.",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "supports",
-          "limits_ja": "摂取をやめる時刻の推定は統合モデルに基づく。8.8時間などの数字を万人に共通する安全な締切にしない。追加量・習慣・対象者の差を単回試験と比較する。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "モデル時刻を個人の無影響境界にしない。単回試験と介入・対象が異なり、レビューと構成研究を独立人数に合算しない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -530,6 +530,69 @@
       "topic_id": "PSY-SLP-009",
       "sources": [
         {
+          "edge_id": "EV-PSY-SLP-009-SRC272",
+          "source_id": "SRC272",
+          "title": "Go to bed! A systematic review and meta-analysis of bedtime procrastination correlates and sleep outcomes",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "相関の統合で因果は不明。著者GRADEを独立評価とせず、2023年同名学会要旨は別研究に数えない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-SLP-009-SRC010",
+          "source_id": "SRC010",
+          "title": "Bedtime procrastination: introducing a new area of procrastination",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "不眠、勤務・介護制約、夜型を意志の弱さで一括りにしない。横断研究で原因・治療効果は確定しない。",
+          "priority_score": 80.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-SLP-009-SRC273",
+          "source_id": "SRC273",
+          "title": "Development and validation of the Japanese version of the Bedtime Procrastination Scale (BPS-J)",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。",
+          "priority_score": 80.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 3
+        },
+        {
           "edge_id": "EV-PSY-SLP-009-SRC266",
           "source_id": "SRC266",
           "title": "Procrastination and the Priority of Short-Term Mood Regulation: Consequences for Future Self",
@@ -547,29 +610,8 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
-        },
-        {
-          "edge_id": "EV-PSY-SLP-009-SRC010",
-          "source_id": "SRC010",
-          "title": "Bedtime procrastination: introducing a new area of procrastination",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 2
+          "priority_rank": 4,
+          "display_position": 4
         }
       ]
     },

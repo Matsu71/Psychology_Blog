@@ -4,7 +4,6 @@
   "ranked_queue": "data/rankings/research_queue.json",
   "topic_ids_without_registered_sources": [],
   "topic_ids_without_targeted_review": [
-    "PSY-MON-002",
     "PSY-ATT-003",
     "PSY-ADD-002",
     "PSY-ADD-005",

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "attention",
   "topics": [
     {
@@ -92,17 +92,19 @@
           "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance.",
           "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": 87.5,
+          "conclusion_direction": "mixed",
+          "limits_ja": "dを％改善にしない。休憩時間の研究間回帰は最適分数の因果検証でない。本文と表のp値は一致せず、記事は一致する推定値とCIを使用。",
+          "priority_score": 65,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 3,
             "reading_depth_0_to_4": 3
           },
-          "caps": [],
+          "caps": [
+            "unresolved_reporting_issue_max_65"
+          ],
           "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
+          "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
@@ -193,15 +195,17 @@
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": 77.5,
+          "priority_score": 65,
           "components": {
             "theme_relevance_1_to_5": 4,
             "method_signals_0_to_4": 3,
             "reading_depth_0_to_4": 3
           },
-          "caps": [],
+          "caps": [
+            "unresolved_reporting_issue_max_65"
+          ],
           "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
+          "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1

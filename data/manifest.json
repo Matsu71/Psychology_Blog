@@ -8,7 +8,7 @@
   "phase": "claim_evidence_mapping_and_manuscript_revision",
   "category_count": 28,
   "topic_count": 300,
-  "source_count": 270,
+  "source_count": 273,
   "reference_linked_count": 300,
   "search_pending_count": 0,
   "topic_defaults": {
@@ -42,7 +42,8 @@
     "evidence_catalog": "data/evidence/catalog.json",
     "literature_catalog": "data/literature/catalog.json",
     "rankings": "data/rankings/",
-    "editorial_delivery": "data/research/editorial_delivery_report.json"
+    "editorial_delivery": "data/research/editorial_delivery_report.json",
+    "source_text_checks": "data/research/source_text_checks.json"
   },
   "initial_shortlist": [
     "PSY-SLP-001",
@@ -74,5 +75,6 @@
   "candidate_record_count": 3018,
   "search_request_count": 810,
   "research_round": "round3-ranked-evidence-v1",
-  "latest_delivery": "editorial-2026-09-11-v1"
+  "latest_delivery": "editorial-2026-09-11-v1",
+  "latest_editorial_pass": "source-editorial-pass-20260911"
 }

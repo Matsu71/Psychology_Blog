@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-SLP-009",
-  "title_ja": "眠いのに寝ない夜——就寝先延ばしを、意志の弱さだけで説明しない",
+  "title_ja": "眠いのに寝ないのはなぜ？『就寝先延ばし』と自由時間の使い方",
   "category_id": "sleep",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-SLP-009.json",
+  "authoring_input_sha256": "fe2124a71ec366eef653c52efe51189f777dbb291ec62665568316519a3f962a",
   "source_resolution": {
-    "S1": {
+    "SRC010": {
       "selector": {
-        "key": "S1",
+        "source_id": "SRC010",
         "doi": "10.3389/fpsyg.2014.00611"
       },
       "source_ids": [
@@ -17,13 +20,24 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC272": {
       "selector": {
-        "key": "S2",
-        "doi": "10.1111/spc3.12011"
+        "source_id": "SRC272",
+        "doi": "10.1016/j.smrv.2022.101697"
       },
       "source_ids": [
-        "SRC266"
+        "SRC272"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC273": {
+      "selector": {
+        "source_id": "SRC273",
+        "doi": "10.1186/s40359-024-01557-4"
+      },
+      "source_ids": [
+        "SRC273"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -31,56 +45,78 @@
   },
   "claims": [
     {
-      "id": "PSY-SLP-009-C01",
-      "claim_ja": "就寝先延ばしは、外的な妨げがないのに意図した時刻の就寝を遅らせる行動として研究された。",
-      "population_and_scope_ja": "2014年の初期研究での概念と自己報告の評価。",
-      "not_supported_ja": "すべての遅寝・夜型・介護や勤務による遅い就寝の病理化。",
+      "id": "PSY-SLP-009-R6-C01",
+      "claim_ja": "就寝先延ばしは、外的理由がないのに意図した就床時刻を遅らせる行動として定義された。",
+      "population_and_scope_ja": "2014年の概念と尺度の研究。",
+      "not_supported_ja": "不眠、交代勤務、介護、夜型をすべて同じ問題としない。",
       "source_keys": [
-        "S1"
+        "SRC010"
       ],
       "source_ids": [
         "SRC010"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC010"
+      ],
+      "source_locators": {
+        "SRC010": [
+          "Introduction: definition",
+          "Methods and Discussion"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-009-C02",
-      "claim_ja": "初期の関連研究だけでは、就寝先延ばしの原因や対処法の効果は確定できない。",
-      "population_and_scope_ja": "横断的な自己報告研究の設計上の限界。",
-      "not_supported_ja": "自己制御の弱さが唯一の原因であること。",
+      "id": "PSY-SLP-009-R6-C02",
+      "claim_ja": "43研究の統合では睡眠や自己コントロールとの関連があり、著者の確実性評価は低かった。",
+      "population_and_scope_ja": "2022年の相関研究を中心とした統合。著者のGRADE評価であり本プロジェクトの独立評価ではない。",
+      "not_supported_ja": "関連から原因の順序や最適な介入を確定できない。",
       "source_keys": [
-        "S1"
+        "SRC272"
       ],
       "source_ids": [
-        "SRC010"
+        "SRC272"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC272"
+      ],
+      "source_locators": {
+        "SRC272": [
+          "Abstract: methods, findings, GRADE and causal caveat"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-009-C03",
-      "claim_ja": "短期の気分調整という先延ばしの理論は、夜の行動を考える補助線にはなるが、個人の理由を確定しない。",
-      "population_and_scope_ja": "一般理論と就寝行動への解釈を明示的に分離する。",
-      "not_supported_ja": "自由時間の不足を原因とする単一の因果説明。",
+      "id": "PSY-SLP-009-R6-C03",
+      "claim_ja": "日本語版尺度の研究は、日中勤務者574人を解析した。",
+      "population_and_scope_ja": "募集600人、解析574人、再検査280人。尺度の妥当性・安定性を検討。",
+      "not_supported_ja": "全国有病率、個別診断、交代勤務者や治療への効果を示さない。",
       "source_keys": [
-        "S1",
-        "S2"
+        "SRC273"
       ],
       "source_ids": [
-        "SRC010",
-        "SRC266"
+        "SRC273"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC6-SRC273"
+      ],
+      "source_locators": {
+        "SRC273": [
+          "Methods: Participants, Survey design",
+          "Results: selection",
+          "Discussion: limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -88,22 +124,22 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "予定より遅く寝た日は、実際に寝る選択ができた時刻と、仕事や家事で拘束されていた時刻を分けて振り返ります。",
-      "寝る前に何を終えにくかったかを一つ記録し、個人の工夫で変えられる条件と、周囲の調整が必要な条件を分けます。",
-      "就寝時刻だけを厳しく管理するのではなく、日中に休息や自由時間を確保する余地も検討します。"
+      "寝たい時刻と、遅れる理由を分けて振り返る。",
+      "夜に得たい自由時間や気分転換を、具体的に言葉にする。",
+      "無理な禁止より、準備や楽しみの終わり方を負担の小さい範囲で工夫する。"
     ],
-    "safety": "夜型を怠けと扱わず、睡眠障害や勤務条件による問題を自己管理だけの責任にしません。"
+    "safety": "眠る機会があっても眠れない場合や、強い日中の眠気が続く場合は、単なる先延ばしと決めつけず適切な相談を優先してください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "初期研究の概念説明に限定。最新の就寝先延ばし介入・縦断研究との照合は未完了。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

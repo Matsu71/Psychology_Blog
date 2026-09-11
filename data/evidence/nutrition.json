@@ -38,26 +38,26 @@
       "source_id": "SRC149",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C042",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC149",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "24研究で食事中の注意・記憶と、その場や後の摂取量を比較。気が散る条件で摂取量が増える傾向を報告。",
+      "finding_scope_ja": "19論文24実験を整理。注意をそらす操作で、その場・後の摂取増加を報告。多くは若い成人・短時間の実験。",
       "conclusion_direction": "mixed",
-      "limits_ja": "短期の摂取量を長期の体重変化へ読み替えない。収載研究の訂正・撤回と新しい統合結果の照合が必要。",
+      "limits_ja": "全24実験が同じ操作・結果ではない。SMDを％摂取量・体重変化にしない。記憶を唯一の機序とせず、2025年のテレビレビューと区別する。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
       "id": "EV-PSY-NUT-003-SRC150",
       "topic_id": "PSY-NUT-003",
       "source_id": "SRC150",
-      "relation_role": "direct_or_targeted_evidence",
+      "relation_role": "context_only",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C043",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC150",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "23研究の統合は全解析で一律に有意ではなく、テレビのみの比較では小さな効果、次の食事と直後の食事で違いがあった。",
+      "finding_scope_ja": "2025年テレビ視聴レビューを2013年の注意レビューと区別。全体とテレビのみ、即時と後の摂取の報告を照合。",
       "conclusion_direction": "mixed",
-      "limits_ja": "肯定的な題名だけで結論を要約しない。解析対象・異質性・アウトカム時点を明示する。",
+      "limits_ja": "公開HTMLの抄録と4.4のCIに違いがあり、F統計量に負値の記載がある。修正値を推測せず該当定量結果を現稿から除外。撤回や結論無効を認定したものではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -188,6 +188,20 @@
       "finding_scope_ja": "生活介入の小規模な長期サブ研究では、柔軟な抑制だけでなく厳格な抑制の変化も体重維持と関連した。",
       "conclusion_direction": "mixed",
       "limits_ja": "厳格な食事ルールは必ず悪いという単純化への注意。個々の抑制を無作為割付したわけではなく、媒介解析は因果証明でない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-NUT-003-SRC271",
+      "topic_id": "PSY-NUT-003",
+      "source_id": "SRC271",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC6-SRC271",
+      "finding_scope_ja": "減量希望の過体重・肥満成人107人をアプリ＋助言53人と同じ助言54人へ割付。8週調整体重差−.10kg、CI−1.6～1.3。摂取量にも明確な差なし。多重代入で主要解析に全割付者を維持。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "英国、参加者・測定者非盲検、8週完了85人。特定アプリ上乗せの試験で、全注意介入の無効とはしない。2020年の利用者解析は同試験由来で独立追試に数えない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

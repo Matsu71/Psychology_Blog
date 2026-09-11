@@ -138,7 +138,7 @@ def main() -> None:
                 identity=sel.get('doi') or sel.get('pmid') or sel.get('title') or sel.get('url') or key
                 lines += [f'[{key}] 台帳との一意な照合が未完了：{identity}。','']
         if spec.get('editorial_hold'): lines += ['編集上の保留事項：'+spec['editorial_hold'],'']
-        lines += [f'根拠表：../../../data/articles/claims/{tid}.json','']
+        lines += [f'根拠表：../../data/articles/claims/{tid}.json','']
         DRAFTS.mkdir(parents=True,exist_ok=True)
         path=DRAFTS/f'{tid}.md'
         path.write_text('\n'.join(lines),encoding='utf-8')
@@ -166,6 +166,9 @@ def main() -> None:
            '| テーマID | テーマ | 状態 |','|---|---|---|']
     for r in records: lines.append(f"| {r['topic_id']} | {r['title_ja']} | {r['state']} |")
     (ROOT/'docs/ARTICLE_PROGRESS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    if (ROOT/'data/research/source_text_checks.json').exists():
+        from apply_editorial_pass import apply_manuscripts
+        report = apply_manuscripts()
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__=='__main__':

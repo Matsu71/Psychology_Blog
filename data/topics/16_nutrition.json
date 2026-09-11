@@ -47,12 +47,16 @@
       "priority": 1,
       "source_ids": [
         "SRC149",
-        "SRC150"
+        "SRC150",
+        "SRC271"
       ],
       "caution_ja": "小規模な実験課題の結果を長期の体重変化に読み替えない。",
       "source_review_ids": [
         "R3-C042",
-        "R3-C043"
+        "R3-C043",
+        "SC6-SRC149",
+        "SC6-SRC150",
+        "SC6-SRC271"
       ]
     },
     {

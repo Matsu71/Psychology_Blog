@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "scoring_version": "work-priority-1.0",
+  "scoring_version": "work-priority-1.1",
   "category_id": "personality",
   "topics": [
     {
@@ -10,7 +10,7 @@
           "edge_id": "EV-PSY-PER-001-SRC036",
           "source_id": "SRC036",
           "title": "Heritability of personality: A meta-analysis of behavior genetic studies.",
-          "review_scope": "legacy_abstract_review",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
@@ -54,45 +54,45 @@
       "topic_id": "PSY-PER-002",
       "sources": [
         {
-          "edge_id": "EV-PSY-PER-002-SRC046",
-          "source_id": "SRC046",
-          "title": "A systematic review of personality trait change through intervention.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 1
-        },
-        {
           "edge_id": "EV-PSY-PER-002-SRC047",
           "source_id": "SRC047",
           "title": "Changing personality traits with the help of a digital personality change intervention.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "3か月同期間無介入比較ではない。本人と他者、増加目標と減少目標で違いがある。選択・離脱・他者評定欠測・短い追跡に注意。",
+          "priority_score": 87.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-PER-002-SRC046",
+          "source_id": "SRC046",
+          "title": "A systematic review of personality trait change through intervention.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "RCTだけでなく非実験的・前後比較。症状・特性・一時的状態を区別し、望んだ人格へ必ず変わるとはしない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
           "display_position": 2
         }
       ]
@@ -132,15 +132,15 @@
           "edge_id": "EV-PSY-PER-004-SRC046",
           "source_id": "SRC046",
           "title": "A systematic review of personality trait change through intervention.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -184,15 +184,15 @@
           "edge_id": "EV-PSY-PER-006-SRC037",
           "source_id": "SRC037",
           "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -205,15 +205,15 @@
           "edge_id": "EV-PSY-PER-006-SRC047",
           "source_id": "SRC047",
           "title": "Changing personality traits with the help of a digital personality change intervention.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

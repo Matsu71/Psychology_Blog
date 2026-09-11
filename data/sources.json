@@ -54,7 +54,9 @@
       "url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
       "verified_via_url": "https://www.medlineplus.gov/genetics/understanding/inheritance/heritability/",
       "verification_scope": "official_page_reviewed",
-      "notes_ja": "遺伝率は集団内のばらつきの指標で、個人の遺伝割合や不変性ではない。性格の具体的遺伝率を示す研究は別途必要。"
+      "notes_ja": "遺伝率は集団内のばらつきの指標で、個人の遺伝割合や不変性ではない。性格の具体的遺伝率を示す研究は別途必要。",
+      "latest_source_check_id": "SC6-SRC004",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC005",
@@ -134,7 +136,9 @@
       "verified_via_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
       "verification_scope": "abstract_reviewed",
       "study_design": "cross_sectional_self_report",
-      "notes_ja": "自己報告の関連研究。就寝先延ばしの因果機序や全種類の先延ばしへの一般化は未評価。参考文献も一部確認。"
+      "notes_ja": "自己報告の関連研究。就寝先延ばしの因果機序や全種類の先延ばしへの一般化は未評価。参考文献も一部確認。",
+      "latest_source_check_id": "SC6-SRC010",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC011",
@@ -498,7 +502,9 @@
         "DISC-PSY-GEN-001"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC036",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC037",
@@ -528,7 +534,9 @@
           "orderIn": 10002
         }
       ],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC037",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC038",
@@ -550,7 +558,9 @@
         "SEED-002"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC038",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC039",
@@ -572,7 +582,9 @@
         "SEED-003"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC039",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC040",
@@ -764,7 +776,9 @@
         "SEED-011"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC046",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC047",
@@ -794,7 +808,9 @@
           "orderIn": 10002
         }
       ],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC047",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC048",
@@ -956,7 +972,9 @@
         "SEED-020"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC054",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC055",
@@ -2451,7 +2469,9 @@
         "SUP-019"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC104",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC105",
@@ -2628,7 +2648,9 @@
         "R3-X-004"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC111",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC112",
@@ -3541,7 +3563,9 @@
         "R3-X-042"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC149",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC150",
@@ -3563,7 +3587,9 @@
         "R3-X-043"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC150",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC151",
@@ -3797,7 +3823,9 @@
         "R3-X-052"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC159",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC160",
@@ -4010,7 +4038,7 @@
       "pmid": null,
       "url": "https://doi.org/10.1016/j.jretai.2024.05.003",
       "verified_via_url": "https://api.crossref.org/works?query.title=Less+cash+more+splash+A+meta-analysis+on+the+cashless+effect&rows=3&filter=until-pub-date%3A2026-09-11",
-      "verification_scope": "bibliography_verified",
+      "verification_scope": "abstract_reviewed",
       "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
       "accessed_on": "2026-09-11",
       "record_role": "research_entry",
@@ -4018,7 +4046,9 @@
         "R3-C-059"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "not_completed"
+      "correction_retraction_check": "not_completed",
+      "latest_source_check_id": "SC6-SRC169",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC170",
@@ -6154,7 +6184,9 @@
       "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
       "indexed_related_records": [],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "latest_source_check_id": "SC6-SRC266",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC267",
@@ -6241,6 +6273,63 @@
       "indexed_related_records": [],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
       "latest_reviewed_on": "2026-09-11"
+    },
+    {
+      "id": "SRC271",
+      "title": "A smartphone based attentive eating intervention for energy intake and weight loss: results from a randomised controlled trial",
+      "authors_display": "Whitelock V; Kersbergen I; Higgs S; Aveyard P; Halford JCG; Robinson E",
+      "year": 2019,
+      "journal": "BMC Public Health 19:611",
+      "doi": "10.1186/s12889-019-6923-x",
+      "pmid": "31113400",
+      "url": "https://link.springer.com/article/10.1186/s12889-019-6923-x",
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://link.springer.com/article/10.1186/s12889-019-6923-x",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "方法・結果・欠測処理を確認。SC6の確認箇所と限界を参照。正式な確実性評価や独立査読ではない。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC271",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "id": "SRC272",
+      "title": "Go to bed! A systematic review and meta-analysis of bedtime procrastination correlates and sleep outcomes",
+      "authors_display": "Hill VM; Rebar AL; Ferguson SA; Shriane AE; Vincent GE",
+      "year": 2022,
+      "journal": "Sleep Medicine Reviews 66:101697",
+      "doi": "10.1016/j.smrv.2022.101697",
+      "pmid": "36375334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36375334/",
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/36375334/",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "抄録の43研究と低いGRADE評価を確認。著者評価と本プロジェクトの評価を区別する。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC272",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "id": "SRC273",
+      "title": "Development and validation of the Japanese version of the Bedtime Procrastination Scale (BPS-J)",
+      "authors_display": "Hazumi M; Kawamura A; Yoshiike T; et al.",
+      "year": 2024,
+      "journal": "BMC Psychology",
+      "doi": "10.1186/s40359-024-01557-4",
+      "pmid": null,
+      "url": "https://link.springer.com/article/10.1186/s40359-024-01557-4",
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://link.springer.com/article/10.1186/s40359-024-01557-4",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "日本語版尺度の対象、選別、測定の限界を確認。診断・有病率・治療効果を示す資料ではない。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "latest_source_check_id": "SC6-SRC273",
+      "latest_source_checked_on": "2026-09-11"
     }
   ],
   "updated_on": "2026-09-11"
