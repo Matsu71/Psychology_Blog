@@ -240,6 +240,66 @@
       "source_resolution_pending": [],
       "editorial_hold": null,
       "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "title": "失敗した自分に厳しいほど、次は頑張れる？責任と自己攻撃を分ける",
+      "path": "articles/drafts/round4_continuation/PSY-MOT-009.md",
+      "claim_file": "data/research/round4_continuation/claims/PSY-MOT-009.json",
+      "wording_source_audit": "pending",
+      "status": "article_draft",
+      "canonical_editorial_top20": false,
+      "source_resolution_pending": [],
+      "editorial_hold": null,
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "title": "怒りは発散すれば収まる？『話すこと』と『興奮を強めること』は違う",
+      "path": "articles/drafts/round4_continuation/PSY-EMO-008.md",
+      "claim_file": "data/research/round4_continuation/claims/PSY-EMO-008.json",
+      "wording_source_audit": "pending",
+      "status": "article_draft",
+      "canonical_editorial_top20": false,
+      "source_resolution_pending": [],
+      "editorial_hold": null,
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-002",
+      "title": "一夜漬けと分散学習――『いつまで覚えたいか』から復習を考える",
+      "path": "articles/drafts/round4_continuation/PSY-LEA-002.md",
+      "claim_file": "data/research/round4_continuation/claims/PSY-LEA-002.json",
+      "wording_source_audit": "pending",
+      "status": "article_draft",
+      "canonical_editorial_top20": false,
+      "source_resolution_pending": [],
+      "editorial_hold": null,
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-HAB-005",
+      "title": "『もし忙しかったら』まで決めておく――行動計画を具体的にする",
+      "path": "articles/drafts/round4_continuation/PSY-HAB-005.md",
+      "claim_file": "data/research/round4_continuation/claims/PSY-HAB-005.json",
+      "wording_source_audit": "pending",
+      "status": "article_draft",
+      "canonical_editorial_top20": true,
+      "source_resolution_pending": [],
+      "editorial_hold": null,
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-EXE-002",
+      "title": "運動は気分のケアになる？『動けば治る』と言わないための読み方",
+      "path": "articles/drafts/round4_continuation/PSY-EXE-002.md",
+      "claim_file": "data/research/round4_continuation/claims/PSY-EXE-002.json",
+      "wording_source_audit": "pending",
+      "status": "article_draft",
+      "canonical_editorial_top20": false,
+      "source_resolution_pending": [],
+      "editorial_hold": "訂正内容、介入の重複、医療上の安全性を最終確認する。",
+      "publication_ready": false
     }
   ]
 }

@@ -2,13 +2,54 @@
   "schema_version": "1.0",
   "topic_id": "PSY-HAB-005",
   "title": "『もしXならYする』は行動を助ける？",
-  "status": "claim_extraction_pending",
-  "claims": [],
-  "existing_source_ids": [
-    "SRC026",
-    "SRC098",
-    "SRC124"
+  "claims": [
+    {
+      "id": "CL-PSY-HAB-005-01",
+      "topic_id": "PSY-HAB-005",
+      "statement_ja": "理想と障害の対比に実行計画を組み合わせる手法のメタ分析では、目標達成に平均的な改善が報告された。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "21研究、15907人。複数要素を組み合わせる手法。",
+      "cannot_infer_ja": "『もし～なら』という一文だけの効果量として使うこと。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-HAB-005-02",
+      "topic_id": "PSY-HAB-005",
+      "statement_ja": "出版バイアスの可能性があり、見かけの効果をそのまま普遍的な大きさとしない。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "メタ分析で指摘された限界。",
+      "cannot_infer_ja": "前向きに想像すれば望みがかなうという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-HAB-005-03",
+      "topic_id": "PSY-HAB-005",
+      "statement_ja": "実行意図の構成過程を調べた論文は、書誌確認と結果の読解を区別して扱う。",
+      "source_ids": [
+        "SRC026"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "前段階の台帳では参考文献欄で書誌を確認した資料。",
+      "cannot_infer_ja": "書誌しか確認していない論文から、具体的な数値や機序を断定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
   ],
-  "next_action_ja": "当該テーマの既存読解メモから主張を抽出し、対象・比較・反証・限界を個別に確認する。",
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
   "publication_ready": false
 }

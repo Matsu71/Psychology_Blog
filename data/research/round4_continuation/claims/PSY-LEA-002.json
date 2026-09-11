@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-002",
+  "title": "一夜漬けと分散学習、長く覚えられるのはどちら？",
+  "claims": [
+    {
+      "id": "CL-PSY-LEA-002-01",
+      "topic_id": "PSY-LEA-002",
+      "statement_ja": "学習を時間的に分けることと記憶保持の関係は、多数の実験で検討されている。",
+      "source_ids": [
+        "SRC051"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "言語的な再生課題を中心とする184論文・317実験のメタ分析。",
+      "cannot_infer_ja": "すべての実技や日常業務に同じ効果があるという一般化。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-LEA-002-02",
+      "topic_id": "PSY-LEA-002",
+      "statement_ja": "後のテストまでの期間が長いほど、利点を示す学習間隔も長くなる傾向が報告された。",
+      "source_ids": [
+        "SRC051"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "学習間隔と保持間隔の組み合わせ。",
+      "cannot_infer_ja": "一つの復習日程が全教材・全員に最適という主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-LEA-002-03",
+      "topic_id": "PSY-LEA-002",
+      "statement_ja": "分散学習と練習テストは、それぞれ検討された学習技法であり、好きな教材を同じ回数眺めることだけを意味しない。",
+      "source_ids": [
+        "SRC027"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "複数の学習方法を扱う基礎レビュー。最新の全研究を網羅した評価ではない。",
+      "cannot_infer_ja": "古いレビューの評価を、今後一切更新不要の結論とすること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

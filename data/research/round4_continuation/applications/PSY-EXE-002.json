@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-EXE-002",
+  "application": {
+    "type": "supportive_option_discussion_not_exercise_prescription",
+    "steps": [
+      "目的が気分転換か、臨床的な症状の支援かを分ける。",
+      "本人の体調、好み、痛み、支援の有無を確認する。",
+      "治療中の場合は、活動の取り入れ方を担当者と相談する。"
+    ],
+    "safety": "治療の中断、痛みを無視した運動、過剰な負荷を勧めない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-EXE-002-01",
+    "CL-PSY-EXE-002-02",
+    "CL-PSY-EXE-002-03",
+    "CL-PSY-EXE-002-04"
+  ],
+  "publication_ready": false
+}

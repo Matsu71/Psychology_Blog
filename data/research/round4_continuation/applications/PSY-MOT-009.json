@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-009",
+  "application": {
+    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "steps": [
+      "起きた事実と、自分への評価を別に書く。",
+      "次に修正できる行動を一つ選ぶ。",
+      "自己批判が強いこと自体を新たな失敗として扱わない。"
+    ],
+    "safety": "持続する抑うつや強い苦痛への治療の代わりにしない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-MOT-009-01",
+    "CL-PSY-MOT-009-02",
+    "CL-PSY-MOT-009-03"
+  ],
+  "publication_ready": false
+}

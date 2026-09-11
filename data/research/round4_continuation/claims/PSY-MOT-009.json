@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-009",
+  "title": "失敗したとき、自分に厳しい方が再挑戦できる？",
+  "claims": [
+    {
+      "id": "CL-PSY-MOT-009-01",
+      "topic_id": "PSY-MOT-009",
+      "statement_ja": "セルフコンパッションへの介入は、抑うつ・不安・ストレスの指標に平均的な改善を示した研究がある。",
+      "source_ids": [
+        "SRC105"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "56件の無作為化比較試験をまとめたレビュー。",
+      "cannot_infer_ja": "自分に優しくすれば誰もが治る、仕事や学業の成績も上がるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MOT-009-02",
+      "topic_id": "PSY-MOT-009",
+      "statement_ja": "研究全体のバイアスリスクが高く、有効な別介入との比較も限られるため、優位性の解釈は慎重にする必要がある。",
+      "source_ids": [
+        "SRC105"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "レビューの質評価と比較条件の限界。",
+      "cannot_infer_ja": "無介入より改善したことだけで、最良の方法だと決めること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-MOT-009-03",
+      "topic_id": "PSY-MOT-009",
+      "statement_ja": "自尊感情とセルフコンパッションは関連が強いが、同じ概念ではない。",
+      "source_ids": [
+        "SRC106"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "76研究、35537人の関連を扱うレビュー。",
+      "cannot_infer_ja": "相関だけから、どちらを高める介入の方が有効か判断すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}

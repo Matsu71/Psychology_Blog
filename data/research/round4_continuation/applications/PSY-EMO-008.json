@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-EMO-008",
+  "application": {
+    "type": "editorial_safety_first_suggestion_not_treatment_protocol",
+    "steps": [
+      "怒りの原因と、今取りそうな行動を分ける。",
+      "危険な行動を避け、落ち着いて判断できる余地を作る。",
+      "問題の解決や支援への相談は、感情を落ち着かせることと別に扱う。"
+    ],
+    "safety": "物や人への攻撃を対処法として勧めない。差し迫った暴力の危険は自己対処だけで扱わない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-EMO-008-01",
+    "CL-PSY-EMO-008-02",
+    "CL-PSY-EMO-008-03"
+  ],
+  "publication_ready": false
+}

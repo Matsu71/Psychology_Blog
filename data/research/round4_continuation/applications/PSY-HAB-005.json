@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-005",
+  "application": {
+    "type": "editorial_plan_example_not_exact_trial_protocol",
+    "steps": [
+      "目標を実行する場面を具体的にする。",
+      "起こりそうな障害を一つ挙げる。",
+      "障害が起きた場合の、安全で実行可能な代替行動を考える。"
+    ],
+    "safety": "過度な罰や金銭的ペナルティで自分を追い込む計画にしない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-HAB-005-01",
+    "CL-PSY-HAB-005-02",
+    "CL-PSY-HAB-005-03"
+  ],
+  "publication_ready": false
+}

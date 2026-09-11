@@ -1461,6 +1461,260 @@
       "registry_origin": "existing_canonical_source",
       "canonical_source_id": "SRC099",
       "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC105",
+      "title": "Effects of Self-Compassion Interventions on Reducing Depressive Symptoms, Anxiety, and Stress: A Meta-Analysis.",
+      "authors_display": "Han A, Kim TH.",
+      "year": 2023,
+      "journal": "Mindfulness",
+      "source_type": "journal_article",
+      "doi": "10.1007/s12671-023-02148-x",
+      "pmid": "37362192",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37362192/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22self-compassion%22+AND+TITLE%3A%22meta-analysis%22+AND+FIRST_PDATE%3A%5B2023-01-01+TO+2023-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-06-05",
+      "provenance_query_ids": [
+        "SUP-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC105",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC106",
+      "title": "Self-Esteem and Self-Compassion: A Narrative Review and Meta-Analysis on Their Links to Psychological Problems and Well-Being.",
+      "authors_display": "Muris P, Otgaar H.",
+      "year": 2023,
+      "journal": "Psychology research and behavior management",
+      "source_type": "journal_article",
+      "doi": "10.2147/prbm.s402455",
+      "pmid": "37554304",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37554304/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22self-compassion%22+AND+TITLE%3A%22meta-analysis%22+AND+FIRST_PDATE%3A%5B2023-01-01+TO+2023-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-08-03",
+      "provenance_query_ids": [
+        "SUP-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC106",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC058",
+      "title": "A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage?",
+      "authors_display": "Kjærvik SL, Bushman BJ.",
+      "year": 2024,
+      "journal": "Clinical psychology review",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.cpr.2024.102414",
+      "pmid": "38518585",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38518585/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22anger%22+AND+TITLE%3A%22arousal%22+AND+FIRST_PDATE%3A%5B2024-01-01+TO+2024-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-03-11",
+      "provenance_query_ids": [
+        "SEED-025"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC058",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC057",
+      "title": "Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials.",
+      "authors_display": "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K.",
+      "year": 2023,
+      "journal": "Scientific reports",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41598-022-27247-y",
+      "pmid": "36624160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36624160/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+breathwork+on+stress%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2023-01-09",
+      "provenance_query_ids": [
+        "SEED-024"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC057",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC098",
+      "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
+      "authors_display": "Wang G, Wang Y, Gai X.",
+      "year": 2021,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2021.565202",
+      "pmid": "34054628",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34054628/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22implementation+intentions%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2021-05-12",
+      "provenance_query_ids": [
+        "SEED-075"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC098",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC026",
+      "title": "How do implementation intentions promote goal attainment? A test of component processes",
+      "authors_display": "Webb TL; Sheeran P",
+      "year": 2007,
+      "journal": "Journal of Experimental Social Psychology 43:295–302",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jesp.2006.02.001",
+      "url": "https://doi.org/10.1016/j.jesp.2006.02.001",
+      "verified_via_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "SRC010の参考文献欄で書誌を確認。効果量や日常行動への一般化は未評価。",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC026",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC061",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "authors_display": "Noetel M, Sanders T, Gallardo-Gómez D, Taylor P, Del Pozo Cruz B, van den Hoek D, Smith JJ, Mahoney J, Spathis J, Moresi M, Pagano R, Pagano L, Vasconcellos R, Arnott H, Varley B, Parker P, Biddle S, Lonsdale C.",
+      "year": 2024,
+      "journal": "BMJ (Clinical research ed.)",
+      "source_type": "journal_article",
+      "doi": "10.1136/bmj-2023-075847",
+      "pmid": "38355154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38355154/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2024-02-14",
+      "provenance_query_ids": [
+        "SEED-029"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "38355168",
+          "source": "MED",
+          "reference": "BMJ. 2024 Feb 14;384:q320. doi: 10.1136/bmj.q320.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "38471734",
+          "source": "MED",
+          "reference": "BMJ. 2024 Mar 12;384:q609. doi: 10.1136/bmj.q609.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "38499300",
+          "source": "MED",
+          "reference": "BMJ. 2024 Mar 18;384:q617. doi: 10.1136/bmj.q617.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "38806193",
+          "source": "MED",
+          "reference": "BMJ. 2024 May 28;385:q1024. doi: 10.1136/bmj.q1024.",
+          "type": "Erratum in",
+          "orderIn": 4
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC061",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC062",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "authors_display": "書誌に著者記載なし",
+      "year": 2024,
+      "journal": "BMJ (Clinical research ed.)",
+      "source_type": "journal_article",
+      "doi": "10.1136/bmj.q1024",
+      "pmid": "38806193",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38806193/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "関連する訂正告知。独立した効果検証研究の件数には含めない。 書誌のみ確認。訂正の内容と結論への影響は未精査。",
+      "accessed_on": "2026-09-11",
+      "record_role": "correction_notice",
+      "first_publication_date": "2024-05-28",
+      "provenance_query_ids": [
+        "SEED-029",
+        "SUP-013"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "38355154",
+          "source": "MED",
+          "reference": "BMJ. 2024 Feb 14;384:e075847. doi: 10.1136/bmj-2023-075847",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC062",
+      "reverified_in_this_run": false
+    },
+    {
+      "id": "SRC063",
+      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
+      "authors_display": "Munro NR, Teague S, Somoray K, Simpson A, Budden T, Jackson B, Rebar A, Dimmock J.",
+      "year": 2026,
+      "journal": "British journal of sports medicine",
+      "source_type": "journal_article",
+      "doi": "10.1136/bjsports-2025-110301",
+      "pmid": "41667154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41667154/",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+exercise+for+depression%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+      "accessed_on": "2026-09-11",
+      "record_role": "reviewed_research",
+      "first_publication_date": "2026-03-31",
+      "provenance_query_ids": [
+        "SEED-029"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "registry_origin": "existing_canonical_source",
+      "canonical_source_id": "SRC063",
+      "reverified_in_this_run": false
     }
   ]
 }

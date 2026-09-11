@@ -3,7 +3,7 @@
   "date": "2026-09-11",
   "final_goal_articles": 300,
   "goal_completed": false,
-  "new_authored_drafts": 20,
+  "new_authored_drafts": 25,
   "new_publication_ready_articles": 0,
   "editorial_top20_ids": [
     "PSY-MOT-001",
@@ -27,19 +27,18 @@
     "PSY-LAN-008",
     "PSY-MON-001"
   ],
-  "editorial_top20_claim_map_drafts": 18,
+  "editorial_top20_claim_map_drafts": 19,
   "editorial_top20_claim_extraction_pending": [
-    "PSY-HAB-005",
     "PSY-LAN-008"
   ],
-  "authored_claim_count": 65,
-  "application_dossiers": 20,
+  "authored_claim_count": 81,
+  "application_dossiers": 25,
   "gap_topics_requested": 29,
   "gap_topics_with_matched_bibliography": 28,
   "gap_topics_unresolved": [
     "PSY-INT-007"
   ],
-  "supplemental_source_record_count": 68,
+  "supplemental_source_record_count": 77,
   "canonical_registry_mutated": false,
   "canonical_registration_status": "supplement_staged_not_merged_into_legacy_sources_or_rankings",
   "new_sources_abstract_reviewed_automatically": 0,
@@ -47,7 +46,7 @@
     "新規検索結果は書誌の照合であり、抄録・全文の読解完了とは別。",
     "既存台帳の情報は引き継ぐが、今回独立して全文を再評価したとは記録しない。",
     "この補完パッケージを旧台帳へ反映する際は、重複、出典評価、テーマ対応、件数、順位を一括検証する。",
-    "20本は初稿・構成稿であり、完成記事300本に数えない。",
+    "25本は初稿・構成稿であり、完成記事300本に数えない。",
     "上位20テーマと執筆済み20テーマは実データで照合し、不一致を隠さない。",
     "ツールの結果受信が不安定な状況に備え、保存と公開完了を混同しない。"
   ]

@@ -195,7 +195,7 @@ def resolve(selector: dict, sources: list[dict]) -> dict | None:
 def source_key(source: dict) -> str:
     if source.get('canonical_source_id'):
         return source['canonical_source_id']
-    ident = doi_clean(source.get('doi')) or str(source.get('pmid')) or source.get('url') or source['title']
+    ident = doi_clean(source.get('doi')) or str(source.get('pmid') or '') or source.get('url') or source['title']
     return 'R4SRC-'+hashlib.sha256(ident.encode()).hexdigest()[:12]
 
 
@@ -205,9 +205,9 @@ def main():
     canonical_sources = read(ROOT/'data/sources.json')['sources']
     assert len(topics) == 300, 'Unexpected topic snapshot: reconcile before applying.'
     specs = []
-    for path in sorted((ROOT/'research').glob('round4_continuation_0[1-4].json')):
+    for path in sorted((ROOT/'research').glob('round4_continuation_0[1-5].json')):
         specs.extend(read(path)['articles'])
-    assert len(specs)==20 and len({s['topic_id'] for s in specs})==20, 'Missing or duplicate authored drafts.'
+    assert len(specs)==25 and len({s['topic_id'] for s in specs})==25, 'Missing or duplicate authored drafts.'
     assert {s['topic_id'] for s in specs} <= set(topics), 'Unknown authored topic.'
     gap_specs = read(ROOT/'research/round4_continuation_gaps.json')['topics']
     assert len(gap_specs)==29 and len({s['topic_id'] for s in gap_specs})==29
@@ -331,7 +331,7 @@ def main():
             'limits_ja':['新規検索結果は書誌の照合であり、抄録・全文の読解完了とは別。',
                          '既存台帳の情報は引き継ぐが、今回独立して全文を再評価したとは記録しない。',
                          'この補完パッケージを旧台帳へ反映する際は、重複、出典評価、テーマ対応、件数、順位を一括検証する。',
-                         '20本は初稿・構成稿であり、完成記事300本に数えない。',
+                         '25本は初稿・構成稿であり、完成記事300本に数えない。',
                          '上位20テーマと執筆済み20テーマは実データで照合し、不一致を隠さない。',
                          'ツールの結果受信が不安定な状況に備え、保存と公開完了を混同しない。']}
     write(OUT/'sources.json',{'schema_version':'1.0','sources':list(register.values())})

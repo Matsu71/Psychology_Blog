@@ -27,6 +27,16 @@
       "sha256": "b7be85721fdf573b809a4d694c7adf807b4fa742c7bd70f3a7af30f065d3168a"
     },
     {
+      "path": "data/research/round4_continuation/applications/PSY-EMO-008.json",
+      "bytes": 788,
+      "sha256": "e44201101c5c0553850e9bc0d095b2134c46665a69b9fa5a56867a6efeef016b"
+    },
+    {
+      "path": "data/research/round4_continuation/applications/PSY-EXE-002.json",
+      "bytes": 757,
+      "sha256": "f25b8a33f31f691db3ce6f82370749b0b3db667e1817bc0c4523605e57b6f0c9"
+    },
+    {
       "path": "data/research/round4_continuation/applications/PSY-GEN-001.json",
       "bytes": 777,
       "sha256": "3dfdc491c359a877fe90740fbe37aa488ac6724f529180f2bae4c397adcda5c8"
@@ -37,9 +47,19 @@
       "sha256": "8fd1cf61de0b3653e25b995e5e4e52597f3a66fc92bd7ba5d25417dfe26c8ba7"
     },
     {
+      "path": "data/research/round4_continuation/applications/PSY-HAB-005.json",
+      "bytes": 686,
+      "sha256": "f7a5391c1fc398383af5dfb7689413ba83958eada69efcc4665582a86ed5dbe2"
+    },
+    {
       "path": "data/research/round4_continuation/applications/PSY-LEA-001.json",
       "bytes": 780,
       "sha256": "db628b8f1dfeee166f3a89e45c67c1f4e3dc0c28ef070f069a1eb02547feb2bf"
+    },
+    {
+      "path": "data/research/round4_continuation/applications/PSY-LEA-002.json",
+      "bytes": 674,
+      "sha256": "503a9fb80347c2ca3b8d1b83e7ccff81418f69461535e6e35c2c8f3d9995dc66"
     },
     {
       "path": "data/research/round4_continuation/applications/PSY-MON-001.json",
@@ -55,6 +75,11 @@
       "path": "data/research/round4_continuation/applications/PSY-MOT-001.json",
       "bytes": 781,
       "sha256": "e06c5fd6baff0314c1c4f2e5a48af2fbc4b57077ece5167d88e1316205067147"
+    },
+    {
+      "path": "data/research/round4_continuation/applications/PSY-MOT-009.json",
+      "bytes": 688,
+      "sha256": "6946147af1dd69422dfe01ea4f22ca0384a6878455c9dff2d624634f4219bcfe"
     },
     {
       "path": "data/research/round4_continuation/applications/PSY-NUT-003.json",
@@ -103,8 +128,8 @@
     },
     {
       "path": "data/research/round4_continuation/articles.json",
-      "bytes": 10713,
-      "sha256": "8a7580753083e86815bfbb414b0439e639f02908a1a5b7dacbbd7ed8b2d467ae"
+      "bytes": 13407,
+      "sha256": "bdc21787b318d5d92b2d16909ac69d5282bfc368a5a4e901b7d7508dd2639cba"
     },
     {
       "path": "data/research/round4_continuation/claims/PSY-ADD-001.json",
@@ -132,6 +157,16 @@
       "sha256": "507ff854ff2601599b81943e219eac8b90fda9b5ad52753fd9bb185744094284"
     },
     {
+      "path": "data/research/round4_continuation/claims/PSY-EMO-008.json",
+      "bytes": 2383,
+      "sha256": "b0894b1cd6b9ea722cce45d194f0b65c7d20fd03e63cf0cf26e4d5e8903ad040"
+    },
+    {
+      "path": "data/research/round4_continuation/claims/PSY-EXE-002.json",
+      "bytes": 2991,
+      "sha256": "a95311bb9cbd590cda15ad3529cc5a9f7ab15203d1466678c62f7a10dcc8f987"
+    },
+    {
       "path": "data/research/round4_continuation/claims/PSY-GEN-001.json",
       "bytes": 2994,
       "sha256": "740e81b5d516fbdf74a0dc6452bd39e430027dc33bca97fe8cb68f6c410f46d9"
@@ -143,8 +178,8 @@
     },
     {
       "path": "data/research/round4_continuation/claims/PSY-HAB-005.json",
-      "bytes": 430,
-      "sha256": "0f04c7b32cca3ebbce3995bb5dc963c1165c1939eb9a43800e647ef019f1b324"
+      "bytes": 2292,
+      "sha256": "7d9861bbb465c6c3be54e0668b065a717d23d90b40fa2ef7472f588d5343c412"
     },
     {
       "path": "data/research/round4_continuation/claims/PSY-LAN-008.json",
@@ -155,6 +190,11 @@
       "path": "data/research/round4_continuation/claims/PSY-LEA-001.json",
       "bytes": 2876,
       "sha256": "8b62cd2649e2e3615e5fda18d25f8b0c7fc1996b6e2724401810759c126a4ca4"
+    },
+    {
+      "path": "data/research/round4_continuation/claims/PSY-LEA-002.json",
+      "bytes": 2385,
+      "sha256": "c62ca6fea614aa83056e3a4b534d96fff1f485097287b56b67a3962c4cc54169"
     },
     {
       "path": "data/research/round4_continuation/claims/PSY-MON-001.json",
@@ -170,6 +210,11 @@
       "path": "data/research/round4_continuation/claims/PSY-MOT-001.json",
       "bytes": 2411,
       "sha256": "1dd15a45928675e940d4eb02a65f3b27cba0d8a3a259d15e236ecc1a6aa57378"
+    },
+    {
+      "path": "data/research/round4_continuation/claims/PSY-MOT-009.json",
+      "bytes": 2361,
+      "sha256": "a46f1cbb3bcb7c00a6af21c0d8fed918aa5b468dc69a7e77819a5cea82a867ac"
     },
     {
       "path": "data/research/round4_continuation/claims/PSY-NUT-003.json",
@@ -228,18 +273,18 @@
     },
     {
       "path": "data/research/round4_continuation/report.json",
-      "bytes": 1826,
-      "sha256": "fe0b8b7778af5bfbd7da6c291b3f34f5a91b07dc3fd00de04c9587d04a7ef7d4"
+      "bytes": 1807,
+      "sha256": "6681299ba3145805448e37ef96f9ebce2a13d55ed051809d1fd5137758d0970f"
     },
     {
       "path": "data/research/round4_continuation/sources.json",
-      "bytes": 82404,
-      "sha256": "09ead5d614d8fafe3137079eec41203cd8235fd80cbd15e877b4923f6583d4e7"
+      "bytes": 95377,
+      "sha256": "44a42a2744d2badc649d3bfca566dd35cadd4275c3239d537137ef0da7a66f17"
     },
     {
       "path": "data/research/round4_continuation/top20_claim_index.json",
-      "bytes": 4825,
-      "sha256": "80454d6d42970bb0d5d02350adfc77cdf3643e0304ff3142daee2eeaae6ab1cb"
+      "bytes": 4816,
+      "sha256": "fe6d10fcc4ccf5a2f8246f7817adc25aacdb37db66ba72aa71cbd148aa3a9e3a"
     },
     {
       "path": "data/research/round4_continuation/validation.json",
@@ -248,8 +293,8 @@
     },
     {
       "path": "docs/round4_continuation/REPORT.md",
-      "bytes": 11642,
-      "sha256": "ff563186b3a50905022957af436ec88f1c3ff120544a6ecff95ca9af3dd5e901"
+      "bytes": 12631,
+      "sha256": "0509588e5cdc27e01f0f8acd0f1f467be1edfcb45949d8af2aee1b77b03c9e1f"
     },
     {
       "path": "docs/round4_continuation/REVIEW_CHECKLIST.md",
@@ -282,6 +327,16 @@
       "sha256": "b0c8a309338808b202c99fe85372956fc3c33550400de1085e8e9042e2f28d51"
     },
     {
+      "path": "articles/drafts/round4_continuation/PSY-EMO-008.md",
+      "bytes": 4648,
+      "sha256": "8e08c99bad35dc4868a6c2ff075341b1da0b3c0d33891cb8bd1addef7e193ebb"
+    },
+    {
+      "path": "articles/drafts/round4_continuation/PSY-EXE-002.md",
+      "bytes": 5569,
+      "sha256": "107a2e5fefb21590c3376a20534a2c9b3d892e6e46b050aff73634f874cc6561"
+    },
+    {
       "path": "articles/drafts/round4_continuation/PSY-GEN-001.md",
       "bytes": 5403,
       "sha256": "a1f94e02f5362f9e4c616ec9b28ce5f0361a15006cdee421f8291271c20055ab"
@@ -292,9 +347,19 @@
       "sha256": "9cc6ec0c86d2f37c9800892d6d483ae718fc9adcf3c8431ad9f89ed6a9b05e89"
     },
     {
+      "path": "articles/drafts/round4_continuation/PSY-HAB-005.md",
+      "bytes": 4459,
+      "sha256": "3794c1accd988094b25b9d435ef0bfb234cd7a4cc3d95c015ea07804365c6551"
+    },
+    {
       "path": "articles/drafts/round4_continuation/PSY-LEA-001.md",
       "bytes": 5113,
       "sha256": "a31f94996c6d7e356e7805b9d48919552371d43e45dd331b68fff5198be6e0f5"
+    },
+    {
+      "path": "articles/drafts/round4_continuation/PSY-LEA-002.md",
+      "bytes": 4650,
+      "sha256": "941a51afe5eff6ff472c38e17350ef98639fe486bf518255a701b29e813414f1"
     },
     {
       "path": "articles/drafts/round4_continuation/PSY-MON-001.md",
@@ -310,6 +375,11 @@
       "path": "articles/drafts/round4_continuation/PSY-MOT-001.md",
       "bytes": 5126,
       "sha256": "efcd684b493d80043ca06cd2327b91d46053de2076a109798dc675b4459a6f66"
+    },
+    {
+      "path": "articles/drafts/round4_continuation/PSY-MOT-009.md",
+      "bytes": 4594,
+      "sha256": "48359c35847acbaf84be5dc5c7572b2be35e0744af8ff50a2c127a1057c0cd3f"
     },
     {
       "path": "articles/drafts/round4_continuation/PSY-NUT-003.md",

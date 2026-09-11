@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-002",
+  "application": {
+    "type": "evidence_informed_example_not_exact_protocol",
+    "steps": [
+      "覚えておきたい時点を決める。",
+      "実行できる復習機会を分けて予定する。",
+      "その場で思い出せることと、後で保持できることを分けて確認する。"
+    ],
+    "safety": "試験のために睡眠を削る方法として扱わない。"
+  },
+  "classification": "editorial_application_not_automatically_verified_intervention",
+  "claim_ids": [
+    "CL-PSY-LEA-002-01",
+    "CL-PSY-LEA-002-02",
+    "CL-PSY-LEA-002-03"
+  ],
+  "publication_ready": false
+}

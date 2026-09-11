@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-EXE-002",
+  "title": "運動はうつや不安のケアでどんな役割を持つ？",
+  "claims": [
+    {
+      "id": "CL-PSY-EXE-002-01",
+      "topic_id": "PSY-EXE-002",
+      "statement_ja": "うつ病の臨床基準に該当する参加者を扱う統合研究では、運動による症状軽減が報告された。",
+      "source_ids": [
+        "SRC061"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "218研究、14170人。運動の種類や比較条件は異なる。",
+      "cannot_infer_ja": "運動だけで全員が治り、他の治療が不要になるという主張。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-EXE-002-02",
+      "topic_id": "PSY-EXE-002",
+      "statement_ja": "多くの研究にバイアスの懸念があり、証拠の確実性は低いまたは非常に低いと評価された比較がある。",
+      "source_ids": [
+        "SRC061"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "統合研究の確実性評価。",
+      "cannot_infer_ja": "メタ分析だから無条件に確実という説明。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-EXE-002-03",
+      "topic_id": "PSY-EXE-002",
+      "statement_ja": "訂正告知は独立した効果研究として数えず、元の論文の該当箇所との対応を確認する。",
+      "source_ids": [
+        "SRC062"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "前段階では訂正の書誌確認。内容の最終照合が必要。",
+      "cannot_infer_ja": "訂正があるだけで結論全体を否定すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    },
+    {
+      "id": "CL-PSY-EXE-002-04",
+      "topic_id": "PSY-EXE-002",
+      "statement_ja": "新しいアンブレラレビューは研究の広がりを確認する資料だが、同一試験の重複を独立した裏付けとして数えない。",
+      "source_ids": [
+        "SRC063"
+      ],
+      "unresolved_source_keys": [],
+      "scope_ja": "複数のメタ分析をまとめる研究形式。",
+      "cannot_infer_ja": "レビューの件数を、そのまま独立した試験の件数として足し算すること。",
+      "status": "draft_from_existing_notes",
+      "formal_certainty": "not_assessed",
+      "independent_fulltext_audit": false,
+      "publication_ready": false
+    }
+  ],
+  "basis": "existing research notes and explicitly labelled editorial reasoning",
+  "readiness": "draft_not_final_evidence_assessment",
+  "publication_ready": false
+}
