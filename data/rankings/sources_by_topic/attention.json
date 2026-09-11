@@ -62,24 +62,64 @@
           "edge_id": "EV-PSY-ATT-003-SRC131",
           "source_id": "SRC131",
           "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
-          "review_scope": "bibliography",
+          "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_evaluated",
-          "limits_ja": "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。",
-          "priority_score": 49,
+          "conclusion_direction": "mixed",
+          "limits_ja": "主にAからBへ切り替えた後のBの成績の研究で、BからAへ戻ったときの再開時間そのものとは違う。締切で追い込めば全仕事が改善すると一般化しない。",
+          "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 1,
-            "reading_depth_0_to_4": 1
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
-          "caps": [
-            "bibliography_only_max_49"
-          ],
+          "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ATT-003-SRC294",
+          "source_id": "SRC294",
+          "title": "Contextual cues aid recovery from interruption: The role of associative activation",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "単純な問題解決課題の再開時間を測定。仕事の複雑な長期計画や、あらゆるアプリの通知設定の効果にそのまま置き換えない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-ATT-003-SRC293",
+          "source_id": "SRC293",
+          "title": "Tasks Interrupted: How Anticipating Time Pressure on Resumption of an Interrupted Task Causes Attention Residue and Low Performance on Interrupting Tasks and How a “Ready-to-Resume” Plan Mitigates the Effects",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "測定した主な成果は割り込んだ仕事の成績。元の仕事への再開速度改善をこの論文だけで主張しない。具体的なメモ文言や固定分数は今回の抄録では検証できない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 3,
+          "display_position": 3
         }
       ]
     },
@@ -115,13 +155,34 @@
       "topic_id": "PSY-ATT-005",
       "sources": [
         {
+          "edge_id": "EV-PSY-ATT-005-SRC296",
+          "source_id": "SRC296",
+          "title": "Background Music and Cognitive Task Performance: A Systematic Review of Task, Music, and Population Impact",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "方向の票数等で統合するSWiM型で、標準化効果量をプールしたメタ分析ではない。若年成人に偏り、検索は2020年7月まで。歌詞なしならいつでも安全、有利という証明ではない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-ATT-005-SRC132",
           "source_id": "SRC132",
           "title": "The impact of background music on adult listeners: A meta-analysis",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。",
+          "limits_ja": "少数の研究・方法上の限界がある古いレビュー。音楽一般の善悪、ジャンル別の最適処方を導けない。正本の2010年はオンライン公開年で、巻号掲載は2011年。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -132,8 +193,8 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
+          "priority_rank": 2,
+          "display_position": 2
         }
       ]
     },
@@ -256,15 +317,15 @@
           "edge_id": "EV-PSY-ATT-007-SRC081",
           "source_id": "SRC081",
           "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

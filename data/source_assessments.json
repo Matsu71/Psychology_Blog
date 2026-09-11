@@ -378,14 +378,15 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C018"
+        "R3-C018",
+        "RL8-extravert2019"
       ],
       "limitations_ja": [
-        "全員に外向的行動を増やす助言にしない。短期・自己報告を含み、追加の比較群は別研究由来。"
+        "別研究から得た76人の対照データは147人と同じ無作為化集団ではない。性格による調整効果は一研究の短期的な結果で、全員に当てはまるタイプ別処方ではない。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
+      "integrity_status": "not_exhaustively_checked",
       "integrity_notices": [
         {
           "id": "42347822",
@@ -401,7 +402,13 @@
           "note": "CrossRef Pre-print loader",
           "orderIn": 10002
         }
-      ]
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-extravert2019"
     },
     {
       "source_id": "SRC126",
@@ -500,19 +507,26 @@
     },
     {
       "source_id": "SRC131",
-      "review_scope": "bibliography",
-      "method_signals": 1,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "書誌のみ・信頼性未評価",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C024"
+        "R3-C024",
+        "RL8-residue2009"
       ],
       "limitations_ja": [
-        "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。"
+        "主にAからBへ切り替えた後のBの成績の研究で、BからAへ戻ったときの再開時間そのものとは違う。締切で追い込めば全仕事が改善すると一般化しない。"
       ],
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-residue2009"
     },
     {
       "source_id": "SRC132",
@@ -520,15 +534,22 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C025"
+        "R3-C025",
+        "RL8-music2011"
       ],
       "limitations_ja": [
-        "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。"
+        "少数の研究・方法上の限界がある古いレビュー。音楽一般の善悪、ジャンル別の最適処方を導けない。正本の2010年はオンライン公開年で、巻号掲載は2011年。"
       ],
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-music2011"
     },
     {
       "source_id": "SRC133",
@@ -720,15 +741,22 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C037"
+        "R3-C037",
+        "RL8-safety2017"
       ],
       "limitations_ja": [
-        "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。"
+        "今回の抄録だけで具体的な介入の因果的効果を確定しない。136標本を136の無作為化介入としない。正本2016年はオンライン公開年で、巻号掲載は2017年。"
       ],
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-safety2017"
     },
     {
       "source_id": "SRC145",
@@ -898,17 +926,18 @@
     {
       "source_id": "SRC152",
       "review_scope": "abstract",
-      "method_signals": 3,
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C045"
+        "R3-C045",
+        "RL8-marsh2018"
       ],
       "limitations_ja": [
-        "自制心が無意味という結果ではない。一回のテストで子どもの将来や親の育て方を判断しない。"
+        "観察的な予測で、待つ訓練の効果を検証した試験ではない。統制後の弱い関連は自己調整全体が無価値という意味ではない。未事前登録の解析とされる。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
+      "integrity_status": "not_exhaustively_checked",
       "integrity_notices": [
         {
           "id": "30687175",
@@ -938,23 +967,37 @@
           "type": "Comment in",
           "orderIn": 4
         }
-      ]
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Publisher abstract",
+        "Open practices: NICHD SECCYD data and no preregistration"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-marsh2018"
     },
     {
       "source_id": "SRC153",
       "review_scope": "abstract",
-      "method_signals": 3,
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C046"
+        "R3-C046",
+        "RL8-marsh2024"
       ],
       "limitations_ja": [
-        "前の追試と関連するデータ系列であり、独立した二重の再現と数えない。対象者の属性と欠測を全文で確認する。"
+        "白人83％の米国標本で、全世界の個人に同じ予測精度とは限らない。2018年と同じSECCYDに基づく後年追跡で、独立した二つの集団としない。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-marsh2024"
     },
     {
       "source_id": "SRC154",
@@ -1219,18 +1262,25 @@
     {
       "source_id": "SRC167",
       "review_scope": "abstract",
-      "method_signals": 3,
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C060"
+        "R3-C060",
+        "RL8-impostor2020"
       ],
       "limitations_ja": [
-        "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。"
+        "割合の幅を一般人の有病率にしない。2018年5月までの検索で介入研究がないという記述を現在の状況に転用しない。資金提供企業と一部著者の関係を開示しており、商業的利益と結果の妥当性を別々に点検する。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-impostor2020"
     },
     {
       "source_id": "SRC168",
@@ -1371,19 +1421,29 @@
     },
     {
       "source_id": "SRC176",
-      "review_scope": "abstract",
+      "review_scope": "selected_fulltext_sections",
       "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C069"
+        "R3-C069",
+        "RL8-household2025"
       ],
       "limitations_ja": [
-        "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。"
+        "長期追跡の一時点の横断解析であり因果は確定しない。異性パートナーと同居する出産経験者、高学歴・高所得に偏り、母親本人だけの報告。新しい家事尺度の妥当性も十分に検証されていない。身体作業が無害とは言えない。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
-      "integrity_notices": []
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Participants and Procedure: sixth wave",
+        "Measures: division of domestic labor",
+        "Results",
+        "Strengths, limitations, and future directions"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-household2025"
     },
     {
       "source_id": "SRC177",
@@ -1677,14 +1737,15 @@
       "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "抄録による予備点検・正式評価未実施",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
       "provenance_review_ids": [
-        "R3-C086"
+        "R3-C086",
+        "RL8-switch2024"
       ],
       "limitations_ja": [
-        "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。"
+        "オンライン記事や大学生以外の標本では結論が不明瞭だった。全デジタル操作に一般化せず、長期依存・脳の損傷・ドーパミンの単独機序を示す研究ではない。"
       ],
-      "integrity_status": "indexed_links_checked_not_exhaustive",
+      "integrity_status": "not_exhaustively_checked",
       "integrity_notices": [
         {
           "id": "PPR721444",
@@ -1693,7 +1754,13 @@
           "note": "CrossRef Pre-print loader",
           "orderIn": 10002
         }
-      ]
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-switch2024"
     },
     {
       "source_id": "SRC194",
@@ -2364,45 +2431,71 @@
     },
     {
       "source_id": "SRC004",
-      "review_scope": "selected_fulltext_sections",
+      "review_scope": "official_page_reviewed",
       "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
-      "integrity_status": "not_completed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
       "integrity_notices": [],
       "limitations_ja": [
-        "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。"
+        "公的な定義・解釈の説明で、性格の具体的遺伝率や個人への介入効果を推定する原著研究ではない。0.5は記事の説明用の仮定で、特定の性格の実測値ではない。"
       ],
       "checked_on": "2026-09-11",
       "checked_sections": [
-        "What is heritability? Definition and interpretation limitations"
+        "What is heritability?: definition and misconceptions",
+        "Last updated 16 September 2021"
       ],
       "reporting_issues": [],
-      "latest_source_check_id": "SC6-SRC004",
+      "latest_source_check_id": "SL8-heritabilityOfficial",
       "provenance_review_ids": [
-        "SC6-SRC004"
+        "SC6-SRC004",
+        "RL8-heritabilityOfficial"
       ]
     },
     {
       "source_id": "SRC005",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "方法論の説明であり、全形質に共通の数値や遺伝子検査の個人予測精度を与えない。今回は出版社抄録の確認で全数式や仮定を独立検証していない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-heritabilityMethods2017"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Publisher abstract: conceptual definitions and methodological limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-heritabilityMethods2017"
     },
     {
       "source_id": "SRC006",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "著者は遺伝率の有用性にも強い批判を示すが、それを研究分野全体の合意と扱わない。遺伝の寄与がないという主張ではない。公的解説と方法論レビューを併記する。"
+      ],
+      "provenance_review_ids": [
+        "RL8-heritabilityCritique2017"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-heritabilityCritique2017"
     },
     {
       "source_id": "SRC007",
@@ -3777,13 +3870,27 @@
     },
     {
       "source_id": "SRC081",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "無作為割付ではない。朝のテストであり一日中の仕事成績は測っていない。冷房あり群の平均室温や回帰曲線の最適域を万人の設定温度にしない。計算の処理量の差はp=.08で、すべての指標が明確に悪化したと言わない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-heat2018"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract: Methods/Findings",
+        "Study population and cognitive tests",
+        "Discussion: timing and age limitations"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-heat2018"
     },
     {
       "source_id": "SRC082",
@@ -4055,13 +4162,27 @@
     },
     {
       "source_id": "SRC097",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "145論文を145の独立RCTと呼ばない。日本の下位解析で有意でないことを日本人全体への効果不存在にしない。逆に全体平均を日本の個人に保証しない。検索は2024年5月までで、2025年までの網羅ではない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-gratitude2025"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Results: descriptive statistics and moderators",
+        "Discussion: country differences"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-gratitude2025"
     },
     {
       "source_id": "SRC098",
@@ -5635,6 +5756,166 @@
       "integrity_notices": [],
       "reporting_issues": [],
       "latest_source_check_id": "SL7-mindproposal2026"
+    },
+    {
+      "source_id": "SRC292",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "抄録では内向性ごとの精密な効果や全除外基準を確認していない。持続的な性格変化、他者との比較での優劣、長期の幸福を保証しない。2019年の別試験とは条件が異なり、単純な勝敗にしない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-extravert2020"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-extravert2020"
+    },
+    {
+      "source_id": "SRC293",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "測定した主な成果は割り込んだ仕事の成績。元の仕事への再開速度改善をこの論文だけで主張しない。具体的なメモ文言や固定分数は今回の抄録では検証できない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-resume2018"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-resume2018"
+    },
+    {
+      "source_id": "SRC294",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "単純な問題解決課題の再開時間を測定。仕事の複雑な長期計画や、あらゆるアプリの通知設定の効果にそのまま置き換えない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-cue2006"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Author institutional repository: published abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-cue2006"
+    },
+    {
+      "source_id": "SRC295",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "相関の統合で、基準を下げる治療が先延ばしを減らす証明ではない。二つの分析の参加者は重なり得るので総人数を合算しない。一般的な診断テストとして使わない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-perfection2017"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-perfection2017"
+    },
+    {
+      "source_id": "SRC296",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "方向の票数等で統合するSWiM型で、標準化効果量をプールしたメタ分析ではない。若年成人に偏り、検索は2020年7月まで。歌詞なしならいつでも安全、有利という証明ではない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-music2022"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Methods: SWiM synthesis and sign tests",
+        "Results: memory and language",
+        "Discussion and limitations"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-music2022"
+    },
+    {
+      "source_id": "SRC297",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "一つの定型的な声かけで成績が上がることを証明した介入試験ではない。既存メタ分析と根拠が重なり、独立した再現として加算しない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-safety2023"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-safety2023"
+    },
+    {
+      "source_id": "SRC298",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "医療・教育分野のレビューが多く、全職種への移植には制限。元レビュー・試験を重ねて独立証拠数にしない。自己学習・コーチングを標準治療として断定しない。著者のAMSTAR-2等の評価を当方の実施結果としない。"
+      ],
+      "provenance_review_ids": [
+        "RL8-impostor2026"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Methods: eligibility and registered protocol",
+        "Results: interventions and scale limitations",
+        "Discussion"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL8-impostor2026"
     }
   ],
   "updated_on": "2026-09-11"

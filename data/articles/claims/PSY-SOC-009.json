@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-SOC-009",
+  "title": "心理的安全性は「仲良し」と違う？言いにくいことを話せる職場を考える",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "f661e7c631a4ba5cf3019ebb63eba9cc179156a2180e4542c302a93c640ed5fb",
+  "claims": [
+    {
+      "id": "PSY-SOC-009-D01",
+      "text_ja": "2023年のレビューは、心理的安全性を対人的なリスクが小さい状態として整理しました。難しい仕事がなくなることでも、評価や責任がなくなることでもありません。質問や異論を出すことが、対人関係上の不利益につながると感じるかという問いです。\n\n和やかな会議でも、間違いを指摘した人だけが嫌われるなら、重要なことは話しにくいままかもしれません。これは概念の違いを考える例です。",
+      "source_ids": [
+        "SRC297"
+      ],
+      "source_check_ids": [
+        "SL8-safety2023"
+      ],
+      "population_and_scope_ja": "対人的リスクについての概念整理。",
+      "not_supported_ja": "例を特定企業の実証事例と扱わない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SOC-009-D02",
+      "text_ja": "2017年のメタ分析は136標本をまとめ、個人・集団の心理的安全性とその前提条件や成果との関係を検討しました。2023年の整理では、遂行、学習行動、仕事の経験、リーダーシップが主要な領域として扱われています。\n\nただし、136標本は136件の無作為化された職場改善試験ではありません。「何でも言っていい」と宣言すれば生産性が何％上がる、という定型的な介入効果を示したものでもありません。",
+      "source_ids": [
+        "SRC144",
+        "SRC297"
+      ],
+      "source_check_ids": [
+        "SL8-safety2017",
+        "SL8-safety2023"
+      ],
+      "population_and_scope_ja": "メタ分析と後年の統合的レビューの範囲。",
+      "not_supported_ja": "研究数を介入試験数と混同せず、因果的な改善率を作らない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-SOC-009-D03",
+      "text_ja": "例えば仕様の懸念が出たとき、「今さら言うな」と人を責めるのか、どの条件で問題が起きるかを確認するのかでは、次に発言する人が予想する反応も違うでしょう。意見をすべて採用する必要はなくても、却下の理由や検討の結果を共有する余地はあります。\n\nこうしたやり取りは、研究の概念を仕事に置き換えた提案です。単一の言い回しが必ず安全性を高めると証明されたわけではありません。",
+      "source_ids": [
+        "SRC297"
+      ],
+      "source_check_ids": [
+        "SL8-safety2023"
+      ],
+      "population_and_scope_ja": "概念を使った編集上の場面例。",
+      "not_supported_ja": "本人の発言量だけを安全性の測定指標や評価基準にしない。",
+      "kind": "interpretation",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "会議では、賛否の人数だけでなく「分からない点が出たか」「懸念を出した後にどう扱ったか」を振り返る方法があります。匿名で聞く、個別に確認するなど選択肢を用意することも考えられます。この形式の効果は今回の資料だけでは比較できないため、万能な会議ルールではなく運用を考える例として扱います。",
+    "safety": "発言を強制したり、不利益を受ける現実の危険を本人の思い込みにしたりしないでください。ハラスメントや安全上の問題は、雑談や心構えだけで解決しません。"
+  },
+  "review_items": [
+    "主に抄録確認。個別の職場介入や日本の組織での効果量は未評価。",
+    "同一研究が複数のレビューに含まれる可能性を残し、独立した証拠数として合算していない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

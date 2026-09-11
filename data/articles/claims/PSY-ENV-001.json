@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ENV-001",
+  "title": "暑い部屋で頭が回らないのは気合い不足？室内環境と考える力の研究",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "490a3e1108c68ff631a6b0eca8a2d15889e08a27fad10d58fd29aded2b53861e",
+  "claims": [
+    {
+      "id": "PSY-ENV-001-D01",
+      "text_ja": "2018年公表の研究は、ボストン地域の大学生44人を、2016年夏の12日間にわたって追跡しました。24人は冷房のある建物、20人はない建物に住み、熱波の前後に注意や計算のテストを行いました。\n\n実験室で一度だけ暑い条件を作る方法と違い、普段の居住環境を追った点に意味があります。一方、住む建物を無作為に決めた試験ではありません。",
+      "source_ids": [
+        "SRC081"
+      ],
+      "source_check_ids": [
+        "SL8-heat2018"
+      ],
+      "population_and_scope_ja": "若い大学生の住環境を比較した前向き観察研究。",
+      "not_supported_ja": "冷房の無作為化比較試験と呼ばない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ENV-001-D02",
+      "text_ja": "熱波中、冷房のない群では反応時間が遅くなるなどの結果が見られました。ただし、速さ、正確さ、一定時間に処理できる量は別々の指標です。すべての結果が同じ程度にはっきりしたわけでもありません。\n\n例えば、計算課題の処理量の差は統計的に明確ではありませんでした。「暑いと知能が何％落ちる」と一つの数字にまとめると、測っていない能力や結果にまで話を広げてしまいます。",
+      "source_ids": [
+        "SRC081"
+      ],
+      "source_check_ids": [
+        "SL8-heat2018"
+      ],
+      "population_and_scope_ja": "反応時間と処理量を区別した結果。",
+      "not_supported_ja": "反応時間の割合をIQや生産性の低下率に変換しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ENV-001-D03",
+      "text_ja": "テストを行ったのは起床直後です。その差が一日中続いたのか、職場の成果や試験の点数まで同じように変わるかは調べていません。対象も若い学生で、身体状態や住環境の異なる人へそのまま当てはめることはできません。\n\n室温の平均値や統計モデルで成績がよかった温度帯も、万人への推奨設定ではありません。暑さ、睡眠などの生活条件を一つの実験で完全に切り分けたわけではないからです。",
+      "source_ids": [
+        "SRC081"
+      ],
+      "source_check_ids": [
+        "SL8-heat2018"
+      ],
+      "population_and_scope_ja": "測定時刻、標本、観察設計の限界。",
+      "not_supported_ja": "万人の最適室温や、安全な暑さの閾値を作らない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "仕事が進まない日に、作業の難しさだけでなく、室内の暑さや睡眠の状態も振り返る材料になります。住居や職場の温度調整、休める場所、作業時間の選択肢を確認します。個人の我慢では変えにくい環境なら、設備や運用の問題として相談するという考え方です。",
+    "safety": "暑い状態をわざと作ったり、冷房を止めて能力を試したりしないでください。体調が悪いときに集中力テストで安全性を判断せず、涼しい場所への移動など安全確保を優先します。"
+  },
+  "review_items": [
+    "原論文の方法・結果・限界を確認。個別の空調設定や健康安全基準を導いたものではない。",
+    "安全上の注意は危険な自己実験を避けるためのもので、診断や治療手順ではない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

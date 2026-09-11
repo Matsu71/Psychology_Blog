@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEV-002",
+  "title": "マシュマロを待てた子は将来成功する？大人まで追った研究が変えた見方",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "cc522e75cfe9a477216e65b30f7e1599da1b7db61a24d1eedaf726687e142b3d",
+  "claims": [
+    {
+      "id": "PSY-DEV-002-D01",
+      "text_ja": "2018年の研究は、幼児期に待った時間と15歳時点の学業や行動の関連を検討しました。単純に比べた関連はありましたが、家庭背景、初期の認知能力、家庭環境を考慮すると、成績との関連は小さくなりました。行動面との関連はさらに弱いものでした。\n\nこれは「待つ訓練をすれば成績が上がる」ことを試した研究ではありません。待ち方も学業も、ほかの条件と結びついている可能性を扱ったものです。",
+      "source_ids": [
+        "SRC152"
+      ],
+      "source_check_ids": [
+        "SL8-marsh2018"
+      ],
+      "population_and_scope_ja": "幼児期と15歳時点の観察的な予測。",
+      "not_supported_ja": "関連から訓練の因果効果を導かず、2018年解析を事前登録済みとしない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEV-002-D02",
+      "text_ja": "2024年の研究は、702人について54か月時点の課題と26歳の成果を比べました。学歴などに小さな単純相関はありましたが、ほかの要因を考慮すると、ほぼすべての係数は統計的に明確ではありませんでした。\n\n大切なのは、成人の達成や健康を強く予測する結果ではなかったことです。なお、この研究は2018年と同じ長期コホートに基づく追跡で、まったく別の二つの集団で同じ結果を確認したと数えることはできません。",
+      "source_ids": [
+        "SRC153",
+        "SRC152"
+      ],
+      "source_check_ids": [
+        "SL8-marsh2024",
+        "SL8-marsh2018"
+      ],
+      "population_and_scope_ja": "同一コホートの後年追跡と調整後の関連。",
+      "not_supported_ja": "弱い・非有意な予測を、すべての自己調整能力の無価値に一般化しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEV-002-D03",
+      "text_ja": "課題一つで将来をうまく予測できないからといって、日常の計画や感情の調整が不要になるわけではありません。逆に、待てたという一回の結果だけで、子どもの能力や保護者の育て方を評価する根拠にもなりません。\n\n研究の対象は特定の米国の集団で、2024年標本は白人が多い構成でした。家庭や文化の違う一人の子どもへ、結果をそのまま当てはめることには限界があります。",
+      "source_ids": [
+        "SRC153",
+        "SRC152"
+      ],
+      "source_check_ids": [
+        "SL8-marsh2024",
+        "SL8-marsh2018"
+      ],
+      "population_and_scope_ja": "一課題の予測妥当性と標本の一般化の区別。",
+      "not_supported_ja": "子ども個人の将来や親の責任を判定しない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "日常では、待てた分数を点数にするより、どんな場面で困るのか、見通しが伝わっているか、どんな支えがあるかを具体的に確認します。これは生活上の相談の入口で、今回の追跡研究で検証された育児介入ではありません。子どもの様子は一回のテストではなく、複数の場面で見ます。",
+    "safety": "お菓子や必要な食事を使って子どもを試し、結果で将来を決めつけないでください。強い困りごとがある場合は、家族だけで採点せず適切な相談につなげます。"
+  },
+  "review_items": [
+    "主要な2論文の抄録と2018年のデータ説明を確認。全解析・補足資料の再実施は未完了。",
+    "同じコホートの重複を根拠表へ明記している。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

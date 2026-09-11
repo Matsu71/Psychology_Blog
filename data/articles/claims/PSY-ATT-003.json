@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ATT-003",
+  "title": "中断した仕事に戻れないのはなぜ？「次にすること」を残す意味",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "a921fbf94b47e757f2140b151918383f8b09f305226c56765f5020956089e63e",
+  "claims": [
+    {
+      "id": "PSY-ATT-003-D01",
+      "text_ja": "2009年の2実験は、前の課題から注意を離しきれない状態を「注意の残留」として調べました。画面を切り替えても、考えが前の課題に残ることと、次の課題の成績との関係を扱っています。\n\nただし、これは主にAからBへ移った後のBの問題です。Bを終えてAへ戻る速さを、そのまま測ったわけではありません。二つを一括りにして「切り替えには必ず何分かかる」と決めることはできません。",
+      "source_ids": [
+        "SRC131"
+      ],
+      "source_check_ids": [
+        "SL8-residue2009"
+      ],
+      "population_and_scope_ja": "二つの実験での課題切り替えと後続課題の成績。",
+      "not_supported_ja": "再開にかかる普遍的な分数や一日の損失時間を算出しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-003-D02",
+      "text_ja": "2018年の4研究では、中断した仕事を時間に追われながら再開する見通しがあると、割り込んできた仕事にも注意を向けにくくなると報告されました。再開時にどうするかを短く考えて計画しておく方法は、その悪影響を弱めました。\n\nこの研究が示した主な利点は、割り込んだ仕事への集中です。「メモすれば元の仕事へ必ず速く戻れる」とまでは、この論文だけでは言えません。",
+      "source_ids": [
+        "SRC293"
+      ],
+      "source_check_ids": [
+        "SL8-resume2018"
+      ],
+      "population_and_scope_ja": "再開時の時間圧力の予想と割り込み課題の成績。",
+      "not_supported_ja": "固定したメモ文言・一分という時間・全職種の成果を保証しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-003-D03",
+      "text_ja": "再開そのものを扱った2006年の実験では、配置を考える問題の途中に中断を入れました。中断前に手がかりを覚える準備ができると、戻る際の時間コストが小さくなりました。逆に、戻ったときに視覚的な手がかりが変わると、止めていた目標を思い出すことが妨げられました。\n\n複雑な仕事のすべてを再現した実験ではありませんが、中断前後をつなぐ情報を残すという考え方には、研究上の入口があります。",
+      "source_ids": [
+        "SRC294"
+      ],
+      "source_check_ids": [
+        "SL8-cue2006"
+      ],
+      "population_and_scope_ja": "ロンドン塔課題の中断・再開実験。",
+      "not_supported_ja": "日常のメモ形式や複雑な仕事の再開速度を直接保証しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-003-D04",
+      "text_ja": "質問に答えること自体が大切な仕事の場合もあります。中断を全部なくすより、急ぎの連絡と後でよい相談を区別し、中断する前の自分と再開する自分の間に情報を渡す、と考える方が現実的です。\n\nここでの工夫は研究を仕事に置き換えた提案です。実験で成績がよくなったことと、その提案がどの職場でも有効なことは分けておきます。",
+      "source_ids": [
+        "SRC293",
+        "SRC294"
+      ],
+      "source_check_ids": [
+        "SL8-resume2018",
+        "SL8-cue2006"
+      ],
+      "population_and_scope_ja": "研究結果から考える作業設計上の応用。",
+      "not_supported_ja": "中断ゼロを職場全体の最適解としない。",
+      "kind": "interpretation",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "例えば中断前に「売上の定義を確認済み。次は3月の返品を照合。参照先は表B」と残します。「続き」とだけ書くより、済んだ判断と次の操作を区別する例です。再開時はその記録を読み、必要な資料を開きます。この三項目の形式そのものを比較試験で検証したわけではありません。",
+    "safety": "機密情報を不用意な共有メモに残さないでください。安全確認や緊急連絡を後回しにするための方法ではありません。"
+  },
+  "review_items": [
+    "主な原論文は抄録確認。現場ごとの効果量や再開メモの最適形式は未評価。",
+    "注意の残留と再開時間の測定対象を区別し、未測定の効果を付け足していない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

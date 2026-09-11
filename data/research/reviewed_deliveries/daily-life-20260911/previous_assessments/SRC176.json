@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC176",
+    "review_scope": "abstract",
+    "method_signals": 2,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C069"
+    ],
+    "limitations_ja": [
+      "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。"
+    ],
+    "integrity_status": "indexed_links_checked_not_exhaustive",
+    "integrity_notices": []
+  }
+}

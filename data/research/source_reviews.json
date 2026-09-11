@@ -4910,6 +4910,525 @@
       "source_locators": [
         "Abstract; publication metadata"
       ]
+    },
+    {
+      "id": "RL8-heat2018",
+      "source_id": "SRC081",
+      "topic_ids": [
+        "PSY-ENV-001"
+      ],
+      "design": "prospective_observational_cohort",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ボストン地域の大学生44人を12日間追跡。冷房あり24人・なし20人で、熱波前後の起床直後の注意・計算課題を比較した。冷房なし群では反応時間の悪化等が観察された。",
+      "limitations_ja": "無作為割付ではない。朝のテストであり一日中の仕事成績は測っていない。冷房あり群の平均室温や回帰曲線の最適域を万人の設定温度にしない。計算の処理量の差はp=.08で、すべての指標が明確に悪化したと言わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract: Methods/Findings",
+        "Study population and cognitive tests",
+        "Discussion: timing and age limitations"
+      ]
+    },
+    {
+      "id": "RL8-extravert2019",
+      "source_id": "SRC125",
+      "topic_ids": [
+        "PSY-PER-003"
+      ],
+      "design": "randomized_daily_life_trial",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "147人を1週間の外向的行動または能動的な対照課題へ無作為割付。全体の肯定的感情・自分らしさに改善があったが、内向的な人では便益が弱く、疲労や否定的感情、自分らしさに不利益も報告された。",
+      "limitations_ja": "別研究から得た76人の対照データは147人と同じ無作為化集団ではない。性格による調整効果は一研究の短期的な結果で、全員に当てはまるタイプ別処方ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-extravert2020",
+      "source_id": "SRC292",
+      "topic_ids": [
+        "PSY-PER-003"
+      ],
+      "design": "within_person_behavior_experiment",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "外向的な行動と内向的な行動を各1週間行う課題を比較し、前者では幸福指標が上がり後者では下がる結果を報告した。行動を一時的に変えることと幸福との関係を扱う。",
+      "limitations_ja": "抄録では内向性ごとの精密な効果や全除外基準を確認していない。持続的な性格変化、他者との比較での優劣、長期の幸福を保証しない。2019年の別試験とは条件が異なり、単純な勝敗にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-residue2009",
+      "source_id": "SRC131",
+      "topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "design": "two_laboratory_experiments",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "仕事の切り替えを扱う2実験で、前の課題から注意を離しきれない状態と次の課題の成績を調べた。単に前の課題を完了するだけでは十分でない条件も検討している。",
+      "limitations_ja": "主にAからBへ切り替えた後のBの成績の研究で、BからAへ戻ったときの再開時間そのものとは違う。締切で追い込めば全仕事が改善すると一般化しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-resume2018",
+      "source_id": "SRC293",
+      "topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "design": "four_studies_of_interruption",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "4研究で、中断した仕事を時間圧力の下で再開する見通しが、割り込んだ仕事への注意と成績を妨げるという仮説を検討。再開を短く振り返って計画する介入が、その悪影響を弱めた。",
+      "limitations_ja": "測定した主な成果は割り込んだ仕事の成績。元の仕事への再開速度改善をこの論文だけで主張しない。具体的なメモ文言や固定分数は今回の抄録では検証できない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-cue2006",
+      "source_id": "SRC294",
+      "topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "design": "laboratory_task_resumption_experiments",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ロンドン塔課題の実行を中断する実験群。中断前に手がかりを準備する機会があると再開の時間コストが減り、再開後に視覚的な手がかりを変更すると目標の想起が妨げられた。",
+      "limitations_ja": "単純な問題解決課題の再開時間を測定。仕事の複雑な長期計画や、あらゆるアプリの通知設定の効果にそのまま置き換えない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Author institutional repository: published abstract"
+      ]
+    },
+    {
+      "id": "RL8-perfection2017",
+      "source_id": "SRC295",
+      "topic_ids": [
+        "PSY-MOT-006"
+      ],
+      "design": "meta_analysis_of_correlations",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "先延ばしと完璧主義的な懸念は平均r=.23、達成基準を追う側面はr=-.22という逆方向の関連を示した。二つの側面の共有分散を考慮した分析でも関連が残った。",
+      "limitations_ja": "相関の統合で、基準を下げる治療が先延ばしを減らす証明ではない。二つの分析の参加者は重なり得るので総人数を合算しない。一般的な診断テストとして使わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-switch2024",
+      "source_id": "SRC193",
+      "topic_ids": [
+        "PSY-CRE-003"
+      ],
+      "design": "seven_experiments_six_preregistered",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "7実験1223人。退屈が動画の切り替えを促し、一部の実験では動画間・動画内の切り替えが退屈を増やし、満足・注意・意味を低下させた。自分で動画を選ぶ場合にも同じ方向の結果があった。",
+      "limitations_ja": "オンライン記事や大学生以外の標本では結論が不明瞭だった。全デジタル操作に一般化せず、長期依存・脳の損傷・ドーパミンの単独機序を示す研究ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-household2025",
+      "source_id": "SRC176",
+      "topic_ids": [
+        "PSY-INT-006"
+      ],
+      "design": "cross_sectional_wave_of_longitudinal_cohort",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "産後約36か月の母親322人が30種類の家事の計画と実行の分担を別々に評定。認知的な家事負担の偏りはストレス、燃え尽き、関係満足などと関連した。",
+      "limitations_ja": "長期追跡の一時点の横断解析であり因果は確定しない。異性パートナーと同居する出産経験者、高学歴・高所得に偏り、母親本人だけの報告。新しい家事尺度の妥当性も十分に検証されていない。身体作業が無害とは言えない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Participants and Procedure: sixth wave",
+        "Measures: division of domestic labor",
+        "Results",
+        "Strengths, limitations, and future directions"
+      ]
+    },
+    {
+      "id": "RL8-gratitude2025",
+      "source_id": "SRC097",
+      "topic_ids": [
+        "PSY-WEL-002"
+      ],
+      "design": "preregistered_meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "145論文163標本24804人、28か国を統合し幸福への平均的な小さな改善g=.19を報告。指標・介入の種類・無作為化の有無で大きさが異なり、国による違いの説明は十分ではなかった。",
+      "limitations_ja": "145論文を145の独立RCTと呼ばない。日本の下位解析で有意でないことを日本人全体への効果不存在にしない。逆に全体平均を日本の個人に保証しない。検索は2024年5月までで、2025年までの網羅ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract",
+        "Results: descriptive statistics and moderators",
+        "Discussion: country differences"
+      ]
+    },
+    {
+      "id": "RL8-music2011",
+      "source_id": "SRC132",
+      "topic_ids": [
+        "PSY-ATT-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "背景音楽の全体平均がほぼゼロでも、読む課題や記憶では負の影響、感情や運動では別の結果があり得るという結果指標の違いを示した。",
+      "limitations_ja": "少数の研究・方法上の限界がある古いレビュー。音楽一般の善悪、ジャンル別の最適処方を導けない。正本の2010年はオンライン公開年で、巻号掲載は2011年。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-music2022",
+      "source_id": "SRC296",
+      "topic_ids": [
+        "PSY-ATT-005"
+      ],
+      "design": "systematic_review_without_pooled_effect_meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "95論文154実験6246人の背景音楽と認知課題を整理。課題、歌詞、難度、標本によって結果が異なり、言語・記憶課題で妨害が多い。",
+      "limitations_ja": "方向の票数等で統合するSWiM型で、標準化効果量をプールしたメタ分析ではない。若年成人に偏り、検索は2020年7月まで。歌詞なしならいつでも安全、有利という証明ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract",
+        "Methods: SWiM synthesis and sign tests",
+        "Results: memory and language",
+        "Discussion and limitations"
+      ]
+    },
+    {
+      "id": "RL8-safety2017",
+      "source_id": "SRC144",
+      "topic_ids": [
+        "PSY-SOC-009"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "136独立標本、2万人超・約5千集団の心理的安全性研究を統合し、職場の前提条件や学習・成果との関連を分析した。個人と集団の測定を区別している。",
+      "limitations_ja": "今回の抄録だけで具体的な介入の因果的効果を確定しない。136標本を136の無作為化介入としない。正本2016年はオンライン公開年で、巻号掲載は2017年。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-safety2023",
+      "source_id": "SRC297",
+      "topic_ids": [
+        "PSY-SOC-009"
+      ],
+      "design": "narrative_integrative_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "心理的安全性を対人的なリスクが小さい状態と捉え、遂行、学習行動、仕事経験、リーダーシップの4領域を整理した。複雑で相互依存の強い組織での学習との関わりを論じている。",
+      "limitations_ja": "一つの定型的な声かけで成績が上がることを証明した介入試験ではない。既存メタ分析と根拠が重なり、独立した再現として加算しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-marsh2018",
+      "source_id": "SRC152",
+      "topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "design": "longitudinal_conceptual_replication",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幼児の待つ時間と15歳の成績の関連は、家庭背景、初期の認知能力、家庭環境を考慮すると小さくなった。行動面の結果との関連はさらに弱かった。",
+      "limitations_ja": "観察的な予測で、待つ訓練の効果を検証した試験ではない。統制後の弱い関連は自己調整全体が無価値という意味ではない。未事前登録の解析とされる。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Publisher abstract",
+        "Open practices: NICHD SECCYD data and no preregistration"
+      ]
+    },
+    {
+      "id": "RL8-marsh2024",
+      "source_id": "SRC153",
+      "topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "design": "preregistered_longitudinal_followup",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "54か月時点の課題と26歳の成果を702人で比較。学歴とBMIには小さな単純相関があったが、調整後の係数はほぼすべて明確ではなかった。成人の達成・健康・行動を強く予測する結果ではない。",
+      "limitations_ja": "白人83％の米国標本で、全世界の個人に同じ予測精度とは限らない。2018年と同じSECCYDに基づく後年追跡で、独立した二つの集団としない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-impostor2020",
+      "source_id": "SRC167",
+      "topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "design": "systematic_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "62研究14161人を整理。自己の達成を内面化しにくい経験の割合は測定尺度・閾値などで大きく異なり、9～82％と報告された。抑うつ・不安等との関連も扱う。",
+      "limitations_ja": "割合の幅を一般人の有病率にしない。2018年5月までの検索で介入研究がないという記述を現在の状況に転用しない。資金提供企業と一部著者の関係を開示しており、商業的利益と結果の妥当性を別々に点検する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL8-impostor2026",
+      "source_id": "SRC298",
+      "topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "design": "umbrella_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "16レビュー（系統的8・スコーピング8）を整理。概念・尺度が統一されず確立した基準尺度がなく、個人の要因だけでなく職場階層や文脈も論じる。支援介入に有望な結果はあるが質が一定しない。",
+      "limitations_ja": "医療・教育分野のレビューが多く、全職種への移植には制限。元レビュー・試験を重ねて独立証拠数にしない。自己学習・コーチングを標準治療として断定しない。著者のAMSTAR-2等の評価を当方の実施結果としない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract",
+        "Methods: eligibility and registered protocol",
+        "Results: interventions and scale limitations",
+        "Discussion"
+      ]
+    },
+    {
+      "id": "RL8-heritabilityOfficial",
+      "source_id": "SRC004",
+      "topic_ids": [
+        "PSY-GEN-002"
+      ],
+      "design": "official_genetics_explanation",
+      "review_scope": "official_page_reviewed",
+      "additional_reading_scope": "official_page_reviewed",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "遺伝率は特定の集団と環境での形質のばらつきに関する統計指標。個人の形質の遺伝由来の割合、関与する特定遺伝子、変えやすさを示さない。家族の類似は遺伝以外でも生じる。",
+      "limitations_ja": "公的な定義・解釈の説明で、性格の具体的遺伝率や個人への介入効果を推定する原著研究ではない。0.5は記事の説明用の仮定で、特定の性格の実測値ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "What is heritability?: definition and misconceptions",
+        "Last updated 16 September 2021"
+      ]
+    },
+    {
+      "id": "RL8-heritabilityMethods2017",
+      "source_id": "SRC005",
+      "topic_ids": [
+        "PSY-GEN-002"
+      ],
+      "design": "methodological_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "広義・狭義の遺伝率、双生児・養子・家族・集団研究、解析法が推定に及ぼす違いを説明するレビュー。既知の変異で説明できる分散と遺伝率の差も論じる。",
+      "limitations_ja": "方法論の説明であり、全形質に共通の数値や遺伝子検査の個人予測精度を与えない。今回は出版社抄録の確認で全数式や仮定を独立検証していない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Publisher abstract: conceptual definitions and methodological limitations"
+      ]
+    },
+    {
+      "id": "RL8-heritabilityCritique2017",
+      "source_id": "SRC006",
+      "topic_ids": [
+        "PSY-GEN-002"
+      ],
+      "design": "critical_conceptual_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "遺伝率の数値を、個人がどう発達したかの原因割合に置き換える誤読を批判した概念的な論考。",
+      "limitations_ja": "著者は遺伝率の有用性にも強い批判を示すが、それを研究分野全体の合意と扱わない。遺伝の寄与がないという主張ではない。公的解説と方法論レビューを併記する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "daily-life-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
     }
   ],
   "updated_on": "2026-09-11"

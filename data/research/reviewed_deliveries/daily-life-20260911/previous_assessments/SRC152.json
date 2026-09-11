@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC152",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C045"
+    ],
+    "limitations_ja": [
+      "自制心が無意味という結果ではない。一回のテストで子どもの将来や親の育て方を判断しない。"
+    ],
+    "integrity_status": "indexed_links_checked_not_exhaustive",
+    "integrity_notices": [
+      {
+        "id": "30687175",
+        "source": "MED",
+        "reference": "Front Psychol. 2019 Jan 10;9:2719. doi: 10.3389/fpsyg.2018.02719.",
+        "type": "Comment in",
+        "orderIn": 1
+      },
+      {
+        "id": "31850825",
+        "source": "MED",
+        "reference": "Psychol Sci. 2020 Jan;31(1):105-108. doi: 10.1177/0956797619893606.",
+        "type": "Comment in",
+        "orderIn": 2
+      },
+      {
+        "id": "31850827",
+        "source": "MED",
+        "reference": "Psychol Sci. 2020 Jan;31(1):97-99. doi: 10.1177/0956797619839045.",
+        "type": "Comment in",
+        "orderIn": 3
+      },
+      {
+        "id": "31850833",
+        "source": "MED",
+        "reference": "Psychol Sci. 2020 Jan;31(1):100-104. doi: 10.1177/0956797619861720.",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    ]
+  }
+}

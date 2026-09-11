@@ -163,15 +163,15 @@
           "edge_id": "EV-PSY-INT-006-SRC176",
           "source_id": "SRC176",
           "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
-          "review_scope": "abstract",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "association",
-          "limits_ja": "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。",
-          "priority_score": 75.0,
+          "conclusion_direction": "mixed",
+          "limits_ja": "長期追跡の一時点の横断解析であり因果は確定しない。異性パートナーと同居する出産経験者、高学歴・高所得に偏り、母親本人だけの報告。新しい家事尺度の妥当性も十分に検証されていない。身体作業が無害とは言えない。",
+          "priority_score": 80.0,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 2,
-            "reading_depth_0_to_4": 2
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

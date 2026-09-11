@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC131",
+    "review_scope": "bibliography",
+    "method_signals": 1,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "書誌のみ・信頼性未評価",
+    "provenance_review_ids": [
+      "R3-C024"
+    ],
+    "limitations_ja": [
+      "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。"
+    ],
+    "integrity_status": "not_completed",
+    "integrity_notices": []
+  }
+}

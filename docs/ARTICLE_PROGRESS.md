@@ -1,6 +1,6 @@
 # 記事制作の現在地
 
-目標300記事。本文48件、主張対応表48件。
+目標300記事。本文60件、主張対応表60件。
 
 限定した原文照合の記録がある原稿：20件。公開承認済み：0件。
 
@@ -19,7 +19,7 @@
 | PSY-SLP-009 眠いのに寝ない：就寝先延ばしはなぜ起きる？ | [原稿](../articles/manuscripts/PSY-SLP-009.md) | source_checked_manuscript |
 | PSY-SLP-010 睡眠アプリの点数はどこまで信じてよい？ | 未着手 | research_pending |
 | PSY-GEN-001 性格には遺伝がどれくらい影響する？ | [原稿](../articles/manuscripts/PSY-GEN-001.md) | source_checked_manuscript |
-| PSY-GEN-002 遺伝率50％は『あなたの半分が遺伝で決まる』ではない | 未着手 | research_pending |
+| PSY-GEN-002 遺伝率50％は『あなたの半分が遺伝で決まる』ではない | [原稿](../articles/manuscripts/PSY-GEN-002.md) | manuscript_pending_article_review |
 | PSY-GEN-003 一卵性双生児の研究から何が分かり、何が分からない？ | 未着手 | research_pending |
 | PSY-GEN-004 同じ家庭で育ったきょうだいの性格が違うのはなぜ？ | 未着手 | research_pending |
 | PSY-GEN-005 遺伝の影響が強い特徴でも、環境で変わる？ | 未着手 | research_pending |
@@ -50,7 +50,7 @@
 | PSY-HAB-010 自分を縛る仕組みは先延ばしを減らす？ | 未着手 | research_pending |
 | PSY-PER-001 性格を5つの軸で見る：ビッグファイブは何を測る？ | 未着手 | research_pending |
 | PSY-PER-002 大人になってから性格は変わる？ | [原稿](../articles/manuscripts/PSY-PER-002.md) | source_checked_manuscript |
-| PSY-PER-003 内向的な人は人付き合いで不利なのか？ | 未着手 | research_pending |
+| PSY-PER-003 内向的な人は人付き合いで不利なのか？ | [原稿](../articles/manuscripts/PSY-PER-003.md) | manuscript_pending_article_review |
 | PSY-PER-004 心配しやすい性格には長所もある？ | 未着手 | research_pending |
 | PSY-PER-005 まじめさと健康・仕事の成果はどう関係する？ | 未着手 | research_pending |
 | PSY-PER-006 自分の性格を、本人と周囲は同じように見ている？ | 未着手 | research_pending |
@@ -63,7 +63,7 @@
 | PSY-MOT-003 自分で選んだ目標は、押し付けられた目標より続く？ | 未着手 | research_pending |
 | PSY-MOT-004 目標は具体的で難しい方がよいのか？ | 未着手 | research_pending |
 | PSY-MOT-005 成功を想像するだけで行動は増える？ | 未着手 | research_pending |
-| PSY-MOT-006 完璧にやろうとするほど着手できなくなる？ | 未着手 | research_pending |
+| PSY-MOT-006 完璧にやろうとするほど着手できなくなる？ | [原稿](../articles/manuscripts/PSY-MOT-006.md) | manuscript_pending_article_review |
 | PSY-MOT-007 ご褒美をもらうと好きなことまで嫌になる？ | 未着手 | research_pending |
 | PSY-MOT-008 成長マインドセットは誰に、どんな場面で役立つ？ | [原稿](../articles/manuscripts/PSY-MOT-008.md) | manuscript_pending_article_review |
 | PSY-MOT-009 失敗したとき、自分に厳しい方が再挑戦できる？ | [原稿](../articles/manuscripts/PSY-MOT-009.md) | revised_manuscript_pending_review |
@@ -80,9 +80,9 @@
 | PSY-LEA-010 覚えた後に眠ると記憶はどう変わる？ | 未着手 | research_pending |
 | PSY-ATT-001 マルチタスクは本当に時間の節約になる？ | 未着手 | research_pending |
 | PSY-ATT-002 通知を見ていなくても集中は途切れる？ | [原稿](../articles/manuscripts/PSY-ATT-002.md) | manuscript_pending_article_review |
-| PSY-ATT-003 中断した仕事に戻りにくいのはなぜ？ | 未着手 | research_pending |
+| PSY-ATT-003 中断した仕事に戻りにくいのはなぜ？ | [原稿](../articles/manuscripts/PSY-ATT-003.md) | manuscript_pending_article_review |
 | PSY-ATT-004 短い休憩で集中力は戻る？ | [原稿](../articles/manuscripts/PSY-ATT-004.md) | source_checked_manuscript |
-| PSY-ATT-005 音楽を聴きながらの勉強は、どんなときに向く？ | 未着手 | research_pending |
+| PSY-ATT-005 音楽を聴きながらの勉強は、どんなときに向く？ | [原稿](../articles/manuscripts/PSY-ATT-005.md) | manuscript_pending_article_review |
 | PSY-ATT-006 ぼんやりする時間は創造性に役立つ？ | 未着手 | research_pending |
 | PSY-ATT-007 考え続けて疲れる『頭の疲労』は何を意味する？ | 未着手 | research_pending |
 | PSY-ATT-008 締切が近いほど集中できるのはよいこと？ | 未着手 | research_pending |
@@ -136,10 +136,10 @@
 | PSY-SOC-006 自分はみんなに見られている？スポットライト効果 | 未着手 | research_pending |
 | PSY-SOC-007 見慣れたものを好きになるのはなぜ？単純接触効果 | 未着手 | research_pending |
 | PSY-SOC-008 強く説得されると、かえって反発したくなる？ | 未着手 | research_pending |
-| PSY-SOC-009 チームの『言いにくさ』は仕事の質に影響する？ | 未着手 | research_pending |
+| PSY-SOC-009 チームの『言いにくさ』は仕事の質に影響する？ | [原稿](../articles/manuscripts/PSY-SOC-009.md) | manuscript_pending_article_review |
 | PSY-SOC-010 有名な社会的プライミング研究はどこまで再現した？ | 未着手 | research_pending |
 | PSY-WEL-001 幸福は『今の気分』と『人生への満足』で違う？ | 未着手 | research_pending |
-| PSY-WEL-002 よかったことを書き留める習慣は気分に役立つ？ | 未着手 | research_pending |
+| PSY-WEL-002 よかったことを書き留める習慣は気分に役立つ？ | [原稿](../articles/manuscripts/PSY-WEL-002.md) | manuscript_pending_article_review |
 | PSY-WEL-003 よいことにも慣れる：快楽順応は避けられる？ | 未着手 | research_pending |
 | PSY-WEL-004 物を買うのと経験を買うのでは、満足度が違う？ | 未着手 | research_pending |
 | PSY-WEL-005 お金が増えれば幸福も増える？ | [原稿](../articles/manuscripts/PSY-WEL-005.md) | source_checked_manuscript |
@@ -169,7 +169,7 @@
 | PSY-NUT-009 空腹や満腹に注意を向ける食べ方には根拠がある？ | 未着手 | research_pending |
 | PSY-NUT-010 厳しすぎる食事ルールは、かえって続きにくい？ | 未着手 | research_pending |
 | PSY-DEV-001 子どもを褒めるとき、才能と取り組み方で違いはある？ | 未着手 | research_pending |
-| PSY-DEV-002 マシュマロを待てる子は将来成功する、は本当？ | 未着手 | research_pending |
+| PSY-DEV-002 マシュマロを待てる子は将来成功する、は本当？ | [原稿](../articles/manuscripts/PSY-DEV-002.md) | manuscript_pending_article_review |
 | PSY-DEV-003 子どもの自制心は、どのように育つ？ | 未着手 | research_pending |
 | PSY-DEV-004 子どもの強い感情を、大人はどう支えられる？ | 未着手 | research_pending |
 | PSY-DEV-005 幼い頃の愛着が、その後の人間関係を決める？ | 未着手 | research_pending |
@@ -218,7 +218,7 @@
 | PSY-WRK-008 通勤時間は睡眠や気分にどれくらい関わる？ | 未着手 | research_pending |
 | PSY-WRK-009 会議が続くと仕事が進まないのはなぜ？ | 未着手 | research_pending |
 | PSY-WRK-010 夜の仕事連絡は返さなくても負担になる？ | 未着手 | research_pending |
-| PSY-WRK-011 実績があっても自信が持てない：インポスター感とは？ | 未着手 | research_pending |
+| PSY-WRK-011 実績があっても自信が持てない：インポスター感とは？ | [原稿](../articles/manuscripts/PSY-WRK-011.md) | manuscript_pending_article_review |
 | PSY-WRK-012 仕事に熱中することと働きすぎをやめられないことは違う？ | 未着手 | research_pending |
 | PSY-WRK-013 週4日勤務は休みが増えるだけでなく健康にも影響する？ | 未着手 | research_pending |
 | PSY-WRK-014 職場で雑談する時間には意味がある？ | 未着手 | research_pending |
@@ -241,7 +241,7 @@
 | PSY-INT-003 性的な頻度が多いほど満足度は高い？ | 未着手 | research_pending |
 | PSY-INT-004 親密になりたい頻度が違うとき、どう考える？ | 未着手 | research_pending |
 | PSY-INT-005 親しい相手とも希望や境界を言葉にした方がよい？ | 未着手 | research_pending |
-| PSY-INT-006 家事の不満は作業時間より考える負担から生じる？ | 未着手 | research_pending |
+| PSY-INT-006 家事の不満は作業時間より考える負担から生じる？ | [原稿](../articles/manuscripts/PSY-INT-006.md) | manuscript_pending_article_review |
 | PSY-INT-007 睡眠不足の日はパートナーと衝突しやすい？ | 未着手 | research_pending |
 | PSY-INT-008 SNSで相手を確認し続けると安心できる？ | 未着手 | research_pending |
 | PSY-INT-009 似た者同士と正反対の二人、どちらが合う？ | 未着手 | research_pending |
@@ -260,7 +260,7 @@
 | PSY-HPS-010 症状がないと健康上の注意を続けにくいのはなぜ？ | 未着手 | research_pending |
 | PSY-HPS-011 薬や通院を忘れることと、続けたくないことは違う？ | 未着手 | research_pending |
 | PSY-HPS-012 リスクが半減という説明は、何人減るという説明と同じ？ | 未着手 | research_pending |
-| PSY-ENV-001 暑い部屋では考える力や集中は変わる？ | 未着手 | research_pending |
+| PSY-ENV-001 暑い部屋では考える力や集中は変わる？ | [原稿](../articles/manuscripts/PSY-ENV-001.md) | manuscript_pending_article_review |
 | PSY-ENV-002 換気の悪い会議室では判断が鈍る？ | 未着手 | research_pending |
 | PSY-ENV-003 慣れた騒音でも睡眠やストレスに影響する？ | 未着手 | research_pending |
 | PSY-ENV-004 オープンなオフィスは会話を増やし集中を妨げる？ | 未着手 | research_pending |
@@ -274,7 +274,7 @@
 | PSY-ENV-012 自然の音を流すとリラックスできる？ | 未着手 | research_pending |
 | PSY-CRE-001 歩きながら考えるとアイデアは出やすくなる？ | [原稿](../articles/manuscripts/PSY-CRE-001.md) | manuscript_pending_article_review |
 | PSY-CRE-002 知りたいと思ったことは覚えやすい？ | [原稿](../articles/manuscripts/PSY-CRE-002.md) | manuscript_pending_article_review |
-| PSY-CRE-003 退屈を避けて動画を次々替えると、もっと退屈になる？ | 未着手 | research_pending |
+| PSY-CRE-003 退屈を避けて動画を次々替えると、もっと退屈になる？ | [原稿](../articles/manuscripts/PSY-CRE-003.md) | manuscript_pending_article_review |
 | PSY-CRE-004 壮大な景色や音楽で圧倒される感覚には意味がある？ | 未着手 | research_pending |
 | PSY-CRE-005 行き詰まった問題をいったん離れると解ける？ | 未着手 | research_pending |
 | PSY-CRE-006 アイデアを多く出す力と、よい案を選ぶ力は同じ？ | 未着手 | research_pending |
@@ -338,4 +338,5 @@
 
 - [CONTINUATION_20260911B](CONTINUATION_20260911B.md)
 - [CONTINUATION_20260911D](CONTINUATION_20260911D.md)
+- [CONTINUATION_DAILY_LIFE_20260911](CONTINUATION_DAILY_LIFE_20260911.md)
 - [CONTINUATION_LEARNING_20260911](CONTINUATION_LEARNING_20260911.md)

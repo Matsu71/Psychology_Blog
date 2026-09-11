@@ -118,7 +118,7 @@
       "topic_file": "data/topics/02_genetics.json",
       "evidence_file": "data/evidence/genetics.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": 77
     },
     {
@@ -428,7 +428,7 @@
       "topic_file": "data/topics/05_personality.json",
       "evidence_file": "data/evidence/personality.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 86
     },
     {
@@ -558,7 +558,7 @@
       "topic_file": "data/topics/06_motivation.json",
       "evidence_file": "data/evidence/motivation.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 85
     },
     {
@@ -728,7 +728,7 @@
       "topic_file": "data/topics/08_attention.json",
       "evidence_file": "data/evidence/attention.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": 85
     },
     {
@@ -748,7 +748,7 @@
       "topic_file": "data/topics/08_attention.json",
       "evidence_file": "data/evidence/attention.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 80
     },
     {
@@ -1288,7 +1288,7 @@
       "topic_file": "data/topics/13_social.json",
       "evidence_file": "data/evidence/social.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 80
     },
     {
@@ -2108,7 +2108,7 @@
       "topic_file": "data/topics/21_work.json",
       "evidence_file": "data/evidence/work.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 79
     },
     {

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-006",
+  "title": "完璧主義だと先延ばしになる？「高い基準」と「失敗の怖さ」を分ける",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "8985aa1ebf1b134666e8abe60e3772dfc668932b0d4904255c0dff2c730a0e40",
+  "claims": [
+    {
+      "id": "PSY-MOT-006-D01",
+      "text_ja": "2017年のメタ分析は、完璧主義を一つの性格として扱わず、間違いへの心配や評価への懸念と、高い基準を目指す傾向に分けました。前者は先延ばしの多さ、後者は先延ばしの少なさと平均的に関連していました。\n\n「丁寧にやりたい人ほど動けない」という単純な図ではありません。同じ人に二つの側面が同時にあることも想定して考える必要があります。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "source_check_ids": [
+        "SL8-perfection2017"
+      ],
+      "population_and_scope_ja": "完璧主義の複数尺度と特性としての先延ばしの相関統合。",
+      "not_supported_ja": "人を二種類に分類する診断にしない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-006-D02",
+      "text_ja": "懸念との相関は約0.23、高い基準を追う側面との相関は約−0.22でした。これは全員に起きる法則ではなく、集団で見られた平均的な関連です。基準を上げれば先延ばしが減る、心配を減らせば必ず始められる、という介入の効果を直接示していません。\n\nまた、二つの分析に参加した人は重なり得ます。両方の人数を足して、別々の人で何万人も確認した証拠にすることはできません。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "source_check_ids": [
+        "SL8-perfection2017"
+      ],
+      "population_and_scope_ja": "平均相関の方向と解釈。",
+      "not_supported_ja": "相関係数を原因の寄与率や治療成功率へ換算しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-006-D03",
+      "text_ja": "例えば報告書なら、数字の出典が足りないのか、提出後に能力を疑われるのが怖いのかを分けて考えます。前者には確認する作業を指定できます。後者では、何をもって提出可能とするかが際限なく曖昧になっているかもしれません。\n\nこれは研究から考える説明用の例です。どちらかを選べば本人の原因が診断できるわけではありませんが、「もっと完璧に」という一つの指示より、次に確かめることを具体化できます。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "source_check_ids": [
+        "SL8-perfection2017"
+      ],
+      "population_and_scope_ja": "研究の構成概念を区別するための想定例。",
+      "not_supported_ja": "例から個人の性格や病気を診断しない。",
+      "kind": "interpretation",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "作業を始める前に、必須条件と後で改善できる条件を分けます。例えば「数値と出典は照合する」「表現の磨き込みはレビュー後」と決め、まず確認してもらえる版を作ります。これは品質を下げる提案ではなく、品質の確認と評価への不安を同じ作業で処理しないための設計例です。",
+    "safety": "苦痛や生活への支障が大きい場合は、作業術だけで抱え込まないでください。安全や法令に関わる必須条件を省略する意味ではありません。"
+  },
+  "review_items": [
+    "主要メタ分析は抄録確認で、全文・後続介入の網羅的評価は未実施。",
+    "日常の手順を、この相関メタ分析で検証済みの治療として表示していない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

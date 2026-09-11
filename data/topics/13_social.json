@@ -159,11 +159,14 @@
       "search_query": "psychological safety team performance speaking up meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC144"
+        "SRC144",
+        "SRC297"
       ],
       "caution_ja": "心理的安全性を仲良しや無責任と混同せず、組織条件と逆因果を確認する。",
       "source_review_ids": [
-        "R3-C037"
+        "R3-C037",
+        "RL8-safety2017",
+        "RL8-safety2023"
       ]
     },
     {

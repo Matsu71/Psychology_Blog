@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC004",
+    "review_scope": "selected_fulltext_sections",
+    "method_signals": 2,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
+    "integrity_status": "not_completed",
+    "integrity_notices": [],
+    "limitations_ja": [
+      "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。"
+    ],
+    "checked_on": "2026-09-11",
+    "checked_sections": [
+      "What is heritability? Definition and interpretation limitations"
+    ],
+    "reporting_issues": [],
+    "latest_source_check_id": "SC6-SRC004",
+    "provenance_review_ids": [
+      "SC6-SRC004"
+    ]
+  }
+}

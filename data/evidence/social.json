@@ -110,12 +110,12 @@
       "source_id": "SRC144",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C037",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-safety2017",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "136独立標本を統合し、心理的安全性と仕事の態度・成果・組織条件の関連を検討。",
-      "conclusion_direction": "association",
-      "limits_ja": "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。",
+      "finding_scope_ja": "136独立標本、2万人超・約5千集団の心理的安全性研究を統合し、職場の前提条件や学習・成果との関連を分析した。個人と集団の測定を区別している。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "今回の抄録だけで具体的な介入の因果的効果を確定しない。136標本を136の無作為化介入としない。正本2016年はオンライン公開年で、巻号掲載は2017年。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -174,6 +174,20 @@
       "finding_scope_ja": "547人のデータによる追試・拡張です。広く一致する外見の魅力と、評価者個人が感じる魅力を分けると、好ましい印象や人物理解の正確さとの関係は同じではありませんでした。",
       "conclusion_direction": "mixed",
       "limits_ja": "魅力がある人ほど必ず正確に理解される、という単純な結論にはできません。古典的ハロー効果の全操作を追試した研究でもありません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-009-SRC297",
+      "topic_id": "PSY-SOC-009",
+      "source_id": "SRC297",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-safety2023",
+      "finding_scope_ja": "心理的安全性を対人的なリスクが小さい状態と捉え、遂行、学習行動、仕事経験、リーダーシップの4領域を整理した。複雑で相互依存の強い組織での学習との関わりを論じている。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "一つの定型的な声かけで成績が上がることを証明した介入試験ではない。既存メタ分析と根拠が重なり、独立した再現として加算しない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

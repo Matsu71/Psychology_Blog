@@ -355,18 +355,18 @@
       "topic_id": "PSY-WRK-011",
       "sources": [
         {
-          "edge_id": "EV-PSY-WRK-011-SRC167",
-          "source_id": "SRC167",
-          "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
-          "review_scope": "abstract",
+          "edge_id": "EV-PSY-WRK-011-SRC298",
+          "source_id": "SRC298",
+          "title": "Rethinking the impostor phenomenon: An umbrella review of concept, context and interventions",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。",
-          "priority_score": 82.5,
+          "limits_ja": "医療・教育分野のレビューが多く、全職種への移植には制限。元レビュー・試験を重ねて独立証拠数にしない。自己学習・コーチングを標準治療として断定しない。著者のAMSTAR-2等の評価を当方の実施結果としない。",
+          "priority_score": 80.0,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -374,6 +374,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WRK-011-SRC167",
+          "source_id": "SRC167",
+          "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "割合の幅を一般人の有病率にしない。2018年5月までの検索で介入研究がないという記述を現在の状況に転用しない。資金提供企業と一部著者の関係を開示しており、商業的利益と結果の妥当性を別々に点検する。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
         }
       ]
     },

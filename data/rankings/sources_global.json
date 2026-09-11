@@ -100,6 +100,18 @@
       "display_position": 8
     },
     {
+      "source_id": "SRC097",
+      "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-WEL-002"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 3,
+      "display_position": 9
+    },
+    {
       "source_id": "SRC101",
       "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
       "priority_score": 87.5,
@@ -109,7 +121,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 9
+      "display_position": 10
     },
     {
       "source_id": "SRC104",
@@ -121,7 +133,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 10
+      "display_position": 11
     },
     {
       "source_id": "SRC149",
@@ -133,7 +145,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 11
+      "display_position": 12
     },
     {
       "source_id": "SRC159",
@@ -146,7 +158,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 12
+      "display_position": 13
     },
     {
       "source_id": "SRC169",
@@ -158,7 +170,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 13
+      "display_position": 14
     },
     {
       "source_id": "SRC236",
@@ -170,7 +182,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 14
+      "display_position": 15
     },
     {
       "source_id": "SRC245",
@@ -183,7 +195,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 15
+      "display_position": 16
     },
     {
       "source_id": "SRC268",
@@ -196,7 +208,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 16
+      "display_position": 17
     },
     {
       "source_id": "SRC271",
@@ -208,7 +220,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 17
+      "display_position": 18
     },
     {
       "source_id": "SRC275",
@@ -220,7 +232,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 18
+      "display_position": 19
     },
     {
       "source_id": "SRC276",
@@ -232,7 +244,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 19
+      "display_position": 20
     },
     {
       "source_id": "SRC284",
@@ -244,7 +256,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 20
+      "display_position": 21
     },
     {
       "source_id": "SRC290",
@@ -256,7 +268,19 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": 3,
-      "display_position": 21
+      "display_position": 22
+    },
+    {
+      "source_id": "SRC296",
+      "title": "Background Music and Cognitive Task Performance: A Systematic Review of Task, Music, and Population Impact",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-005"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 3,
+      "display_position": 23
     },
     {
       "source_id": "SRC027",
@@ -269,8 +293,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 22
+      "priority_rank": 24,
+      "display_position": 24
     },
     {
       "source_id": "SRC036",
@@ -281,8 +305,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 23
+      "priority_rank": 24,
+      "display_position": 25
     },
     {
       "source_id": "SRC040",
@@ -293,8 +317,8 @@
       ],
       "review_scope": "legacy_abstract_review",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 24
+      "priority_rank": 24,
+      "display_position": 26
     },
     {
       "source_id": "SRC046",
@@ -305,8 +329,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 25
+      "priority_rank": 24,
+      "display_position": 27
     },
     {
       "source_id": "SRC048",
@@ -317,8 +341,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 26
+      "priority_rank": 24,
+      "display_position": 28
     },
     {
       "source_id": "SRC049",
@@ -329,8 +353,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 27
+      "priority_rank": 24,
+      "display_position": 29
     },
     {
       "source_id": "SRC050",
@@ -341,8 +365,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 28
+      "priority_rank": 24,
+      "display_position": 30
     },
     {
       "source_id": "SRC052",
@@ -353,8 +377,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 29
+      "priority_rank": 24,
+      "display_position": 31
     },
     {
       "source_id": "SRC053",
@@ -365,8 +389,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 30
+      "priority_rank": 24,
+      "display_position": 32
     },
     {
       "source_id": "SRC068",
@@ -377,8 +401,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 31
+      "priority_rank": 24,
+      "display_position": 33
     },
     {
       "source_id": "SRC075",
@@ -389,8 +413,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 32
+      "priority_rank": 24,
+      "display_position": 34
     },
     {
       "source_id": "SRC083",
@@ -401,8 +425,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 33
+      "priority_rank": 24,
+      "display_position": 35
     },
     {
       "source_id": "SRC108",
@@ -413,8 +437,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 34
+      "priority_rank": 24,
+      "display_position": 36
     },
     {
       "source_id": "SRC109",
@@ -425,8 +449,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 35
+      "priority_rank": 24,
+      "display_position": 37
     },
     {
       "source_id": "SRC110",
@@ -437,8 +461,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 36
+      "priority_rank": 24,
+      "display_position": 38
     },
     {
       "source_id": "SRC111",
@@ -449,8 +473,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 37
+      "priority_rank": 24,
+      "display_position": 39
     },
     {
       "source_id": "SRC112",
@@ -461,8 +485,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 38
+      "priority_rank": 24,
+      "display_position": 40
     },
     {
       "source_id": "SRC113",
@@ -473,8 +497,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 39
+      "priority_rank": 24,
+      "display_position": 41
     },
     {
       "source_id": "SRC114",
@@ -485,8 +509,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 40
+      "priority_rank": 24,
+      "display_position": 42
     },
     {
       "source_id": "SRC119",
@@ -497,8 +521,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 41
+      "priority_rank": 24,
+      "display_position": 43
     },
     {
       "source_id": "SRC120",
@@ -509,8 +533,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 42
+      "priority_rank": 24,
+      "display_position": 44
     },
     {
       "source_id": "SRC121",
@@ -521,8 +545,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 43
+      "priority_rank": 24,
+      "display_position": 45
     },
     {
       "source_id": "SRC122",
@@ -533,8 +557,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 44
+      "priority_rank": 24,
+      "display_position": 46
     },
     {
       "source_id": "SRC124",
@@ -545,8 +569,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 45
+      "priority_rank": 24,
+      "display_position": 47
     },
     {
       "source_id": "SRC128",
@@ -557,8 +581,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 46
+      "priority_rank": 24,
+      "display_position": 48
     },
     {
       "source_id": "SRC129",
@@ -569,8 +593,20 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 47
+      "priority_rank": 24,
+      "display_position": 49
+    },
+    {
+      "source_id": "SRC131",
+      "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 24,
+      "display_position": 50
     },
     {
       "source_id": "SRC132",
@@ -581,8 +617,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 48
+      "priority_rank": 24,
+      "display_position": 51
     },
     {
       "source_id": "SRC133",
@@ -594,8 +630,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 49
+      "priority_rank": 24,
+      "display_position": 52
     },
     {
       "source_id": "SRC136",
@@ -606,8 +642,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 50
+      "priority_rank": 24,
+      "display_position": 53
     },
     {
       "source_id": "SRC138",
@@ -618,8 +654,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 51
+      "priority_rank": 24,
+      "display_position": 54
     },
     {
       "source_id": "SRC139",
@@ -630,8 +666,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 52
+      "priority_rank": 24,
+      "display_position": 55
     },
     {
       "source_id": "SRC140",
@@ -642,8 +678,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 53
+      "priority_rank": 24,
+      "display_position": 56
     },
     {
       "source_id": "SRC142",
@@ -654,8 +690,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 54
+      "priority_rank": 24,
+      "display_position": 57
     },
     {
       "source_id": "SRC143",
@@ -666,8 +702,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 55
+      "priority_rank": 24,
+      "display_position": 58
     },
     {
       "source_id": "SRC144",
@@ -678,8 +714,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 56
+      "priority_rank": 24,
+      "display_position": 59
     },
     {
       "source_id": "SRC147",
@@ -690,8 +726,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 57
+      "priority_rank": 24,
+      "display_position": 60
     },
     {
       "source_id": "SRC148",
@@ -702,8 +738,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 58
+      "priority_rank": 24,
+      "display_position": 61
     },
     {
       "source_id": "SRC151",
@@ -714,32 +750,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 59
-    },
-    {
-      "source_id": "SRC152",
-      "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes.",
-      "priority_score": 82.5,
-      "best_matched_topic_ids": [
-        "PSY-DEV-002"
-      ],
-      "review_scope": "abstract",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 60
-    },
-    {
-      "source_id": "SRC153",
-      "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning.",
-      "priority_score": 82.5,
-      "best_matched_topic_ids": [
-        "PSY-DEV-002"
-      ],
-      "review_scope": "abstract",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 61
+      "priority_rank": 24,
+      "display_position": 62
     },
     {
       "source_id": "SRC154",
@@ -750,8 +762,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 62
+      "priority_rank": 24,
+      "display_position": 63
     },
     {
       "source_id": "SRC155",
@@ -762,8 +774,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 63
+      "priority_rank": 24,
+      "display_position": 64
     },
     {
       "source_id": "SRC156",
@@ -774,8 +786,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 64
+      "priority_rank": 24,
+      "display_position": 65
     },
     {
       "source_id": "SRC158",
@@ -786,8 +798,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 65
+      "priority_rank": 24,
+      "display_position": 66
     },
     {
       "source_id": "SRC160",
@@ -799,8 +811,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 66
+      "priority_rank": 24,
+      "display_position": 67
     },
     {
       "source_id": "SRC162",
@@ -811,8 +823,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 67
+      "priority_rank": 24,
+      "display_position": 68
     },
     {
       "source_id": "SRC163",
@@ -823,8 +835,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 68
+      "priority_rank": 24,
+      "display_position": 69
     },
     {
       "source_id": "SRC165",
@@ -835,19 +847,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
-      "display_position": 69
-    },
-    {
-      "source_id": "SRC167",
-      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
-      "priority_score": 82.5,
-      "best_matched_topic_ids": [
-        "PSY-WRK-011"
-      ],
-      "review_scope": "abstract",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 70
     },
     {
@@ -859,7 +859,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 71
     },
     {
@@ -871,7 +871,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 72
     },
     {
@@ -883,7 +883,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 73
     },
     {
@@ -895,7 +895,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 74
     },
     {
@@ -907,7 +907,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 75
     },
     {
@@ -919,7 +919,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 76
     },
     {
@@ -932,7 +932,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 77
     },
     {
@@ -944,7 +944,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 78
     },
     {
@@ -956,7 +956,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 79
     },
     {
@@ -969,7 +969,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 80
     },
     {
@@ -982,7 +982,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 81
     },
     {
@@ -994,7 +994,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 82
     },
     {
@@ -1006,7 +1006,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 83
     },
     {
@@ -1018,7 +1018,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 84
     },
     {
@@ -1030,7 +1030,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 85
     },
     {
@@ -1042,7 +1042,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 86
     },
     {
@@ -1054,7 +1054,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 87
     },
     {
@@ -1066,7 +1066,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 88
     },
     {
@@ -1078,7 +1078,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 89
     },
     {
@@ -1090,7 +1090,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 90
     },
     {
@@ -1102,7 +1102,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 91
     },
     {
@@ -1114,7 +1114,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 92
     },
     {
@@ -1126,7 +1126,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 93
     },
     {
@@ -1138,7 +1138,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 94
     },
     {
@@ -1150,7 +1150,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 95
     },
     {
@@ -1162,7 +1162,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 96
     },
     {
@@ -1174,7 +1174,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 97
     },
     {
@@ -1186,7 +1186,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 98
     },
     {
@@ -1198,7 +1198,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 99
     },
     {
@@ -1210,7 +1210,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 100
     },
     {
@@ -1222,7 +1222,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 101
     },
     {
@@ -1234,7 +1234,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 102
     },
     {
@@ -1246,7 +1246,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 103
     },
     {
@@ -1258,7 +1258,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 104
     },
     {
@@ -1270,7 +1270,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 105
     },
     {
@@ -1282,7 +1282,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 106
     },
     {
@@ -1294,7 +1294,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 107
     },
     {
@@ -1306,7 +1306,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 108
     },
     {
@@ -1318,7 +1318,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 109
     },
     {
@@ -1330,7 +1330,7 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 110
     },
     {
@@ -1342,20 +1342,44 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 22,
+      "priority_rank": 24,
       "display_position": 111
     },
     {
-      "source_id": "SRC004",
-      "title": "What is heritability?",
-      "priority_score": 80.0,
+      "source_id": "SRC292",
+      "title": "Experimental manipulation of extraverted and introverted behavior and its effects on well-being",
+      "priority_score": 82.5,
       "best_matched_topic_ids": [
-        "PSY-GEN-001"
+        "PSY-PER-003"
       ],
-      "review_scope": "selected_fulltext_sections",
+      "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 112,
+      "priority_rank": 24,
       "display_position": 112
+    },
+    {
+      "source_id": "SRC294",
+      "title": "Contextual cues aid recovery from interruption: The role of associative activation",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 24,
+      "display_position": 113
+    },
+    {
+      "source_id": "SRC295",
+      "title": "A Meta-analytic and Conceptual Update on the Associations Between Procrastination and Multidimensional Perfectionism",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-MOT-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 24,
+      "display_position": 114
     },
     {
       "source_id": "SRC010",
@@ -1366,8 +1390,32 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 112,
-      "display_position": 113
+      "priority_rank": 115,
+      "display_position": 115
+    },
+    {
+      "source_id": "SRC081",
+      "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
+      "priority_score": 80.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-001"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 115,
+      "display_position": 116
+    },
+    {
+      "source_id": "SRC176",
+      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
+      "priority_score": 80.0,
+      "best_matched_topic_ids": [
+        "PSY-INT-006"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 115,
+      "display_position": 117
     },
     {
       "source_id": "SRC260",
@@ -1378,8 +1426,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 112,
-      "display_position": 114
+      "priority_rank": 115,
+      "display_position": 118
     },
     {
       "source_id": "SRC273",
@@ -1390,8 +1438,44 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 112,
-      "display_position": 115
+      "priority_rank": 115,
+      "display_position": 119
+    },
+    {
+      "source_id": "SRC298",
+      "title": "Rethinking the impostor phenomenon: An umbrella review of concept, context and interventions",
+      "priority_score": 80.0,
+      "best_matched_topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 115,
+      "display_position": 120
+    },
+    {
+      "source_id": "SRC005",
+      "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-GEN-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 121
+    },
+    {
+      "source_id": "SRC006",
+      "title": "The heritability fallacy",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-GEN-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 122
     },
     {
       "source_id": "SRC037",
@@ -1402,8 +1486,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 116
+      "priority_rank": 121,
+      "display_position": 123
     },
     {
       "source_id": "SRC107",
@@ -1414,8 +1498,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 117
+      "priority_rank": 121,
+      "display_position": 124
     },
     {
       "source_id": "SRC117",
@@ -1426,8 +1510,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 118
+      "priority_rank": 121,
+      "display_position": 125
     },
     {
       "source_id": "SRC118",
@@ -1438,8 +1522,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 119
+      "priority_rank": 121,
+      "display_position": 126
     },
     {
       "source_id": "SRC126",
@@ -1450,8 +1534,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 120
+      "priority_rank": 121,
+      "display_position": 127
     },
     {
       "source_id": "SRC130",
@@ -1462,8 +1546,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 121
+      "priority_rank": 121,
+      "display_position": 128
     },
     {
       "source_id": "SRC145",
@@ -1474,8 +1558,44 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 122
+      "priority_rank": 121,
+      "display_position": 129
+    },
+    {
+      "source_id": "SRC152",
+      "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 130
+    },
+    {
+      "source_id": "SRC153",
+      "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 131
+    },
+    {
+      "source_id": "SRC167",
+      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 132
     },
     {
       "source_id": "SRC171",
@@ -1486,20 +1606,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 123
-    },
-    {
-      "source_id": "SRC176",
-      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
-      "priority_score": 75.0,
-      "best_matched_topic_ids": [
-        "PSY-INT-006"
-      ],
-      "review_scope": "abstract",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 124
+      "priority_rank": 121,
+      "display_position": 133
     },
     {
       "source_id": "SRC183",
@@ -1511,8 +1619,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 125
+      "priority_rank": 121,
+      "display_position": 134
     },
     {
       "source_id": "SRC188",
@@ -1523,8 +1631,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 126
+      "priority_rank": 121,
+      "display_position": 135
     },
     {
       "source_id": "SRC189",
@@ -1535,8 +1643,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 127
+      "priority_rank": 121,
+      "display_position": 136
     },
     {
       "source_id": "SRC190",
@@ -1547,8 +1655,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 128
+      "priority_rank": 121,
+      "display_position": 137
     },
     {
       "source_id": "SRC191",
@@ -1559,8 +1667,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 129
+      "priority_rank": 121,
+      "display_position": 138
     },
     {
       "source_id": "SRC198",
@@ -1571,8 +1679,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 130
+      "priority_rank": 121,
+      "display_position": 139
     },
     {
       "source_id": "SRC200",
@@ -1583,8 +1691,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 131
+      "priority_rank": 121,
+      "display_position": 140
     },
     {
       "source_id": "SRC203",
@@ -1596,8 +1704,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 132
+      "priority_rank": 121,
+      "display_position": 141
     },
     {
       "source_id": "SRC205",
@@ -1608,8 +1716,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 133
+      "priority_rank": 121,
+      "display_position": 142
     },
     {
       "source_id": "SRC206",
@@ -1620,8 +1728,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 134
+      "priority_rank": 121,
+      "display_position": 143
     },
     {
       "source_id": "SRC214",
@@ -1632,8 +1740,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 135
+      "priority_rank": 121,
+      "display_position": 144
     },
     {
       "source_id": "SRC216",
@@ -1644,8 +1752,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 136
+      "priority_rank": 121,
+      "display_position": 145
     },
     {
       "source_id": "SRC224",
@@ -1656,8 +1764,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 137
+      "priority_rank": 121,
+      "display_position": 146
     },
     {
       "source_id": "SRC226",
@@ -1668,8 +1776,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 138
+      "priority_rank": 121,
+      "display_position": 147
     },
     {
       "source_id": "SRC230",
@@ -1680,8 +1788,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 139
+      "priority_rank": 121,
+      "display_position": 148
     },
     {
       "source_id": "SRC232",
@@ -1692,8 +1800,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 140
+      "priority_rank": 121,
+      "display_position": 149
     },
     {
       "source_id": "SRC234",
@@ -1704,8 +1812,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 141
+      "priority_rank": 121,
+      "display_position": 150
     },
     {
       "source_id": "SRC235",
@@ -1716,8 +1824,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 142
+      "priority_rank": 121,
+      "display_position": 151
     },
     {
       "source_id": "SRC238",
@@ -1728,8 +1836,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 143
+      "priority_rank": 121,
+      "display_position": 152
     },
     {
       "source_id": "SRC239",
@@ -1740,8 +1848,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 144
+      "priority_rank": 121,
+      "display_position": 153
     },
     {
       "source_id": "SRC241",
@@ -1752,8 +1860,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 145
+      "priority_rank": 121,
+      "display_position": 154
     },
     {
       "source_id": "SRC246",
@@ -1764,8 +1872,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 146
+      "priority_rank": 121,
+      "display_position": 155
     },
     {
       "source_id": "SRC249",
@@ -1776,8 +1884,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 147
+      "priority_rank": 121,
+      "display_position": 156
     },
     {
       "source_id": "SRC252",
@@ -1788,8 +1896,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 148
+      "priority_rank": 121,
+      "display_position": 157
     },
     {
       "source_id": "SRC253",
@@ -1800,8 +1908,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 149
+      "priority_rank": 121,
+      "display_position": 158
     },
     {
       "source_id": "SRC254",
@@ -1812,8 +1920,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 150
+      "priority_rank": 121,
+      "display_position": 159
     },
     {
       "source_id": "SRC255",
@@ -1824,8 +1932,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 151
+      "priority_rank": 121,
+      "display_position": 160
     },
     {
       "source_id": "SRC262",
@@ -1836,8 +1944,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 152
+      "priority_rank": 121,
+      "display_position": 161
     },
     {
       "source_id": "SRC264",
@@ -1848,8 +1956,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 153
+      "priority_rank": 121,
+      "display_position": 162
     },
     {
       "source_id": "SRC265",
@@ -1860,8 +1968,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 154
+      "priority_rank": 121,
+      "display_position": 163
     },
     {
       "source_id": "SRC266",
@@ -1873,8 +1981,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 155
+      "priority_rank": 121,
+      "display_position": 164
     },
     {
       "source_id": "SRC267",
@@ -1885,8 +1993,32 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 116,
-      "display_position": 156
+      "priority_rank": 121,
+      "display_position": 165
+    },
+    {
+      "source_id": "SRC293",
+      "title": "Tasks Interrupted: How Anticipating Time Pressure on Resumption of an Interrupted Task Causes Attention Residue and Low Performance on Interrupting Tasks and How a “Ready-to-Resume” Plan Mitigates the Effects",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 166
+    },
+    {
+      "source_id": "SRC297",
+      "title": "Psychological Safety Comes of Age: Observed Themes in an Established Literature",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-SOC-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 121,
+      "display_position": 167
     },
     {
       "source_id": "SRC135",
@@ -1897,8 +2029,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 157
+      "priority_rank": 168,
+      "display_position": 168
     },
     {
       "source_id": "SRC175",
@@ -1909,8 +2041,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 158
+      "priority_rank": 168,
+      "display_position": 169
     },
     {
       "source_id": "SRC179",
@@ -1921,8 +2053,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 159
+      "priority_rank": 168,
+      "display_position": 170
     },
     {
       "source_id": "SRC195",
@@ -1933,8 +2065,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 160
+      "priority_rank": 168,
+      "display_position": 171
     },
     {
       "source_id": "SRC202",
@@ -1945,8 +2077,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 161
+      "priority_rank": 168,
+      "display_position": 172
     },
     {
       "source_id": "SRC204",
@@ -1957,8 +2089,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 162
+      "priority_rank": 168,
+      "display_position": 173
     },
     {
       "source_id": "SRC208",
@@ -1969,8 +2101,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 163
+      "priority_rank": 168,
+      "display_position": 174
     },
     {
       "source_id": "SRC218",
@@ -1981,8 +2113,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 164
+      "priority_rank": 168,
+      "display_position": 175
     },
     {
       "source_id": "SRC219",
@@ -1993,8 +2125,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 165
+      "priority_rank": 168,
+      "display_position": 176
     },
     {
       "source_id": "SRC220",
@@ -2005,8 +2137,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 166
+      "priority_rank": 168,
+      "display_position": 177
     },
     {
       "source_id": "SRC221",
@@ -2017,8 +2149,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 167
+      "priority_rank": 168,
+      "display_position": 178
     },
     {
       "source_id": "SRC222",
@@ -2029,8 +2161,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 168
+      "priority_rank": 168,
+      "display_position": 179
     },
     {
       "source_id": "SRC231",
@@ -2041,8 +2173,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 157,
-      "display_position": 169
+      "priority_rank": 168,
+      "display_position": 180
     },
     {
       "source_id": "SRC256",
@@ -2053,8 +2185,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 170,
-      "display_position": 170
+      "priority_rank": 181,
+      "display_position": 181
     },
     {
       "source_id": "SRC054",
@@ -2066,8 +2198,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 171
+      "priority_rank": 182,
+      "display_position": 182
     },
     {
       "source_id": "SRC093",
@@ -2078,8 +2210,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 172
+      "priority_rank": 182,
+      "display_position": 183
     },
     {
       "source_id": "SRC125",
@@ -2090,8 +2222,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 173
+      "priority_rank": 182,
+      "display_position": 184
     },
     {
       "source_id": "SRC157",
@@ -2102,8 +2234,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 174
+      "priority_rank": 182,
+      "display_position": 185
     },
     {
       "source_id": "SRC207",
@@ -2114,8 +2246,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 175
+      "priority_rank": 182,
+      "display_position": 186
     },
     {
       "source_id": "SRC223",
@@ -2126,8 +2258,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 176
+      "priority_rank": 182,
+      "display_position": 187
     },
     {
       "source_id": "SRC233",
@@ -2138,8 +2270,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 177
+      "priority_rank": 182,
+      "display_position": 188
     },
     {
       "source_id": "SRC250",
@@ -2150,8 +2282,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 178
+      "priority_rank": 182,
+      "display_position": 189
     },
     {
       "source_id": "SRC259",
@@ -2162,8 +2294,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 179
+      "priority_rank": 182,
+      "display_position": 190
     },
     {
       "source_id": "SRC283",
@@ -2174,8 +2306,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 180
+      "priority_rank": 182,
+      "display_position": 191
     },
     {
       "source_id": "SRC287",
@@ -2186,8 +2318,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 171,
-      "display_position": 181
+      "priority_rank": 182,
+      "display_position": 192
     },
     {
       "source_id": "SRC225",
@@ -2198,8 +2330,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 182,
-      "display_position": 182
+      "priority_rank": 193,
+      "display_position": 193
     },
     {
       "source_id": "SRC150",
@@ -2210,8 +2342,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 183
+      "priority_rank": 194,
+      "display_position": 194
     },
     {
       "source_id": "SRC210",
@@ -2222,8 +2354,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 184
+      "priority_rank": 194,
+      "display_position": 195
     },
     {
       "source_id": "SRC215",
@@ -2234,8 +2366,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 185
+      "priority_rank": 194,
+      "display_position": 196
     },
     {
       "source_id": "SRC228",
@@ -2246,8 +2378,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 186
+      "priority_rank": 194,
+      "display_position": 197
     },
     {
       "source_id": "SRC285",
@@ -2258,8 +2390,8 @@
       ],
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 187
+      "priority_rank": 194,
+      "display_position": 198
     },
     {
       "source_id": "SRC291",
@@ -2270,8 +2402,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 183,
-      "display_position": 188
+      "priority_rank": 194,
+      "display_position": 199
     },
     {
       "source_id": "SRC123",
@@ -2282,8 +2414,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 189
+      "priority_rank": 200,
+      "display_position": 200
     },
     {
       "source_id": "SRC127",
@@ -2294,20 +2426,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 190
-    },
-    {
-      "source_id": "SRC131",
-      "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
-      "priority_score": 49,
-      "best_matched_topic_ids": [
-        "PSY-ATT-003"
-      ],
-      "review_scope": "bibliography",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 191
+      "priority_rank": 200,
+      "display_position": 201
     },
     {
       "source_id": "SRC134",
@@ -2318,8 +2438,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 192
+      "priority_rank": 200,
+      "display_position": 202
     },
     {
       "source_id": "SRC137",
@@ -2330,8 +2450,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 193
+      "priority_rank": 200,
+      "display_position": 203
     },
     {
       "source_id": "SRC141",
@@ -2342,8 +2462,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 194
+      "priority_rank": 200,
+      "display_position": 204
     },
     {
       "source_id": "SRC146",
@@ -2354,8 +2474,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 195
+      "priority_rank": 200,
+      "display_position": 205
     },
     {
       "source_id": "SRC161",
@@ -2366,8 +2486,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 196
+      "priority_rank": 200,
+      "display_position": 206
     },
     {
       "source_id": "SRC164",
@@ -2378,8 +2498,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 197
+      "priority_rank": 200,
+      "display_position": 207
     },
     {
       "source_id": "SRC166",
@@ -2390,8 +2510,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 198
+      "priority_rank": 200,
+      "display_position": 208
     },
     {
       "source_id": "SRC168",
@@ -2402,8 +2522,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 199
+      "priority_rank": 200,
+      "display_position": 209
     },
     {
       "source_id": "SRC170",
@@ -2414,8 +2534,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 200
+      "priority_rank": 200,
+      "display_position": 210
     },
     {
       "source_id": "SRC172",
@@ -2426,8 +2546,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 201
+      "priority_rank": 200,
+      "display_position": 211
     },
     {
       "source_id": "SRC173",
@@ -2438,8 +2558,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 202
+      "priority_rank": 200,
+      "display_position": 212
     },
     {
       "source_id": "SRC178",
@@ -2450,8 +2570,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 203
+      "priority_rank": 200,
+      "display_position": 213
     },
     {
       "source_id": "SRC181",
@@ -2462,8 +2582,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 204
+      "priority_rank": 200,
+      "display_position": 214
     },
     {
       "source_id": "SRC197",
@@ -2474,8 +2594,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 205
+      "priority_rank": 200,
+      "display_position": 215
     },
     {
       "source_id": "SRC199",
@@ -2486,8 +2606,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 206
+      "priority_rank": 200,
+      "display_position": 216
     },
     {
       "source_id": "SRC242",
@@ -2498,8 +2618,8 @@
       ],
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 189,
-      "display_position": 207
+      "priority_rank": 200,
+      "display_position": 217
     },
     {
       "source_id": "SRC115",
@@ -2510,8 +2630,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 208,
-      "display_position": 208
+      "priority_rank": 218,
+      "display_position": 218
     },
     {
       "source_id": "SRC229",
@@ -2522,8 +2642,8 @@
       ],
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
-      "priority_rank": 208,
-      "display_position": 209
+      "priority_rank": 218,
+      "display_position": 219
     },
     {
       "source_id": "SRC001",
@@ -2533,7 +2653,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 210
+      "display_position": 220
     },
     {
       "source_id": "SRC002",
@@ -2543,7 +2663,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 211
+      "display_position": 221
     },
     {
       "source_id": "SRC003",
@@ -2553,27 +2673,17 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 212
+      "display_position": 222
     },
     {
-      "source_id": "SRC005",
-      "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
+      "source_id": "SRC004",
+      "title": "What is heritability?",
       "priority_score": null,
       "best_matched_topic_ids": [],
-      "review_scope": "legacy_not_reassessed",
+      "review_scope": "official_page_reviewed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 213
-    },
-    {
-      "source_id": "SRC006",
-      "title": "The heritability fallacy",
-      "priority_score": null,
-      "best_matched_topic_ids": [],
-      "review_scope": "legacy_not_reassessed",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": null,
-      "display_position": 214
+      "display_position": 223
     },
     {
       "source_id": "SRC007",
@@ -2583,7 +2693,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 215
+      "display_position": 224
     },
     {
       "source_id": "SRC008",
@@ -2593,7 +2703,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 216
+      "display_position": 225
     },
     {
       "source_id": "SRC009",
@@ -2603,7 +2713,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 217
+      "display_position": 226
     },
     {
       "source_id": "SRC011",
@@ -2613,7 +2723,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 218
+      "display_position": 227
     },
     {
       "source_id": "SRC013",
@@ -2623,7 +2733,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 219
+      "display_position": 228
     },
     {
       "source_id": "SRC014",
@@ -2633,7 +2743,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 220
+      "display_position": 229
     },
     {
       "source_id": "SRC015",
@@ -2643,7 +2753,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 221
+      "display_position": 230
     },
     {
       "source_id": "SRC016",
@@ -2653,7 +2763,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 222
+      "display_position": 231
     },
     {
       "source_id": "SRC017",
@@ -2663,7 +2773,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 223
+      "display_position": 232
     },
     {
       "source_id": "SRC018",
@@ -2673,7 +2783,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 224
+      "display_position": 233
     },
     {
       "source_id": "SRC019",
@@ -2683,7 +2793,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 225
+      "display_position": 234
     },
     {
       "source_id": "SRC020",
@@ -2693,7 +2803,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 226
+      "display_position": 235
     },
     {
       "source_id": "SRC021",
@@ -2703,7 +2813,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 227
+      "display_position": 236
     },
     {
       "source_id": "SRC022",
@@ -2713,7 +2823,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 228
+      "display_position": 237
     },
     {
       "source_id": "SRC023",
@@ -2723,7 +2833,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 229
+      "display_position": 238
     },
     {
       "source_id": "SRC024",
@@ -2733,7 +2843,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 230
+      "display_position": 239
     },
     {
       "source_id": "SRC025",
@@ -2743,7 +2853,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 231
+      "display_position": 240
     },
     {
       "source_id": "SRC026",
@@ -2753,7 +2863,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 232
+      "display_position": 241
     },
     {
       "source_id": "SRC028",
@@ -2763,7 +2873,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 233
+      "display_position": 242
     },
     {
       "source_id": "SRC029",
@@ -2773,7 +2883,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 234
+      "display_position": 243
     },
     {
       "source_id": "SRC030",
@@ -2783,7 +2893,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 235
+      "display_position": 244
     },
     {
       "source_id": "SRC031",
@@ -2793,7 +2903,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 236
+      "display_position": 245
     },
     {
       "source_id": "SRC032",
@@ -2803,7 +2913,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 237
+      "display_position": 246
     },
     {
       "source_id": "SRC033",
@@ -2813,7 +2923,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 238
+      "display_position": 247
     },
     {
       "source_id": "SRC034",
@@ -2823,7 +2933,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 239
+      "display_position": 248
     },
     {
       "source_id": "SRC035",
@@ -2833,7 +2943,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 240
+      "display_position": 249
     },
     {
       "source_id": "SRC042",
@@ -2843,7 +2953,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 241
+      "display_position": 250
     },
     {
       "source_id": "SRC044",
@@ -2853,7 +2963,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 242
+      "display_position": 251
     },
     {
       "source_id": "SRC045",
@@ -2863,7 +2973,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 243
+      "display_position": 252
     },
     {
       "source_id": "SRC051",
@@ -2873,7 +2983,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 244
+      "display_position": 253
     },
     {
       "source_id": "SRC055",
@@ -2883,7 +2993,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 245
+      "display_position": 254
     },
     {
       "source_id": "SRC056",
@@ -2893,7 +3003,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 246
+      "display_position": 255
     },
     {
       "source_id": "SRC057",
@@ -2903,7 +3013,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 247
+      "display_position": 256
     },
     {
       "source_id": "SRC058",
@@ -2913,7 +3023,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 248
+      "display_position": 257
     },
     {
       "source_id": "SRC059",
@@ -2923,7 +3033,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 249
+      "display_position": 258
     },
     {
       "source_id": "SRC060",
@@ -2933,7 +3043,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 250
+      "display_position": 259
     },
     {
       "source_id": "SRC061",
@@ -2943,7 +3053,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 251
+      "display_position": 260
     },
     {
       "source_id": "SRC062",
@@ -2953,7 +3063,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 252
+      "display_position": 261
     },
     {
       "source_id": "SRC063",
@@ -2963,7 +3073,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 253
+      "display_position": 262
     },
     {
       "source_id": "SRC064",
@@ -2973,7 +3083,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 254
+      "display_position": 263
     },
     {
       "source_id": "SRC065",
@@ -2983,7 +3093,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 255
+      "display_position": 264
     },
     {
       "source_id": "SRC066",
@@ -2993,7 +3103,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 256
+      "display_position": 265
     },
     {
       "source_id": "SRC067",
@@ -3003,7 +3113,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 257
+      "display_position": 266
     },
     {
       "source_id": "SRC070",
@@ -3013,7 +3123,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 258
+      "display_position": 267
     },
     {
       "source_id": "SRC071",
@@ -3023,7 +3133,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 259
+      "display_position": 268
     },
     {
       "source_id": "SRC072",
@@ -3033,7 +3143,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 260
+      "display_position": 269
     },
     {
       "source_id": "SRC073",
@@ -3043,7 +3153,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 261
+      "display_position": 270
     },
     {
       "source_id": "SRC074",
@@ -3053,7 +3163,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 262
+      "display_position": 271
     },
     {
       "source_id": "SRC076",
@@ -3063,7 +3173,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 263
+      "display_position": 272
     },
     {
       "source_id": "SRC077",
@@ -3073,7 +3183,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 264
+      "display_position": 273
     },
     {
       "source_id": "SRC078",
@@ -3083,7 +3193,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 265
+      "display_position": 274
     },
     {
       "source_id": "SRC079",
@@ -3093,7 +3203,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 266
+      "display_position": 275
     },
     {
       "source_id": "SRC080",
@@ -3103,17 +3213,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 267
-    },
-    {
-      "source_id": "SRC081",
-      "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
-      "priority_score": null,
-      "best_matched_topic_ids": [],
-      "review_scope": "legacy_not_reassessed",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": null,
-      "display_position": 268
+      "display_position": 276
     },
     {
       "source_id": "SRC082",
@@ -3123,7 +3223,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 269
+      "display_position": 277
     },
     {
       "source_id": "SRC084",
@@ -3133,7 +3233,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 270
+      "display_position": 278
     },
     {
       "source_id": "SRC085",
@@ -3143,7 +3243,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 271
+      "display_position": 279
     },
     {
       "source_id": "SRC086",
@@ -3153,7 +3253,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 272
+      "display_position": 280
     },
     {
       "source_id": "SRC087",
@@ -3163,7 +3263,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 273
+      "display_position": 281
     },
     {
       "source_id": "SRC088",
@@ -3173,7 +3273,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 274
+      "display_position": 282
     },
     {
       "source_id": "SRC089",
@@ -3183,7 +3283,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 275
+      "display_position": 283
     },
     {
       "source_id": "SRC090",
@@ -3193,7 +3293,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 276
+      "display_position": 284
     },
     {
       "source_id": "SRC091",
@@ -3203,7 +3303,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 277
+      "display_position": 285
     },
     {
       "source_id": "SRC092",
@@ -3213,7 +3313,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 278
+      "display_position": 286
     },
     {
       "source_id": "SRC094",
@@ -3223,7 +3323,7 @@
       "review_scope": "abstract",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 279
+      "display_position": 287
     },
     {
       "source_id": "SRC095",
@@ -3233,7 +3333,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 280
+      "display_position": 288
     },
     {
       "source_id": "SRC096",
@@ -3243,17 +3343,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 281
-    },
-    {
-      "source_id": "SRC097",
-      "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
-      "priority_score": null,
-      "best_matched_topic_ids": [],
-      "review_scope": "legacy_not_reassessed",
-      "formal_evidence_certainty": "not_assessed",
-      "priority_rank": null,
-      "display_position": 282
+      "display_position": 289
     },
     {
       "source_id": "SRC098",
@@ -3263,7 +3353,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 283
+      "display_position": 290
     },
     {
       "source_id": "SRC100",
@@ -3273,7 +3363,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 284
+      "display_position": 291
     },
     {
       "source_id": "SRC102",
@@ -3283,7 +3373,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 285
+      "display_position": 292
     },
     {
       "source_id": "SRC103",
@@ -3293,7 +3383,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 286
+      "display_position": 293
     },
     {
       "source_id": "SRC105",
@@ -3303,7 +3393,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 287
+      "display_position": 294
     },
     {
       "source_id": "SRC106",
@@ -3313,7 +3403,7 @@
       "review_scope": "legacy_not_reassessed",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 288
+      "display_position": 295
     },
     {
       "source_id": "SRC116",
@@ -3323,7 +3413,7 @@
       "review_scope": "bibliography",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 289
+      "display_position": 296
     },
     {
       "source_id": "SRC240",
@@ -3333,7 +3423,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 290
+      "display_position": 297
     },
     {
       "source_id": "SRC270",
@@ -3343,7 +3433,7 @@
       "review_scope": "selected_fulltext_sections",
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
-      "display_position": 291
+      "display_position": 298
     }
   ]
 }

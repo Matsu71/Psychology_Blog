@@ -28,27 +28,6 @@
           "display_position": 1
         },
         {
-          "edge_id": "EV-PSY-GEN-001-SRC004",
-          "source_id": "SRC004",
-          "title": "What is heritability?",
-          "review_scope": "selected_fulltext_sections",
-          "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "mixed",
-          "limits_ja": "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。",
-          "priority_score": 80.0,
-          "components": {
-            "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 2,
-            "reading_depth_0_to_4": 3
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 2,
-          "display_position": 2
-        },
-        {
           "edge_id": "EV-PSY-GEN-001-SRC037",
           "source_id": "SRC037",
           "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
@@ -66,22 +45,43 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 3,
+          "priority_rank": 2,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-GEN-001-SRC004",
+          "source_id": "SRC004",
+          "title": "What is heritability?",
+          "review_scope": "official_page_reviewed",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
           "display_position": 3
         },
         {
           "edge_id": "EV-PSY-GEN-001-SRC005",
           "source_id": "SRC005",
           "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -95,6 +95,48 @@
     {
       "topic_id": "PSY-GEN-002",
       "sources": [
+        {
+          "edge_id": "EV-PSY-GEN-002-SRC005",
+          "source_id": "SRC005",
+          "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "方法論の説明であり、全形質に共通の数値や遺伝子検査の個人予測精度を与えない。今回は出版社抄録の確認で全数式や仮定を独立検証していない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-GEN-002-SRC006",
+          "source_id": "SRC006",
+          "title": "The heritability fallacy",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "著者は遺伝率の有用性にも強い批判を示すが、それを研究分野全体の合意と扱わない。遺伝の寄与がないという主張ではない。公的解説と方法論レビューを併記する。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
         {
           "edge_id": "EV-PSY-GEN-002-SRC036",
           "source_id": "SRC036",
@@ -113,42 +155,21 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
+          "priority_rank": 3,
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-GEN-002-SRC004",
           "source_id": "SRC004",
           "title": "What is heritability?",
-          "review_scope": "selected_fulltext_sections",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "review_scope": "official_page_reviewed",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "公的な定義・解釈の説明で、性格の具体的遺伝率や個人への介入効果を推定する原著研究ではない。0.5は記事の説明用の仮定で、特定の性格の実測値ではない。",
           "priority_score": null,
           "components": {
-            "theme_relevance_1_to_5": null,
+            "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 2,
-            "reading_depth_0_to_4": 3
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 2
-        },
-        {
-          "edge_id": "EV-PSY-GEN-002-SRC006",
-          "source_id": "SRC006",
-          "title": "The heritability fallacy",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
             "reading_depth_0_to_4": null
           },
           "caps": [],
@@ -156,7 +177,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 3
+          "display_position": 4
         }
       ]
     },
@@ -167,7 +188,7 @@
           "edge_id": "EV-PSY-GEN-003-SRC004",
           "source_id": "SRC004",
           "title": "What is heritability?",
-          "review_scope": "selected_fulltext_sections",
+          "review_scope": "official_page_reviewed",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
@@ -175,7 +196,7 @@
           "components": {
             "theme_relevance_1_to_5": null,
             "method_signals_0_to_4": 2,
-            "reading_depth_0_to_4": 3
+            "reading_depth_0_to_4": null
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -188,15 +209,15 @@
           "edge_id": "EV-PSY-GEN-003-SRC005",
           "source_id": "SRC005",
           "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -256,15 +277,15 @@
           "edge_id": "EV-PSY-GEN-004-SRC005",
           "source_id": "SRC005",
           "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -324,7 +345,7 @@
           "edge_id": "EV-PSY-GEN-005-SRC004",
           "source_id": "SRC004",
           "title": "What is heritability?",
-          "review_scope": "selected_fulltext_sections",
+          "review_scope": "official_page_reviewed",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
@@ -332,7 +353,7 @@
           "components": {
             "theme_relevance_1_to_5": null,
             "method_signals_0_to_4": 2,
-            "reading_depth_0_to_4": 3
+            "reading_depth_0_to_4": null
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -345,15 +366,15 @@
           "edge_id": "EV-PSY-GEN-005-SRC006",
           "source_id": "SRC006",
           "title": "The heritability fallacy",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -413,15 +434,15 @@
           "edge_id": "EV-PSY-GEN-006-SRC005",
           "source_id": "SRC005",
           "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -489,15 +510,15 @@
           "edge_id": "EV-PSY-GEN-008-SRC005",
           "source_id": "SRC005",
           "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

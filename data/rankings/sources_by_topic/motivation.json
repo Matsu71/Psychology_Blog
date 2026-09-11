@@ -242,6 +242,27 @@
       "topic_id": "PSY-MOT-006",
       "sources": [
         {
+          "edge_id": "EV-PSY-MOT-006-SRC295",
+          "source_id": "SRC295",
+          "title": "A Meta-analytic and Conceptual Update on the Associations Between Procrastination and Multidimensional Perfectionism",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "相関の統合で、基準を下げる治療が先延ばしを減らす証明ではない。二つの分析の参加者は重なり得るので総人数を合算しない。一般的な診断テストとして使わない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-MOT-006-SRC104",
           "source_id": "SRC104",
           "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
@@ -260,7 +281,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         }
       ]
     },

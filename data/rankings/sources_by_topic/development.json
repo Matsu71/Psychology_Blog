@@ -80,12 +80,12 @@
           "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes.",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "challenges",
-          "limits_ja": "自制心が無意味という結果ではない。一回のテストで子どもの将来や親の育て方を判断しない。",
-          "priority_score": 82.5,
+          "conclusion_direction": "mixed",
+          "limits_ja": "観察的な予測で、待つ訓練の効果を検証した試験ではない。統制後の弱い関連は自己調整全体が無価値という意味ではない。未事前登録の解析とされる。",
+          "priority_score": 75.0,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 3,
+            "method_signals_0_to_4": 2,
             "reading_depth_0_to_4": 2
           },
           "caps": [],
@@ -101,12 +101,12 @@
           "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning.",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "challenges",
-          "limits_ja": "前の追試と関連するデータ系列であり、独立した二重の再現と数えない。対象者の属性と欠測を全文で確認する。",
-          "priority_score": 82.5,
+          "conclusion_direction": "mixed",
+          "limits_ja": "白人83％の米国標本で、全世界の個人に同じ予測精度とは限らない。2018年と同じSECCYDに基づく後年追跡で、独立した二つの集団としない。",
+          "priority_score": 75.0,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 3,
+            "method_signals_0_to_4": 2,
             "reading_depth_0_to_4": 2
           },
           "caps": [],

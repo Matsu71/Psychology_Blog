@@ -72,12 +72,12 @@
       "source_id": "SRC125",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C018",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-extravert2019",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "1週間の外向的行動介入では平均的な便益があったが、内向性の高い参加者では疲れや否定的感情など負担も見られた。",
+      "finding_scope_ja": "147人を1週間の外向的行動または能動的な対照課題へ無作為割付。全体の肯定的感情・自分らしさに改善があったが、内向的な人では便益が弱く、疲労や否定的感情、自分らしさに不利益も報告された。",
       "conclusion_direction": "mixed",
-      "limits_ja": "全員に外向的行動を増やす助言にしない。短期・自己報告を含み、追加の比較群は別研究由来。",
+      "limits_ja": "別研究から得た76人の対照データは147人と同じ無作為化集団ではない。性格による調整効果は一研究の短期的な結果で、全員に当てはまるタイプ別処方ではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -230,6 +230,20 @@
       "finding_scope_ja": "感覚処理感受性を環境感受性の枠組みで整理し、測定方法、連続性、他の性格特性、発達との関係を検討しています。否定的環境への負担だけでなく支援的環境からの便益も論じる一方、客観的で信頼できる測定の不足を研究課題としています。",
       "conclusion_direction": "mixed",
       "limits_ja": "概念を吟味するレビューであり、ネット上のHSP診断の妥当性や特定の治療・職業選択を保証する資料ではありません。タイプ分けの確定診断と混同しません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-003-SRC292",
+      "topic_id": "PSY-PER-003",
+      "source_id": "SRC292",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-extravert2020",
+      "finding_scope_ja": "外向的な行動と内向的な行動を各1週間行う課題を比較し、前者では幸福指標が上がり後者では下がる結果を報告した。行動を一時的に変えることと幸福との関係を扱う。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "抄録では内向性ごとの精密な効果や全除外基準を確認していない。持続的な性格変化、他者との比較での優劣、長期の幸福を保証しない。2019年の別試験とは条件が異なり、単純な勝敗にしない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

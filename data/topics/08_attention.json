@@ -49,11 +49,16 @@
       "search_query": "attention residue task interruption resumption work experimental study",
       "priority": 1,
       "source_ids": [
-        "SRC131"
+        "SRC131",
+        "SRC293",
+        "SRC294"
       ],
       "caution_ja": "有名な概念名だけでなく、再現性と実際の仕事での検証を確認する。",
       "source_review_ids": [
-        "R3-C024"
+        "R3-C024",
+        "RL8-residue2009",
+        "RL8-resume2018",
+        "RL8-cue2006"
       ]
     },
     {
@@ -88,11 +93,14 @@
       "search_query": "background music lyrics cognition reading meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC132"
+        "SRC132",
+        "SRC296"
       ],
       "caution_ja": "気分の改善と理解・記憶の改善を同じ指標にしない。",
       "source_review_ids": [
-        "R3-C025"
+        "R3-C025",
+        "RL8-music2011",
+        "RL8-music2022"
       ]
     },
     {

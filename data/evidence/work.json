@@ -206,12 +206,12 @@
       "source_id": "SRC167",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C060",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-impostor2020",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "62研究の検討では、インポスター感の推定頻度は尺度や基準で大きく異なり、当時は治療評価研究がなかった。",
+      "finding_scope_ja": "62研究14161人を整理。自己の達成を内面化しにくい経験の割合は測定尺度・閾値などで大きく異なり、9～82％と報告された。抑うつ・不安等との関連も扱う。",
       "conclusion_direction": "mixed",
-      "limits_ja": "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。",
+      "limits_ja": "割合の幅を一般人の有病率にしない。2018年5月までの検索で介入研究がないという記述を現在の状況に転用しない。資金提供企業と一部著者の関係を開示しており、商業的利益と結果の妥当性を別々に点検する。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -288,6 +288,20 @@
       "finding_scope_ja": "103従業員1127目標。重要で未完了の目標ほど離れにくい関連。計画操作は離れにくい特性の人で効果を示した。",
       "conclusion_direction": "mixed",
       "limits_ja": "計画が全員に同じ効果とはしない。長期健康や成果は抄録で直接測定したと確認できない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-011-SRC298",
+      "topic_id": "PSY-WRK-011",
+      "source_id": "SRC298",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-impostor2026",
+      "finding_scope_ja": "16レビュー（系統的8・スコーピング8）を整理。概念・尺度が統一されず確立した基準尺度がなく、個人の要因だけでなく職場階層や文脈も論じる。支援介入に有望な結果はあるが質が一定しない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "医療・教育分野のレビューが多く、全職種への移植には制限。元レビュー・試験を重ねて独立証拠数にしない。自己学習・コーチングを標準治療として断定しない。著者のAMSTAR-2等の評価を当方の実施結果としない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

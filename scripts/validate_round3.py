@@ -42,7 +42,13 @@ def validate():
         require(r['source_id'] in sources,'Unknown source')
         require(isinstance(r['topic_relevance'],int) and 1<=r['topic_relevance']<=5,'Bad relevance')
         require(isinstance(r['method_signals'],int) and 1<=r['method_signals']<=4,'Bad method signal')
-        require(r['review_scope'] in ('abstract','bibliography'),'Unexpected review scope')
+        require(r['review_scope'] in ('abstract','bibliography','official_page_reviewed'),'Unexpected review scope')
+        if r['review_scope']=='official_page_reviewed':
+            require(sources[r['source_id']]['source_type']=='official_health_information',
+                    'Official-page review must reference official health information')
+            require(r.get('additional_reading_scope')=='official_page_reviewed',
+                    'Official-page scope must be explicitly recorded')
+            require(bool(r.get('source_locators')), 'Official-page review needs checked sections')
         require(r['publication_ready'] is False and r['formal_evidence_certainty']=='not_assessed','Inflated readiness')
         if r['review_scope']=='bibliography':
             require(r['key_findings_ja'] is None,'Bibliography must not assert results')
@@ -98,6 +104,7 @@ def validate():
     coverage=read('data/research/coverage.json')
     require(coverage.get('source_review_count',coverage['round3_source_review_count'])==len(reviews),'Review count')
     require(coverage.get('abstract_review_count',coverage['round3_abstract_review_count'])==sum(r['review_scope']=='abstract' for r in reviews.values()),'Abstract count')
+    require(coverage.get('official_page_review_count',0)==sum(r['review_scope']=='official_page_reviewed' for r in reviews.values()),'Official-page review count')
     require(coverage['selected_fulltext_checks_count']==sum(a['review_scope']=='selected_fulltext_sections' for a in assessments.values()),'Fulltext scope count')
     require(coverage['search_pending_count']==sum(not t['source_ids'] for t in topics.values()),'Unregistered count')
     require(coverage['evidence_edge_count']==len(edges),'Edge count')
@@ -106,7 +113,7 @@ def validate():
     shards=[(p,n) for p,n in sizes if p.startswith('data/literature/round3/')]
     require(all(n<1024*1024 for p,n in shards),'Research shard exceeds internal 1MiB threshold')
     return {'schema_version':'1.0','status':'passed','topics':len(topics),'sources':len(sources),
-        'source_reviews_total':len(reviews),'abstract_reviews_total':coverage.get('abstract_review_count',coverage['round3_abstract_review_count']),
+        'official_page_reviews':coverage.get('official_page_review_count',0),'source_reviews_total':len(reviews),'abstract_reviews_total':coverage.get('abstract_review_count',coverage['round3_abstract_review_count']),
         'bibliography_only':coverage.get('bibliography_review_count',coverage['round3_bibliography_only_count']),'selected_fulltext_checks':coverage['selected_fulltext_checks_count'],
         'evidence_edges':len(edges),'source_unregistered':coverage['search_pending_count'],
         'editorial_topics_assessed':len(editorial),'research_queue_topics':len(queue),

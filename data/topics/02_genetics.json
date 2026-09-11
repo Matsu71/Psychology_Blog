@@ -42,11 +42,17 @@
       "source_ids": [
         "SRC004",
         "SRC006",
-        "SRC036"
+        "SRC036",
+        "SRC005"
       ],
       "caution_ja": "タイトルの50％は説明用の仮定であり、特定形質の推定値ではない。",
       "research_brief_ids": [
         "RB-25961374"
+      ],
+      "source_review_ids": [
+        "RL8-heritabilityOfficial",
+        "RL8-heritabilityMethods2017",
+        "RL8-heritabilityCritique2017"
       ]
     },
     {

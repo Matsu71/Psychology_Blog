@@ -88,7 +88,7 @@
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+          "limits_ja": "オンライン記事や大学生以外の標本では結論が不明瞭だった。全デジタル操作に一般化せず、長期依存・脳の損傷・ドーパミンの単独機序を示す研究ではない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,

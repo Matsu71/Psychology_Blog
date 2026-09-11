@@ -36,16 +36,16 @@
       "id": "EV-PSY-WEL-002-SRC097",
       "topic_id": "PSY-WEL-002",
       "source_id": "SRC097",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-gratitude2025",
       "legacy_brief_ids": [
         "RB-40627390"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "145論文163標本24804人、28か国を統合し幸福への平均的な小さな改善g=.19を報告。指標・介入の種類・無作為化の有無で大きさが異なり、国による違いの説明は十分ではなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "145論文を145の独立RCTと呼ばない。日本の下位解析で有意でないことを日本人全体への効果不存在にしない。逆に全体平均を日本の個人に保証しない。検索は2024年5月までで、2025年までの網羅ではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

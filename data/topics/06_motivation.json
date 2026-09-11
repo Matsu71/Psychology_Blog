@@ -115,11 +115,15 @@
       "search_query": "perfectionism concerns strivings procrastination meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC104"
+        "SRC104",
+        "SRC295"
       ],
       "caution_ja": "完璧主義を単一の特性として一律に悪者にしない。",
       "research_brief_ids": [
         "RB-30214421"
+      ],
+      "source_review_ids": [
+        "RL8-perfection2017"
       ]
     },
     {

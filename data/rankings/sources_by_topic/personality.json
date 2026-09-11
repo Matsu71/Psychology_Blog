@@ -101,13 +101,34 @@
       "topic_id": "PSY-PER-003",
       "sources": [
         {
+          "edge_id": "EV-PSY-PER-003-SRC292",
+          "source_id": "SRC292",
+          "title": "Experimental manipulation of extraverted and introverted behavior and its effects on well-being",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "抄録では内向性ごとの精密な効果や全除外基準を確認していない。持続的な性格変化、他者との比較での優劣、長期の幸福を保証しない。2019年の別試験とは条件が異なり、単純な勝敗にしない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-PER-003-SRC125",
           "source_id": "SRC125",
           "title": "Costs and benefits of acting extraverted: A randomized controlled trial.",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "全員に外向的行動を増やす助言にしない。短期・自己報告を含み、追加の比較群は別研究由来。",
+          "limits_ja": "別研究から得た76人の対照データは147人と同じ無作為化集団ではない。性格による調整効果は一研究の短期的な結果で、全員に当てはまるタイプ別処方ではない。",
           "priority_score": 65,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -120,8 +141,8 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
+          "priority_rank": 2,
+          "display_position": 2
         }
       ]
     },

@@ -57,11 +57,14 @@
       "search_query": "introversion extraversion social interaction well being experience sampling",
       "priority": 1,
       "source_ids": [
-        "SRC125"
+        "SRC125",
+        "SRC292"
       ],
       "caution_ja": "内向性と社交不安を同一視せず、外向的になることを一律に勧めない。",
       "source_review_ids": [
-        "R3-C018"
+        "R3-C018",
+        "RL8-extravert2019",
+        "RL8-extravert2020"
       ]
     },
     {

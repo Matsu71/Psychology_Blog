@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WEL-002",
+  "title": "感謝を書けば幸せになる？大規模な統合研究が示した「小さな効果」",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "886ef6917b37287bc0a5dc6300d9f081dde653ecb3b89aa337f82bf309244da6",
+  "claims": [
+    {
+      "id": "PSY-WEL-002-D01",
+      "text_ja": "2025年の研究は、28か国の145論文、163標本、計24804人のデータを整理しました。感謝の日記や手紙などの介入と幸福指標を比較した研究が対象です。全体では小さな平均的改善が認められました。\n\nここでの145論文を、すべて独立した145件の無作為化試験と呼ぶことはできません。一つの標本から複数の結果が出ることもあり、研究ではそうした構造を考慮しています。",
+      "source_ids": [
+        "SRC097"
+      ],
+      "source_check_ids": [
+        "SL8-gratitude2025"
+      ],
+      "population_and_scope_ja": "複数の介入・測定・研究デザインを含むメタ分析。",
+      "not_supported_ja": "論文、標本、効果量の数を独立試験の数として混同しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WEL-002-D02",
+      "text_ja": "平均効果の大きさはHedgesのgで0.19でした。この指標は違う尺度の結果を比較しやすくするためのもので、「幸福が19％上がる」という意味ではありません。\n\nその場の前向きな気分、生活への満足など、何を測るかでも結果は違いました。感謝の方法や比較相手、無作為化の有無による違いもあり、全員に同じ変化を期待するのは適切ではありません。",
+      "source_ids": [
+        "SRC097"
+      ],
+      "source_check_ids": [
+        "SL8-gratitude2025"
+      ],
+      "population_and_scope_ja": "標準化された平均差と、成果指標・実施条件による違い。",
+      "not_supported_ja": "gを個人の改善率や治療成功率に変換しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WEL-002-D03",
+      "text_ja": "国による違いも見られましたが、その理由は検討した国の特徴だけでは十分に説明できませんでした。日本を含む一部の国の下位解析では、効果は統計的に明確ではありませんでした。\n\nだからといって「日本人には効かない」と確定したわけではありません。標本や精度の問題もあります。一方、世界全体の平均だけを使って、日本の読者に同じ効果を保証することもできません。",
+      "source_ids": [
+        "SRC097"
+      ],
+      "source_check_ids": [
+        "SL8-gratitude2025"
+      ],
+      "population_and_scope_ja": "国別の探索・調整分析と不確実性。",
+      "not_supported_ja": "非有意差を不存在の証明にせず、国民性の固定説明にしない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "負担なく試すなら、「今日、助かったこと」を一つ具体的に思い出す方法があります。誰かに無理に感謝を伝える必要はありません。続けるうちに義務や自己批判が増えるなら、やめたり別の振り返り方に変えたりして構いません。「一つ」という数は簡単に始めるための例で、最適な量が研究で確定したという意味ではありません。",
+    "safety": "被害、不公平、病気などのつらさを感謝で打ち消す必要はありません。感謝の練習を、必要な支援や治療の代わりにしないでください。"
+  },
+  "review_items": [
+    "本文の記述統計、調整要因、考察を確認。国別全データの再解析は未実施。",
+    "検索終了は2024年5月。2025年公表をそれ以降の全研究収載と表示しない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

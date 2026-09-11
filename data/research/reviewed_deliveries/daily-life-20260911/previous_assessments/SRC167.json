@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC167",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C060"
+    ],
+    "limitations_ja": [
+      "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。"
+    ],
+    "integrity_status": "indexed_links_checked_not_exhaustive",
+    "integrity_notices": []
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "delivery_id": "daily-life-20260911",
+  "date": "2026-09-11",
+  "goal_articles": 300,
+  "goal_completed": false,
+  "authored_articles": 12,
+  "new_manuscripts": 12,
+  "revised_manuscripts": 0,
+  "source_checks": 21,
+  "source_resolution": {
+    "heat2018": "SRC081",
+    "extravert2019": "SRC125",
+    "extravert2020": "SRC292",
+    "residue2009": "SRC131",
+    "resume2018": "SRC293",
+    "cue2006": "SRC294",
+    "perfection2017": "SRC295",
+    "switch2024": "SRC193",
+    "household2025": "SRC176",
+    "gratitude2025": "SRC097",
+    "music2011": "SRC132",
+    "music2022": "SRC296",
+    "safety2017": "SRC144",
+    "safety2023": "SRC297",
+    "marsh2018": "SRC152",
+    "marsh2024": "SRC153",
+    "impostor2020": "SRC167",
+    "impostor2026": "SRC298",
+    "heritabilityOfficial": "SRC004",
+    "heritabilityMethods2017": "SRC005",
+    "heritabilityCritique2017": "SRC006"
+  },
+  "products": [
+    {
+      "topic_id": "PSY-ATT-003",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-ATT-003.md",
+      "manuscript_sha256": "8fb9867590e368b8dac4586bb2679e4168c79c3d175a62fb5086048623f852d5",
+      "claim_dossier_path": "data/articles/claims/PSY-ATT-003.json",
+      "claim_dossier_sha256": "a4eba5beb7dd6a408e1cf4aa18c9d06986ee1db0498d0b4738f24745f28af2a9"
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-ATT-005.md",
+      "manuscript_sha256": "be29b776e85e34908492f37568c4eca4405b452b9a79e5208c2302a9383b2579",
+      "claim_dossier_path": "data/articles/claims/PSY-ATT-005.json",
+      "claim_dossier_sha256": "0231a94b4d19c620bba3c214552b1171c08bf194c6fda536a90c4a82f251df54"
+    },
+    {
+      "topic_id": "PSY-CRE-003",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-CRE-003.md",
+      "manuscript_sha256": "e54b3ee0cc3729ad6bc6bef1958f44b2cc60b911d8c677cb4718abedd1c8c030",
+      "claim_dossier_path": "data/articles/claims/PSY-CRE-003.json",
+      "claim_dossier_sha256": "3b8e05fb8b476b89df988721d00f88d4b86b3c88875193717ad365eb31041d4c"
+    },
+    {
+      "topic_id": "PSY-DEV-002",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-DEV-002.md",
+      "manuscript_sha256": "a6c4d8052c84c35d4f9f5225b45695c5088f5efe8acea7cb1633635c81950e34",
+      "claim_dossier_path": "data/articles/claims/PSY-DEV-002.json",
+      "claim_dossier_sha256": "4280919d8b85e4d1f31586579b607f57a6eeddac432e8ddf23bbdaa965f9a64d"
+    },
+    {
+      "topic_id": "PSY-ENV-001",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-ENV-001.md",
+      "manuscript_sha256": "b5186f668287b5fd6a8f92a1e8920cf42531cb36cd864ac5b60a55657fdcba7a",
+      "claim_dossier_path": "data/articles/claims/PSY-ENV-001.json",
+      "claim_dossier_sha256": "621c5a1eeff85b2423143dca0c16cf7712d4da9424b8331c7033779a82210084"
+    },
+    {
+      "topic_id": "PSY-GEN-002",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-GEN-002.md",
+      "manuscript_sha256": "81f8ab41a9c18f351ff4d50e04957151287bedcdf5c5f5bb25647b85b7288d04",
+      "claim_dossier_path": "data/articles/claims/PSY-GEN-002.json",
+      "claim_dossier_sha256": "cef48709988c43cabc1f7f15181f2006685bc43a060f09b366cb1d684fe55715"
+    },
+    {
+      "topic_id": "PSY-INT-006",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-INT-006.md",
+      "manuscript_sha256": "222104eeb7885f27ddb350c36999b73d810a4571cab043dc6fd2d1982657412a",
+      "claim_dossier_path": "data/articles/claims/PSY-INT-006.json",
+      "claim_dossier_sha256": "6228a7c4dad9ae33b5e86456824adae809e123c4c6fbd469928eb3ed2688fa60"
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-MOT-006.md",
+      "manuscript_sha256": "cbac463400feb131586ada42924a623e86303e299f8a5b050620755adf450fe7",
+      "claim_dossier_path": "data/articles/claims/PSY-MOT-006.json",
+      "claim_dossier_sha256": "ae7f711da017503d3e8a9091bb5a6b2ddcca0cde84bbfb1a708b532f407b1813"
+    },
+    {
+      "topic_id": "PSY-PER-003",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-PER-003.md",
+      "manuscript_sha256": "0168ce5dc3f16b7eb3c785213fc11ffed80fd1f3a64edc9223142ff9c09253f2",
+      "claim_dossier_path": "data/articles/claims/PSY-PER-003.json",
+      "claim_dossier_sha256": "8276a6717225ea8e41ab5de1ed2691e14d79a0a8588f9f48e0981d64d881c14e"
+    },
+    {
+      "topic_id": "PSY-SOC-009",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-SOC-009.md",
+      "manuscript_sha256": "ecfa99a416db1e57e76957ea5a922420780fbe4a147090f404f567423093c4d8",
+      "claim_dossier_path": "data/articles/claims/PSY-SOC-009.json",
+      "claim_dossier_sha256": "82575cfebbb9eb6e58bcabb73cfd657ffde7af4cf9b8d272fc64182a346655e6"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-WEL-002.md",
+      "manuscript_sha256": "1f40484a40ffefed239ff431bc59848f5ddb3aaab8463b48e206018823187c40",
+      "claim_dossier_path": "data/articles/claims/PSY-WEL-002.json",
+      "claim_dossier_sha256": "82d54b5d0220572645bdce133f0ca7fe0fdb55c04ecb92c1ee90ff8de9304368"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-WRK-011.md",
+      "manuscript_sha256": "8b8788eca0eb4276beb4deb92878cbd35ed8e25a204154659c33bc12e146eaf2",
+      "claim_dossier_path": "data/articles/claims/PSY-WRK-011.json",
+      "claim_dossier_sha256": "6b645f1bc43261270a73effed0239f64388b87b796970137a89428919d22933a"
+    }
+  ],
+  "publication_ready_count": 0,
+  "scope_ja": "本文改稿と単独AI点検。独立査読、正式な確実性評価、公開承認ではない。"
+}

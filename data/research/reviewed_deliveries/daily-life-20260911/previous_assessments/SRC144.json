@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC144",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C037"
+    ],
+    "limitations_ja": [
+      "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。"
+    ],
+    "integrity_status": "not_completed",
+    "integrity_notices": []
+  }
+}

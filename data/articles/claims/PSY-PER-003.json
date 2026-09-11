@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-PER-003",
+  "title": "内向的なら無理に社交的になるべき？短い実験が示す利益と負担",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "1d65ba48392eefd2d4f51a5b623f1923e8df6a1ef720a7a19c565950061ff48c",
+  "claims": [
+    {
+      "id": "PSY-PER-003-D01",
+      "text_ja": "2019年の研究は、147人を1週間、外向的に行動する課題か、別の行動課題へ無作為に割り付けました。全体では、外向的な行動に肯定的な感情や自分らしさへの利益が見られました。\n\nこれは生涯の性格を変更した実験ではありません。また、別研究から加えた76人の対照データは、147人と同じ無作為化の参加者ではありません。誰が何と比較されたかを分けて読む必要があります。",
+      "source_ids": [
+        "SRC125"
+      ],
+      "source_check_ids": [
+        "SL8-extravert2019"
+      ],
+      "population_and_scope_ja": "一週間の日常行動への無作為化試験。",
+      "not_supported_ja": "147人と別研究76人を合わせて223人の無作為化試験としない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-PER-003-D02",
+      "text_ja": "同じ研究では、より内向的な人で、肯定的な感情の増加が弱く、疲労や否定的感情が増え、自分らしさが下がる結果も報告されました。「全体でよかったから、全員もっと外向的に」という助言にはできません。\n\n一方、この一研究だけで内向的な人は交流を減らすべきだとも決められません。期間は短く、どの行動をどれだけ行うか、本人が望んだ交流かなど、日常ではさまざまな条件が変わります。",
+      "source_ids": [
+        "SRC125"
+      ],
+      "source_check_ids": [
+        "SL8-extravert2019"
+      ],
+      "population_and_scope_ja": "性格傾向による効果の違い。",
+      "not_supported_ja": "内向性を診断や固定的な社会能力の不足と扱わない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-PER-003-D03",
+      "text_ja": "2020年の別の研究は、外向的な行動と内向的な行動をそれぞれ1週間試す条件を扱い、外向的に行動する間には幸福指標が上がる結果を報告しました。行動は固定されているわけではなく、気分と関係し得るという資料です。\n\nただし、二つの研究は条件が同じではありません。長期の幸福、友人の数、仕事の成果まで一律に改善したという話ではなく、本人にとっての楽しさと負担を別に見る理由になります。",
+      "source_ids": [
+        "SRC292",
+        "SRC125"
+      ],
+      "source_check_ids": [
+        "SL8-extravert2020",
+        "SL8-extravert2019"
+      ],
+      "population_and_scope_ja": "異なる一週間介入の比較。",
+      "not_supported_ja": "二研究を同一手順の独立追試と断定せず、長期成果の保証にしない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "例えば大人数の集まりで長く話すことと、親しい一人と短く会うことを同じ「社交」にまとめず、会った後の楽しさと疲れを別々に振り返ります。参加したい場を選び、回復の時間も残します。これは自分の経験を整理する提案で、研究から導いた内向型向けの最適時間ではありません。",
+    "safety": "内向的というラベルで、交流を強制したり避けさせたりしないでください。強い不安や苦痛がある場合を、性格の一言で片づけません。"
+  },
+  "review_items": [
+    "二つの論文は抄録確認。性格別の効果量・事前登録・長期追跡の独立監査は未実施。",
+    "生活場面の提案を、そのまま実験で比較された行動課題とは表示しない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

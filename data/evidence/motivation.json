@@ -347,6 +347,20 @@
       "conclusion_direction": "mixed",
       "limits_ja": "組み合わせの上乗せ効果を検証した介入試験ではない。新しい論文という理由で、提案を確立済みの方法と扱わない。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MOT-006-SRC295",
+      "topic_id": "PSY-MOT-006",
+      "source_id": "SRC295",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-perfection2017",
+      "finding_scope_ja": "先延ばしと完璧主義的な懸念は平均r=.23、達成基準を追う側面はr=-.22という逆方向の関連を示した。二つの側面の共有分散を考慮した分析でも関連が残った。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "相関の統合で、基準を下げる治療が先延ばしを減らす証明ではない。二つの分析の参加者は重なり得るので総人数を合算しない。一般的な診断テストとして使わない。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

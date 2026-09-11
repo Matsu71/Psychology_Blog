@@ -40,12 +40,12 @@
       "source_id": "SRC131",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "title_only_provisional",
-      "source_review_id": "R3-C024",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-residue2009",
       "legacy_brief_ids": [],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_evaluated",
-      "limits_ja": "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。",
+      "finding_scope_ja": "仕事の切り替えを扱う2実験で、前の課題から注意を離しきれない状態と次の課題の成績を調べた。単に前の課題を完了するだけでは十分でない条件も検討している。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "主にAからBへ切り替えた後のBの成績の研究で、BからAへ戻ったときの再開時間そのものとは違う。締切で追い込めば全仕事が改善すると一般化しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -70,12 +70,12 @@
       "source_id": "SRC132",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C025",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-music2011",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "背景音楽の作用は課題で異なり、読解や記憶への影響と、気分や運動への影響は同じではないと整理。",
+      "finding_scope_ja": "背景音楽の全体平均がほぼゼロでも、読む課題や記憶では負の影響、感情や運動では別の結果があり得るという結果指標の違いを示した。",
       "conclusion_direction": "mixed",
-      "limits_ja": "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。",
+      "limits_ja": "少数の研究・方法上の限界がある古いレビュー。音楽一般の善悪、ジャンル別の最適処方を導けない。正本の2010年はオンライン公開年で、巻号掲載は2011年。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -244,6 +244,48 @@
       "finding_scope_ja": "スポーツと運動におけるフローへの介入29研究を整理したレビューです。単一事例研究や準実験が多く、現状の研究からフローを確実に生じさせる方法を特定するには不十分としています。",
       "conclusion_direction": "mixed",
       "limits_ja": "仕事や学習への効果を直接検証した統合研究ではありません。挑戦と技能を合わせれば必ずフローに入れるという保証にしません。オンライン公開2021年、掲載巻の年は2023年です。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-003-SRC293",
+      "topic_id": "PSY-ATT-003",
+      "source_id": "SRC293",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-resume2018",
+      "finding_scope_ja": "4研究で、中断した仕事を時間圧力の下で再開する見通しが、割り込んだ仕事への注意と成績を妨げるという仮説を検討。再開を短く振り返って計画する介入が、その悪影響を弱めた。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "測定した主な成果は割り込んだ仕事の成績。元の仕事への再開速度改善をこの論文だけで主張しない。具体的なメモ文言や固定分数は今回の抄録では検証できない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-003-SRC294",
+      "topic_id": "PSY-ATT-003",
+      "source_id": "SRC294",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-cue2006",
+      "finding_scope_ja": "ロンドン塔課題の実行を中断する実験群。中断前に手がかりを準備する機会があると再開の時間コストが減り、再開後に視覚的な手がかりを変更すると目標の想起が妨げられた。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "単純な問題解決課題の再開時間を測定。仕事の複雑な長期計画や、あらゆるアプリの通知設定の効果にそのまま置き換えない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-005-SRC296",
+      "topic_id": "PSY-ATT-005",
+      "source_id": "SRC296",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-music2022",
+      "finding_scope_ja": "95論文154実験6246人の背景音楽と認知課題を整理。課題、歌詞、難度、標本によって結果が異なり、言語・記憶課題で妨害が多い。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "方向の票数等で統合するSWiM型で、標準化効果量をプールしたメタ分析ではない。若年成人に偏り、検索は2020年7月まで。歌詞なしならいつでも安全、有利という証明ではない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

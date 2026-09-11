@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC193",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C086"
+    ],
+    "limitations_ja": [
+      "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。"
+    ],
+    "integrity_status": "indexed_links_checked_not_exhaustive",
+    "integrity_notices": [
+      {
+        "id": "PPR721444",
+        "source": "PPR",
+        "type": "Preprint in",
+        "note": "CrossRef Pre-print loader",
+        "orderIn": 10002
+      }
+    ]
+  }
+}

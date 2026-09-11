@@ -40,12 +40,12 @@
       "source_id": "SRC193",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C086",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-switch2024",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "7実験で動画の切り替えと退屈を検討し、切り替えが退屈を強める場合を報告。記事や大学外の標本では結果が明確でない条件もあった。",
+      "finding_scope_ja": "7実験1223人。退屈が動画の切り替えを促し、一部の実験では動画間・動画内の切り替えが退屈を増やし、満足・注意・意味を低下させた。自分で動画を選ぶ場合にも同じ方向の結果があった。",
       "conclusion_direction": "mixed",
-      "limits_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+      "limits_ja": "オンライン記事や大学生以外の標本では結論が不明瞭だった。全デジタル操作に一般化せず、長期依存・脳の損傷・ドーパミンの単独機序を示す研究ではない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

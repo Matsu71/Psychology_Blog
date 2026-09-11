@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-CRE-003",
+  "title": "動画を次々に飛ばすほど退屈になる？「もっと面白い一本」を探す落とし穴",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "0783577b212e0af6fddd838f4fe8e61f1aa021ef9c217105765c75bb046524e9",
+  "claims": [
+    {
+      "id": "PSY-CRE-003-D01",
+      "text_ja": "2024年の研究は、7実験、計1223人を対象にしました。そのうち6実験は事前登録されています。退屈な状態では動画を切り替えやすくなり、参加者は切り替えが退屈を減らすと予想していました。\n\nところが、動画同士を切り替えたり、一つの動画の中で早送りしたりする条件では、退屈が増え、満足や注意、意味の感じ方が低くなる結果が報告されました。探す操作が楽しむ時間の代わりになってしまう、という読み方ができます。",
+      "source_ids": [
+        "SRC193"
+      ],
+      "source_check_ids": [
+        "SL8-switch2024"
+      ],
+      "population_and_scope_ja": "短期的な動画視聴の操作と自己報告等の成果。",
+      "not_supported_ja": "最後の説明は解釈であり脳内機序を直接測った結論ではない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-CRE-003-D02",
+      "text_ja": "研究には、参加者がYouTubeで関心のある動画を自分で選べる条件もありました。それでも、切り替えによって退屈が強まる結果が見られました。単に研究者がつまらない動画を選んだから、だけでは説明しきれないということです。\n\n一方、読み物を扱った条件や大学生以外を含む標本では、結果はそれほど明瞭ではありませんでした。「現代人は切り替えるほど必ず不幸になる」と広げるのは行き過ぎです。",
+      "source_ids": [
+        "SRC193"
+      ],
+      "source_check_ids": [
+        "SL8-switch2024"
+      ],
+      "population_and_scope_ja": "個人が選択する動画の実験と、記事・非大学生標本での限定。",
+      "not_supported_ja": "すべてのメディア、年齢、利用目的へ一般化しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-CRE-003-D03",
+      "text_ja": "知りたい手順の部分だけ探すなら、早送りが目的に合うこともあります。楽しい時間を過ごすつもりなのに、何を見たいのか決めないまま切り替え続ける場合とは、成果の測り方が違います。\n\nこの研究は短期的な退屈や満足の話です。依存症の診断、注意力の永久的な低下、特定の脳内物質の異常を示してはいません。利用時間だけで自分を病気と決めつける材料にしないでください。",
+      "source_ids": [
+        "SRC193"
+      ],
+      "source_check_ids": [
+        "SL8-switch2024"
+      ],
+      "population_and_scope_ja": "測定結果と未測定の長期・臨床的結果の区別。",
+      "not_supported_ja": "効率的な情報探索まで有害と断定しない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "娯楽として見る前に、何を見たいのか一つ決めます。気になる一本をすぐ飛ばさずに見て、終わった後に「楽しかったか」を確認します。満足できなければ別の過ごし方も選びます。つまらない動画を我慢して最後まで見る義務でも、特定の視聴時間を推奨する処方でもありません。",
+    "safety": "利用を減らすこと自体を目的にしすぎず、連絡や情報への必要なアクセスは保ってください。"
+  },
+  "review_items": [
+    "抄録を確認。各実験の全手続きや除外・追跡の独立監査は未実施。",
+    "オンライン記事・非大学生標本の不明瞭な結果を本文に残している。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

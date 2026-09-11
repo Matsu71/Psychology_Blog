@@ -6,16 +6,16 @@
       "id": "EV-PSY-ENV-001-SRC081",
       "topic_id": "PSY-ENV-001",
       "source_id": "SRC081",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-heat2018",
       "legacy_brief_ids": [
         "RB-29990359"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "ボストン地域の大学生44人を12日間追跡。冷房あり24人・なし20人で、熱波前後の起床直後の注意・計算課題を比較した。冷房なし群では反応時間の悪化等が観察された。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "無作為割付ではない。朝のテストであり一日中の仕事成績は測っていない。冷房あり群の平均室温や回帰曲線の最適域を万人の設定温度にしない。計算の処理量の差はp=.08で、すべての指標が明確に悪化したと言わない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-WRK-011",
+  "title": "評価されても「自分は実力不足」と感じるとき――インポスター経験をどう読む？",
+  "delivery_id": "daily-life-20260911",
+  "authoring_input_sha256": "5a4efa6539ea9a2d0391933b100b32931216e5e10ff45b937c3a478ffdf22f26",
+  "claims": [
+    {
+      "id": "PSY-WRK-011-D01",
+      "text_ja": "2020年のレビューは62研究を整理し、該当する人の割合が研究ごとに9～82％と大きく異なることを報告しました。これは「一般人の何割がこの病気」という数字ではありません。使う尺度、どこで区切るか、調べた集団によって結果が変わるためです。\n\n不安や抑うつとの関連も扱われていますが、同じものとは限りません。自分に当てはまる説明があっても、それだけで診断が確定するわけではありません。",
+      "source_ids": [
+        "SRC167"
+      ],
+      "source_check_ids": [
+        "SL8-impostor2020"
+      ],
+      "population_and_scope_ja": "多様な集団・尺度を使う研究のレビュー。",
+      "not_supported_ja": "9～82％を一般人口の有病率として使わない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-011-D02",
+      "text_ja": "2026年巻号のレビューは、16の系統的・スコーピングレビューをまとめました。概念の定義がそろわず、確立した基準尺度もなく、研究同士を比べにくいことを指摘しています。\n\n個人の心配しやすさだけでなく、職場の階層、評価、少数派としての経験などの文脈も論じています。「自信を持てば解決」と、すべてを本人の心の持ちように戻すのは十分ではありません。",
+      "source_ids": [
+        "SRC298"
+      ],
+      "source_check_ids": [
+        "SL8-impostor2026"
+      ],
+      "population_and_scope_ja": "複数レビューの概念・測定・文脈の整理。",
+      "not_supported_ja": "特定の人の感情の原因を職場だけまたは本人だけに確定しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-011-D03",
+      "text_ja": "2020年レビューの検索は2018年までで、その時点では治療の研究が見つからなかったと記載されています。その文章を、現在も研究が一切ないという意味で使うことはできません。\n\n新しいレビューは、コーチングや自己学習などに有望な結果を挙げています。ただし、測定法や研究の質に問題があり、医療・教育の場面にも偏っています。特定サービスを利用すれば解消する、という標準的な処方にはまだできません。",
+      "source_ids": [
+        "SRC167",
+        "SRC298"
+      ],
+      "source_check_ids": [
+        "SL8-impostor2020",
+        "SL8-impostor2026"
+      ],
+      "population_and_scope_ja": "検索時点の違いと介入研究の限界。",
+      "not_supported_ja": "有望な結果を全職種に使える確立治療と表示しない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "例えば評価を受けたとき、「褒められた事実」「自分が担当した作業」「次に改善する具体的な点」を分けて残します。分からない点は、人格の評価ではなく期待される成果として上司や同僚に確認します。これは振り返りと対話の例で、症状を治すと検証された三項目の手順ではありません。",
+    "safety": "強い苦痛や生活への支障が続く場合は、記録だけで抱え込まないでください。差別や過剰な要求がある環境を、本人の自信不足のせいにしません。"
+  },
+  "review_items": [
+    "新レビューは抄録と指定した方法・介入・限界を確認。介入研究の独立再評価は未完了。",
+    "2020年レビューの資金と著者の関係はメモに保存し、利益相反だけで結果を否定・承認していない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}

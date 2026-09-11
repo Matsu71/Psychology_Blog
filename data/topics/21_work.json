@@ -293,7 +293,8 @@
       "search_query": "impostor phenomenon work self doubt systematic review human study",
       "priority": 2,
       "source_ids": [
-        "SRC167"
+        "SRC167",
+        "SRC298"
       ],
       "caution_ja": "一般的な経験と診断を混同せず、本人の能力不足と解釈しない。",
       "related_topic_ids": [
@@ -306,7 +307,9 @@
         "observed_in_a_study": false
       },
       "source_review_ids": [
-        "R3-C060"
+        "R3-C060",
+        "RL8-impostor2020",
+        "RL8-impostor2026"
       ]
     },
     {

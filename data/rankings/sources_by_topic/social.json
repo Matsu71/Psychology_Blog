@@ -246,8 +246,8 @@
           "title": "Psychological Safety: A Meta‐Analytic Review and Extension",
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "association",
-          "limits_ja": "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "今回の抄録だけで具体的な介入の因果的効果を確定しない。136標本を136の無作為化介入としない。正本2016年はオンライン公開年で、巻号掲載は2017年。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -260,6 +260,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-SOC-009-SRC297",
+          "source_id": "SRC297",
+          "title": "Psychological Safety Comes of Age: Observed Themes in an Established Literature",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一つの定型的な声かけで成績が上がることを証明した介入試験ではない。既存メタ分析と根拠が重なり、独立した再現として加算しない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
         }
       ]
     },

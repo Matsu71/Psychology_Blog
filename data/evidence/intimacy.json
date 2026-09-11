@@ -80,12 +80,12 @@
       "source_id": "SRC176",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "abstract_screened",
-      "source_review_id": "R3-C069",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL8-household2025",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "幼い子どもの母親322人で、家事の計画・段取りと実行の負担を分け、心の健康との関連を検討。",
-      "conclusion_direction": "association",
-      "limits_ja": "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。",
+      "finding_scope_ja": "産後約36か月の母親322人が30種類の家事の計画と実行の分担を別々に評定。認知的な家事負担の偏りはストレス、燃え尽き、関係満足などと関連した。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "長期追跡の一時点の横断解析であり因果は確定しない。異性パートナーと同居する出産経験者、高学歴・高所得に偏り、母親本人だけの報告。新しい家事尺度の妥当性も十分に検証されていない。身体作業が無害とは言えない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

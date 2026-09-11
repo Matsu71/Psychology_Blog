@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC153",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C046"
+    ],
+    "limitations_ja": [
+      "前の追試と関連するデータ系列であり、独立した二重の再現と数えない。対象者の属性と欠測を全文で確認する。"
+    ],
+    "integrity_status": "indexed_links_checked_not_exhaustive",
+    "integrity_notices": []
+  }
+}

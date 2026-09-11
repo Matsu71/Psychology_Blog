@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC132",
+    "review_scope": "abstract",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "抄録による予備点検・正式評価未実施",
+    "provenance_review_ids": [
+      "R3-C025"
+    ],
+    "limitations_ja": [
+      "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。"
+    ],
+    "integrity_status": "not_completed",
+    "integrity_notices": []
+  }
+}
