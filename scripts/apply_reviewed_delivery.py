@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the authored learning delivery offline, retaining previous manuscripts.
+"""Apply an authored reviewed delivery offline, retaining previous manuscripts.
 
 This resolves bibliographic IDs and updates views, not scientific truth or release.
 Run from a disposable checkout; commit only after all validators pass.
@@ -18,6 +18,9 @@ BATCH = 'learning-20260911'
 INPUT = ROOT / 'research/reviewed_deliveries' / BATCH
 OUTPUT = 'data/research/reviewed_deliveries/' + BATCH
 DATE = '2026-09-11'
+CONFIG = None
+REVIEW_PREFIX = 'RL7-'
+CHECK_PREFIX = 'SL7-'
 
 def load(path):
     return json.loads((ROOT / path).read_text(encoding='utf-8'))
@@ -37,7 +40,7 @@ def run():
     source_input = json.loads((INPUT / 'sources.json').read_text(encoding='utf-8'))
     input_files = sorted(INPUT.glob('PSY-*.json'))
     specs = [(p, json.loads(p.read_text(encoding='utf-8'))['article']) for p in input_files]
-    expected = {'PSY-LEA-003','PSY-LEA-005','PSY-LEA-008','PSY-CRE-001','PSY-MOT-008'}
+    expected = set(CONFIG['topic_ids']) if CONFIG else {'PSY-LEA-003','PSY-LEA-005','PSY-LEA-008','PSY-CRE-001','PSY-MOT-008'}
     if {a['topic_id'] for p,a in specs} != expected or len(specs) != len(expected):
         raise ValueError('Incomplete or duplicate authored delivery')
     categories = load('data/categories.json')['categories']
@@ -47,7 +50,6 @@ def run():
     catalog = load('data/articles/catalog.json')
     rows = {r['topic_id']:r for r in catalog['articles']}
     before_identity = [(r['topic_id'],r['title_ja']) for r in catalog['articles']]
-    # Resolve conflicts before making any source or article changes.
     for p,a in specs:
         row = rows[a['topic_id']]
         if row.get('reviewed_delivery_id') == BATCH:
@@ -72,9 +74,18 @@ def run():
     resolutions = {}; check_ids = {}; review_ids = {}; new_source_ids = []
     for item in source_input['sources']:
         key=item['key']; meta=item['metadata']; identifier=doi(meta['doi'])
-        if key in resolutions or not identifier.startswith('10.'):
-            raise ValueError('Invalid source key or DOI')
-        source=by_doi.get(identifier)
+        if key in resolutions:
+            raise ValueError('Duplicate source key')
+        if item.get('existing_source_id'):
+            source=next((s for s in sources if s['id']==item['existing_source_id']),None)
+            if source is None or doi(source.get('doi'))!=identifier:
+                raise ValueError('Existing source identity mismatch')
+            if not identifier and source.get('source_type')!='official_health_information':
+                raise ValueError('DOI-less source needs a known official record')
+        else:
+            if not identifier.startswith('10.'):
+                raise ValueError('Invalid DOI')
+            source=by_doi.get(identifier)
         if source is None:
             sid=f'SRC{next_id:03d}'; next_id+=1
             source={'id':sid,**meta,'source_type':'journal_article','record_role':'research_entry',
@@ -83,9 +94,9 @@ def run():
                     'correction_retraction_check':'not_exhaustive'}
             sources.append(source);by_doi[identifier]=source;new_source_ids.append(sid)
         sid=source['id'];resolutions[key]=sid
-        rid='RL7-'+key;cid='SL7-'+key;check_ids[key]=cid;review_ids[key]=rid
+        rid=REVIEW_PREFIX+key;cid=CHECK_PREFIX+key;check_ids[key]=cid;review_ids[key]=rid
         r={'id':rid,'source_id':sid,'topic_ids':item['topic_ids'],'design':item['study_design'],
-           'review_scope':'abstract','additional_reading_scope':item['reading_scope'],
+           'review_scope':('official_page_reviewed' if item['reading_scope']=='official_page_reviewed' else 'abstract'),'additional_reading_scope':item['reading_scope'],
            'review_method':'AI_assisted_single_review','reviewed_on':DATE,
            'key_findings_ja':item['findings_ja'],'limitations_ja':item['limitations_ja'],
            'conclusion_direction':'mixed','topic_relevance':5,'relevance_scope':'source_text_screened',
@@ -99,7 +110,6 @@ def run():
            'formal_evidence_certainty':'not_assessed','delivery_id':BATCH}
         for optional in ['author_reported_certainty','overlap_with_source_keys','external_method_review_url','published_on','search_end_date']:
             if optional in item:c[optional]=item[optional]
-        # Existing dated checks are immutable: a new interpretation requires a new ID.
         for record,mapping,target in [(r,review_map,review_doc['reviews']),(c,text_map,text_doc['checks'])]:
             if record['id'] in mapping:
                 if mapping[record['id']] != record:raise ValueError('Dated review changed: '+record['id'])
@@ -169,8 +179,8 @@ def run():
         for key in source_keys:
             src=next(s for s in sources if s['id']==resolutions[key])
             scope=text_map[check_ids[key]]['review_scope']
-            jp='抄録・指定箇所' if scope=='selected_fulltext_sections' else '抄録'
-            lines += [f"[^{key}]: {src['authors_display']} ({src['year']}). {src['title']}. [{src['id']}]({src['url']})。確認範囲：{jp}。",'']
+            jp='公的解説ページ' if scope=='official_page_reviewed' else '抄録・指定箇所' if scope=='selected_fulltext_sections' else '抄録'
+            lines += [f"[^{key}]: {src['authors_display']} ({src['year'] if src['year'] is not None else '刊行年未記載'}). {src['title']}. [{src['id']}]({src['url']})。確認範囲：{jp}。",'']
         lines += [f'[主張ごとの根拠・解釈上の限界](../../data/articles/claims/{tid}.json)','']
         manuscript='articles/manuscripts/'+tid+'.md';dossier='data/articles/claims/'+tid+'.json'
         (ROOT/manuscript).write_text('\n'.join(lines),encoding='utf-8')
@@ -193,7 +203,7 @@ def run():
     save('data/articles/catalog.json',catalog)
     coverage=load('data/research/coverage.json');counts=Counter(r['review_scope'] for r in review_doc['reviews'])
     coverage.update(source_count=len(sources),source_review_count=len(review_doc['reviews']),abstract_review_count=counts['abstract'],
-      bibliography_review_count=counts['bibliography'],selected_fulltext_checks_count=sum(a['review_scope']=='selected_fulltext_sections' for a in assessments.values()),evidence_edge_count=len(edge_map))
+      bibliography_review_count=counts['bibliography'],official_page_review_count=counts['official_page_reviewed'],selected_fulltext_checks_count=sum(a['review_scope']=='selected_fulltext_sections' for a in assessments.values()),evidence_edge_count=len(edge_map))
     save('data/research/coverage.json',coverage)
     manifest=load('data/manifest.json');manifest.update(source_count=len(sources));save('data/manifest.json',manifest)
     report={'schema_version':'1.0','delivery_id':BATCH,'date':DATE,'goal_articles':300,'goal_completed':False,
@@ -209,9 +219,41 @@ def run():
     doc+=['','## 記事で採用しない精密値','',
           '学習スタイル2024年レビューの抄録と本文の統合値、歩行2026年レビューの人数・RCT数に不一致があります。どちらかを勝手に訂正せず、source_text_checksに確認箇所を残し、記事では該当する精密値を不使用としました。','',
           '## 次の作業','', '学習者が使える具体例の読みやすさを点検し、読解範囲が抄録にとどまる資料の方法・追試を補います。次の未着手テーマへも主張・研究・応用例を分けて執筆を続けます。']
-    (ROOT/'docs/CONTINUATION_LEARNING_20260911.md').write_text('\n'.join(doc)+'\n',encoding='utf-8')
+    doc_path='docs/CONTINUATION_LEARNING_20260911.md'
+    if CONFIG:
+        doc_path=CONFIG['document_path']
+        doc=['# '+CONFIG['title'],'',CONFIG['scope_ja'],'',
+             f'本文{len(products)}テーマ。新規{report["new_manuscripts"]}件、改稿{report["revised_manuscripts"]}件。確認資料{len(resolutions)}件。','',
+             '| テーマ | 本文 | 主張ごとの根拠表 |','|---|---|---|']
+        for p,a in specs:
+            tid=a['topic_id']
+            doc.append(f'| {a["title"]} | [本文](../articles/manuscripts/{tid}.md) | [根拠表](../data/articles/claims/{tid}.json) |')
+        doc+=['','## 次の点検','',CONFIG['next_steps_ja']]
+    (ROOT/doc_path).write_text('\n'.join(doc)+'\n',encoding='utf-8')
     subprocess.run([sys.executable,str(ROOT/'scripts/build_research_views.py')],check=True,cwd=ROOT)
     subprocess.run([sys.executable,str(ROOT/'scripts/reconcile_article_progress.py')],check=True,cwd=ROOT)
     print(json.dumps({'delivery':BATCH,'articles':len(products),'sources':len(sources),'new':report['new_manuscripts']},ensure_ascii=False))
 
-if __name__=='__main__':run()
+def configure(batch):
+    global BATCH, INPUT, OUTPUT, CONFIG, REVIEW_PREFIX, CHECK_PREFIX
+    if not re.fullmatch(r'[a-z0-9-]+',batch):
+        raise ValueError('Unsafe delivery ID')
+    if batch == 'learning-20260911':
+        return
+    config_path=ROOT/'research/reviewed_deliveries'/batch/'manifest.json'
+    config=json.loads(config_path.read_text(encoding='utf-8'))
+    if config['delivery_id']!=batch or len(config['topic_ids'])!=len(set(config['topic_ids'])):
+        raise ValueError('Invalid delivery manifest')
+    if not re.fullmatch(r'docs/CONTINUATION_[A-Z0-9_]+\.md',config['document_path']):
+        raise ValueError('Unsafe document path')
+    BATCH=batch;INPUT=config_path.parent;OUTPUT='data/research/reviewed_deliveries/'+batch
+    CONFIG=config;REVIEW_PREFIX=config['review_prefix'];CHECK_PREFIX=config['check_prefix']
+    if not re.fullmatch(r'RL[0-9]+-',REVIEW_PREFIX) or not re.fullmatch(r'SL[0-9]+-',CHECK_PREFIX):
+        raise ValueError('Invalid immutable review namespace')
+
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--batch',default='learning-20260911')
+    configure(parser.parse_args().batch)
+    run()

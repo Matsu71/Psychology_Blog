@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "excludes": "Git history, working caches, generated build/, and this report",
-  "canonical_and_derived_data_bytes": 6501461,
+  "canonical_and_derived_data_bytes": 6501496,
   "data_json_file_count": 278,
   "largest_files": [
     {
