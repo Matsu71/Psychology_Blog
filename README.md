@@ -6,9 +6,9 @@
 
 ## 今回の成果と確認範囲
 
-出典台帳は106件（旧35資料＋今回の研究・指針68件＋訂正告知3件）。読解メモは143テーマに対応し、うち既存テーマ108件、新規テーマ35件です。
+出典台帳は106件（旧35資料＋今回の研究・指針68件＋訂正告知3件）。読解メモは139テーマに対応し、うち既存テーマ106件、新規テーマ33件です。
 
-関連資料付きは173テーマ、個別の出典未登録は127テーマです。資料付きでも背景解説だけの場合があります。全300テーマの正式な確実性評価は未実施で、公開可能状態にはしていません。
+関連資料付きは169テーマ、個別の出典未登録は131テーマです。資料付きでも背景解説だけの場合があります。全300テーマの正式な確実性評価は未実施で、公開可能状態にはしていません。
 
 検索は300回実行し、候補レコード1105件を保存しました。候補は未選別を含み、同一研究の別版もあり得ます。重要資料の読解は抄録中心で、全文の品質評価・解析再現とは異なります。
 
@@ -23,10 +23,10 @@
 
 | 分野 | テーマ数 | 読解メモ付き |
 |---|---:|---:|
-| [睡眠・体内時計](data/topics/01_sleep.json) | 10 | 7 |
+| [睡眠・体内時計](data/topics/01_sleep.json) | 10 | 6 |
 | [遺伝・環境・気質](data/topics/02_genetics.json) | 10 | 5 |
 | [依存・報酬・禁煙](data/topics/03_addiction.json) | 10 | 5 |
-| [習慣形成・行動変容](data/topics/04_habits.json) | 10 | 7 |
+| [習慣形成・行動変容](data/topics/04_habits.json) | 10 | 6 |
 | [性格・自己理解](data/topics/05_personality.json) | 10 | 6 |
 | [動機づけ・先延ばし](data/topics/06_motivation.json) | 10 | 8 |
 | [学習・記憶・勉強法](data/topics/07_learning.json) | 10 | 6 |
@@ -43,10 +43,10 @@
 | [加齢・認知機能・介護](data/topics/18_aging.json) | 10 | 6 |
 | [スマホ・SNS・デジタル生活](data/topics/19_digital.json) | 10 | 3 |
 | [研究の読み方・再現性](data/topics/20_research_literacy.json) | 10 | 6 |
-| [仕事・働き方・キャリア](data/topics/21_work.json) | 14 | 8 |
+| [仕事・働き方・キャリア](data/topics/21_work.json) | 14 | 7 |
 | [お金・買い物・消費心理](data/topics/22_money_consumption.json) | 14 | 3 |
 | [恋愛・親密さ・パートナーシップ](data/topics/23_intimacy.json) | 12 | 2 |
-| [身体感覚・ホルモン・健康行動](data/topics/24_health_psychology.json) | 12 | 3 |
+| [身体感覚・ホルモン・健康行動](data/topics/24_health_psychology.json) | 12 | 2 |
 | [生活環境・感覚・快適さ](data/topics/25_environment.json) | 12 | 5 |
 | [好奇心・創造性・遊び](data/topics/26_creativity.json) | 12 | 4 |
 | [言葉・会話・語学・思考](data/topics/27_language.json) | 12 | 3 |

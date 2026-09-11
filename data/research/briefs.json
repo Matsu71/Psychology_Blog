@@ -75,8 +75,7 @@
         "SRC038"
       ],
       "topic_ids": [
-        "PSY-SLP-004",
-        "PSY-SLP-010"
+        "PSY-SLP-004"
       ],
       "study_design": "randomized_crossover_trial",
       "study_context": {
@@ -295,7 +294,6 @@
       ],
       "topic_ids": [
         "PSY-HAB-007",
-        "PSY-HAB-010",
         "PSY-MOT-004"
       ],
       "study_design": "meta_analysis_randomized_studies",
@@ -571,8 +569,7 @@
       ],
       "topic_ids": [
         "PSY-ATT-004",
-        "PSY-ATT-007",
-        "PSY-WRK-009"
+        "PSY-ATT-007"
       ],
       "study_design": "systematic_review_meta_analysis",
       "study_context": {
@@ -760,8 +757,7 @@
       "topic_ids": [
         "PSY-MEN-008",
         "PSY-MEN-003",
-        "PSY-MEN-009",
-        "PSY-HPS-004"
+        "PSY-MEN-009"
       ],
       "study_design": "randomized_controlled_trial",
       "study_context": {
@@ -1043,8 +1039,7 @@
       ],
       "topic_ids": [
         "PSY-WEL-010",
-        "PSY-ENV-005",
-        "PSY-CRE-004"
+        "PSY-ENV-005"
       ],
       "study_design": "cross_sectional_population_survey",
       "study_context": {
@@ -1325,8 +1320,7 @@
       ],
       "topic_ids": [
         "PSY-ENV-005",
-        "PSY-WEL-010",
-        "PSY-MON-006"
+        "PSY-WEL-010"
       ],
       "study_design": "cluster_randomized_trial",
       "study_context": {
@@ -1386,8 +1380,7 @@
       ],
       "topic_ids": [
         "PSY-ENV-002",
-        "PSY-ATT-007",
-        "PSY-WRK-009"
+        "PSY-ATT-007"
       ],
       "study_design": "controlled_exposure_study",
       "study_context": {

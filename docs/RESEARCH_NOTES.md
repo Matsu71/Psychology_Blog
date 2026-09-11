@@ -40,7 +40,7 @@ Gardiner CL, Weakley J, Burke LM, Fernandez F, Johnston RD, Leota J, Russell S, 
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/39377163/) — DOI: `10.1093/sleep/zsae230`
 
-**対応テーマ：** PSY-SLP-004, PSY-SLP-010
+**対応テーマ：** PSY-SLP-004
 
 **実際に研究した対象・条件：** 日常のカフェイン摂取が中程度の成人男性23人。100mg・400mgを就寝12・8・4時間前に摂取し偽薬と比較。
 
@@ -152,7 +152,7 @@ Harkin B, Webb TL, Chang BP, Prestwich A, Conner M, Kellar I, Benn Y, Sheeran P.
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/26479070/) — DOI: `10.1037/bul0000025`
 
-**対応テーマ：** PSY-HAB-007, PSY-HAB-010, PSY-MOT-004
+**対応テーマ：** PSY-HAB-007, PSY-MOT-004
 
 **実際に研究した対象・条件：** 目標進捗の記録を促す138研究、19951人。対照条件と目標達成を比較。
 
@@ -296,7 +296,7 @@ Albulescu P, Macsinga I, Rusu A, Sulea C, Bodnaru A, Tulbure BT. / 2022 / PloS o
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/36044424/) — DOI: `10.1371/journal.pone.0272460`
 
-**対応テーマ：** PSY-ATT-004, PSY-ATT-007, PSY-WRK-009
+**対応テーマ：** PSY-ATT-004, PSY-ATT-007
 
 **実際に研究した対象・条件：** 22独立標本、2335人。短い休憩の疲労・活力・成績を検討。
 
@@ -392,7 +392,7 @@ Ashar YK, Gordon A, Schubiner H, Uipi C, Knight K, Anderson Z, Carlisle J, Polis
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/34586357/) — DOI: `10.1001/jamapsychiatry.2021.2669`
 
-**対応テーマ：** PSY-MEN-008, PSY-MEN-003, PSY-MEN-009, PSY-HPS-004
+**対応テーマ：** PSY-MEN-008, PSY-MEN-003, PSY-MEN-009
 
 **実際に研究した対象・条件：** 一次性の慢性腰痛の成人151人。痛み再処理療法、公開偽薬、通常ケアを比較。
 
@@ -538,7 +538,7 @@ White MP, Alcock I, Grellier J, Wheeler BW, Hartig T, Warber SL, Bone A, Depledg
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/31197192/) — DOI: `10.1038/s41598-019-44097-3`
 
-**対応テーマ：** PSY-WEL-010, PSY-ENV-005, PSY-CRE-004
+**対応テーマ：** PSY-WEL-010, PSY-ENV-005
 
 **実際に研究した対象・条件：** 英国の19806人。直近7日間の自然との接触と自己評価の健康・幸福を調査。
 
@@ -682,7 +682,7 @@ South EC, Hohl BC, Kondo MC, MacDonald JM, Branas CC. / 2018 / JAMA network open
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/30646029/) — DOI: `10.1001/jamanetworkopen.2018.0298`
 
-**対応テーマ：** PSY-ENV-005, PSY-WEL-010, PSY-MON-006
+**対応テーマ：** PSY-ENV-005, PSY-WEL-010
 
 **実際に研究した対象・条件：** 米国フィラデルフィアの空き地110クラスターと周辺住民442人。緑化・清掃・介入なしを比較。
 
@@ -716,7 +716,7 @@ Allen JG, MacNaughton P, Satish U, Santanam S, Vallarino J, Spengler JD. / 2016 
 
 [原論文の書誌・抄録](https://pubmed.ncbi.nlm.nih.gov/26502459/) — DOI: `10.1289/ehp.1510037`
 
-**対応テーマ：** PSY-ENV-002, PSY-ATT-007, PSY-WRK-009
+**対応テーマ：** PSY-ENV-002, PSY-ATT-007
 
 **実際に研究した対象・条件：** 成人24人が6日間、換気・VOC・CO2の異なる実験的オフィス環境で勤務。
 

@@ -9,8 +9,8 @@
   "category_count": 28,
   "topic_count": 300,
   "source_count": 106,
-  "reference_linked_count": 173,
-  "search_pending_count": 127,
+  "reference_linked_count": 169,
+  "search_pending_count": 131,
   "topic_defaults": {
     "record_status": "theme_candidate",
     "evidence_appraisal": "not_assessed",
@@ -64,7 +64,7 @@
   "research_snapshot": "2026-09-11-expanded-300",
   "updated_on": "2026-09-11",
   "research_brief_count": 68,
-  "brief_linked_topic_count": 143,
+  "brief_linked_topic_count": 139,
   "candidate_record_count": 1105,
   "search_request_count": 300
 }

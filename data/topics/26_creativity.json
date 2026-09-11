@@ -89,7 +89,6 @@
       "search_query": "awe small self systematic review human study",
       "priority": 1,
       "source_ids": [
-        "SRC070",
         "SRC085"
       ],
       "caution_ja": "特定の旅行や高額な体験を必要条件にしない。",
@@ -103,7 +102,6 @@
         "observed_in_a_study": false
       },
       "research_brief_ids": [
-        "RB-31197192",
         "RB-32955293"
       ]
     },

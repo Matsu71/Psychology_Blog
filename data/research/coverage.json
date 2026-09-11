@@ -9,12 +9,12 @@
   "added_source_count": 71,
   "reviewed_research_count": 68,
   "correction_notice_count": 3,
-  "brief_linked_topic_count": 143,
-  "original_topics_with_new_briefs": 108,
-  "new_topics_with_briefs": 35,
-  "previously_unreferenced_original_topics_now_linked": 54,
-  "reference_linked_count": 173,
-  "search_pending_count": 127,
+  "brief_linked_topic_count": 139,
+  "original_topics_with_new_briefs": 106,
+  "new_topics_with_briefs": 33,
+  "previously_unreferenced_original_topics_now_linked": 52,
+  "reference_linked_count": 169,
+  "search_pending_count": 131,
   "illustrative_scenario_count": 168,
   "study_context_count": 68,
   "search_request_count": 300,
@@ -28,8 +28,8 @@
       "category_id": "sleep",
       "name_ja": "睡眠・体内時計",
       "topic_count": 10,
-      "reference_linked_count": 10,
-      "brief_linked_count": 7
+      "reference_linked_count": 9,
+      "brief_linked_count": 6
     },
     {
       "category_id": "genetics",
@@ -49,8 +49,8 @@
       "category_id": "habits",
       "name_ja": "習慣形成・行動変容",
       "topic_count": 10,
-      "reference_linked_count": 7,
-      "brief_linked_count": 7
+      "reference_linked_count": 6,
+      "brief_linked_count": 6
     },
     {
       "category_id": "personality",
@@ -168,8 +168,8 @@
       "category_id": "work",
       "name_ja": "仕事・働き方・キャリア",
       "topic_count": 14,
-      "reference_linked_count": 8,
-      "brief_linked_count": 8
+      "reference_linked_count": 7,
+      "brief_linked_count": 7
     },
     {
       "category_id": "money_consumption",
@@ -189,8 +189,8 @@
       "category_id": "health_psychology",
       "name_ja": "身体感覚・ホルモン・健康行動",
       "topic_count": 12,
-      "reference_linked_count": 3,
-      "brief_linked_count": 3
+      "reference_linked_count": 2,
+      "brief_linked_count": 2
     },
     {
       "category_id": "environment",
@@ -229,5 +229,6 @@
     "検索の成功は関連文献が存在することや十分な根拠を得たことを意味しない。",
     "索引上の訂正・関連論文は確認したが、全文・全追試・撤回情報の網羅的精査は未実施。",
     "生活例は説明用の想定場面であり、実在人物の事例やその方法を直接検証した結果ではない。"
-  ]
+  ],
+  "relevance_links_removed_in_final_audit": 7
 }

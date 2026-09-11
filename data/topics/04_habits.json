@@ -164,13 +164,8 @@
       "angle_ja": "予約、締切、使いすぎ防止設定などの事前決定を比較する。",
       "search_query": "commitment devices precommitment procrastination health behavior randomized trial",
       "priority": 2,
-      "source_ids": [
-        "SRC045"
-      ],
-      "caution_ja": "金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。",
-      "research_brief_ids": [
-        "RB-26479070"
-      ]
+      "source_ids": [],
+      "caution_ja": "金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。"
     }
   ]
 }

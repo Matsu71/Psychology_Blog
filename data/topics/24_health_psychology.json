@@ -88,9 +88,7 @@
       "angle_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
       "search_query": "interoception anxiety sensitivity systematic review human study",
       "priority": 1,
-      "source_ids": [
-        "SRC060"
-      ],
+      "source_ids": [],
       "caution_ja": "胸痛や呼吸苦を不安だけで説明せず、必要な医療評価を優先する。",
       "related_topic_ids": [
         "PSY-EMO-005",
@@ -100,10 +98,7 @@
         "type": "illustrative_scenario",
         "description_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
         "observed_in_a_study": false
-      },
-      "research_brief_ids": [
-        "RB-34586357"
-      ]
+      }
     },
     {
       "id": "PSY-HPS-005",

@@ -185,13 +185,8 @@
       "angle_ja": "睡眠日誌、体感、機器の推定値の使い分けを調べる。",
       "search_query": "consumer wearable sleep tracker validation polysomnography orthosomnia",
       "priority": 2,
-      "source_ids": [
-        "SRC038"
-      ],
-      "caution_ja": "製品・世代ごとの精度を確認。機器の点数で診断や治療判断をしない。",
-      "research_brief_ids": [
-        "RB-39377163"
-      ]
+      "source_ids": [],
+      "caution_ja": "製品・世代ごとの精度を確認。機器の点数で診断や治療判断をしない。"
     }
   ]
 }
