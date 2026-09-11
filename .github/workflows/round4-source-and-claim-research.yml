@@ -1,0 +1,140 @@
+name: Round 4 source and claim research
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/round4-source-and-claim-research.yml'
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve public bibliography, abstracts and selected open full texts
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,datetime,json,time,urllib.request,urllib.parse,xml.etree.ElementTree as ET
+          from pathlib import Path
+          OUT=Path('round4_reading');OUT.mkdir(exist_ok=True)
+          CUTOFF='2026-09-11'
+          def load(p):return json.loads(Path(p).read_text())
+          cats=load('data/categories.json')['categories']
+          topics={t['id']:t for c in cats for t in load(c['file'])['topics']}
+          source_rows=load('data/sources.json')['sources'];sources={s['id']:s for s in source_rows}
+          missing=[t for t in topics.values() if not t['source_ids']]
+          top=load('data/rankings/editorial_topics.json')['topics'][:20]
+          assert len(missing)==29, 'Base changed; re-evaluate missing topic set.'
+          def get(url):
+              error=None
+              for n in range(3):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/1.0','Accept':'application/json,application/xml,text/xml'})
+                      with urllib.request.urlopen(req,timeout=30) as f:return f.read()
+                  except Exception as e:error=str(e);time.sleep(n+1)
+              raise RuntimeError(error)
+          def search(task):
+              q=task['query'];provider=task['provider']
+              if provider=='epmc':
+                  url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':'('+q+') AND FIRST_PDATE:[1900-01-01 TO '+CUTOFF+']','format':'json','resultType':'core','pageSize':8})
+              else:
+                  url='https://api.crossref.org/works?'+urllib.parse.urlencode({'query.bibliographic':q,'rows':5,'filter':'until-pub-date:'+CUTOFF})
+              try:
+                  body=json.loads(get(url));rows=body.get('resultList',{}).get('result',[]) if provider=='epmc' else body['message']['items']
+                  result=dict(task,status='success',api_url=url,records=rows)
+              except Exception as e:result=dict(task,status='failed',api_url=url,error=str(e),records=[])
+              result['checked_at_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+              print(task['id'],result['status'],len(result['records']),flush=True)
+              return result
+          tasks=[]
+          def add(provider,q,tid=None,kind='remaining_theme'):
+              tasks.append({'id':f'R4-Q{len(tasks)+1:03d}','provider':provider,'query':q,'topic_id':tid,'kind':kind})
+          for t in missing:
+              a=t['concepts_en'][0].replace('"','')
+              add('epmc','TITLE_ABS:"'+a+'"',t['id'])
+              add('crossref',' '.join(t['concepts_en'])+' systematic review meta analysis',t['id'])
+          seeds=[
+          ('PSY-HAB-006','Beyond carrots and sticks Choice architecture evidence on tool effectiveness'),
+          ('PSY-HAB-006','A meta-analysis of choice architecture interventions'),
+          ('PSY-PER-009','Sensory Processing Sensitivity in the context of Environmental Sensitivity critical review Greven'),
+          ('PSY-ATT-008','time pressure performance meta analysis Szalma Hancock'),
+          ('PSY-ATT-009','flow interventions systematic review meta analysis'),
+          ('PSY-DEC-002','anchoring effect willingness to pay meta analysis'),
+          ('PSY-DEC-004','On the sunk-cost effect in economic decision-making meta-analytic review'),
+          ('PSY-DEC-007','delay discounting health behavior meta analysis'),
+          ('PSY-DEC-008','Unrealistic optimism about susceptibility to health problems'),
+          ('PSY-DEC-008','Unrealistic optimism is it a robust phenomenon'),
+          ('PSY-SOC-004','The halo effect Evidence for unconscious alteration of judgments'),
+          ('PSY-WEL-007','social comparison well being meta analysis'),
+          ('PSY-DIG-002','Active and passive social media use systematic review meta analysis 141 studies'),
+          ('PSY-DIG-003','Doomscrolling during COVID-19 daily diary study mental health'),
+          ('PSY-DIG-007','phubbing relationship satisfaction meta analysis'),
+          ('PSY-DIG-008','online harassment coping adults systematic review'),
+          ('PSY-MON-004','paying for pain pain of paying payment coupling mental accounting'),
+          ('PSY-MON-005','impulse buying meta analytic review Iyer Blut Xiao Grewal'),
+          ('PSY-MON-008','Selling Subscriptions Einav Klopack Mahoney'),
+          ('PSY-MON-009','scarcity tactics marketing meta analysis purchase intentions'),
+          ('PSY-INT-003','Sexual Frequency Predicts Greater Well-Being But More Is Not Always Better'),
+          ('PSY-INT-007','The role of sleep in interpersonal conflict do sleepless nights mean worse fights'),
+          ('PSY-INT-008','Facebook jealousy surveillance relationship longitudinal'),
+          ('PSY-HPS-006','Expand Your Horizon functionality body image randomized controlled trial'),
+          ('PSY-ENV-011','A prospective study of psychological adaptation to crowding in human environments'),
+          ('PSY-CRE-008','Can playfulness be stimulated randomized placebo controlled online playfulness interventions'),
+          ('PSY-CRE-010','Nostalgia social connectedness well being experimental meta analysis'),
+          ('PSY-CRE-011','Creativity and innovation under constraints cross disciplinary integrative review'),
+          ('PSY-LAN-003','foreign language effect meta analysis decision making'),
+          ('PSY-LIF-004','residential relocation life satisfaction longitudinal moving home'),
+          ('PSY-LIF-005','empty nest parents well being longitudinal children leaving home'),
+          ('PSY-MOT-001','Procrastination and the priority of short-term mood regulation consequences for future self'),
+          ('PSY-SLP-009','bedtime procrastination systematic review meta analysis'),
+          ('PSY-SLP-009','bedtime procrastination chronotype self regulation daily diary'),
+          ('PSY-SLP-009','bedtime procrastination intervention randomized trial'),
+          ('PSY-MON-002','Less cash more splash meta analysis cashless effect'),
+          ('PSY-DEC-006','Choice overload conceptual review meta analysis Chernev Bockenholt Goodman'),
+          ('PSY-SLP-001','Recommended amount of sleep for a healthy adult joint consensus statement'),
+          ('PSY-HAB-005','Implementation intentions goal achievement meta analysis Gollwitzer Sheeran'),
+          ('PSY-LAN-008','It does not hurt to ask question asking increases liking correction 2025'),
+          ('PSY-MON-001','Buying time promotes happiness')]
+          for tid,q in seeds:
+              add('crossref',q,tid,'targeted_seed')
+          sids=list(dict.fromkeys(sid for t in top for sid in topics[t['topic_id']]['source_ids']))
+          for sid in sids:
+              s=sources[sid]
+              if s.get('doi'):add('epmc','DOI:"'+s['doi']+'"',None,'existing_'+sid)
+              elif s.get('pmid'):add('epmc','EXT_ID:'+s['pmid']+' AND SRC:MED',None,'existing_'+sid)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:results=list(pool.map(search,tasks))
+          # Resolve strongest exact-title Crossref candidates in the medical index; no automatic selection as evidence.
+          dois=list(dict.fromkeys(r.get('DOI','').lower() for q in results if q['provider']=='crossref' for r in q['records'][:3] if r.get('DOI')))
+          follow=[{'id':f'R4-D{i+1:03d}','provider':'epmc','query':'DOI:"'+d+'"','topic_id':None,'kind':'doi_resolution'} for i,d in enumerate(dois)]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:resolved=list(pool.map(search,follow))
+          results+=resolved
+          papers={r['source']+':'+str(r['id']):r for q in results if q['provider']=='epmc' for r in q['records']}
+          # Only download full text for known top-theme sources and the top resolved seed per query, never all hits.
+          wanted=set(s.get('doi','').lower() for sid in sids for s in [sources[sid]] if s.get('doi'))
+          wanted.update(q['records'][0]['DOI'].lower() for q in results if q['provider']=='crossref' and q['kind']=='targeted_seed' and q['records'] and q['records'][0].get('DOI'))
+          pmcs=list(dict.fromkeys(r['pmcid'] for r in papers.values() if r.get('pmcid') and r.get('isOpenAccess')=='Y' and r.get('doi','').lower() in wanted))
+          def fulltext(pmc):
+              url='https://www.ebi.ac.uk/europepmc/webservices/rest/'+pmc+'/fullTextXML'
+              try:
+                  b=get(url);tree=ET.fromstring(b)
+                  body=tree.find('body')
+                  sections=[]
+                  if body is not None:
+                      for sec in body.findall('sec'):
+                          title=sec.findtext('title') or sec.get('sec-type') or 'Untitled'
+                          sections.append({'heading':title,'text':' '.join(sec.itertext())})
+                  return {'pmcid':pmc,'url':url,'status':'success','sections':sections,'license':' '.join(tree.find('front').itertext())[-500:] if tree.find('front') is not None else None}
+              except Exception as e:return {'pmcid':pmc,'url':url,'status':'failed','error':str(e)}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:fulltexts=list(pool.map(fulltext,pmcs))
+          obj={'date':CUTOFF,'base_commit':'b6c312eb6a124abc5ba46c5a998e13c3a8d623aa','missing_topic_ids':[t['id'] for t in missing],'top20_topic_ids':[t['topic_id'] for t in top],'searches':results,'papers':papers,'fulltexts':fulltexts}
+          (OUT/'reading.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2))
+          print(json.dumps({'searches':len(results),'failures':sum(q['status']!='success' for q in results),'epmc_records':len(papers),'open_texts':len(fulltexts),'open_texts_ok':sum(q['status']=='success' for q in fulltexts)}))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round4-private-reading
+          path: round4_reading/
+          retention-days: 1
+          if-no-files-found: error
