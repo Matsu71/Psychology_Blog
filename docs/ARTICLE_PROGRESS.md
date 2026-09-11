@@ -1,10 +1,10 @@
 # 記事制作の現在地
 
-目標300記事。本文26件、主張対応表26件。
+目標300記事。本文44件、主張対応表44件。
 
-原文の確認箇所と主張を照合した改稿：20件。上位20のうち20件。公開承認済み0件。
+限定した原文照合の記録がある原稿：20件。公開承認済み：0件。
 
-source_checked_manuscriptは限定した主張の原文照合と単独AI編集が済んだ原稿。独立査読・全研究の確実性評価・医療監修・公開承認とは別です。
+原稿の存在、限定した主張の照合、独立した点検、公開承認は別の状態です。構造検証は科学的正しさを自動認定しません。
 
 | テーマ | 本文 | 状態 |
 |---|---|---|
@@ -44,7 +44,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-HAB-004 『毎日やっている』と『習慣になった』は違う？ | 未着手 | research_pending |
 | PSY-HAB-005 『もしXならYする』は行動を助ける？ | [原稿](../articles/manuscripts/PSY-HAB-005.md) | source_checked_manuscript |
 | PSY-HAB-006 やる気を増やすより、始める手間を減らす方がよい？ | 未着手 | research_pending |
-| PSY-HAB-007 記録をつけるだけで行動は変わる？ | 未着手 | research_pending |
+| PSY-HAB-007 記録をつけるだけで行動は変わる？ | [原稿](../articles/manuscripts/PSY-HAB-007.md) | manuscript_pending_article_review |
 | PSY-HAB-008 行動にご褒美をつけると、続くのか続かなくなるのか？ | 未着手 | research_pending |
 | PSY-HAB-009 引っ越しや転職は悪い習慣を変えるチャンス？ | 未着手 | research_pending |
 | PSY-HAB-010 自分を縛る仕組みは先延ばしを減らす？ | 未着手 | research_pending |
@@ -70,16 +70,16 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-MOT-010 新年や月曜日にやる気が出る『フレッシュスタート』は続く？ | 未着手 | research_pending |
 | PSY-LEA-001 読み直すより思い出す練習：テスト効果を勉強に使うには？ | [原稿](../articles/manuscripts/PSY-LEA-001.md) | source_checked_manuscript |
 | PSY-LEA-002 一夜漬けと分散学習、長く覚えられるのはどちら？ | [原稿](../articles/manuscripts/PSY-LEA-002.md) | revised_manuscript_pending_review |
-| PSY-LEA-003 似た問題をまとめず、混ぜて解くと学びやすい？ | 未着手 | research_pending |
+| PSY-LEA-003 似た問題をまとめず、混ぜて解くと学びやすい？ | [原稿](../articles/manuscripts/PSY-LEA-003.md) | manuscript_pending_article_review |
 | PSY-LEA-004 人に説明するつもりで学ぶと理解は深まる？ | 未着手 | research_pending |
 | PSY-LEA-005 マーカーだらけのノートは勉強になる？ | 未着手 | research_pending |
 | PSY-LEA-006 『なぜそうなる？』を自分に問う学習は役立つ？ | 未着手 | research_pending |
 | PSY-LEA-007 『分かったつもり』はどうすれば見抜ける？ | 未着手 | research_pending |
-| PSY-LEA-008 視覚型・聴覚型に合わせて学ぶ方法には根拠がある？ | 未着手 | research_pending |
+| PSY-LEA-008 視覚型・聴覚型に合わせて学ぶ方法には根拠がある？ | [原稿](../articles/manuscripts/PSY-LEA-008.md) | manuscript_pending_article_review |
 | PSY-LEA-009 間違えてから答えを見ることにも学習効果はある？ | 未着手 | research_pending |
 | PSY-LEA-010 覚えた後に眠ると記憶はどう変わる？ | 未着手 | research_pending |
 | PSY-ATT-001 マルチタスクは本当に時間の節約になる？ | 未着手 | research_pending |
-| PSY-ATT-002 通知を見ていなくても集中は途切れる？ | 未着手 | research_pending |
+| PSY-ATT-002 通知を見ていなくても集中は途切れる？ | [原稿](../articles/manuscripts/PSY-ATT-002.md) | manuscript_pending_article_review |
 | PSY-ATT-003 中断した仕事に戻りにくいのはなぜ？ | 未着手 | research_pending |
 | PSY-ATT-004 短い休憩で集中力は戻る？ | [原稿](../articles/manuscripts/PSY-ATT-004.md) | source_checked_manuscript |
 | PSY-ATT-005 音楽を聴きながらの勉強は、どんなときに向く？ | 未着手 | research_pending |
@@ -91,11 +91,11 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-DEC-001 なぜ自分の意見に合う情報ばかり集めてしまう？ | 未着手 | research_pending |
 | PSY-DEC-002 最初に見た値段が判断の基準になる？ | 未着手 | research_pending |
 | PSY-DEC-003 得する喜びより損する痛みが大きいのか？ | 未着手 | research_pending |
-| PSY-DEC-004 もう払ったお金が、やめる判断を邪魔する？ | 未着手 | research_pending |
+| PSY-DEC-004 もう払ったお金が、やめる判断を邪魔する？ | [原稿](../articles/manuscripts/PSY-DEC-004.md) | manuscript_pending_article_review |
 | PSY-DEC-005 同じ内容でも言い方で選択は変わる？ | 未着手 | research_pending |
 | PSY-DEC-006 選択肢が多いほど選べなくなるのは本当？ | [原稿](../articles/manuscripts/PSY-DEC-006.md) | source_checked_manuscript |
 | PSY-DEC-007 未来の自分より今の自分を優先してしまうのはなぜ？ | 未着手 | research_pending |
-| PSY-DEC-008 『自分は大丈夫』と思うのはなぜ？ | 未着手 | research_pending |
+| PSY-DEC-008 『自分は大丈夫』と思うのはなぜ？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-DEC-008.md) | manuscript_pending_article_review |
 | PSY-DEC-009 ダニング＝クルーガー効果はどこまで本当？ | 未着手 | research_pending |
 | PSY-DEC-010 初期設定のままにするのはなぜ？デフォルト効果 | 未着手 | research_pending |
 | PSY-EMO-001 ストレスは全部悪いのか？短期反応と慢性的な負担 | 未着手 | research_pending |
@@ -144,7 +144,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-WEL-004 物を買うのと経験を買うのでは、満足度が違う？ | 未着手 | research_pending |
 | PSY-WEL-005 お金が増えれば幸福も増える？ | [原稿](../articles/manuscripts/PSY-WEL-005.md) | source_checked_manuscript |
 | PSY-WEL-006 人のために何かすると、自分も幸福になる？ | 未着手 | research_pending |
-| PSY-WEL-007 他人と比べるほど満足しにくくなる？ | 未着手 | research_pending |
+| PSY-WEL-007 他人と比べるほど満足しにくくなる？ | [原稿](../articles/manuscripts/PSY-WEL-007.md) | manuscript_pending_article_review |
 | PSY-WEL-008 人生の意味を感じることは健康と関係する？ | 未着手 | research_pending |
 | PSY-WEL-009 自由時間が多ければ多いほど幸せなのか？ | 未着手 | research_pending |
 | PSY-WEL-010 自然の中で過ごすと気分はよくなる？ | 未着手 | research_pending |
@@ -194,7 +194,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-DIG-004 デジタルデトックスは気分や生活を改善する？ | [原稿](../articles/manuscripts/PSY-DIG-004.md) | source_checked_manuscript |
 | PSY-DIG-005 見逃すのが怖い：FOMOはどう測られる？ | 未着手 | research_pending |
 | PSY-DIG-006 無限スクロールや自動再生は、やめどきを変える？ | 未着手 | research_pending |
-| PSY-DIG-007 会話中にスマホを見ると、相手はどう感じる？ | 未着手 | research_pending |
+| PSY-DIG-007 会話中にスマホを見ると、相手はどう感じる？ | [原稿](../articles/manuscripts/PSY-DIG-007.md) | manuscript_pending_article_review |
 | PSY-DIG-008 オンラインの嫌な交流から心を守るには？ | 未着手 | research_pending |
 | PSY-DIG-009 何度も見る情報は本当らしく感じる？ | 未着手 | research_pending |
 | PSY-DIG-010 夜のスマホと睡眠は、ブルーライトだけの問題？ | 未着手 | research_pending |
@@ -229,7 +229,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-MON-005 疲れた夜に衝動買いしやすくなる？ | 未着手 | research_pending |
 | PSY-MON-006 お金の心配は考える余裕を奪う？ | 未着手 | research_pending |
 | PSY-MON-007 パートナーとお金の話が難しいのはなぜ？ | 未着手 | research_pending |
-| PSY-MON-008 使わないサブスクを解約できないのはなぜ？ | 未着手 | research_pending |
+| PSY-MON-008 使わないサブスクを解約できないのはなぜ？ | [原稿](../articles/manuscripts/PSY-MON-008.md) | manuscript_pending_article_review |
 | PSY-MON-009 期間限定や残りわずかに弱いのはなぜ？ | 未着手 | research_pending |
 | PSY-MON-010 無料が魅力的すぎるのはなぜ？ | 未着手 | research_pending |
 | PSY-MON-011 自分の持ち物を高く評価するのはなぜ？ | 未着手 | research_pending |
@@ -272,8 +272,8 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-ENV-010 部屋の色だけで集中力や気分は変えられる？ | 未着手 | research_pending |
 | PSY-ENV-011 混雑した場所が疲れるのはなぜ？ | 未着手 | research_pending |
 | PSY-ENV-012 自然の音を流すとリラックスできる？ | 未着手 | research_pending |
-| PSY-CRE-001 歩きながら考えるとアイデアは出やすくなる？ | 未着手 | research_pending |
-| PSY-CRE-002 知りたいと思ったことは覚えやすい？ | 未着手 | research_pending |
+| PSY-CRE-001 歩きながら考えるとアイデアは出やすくなる？ | [原稿](../articles/manuscripts/PSY-CRE-001.md) | manuscript_pending_article_review |
+| PSY-CRE-002 知りたいと思ったことは覚えやすい？ | [原稿](../articles/manuscripts/PSY-CRE-002.md) | manuscript_pending_article_review |
 | PSY-CRE-003 退屈を避けて動画を次々替えると、もっと退屈になる？ | 未着手 | research_pending |
 | PSY-CRE-004 壮大な景色や音楽で圧倒される感覚には意味がある？ | 未着手 | research_pending |
 | PSY-CRE-005 行き詰まった問題をいったん離れると解ける？ | 未着手 | research_pending |
@@ -281,12 +281,12 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-CRE-007 楽器や歌を趣味にすることは心の健康に関係する？ | 未着手 | research_pending |
 | PSY-CRE-008 大人が遊ぶ時間にはどんな価値がある？ | 未着手 | research_pending |
 | PSY-CRE-009 笑いで気分を切り替える方法には向き不向きがある？ | 未着手 | research_pending |
-| PSY-CRE-010 懐かしさを感じると孤独や不安は変わる？ | 未着手 | research_pending |
-| PSY-CRE-011 制約がある方がアイデアを出しやすい？ | 未着手 | research_pending |
+| PSY-CRE-010 懐かしさを感じると孤独や不安は変わる？ | [原稿](../articles/manuscripts/PSY-CRE-010.md) | manuscript_pending_article_review |
+| PSY-CRE-011 制約がある方がアイデアを出しやすい？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-CRE-011.md) | manuscript_pending_article_review |
 | PSY-CRE-012 皆で話すより、先に一人で案を書く方がよい？ | 未着手 | research_pending |
-| PSY-LAN-001 大人になってから外国語を学ぶのは遅い？ | 未着手 | research_pending |
-| PSY-LAN-002 二つの言語を話すと認知能力が高くなる？ | 未着手 | research_pending |
-| PSY-LAN-003 外国語で考えると判断や感情は変わる？ | 未着手 | research_pending |
+| PSY-LAN-001 大人になってから外国語を学ぶのは遅い？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-LAN-001.md) | manuscript_pending_article_review |
+| PSY-LAN-002 二つの言語を話すと認知能力が高くなる？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-LAN-002.md) | manuscript_pending_article_review |
+| PSY-LAN-003 外国語で考えると判断や感情は変わる？ | [原稿](../articles/manuscripts/PSY-LAN-003.md) | manuscript_pending_article_review |
 | PSY-LAN-004 頭の中で言葉を使って考える量は人によって違う？ | 未着手 | research_pending |
 | PSY-LAN-005 身ぶりを使って説明すると理解や記憶は変わる？ | 未着手 | research_pending |
 | PSY-LAN-006 話し方や訛りだけで信頼性を判断してしまう？ | 未着手 | research_pending |
@@ -299,8 +299,8 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-LIF-001 悲しみは決まった順番で乗り越えるもの？ | 未着手 | research_pending |
 | PSY-LIF-002 失業がつらいのは収入が減るからだけ？ | 未着手 | research_pending |
 | PSY-LIF-003 退職すると心身は楽になるのか、張り合いがなくなるのか？ | 未着手 | research_pending |
-| PSY-LIF-004 引っ越しで生活満足度や人間関係はどう変わる？ | 未着手 | research_pending |
-| PSY-LIF-005 子どもが独立した後の寂しさにはどんな個人差がある？ | 未着手 | research_pending |
+| PSY-LIF-004 引っ越しで生活満足度や人間関係はどう変わる？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-LIF-004.md) | manuscript_pending_article_review |
+| PSY-LIF-005 子どもが独立した後の寂しさにはどんな個人差がある？ | [原稿](../articles/manuscripts/continuation-20260911d/PSY-LIF-005.md) | manuscript_pending_article_review |
 | PSY-LIF-006 別れた後、振り返ることと考え続けることはどう違う？ | 未着手 | research_pending |
 | PSY-LIF-007 家族の病気で先の喪失を心配する気持ちをどう理解する？ | 未着手 | research_pending |
 | PSY-LIF-008 ストレス対処は一つの得意技より使い分けが大切？ | 未着手 | research_pending |
@@ -309,7 +309,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-LIF-011 病気やけがで以前のようにできなくなったとき、目標をどう変える？ | 未着手 | research_pending |
 | PSY-LIF-012 新しい学校や職場で自分だけ浮いていると感じるのはなぜ？ | 未着手 | research_pending |
 
-## 監査事項
+## 既存監査の記録
 
 | ID | 状態 |
 |---|---|
@@ -331,3 +331,10 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | R4-QA-016 | addressed_in_current_manuscripts |
 | R4-QA-017 | open_recheck_revised_manuscripts |
 | R4-QA-018 | registry_and_top20_alignment_resolved |
+
+## 追加原稿・別の改稿案
+
+同じテーマの改稿案は別記事として数えません。
+
+- [CONTINUATION_20260911B](CONTINUATION_20260911B.md)
+- [CONTINUATION_20260911D](CONTINUATION_20260911D.md)
