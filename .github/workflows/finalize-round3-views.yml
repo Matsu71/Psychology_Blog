@@ -1,0 +1,83 @@
+name: Finalize research queue semantics
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/finalize-round3-views.yml'
+permissions:
+  contents: write
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preserve prior review status and editable editorial inputs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build_research_views.py');s=p.read_text()
+          s=s.replace("assert len(editorial) == 50 and len({r['topic_id'] for r in editorial}) == 50", "assert editorial and len({r['topic_id'] for r in editorial}) == len(editorial)")
+          s=s.replace("'assessed_count': 50, 'not_assessed_count': 250", "'assessed_count': len(editorial), 'not_assessed_count': len(topics)-len(editorial)")
+          old="        state = 'source_unregistered' if not topic['source_ids'] else 'no_targeted_review' if not reviewed_direct else 'abstract_evidence_available' if not body else 'selected_methods_checked'"
+          new="        state = 'source_unregistered' if not topic['source_ids'] else ('legacy_review_needs_relevance_recheck' if topic.get('research_brief_ids') else 'no_targeted_review') if not reviewed_direct else 'abstract_evidence_available' if not body else 'selected_methods_checked'"
+          if old in s: s=s.replace(old,new)
+          elif new not in s: raise ValueError('Unexpected queue code; reconcile first')
+          s=s.replace("'no_targeted_review': 90, 'abstract_evidence_available': 65", "'no_targeted_review': 90, 'legacy_review_needs_relevance_recheck': 75, 'abstract_evidence_available': 65")
+          if "task = {'legacy_review_needs_relevance_recheck':" not in s:
+              s=s.replace("task = {'source_unregistered':", "task = {'legacy_review_needs_relevance_recheck': '既存の読解メモはある。テーマとの適合性を再点検し、全文・反証・更新資料を確認する。', 'source_unregistered':")
+          if "'legacy_brief_count':" not in s:
+              s=s.replace("'targeted_review_source_count': len(reviewed_direct)", "'legacy_brief_count': len(topic.get('research_brief_ids',[])), 'source_review_count': len(topic.get('source_review_ids',[])), 'targeted_review_source_count': len(reviewed_direct)")
+          p.write_text(s)
+          p=Path('scripts/validate_round3.py');s=p.read_text()
+          s=s.replace("len(editorial)==50 and len({r['topic_id'] for r in editorial})==50", "len(editorial)==len(read('data/editorial_assessments.json')['assessments']) and len({r['topic_id'] for r in editorial})==len(editorial)")
+          s=s.replace("len(queue)==300 and", "len(queue)==len(topics) and")
+          p.write_text(s)
+          p=Path('docs/RANKING_METHOD.md');s=p.read_text()
+          s=s.replace('資料はあるが直接の読解なし90、関連する抄録まで65', '資料はあるが直接の読解なし90、旧読解メモはあるがテーマ適合性の再点検が必要75、関連する抄録まで65')
+          if 'data/editorial_assessments.json' not in s:
+              s+='\n編集判断の入力正本は`data/editorial_assessments.json`です。追加・修正後にビューを再生成します。旧読解メモがある資料は未読扱いにせず、適合性の再点検という状態で管理します。\n'
+          p.write_text(s)
+          p=Path('docs/DATABASE_ARCHITECTURE.md');s=p.read_text()
+          if 'editorial_assessments.json' not in s:
+              s=s.replace('  source_assessments.json', '  editorial_assessments.json  編集上の仮説的判断の入力正本（順位ではない）\n  source_assessments.json')
+          p.write_text(s)
+          p=Path('docs/METHODOLOGY.md');s=p.read_text().replace('## 排序と公開準備','## 順位づけと公開準備');p.write_text(s)
+          PY
+      - name: Rebuild and validate corrected views
+        run: |
+          python3 scripts/build_research_views.py
+          python3 scripts/build_research_views.py
+          python3 scripts/validate.py --export build
+          python3 scripts/validate_research.py --export build
+          python3 scripts/validate_round3.py --export build
+          python3 scripts/query_database.py topic PSY-SLP-004 --limit 5 > build/sample_topic_dossier.json
+          python3 scripts/query_database.py queue --limit 10 > build/next_research_tasks.json
+          python3 - <<'PY'
+          import json,shutil
+          from pathlib import Path
+          rows=json.loads(Path('data/rankings/research_queue.json').read_text())['topics']
+          example=next(r for r in rows if r['topic_id']=='PSY-MOT-001')
+          assert example['legacy_brief_count']>0 and example['evidence_state']=='legacy_review_needs_relevance_recheck'
+          assert len(rows)==300
+          shutil.copytree('scripts','build/database/scripts',dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
+          shutil.copytree('research','build/database/research',dirs_exist_ok=True)
+          print('PASS: prior abstract reviews retained as reviewed; current source relevance is a separate check.')
+          PY
+      - name: Commit final source and ranking views
+        run: |
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent update; refusing overwrite'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs scripts README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: preserve earlier review progress in ranked next steps'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > build/source_commit.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: psychology-round3-ranked-database-final
+          path: build/
+          retention-days: 14
+          if-no-files-found: error
