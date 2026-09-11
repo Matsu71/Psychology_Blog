@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-004",
+  "title": "もう払ったお金が『やめどき』を曇らせる？サンクコストの考え方",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC237"
+  ],
+  "claims": [
+    {
+      "id": "PSY-DEC-004-C01",
+      "claim_id": "PSY-DEC-004-C01",
+      "text": "ここでいうサンクコストは、すでに発生し、今の選択を変えても取り戻せない費用です。たとえば返金不能の参加費と、これから行くための交通費は違います。後者は選択によって変わります。解約料金や返金条件など、これからの判断に関係するものまで『過去のお金だから無視』とするのは誤りです。",
+      "claim_type": "conceptual_explanation",
+      "source_ids": [
+        "SRC237"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEC-004-C02",
+      "claim_id": "PSY-DEC-004-C02",
+      "text": "Rothらのメタ分析は、経済的な意思決定におけるサンクコストを扱う98効果量を統合しています。支払ったものを使うかという判断と、さらに資源を投入して計画を続けるかという判断では、効果の大きさや条件の働き方が異なりました。『払ったら誰もが同じだけ判断を誤る』という一つの法則ではありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC237"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DEC-004-C05",
+      "claim_id": "PSY-DEC-004-C05",
+      "text": "難しい練習や長い計画では、途中で成果が見えにくいこともあります。過去に払った額ではなく、今後に見込める学習や便益を理由に続けることは、サンクコストへの固執と同じではありません。メタ分析も、個人の計画について正しい中断時点を計算するものではありません。大きな契約や資産の判断は、実際の条件を確認して別途検討する必要があります。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC237"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 3,
+      "text": "説明用の例として、仕事のために買った本が合わなかった場合を考えます。全部読む、必要な章だけ読む、今は別の教材へ移る、という選択があります。すでに払った金額とは別に、次の一時間で何を理解したいかを比べると、選択肢が見えやすくなります。これは読書法の効果を検証した事例ではなく、費用を分ける説明です。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 4,
+      "text": "自分への問いとして、『ここまで支払っていなかったとして、今の条件でこれからの行動を選ぶだろうか』が使えます。ただし、すでに身についた技能や関係、残っている契約上の義務は現状の一部です。それらを消した架空の選択にしないよう、これからの便益と負担も書き出します。問いは判断の補助であり、やめる方が常に正しいという命令ではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

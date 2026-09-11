@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-007",
+  "title": "記録するだけで行動は変わる？目標に近づく記録と、数字を埋めるだけの記録",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC045"
+  ],
+  "claims": [
+    {
+      "id": "PSY-HAB-007-C02",
+      "claim_id": "PSY-HAB-007-C02",
+      "text": "Harkinらのメタ分析は、目標への進み具合を確認する介入を扱う138研究、19951人を統合しました。進捗の確認を促すことは、平均的には目標達成の改善につながりました。記録を残すことや、進捗を報告する条件による違いも検討されています。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC045"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-007-C03",
+      "claim_id": "PSY-HAB-007-C03",
+      "text": "統合研究で方法による違いが見られても、日常のどんな記録も他人へ公開した方がよいとは限りません。健康状態、お金、学習の失敗など、私的に扱いたい内容もあります。また、目標設定や支援が組み合わされた介入から、記録だけの効果をすべて切り出すことはできません。記録する負担や、数字に追われる感じも検討すべきです。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC045"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "説明用の例として、勉強では時間だけでなく『何が自力で説明できたか』『どこでつまずいたか』を短く残します。運動なら量に加え、続けにくかった事情を一言書きます。週末などの見直す時点で、一つだけ次の計画を変えます。これらは論文の介入をそのまま再現した手順ではなく、進捗を判断に使うための応用案です。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 5,
+      "text": "細かい記録が負担なら、記録項目を減らしても構いません。記入を忘れた日があることと、行動がすべて無駄になったことは別です。記録をなくすのか、もっと簡単にするのか、別の指標にするのかを考えます。正確さが必要な治療上の記録は、自己判断で変更せず医療者の指示を優先してください。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

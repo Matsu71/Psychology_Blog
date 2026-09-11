@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-ATT-002",
+  "title": "通知を見ていなくても集中が途切れる？『操作していない』と『気にならない』の違い",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC055"
+  ],
+  "claims": [
+    {
+      "id": "PSY-ATT-002-C02",
+      "claim_id": "PSY-ATT-002-C02",
+      "text": "Stothartらの実験は、注意を保つ課題の途中で携帯電話の通知を受けることを検討しています。参加者が実際に電話を操作していなくても、通知によって課題の成績が妨げられました。少なくともこの実験条件では、『見なければ影響はない』とは言えませんでした。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC055"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-ATT-002-C03",
+      "claim_id": "PSY-ATT-002-C03",
+      "text": "測定したのは実験室の特定の注意課題です。これを、そのまま一日の仕事の損失時間、給与の損失、全員に必要な通知禁止時間へ換算することはできません。緊急連絡が必要な人と、一人で文章を書く時間を確保したい人では、通知を切ることの不利益も違います。実験から得られるのは、通知の設計も注意の問題の一部だという手がかりです。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC055"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 1,
+      "text": "通知を確認する行動と、通知が頭に残ることは分けて考えられます。たとえば文章を読んでいた途中で、返事が必要かを考え始める。その後に元の文章の内容をたどり直す時間も、画面を見た時間には入りません。これは生活場面を説明する例で、すべての通知に同じ負担があると決めるための例ではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 4,
+      "text": "説明用の実践案は、まず通知を『今すぐ気づく必要があるもの』『次の確認時でよいもの』『届かなくても困らないもの』に分けることです。集中したい作業の間は二番目の通知を抑え、連絡を確認する時点をあらかじめ決めます。これは論文が直接比較した設定方法ではありません。仕事や家族との約束、連絡の緊急性を優先して調整します。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 5,
+      "text": "通知が気になるたびに、自分の集中力を責める必要はありません。連絡を受ける設定と、注意を要する作業の相性を考える方が、変更できる点が明確になります。ただし設定を変えただけで業務量や締切の問題が解決するとも限りません。変更した後は、仕事が進んだかだけでなく、必要な連絡を逃していないかも確認します。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

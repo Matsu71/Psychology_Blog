@@ -4,9 +4,9 @@
   "goal_articles": 300,
   "goal_completed": false,
   "theme_count": 300,
-  "manuscript_count": 38,
-  "claim_dossier_count": 38,
-  "claim_and_caution_count": 109,
+  "manuscript_count": 26,
+  "claim_dossier_count": 26,
+  "claim_and_caution_count": 77,
   "revised_manuscript_count": 20,
   "publication_ready_count": 0,
   "top20_topic_ids": [
@@ -63,6 +63,5 @@
     "PSY-LAN-008"
   ],
   "latest_editorial_pass": "source-editorial-pass-20260911",
-  "top20_source_checked_count": 20,
-  "latest_authoring_batch": "continuation-20260911b"
+  "top20_source_checked_count": 20
 }

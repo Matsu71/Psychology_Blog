@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-CRE-002",
+  "title": "先に『知りたい』を作ると覚えやすい？好奇心と記憶の研究",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC084"
+  ],
+  "claims": [
+    {
+      "id": "PSY-CRE-002-C02",
+      "claim_id": "PSY-CRE-002-C02",
+      "text": "Gruberらの研究では、雑学の問いに対する好奇心を扱い、学んだ内容の記憶や脳活動を調べています。好奇心が高い内容では後の記憶がよい傾向があり、その状態で一緒に提示された情報にも記憶上の利点が報告されました。興味の対象そのものだけでなく、情報を受け取るときの状態にも目を向けた研究です。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC084"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-CRE-002-C03",
+      "claim_id": "PSY-CRE-002-C03",
+      "text": "この研究には脳画像による観察が含まれますが、脳活動との関連が見えたことは、『特定の物質を増やせば覚えられる』と証明したことではありません。雑学課題での結果が、そのまま資格試験の合格率や仕事の熟練へ移るとも限りません。好奇心が高い状態、測定した記憶、日常の成果は区別して読む必要があります。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC084"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "たとえば統計の説明を読む前に『人数が増えると、結果の何が安定するのだろう』と自分の予想を書きます。睡眠の記事なら『寝つきが早いことと、よく眠れたことは同じなのか』と問いを作ります。答えを読んだ後は、予想のどこが変わったかを一文にします。これは日常への応用例で、引用研究がこの学習手順全体を比較したわけではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 5,
+      "text": "いつも強い好奇心が湧くとは限りません。『面白いと思えない自分が悪い』と考えると、必要な基礎学習まで遠ざけてしまいます。問いを小さくする、実際に使う場面を考える、分からない言葉を一つだけ選ぶなど、着手の形を変える余地はあります。興味の有無を才能の判定ではなく、教材に入る入口を工夫するきっかけとして扱う方が実用的です。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

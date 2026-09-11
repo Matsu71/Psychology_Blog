@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DIG-007",
+  "title": "会話中のスマホはなぜ気になる？『そこにある』と『見ている』は違う",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC247"
+  ],
+  "claims": [
+    {
+      "id": "PSY-DIG-007-C01",
+      "claim_id": "PSY-DIG-007-C01",
+      "text": "CourtrightとCaplanのメタ分析は、携帯電話と対面交流を扱う43研究を統合しています。その中では、単に電話がある条件を扱う研究と、会話中に電話を使う行動を扱う研究を区別しています。前者は6研究、後者は37研究で、同じ証拠の集まりではありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC247"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-007-C02",
+      "claim_id": "PSY-DIG-007-C02",
+      "text": "会話中の電話利用を扱う研究群では、相手からの否定的な受け止めとの関連が報告されました。一方、『電話が机に置いてあるだけで必ず会話が悪くなる』とするには慎重さが必要です。電話の存在と使用を同じにすると、研究の結論より広い生活ルールを作ってしまいます。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC247"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-DIG-007-C05",
+      "claim_id": "PSY-DIG-007-C05",
+      "text": "会話の印象への影響と、長期の関係悪化や病気は同じ結果ではありません。自己報告、実験場面、関係性の違いも検討が必要です。また、支援や仕事のために電話を手放せない人の事情を、この研究で否定することはできません。目的はスマホを悪者にすることではなく、相手に向ける注意と必要な連絡をどう両立させるかです。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC247"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 3,
+      "text": "説明用の場面として、待ち合わせ中に家族から急ぎの連絡が届く場合を考えます。『家族の連絡を一度確認します』と伝えるだけでも、相手が状況を理解する材料は増えます。ただし、この言い方の効果を引用のメタ分析が直接比較したわけではありません。ここでの提案は、研究で扱った否定的な解釈の可能性を、会話の事情に置き換えて考えるものです。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 4,
+      "text": "食事中、仕事の相談中、移動中では、電話を確認する必要性が違います。常に電源を切るという一律のルールより、話を聞いてほしい時間、緊急連絡の扱い、確認が必要な場合の伝え方を相談できます。相手の端末やメッセージを監視することとは別です。反応の仕方も人によって違うので、研究の平均を使って相手を裁くのではなく、本人に確かめる余地を残します。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

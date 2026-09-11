@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-008",
+  "title": "使っていないサブスクを続けるのはなぜ？更新の仕組みと利用予測を分ける",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC251",
+    "SRC252"
+  ],
+  "claims": [
+    {
+      "id": "PSY-MON-008-C01",
+      "claim_id": "PSY-MON-008-C01",
+      "text": "Einavらの『Selling Subscriptions』は、カード決済のデータを使い、カード交換に伴って利用者が能動的に更新する必要がある月に解約が増えることを検討しています。不注意や切り替え費用を含むモデルも扱われています。契約を続けているという事実だけから、毎月あらためて十分に検討して選んでいる、と考えることはできません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC251"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-008-C02",
+      "claim_id": "PSY-MON-008-C02",
+      "text": "DellaVignaとMalmendierは、米国のスポーツクラブ3施設、7752人の契約と利用を調べました。実際の利用頻度に比べて定額契約が割高になる例や、解約までの遅れを扱っています。ただし、特定の時代・施設・料金体系の研究です。現在のすべての定額契約が損だという証拠ではありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC252"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-008-C05",
+      "claim_id": "PSY-MON-008-C05",
+      "text": "継続に関するモデルが示す売上の違いを、そのまま利用者全員の損失額や不満足度へ読み替えることはできません。モデルの仮定と、観察された決済上の変化も別です。どの契約を残すべきかの個別の答えを研究に求めるのではなく、続けている理由が選択なのか惰性なのかを点検する材料として使います。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC251"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "説明用の見直し例は、『最近実際に何に使ったか』『次の更新までに使う具体的な予定があるか』『停止や再加入で失うものは何か』を確認することです。料金や更新日、解約条件は契約元の現在の情報で確かめます。カードを止めれば適切に解約できるとは限らないため、論文で扱うカード交換を解約方法として勧めるものではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

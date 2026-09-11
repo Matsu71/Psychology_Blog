@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render human-authored continuation articles and verify their references.
+"""Render individually authored continuation articles and verify their references.
 
 No external calls, scientific auto-approval, source-registry edits or force push.
 A failed catalog integration is rolled back; the authored draft package is kept
@@ -148,6 +148,7 @@ def integrate_catalog(products, baseline_progress):
             old_path = row.get(manuscript_key)
             if old_path and (ROOT / old_path).exists():
                 if row.get('authoring_batch') == BATCH:
+                    product['catalog_disposition'] = 'canonical_manuscript_and_claim_dossier_added'
                     continue
                 product['catalog_disposition'] = 'existing_manuscript_preserved_review_alternative_draft'
                 continue
@@ -161,7 +162,8 @@ def integrate_catalog(products, baseline_progress):
                 created.append(target)
             row[manuscript_key] = manuscript
             row[claim_key] = claim
-            row['status'] = draft_status
+            row['state'] = 'manuscript_pending_article_review'
+            row['unresolved_source_keys'] = []
             row['authoring_batch'] = BATCH
             row['publication_ready'] = False
             row['manuscript_sha256'] = digest(product['_markdown'])
@@ -177,18 +179,17 @@ def integrate_catalog(products, baseline_progress):
         catalog['latest_authoring_batch'] = BATCH
         write('data/articles/catalog.json', catalog)
         progress = json.loads(original[progress_path])
-        progress['manuscript_count'] = baseline_progress['manuscript_count'] + added
-        progress['claim_dossier_count'] = baseline_progress['claim_dossier_count'] + added
-        progress['claim_and_caution_count'] = baseline_progress.get('claim_and_caution_count', 0) + sum(
-            p['claim_count'] for p in products if p.get('catalog_disposition') == 'canonical_manuscript_and_claim_dossier_added')
+        progress['manuscript_count'] = sum(bool(r.get(manuscript_key)) and (ROOT / r[manuscript_key]).is_file() for r in rows)
+        progress['claim_dossier_count'] = sum(bool(r.get(claim_key)) and (ROOT / r[claim_key]).is_file() for r in rows)
+        progress['claim_and_caution_count'] = sum(r.get('claim_count', 0) for r in rows if r.get(claim_key) and (ROOT / r[claim_key]).is_file())
         progress['latest_authoring_batch'] = BATCH
         progress['goal_completed'] = False
         write('data/articles/progress.json', progress)
         validation = run_validators(['validate.py', 'validate_research.py', 'validate_round3.py',
                                      'validate_editorial_pass.py'])
-        result['validation'] = validation
+        result['validation'] = [{'script': r['script'], 'returncode': r['returncode']} for r in validation]
         assert all(r['returncode'] == 0 for r in validation), 'Existing validator rejected catalog integration'
-        result.update(completed=True, canonical_manuscripts_added=added,
+        result.update(completed=True, canonical_manuscripts_added=sum(p.get('catalog_disposition') == 'canonical_manuscript_and_claim_dossier_added' for p in products),
                       manuscript_count=progress['manuscript_count'], claim_dossier_count=progress['claim_dossier_count'])
     except Exception as exc:
         for p, data in original.items(): p.write_bytes(data)

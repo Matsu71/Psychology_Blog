@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-CRE-001",
+  "title": "考えが行き詰まったら歩く？『案を出す』と『正解を選ぶ』を分けて考える",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC083"
+  ],
+  "claims": [
+    {
+      "id": "PSY-CRE-001-C02",
+      "claim_id": "PSY-CRE-001-C02",
+      "text": "OppezzoとSchwartzの四つの実験では、座っている場合や歩く場合などを比べ、複数の使い方を考えるような発散的な課題と、正解へ絞り込む課題を扱いました。歩行の利点は主にアイデアを広げる課題で見られ、正解を一つに絞る課題でも同じようによくなる、という結果ではありませんでした。屋内の歩行も扱われているので、単に美しい景色を見た効果という説明だけでもありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC083"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-CRE-001-C05",
+      "claim_id": "PSY-CRE-001-C05",
+      "text": "実験の課題成績は、長期の創造性や実際の企画の価値そのものではありません。散歩をすれば締切、知識不足、目的の曖昧さが解決するとも言えません。また、この研究から座って考える時間が不要になるわけでもありません。引用文献は特定の条件を比較した研究であり、すべての職種への生産性向上を測った試験ではない点を残しておく必要があります。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC083"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 3,
+      "text": "案を出す段階で評価まで厳しくしすぎると、候補が出る前に消えてしまうことがあります。一方、ひらめいたという感覚だけで採用を決めるのも早計です。歩く時間を候補づくりに使い、戻ってから目的、根拠、費用、読み手への伝わり方を点検する。この二段階は研究そのものの手順ではなく、課題の違いを仕事へ置き換えた提案です。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 4,
+      "text": "説明用の例として、企画が詰まったときに『誰のどんな困りごとを解く案か』を一つだけ決めてから席を離れます。歩行中は候補を頭の中で広げ、止まって安全にメモできる場所で短い言葉を残します。戻ったら案を比較します。何分歩けば効く、何歩で何案出る、といった固定の処方はここでは置きません。足腰の状態や移動の安全に合わせ、歩けないことを不利な性質だと考える必要もありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

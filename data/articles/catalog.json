@@ -351,10 +351,19 @@
     {
       "topic_id": "PSY-HAB-007",
       "title_ja": "記録をつけるだけで行動は変わる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-HAB-007.md",
+      "claim_dossier_path": "data/articles/claims/PSY-HAB-007.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "93cdf19b1d38fbc76fad2638f444811b7cb6f0388569ab51e1e9a7f7e51ffcb0",
+      "claim_dossier_sha256": "f9225bdcb2833d66eea1e1529eb6a15eee79ec03f61e6db4c4b417f1ba15fe70",
+      "source_ids": [
+        "SRC045"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-HAB-008",
@@ -589,10 +598,20 @@
     {
       "topic_id": "PSY-LEA-003",
       "title_ja": "似た問題をまとめず、混ぜて解くと学びやすい？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-LEA-003.md",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-003.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "75906ddcb85c12f003cbb517c4dd1a48245828b85168ecc4a00edfeaa9104f78",
+      "claim_dossier_sha256": "3e97b89e3a887bf7d38ac3154a7269be5f558e428c5d75a528c93fd3be4b811f",
+      "source_ids": [
+        "SRC052",
+        "SRC027"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-LEA-004",
@@ -629,10 +648,20 @@
     {
       "topic_id": "PSY-LEA-008",
       "title_ja": "視覚型・聴覚型に合わせて学ぶ方法には根拠がある？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-LEA-008.md",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-008.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "c42b22cd6006856b02d5fd143b4580141482450c33636a3f423c75c26a8897c7",
+      "claim_dossier_sha256": "c78122b5c5b1ff83167422cae3cf3e63bf1900a8afa7c44feb10312ae64a854d",
+      "source_ids": [
+        "SRC053",
+        "SRC027"
+      ],
+      "claim_count": 4,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-LEA-009",
@@ -661,10 +690,19 @@
     {
       "topic_id": "PSY-ATT-002",
       "title_ja": "通知を見ていなくても集中は途切れる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-ATT-002.md",
+      "claim_dossier_path": "data/articles/claims/PSY-ATT-002.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "b822b94d5c21730d5b90182074d98def72fa5b356d66e83f45114790622092f8",
+      "claim_dossier_sha256": "f9b8cfbd2bcb783645a5b0798543deb73825bd1fcb5816652bba993ea04881d8",
+      "source_ids": [
+        "SRC055"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-ATT-003",
@@ -764,10 +802,19 @@
     {
       "topic_id": "PSY-DEC-004",
       "title_ja": "もう払ったお金が、やめる判断を邪魔する？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-DEC-004.md",
+      "claim_dossier_path": "data/articles/claims/PSY-DEC-004.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "9385dc5b25945193e28be54b93c2c741a74c800a383892bb503fe46b9e3b2e0e",
+      "claim_dossier_sha256": "97aa7284fbfdd62fef4c1437a87b9b2539c5a8bc335bf7df955096742b75e267",
+      "source_ids": [
+        "SRC237"
+      ],
+      "claim_count": 3,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-DEC-005",
@@ -1208,10 +1255,20 @@
     {
       "topic_id": "PSY-WEL-007",
       "title_ja": "他人と比べるほど満足しにくくなる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-WEL-007.md",
+      "claim_dossier_path": "data/articles/claims/PSY-WEL-007.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "d306881b7842a0327595bac4fc5d13fed71820bf1841cbcf73e24e7769d1e275",
+      "claim_dossier_sha256": "ff90eaf4728393aac166211c38e46000440b6e7e80bd163301ef61411b717994",
+      "source_ids": [
+        "SRC244",
+        "SRC245"
+      ],
+      "claim_count": 4,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-WEL-008",
@@ -1635,10 +1692,19 @@
     {
       "topic_id": "PSY-DIG-007",
       "title_ja": "会話中にスマホを見ると、相手はどう感じる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-DIG-007.md",
+      "claim_dossier_path": "data/articles/claims/PSY-DIG-007.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "8f1549e4fb7af18dda6599f69667890985baed8ebdec5147f816bc9d6e0985a6",
+      "claim_dossier_sha256": "ec3b039f10996fcd61678aa481225a6f951435a074fd78d269283606964122a7",
+      "source_ids": [
+        "SRC247"
+      ],
+      "claim_count": 3,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-DIG-008",
@@ -1940,10 +2006,20 @@
     {
       "topic_id": "PSY-MON-008",
       "title_ja": "使わないサブスクを解約できないのはなぜ？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-MON-008.md",
+      "claim_dossier_path": "data/articles/claims/PSY-MON-008.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "43f97add903d892fc9fdcf109389b2100fa662656ab37936701040a0a5fe2cbc",
+      "claim_dossier_sha256": "1b50ac055f65350bcac1a9abd3f59d550530115d23c9cef8cbc3e30b057fe851",
+      "source_ids": [
+        "SRC251",
+        "SRC252"
+      ],
+      "claim_count": 3,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-MON-009",
@@ -2284,18 +2360,36 @@
     {
       "topic_id": "PSY-CRE-001",
       "title_ja": "歩きながら考えるとアイデアは出やすくなる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-CRE-001.md",
+      "claim_dossier_path": "data/articles/claims/PSY-CRE-001.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "6eff97031608623caca69b87f185d2e9def86299318310f96b147cde59757da1",
+      "claim_dossier_sha256": "b33e4895e49e428e8a805705953e3161130cdf0a09da974beb422e888ed7011f",
+      "source_ids": [
+        "SRC083"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-CRE-002",
       "title_ja": "知りたいと思ったことは覚えやすい？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-CRE-002.md",
+      "claim_dossier_path": "data/articles/claims/PSY-CRE-002.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "d762c05dc1efa17deb2f0e92aa17c5e0f332fffe8133bf3b7d8a4d7acedc3ca7",
+      "claim_dossier_sha256": "f1a3e21ba03132ffb6ab9cc5d4bf1f9e7b316d84c175a1a9fae0ecd7c0dfdc89",
+      "source_ids": [
+        "SRC084"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-CRE-003",
@@ -2356,10 +2450,19 @@
     {
       "topic_id": "PSY-CRE-010",
       "title_ja": "懐かしさを感じると孤独や不安は変わる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-CRE-010.md",
+      "claim_dossier_path": "data/articles/claims/PSY-CRE-010.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "b1512f305f7720154cb38eb11036277019adec362dadec3111f95c4413a8feb0",
+      "claim_dossier_sha256": "780dc67cf6892105f707b341eb130e4bcac0040400b42214e24a95399f19f937",
+      "source_ids": [
+        "SRC261"
+      ],
+      "claim_count": 3,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-CRE-011",
@@ -2396,10 +2499,19 @@
     {
       "topic_id": "PSY-LAN-003",
       "title_ja": "外国語で考えると判断や感情は変わる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-LAN-003.md",
+      "claim_dossier_path": "data/articles/claims/PSY-LAN-003.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "authoring_batch": "continuation-20260911b",
+      "manuscript_sha256": "079268e21d73610027c40e43676266ebedbcb43c48c61a673a70f94940ebac52",
+      "claim_dossier_sha256": "1caffe8fe6b51147d8d3d5266971f6e1cd7c5ea256983bd79ca90f1c80b9e0da",
+      "source_ids": [
+        "SRC263"
+      ],
+      "claim_count": 2,
+      "article_level_scientific_review": "pending"
     },
     {
       "topic_id": "PSY-LAN-004",
@@ -2579,5 +2691,6 @@
       "claim_dossier_path": null,
       "publication_ready": false
     }
-  ]
+  ],
+  "latest_authoring_batch": "continuation-20260911b"
 }

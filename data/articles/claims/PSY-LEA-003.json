@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-003",
+  "title": "似た問題を混ぜて解くと伸びる？混合練習が向く課題、向かない課題",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC052",
+    "SRC027"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LEA-003-C02",
+      "claim_id": "PSY-LEA-003-C02",
+      "text": "BrunmairとRichterのメタ分析は、混合練習と種類ごとにまとめた練習を比較する59研究、238効果量を扱っています。平均的には混合練習の利点が見られましたが、結果は教材によって異なりました。絵画の分類や数学の課題と、単語や説明文を同じに扱うことはできず、単語ではまとめた練習が優位だった条件もありました。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC052"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-003-C03",
+      "claim_id": "PSY-LEA-003-C03",
+      "text": "この結果から『今日からすべての科目を数分ごとに切り替える』という方法は導けません。混合練習は、通知に反応して作業を中断することとも違います。教材の種類や学習者がすでに知っていることを考えながら、見分ける必要のある内容を組み合わせる考え方です。基礎的な学習技法のレビューでも、各方法が使える条件を分けて評価しています。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC052",
+        "SRC027"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "説明用の例として、まず例題でそれぞれの考え方を確認し、その後、二つか三つの似た問題を混ぜて解きます。答え合わせでは正誤に加えて『この問題のどの言葉からこの方法を選んだか』を書きます。混ぜる個数は研究で確定した最適値ではありません。まだ内容を理解していない場合は、解説に戻る段階も残します。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 5,
+      "text": "すらすら解ける感覚と、時間がたってから自力で解けることは別の評価です。一方、難しく感じる練習が常に優秀なわけでもありません。日常で比較するなら、翌日など少し間を置いた確認問題で、方法を自分で選べるかを見ます。これは学習の点検例であり、個人の小さな試行だけで一般的な効果を証明するものではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

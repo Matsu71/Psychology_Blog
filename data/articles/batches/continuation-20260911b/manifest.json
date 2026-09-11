@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "continuation-20260911b",
+  "final_goal_articles": 300,
+  "goal_completed": false,
+  "authored_manuscripts": 12,
+  "claim_dossiers": 12,
+  "publication_ready_count": 0,
+  "body_characters": 11361,
+  "structural_reference_validation": "passed",
+  "canonical_integration": {
+    "completed": true,
+    "reason": null,
+    "validation": [
+      {
+        "script": "validate.py",
+        "returncode": 0
+      },
+      {
+        "script": "validate_research.py",
+        "returncode": 0
+      },
+      {
+        "script": "validate_round3.py",
+        "returncode": 0
+      },
+      {
+        "script": "validate_editorial_pass.py",
+        "returncode": 0
+      }
+    ],
+    "canonical_manuscripts_added": 12,
+    "manuscript_count": 38,
+    "claim_dossier_count": 38
+  },
+  "scientific_review": "article_level_check_pending_prior_source_reviews_reused",
+  "articles": [
+    {
+      "topic_id": "PSY-CRE-001",
+      "title": "考えが行き詰まったら歩く？『案を出す』と『正解を選ぶ』を分けて考える",
+      "canonical_theme_title": "歩きながら考えるとアイデアは出やすくなる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-CRE-001.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-CRE-001.json",
+      "body_characters": 1041,
+      "source_ids": [
+        "SRC083"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "6eff97031608623caca69b87f185d2e9def86299318310f96b147cde59757da1",
+      "claim_sha256": "b33e4895e49e428e8a805705953e3161130cdf0a09da974beb422e888ed7011f",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-CRE-002",
+      "title": "先に『知りたい』を作ると覚えやすい？好奇心と記憶の研究",
+      "canonical_theme_title": "知りたいと思ったことは覚えやすい？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-CRE-002.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-CRE-002.json",
+      "body_characters": 943,
+      "source_ids": [
+        "SRC084"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "d762c05dc1efa17deb2f0e92aa17c5e0f332fffe8133bf3b7d8a4d7acedc3ca7",
+      "claim_sha256": "f1a3e21ba03132ffb6ab9cc5d4bf1f9e7b316d84c175a1a9fae0ecd7c0dfdc89",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "title": "似た問題を混ぜて解くと伸びる？混合練習が向く課題、向かない課題",
+      "canonical_theme_title": "似た問題をまとめず、混ぜて解くと学びやすい？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-LEA-003.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-LEA-003.json",
+      "body_characters": 937,
+      "source_ids": [
+        "SRC052",
+        "SRC027"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "75906ddcb85c12f003cbb517c4dd1a48245828b85168ecc4a00edfeaa9104f78",
+      "claim_sha256": "3e97b89e3a887bf7d38ac3154a7269be5f558e428c5d75a528c93fd3be4b811f",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "title": "通知を見ていなくても集中が途切れる？『操作していない』と『気にならない』の違い",
+      "canonical_theme_title": "通知を見ていなくても集中は途切れる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-ATT-002.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-ATT-002.json",
+      "body_characters": 912,
+      "source_ids": [
+        "SRC055"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "b822b94d5c21730d5b90182074d98def72fa5b356d66e83f45114790622092f8",
+      "claim_sha256": "f9b8cfbd2bcb783645a5b0798543deb73825bd1fcb5816652bba993ea04881d8",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "title": "記録するだけで行動は変わる？目標に近づく記録と、数字を埋めるだけの記録",
+      "canonical_theme_title": "記録をつけるだけで行動は変わる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-HAB-007.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-HAB-007.json",
+      "body_characters": 999,
+      "source_ids": [
+        "SRC045"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "93cdf19b1d38fbc76fad2638f444811b7cb6f0388569ab51e1e9a7f7e51ffcb0",
+      "claim_sha256": "f9225bdcb2833d66eea1e1529eb6a15eee79ec03f61e6db4c4b417f1ba15fe70",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "title": "もう払ったお金が『やめどき』を曇らせる？サンクコストの考え方",
+      "canonical_theme_title": "もう払ったお金が、やめる判断を邪魔する？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-DEC-004.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-DEC-004.json",
+      "body_characters": 958,
+      "source_ids": [
+        "SRC237"
+      ],
+      "claim_count": 3,
+      "manuscript_sha256": "9385dc5b25945193e28be54b93c2c741a74c800a383892bb503fe46b9e3b2e0e",
+      "claim_sha256": "97aa7284fbfdd62fef4c1437a87b9b2539c5a8bc335bf7df955096742b75e267",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "title": "他人と比べるのは全部悪い？『何のために比べるか』を考える",
+      "canonical_theme_title": "他人と比べるほど満足しにくくなる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-WEL-007.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-WEL-007.json",
+      "body_characters": 923,
+      "source_ids": [
+        "SRC244",
+        "SRC245"
+      ],
+      "claim_count": 4,
+      "manuscript_sha256": "d306881b7842a0327595bac4fc5d13fed71820bf1841cbcf73e24e7769d1e275",
+      "claim_sha256": "ff90eaf4728393aac166211c38e46000440b6e7e80bd163301ef61411b717994",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-DIG-007",
+      "title": "会話中のスマホはなぜ気になる？『そこにある』と『見ている』は違う",
+      "canonical_theme_title": "会話中にスマホを見ると、相手はどう感じる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-DIG-007.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-DIG-007.json",
+      "body_characters": 940,
+      "source_ids": [
+        "SRC247"
+      ],
+      "claim_count": 3,
+      "manuscript_sha256": "8f1549e4fb7af18dda6599f69667890985baed8ebdec5147f816bc9d6e0985a6",
+      "claim_sha256": "ec3b039f10996fcd61678aa481225a6f951435a074fd78d269283606964122a7",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-LAN-003",
+      "title": "外国語で考えると冷静になる？判断が変わることと、正しくなることの違い",
+      "canonical_theme_title": "外国語で考えると判断や感情は変わる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-LAN-003.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-LAN-003.json",
+      "body_characters": 940,
+      "source_ids": [
+        "SRC263"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "079268e21d73610027c40e43676266ebedbcb43c48c61a673a70f94940ebac52",
+      "claim_sha256": "1caffe8fe6b51147d8d3d5266971f6e1cd7c5ea256983bd79ca90f1c80b9e0da",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-CRE-010",
+      "title": "懐かしい曲で『昔の自分』に戻る？ノスタルジアとつながりの研究",
+      "canonical_theme_title": "懐かしさを感じると孤独や不安は変わる？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-CRE-010.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-CRE-010.json",
+      "body_characters": 905,
+      "source_ids": [
+        "SRC261"
+      ],
+      "claim_count": 3,
+      "manuscript_sha256": "b1512f305f7720154cb38eb11036277019adec362dadec3111f95c4413a8feb0",
+      "claim_sha256": "780dc67cf6892105f707b341eb130e4bcac0040400b42214e24a95399f19f937",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "title": "自分は視覚型だから音声学習は苦手？学習スタイルの好みと効果を分ける",
+      "canonical_theme_title": "視覚型・聴覚型に合わせて学ぶ方法には根拠がある？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-LEA-008.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-LEA-008.json",
+      "body_characters": 906,
+      "source_ids": [
+        "SRC053",
+        "SRC027"
+      ],
+      "claim_count": 4,
+      "manuscript_sha256": "c42b22cd6006856b02d5fd143b4580141482450c33636a3f423c75c26a8897c7",
+      "claim_sha256": "c78122b5c5b1ff83167422cae3cf3e63bf1900a8afa7c44feb10312ae64a854d",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "title": "使っていないサブスクを続けるのはなぜ？更新の仕組みと利用予測を分ける",
+      "canonical_theme_title": "使わないサブスクを解約できないのはなぜ？",
+      "draft_path": "articles/drafts/continuation-20260911b/PSY-MON-008.md",
+      "claim_path": "data/articles/batches/continuation-20260911b/claims/PSY-MON-008.json",
+      "body_characters": 957,
+      "source_ids": [
+        "SRC251",
+        "SRC252"
+      ],
+      "claim_count": 3,
+      "manuscript_sha256": "43f97add903d892fc9fdcf109389b2100fa662656ab37936701040a0a5fe2cbc",
+      "claim_sha256": "1b50ac055f65350bcac1a9abd3f59d550530115d23c9cef8cbc3e30b057fe851",
+      "publication_ready": false,
+      "review_status": "authored_from_existing_source_reviews_requires_article_level_check",
+      "catalog_disposition": "canonical_manuscript_and_claim_dossier_added"
+    }
+  ],
+  "notes_ja": [
+    "本文は個別に執筆した原稿です。テンプレートから研究結果を推測生成していません。",
+    "根拠表の主張は研究結果・概念の説明・限界を区別しています。応用例を実証された事例に数えません。",
+    "参照と構造の検証は、全文の独立点検や公開承認ではありません。"
+  ]
+}

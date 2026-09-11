@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LAN-003",
+  "title": "外国語で考えると冷静になる？判断が変わることと、正しくなることの違い",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC263"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LAN-003-C02",
+      "claim_id": "PSY-LAN-003-C02",
+      "text": "Circiらのメタ分析は、17研究に含まれる47実験を扱い、母語と外国語で判断するときの道徳的選択やリスクに関する選択を比較しています。使用言語による違いは見られる一方、扱う領域や言語間の距離なども検討されています。外国語を使うと、すべての判断が同じ方向へ変わるという単純な話ではありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC263"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LAN-003-C03",
+      "claim_id": "PSY-LAN-003-C03",
+      "text": "外国語での感情的な距離は一つの考え方ですが、文章の理解度、言語の習熟度、課題の形式なども確認すべき条件です。語学の上手さが違う二人を比べて、判断の違いをすべて感情のせいにすることはできません。また、この研究は外国語を学ぶことで知能全体が上がるかを調べたものではありません。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC263"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "日常への説明例として、気になる提案を別の言語や別の表現で言い直すと、元の言葉の強さに気づく場合があります。しかし、大きな契約や健康の選択を、外国語で考えた方が冷静そうだからという理由で決めるのは避けるべきです。必要な条件を十分に理解できる言葉で確認し、感情の変化とは別に事実を点検します。この手順自体の有効性を引用研究が検証したわけではありません。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    },
+    {
+      "section": 5,
+      "text": "外国語が使えると、読める資料や会話できる相手が変わります。それだけでも、自分にとって何を学びたいかを考える理由になります。『外国語なら感情に流されない』という万能な期待を持つより、判断が変わる条件を知り、理解できているかを確かめながら使う方が、研究の範囲に合っています。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}
