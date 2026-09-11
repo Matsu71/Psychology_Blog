@@ -131,7 +131,7 @@ def build() -> dict:
             'components': {'daily_relevance': daily, 'actionability': action, 'interest': interest, 'audience_breadth': breadth},
             'reason_ja': reason, 'assessment_type': 'subjective_editorial_hypothesis',
             'audience_analytics_measured': False, 'publication_ready': False})
-    assert len(editorial) == 50 and len({r['topic_id'] for r in editorial}) == 50
+    assert editorial and len({r['topic_id'] for r in editorial}) == len(editorial)
     editorial.sort(key=lambda x: (-x['editorial_score'], x['topic_id']))
     previous, rank = None, 0
     for pos, row in enumerate(editorial, 1):
@@ -142,7 +142,7 @@ def build() -> dict:
         previous = row['editorial_score']
     editorial_by_id = {r['topic_id']: r for r in editorial}
     save('data/rankings/editorial_topics.json', {'schema_version': '1.0', 'scoring_version': VERSION,
-        'assessed_count': 50, 'not_assessed_count': 250,
+        'assessed_count': len(editorial), 'not_assessed_count': len(topics)-len(editorial),
         'warning_ja': '50テーマの編集上の仮説。実際の人気・検索数・収益性のランキングではない。未評価250件は下位と判定したものではない。',
         'topics': editorial})
     queue = []
@@ -152,11 +152,11 @@ def build() -> dict:
             and r['review_scope'] not in ('bibliography', 'legacy_not_reassessed')
             and not r['excluded_from_evidence_priority']]
         body = [r for r in reviewed_direct if r['review_scope'] == 'selected_fulltext_sections']
-        state = 'source_unregistered' if not topic['source_ids'] else 'no_targeted_review' if not reviewed_direct else 'abstract_evidence_available' if not body else 'selected_methods_checked'
-        gap = {'source_unregistered': 100, 'no_targeted_review': 90, 'abstract_evidence_available': 65, 'selected_methods_checked': 45}[state]
+        state = 'source_unregistered' if not topic['source_ids'] else ('legacy_review_needs_relevance_recheck' if topic.get('research_brief_ids') else 'no_targeted_review') if not reviewed_direct else 'abstract_evidence_available' if not body else 'selected_methods_checked'
+        gap = {'source_unregistered': 100, 'no_targeted_review': 90, 'legacy_review_needs_relevance_recheck': 75, 'abstract_evidence_available': 65, 'selected_methods_checked': 45}[state]
         e = editorial_by_id.get(tid)
         appeal = e['editorial_score'] if e else 50
-        task = {'source_unregistered': '原著・統合研究を検索し、問いとの直接の関連を確認する。',
+        task = {'legacy_review_needs_relevance_recheck': '既存の読解メモはある。テーマとの適合性を再点検し、全文・反証・更新資料を確認する。', 'source_unregistered': '原著・統合研究を検索し、問いとの直接の関連を確認する。',
                 'no_targeted_review': '書誌・背景資料から、対象と結果が対応する抄録・全文を確認する。',
                 'abstract_evidence_available': '優先資料の全文・独立追試・反証・訂正を照合する。',
                 'selected_methods_checked': '補足資料・登録計画・独立した裏付けを確認し主張単位で評価する。'}[state]
@@ -164,7 +164,7 @@ def build() -> dict:
             'editorial_score': e['editorial_score'] if e else None,
             'editorial_fallback_for_queue': None if e else 50,
             'gap_score': gap, 'evidence_state': state, 'next_action_ja': task,
-            'targeted_review_source_count': len(reviewed_direct), 'selected_fulltext_source_count': len(body),
+            'legacy_brief_count': len(topic.get('research_brief_ids',[])), 'source_review_count': len(topic.get('source_review_ids',[])), 'targeted_review_source_count': len(reviewed_direct), 'selected_fulltext_source_count': len(body),
             'publication_ready': False})
     queue.sort(key=lambda x: (-x['work_priority_score'], x['topic_id']))
     for position, row in enumerate(queue, 1):

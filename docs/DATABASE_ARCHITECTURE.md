@@ -9,6 +9,7 @@ data/
   categories.json             分野ID、順序、テーマファイルの場所
   topics/01_sleep.json ...     分野別のテーマ正本。既存ID・題名・順序を維持
   sources.json                出典の書誌正本。DOIを重複登録しない
+  editorial_assessments.json  編集上の仮説的判断の入力正本（順位ではない）
   source_assessments.json     読んだ範囲、方法上の情報、未確認事項
   evidence/<category>.json    テーマと出典の多対多対応、関連性、使える範囲
   evidence/catalog.json       対応ファイルの目録

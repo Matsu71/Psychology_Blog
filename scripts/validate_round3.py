@@ -83,14 +83,14 @@ def validate():
     require({r['source_id'] for r in global_rows}==set(sources),'Global source view mismatch')
     for r in global_rows: require(r['priority_score']==computed.get(r['source_id']),'Global score not max of per-theme score')
     editorial=read('data/rankings/editorial_topics.json')['topics']
-    require(len(editorial)==50 and len({r['topic_id'] for r in editorial})==50,'Editorial assessment coverage')
+    require(len(editorial)==len(read('data/editorial_assessments.json')['assessments']) and len({r['topic_id'] for r in editorial})==len(editorial),'Editorial assessment coverage')
     for r in editorial:
         c=r['components']
         expected=c['daily_relevance']*8+c['actionability']*5+c['interest']*4+c['audience_breadth']*3
         require(expected==r['editorial_score'],'Editorial formula')
         require(not r['audience_analytics_measured'] and not r['publication_ready'],'Editorial status')
     queue=read('data/rankings/research_queue.json')['topics']
-    require(len(queue)==300 and {r['topic_id'] for r in queue}==set(topics),'Research queue coverage')
+    require(len(queue)==len(topics) and {r['topic_id'] for r in queue}==set(topics),'Research queue coverage')
     for r in queue:
         appeal=r['editorial_score'] if r['editorial_score'] is not None else r['editorial_fallback_for_queue']
         require(r['work_priority_score']==round(.55*appeal+.45*r['gap_score'],2),'Queue formula')

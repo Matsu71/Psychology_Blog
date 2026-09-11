@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "excludes": "Git history, working caches, generated build/, and this report",
-  "canonical_and_derived_data_bytes": 4936517,
+  "canonical_and_derived_data_bytes": 4959088,
   "data_json_file_count": 134,
   "largest_files": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "path": "data/rankings/research_queue.json",
-      "bytes": 171145
+      "bytes": 195977
     },
     {
       "path": "data/source_assessments.json",
