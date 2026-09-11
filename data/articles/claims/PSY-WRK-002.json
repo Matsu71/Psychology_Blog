@@ -1,18 +1,32 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-WRK-002",
-  "title_ja": "退勤したのに、頭の中では働いている——仕事から離れる時間を考える",
+  "title_ja": "仕事は終わったのに頭が休まらない。『忘れる』より戻り方を決める",
   "category_id": "work",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-WRK-002.json",
+  "authoring_input_sha256": "02b88873effdab9cce6467da30f42d055cb03e2cfb79c01229c9dd09d5a2dcd5",
   "source_resolution": {
-    "S1": {
+    "SRC075": {
       "selector": {
-        "key": "S1",
-        "pmid": "34096763"
+        "source_id": "SRC075",
+        "doi": "10.1037/ocp0000280"
       },
       "source_ids": [
         "SRC075"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC278": {
+      "selector": {
+        "source_id": "SRC278",
+        "doi": "10.1111/joop.12137"
+      },
+      "source_ids": [
+        "SRC278"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -20,37 +34,75 @@
   },
   "claims": [
     {
-      "id": "PSY-WRK-002-C01",
-      "claim_ja": "心理的に仕事から離れることへの介入には、平均的な改善が報告されている。",
-      "population_and_scope_ja": "30研究・34介入・3725人の統合。",
-      "not_supported_ja": "どんな個人の工夫でも同じ効果があること、病気や生産性への直接効果。",
+      "id": "PSY-WRK-002-R6-C01",
+      "claim_ja": "切り離しへの介入を統合した研究で平均的な改善が報告された。",
+      "population_and_scope_ja": "30研究34介入3725人、d=.36。",
+      "not_supported_ja": "健康・生産性が36％改善したという意味ではない。",
       "source_keys": [
-        "S1"
+        "SRC075"
       ],
       "source_ids": [
         "SRC075"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC075"
+      ],
+      "source_locators": {
+        "SRC075": [
+          "Abstract: 30studies,34interventions,N3725,d=.36"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-WRK-002-C02",
-      "claim_ja": "介入の期間や評価場面によって結果が異なる。",
-      "population_and_scope_ja": "当該メタ分析が検討した条件差。",
-      "not_supported_ja": "仕事を考えないよう我慢するだけで解決するという結論。",
+      "id": "PSY-WRK-002-R6-C02",
+      "claim_ja": "重要で未完了の仕事の目標は心理的に離れにくいことと関連した。",
+      "population_and_scope_ja": "103従業員1127目標の縦断観察。",
+      "not_supported_ja": "未完了であることだけの普遍的な因果効果は確定できない。",
       "source_keys": [
-        "S1"
+        "SRC278"
       ],
       "source_ids": [
-        "SRC075"
+        "SRC278"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC278"
+      ],
+      "source_locators": {
+        "SRC278": [
+          "Abstract; Practitioner points distinguished from measured outcomes"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WRK-002-R6-C03",
+      "claim_ja": "未完了目標への計画の効果には本人の特性による条件差があった。",
+      "population_and_scope_ja": "同論文の計画操作、抄録で確認した範囲。",
+      "not_supported_ja": "すべての人に同じ効果、長期健康の改善は保証しない。",
+      "source_keys": [
+        "SRC278"
+      ],
+      "source_ids": [
+        "SRC278"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC278"
+      ],
+      "source_locators": {
+        "SRC278": [
+          "Abstract; Practitioner points distinguished from measured outcomes"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
       "publication_ready": false
     }
   ],
@@ -58,29 +110,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "休んでいるときに浮かぶ仕事を、今対応できることと、勤務時間にならないと動けないことに分けます。",
-      "勤務外の返信の期待が曖昧な場合は、自分だけで抱えず、緊急連絡の範囲を確認します。",
-      "個人の工夫を試しても負担が続くなら、業務量や支援の不足も別の問題として扱います。"
+      "退勤時に、重要で未完了の仕事を一つ選び、次にいつ何をするか短く残す。",
+      "時間外に対応が必要な連絡と、翌日でよい連絡の区別を関係者と確認する。",
+      "休めない原因を、考え事と実際の業務量・連絡義務に分けて相談する。"
     ],
-    "safety": "過重な業務や職場の問題を、本人の気持ちの切り替えの弱さへ還元しません。"
+    "safety": "業務の安全確認や正式な引継ぎを省略する方法ではありません。不眠や強い疲労が続く場合は、職場の相談窓口や医療機関の利用も検討してください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-015",
-      "severity": "moderate",
-      "finding_ja": "一企業の無作為化試験と、複数企業の非無作為化介入は同じ証拠の形式ではない。",
-      "next_action_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "直接アウトカムを心理的離脱へ限定して改稿。具体的介入ごとの比較と長期的な影響の精査は残る。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

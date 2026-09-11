@@ -62,11 +62,12 @@
         "PSY-DIG-004",
         "PSY-DIG-001"
       ],
-      "status": "partially_addressed",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
       "remaining_check_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
       "per_topic_resolution": {
-        "PSY-DIG-004": "addressed_in_current_manuscript"
+        "PSY-DIG-004": "addressed_in_current_manuscript",
+        "PSY-DIG-001": "addressed_in_current_manuscript"
       },
       "resolution_records": [
         {
@@ -77,6 +78,20 @@
           ],
           "action_ja": "467承諾、266導入、119遵守、313三時点自己報告を分け、主要解析は完全ケース中心と説明。",
           "remaining_scope_ja": "独立再解析未実施。全SNS・臨床治療へ一般化しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        },
+        {
+          "audit_id": "R4-QA-003",
+          "topic_id": "PSY-DIG-001",
+          "source_check_ids": [
+            "SC7-SRC012",
+            "SC7-SRC160",
+            "SC7-SRC245"
+          ],
+          "action_ja": "SNS固有の研究へ限定し、全通信遮断の遵守率をSNSの効果に再利用しない。",
+          "remaining_scope_ja": "時期・サービス・便益の喪失の条件を残す。",
           "editorial_pass": "source-editorial-pass-20260911",
           "checked_on": "2026-09-11",
           "independent_review": false
@@ -140,9 +155,28 @@
       "topic_ids": [
         "PSY-DEC-006"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "前の作業に訂正本文の確認記録があるが、今回の原稿データに訂正告知の識別子と対象箇所がまだ結合されていない。",
-      "remaining_check_ja": "既存の第4回読解資料から訂正識別子・原文箇所・変更内容を再取得し、修正前後を記録する。それまで数値を掲載しない。"
+      "remaining_check_ja": "既存の第4回読解資料から訂正識別子・原文箇所・変更内容を再取得し、修正前後を記録する。それまで数値を掲載しない。",
+      "per_topic_resolution": {
+        "PSY-DEC-006": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-006",
+          "topic_id": "PSY-DEC-006",
+          "source_check_ids": [
+            "SC7-SRC136",
+            "SC7-SRC269",
+            "SC7-SRC270"
+          ],
+          "action_ja": "2010年平均・2015年条件別分析・2016年訂正を分離。訂正前の係数を使用しない。",
+          "remaining_scope_ja": "全収載実験の重複照合・再解析は未実施。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-007",
@@ -204,9 +238,41 @@
         "PSY-SLP-007",
         "PSY-SLP-001"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "睡眠制限実験の就床機会は実睡眠時間と違い、代謝・認知・眠気の回復を合算できない。",
-      "remaining_check_ja": "睡眠制限実験の訂正を照合し、各結果指標と期間の根拠を個別に示す。個人の必要睡眠時間を計算する記事にしない。"
+      "remaining_check_ja": "睡眠制限実験の訂正を照合し、各結果指標と期間の根拠を個別に示す。個人の必要睡眠時間を計算する記事にしない。",
+      "per_topic_resolution": {
+        "PSY-SLP-007": "addressed_in_current_manuscript",
+        "PSY-SLP-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-009",
+          "topic_id": "PSY-SLP-007",
+          "source_check_ids": [
+            "SC7-SRC274",
+            "SC7-SRC101"
+          ],
+          "action_ja": "就床・実睡眠と各回復指標を分離。未照合の旧実験の訂正に依存する数値を原稿から除く。",
+          "remaining_scope_ja": "全睡眠研究の再監査ではない。個人の回復式は設定しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        },
+        {
+          "audit_id": "R4-QA-009",
+          "topic_id": "PSY-SLP-001",
+          "source_check_ids": [
+            "SC7-SRC275",
+            "SC7-SRC276"
+          ],
+          "action_ja": "日米の目安を対象・目的と共に示し、6時間で全員十分という解釈を除く。",
+          "remaining_scope_ja": "個別の必要睡眠量の診断や薬の推奨ではない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-010",
@@ -257,18 +323,53 @@
         "PSY-LEA-001",
         "PSY-LEA-002"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "partially_addressed",
       "original_finding_ja": "標準化効果量を点数の増加率へ変換できない。復習の具体的な手順は、論文の介入そのものとは限らない。",
-      "remaining_check_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。"
+      "remaining_check_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。",
+      "per_topic_resolution": {
+        "PSY-LEA-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-011",
+          "topic_id": "PSY-LEA-001",
+          "source_check_ids": [
+            "SC7-SRC050",
+            "SC7-SRC277"
+          ],
+          "action_ja": "gを点数増加率とせず即時・遅延・訂正・教材の違いを明記。手順は応用例と表示。",
+          "remaining_scope_ja": "構成研究全件の再解析は未実施。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-012",
       "topic_ids": [
         "PSY-HAB-005"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "理想と障害の対比を組み合わせた研究から、実行意図単独の効果は分離できない。",
-      "remaining_check_ja": "実行意図単独のレビュー・原著と、複合介入の研究を分けて追加する。書誌だけのWebb・Sheeran論文を読解済みへ昇格しない。"
+      "remaining_check_ja": "実行意図単独のレビュー・原著と、複合介入の研究を分けて追加する。書誌だけのWebb・Sheeran論文を読解済みへ昇格しない。",
+      "per_topic_resolution": {
+        "PSY-HAB-005": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-012",
+          "topic_id": "PSY-HAB-005",
+          "source_check_ids": [
+            "SC7-SRC268"
+          ],
+          "action_ja": "全体と強化群のCIを区別。複合介入から単独効果を抽出しない。",
+          "remaining_scope_ja": "自己報告、群間比較、長期効果の限界は維持。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-013",
@@ -294,9 +395,27 @@
         "PSY-WRK-001",
         "PSY-WRK-002"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "partially_addressed",
       "original_finding_ja": "一企業の無作為化試験と、複数企業の非無作為化介入は同じ証拠の形式ではない。",
-      "remaining_check_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。"
+      "remaining_check_ja": "勤務制度、職種、通勤、評価指標、労働時間の変化を分ける。個人の工夫で組織的負担を解消できるとしない。",
+      "per_topic_resolution": {
+        "PSY-WRK-002": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-015",
+          "topic_id": "PSY-WRK-002",
+          "source_check_ids": [
+            "SC7-SRC075",
+            "SC7-SRC278"
+          ],
+          "action_ja": "切り離し介入と目標追跡・計画操作を分離。未測定の健康や生産性を断定しない。",
+          "remaining_scope_ja": "組織的負担を個人の工夫のみへ還元しない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-016",
@@ -304,9 +423,40 @@
         "PSY-MON-001",
         "PSY-WEL-005"
       ],
-      "status": "open_recheck_revised_manuscripts",
+      "status": "addressed_in_current_manuscripts",
       "original_finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
-      "remaining_check_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。"
+      "remaining_check_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。",
+      "per_topic_resolution": {
+        "PSY-WEL-005": "addressed_in_current_manuscript",
+        "PSY-MON-001": "addressed_in_current_manuscript"
+      },
+      "resolution_records": [
+        {
+          "audit_id": "R4-QA-016",
+          "topic_id": "PSY-WEL-005",
+          "source_check_ids": [
+            "SC7-SRC068",
+            "SC7-SRC279"
+          ],
+          "action_ja": "再分析と増収介入を区別し、査読前のモデル検討を明記。",
+          "remaining_scope_ja": "海外所得を日本の普遍的閾値としない。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        },
+        {
+          "audit_id": "R4-QA-016",
+          "topic_id": "PSY-MON-001",
+          "source_check_ids": [
+            "SC7-SRC069"
+          ],
+          "action_ja": "調査と短期実験、当日の気分と長期満足を区別。逐次手続きも確認。",
+          "remaining_scope_ja": "全家計の費用便益は未評価。",
+          "editorial_pass": "source-editorial-pass-20260911",
+          "checked_on": "2026-09-11",
+          "independent_review": false
+        }
+      ]
     },
     {
       "audit_id": "R4-QA-017",

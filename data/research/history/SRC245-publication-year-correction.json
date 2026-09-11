@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "source_id": "SRC245",
+  "checked_on": "2026-09-11",
+  "previous_record": {
+    "id": "SRC245",
+    "doi": "10.1093/jcmc/zmad055",
+    "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+    "authors_display": "Rebecca Godard; Susan Holtzman",
+    "year": 2023,
+    "journal": "Journal of Computer-Mediated Communication",
+    "pmid": null,
+    "pmcid": null,
+    "url": "https://doi.org/10.1093/jcmc/zmad055",
+    "verified_via_url": "https://api.crossref.org/works?query.bibliographic=active+passive+social+media+use+social+interaction+systematic+review+meta+analysis&rows=5&filter=until-pub-date%3A2026-09-11",
+    "source_type": "journal_article",
+    "record_role": "research_entry",
+    "accessed_on": "2026-09-11",
+    "verification_scope": "abstract_reviewed",
+    "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+    "indexed_related_records": [],
+    "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+    "latest_reviewed_on": "2026-09-11"
+  },
+  "correction_ja": "出版社の公開日2024-01-31と巻号29(1)2024を確認。2023は掲載年ではない。",
+  "verified_via_url": "https://academic.oup.com/jcmc/article/29/1/zmad055/7595758"
+}

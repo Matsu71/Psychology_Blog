@@ -276,16 +276,16 @@
       "id": "EV-PSY-SLP-007-SRC101",
       "topic_id": "PSY-SLP-007",
       "source_id": "SRC101",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC101",
       "legacy_brief_ids": [
         "RB-30827911"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "健康若年成人36人、9時間就床8人・5時間継続14人・週末自由睡眠と再制限14人。週末の改善の一部は維持されず、再制限時の代謝変化を防ぎきれなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "短期実験で糖尿病予防を評価していない。群内の有意差を群間差とせず、自由な食事等の条件を含む。睡眠だけによる体重増加率を断定しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -460,6 +460,48 @@
       "finding_scope_ja": "日本語版BPSを日中勤務者20～65歳で検討。募集600人、解析574人、再検査280人。睡眠変数との関連を検討。",
       "conclusion_direction": "mixed",
       "limits_ja": "横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-007-SRC274",
+      "topic_id": "PSY-SLP-007",
+      "source_id": "SRC274",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC274",
+      "finding_scope_ja": "159人のうち142人が5夜4時間の就床機会後に回復量を割付、17人対照。回復量に応じ改善するが、10時間の就床機会でも注意・主観的眠気・疲労の一部は基準値まで戻らなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "健康成人22～45歳の強い制限条件。就床10時間は平均実睡眠8.96時間。個人の回復量を計算できない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC275",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC275",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC275",
+      "finding_scope_ja": "個人差を踏まえ6時間以上を目安に必要な睡眠を確保。時間以外に休養感や日中の支障、改善しない問題への相談を扱う。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "全員6時間で十分という個別必要量の診断ではない。年齢群を区別し、睡眠制限療法や薬の選択に転用しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC276",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC276",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC276",
+      "finding_scope_ja": "AASM/SRS声明は18～60歳に日常的な7時間以上を推奨。既存証拠の専門家審議であり、個人必要量の測定試験ではない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "日本の目安との違いを一方が全員の最適時間を確定したと解釈しない。同じ声明の別誌版は独立研究ではない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

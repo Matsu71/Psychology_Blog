@@ -31,15 +31,15 @@
           "edge_id": "EV-PSY-RES-001-SRC012",
           "source_id": "SRC012",
           "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -183,15 +183,15 @@
           "edge_id": "EV-PSY-RES-002-SRC068",
           "source_id": "SRC068",
           "title": "Income and emotional well-being: A conflict resolved.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
@@ -507,15 +507,15 @@
           "edge_id": "EV-PSY-RES-008-SRC068",
           "source_id": "SRC068",
           "title": "Income and emotional well-being: A conflict resolved.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

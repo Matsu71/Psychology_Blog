@@ -1,15 +1,18 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-LEA-001",
-  "title_ja": "読むだけで覚えたつもり？——思い出す練習を、点数のためではなく学習に使う",
+  "title_ja": "読み直すより『思い出す』練習？テストを勉強の味方にする",
   "category_id": "learning",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-LEA-001.json",
+  "authoring_input_sha256": "e5b6432801b246bb0e440a3a94846bbc20aba5a0c9e87c13a4fce2a72a26d24a",
   "source_resolution": {
-    "S1": {
+    "SRC050": {
       "selector": {
-        "key": "S1",
-        "pmid": "33683913"
+        "source_id": "SRC050",
+        "doi": "10.1037/bul0000309"
       },
       "source_ids": [
         "SRC050"
@@ -17,13 +20,13 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC277": {
       "selector": {
-        "key": "S2",
-        "pmid": "26173288"
+        "source_id": "SRC277",
+        "doi": "10.1111/j.1467-9280.2006.01693.x"
       },
       "source_ids": [
-        "SRC027"
+        "SRC277"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -31,56 +34,75 @@
   },
   "claims": [
     {
-      "id": "PSY-LEA-001-C01",
-      "claim_ja": "教室での小テストを用いた学習に、平均的な成績改善が報告されている。",
-      "population_and_scope_ja": "222研究・48478人のメタ分析。比較条件により効果は異なる。",
-      "not_supported_ja": "すべての教材・人で同じだけ点数が増えるという保証。",
+      "id": "PSY-LEA-001-R6-C01",
+      "claim_ja": "教室場面の統合研究は小テストに平均的な学習上の利点を示した。",
+      "population_and_scope_ja": "222研究48478人、g=.499。",
+      "not_supported_ja": "50％の点数増加、個人の合格保証ではない。",
       "source_keys": [
-        "S1"
+        "SRC050"
       ],
       "source_ids": [
         "SRC050"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC050"
+      ],
+      "source_locators": {
+        "SRC050": [
+          "Abstract: 222 studies,48478 students; moderators"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-LEA-001-C02",
-      "claim_ja": "標準化効果量約0.50は、点数が50％増えることを意味しない。",
-      "population_and_scope_ja": "異なる尺度の結果をまとめる統計指標の解釈。",
-      "not_supported_ja": "個人の成績の増加率への直接換算。",
+      "id": "PSY-LEA-001-R6-C02",
+      "claim_ja": "文章学習の実験で5分後と2日・1週間後では再学習と想起の優位が異なった。",
+      "population_and_scope_ja": "2実験、答え提示のない想起条件。",
+      "not_supported_ja": "全教材への同じ効果、訂正の不要さは示さない。",
       "source_keys": [
-        "S1"
+        "SRC277"
+      ],
+      "source_ids": [
+        "SRC277"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC277"
+      ],
+      "source_locators": {
+        "SRC277": [
+          "Abstract: prose, testing/restudy, five minutes/two days/one week"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-001-R6-C03",
+      "claim_ja": "フィードバック、比較する学習法、形式等でテスト効果は変わる。",
+      "population_and_scope_ja": "統合研究の条件差。",
+      "not_supported_ja": "本文の具体的な復習手順の組合せが直接検証済みとはしない。",
+      "source_keys": [
+        "SRC050"
       ],
       "source_ids": [
         "SRC050"
       ],
       "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-LEA-001-C03",
-      "claim_ja": "練習テスト、訂正、再学習の役割と条件を区別して使う必要がある。",
-      "population_and_scope_ja": "統合研究と学習法レビューの比較。",
-      "not_supported_ja": "読む学習が一切無意味で、誤答を放置してよいこと。",
-      "source_keys": [
-        "S1",
-        "S2"
+      "source_check_ids": [
+        "SC7-SRC050"
       ],
-      "source_ids": [
-        "SRC050",
-        "SRC027"
-      ],
-      "source_resolution_complete": true,
+      "source_locators": {
+        "SRC050": [
+          "Abstract: 222 studies,48478 students; moderators"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -88,29 +110,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "短い範囲を読んだ後、教材を閉じて重要な問いに答えてみます。",
-      "答え合わせで誤りを直し、覚えたつもりだった部分を次の復習対象として記録します。",
-      "練習での誤答を罰や自己評価の材料にせず、学習内容を見直す情報として扱います。"
+      "復習の一部で教材を閉じ、要点や理由を自分の言葉で説明する。",
+      "思い出せなかった箇所を教材で確認し、訂正する。",
+      "正解したかだけでなく、理由を説明できるかを目標に合わせて確かめる。"
     ],
-    "safety": "医療や運転など安全が重要な技能では、実地で失敗して覚えるという意味にしません。想起練習と安全な実習の手順を区別します。"
+    "safety": "確認テストは学習のためで、失敗を罰するためではありません。試験不安が強い場合は負担を調整し、医療や安全に関わる実技の失敗を自己流の練習として勧めるものではありません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-011",
-      "severity": "major",
-      "finding_ja": "標準化効果量を点数の増加率へ変換できない。復習の具体的な手順は、論文の介入そのものとは限らない。",
-      "next_action_ja": "対照条件、フィードバック、教材、保持期間を主張単位で対応させる。日常の例には応用例のラベルを付ける。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "効果量を百分率へ変換しない改稿。対象教材・対照条件・長期保持の主張の最終照合は必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

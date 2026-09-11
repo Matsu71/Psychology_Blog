@@ -199,3 +199,229 @@
 遺伝率は集団内の個人差に対する遺伝の関わり。個人の割合・不変性ではなく、集団・環境・時代に依存。
 
 **限界：** 性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。
+
+## SC7-SRC136 — Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload
+
+[確認した出典](https://doi.org/10.1086/651235)
+
+範囲：abstract / Abstract; publication metadata
+
+50実験に含まれる63条件・5036人を統合。平均効果はほぼゼロ、研究間のばらつきが大きい。
+
+**限界：** 各場面の無効果・同等性は保証しない。2015年レビューと収載研究が重なり得るため人数を足さない。
+
+## SC7-SRC269 — Choice overload: A conceptual review and meta‐analysis
+
+[確認した出典](https://doi.org/10.1016/j.jcps.2014.08.002)
+
+範囲：abstract / Abstract; study scope
+
+99観測・7202人、複雑さ・課題の難度・好みの不確かさ・選択目標の条件差を検討。
+
+**限界：** 個人への最適な選択肢数を確定しない。
+
+**記載上の注意：** p.348の係数bとt値を訂正したSRC270を照合。 [correction_notice_content_checked]
+
+## SC7-SRC270 — Corrigendum to “Choice overload: A conceptual review and meta‐analysis” [J Consum Psychol 22 (2015) 333–358]
+
+[確認した出典](https://myscp.onlinelibrary.wiley.com/doi/10.1016/j.jcps.2015.07.001)
+
+範囲：selected_fulltext_sections / Full corrigendum; three corrected statistics on p.348
+
+2015年レビューの回帰係数bとt値の3箇所の記載を訂正。オンライン2015年、巻号2016年。
+
+**限界：** 2010年の別レビューへの訂正ではない。独立した効果研究や元データの再解析に数えない。
+
+## SC7-SRC274 — Neurobehavioral dynamics following chronic sleep restriction: dose-response effects of one night for recovery.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/20815182/)
+
+範囲：abstract / Abstract: Design, Participants, Interventions, Results
+
+159人のうち142人が5夜4時間の就床機会後に回復量を割付、17人対照。回復量に応じ改善するが、10時間の就床機会でも注意・主観的眠気・疲労の一部は基準値まで戻らなかった。
+
+**限界：** 健康成人22～45歳の強い制限条件。就床10時間は平均実睡眠8.96時間。個人の回復量を計算できない。
+
+## SC7-SRC101 — Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.
+
+[確認した出典](https://pmc.ncbi.nlm.nih.gov/articles/PMC12798825/)
+
+範囲：selected_fulltext_sections / Summary; Results and Discussion; Conclusions; experimental groups
+
+健康若年成人36人、9時間就床8人・5時間継続14人・週末自由睡眠と再制限14人。週末の改善の一部は維持されず、再制限時の代謝変化を防ぎきれなかった。
+
+**限界：** 短期実験で糖尿病予防を評価していない。群内の有意差を群間差とせず、自由な食事等の条件を含む。睡眠だけによる体重増加率を断定しない。
+
+## SC7-SRC275 — 健康づくりのための睡眠ガイド2023
+
+[確認した出典](https://www.mhlw.go.jp/content/001305530.pdf)
+
+範囲：selected_fulltext_sections / 印刷p.9 基本的事項 (PDF page11); 印刷p.11 成人版 (PDF page13); screenshots checked
+
+個人差を踏まえ6時間以上を目安に必要な睡眠を確保。時間以外に休養感や日中の支障、改善しない問題への相談を扱う。
+
+**限界：** 全員6時間で十分という個別必要量の診断ではない。年齢群を区別し、睡眠制限療法や薬の選択に転用しない。
+
+## SC7-SRC276 — Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society
+
+[確認した出典](https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/)
+
+範囲：selected_fulltext_sections / AASM official explanation June4 2015: adults18–60; PubMed26039963: consensus method and citation
+
+AASM/SRS声明は18～60歳に日常的な7時間以上を推奨。既存証拠の専門家審議であり、個人必要量の測定試験ではない。
+
+**限界：** 日本の目安との違いを一方が全員の最適時間を確定したと解釈しない。同じ声明の別誌版は独立研究ではない。
+
+## SC7-SRC050 — Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.
+
+[確認した出典](https://doi.org/10.1037/bul0000309)
+
+範囲：abstract / Abstract: 222 studies,48478 students; moderators
+
+教室場面の222研究48478人で小テストの平均効果g=.499。対照学習法、訂正、教材への対応などで差。
+
+**限界：** 標準化差を50％の得点増加としない。全資格試験の合格や一般能力の向上は保証しない。
+
+## SC7-SRC277 — Test-enhanced learning: Taking memory tests improves long-term retention
+
+[確認した出典](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
+
+範囲：abstract / Abstract: prose, testing/restudy, five minutes/two days/one week
+
+2実験で文章の想起と再学習を比較。5分後は再学習、2日・1週間後は想起が優位。再学習の自信と保持は一致しなかった。
+
+**限界：** 実験で答えを提示しない条件を、日常で誤答を訂正しない推奨へ変えない。レビューとの研究重複も未点検。
+
+## SC7-SRC075 — Interventions for improving psychological detachment from work: A meta-analysis.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/34096763/)
+
+範囲：abstract / Abstract: 30studies,34interventions,N3725,d=.36
+
+心理的切り離しの介入の統合で平均d=.36の改善。介入量や状況で条件差。
+
+**限界：** 切り離し尺度の改善と睡眠・身体疾患・生産性の改善は別。労働条件の影響を除外しない。
+
+## SC7-SRC278 — Successfully leaving work at work: The self-regulatory underpinnings of psychological detachment
+
+[確認した出典](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137)
+
+範囲：abstract / Abstract; Practitioner points distinguished from measured outcomes
+
+103従業員1127目標。重要で未完了の目標ほど離れにくい関連。計画操作は離れにくい特性の人で効果を示した。
+
+**限界：** 計画が全員に同じ効果とはしない。長期健康や成果は抄録で直接測定したと確認できない。
+
+## SC7-SRC012 — Facebook Use Predicts Declines in Subjective Well-Being in Young Adults
+
+[確認した出典](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841)
+
+範囲：selected_fulltext_sections / Methods; participants/experience sampling; Results; Discussion limitations
+
+若年成人82人を募集し2週間の自己報告を追跡。Facebook利用と後の感情・生活満足の低下の関連。
+
+**限界：** 時間の前後を追っても無作為化ではない。2013年Facebookと若年標本、自己報告、残る交絡を考慮。
+
+## SC7-SRC160 — The Welfare Effects of Social Media
+
+[確認した出典](https://www.aeaweb.org/articles?id=10.1257/aer.20190658)
+
+範囲：abstract / Abstract: four weeks before2018USmidterm; wellbeing/news/offline activity
+
+4週間のFacebook停止で主観的幸福の改善、ニュース知識の低下、オフライン活動の増加等を報告。
+
+**限界：** 特定時代・国・サービス・参加者。全指標の改善や臨床治療効果は示さない。
+
+## SC7-SRC245 — Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies
+
+[確認した出典](https://academic.oup.com/jcmc/article/29/1/zmad055/7595758)
+
+範囲：selected_fulltext_sections / Publication history Jan31 2024; Abstract; Method; Results/Table1
+
+141研究。多くの能動・受動的利用と幸福指標の関連は小さく、支援・年齢・利用文脈で差。多くは横断観察・自己報告。
+
+**限界：** 人同士の関連を個人の利用変更の効果としない。合計897と内訳562+334の1件差は独自に修正せず、記事で使わない。
+
+**記載上の注意：** Results897と562active+334passiveが一致しない。解析再実行なし。本文では該当数を不使用。 [reported_mismatch_not_used_in_manuscript]
+
+## SC7-SRC068 — Income and emotional well-being: A conflict resolved.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/36857342/)
+
+範囲：abstract / Abstract: reanalysis; quantiles; log income; ceiling effect
+
+既存の経験サンプリングデータの再分析。幸福の低い層と他の層で所得との関係が異なる。
+
+**限界：** 新たな独立試験や増収介入ではない。日本の個人への普遍的所得閾値は導けない。
+
+## SC7-SRC279 — Connecting the dots: continuity in the relationship between income and emotional well-being
+
+[確認した出典](https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374)
+
+範囲：abstract / Abstract; publication date2026-02-18; university author publication list(non-peer-reviewed)
+
+折れ線モデルの連続性等の仮定を変えると、所得と幸福の頭打ちについての推論が変わると報告。
+
+**限界：** 査読前のモデル検討。同じデータの再分析を独立した新標本の追試や確定反証と扱わない。
+
+## SC7-SRC268 — Impact of implementation intentions on physical activity practice in adults: A systematic review and meta-analysis of randomized clinical trials.
+
+[確認した出典](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206294)
+
+範囲：selected_fulltext_sections / Results:13RCTreviewed/11pooled; subgroup; Discussion:self-report measures
+
+全体SMD=.15(95％CI−.01～.31)。計画強化の研究群は.25(.05～.45)。身体活動は全研究で自己報告。
+
+**限界：** 一方で有意・他方で非有意だけでは群間の優越を示さない。計画単独、強化、他の要素を分離する。客観的活動量や長期健康を保証しない。
+
+## SC7-SRC093 — It doesn't hurt to ask: Question-asking increases liking.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/28447835/)
+
+範囲：abstract / Abstract; related critique/reply/correction links
+
+質問・追質問と相手からの好意や応答性の関連を報告。実験と観察を含む。
+
+**限界：** 質問回数と傾聴は同一ではない。2019年の再分析・応答と2025年訂正を別に確認。
+
+## SC7-SRC280 — Question asking as a dyadic behavior.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/31714108/)
+
+範囲：abstract / Abstract: Study3, dyadic analysis, outcome conceptualization
+
+短時間デートの元データの人物・相手・二者関係の分析や、次のデート希望を好意と扱う点を批判。質問数を傾聴の質と同一視しない。
+
+**限界：** 新しい参加者の追試ではなく第3研究の再分析。元の会話実験すべての否定とはしない。
+
+## SC7-SRC281 — It helps to ask: The cumulative benefits of asking follow-up questions.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/31714109/)
+
+範囲：abstract / Abstract: response to critique and follow-up questions
+
+原著者らが追質問の意義を擁護し、同一データと解釈への批判に応答。
+
+**限界：** 著者の応答を新標本による独立再現と数えない。批判と併記する。
+
+## SC7-SRC094 — Correction to "It doesn't hurt to ask: Question-asking increases liking" by Huang et al. (2017).
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/40111841/)
+
+範囲：abstract / Correction abstract; independent audit description; linked OSF not reanalysed
+
+2025年訂正は、独立監査で軽微な報告誤りが確認され、主たる結論は維持されたと記載。
+
+**限界：** 独立監査は告知が報告する作業で本プロジェクトの実施ではない。理論・分析の批判まで自動的に解決しない。
+
+## SC7-SRC069 — Buying time promotes happiness.
+
+[確認した出典](https://doi.org/10.1073/pnas.1706541114)
+
+範囲：selected_fulltext_sections / Methods/Results:Study8N60,two40dollarweekends,prespecifiedsequentialstopping; SurveysN6271; Discussion; 2022changehistory
+
+4か国6271人の調査と、働く成人60人の2週末の実験。時間節約と物への各40ドルの支出の順序を釣り合わせ、当日の気分を比較。
+
+**限界：** 短期の気分と長期生活満足を分離。事前設定の逐次募集停止と片側検定の手続きも記載。日本の全家計の最適支出額を決定しない。
+
+**記載上の注意：** 2022-10-19はOSF事前登録リンク更新。データ撤回として扱わない。 [change_history_checked]

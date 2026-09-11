@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-DIG-001",
-  "title_ja": "SNSで不幸になるのか――『使った時間』だけでは分からないこと",
+  "title_ja": "SNSは幸福度を下げる？『何分使ったか』だけでは分からない",
   "category_id": "digital",
   "created_on": "2026-09-11",
-  "authoring_revision": "preserved_round4_draft",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-DIG-001.json",
+  "authoring_input_sha256": "57917f976af4e5e7da95adba6b55a189f9018a78e94622768500e7b23d44109d",
   "source_resolution": {
-    "facebook": {
+    "SRC012": {
       "selector": {
-        "key": "facebook",
+        "source_id": "SRC012",
         "doi": "10.1371/journal.pone.0069841"
       },
       "source_ids": [
@@ -17,18 +20,24 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "internet_trial": {
+    "SRC160": {
       "selector": {
-        "key": "internet_trial",
-        "doi": "10.1093/pnasnexus/pgaf017",
-        "expected_title_words": [
-          "blocking",
-          "mobile",
-          "internet"
-        ]
+        "source_id": "SRC160",
+        "doi": "10.1257/aer.20190658"
       },
       "source_ids": [
-        "SRC159"
+        "SRC160"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC245": {
+      "selector": {
+        "source_id": "SRC245",
+        "doi": "10.1093/jcmc/zmad055"
+      },
+      "source_ids": [
+        "SRC245"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -36,84 +45,110 @@
   },
   "claims": [
     {
-      "id": "PSY-DIG-001-C01",
-      "claim_ja": "若年成人のFacebook利用と、その後の主観的幸福の低下が関連した初期研究がある。",
-      "population_and_scope_ja": "2013年の若年成人を対象とした短期の観察的経験サンプリング研究。",
-      "not_supported_ja": "現在のすべてのSNSが、全年齢の利用者を必ず不幸にするという因果的結論。",
+      "id": "PSY-DIG-001-R6-C01",
+      "claim_ja": "利用と後の心理状態の関連を追う観察研究がある。",
+      "population_and_scope_ja": "2013年Facebook、若年成人82人を募集、2週間自己報告。",
+      "not_supported_ja": "時間の前後だけで因果を確定しない。現在の全SNSへ一般化しない。",
       "source_keys": [
-        "facebook"
+        "SRC012"
       ],
       "source_ids": [
         "SRC012"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC012"
+      ],
+      "source_locators": {
+        "SRC012": [
+          "Methods; participants/experience sampling; Results; Discussion limitations"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DIG-001-C02",
-      "claim_ja": "利用後の気分を追跡しても、観察研究だけで交絡や逆向きの関係を完全に除くことはできない。",
-      "population_and_scope_ja": "研究デザインからの限界。",
-      "not_supported_ja": "時間の前後が分かれば因果が確定するという解釈。",
+      "id": "PSY-DIG-001-R6-C02",
+      "claim_ja": "Facebook停止の実験では幸福とニュース知識に異なる方向の変化があった。",
+      "population_and_scope_ja": "2018年米国選挙前の4週間。",
+      "not_supported_ja": "全利用者・全サービス・長期臨床症状の改善を示すものではない。",
       "source_keys": [
-        "facebook"
+        "SRC160"
       ],
       "source_ids": [
-        "SRC012"
+        "SRC160"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC160"
+      ],
+      "source_locators": {
+        "SRC160": [
+          "Abstract: four weeks before2018USmidterm; wellbeing/news/offline activity"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DIG-001-C03",
-      "claim_ja": "通信を制限する介入は、特定のSNSの使い方を比較する研究とは区別する必要がある。",
-      "population_and_scope_ja": "モバイルインターネット全体の遮断を扱う試験。",
-      "not_supported_ja": "SNSの閲覧、友人との会話、動画などのどれが結果を生んだかを単独で確定すること。",
+      "id": "PSY-DIG-001-R6-C03",
+      "claim_ja": "能動的・受動的利用と多くの心理指標の関係は小さく文脈に依存した。",
+      "population_and_scope_ja": "2024年メタ分析141研究。",
+      "not_supported_ja": "発信は善、閲覧は悪という処方や個人の必然的変化は導けない。",
       "source_keys": [
-        "internet_trial"
+        "SRC245"
       ],
       "source_ids": [
-        "SRC159"
+        "SRC245"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC245"
+      ],
+      "source_locators": {
+        "SRC245": [
+          "Publication history Jan31 2024; Abstract; Method; Results/Table1"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
   "unresolved_source_keys": [],
   "application": {
-    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "使用時間と、利用目的を別々に見る。",
-      "利用の前後の気分と、その日に起きた他の出来事を合わせて振り返る。",
-      "必要な支援や交流を保ちながら、負担の大きい使い方を見直す。"
+      "SNSの用途を連絡、情報、娯楽などに分け、残したい機能を明確にする。",
+      "使った後の気分だけでなく、使う前からの状態や直前の出来事も振り返る。",
+      "調整を試すなら、重要な連絡先を保ちつつ時間帯や通知など一部分から変える。"
     ],
-    "safety": "嫌がらせや危険な関係を、単なる使い方の問題として本人に帰責しない。"
+    "safety": "利用を減らすことを、孤立や精神的な不調の治療の代わりにしないでください。嫌がらせや危険への対応は、本人の気の持ち方だけで解決すべき問題ではありません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-003",
-      "severity": "major",
-      "finding_ja": "通信遮断の試験の25.5％という遵守率は、遵守の定義と分母を正確に説明しないと誤解を招く。",
-      "next_action_ja": "事前基準、参加者数、インストール・継続・追跡完了の違い、ITTと遵守者の解析を対応づける。SNSだけの効果として扱わない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
   "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC245",
+      "issue": {
+        "detail_ja": "Results897と562active+334passiveが一致しない。解析再実行なし。本文では該当数を不使用。",
+        "status": "reported_mismatch_not_used_in_manuscript"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

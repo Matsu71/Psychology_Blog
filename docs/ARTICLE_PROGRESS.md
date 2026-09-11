@@ -2,19 +2,19 @@
 
 目標300記事。本文26件、主張対応表26件。
 
-原文の確認箇所と主張を照合した改稿：10件。上位20のうち10件。公開承認済み0件。
+原文の確認箇所と主張を照合した改稿：20件。上位20のうち20件。公開承認済み0件。
 
 source_checked_manuscriptは限定した主張の原文照合と単独AI編集が済んだ原稿。独立査読・全研究の確実性評価・医療監修・公開承認とは別です。
 
 | テーマ | 本文 | 状態 |
 |---|---|---|
-| PSY-SLP-001 自分に必要な睡眠時間はどう見極める？ | [原稿](../articles/manuscripts/PSY-SLP-001.md) | manuscript_pending_review |
+| PSY-SLP-001 自分に必要な睡眠時間はどう見極める？ | [原稿](../articles/manuscripts/PSY-SLP-001.md) | source_checked_manuscript |
 | PSY-SLP-002 朝の光と夜の明るさは体内時計にどう関わる？ | 未着手 | research_pending |
 | PSY-SLP-003 夜型は怠けなのか？クロノタイプと社会的時差 | 未着手 | research_pending |
 | PSY-SLP-004 コーヒーは何時まで？カフェインと睡眠の個人差 | [原稿](../articles/manuscripts/PSY-SLP-004.md) | source_checked_manuscript |
 | PSY-SLP-005 寝酒で眠れるのに、睡眠の質は下がるのか？ | 未着手 | research_pending |
 | PSY-SLP-006 昼寝は味方か、夜の睡眠の敵か？ | 未着手 | research_pending |
-| PSY-SLP-007 休日の寝だめで平日の睡眠不足は取り戻せる？ | [原稿](../articles/manuscripts/PSY-SLP-007.md) | revised_manuscript_pending_review |
+| PSY-SLP-007 休日の寝だめで平日の睡眠不足は取り戻せる？ | [原稿](../articles/manuscripts/PSY-SLP-007.md) | source_checked_manuscript |
 | PSY-SLP-008 眠ろうと頑張るほど眠れないのはなぜ？ | 未着手 | research_pending |
 | PSY-SLP-009 眠いのに寝ない：就寝先延ばしはなぜ起きる？ | [原稿](../articles/manuscripts/PSY-SLP-009.md) | source_checked_manuscript |
 | PSY-SLP-010 睡眠アプリの点数はどこまで信じてよい？ | 未着手 | research_pending |
@@ -42,7 +42,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-HAB-002 続けたい行動には『いつ・どこで』を決めるべき？ | 未着手 | research_pending |
 | PSY-HAB-003 一日サボると習慣はリセットされる？ | 未着手 | research_pending |
 | PSY-HAB-004 『毎日やっている』と『習慣になった』は違う？ | 未着手 | research_pending |
-| PSY-HAB-005 『もしXならYする』は行動を助ける？ | [原稿](../articles/manuscripts/PSY-HAB-005.md) | revised_manuscript_pending_review |
+| PSY-HAB-005 『もしXならYする』は行動を助ける？ | [原稿](../articles/manuscripts/PSY-HAB-005.md) | source_checked_manuscript |
 | PSY-HAB-006 やる気を増やすより、始める手間を減らす方がよい？ | 未着手 | research_pending |
 | PSY-HAB-007 記録をつけるだけで行動は変わる？ | 未着手 | research_pending |
 | PSY-HAB-008 行動にご褒美をつけると、続くのか続かなくなるのか？ | 未着手 | research_pending |
@@ -68,7 +68,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-MOT-008 成長マインドセットは誰に、どんな場面で役立つ？ | 未着手 | research_pending |
 | PSY-MOT-009 失敗したとき、自分に厳しい方が再挑戦できる？ | [原稿](../articles/manuscripts/PSY-MOT-009.md) | revised_manuscript_pending_review |
 | PSY-MOT-010 新年や月曜日にやる気が出る『フレッシュスタート』は続く？ | 未着手 | research_pending |
-| PSY-LEA-001 読み直すより思い出す練習：テスト効果を勉強に使うには？ | [原稿](../articles/manuscripts/PSY-LEA-001.md) | revised_manuscript_pending_review |
+| PSY-LEA-001 読み直すより思い出す練習：テスト効果を勉強に使うには？ | [原稿](../articles/manuscripts/PSY-LEA-001.md) | source_checked_manuscript |
 | PSY-LEA-002 一夜漬けと分散学習、長く覚えられるのはどちら？ | [原稿](../articles/manuscripts/PSY-LEA-002.md) | revised_manuscript_pending_review |
 | PSY-LEA-003 似た問題をまとめず、混ぜて解くと学びやすい？ | 未着手 | research_pending |
 | PSY-LEA-004 人に説明するつもりで学ぶと理解は深まる？ | 未着手 | research_pending |
@@ -93,7 +93,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-DEC-003 得する喜びより損する痛みが大きいのか？ | 未着手 | research_pending |
 | PSY-DEC-004 もう払ったお金が、やめる判断を邪魔する？ | 未着手 | research_pending |
 | PSY-DEC-005 同じ内容でも言い方で選択は変わる？ | 未着手 | research_pending |
-| PSY-DEC-006 選択肢が多いほど選べなくなるのは本当？ | [原稿](../articles/manuscripts/PSY-DEC-006.md) | revised_manuscript_pending_review |
+| PSY-DEC-006 選択肢が多いほど選べなくなるのは本当？ | [原稿](../articles/manuscripts/PSY-DEC-006.md) | source_checked_manuscript |
 | PSY-DEC-007 未来の自分より今の自分を優先してしまうのはなぜ？ | 未着手 | research_pending |
 | PSY-DEC-008 『自分は大丈夫』と思うのはなぜ？ | 未着手 | research_pending |
 | PSY-DEC-009 ダニング＝クルーガー効果はどこまで本当？ | 未着手 | research_pending |
@@ -142,7 +142,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-WEL-002 よかったことを書き留める習慣は気分に役立つ？ | 未着手 | research_pending |
 | PSY-WEL-003 よいことにも慣れる：快楽順応は避けられる？ | 未着手 | research_pending |
 | PSY-WEL-004 物を買うのと経験を買うのでは、満足度が違う？ | 未着手 | research_pending |
-| PSY-WEL-005 お金が増えれば幸福も増える？ | [原稿](../articles/manuscripts/PSY-WEL-005.md) | revised_manuscript_pending_review |
+| PSY-WEL-005 お金が増えれば幸福も増える？ | [原稿](../articles/manuscripts/PSY-WEL-005.md) | source_checked_manuscript |
 | PSY-WEL-006 人のために何かすると、自分も幸福になる？ | 未着手 | research_pending |
 | PSY-WEL-007 他人と比べるほど満足しにくくなる？ | 未着手 | research_pending |
 | PSY-WEL-008 人生の意味を感じることは健康と関係する？ | 未着手 | research_pending |
@@ -188,7 +188,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-AGE-008 家族を支える人の心身をどう守る？ | 未着手 | research_pending |
 | PSY-AGE-009 年齢とともに感情の扱い方は変わる？ | 未着手 | research_pending |
 | PSY-AGE-010 忘れないためにメモや通知を使うと記憶力は衰える？ | 未着手 | research_pending |
-| PSY-DIG-001 SNSを使うと幸福度が下がる、はどこまで本当？ | [原稿](../articles/manuscripts/PSY-DIG-001.md) | manuscript_pending_review |
+| PSY-DIG-001 SNSを使うと幸福度が下がる、はどこまで本当？ | [原稿](../articles/manuscripts/PSY-DIG-001.md) | source_checked_manuscript |
 | PSY-DIG-002 SNSは見るだけと交流する使い方で違う？ | 未着手 | research_pending |
 | PSY-DIG-003 不安なニュースを見続けてしまうのはなぜ？ | 未着手 | research_pending |
 | PSY-DIG-004 デジタルデトックスは気分や生活を改善する？ | [原稿](../articles/manuscripts/PSY-DIG-004.md) | source_checked_manuscript |
@@ -209,7 +209,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-RES-009 論文に訂正や撤回が出たら、記事はどう更新すべき？ | 未着手 | research_pending |
 | PSY-RES-010 自分に合う習慣を試すとき、何を記録するとよい？ | 未着手 | research_pending |
 | PSY-WRK-001 在宅と出社を組み合わせると仕事の成果はどう変わる？ | [原稿](../articles/manuscripts/PSY-WRK-001.md) | revised_manuscript_pending_review |
-| PSY-WRK-002 仕事を終えても頭から離れないのはなぜ？ | [原稿](../articles/manuscripts/PSY-WRK-002.md) | revised_manuscript_pending_review |
+| PSY-WRK-002 仕事を終えても頭から離れないのはなぜ？ | [原稿](../articles/manuscripts/PSY-WRK-002.md) | source_checked_manuscript |
 | PSY-WRK-003 仕事のストレスは忙しさだけで決まる？ | 未着手 | research_pending |
 | PSY-WRK-004 頑張りに見合う評価がないと何が起きる？ | 未着手 | research_pending |
 | PSY-WRK-005 笑顔で接客し続ける仕事はなぜ疲れる？ | 未着手 | research_pending |
@@ -222,7 +222,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-WRK-012 仕事に熱中することと働きすぎをやめられないことは違う？ | 未着手 | research_pending |
 | PSY-WRK-013 週4日勤務は休みが増えるだけでなく健康にも影響する？ | 未着手 | research_pending |
 | PSY-WRK-014 職場で雑談する時間には意味がある？ | 未着手 | research_pending |
-| PSY-MON-001 家事を外注して時間を買うと幸福度は上がる？ | [原稿](../articles/manuscripts/PSY-MON-001.md) | revised_manuscript_pending_review |
+| PSY-MON-001 家事を外注して時間を買うと幸福度は上がる？ | [原稿](../articles/manuscripts/PSY-MON-001.md) | source_checked_manuscript |
 | PSY-MON-002 キャッシュレスだと現金より使いすぎる？ | [原稿](../articles/manuscripts/PSY-MON-002.md) | source_checked_manuscript |
 | PSY-MON-003 同じお金なのにボーナスだけ使いやすいのはなぜ？ | 未着手 | research_pending |
 | PSY-MON-004 買うときに支払いの痛みを感じるのはなぜ？ | 未着手 | research_pending |
@@ -291,7 +291,7 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 | PSY-LAN-005 身ぶりを使って説明すると理解や記憶は変わる？ | 未着手 | research_pending |
 | PSY-LAN-006 話し方や訛りだけで信頼性を判断してしまう？ | 未着手 | research_pending |
 | PSY-LAN-007 文字のメッセージはなぜ冷たく受け取られる？ | 未着手 | research_pending |
-| PSY-LAN-008 話が上手いより質問が上手い方が好かれる？ | [原稿](../articles/manuscripts/PSY-LAN-008.md) | revised_manuscript_pending_review |
+| PSY-LAN-008 話が上手いより質問が上手い方が好かれる？ | [原稿](../articles/manuscripts/PSY-LAN-008.md) | source_checked_manuscript |
 | PSY-LAN-009 知らない人との短い会話は気分を変える？ | 未着手 | research_pending |
 | PSY-LAN-010 説明が伝わったか確かめるには、分かりましたかで十分？ | 未着手 | research_pending |
 | PSY-LAN-011 自分への言葉を少し他人行儀にすると落ち着ける？ | 未着手 | research_pending |
@@ -315,19 +315,19 @@ source_checked_manuscriptは限定した主張の原文照合と単独AI編集�
 |---|---|
 | R4-QA-001 | addressed_in_current_manuscripts |
 | R4-QA-002 | addressed_in_current_manuscripts |
-| R4-QA-003 | partially_addressed |
+| R4-QA-003 | addressed_in_current_manuscripts |
 | R4-QA-004 | addressed_in_current_manuscripts |
 | R4-QA-005 | addressed_in_current_manuscripts |
-| R4-QA-006 | open_recheck_revised_manuscripts |
+| R4-QA-006 | addressed_in_current_manuscripts |
 | R4-QA-007 | addressed_in_current_manuscripts |
 | R4-QA-008 | addressed_in_current_manuscripts |
-| R4-QA-009 | open_recheck_revised_manuscripts |
+| R4-QA-009 | addressed_in_current_manuscripts |
 | R4-QA-010 | addressed_in_current_manuscripts |
-| R4-QA-011 | open_recheck_revised_manuscripts |
-| R4-QA-012 | open_recheck_revised_manuscripts |
+| R4-QA-011 | partially_addressed |
+| R4-QA-012 | addressed_in_current_manuscripts |
 | R4-QA-013 | open_recheck_revised_manuscripts |
 | R4-QA-014 | open_recheck_revised_manuscripts |
-| R4-QA-015 | open_recheck_revised_manuscripts |
-| R4-QA-016 | open_recheck_revised_manuscripts |
+| R4-QA-015 | partially_addressed |
+| R4-QA-016 | addressed_in_current_manuscripts |
 | R4-QA-017 | open_recheck_revised_manuscripts |
 | R4-QA-018 | registry_and_top20_alignment_resolved |

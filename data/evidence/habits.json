@@ -246,10 +246,10 @@
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
       "relevance_scope": "source_text_screened",
-      "source_review_id": "R5-2108da7ac1fc",
-      "finding_scope_ja": "成人の身体活動に対する実行意図を扱う13の無作為化試験を整理しています。計画を後から強化する条件では、身体活動に小さな平均的改善が報告されました。",
+      "source_review_id": "SC7-SRC268",
+      "finding_scope_ja": "全体SMD=.15(95％CI−.01～.31)。計画強化の研究群は.25(.05～.45)。身体活動は全研究で自己報告。",
       "conclusion_direction": "mixed",
-      "limits_ja": "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。",
+      "limits_ja": "一方で有意・他方で非有意だけでは群間の優越を示さない。計画単独、強化、他の要素を分離する。客観的活動量や長期健康を保証しない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

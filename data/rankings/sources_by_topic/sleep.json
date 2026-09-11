@@ -7,6 +7,48 @@
       "topic_id": "PSY-SLP-001",
       "sources": [
         {
+          "edge_id": "EV-PSY-SLP-001-SRC275",
+          "source_id": "SRC275",
+          "title": "健康づくりのための睡眠ガイド2023",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "全員6時間で十分という個別必要量の診断ではない。年齢群を区別し、睡眠制限療法や薬の選択に転用しない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-SLP-001-SRC276",
+          "source_id": "SRC276",
+          "title": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "日本の目安との違いを一方が全員の最適時間を確定したと解釈しない。同じ声明の別誌版は独立研究ではない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
           "edge_id": "EV-PSY-SLP-001-SRC001",
           "source_id": "SRC001",
           "title": "How Sleep Works",
@@ -25,7 +67,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-SLP-001-SRC042",
@@ -46,7 +88,7 @@
           "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 4
         },
         {
           "edge_id": "EV-PSY-SLP-001-SRC071",
@@ -67,7 +109,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 3
+          "display_position": 5
         },
         {
           "edge_id": "EV-PSY-SLP-001-SRC072",
@@ -88,7 +130,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 4
+          "display_position": 6
         },
         {
           "edge_id": "EV-PSY-SLP-001-SRC100",
@@ -109,28 +151,28 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 5
+          "display_position": 7
         },
         {
           "edge_id": "EV-PSY-SLP-001-SRC101",
           "source_id": "SRC101",
           "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 6
+          "display_position": 8
         }
       ]
     },
@@ -394,6 +436,48 @@
       "topic_id": "PSY-SLP-007",
       "sources": [
         {
+          "edge_id": "EV-PSY-SLP-007-SRC101",
+          "source_id": "SRC101",
+          "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "短期実験で糖尿病予防を評価していない。群内の有意差を群間差とせず、自由な食事等の条件を含む。睡眠だけによる体重増加率を断定しない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-SLP-007-SRC274",
+          "source_id": "SRC274",
+          "title": "Neurobehavioral dynamics following chronic sleep restriction: dose-response effects of one night for recovery.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "健康成人22～45歳の強い制限条件。就床10時間は平均実睡眠8.96時間。個人の回復量を計算できない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        },
+        {
           "edge_id": "EV-PSY-SLP-007-SRC042",
           "source_id": "SRC042",
           "title": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation.",
@@ -412,28 +496,7 @@
           "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
-        },
-        {
-          "edge_id": "EV-PSY-SLP-007-SRC101",
-          "source_id": "SRC101",
-          "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },

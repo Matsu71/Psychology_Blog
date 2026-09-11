@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-DEC-006",
-  "title_ja": "選択肢が多いと選べない？——『少ない方がよい』では片づかない買い物の心理",
+  "title_ja": "選択肢が多いほど選べない？問題は『数』だけではありません",
   "category_id": "decisions",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-DEC-006.json",
+  "authoring_input_sha256": "139e6af4978d769f742e450dce5f082a5b236414d07f04e41dd10c97d7d921d0",
   "source_resolution": {
-    "S1": {
+    "SRC136": {
       "selector": {
-        "key": "S1",
+        "source_id": "SRC136",
         "doi": "10.1086/651235"
       },
       "source_ids": [
@@ -17,9 +20,9 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC269": {
       "selector": {
-        "key": "S2",
+        "source_id": "SRC269",
         "doi": "10.1016/j.jcps.2014.08.002"
       },
       "source_ids": [
@@ -28,9 +31,9 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S3": {
+    "SRC270": {
       "selector": {
-        "key": "S3",
+        "source_id": "SRC270",
         "doi": "10.1016/j.jcps.2015.07.001"
       },
       "source_ids": [
@@ -42,56 +45,75 @@
   },
   "claims": [
     {
-      "id": "PSY-DEC-006-C01",
-      "claim_ja": "2010年のメタ分析では選択肢過多の平均効果はほぼゼロで、研究間のばらつきが大きかった。",
-      "population_and_scope_ja": "50実験・63条件・5036人の統合結果。",
-      "not_supported_ja": "すべての場面で影響ゼロであること。",
+      "id": "PSY-DEC-006-R6-C01",
+      "claim_ja": "2010年レビューでは選択肢増加の平均効果はほぼゼロで異質性が大きかった。",
+      "population_and_scope_ja": "50実験63条件N5036の統合。",
+      "not_supported_ja": "各場面で差がないことや効果の不存在を保証しない。",
       "source_keys": [
-        "S1"
+        "SRC136"
       ],
       "source_ids": [
         "SRC136"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC136"
+      ],
+      "source_locators": {
+        "SRC136": [
+          "Abstract; publication metadata"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DEC-006-C02",
-      "claim_ja": "2015年のレビューは、比較の複雑さや好みの不確かさなどの条件差を検討した。",
-      "population_and_scope_ja": "条件を分けたメタ分析。",
-      "not_supported_ja": "万人への最適な選択肢数や、一つの生活手順の確定効果。",
+      "id": "PSY-DEC-006-R6-C02",
+      "claim_ja": "後のレビューは選択課題・好み・複雑さ等の条件差を扱った。",
+      "population_and_scope_ja": "99観測7202人。",
+      "not_supported_ja": "個人への最適な候補数は導けず、別レビューの参加者を独立に足さない。",
       "source_keys": [
-        "S2"
+        "SRC269"
       ],
       "source_ids": [
         "SRC269"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC269"
+      ],
+      "source_locators": {
+        "SRC269": [
+          "Abstract; study scope"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-DEC-006-C03",
-      "claim_ja": "2015年レビューの訂正は、2010年レビューと分けて記録する必要がある。",
-      "population_and_scope_ja": "訂正対象の論文識別と統計記載。",
-      "not_supported_ja": "別論文も同じ訂正を受けたことや、訂正の存在だけで全結論が無効になること。",
+      "id": "PSY-DEC-006-R6-C03",
+      "claim_ja": "2015年論文の係数bとtの表記に対応する訂正告知がある。",
+      "population_and_scope_ja": "p.348、2016年掲載の告知本文。",
+      "not_supported_ja": "2010年レビューの訂正ではなく、独立した効果研究でもない。",
       "source_keys": [
-        "S2",
-        "S3"
+        "SRC270"
       ],
       "source_ids": [
-        "SRC269",
         "SRC270"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC270"
+      ],
+      "source_locators": {
+        "SRC270": [
+          "Full corrigendum; three corrected statistics on p.348"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -99,29 +121,34 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "候補を増やす前に、必要な条件と妥協できる条件を書き分けます。",
-      "迷いが候補数から来ているのか、比較項目の多さや自分の好みの曖昧さから来ているのかを考えます。",
-      "重要度の低い選択まで最高の一つを探し続けていないか振り返ります。これらは編集上の応用で、単一の検証済み手順ではありません。"
+      "候補を減らす前に、今回の目的と譲れない条件を一つずつ書く。",
+      "選び直しの負担に応じ、試す選択と慎重に比較する選択を分ける。",
+      "迷った原因を、候補数・情報不足・好みの不明確さに分けて振り返る。"
     ],
-    "safety": "大切な契約や健康上の選択について、比較を省略することを勧める記事ではありません。"
+    "safety": "契約・医療・大きな支出の判断を、選択肢を減らすためだけに急がないでください。例示した方法の最適性を研究が保証したわけではありません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-006",
-      "severity": "blocking_for_quantitative_claims",
-      "finding_ja": "前の作業に訂正本文の確認記録があるが、今回の原稿データに訂正告知の識別子と対象箇所がまだ結合されていない。",
-      "next_action_ja": "既存の第4回読解資料から訂正識別子・原文箇所・変更内容を再取得し、修正前後を記録する。それまで数値を掲載しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "訂正論文と原著の識別を反映した改稿。条件別解析の全文点検と最終的な出典確認は必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC269",
+      "issue": {
+        "detail_ja": "p.348の係数bとt値を訂正したSRC270を照合。",
+        "status": "correction_notice_content_checked"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

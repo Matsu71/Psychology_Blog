@@ -166,7 +166,9 @@
       "verified_via_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841",
       "verification_scope": "abstract_reviewed",
       "study_design": "observational_experience_sampling",
-      "notes_ja": "若年成人と当時のFacebookを対象とする短期研究。現在の全SNS・全年齢への因果的な結論にはしない。"
+      "notes_ja": "若年成人と当時のFacebookを対象とする短期研究。現在の全SNS・全年齢への因果的な結論にはしない。",
+      "latest_source_check_id": "SC7-SRC012",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC013",
@@ -884,7 +886,9 @@
         "SEED-016"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC050",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC051",
@@ -1366,7 +1370,9 @@
         "SEED-034"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC068",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC069",
@@ -1388,7 +1394,9 @@
         "SEED-035"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC069",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC070",
@@ -1600,7 +1608,9 @@
         "SEED-047"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC075",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC076",
@@ -2123,7 +2133,9 @@
           "orderIn": 2
         }
       ],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC093",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC094",
@@ -2154,7 +2166,9 @@
           "orderIn": 1
         }
       ],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC094",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC095",
@@ -2317,7 +2331,9 @@
           "orderIn": 1
         }
       ],
-      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+      "latest_source_check_id": "SC7-SRC101",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC102",
@@ -3268,7 +3284,9 @@
       ],
       "indexed_related_records": [],
       "correction_retraction_check": "not_completed",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "latest_source_check_id": "SC7-SRC136",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC137",
@@ -3846,7 +3864,9 @@
         "R3-C-050"
       ],
       "indexed_related_records": [],
-      "correction_retraction_check": "not_completed"
+      "correction_retraction_check": "not_completed",
+      "latest_source_check_id": "SC7-SRC160",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC161",
@@ -5745,7 +5765,7 @@
       "doi": "10.1093/jcmc/zmad055",
       "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
       "authors_display": "Rebecca Godard; Susan Holtzman",
-      "year": 2023,
+      "year": 2024,
       "journal": "Journal of Computer-Mediated Communication",
       "pmid": null,
       "pmcid": null,
@@ -5758,7 +5778,10 @@
       "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
       "indexed_related_records": [],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "metadata_correction_note_ja": "2024-01-31公開。以前の2023表記を出版社の掲載日に基づき修正。",
+      "latest_source_check_id": "SC7-SRC245",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC246",
@@ -6226,7 +6249,9 @@
       "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
       "indexed_related_records": [],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "latest_source_check_id": "SC7-SRC268",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC269",
@@ -6252,7 +6277,9 @@
         }
       ],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "latest_source_check_id": "SC7-SRC269",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC270",
@@ -6272,7 +6299,9 @@
       "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
       "indexed_related_records": [],
       "correction_retraction_check": "selected_notices_checked_not_exhaustive",
-      "latest_reviewed_on": "2026-09-11"
+      "latest_reviewed_on": "2026-09-11",
+      "latest_source_check_id": "SC7-SRC270",
+      "latest_source_checked_on": "2026-09-11"
     },
     {
       "id": "SRC271",
@@ -6329,6 +6358,158 @@
       "notes_ja": "日本語版尺度の対象、選別、測定の限界を確認。診断・有病率・治療効果を示す資料ではない。",
       "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
       "latest_source_check_id": "SC6-SRC273",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/20815182/",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "確認した抄録・本文箇所と限界はsource_checksを参照。独立査読や正式な確実性評価ではありません。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC274",
+      "title": "Neurobehavioral dynamics following chronic sleep restriction: dose-response effects of one night for recovery.",
+      "authors_display": "Banks S; Van Dongen HPA; Maislin G; Dinges DF",
+      "year": 2010,
+      "journal": "Sleep 33(8):1013–1026",
+      "doi": "10.1093/sleep/33.8.1013",
+      "pmid": "20815182",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20815182/",
+      "latest_source_check_id": "SC7-SRC274",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "official_health_information",
+      "record_role": "official_guidance",
+      "verified_via_url": "https://www.mhlw.go.jp/content/001305530.pdf",
+      "verification_scope": "official_page_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "題名は2023、発行は2024年2月。PDF印刷p.9・p.11を画像でも確認。成人の目安と個別必要量を区別する。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC275",
+      "title": "健康づくりのための睡眠ガイド2023",
+      "authors_display": "厚生労働省",
+      "year": 2024,
+      "journal": "健康づくりのための睡眠ガイド（2024年2月）",
+      "doi": null,
+      "pmid": null,
+      "url": "https://www.mhlw.go.jp/content/001305530.pdf",
+      "latest_source_check_id": "SC7-SRC275",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/26039963/",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "同じ声明のJCSM版10.5664/jcsm.4758を独立研究として数えない。推奨はAASMの公式説明も確認。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC276",
+      "title": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society",
+      "authors_display": "Watson NF; Badr MS; Belenky G; Bliwise DL; Buxton OM; Buysse D; et al.",
+      "year": 2015,
+      "journal": "Sleep 38(6):843–844",
+      "doi": "10.5665/sleep.4716",
+      "pmid": "26039963",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26039963/",
+      "latest_source_check_id": "SC7-SRC276",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "確認した抄録・本文箇所と限界はsource_checksを参照。独立査読や正式な確実性評価ではありません。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC277",
+      "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+      "authors_display": "Roediger HL III; Karpicke JD",
+      "year": 2006,
+      "journal": "Psychological Science 17(3):249–255",
+      "doi": "10.1111/j.1467-9280.2006.01693.x",
+      "pmid": "16507066",
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "latest_source_check_id": "SC7-SRC277",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "オンライン初公開2015-11-12、巻号2016年。Practitioner pointsの将来便益と測定結果を分離。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC278",
+      "title": "Successfully leaving work at work: The self-regulatory underpinnings of psychological detachment",
+      "authors_display": "Smit BW",
+      "year": 2016,
+      "journal": "Journal of Occupational and Organizational Psychology 89(3):493–514",
+      "doi": "10.1111/joop.12137",
+      "pmid": null,
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+      "latest_source_check_id": "SC7-SRC278",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "working_paper",
+      "record_role": "working_paper",
+      "verified_via_url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "2026-02-18公開。大学著者ページでも査読なしの資料。モデル感度の検討であり、新しい参加者の独立追試や確定反証ではない。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC279",
+      "title": "Connecting the dots: continuity in the relationship between income and emotional well-being",
+      "authors_display": "Derlin M; Keldenich C; Knabe A",
+      "year": 2026,
+      "journal": "FEMM Working Paper Series 2026 No.02",
+      "doi": "10.24352/UB.OVGU-2026-025",
+      "pmid": null,
+      "url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+      "latest_source_check_id": "SC7-SRC279",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/31714108/",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "原研究Study 3の再分析・批判。新しい参加者の追試ではない。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC280",
+      "title": "Question asking as a dyadic behavior.",
+      "authors_display": "Kluger AN; Malloy TE",
+      "year": 2019,
+      "journal": "Journal of Personality and Social Psychology 117(6):1127–1138",
+      "doi": "10.1037/pspi0000156",
+      "pmid": "31714108",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31714108/",
+      "latest_source_check_id": "SC7-SRC280",
+      "latest_source_checked_on": "2026-09-11"
+    },
+    {
+      "source_type": "journal_article",
+      "record_role": "research_entry",
+      "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/31714109/",
+      "verification_scope": "abstract_reviewed",
+      "accessed_on": "2026-09-11",
+      "notes_ja": "原著者による応答。同一データの議論を独立した成功実験として数えない。",
+      "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+      "id": "SRC281",
+      "title": "It helps to ask: The cumulative benefits of asking follow-up questions.",
+      "authors_display": "Yeomans M; Brooks AW; Huang K; Minson J; Gino F",
+      "year": 2019,
+      "journal": "Journal of Personality and Social Psychology 117(6):1139–1144",
+      "doi": "10.1037/pspi0000220",
+      "pmid": "31714109",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31714109/",
+      "latest_source_check_id": "SC7-SRC281",
       "latest_source_checked_on": "2026-09-11"
     }
   ],

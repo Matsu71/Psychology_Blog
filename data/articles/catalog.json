@@ -4,13 +4,18 @@
     {
       "topic_id": "PSY-SLP-001",
       "title_ja": "自分に必要な睡眠時間はどう見極める？",
-      "state": "manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-SLP-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-SLP-001.json",
-      "claim_count": 4,
+      "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "52fea6a70d01ef34a2500c2b01273654800b275f53f1e7aeba456c8f10b5cdf4",
-      "publication_ready": false
+      "manuscript_sha256": "139fbda6c019f7f0eb068f52f97d22674c3c6fa6bea92679ee7081eef1f8d3b9",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC275",
+        "SC7-SRC276"
+      ]
     },
     {
       "topic_id": "PSY-SLP-002",
@@ -63,13 +68,18 @@
     {
       "topic_id": "PSY-SLP-007",
       "title_ja": "休日の寝だめで平日の睡眠不足は取り戻せる？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-SLP-007.md",
       "claim_dossier_path": "data/articles/claims/PSY-SLP-007.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "bef66d78b7f621397c3e7a2f60dfc80cf3cf733b4ee9a019a6359e91287eca2d",
-      "publication_ready": false
+      "manuscript_sha256": "9673b932b23c9e7d1fa3930e8089d02b29823df9c9662c5782301605e39e3fa1",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC274",
+        "SC7-SRC101"
+      ]
     },
     {
       "topic_id": "PSY-SLP-008",
@@ -318,13 +328,17 @@
     {
       "topic_id": "PSY-HAB-005",
       "title_ja": "『もしXならYする』は行動を助ける？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-HAB-005.md",
       "claim_dossier_path": "data/articles/claims/PSY-HAB-005.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "908c032f8c6732184d59d25b7342e1f0369aee6acfc17ccf22a5930d4c9394b0",
-      "publication_ready": false
+      "manuscript_sha256": "ac1201e7e3e81b7d16effa72535c2ebaeee0ba28f3a369d139885228b1877b84",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC268"
+      ]
     },
     {
       "topic_id": "PSY-HAB-006",
@@ -548,13 +562,18 @@
     {
       "topic_id": "PSY-LEA-001",
       "title_ja": "読み直すより思い出す練習：テスト効果を勉強に使うには？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-LEA-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-LEA-001.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "e2410da807ff435859cd7ef1ae4c6a5ff957d8205bd34fbf7bbc5af0c4625a64",
-      "publication_ready": false
+      "manuscript_sha256": "e3446702f3d9ab94feb01b09d4305f6bdcbb739fafe2ff8c61fefc2db11a67a8",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC050",
+        "SC7-SRC277"
+      ]
     },
     {
       "topic_id": "PSY-LEA-002",
@@ -761,13 +780,19 @@
     {
       "topic_id": "PSY-DEC-006",
       "title_ja": "選択肢が多いほど選べなくなるのは本当？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-DEC-006.md",
       "claim_dossier_path": "data/articles/claims/PSY-DEC-006.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "d749f7529cce96cc4f67f9f887148c46644bc1823a4c242592f7903e48582d2a",
-      "publication_ready": false
+      "manuscript_sha256": "70987a119b00dc245890b5dcf74168e7e679d415fd5787525117aeeee22dd2fd",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC136",
+        "SC7-SRC269",
+        "SC7-SRC270"
+      ]
     },
     {
       "topic_id": "PSY-DEC-007",
@@ -1159,13 +1184,18 @@
     {
       "topic_id": "PSY-WEL-005",
       "title_ja": "お金が増えれば幸福も増える？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-WEL-005.md",
       "claim_dossier_path": "data/articles/claims/PSY-WEL-005.json",
-      "claim_count": 2,
+      "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "76c0840cf1fc17f82d07bb9606f5d264190baf6d38ba368c7cfd6aa72e9ef29b",
-      "publication_ready": false
+      "manuscript_sha256": "659cd6dd93a573b59c5080903453e2bd0f49d7102af8e7b0d035d4118688304d",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC068",
+        "SC7-SRC279"
+      ]
     },
     {
       "topic_id": "PSY-WEL-006",
@@ -1541,13 +1571,19 @@
     {
       "topic_id": "PSY-DIG-001",
       "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
-      "state": "manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-DIG-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-DIG-001.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "5b3aeffd074f5573662bdb6edc04de4e563768f5a75195eee33853d8a76165a4",
-      "publication_ready": false
+      "manuscript_sha256": "6174fc3e1c82c7e29247f7dd25ffc4a143223476562844514b12c69c72f4cb36",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC012",
+        "SC7-SRC160",
+        "SC7-SRC245"
+      ]
     },
     {
       "topic_id": "PSY-DIG-002",
@@ -1722,13 +1758,18 @@
     {
       "topic_id": "PSY-WRK-002",
       "title_ja": "仕事を終えても頭から離れないのはなぜ？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-WRK-002.md",
       "claim_dossier_path": "data/articles/claims/PSY-WRK-002.json",
-      "claim_count": 2,
+      "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "b1b3c2ee499fb779cbf073aac8a1f38c1dfc13e29f8db3658667ee1369f1afc4",
-      "publication_ready": false
+      "manuscript_sha256": "961c3023e07a4f10864ac2a637ea9e84e7b91727c31782b641410a865c03592c",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC075",
+        "SC7-SRC278"
+      ]
     },
     {
       "topic_id": "PSY-WRK-003",
@@ -1829,13 +1870,17 @@
     {
       "topic_id": "PSY-MON-001",
       "title_ja": "家事を外注して時間を買うと幸福度は上がる？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-MON-001.md",
       "claim_dossier_path": "data/articles/claims/PSY-MON-001.json",
-      "claim_count": 2,
+      "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "c78e3935e28db86ca5a788d2a9164866156057dbd5397b7c7e430fe88b159461",
-      "publication_ready": false
+      "manuscript_sha256": "c257666caf1e37eade3efa511d2992771cec929ee301a6060dea2b11b3761d89",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC069"
+      ]
     },
     {
       "topic_id": "PSY-MON-002",
@@ -2391,13 +2436,20 @@
     {
       "topic_id": "PSY-LAN-008",
       "title_ja": "話が上手いより質問が上手い方が好かれる？",
-      "state": "revised_manuscript_pending_review",
+      "state": "source_checked_manuscript",
       "manuscript_path": "articles/manuscripts/PSY-LAN-008.md",
       "claim_dossier_path": "data/articles/claims/PSY-LAN-008.json",
       "claim_count": 3,
       "unresolved_source_keys": [],
-      "manuscript_sha256": "9fb288c5cac0d583cc08b8ad8021c56446af039a67eeb9652f490ca97edc0e9f",
-      "publication_ready": false
+      "manuscript_sha256": "18b28f61d383508955db5b03d54761d6a0fa3555941ca0a54431e6bc1aa774ee",
+      "publication_ready": false,
+      "latest_editorial_pass": "source-editorial-pass-20260911",
+      "source_check_ids": [
+        "SC7-SRC093",
+        "SC7-SRC280",
+        "SC7-SRC281",
+        "SC7-SRC094"
+      ]
     },
     {
       "topic_id": "PSY-LAN-009",

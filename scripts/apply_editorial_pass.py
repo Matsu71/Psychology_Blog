@@ -32,6 +32,12 @@ def digest(path):
 def specs():
     return [json.loads(p.read_text(encoding='utf-8'))['article'] for p in sorted(INPUT.glob('PSY-*.json'))]
 
+def source_identity(s):
+    if s.get('doi'): return ('doi',s['doi'].strip().lower())
+    if s.get('pmid'): return ('pmid',str(s['pmid']))
+    assert s.get('url'),'Source lacks resolvable identity'
+    return ('url',s['url'].rstrip('/'))
+
 def integrate_sources():
     check_doc=read('research/editorial_pass_20260911/source_checks.json')
     checks=[{**check_doc.get('defaults',{}),**c} for c in check_doc['checks']]
@@ -45,9 +51,9 @@ def integrate_sources():
     sources={s['id']:s for s in source_doc['sources']}
     for new in read('research/editorial_pass_20260911/new_sources.json')['sources']:
         if new['id'] in sources:
-            assert sources[new['id']]['doi'].lower()==new['doi'].lower(),'Source ID conflict'
+            assert source_identity(sources[new['id']])==source_identity(new),'Source ID conflict'
         else:
-            assert new['doi'].lower() not in {s['doi'].lower() for s in sources.values() if s.get('doi')},'Duplicate DOI'
+            assert source_identity(new) not in {source_identity(s) for s in sources.values()},'Duplicate source identity'
             sources[new['id']]=dict(new)
             source_doc['sources'].append(sources[new['id']])
     adoc=read('data/source_assessments.json')
@@ -176,7 +182,7 @@ def apply_manuscripts():
                'evidence_certainty':'not_formally_assessed','publication_ready':False})
         rel='data/articles/claims/'+tid+'.json'
         old=read(rel) if (ROOT/rel).exists() else {}
-        d={'schema_version':'1.0','topic_id':tid,'title_ja':a['title'],'category_id':old.get('category_id'),
+        d={'schema_version':'1.0','topic_id':tid,'title_ja':a['title'],'category_id':old.get('category_id') or rows[tid].get('category_id'),
            'created_on':old.get('created_on',DATE),'updated_on':DATE,'authoring_revision':REVISION,
            'authoring_input':'research/editorial_pass_20260911/'+tid+'.json',
            'authoring_input_sha256':digest('research/editorial_pass_20260911/'+tid+'.json'),

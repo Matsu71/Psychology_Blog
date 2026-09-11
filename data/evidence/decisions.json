@@ -67,11 +67,11 @@
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
       "relevance_scope": "source_text_screened",
-      "source_review_id": "R5-91974ea83e24",
+      "source_review_id": "SC7-SRC136",
       "legacy_brief_ids": [],
-      "finding_scope_ja": "公表・未公表の50実験、63条件、5036人を統合した2010年のレビューです。選択肢を増やした影響は平均ではほぼゼロで、研究ごとのばらつきが大きいという結果でした。",
+      "finding_scope_ja": "50実験に含まれる63条件・5036人を統合。平均効果はほぼゼロ、研究間のばらつきが大きい。",
       "conclusion_direction": "mixed",
-      "limits_ja": "平均がゼロであることは、すべての人・場面で影響がないことではありません。後の条件別レビューや分析手法の研究と比較します。2015年の別レビューの訂正をこの論文の訂正として扱いません。",
+      "limits_ja": "各場面の無効果・同等性は保証しない。2015年レビューと収載研究が重なり得るため人数を足さない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -208,10 +208,10 @@
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
       "relevance_scope": "source_text_screened",
-      "source_review_id": "R5-d10dbd50267e",
-      "finding_scope_ja": "99観測、7202人の研究を統合し、選択肢の複雑さ、課題の難しさ、好みの不確かさ、選択の目的による条件差を検討しています。単に選択肢の数だけでなく条件を分ける意義を示します。",
+      "source_review_id": "SC7-SRC269",
+      "finding_scope_ja": "99観測・7202人、複雑さ・課題の難度・好みの不確かさ・選択目標の条件差を検討。",
       "conclusion_direction": "mixed",
-      "limits_ja": "2010年レビューと収載研究が重なり得るため独立した参加者として足しません。2016年訂正は回帰係数bとt値の表記を修正しています。条件別分析を万人への最適個数に変換しません。",
+      "limits_ja": "個人への最適な選択肢数を確定しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -222,10 +222,10 @@
       "relation_role": "correction_notice",
       "relevance_1_to_5": 5,
       "relevance_scope": "source_text_screened",
-      "source_review_id": "R5-64c7edeb622e",
-      "finding_scope_ja": "2015年レビューのp.348にある3つの統計記載を訂正する告知です。回帰係数bをt値として示していた表記を修正し、対応するt値を明記しています。",
-      "conclusion_direction": "correction",
-      "limits_ja": "独立した効果研究ではありません。2010年レビューへの訂正ではなく、出典IDを分けて結び付けます。",
+      "source_review_id": "SC7-SRC270",
+      "finding_scope_ja": "2015年レビューの回帰係数bとt値の3箇所の記載を訂正。オンライン2015年、巻号2016年。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "2010年の別レビューへの訂正ではない。独立した効果研究や元データの再解析に数えない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

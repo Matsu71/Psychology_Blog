@@ -22,14 +22,14 @@
       "source_id": "SRC050",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "anchor_question_checked",
-      "source_review_id": null,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC050",
       "legacy_brief_ids": [
         "RB-33683913"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "教室場面の222研究48478人で小テストの平均効果g=.499。対照学習法、訂正、教材への対応などで差。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "標準化差を50％の得点増加としない。全資格試験の合格や一般能力の向上は保証しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -242,6 +242,20 @@
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LEA-001-SRC277",
+      "topic_id": "PSY-LEA-001",
+      "source_id": "SRC277",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC277",
+      "finding_scope_ja": "2実験で文章の想起と再学習を比較。5分後は再学習、2日・1週間後は想起が優位。再学習の自信と保持は一致しなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "実験で答えを提示しない条件を、日常で誤答を訂正しない推奨へ変えない。レビューとの研究重複も未点検。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

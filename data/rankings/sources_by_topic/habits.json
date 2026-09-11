@@ -195,6 +195,27 @@
       "topic_id": "PSY-HAB-005",
       "sources": [
         {
+          "edge_id": "EV-PSY-HAB-005-SRC268",
+          "source_id": "SRC268",
+          "title": "Impact of implementation intentions on physical activity practice in adults: A systematic review and meta-analysis of randomized clinical trials.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一方で有意・他方で非有意だけでは群間の優越を示さない。計画単独、強化、他の要素を分離する。客観的活動量や長期健康を保証しない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-HAB-005-SRC124",
           "source_id": "SRC124",
           "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
@@ -212,28 +233,7 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
-          "display_position": 1
-        },
-        {
-          "edge_id": "EV-PSY-HAB-005-SRC268",
-          "source_id": "SRC268",
-          "title": "Impact of implementation intentions on physical activity practice in adults: A systematic review and meta-analysis of randomized clinical trials.",
-          "review_scope": "abstract",
-          "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "mixed",
-          "limits_ja": "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。",
-          "priority_score": 82.5,
-          "components": {
-            "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 1,
+          "priority_rank": 2,
           "display_position": 2
         },
         {

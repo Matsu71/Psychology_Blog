@@ -1,15 +1,18 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-LAN-008",
-  "title_ja": "話がうまい人より、よく質問する人が好かれる？——会話研究をそのまま恋愛術にしない",
+  "title_ja": "話がうまい人より質問がうまい人？『聞いている感じ』を研究から考える",
   "category_id": "language",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-LAN-008.json",
+  "authoring_input_sha256": "7e61664d33f56843255b746ed2581d1dad1ed642b9207e86ed69722c5add6dd3",
   "source_resolution": {
-    "S1": {
+    "SRC093": {
       "selector": {
-        "key": "S1",
-        "pmid": "28447835"
+        "source_id": "SRC093",
+        "doi": "10.1037/pspi0000097"
       },
       "source_ids": [
         "SRC093"
@@ -17,10 +20,32 @@
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "S2": {
+    "SRC280": {
       "selector": {
-        "key": "S2",
-        "pmid": "40111841"
+        "source_id": "SRC280",
+        "doi": "10.1037/pspi0000156"
+      },
+      "source_ids": [
+        "SRC280"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC281": {
+      "selector": {
+        "source_id": "SRC281",
+        "doi": "10.1037/pspi0000220"
+      },
+      "source_ids": [
+        "SRC281"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC094": {
+      "selector": {
+        "source_id": "SRC094",
+        "doi": "10.1037/pspi0000491"
       },
       "source_ids": [
         "SRC094"
@@ -31,54 +56,81 @@
   },
   "claims": [
     {
-      "id": "PSY-LAN-008-C01",
-      "claim_ja": "質問をすることと相手からの好意を、実験と会話の観察で検討した研究がある。",
-      "population_and_scope_ja": "2017年の初対面会話等を扱う研究群。",
-      "not_supported_ja": "万人に好かれる質問回数や、恋愛の成功保証。",
+      "id": "PSY-LAN-008-R6-C01",
+      "claim_ja": "質問、とくに追質問と好意・応答性の関係が報告された。",
+      "population_and_scope_ja": "初対面会話2実験と短時間デート観察の原論文。",
+      "not_supported_ja": "質問回数の最適値や全関係での好意保証ではない。",
       "source_keys": [
-        "S1"
+        "SRC093"
       ],
       "source_ids": [
         "SRC093"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC093"
+      ],
+      "source_locators": {
+        "SRC093": [
+          "Abstract; related critique/reply/correction links"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-LAN-008-C02",
-      "claim_ja": "2025年の訂正は、原論文と対応づけて参照する必要がある。",
-      "population_and_scope_ja": "訂正告知の存在と著者による説明。",
-      "not_supported_ja": "独立した再解析や追試によって全結果を再確認したという表示。",
+      "id": "PSY-LAN-008-R6-C02",
+      "claim_ja": "第3研究の分析と好意・傾聴の概念には批判と応答がある。",
+      "population_and_scope_ja": "2019年の再分析・著者応答。",
+      "not_supported_ja": "同一データの論争を新しい独立研究2本として数えない。",
       "source_keys": [
-        "S2"
+        "SRC280",
+        "SRC281"
+      ],
+      "source_ids": [
+        "SRC280",
+        "SRC281"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC280",
+        "SC7-SRC281"
+      ],
+      "source_locators": {
+        "SRC280": [
+          "Abstract: Study3, dyadic analysis, outcome conceptualization"
+        ],
+        "SRC281": [
+          "Abstract: response to critique and follow-up questions"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LAN-008-R6-C03",
+      "claim_ja": "2025年訂正は軽微な報告誤りと中心的結論の維持を記載する。",
+      "population_and_scope_ja": "訂正告知の抄録での確認。",
+      "not_supported_ja": "本プロジェクトの独立再解析ではなく、全批判の解消を意味しない。",
+      "source_keys": [
+        "SRC094"
       ],
       "source_ids": [
         "SRC094"
       ],
       "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-LAN-008-C03",
-      "claim_ja": "実験的な質問の操作と、追質問の観察的な関連は証拠の種類を分けて扱う。",
-      "population_and_scope_ja": "研究方法を日常会話へ適用する際の解釈。",
-      "not_supported_ja": "特定の追質問の例文の効果や、プライバシーへの踏み込みの正当化。",
-      "source_keys": [
-        "S1"
+      "source_check_ids": [
+        "SC7-SRC094"
       ],
-      "source_ids": [
-        "SRC093"
-      ],
-      "source_resolution_complete": true,
+      "source_locators": {
+        "SRC094": [
+          "Correction abstract; independent audit description; linked OSF not reanalysed"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
@@ -86,22 +138,22 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "質問を増やすことを目的にせず、相手の答えの中で実際に知りたい点を一つ尋ねます。",
-      "自分も適度に話し、相手が答えたくない話題や会話を終えたい合図を尊重します。",
-      "研究の効果を、自分や相手の人格を評価する基準や、人を操作する技法にしないようにします。"
+      "相手の答えを一つ受けて、関心のある部分を自然に尋ねる。",
+      "質問を重ねる前に、自分の理解や自分の話も返し、会話を一方通行にしない。",
+      "相手が答えたくない様子なら追わず、話題を変える余地を残す。"
     ],
-    "safety": "詮索、圧力、相手が望まない親密さを促すためには使いません。"
+    "safety": "質問への回答や親密さを強要しないでください。仕事上の権力差やプライバシーが関わる場面では、実験的な好意の効果より相手の選択と安全を優先します。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "上位20との照合で不足していた原稿を追加。訂正と批判の本文照合・元解析の独立確認は未完了。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

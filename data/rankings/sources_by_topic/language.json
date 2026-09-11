@@ -212,46 +212,90 @@
       "topic_id": "PSY-LAN-008",
       "sources": [
         {
-          "edge_id": "EV-PSY-LAN-008-SRC093",
-          "source_id": "SRC093",
-          "title": "It doesn't hurt to ask: Question-asking increases liking.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "edge_id": "EV-PSY-LAN-008-SRC280",
+          "source_id": "SRC280",
+          "title": "Question asking as a dyadic behavior.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "新しい参加者の追試ではなく第3研究の再分析。元の会話実験すべての否定とはしない。",
+          "priority_score": 82.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LAN-008-SRC281",
+          "source_id": "SRC281",
+          "title": "It helps to ask: The cumulative benefits of asking follow-up questions.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "著者の応答を新標本による独立再現と数えない。批判と併記する。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-LAN-008-SRC093",
+          "source_id": "SRC093",
+          "title": "It doesn't hurt to ask: Question-asking increases liking.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "質問回数と傾聴は同一ではない。2019年の再分析・応答と2025年訂正を別に確認。",
+          "priority_score": 65,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "unresolved_indexed_correction_max_65"
+          ],
+          "excluded_from_evidence_priority": false,
           "integrity_requires_followup": true,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 1
+          "priority_rank": 3,
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-LAN-008-SRC094",
           "source_id": "SRC094",
           "title": "Correction to \"It doesn't hurt to ask: Question-asking increases liking\" by Huang et al. (2017).",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "review_scope": "abstract",
+          "relation_role": "correction_notice",
+          "conclusion_direction": "mixed",
+          "limits_ja": "独立監査は告知が報告する作業で本プロジェクトの実施ではない。理論・分析の批判まで自動的に解決しない。",
           "priority_score": null,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": true,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 4
         }
       ]
     },

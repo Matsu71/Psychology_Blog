@@ -1,15 +1,18 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-MON-001",
-  "title_ja": "物ではなく時間を買うと幸せになる？——家事の外注を考えるための研究",
+  "title_ja": "家事を外注して『時間を買う』と幸せになる？使い道まで考えたい支出",
   "category_id": "money_consumption",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-MON-001.json",
+  "authoring_input_sha256": "0d0849ed538f949c8ca3a0f19160fcd40b90ae83a11b959de43aba68fbc6324b",
   "source_resolution": {
-    "S1": {
+    "SRC069": {
       "selector": {
-        "key": "S1",
-        "pmid": "28739889"
+        "source_id": "SRC069",
+        "doi": "10.1073/pnas.1706541114"
       },
       "source_ids": [
         "SRC069"
@@ -20,37 +23,78 @@
   },
   "claims": [
     {
-      "id": "PSY-MON-001-C01",
-      "claim_ja": "時間節約への支出は調査で生活満足と関連し、実験でも短期的な幸福感への利点が報告された。",
-      "population_and_scope_ja": "4か国の調査と特定条件のフィールド実験を区別して記述。",
-      "not_supported_ja": "あらゆる外注が全家計で長期の幸福を高めること。",
+      "id": "PSY-MON-001-R6-C01",
+      "claim_ja": "4か国6271人の調査で時間節約の支出と生活満足の関連が報告された。",
+      "population_and_scope_ja": "同論文の複数調査の合計。",
+      "not_supported_ja": "観察的な関連だけで個人の支出の因果効果は確定しない。",
       "source_keys": [
-        "S1"
+        "SRC069"
       ],
       "source_ids": [
         "SRC069"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC069"
+      ],
+      "source_locators": {
+        "SRC069": [
+          "Methods/Results:Study8N60,two40dollarweekends,prespecifiedsequentialstopping",
+          "SurveysN6271; Discussion; 2022changehistory"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-MON-001-C02",
-      "claim_ja": "支出の余裕や時間の使い道を無視して、個人に外注の利益を保証できない。",
-      "population_and_scope_ja": "研究の対象・期間から個人へ一般化する際の限界。",
-      "not_supported_ja": "特定サービスの購入推奨や金銭的な損得の保証。",
+      "id": "PSY-MON-001-R6-C02",
+      "claim_ja": "60人の二週末の実験で時間節約支出と物の支出を比較した。",
+      "population_and_scope_ja": "各40ドル、順序を釣り合わせ、当日の気分を測定。",
+      "not_supported_ja": "長期の生活満足の改善、日本の家計における最適な支出額は示さない。",
       "source_keys": [
-        "S1"
+        "SRC069"
       ],
       "source_ids": [
         "SRC069"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC069"
+      ],
+      "source_locators": {
+        "SRC069": [
+          "Methods/Results:Study8N60,two40dollarweekends,prespecifiedsequentialstopping",
+          "SurveysN6271; Discussion; 2022changehistory"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MON-001-R6-C03",
+      "claim_ja": "実験の募集・停止には事前設定された逐次手続きがあった。",
+      "population_and_scope_ja": "Study8のMethodsとanalysisの説明。",
+      "not_supported_ja": "結果が出るまで恣意的に人数を変えたと推測しない。元データの独立再解析でもない。",
+      "source_keys": [
+        "SRC069"
+      ],
+      "source_ids": [
+        "SRC069"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC069"
+      ],
+      "source_locators": {
+        "SRC069": [
+          "Methods/Results:Study8N60,two40dollarweekends,prespecifiedsequentialstopping",
+          "SurveysN6271; Discussion; 2022changehistory"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
       "publication_ready": false
     }
   ],
@@ -58,29 +102,34 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "日常で負担が大きい作業を一つ挙げ、楽しんで行っている作業とは分けます。",
-      "サービス代だけでなく、手配や確認にかかる時間、家計への負担も含めて考えます。",
-      "空いた時間をどう使ったかを振り返り、他人の正解より自分の生活条件を優先します。"
+      "お金を使う前に、減らしたい具体的な作業と空いた時間の使い道を一つずつ書く。",
+      "料金だけでなく、予約や引継ぎの手間、作業を楽しんでいるかも比べる。",
+      "購入以外の省略・分担・手順の簡略化も候補に残す。"
     ],
-    "safety": "支出の余裕がない人に、幸福のためにお金を使うべきだと要求する記事ではありません。"
+    "safety": "家計に余裕がないときに外注を無理に勧める記事ではありません。個別サービスの条件や費用、安全性は別途確認してください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-016",
-      "severity": "moderate",
-      "finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
-      "next_action_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "調査と実験を分離した改稿。介入手続きと測定期間の最終照合は必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [
+    {
+      "source_id": "SRC069",
+      "issue": {
+        "detail_ja": "2022-10-19はOSF事前登録リンク更新。データ撤回として扱わない。",
+        "status": "change_history_checked"
+      }
+    }
+  ],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

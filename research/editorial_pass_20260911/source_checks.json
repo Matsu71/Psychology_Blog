@@ -1,1 +1,919 @@
-{"schema_version":"1.0","date":"2026-09-11","review_boundary_ja":"原文の確認した箇所に対するAI支援の単独読解。独立査読、全補足資料の点検、元データ再解析、正式なリスクオブバイアス・確実性評価は未実施。","defaults":{"checked_on":"2026-09-11","evidence_relation_role":"direct_or_targeted_evidence","method_signals":3,"formal_risk_of_bias":"not_assessed","formal_evidence_certainty":"not_assessed","review_method":"AI_assisted_single_source_text_and_editorial_check","independent_review_completed":false,"metrics":[],"reporting_issues":[]},"checks":[{"id":"SC6-SRC169","source_id":"SRC169","topic_ids":["PSY-MON-002"],"url":"https://www.sciencedirect.com/science/article/pii/S0022435924000216","review_scope":"selected_fulltext_sections","study_design":"multilevel_meta_analysis","locators":["3 Methodology: eligibility, selection, outlier removal","4.1 Overall effect; moderator analyses; robustness","5 Discussion and limitations"],"findings_ja":"外れ値2効果量を除いた主要解析は71論文392効果量。実支出・購入点数・支払意思額を含む。平均標準化差は小さく、研究間の異質性が大きい。消費場面等の条件差を検討している。","limitations_ja":"意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。","metrics":[{"metric":"Hedges g","estimate":0.135,"ci95":[0.068,0.203],"estimand":"cashless versus cash spending-related outcomes","k_effects":392,"papers":71},{"metric":"I_squared_percent","estimate":86.2}]},{"id":"SC6-SRC159","source_id":"SRC159","topic_ids":["PSY-DIG-004","PSY-DIG-001"],"url":"https://academic.oup.com/pnasnexus/article/4/2/pgaf017/8016017","review_scope":"selected_fulltext_sections","study_design":"randomized_waitlist_trial","locators":["Results: Study design and compliance; ITT and TOT definitions","Primary analyses and attrition","Discussion: demand effects, selection and follow-up"],"findings_ja":"467人を即時遮断と待機へ割付。266人導入、119人が10/14日以上の遮断基準を達成。3時点自己報告完了313人。主要解析は遵守者に限定しないが完全ケース中心。心理指標と持続的注意に改善を報告。","limitations_ja":"欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。","metrics":[{"metric":"agreed_randomized_participants","n":467},{"metric":"installed","n":266},{"metric":"preregistered_compliance","n":119,"denominator":467,"criterion":"blocked >=10 of 14 days","percent":25.5},{"metric":"complete_three_wave_self_reports","n":313}],"reporting_issues":[{"id":"SC6-DIG-ITT","type":"interpretation_caution","status":"addressed_in_current_manuscript","detail_ja":"著者のITTという名称を全467人の完全追跡としない。313人を全注意課題の分母にしない。"}]},{"id":"SC6-SRC149","source_id":"SRC149","topic_ids":["PSY-NUT-003"],"url":"https://ajcn.nutrition.org/article/S0002-9165(23)05467-9/fulltext","review_scope":"selected_fulltext_sections","study_design":"systematic_review_meta_analysis","locators":["Methods: search, selection and measurement","Results: distraction during and after meals","Discussion and limitations"],"findings_ja":"19論文24実験を整理。注意をそらす操作で、その場・後の摂取増加を報告。多くは若い成人・短時間の実験。","limitations_ja":"全24実験が同じ操作・結果ではない。SMDを％摂取量・体重変化にしない。記憶を唯一の機序とせず、2025年のテレビレビューと区別する。","metrics":[{"metric":"SMD immediate distraction","estimate":0.39,"ci95":[0.25,0.53]},{"metric":"SMD later intake distraction","estimate":0.76,"ci95":[0.45,1.07]}]},{"id":"SC6-SRC150","source_id":"SRC150","topic_ids":["PSY-NUT-003"],"url":"https://www.mdpi.com/2072-6643/17/1/166","review_scope":"selected_fulltext_sections","study_design":"systematic_review_meta_analysis","locators":["Abstract","Results 4.1 and 4.4"],"findings_ja":"2025年テレビ視聴レビューを2013年の注意レビューと区別。全体とテレビのみ、即時と後の摂取の報告を照合。","limitations_ja":"公開HTMLの抄録と4.4のCIに違いがあり、F統計量に負値の記載がある。修正値を推測せず該当定量結果を現稿から除外。撤回や結論無効を認定したものではない。","evidence_relation_role":"context_only","method_signals":2,"reporting_issues":[{"id":"SC6-TV-CI","type":"reporting_inconsistency","status":"open_original_paper_check","detail_ja":"遅延CIは抄録.03～.57、本文4.4 .08～.53。即時CI下限も抄録−.01、本文.00で異なる。"},{"id":"SC6-TV-F","type":"reporting_inconsistency","status":"open_original_paper_check","detail_ja":"本文4.4 F(1,27)=−1.84。通常のF統計量は非負。t等への推測修正はしない。"}]},{"id":"SC6-SRC271","source_id":"SRC271","topic_ids":["PSY-NUT-003"],"url":"https://link.springer.com/article/10.1186/s12889-019-6923-x","review_scope":"selected_fulltext_sections","study_design":"randomized_controlled_trial","locators":["Methods: design, sample, randomisation and blinding, statistical analyses","Results: sample, primary outcomes and adherence analyses","Discussion"],"findings_ja":"減量希望の過体重・肥満成人107人をアプリ＋助言53人と同じ助言54人へ割付。8週調整体重差−.10kg、CI−1.6～1.3。摂取量にも明確な差なし。多重代入で主要解析に全割付者を維持。","limitations_ja":"英国、参加者・測定者非盲検、8週完了85人。特定アプリ上乗せの試験で、全注意介入の無効とはしない。2020年の利用者解析は同試験由来で独立追試に数えない。","metrics":[{"metric":"randomized_n","n":107,"arms":[53,54]},{"metric":"8_week_followup_n","n":85},{"metric":"adjusted_difference_body_weight_kg","estimate":-0.1,"ci95":[-1.6,1.3],"timepoint_weeks":8}]},{"id":"SC6-SRC054","source_id":"SRC054","topic_ids":["PSY-ATT-004"],"url":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460","review_scope":"selected_fulltext_sections","study_design":"systematic_review_meta_analysis","locators":["Methods: inclusion and synthesis","Results: Table 3 and moderators","Discussion"],"findings_ja":"19記録22独立標本N2335。活力d.36、疲労軽減d.35。成績15標本N1132 d.16、CI−.04～.37。課題・時間で条件差。","limitations_ja":"dを％改善にしない。休憩時間の研究間回帰は最適分数の因果検証でない。本文と表のp値は一致せず、記事は一致する推定値とCIを使用。","metrics":[{"metric":"vigor_d","estimate":0.36,"ci95":[0.16,0.55],"samples":9,"n":913},{"metric":"fatigue_reduction_d","estimate":0.35,"ci95":[0.19,0.5],"samples":9,"n":803},{"metric":"performance_d","estimate":0.16,"ci95":[-0.04,0.37],"samples":15,"n":1132}],"reporting_issues":[{"id":"SC6-BREAK-P","type":"reporting_inconsistency","status":"open_original_paper_check","detail_ja":"本文の成績p=.17、Table3 p=.116。dとCIは一致し両方5％非有意。記事ではpを用いず、データ修正は主張しない。"}]},{"id":"SC6-SRC038","source_id":"SRC038","topic_ids":["PSY-SLP-004"],"url":"https://academic.oup.com/sleep/article/48/4/zsae230/7815486","review_scope":"selected_fulltext_sections","study_design":"double_blind_randomized_crossover_trial","locators":["Materials and Methods: Participants, Experimental design, Statistical analysis","Results: Participants and dose/timing contrasts","Limitations and Practical Recommendations"],"findings_ja":"30人割付、3人辞退4人不遵守除外し健康男性23人を解析。朝は各人の習慣量、追加100/400mgを就寝12/8/4時間前に比較。400mgで一部指標悪化、100mgで明確な差なし。主観・客観にずれ。","limitations_ja":"同等性試験でなく100mg無害を保証しない。単回追加量は1日総量・分割摂取と異なる。若年男性、睡眠・医学的条件・交代勤務を除外。遺伝効果の検出力不足、自宅環境、1条件1夜、複数比較の限界。","metrics":[{"metric":"randomized_n","n":30},{"metric":"analysis_n","n":23},{"metric":"additional_doses_mg","values":[100,400]},{"metric":"hours_before_bed","values":[12,8,4]}]},{"id":"SC6-SRC111","source_id":"SRC111","topic_ids":["PSY-SLP-004"],"url":"https://doi.org/10.1016/j.smrv.2023.101764","review_scope":"abstract","study_design":"systematic_review_meta_analysis","locators":["Abstract: pooled outcomes and model-derived timing"],"findings_ja":"24研究を統合し、カフェインと睡眠時間・寝つき等の差、量・時刻のモデルを検討。","limitations_ja":"モデル時刻を個人の無影響境界にしない。単回試験と介入・対象が異なり、レビューと構成研究を独立人数に合算しない。"},{"id":"SC6-SRC039","source_id":"SRC039","topic_ids":["PSY-HAB-001"],"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/","review_scope":"selected_fulltext_sections","study_design":"systematic_review_meta_analysis_and_narrative_synthesis","locators":["2.3 Eligibility and outcome definitions","3.2 Study characteristics; 3.3 Time to reach habit formation","4 Discussion"],"findings_ja":"20研究2601人中、期間報告は4研究。66日は引用されたLally研究の95％漸近値までの推定期間の中央値。測定法が異なり日数のメタ分析は実施できなかった。","limitations_ja":"前後スコア差と期間を分け、前後差を因果にしない。抄録平均106～154に対し本文には自己報告平均91日もあるため、全研究の平均範囲として使わない。","reporting_issues":[{"id":"SC6-HAB-DURATION","type":"reporting_scope_caveat","status":"excluded_from_current_numeric_claims","detail_ja":"抄録の平均106～154日を全研究の平均範囲として反復しない。本文3.3には91日があり測定も異なる。"}]},{"id":"SC6-SRC010","source_id":"SRC010","topic_ids":["PSY-SLP-009"],"url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full","review_scope":"selected_fulltext_sections","study_design":"cross_sectional_concept_and_scale_study","locators":["Introduction: definition","Methods and Discussion"],"findings_ja":"外的理由によらず意図した時刻より就床を遅らせる行動を定義し、自己報告との関連を検討。","limitations_ja":"不眠、勤務・介護制約、夜型を意志の弱さで一括りにしない。横断研究で原因・治療効果は確定しない。","method_signals":2},{"id":"SC6-SRC272","source_id":"SRC272","topic_ids":["PSY-SLP-009"],"url":"https://pubmed.ncbi.nlm.nih.gov/36375334/","review_scope":"abstract","study_design":"systematic_review_meta_analysis_correlates","locators":["Abstract: methods, findings, GRADE and causal caveat"],"findings_ja":"43研究。就寝先延ばしは夜型・日中疲労と正、睡眠時間・質・自己コントロールと負の関連。著者GRADEはlow。","limitations_ja":"相関の統合で因果は不明。著者GRADEを独立評価とせず、2023年同名学会要旨は別研究に数えない。"},{"id":"SC6-SRC273","source_id":"SRC273","topic_ids":["PSY-SLP-009"],"url":"https://link.springer.com/article/10.1186/s40359-024-01557-4","review_scope":"selected_fulltext_sections","study_design":"cross_sectional_scale_validation_with_retest","locators":["Methods: Participants, Survey design","Results: selection","Discussion: limitations"],"findings_ja":"日本語版BPSを日中勤務者20～65歳で検討。募集600人、解析574人、再検査280人。睡眠変数との関連を検討。","limitations_ja":"横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。","method_signals":2},{"id":"SC6-SRC266","source_id":"SRC266","topic_ids":["PSY-MOT-001"],"url":"https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12011","review_scope":"abstract","study_design":"theoretical_review","locators":["Abstract"],"findings_ja":"嫌悪的課題を避けて短期の気分を優先することと将来の自己の目標の対立を論じる理論レビュー。","limitations_ja":"唯一の原因、全個人の機序、時間管理との優劣を確定する介入比較ではない。","method_signals":2},{"id":"SC6-SRC104","source_id":"SRC104","topic_ids":["PSY-MOT-001"],"url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01588/full","review_scope":"selected_fulltext_sections","study_design":"systematic_review_meta_analysis","locators":["Methods: eligibility, non-active comparators, protocol deviations","Results: primary and subgroup analyses","Discussion"],"findings_ja":"12研究21比較N718。平均g=.34。自己報告・非活動的対照。CBT下位群の研究数は少なく、介入方法の優劣とは別。","limitations_ja":"I²61.14％。比較条件制限、少ない長期追跡、介入要素の重なり、自己報告。介入効果を原因の証明にしない。","metrics":[{"metric":"Hedges_g","estimate":0.34,"ci95":[0.11,0.56],"studies":12,"comparisons":21,"n":718}]},{"id":"SC6-SRC046","source_id":"SRC046","topic_ids":["PSY-PER-002"],"url":"https://pubmed.ncbi.nlm.nih.gov/28054797/","review_scope":"abstract","study_design":"systematic_review_meta_analysis","locators":["Abstract: sample, design and trait change"],"findings_ja":"主に臨床介入207研究。平均約24週間、情緒安定性などの尺度変化を統合。","limitations_ja":"RCTだけでなく非実験的・前後比較。症状・特性・一時的状態を区別し、望んだ人格へ必ず変わるとはしない。"},{"id":"SC6-SRC047","source_id":"SRC047","topic_ids":["PSY-PER-002"],"url":"https://doi.org/10.1073/PNAS.2017548118","review_scope":"selected_fulltext_sections","study_design":"randomized_waitlist_digital_intervention","locators":["Methods: Participants, procedure and design","Results: self and observer ratings","Discussion"],"findings_ja":"同意・事前測定1523人、介入開始875人。3か月支援と1か月待機。自己評価で希望方向の変化、一部他者評価にも変化。","limitations_ja":"3か月同期間無介入比較ではない。本人と他者、増加目標と減少目標で違いがある。選択・離脱・他者評定欠測・短い追跡に注意。","metrics":[{"metric":"consenters_baseline","n":1523},{"metric":"intervention_starters","n":875}]},{"id":"SC6-SRC036","source_id":"SRC036","topic_ids":["PSY-GEN-001"],"url":"https://pubmed.ncbi.nlm.nih.gov/25961374/","review_scope":"abstract","study_design":"meta_analysis_behavior_genetics","locators":["Abstract: selection and method differences"],"findings_ja":"採用62独立効果量、10万人超。性格遺伝率平均.40、双生児.47、家族・養子.22。","limitations_ja":"集団・環境の分散の推定。個人の遺伝割合・不変性、残余のすべてが育児という意味でない。全文モデルを再解析していない。","metrics":[{"metric":"heritability_proportion","estimate":0.4},{"metric":"twin_estimate","estimate":0.47},{"metric":"family_adoption_estimate","estimate":0.22}]},{"id":"SC6-SRC037","source_id":"SRC037","topic_ids":["PSY-GEN-001"],"url":"https://www.research.ed.ac.uk/en/publications/familial-similarity-and-heritability-of-personality-traits-and-li/","review_scope":"abstract","study_design":"multimethod_family_study","locators":["Author institutional repository abstract; PubMed PMID40146588"],"findings_ja":"通常の親族で本人・他者評価を組み合わせ、単一評定より高い類似性・遺伝率の推定を報告。","limitations_ja":"全文モデル評価は未実施。加算・非加算など仮定の違いを考慮し、育児や環境が無意味と解釈しない。プレプリントと刊行版は独立根拠でない。","method_signals":2},{"id":"SC6-SRC004","source_id":"SRC004","topic_ids":["PSY-GEN-001"],"url":"https://medlineplus.gov/genetics/understanding/inheritance/heritability/","review_scope":"selected_fulltext_sections","study_design":"official_genetics_explainer","locators":["What is heritability? Definition and interpretation limitations"],"findings_ja":"遺伝率は集団内の個人差に対する遺伝の関わり。個人の割合・不変性ではなく、集団・環境・時代に依存。","limitations_ja":"性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。","method_signals":2}]}
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "review_boundary_ja": "原文の確認した箇所に対するAI支援の単独読解。独立査読、全補足資料の点検、元データ再解析、正式なリスクオブバイアス・確実性評価は未実施。",
+  "defaults": {
+    "checked_on": "2026-09-11",
+    "evidence_relation_role": "direct_or_targeted_evidence",
+    "method_signals": 3,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "review_method": "AI_assisted_single_source_text_and_editorial_check",
+    "independent_review_completed": false,
+    "metrics": [],
+    "reporting_issues": []
+  },
+  "checks": [
+    {
+      "id": "SC6-SRC169",
+      "source_id": "SRC169",
+      "topic_ids": [
+        "PSY-MON-002"
+      ],
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022435924000216",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "multilevel_meta_analysis",
+      "locators": [
+        "3 Methodology: eligibility, selection, outlier removal",
+        "4.1 Overall effect; moderator analyses; robustness",
+        "5 Discussion and limitations"
+      ],
+      "findings_ja": "外れ値2効果量を除いた主要解析は71論文392効果量。実支出・購入点数・支払意思額を含む。平均標準化差は小さく、研究間の異質性が大きい。消費場面等の条件差を検討している。",
+      "limitations_ja": "意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。",
+      "metrics": [
+        {
+          "metric": "Hedges g",
+          "estimate": 0.135,
+          "ci95": [
+            0.068,
+            0.203
+          ],
+          "estimand": "cashless versus cash spending-related outcomes",
+          "k_effects": 392,
+          "papers": 71
+        },
+        {
+          "metric": "I_squared_percent",
+          "estimate": 86.2
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC159",
+      "source_id": "SRC159",
+      "topic_ids": [
+        "PSY-DIG-004",
+        "PSY-DIG-001"
+      ],
+      "url": "https://academic.oup.com/pnasnexus/article/4/2/pgaf017/8016017",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "randomized_waitlist_trial",
+      "locators": [
+        "Results: Study design and compliance; ITT and TOT definitions",
+        "Primary analyses and attrition",
+        "Discussion: demand effects, selection and follow-up"
+      ],
+      "findings_ja": "467人を即時遮断と待機へ割付。266人導入、119人が10/14日以上の遮断基準を達成。3時点自己報告完了313人。主要解析は遵守者に限定しないが完全ケース中心。心理指標と持続的注意に改善を報告。",
+      "limitations_ja": "欠測、期待、削減意欲による選択、4週間の範囲に注意。通話・SMS・他端末は利用可能。SNS単独、抗うつ薬との直接比較、脳年齢の若返りの証拠ではない。",
+      "metrics": [
+        {
+          "metric": "agreed_randomized_participants",
+          "n": 467
+        },
+        {
+          "metric": "installed",
+          "n": 266
+        },
+        {
+          "metric": "preregistered_compliance",
+          "n": 119,
+          "denominator": 467,
+          "criterion": "blocked >=10 of 14 days",
+          "percent": 25.5
+        },
+        {
+          "metric": "complete_three_wave_self_reports",
+          "n": 313
+        }
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-DIG-ITT",
+          "type": "interpretation_caution",
+          "status": "addressed_in_current_manuscript",
+          "detail_ja": "著者のITTという名称を全467人の完全追跡としない。313人を全注意課題の分母にしない。"
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC149",
+      "source_id": "SRC149",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "url": "https://ajcn.nutrition.org/article/S0002-9165(23)05467-9/fulltext",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Methods: search, selection and measurement",
+        "Results: distraction during and after meals",
+        "Discussion and limitations"
+      ],
+      "findings_ja": "19論文24実験を整理。注意をそらす操作で、その場・後の摂取増加を報告。多くは若い成人・短時間の実験。",
+      "limitations_ja": "全24実験が同じ操作・結果ではない。SMDを％摂取量・体重変化にしない。記憶を唯一の機序とせず、2025年のテレビレビューと区別する。",
+      "metrics": [
+        {
+          "metric": "SMD immediate distraction",
+          "estimate": 0.39,
+          "ci95": [
+            0.25,
+            0.53
+          ]
+        },
+        {
+          "metric": "SMD later intake distraction",
+          "estimate": 0.76,
+          "ci95": [
+            0.45,
+            1.07
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC150",
+      "source_id": "SRC150",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "url": "https://www.mdpi.com/2072-6643/17/1/166",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Abstract",
+        "Results 4.1 and 4.4"
+      ],
+      "findings_ja": "2025年テレビ視聴レビューを2013年の注意レビューと区別。全体とテレビのみ、即時と後の摂取の報告を照合。",
+      "limitations_ja": "公開HTMLの抄録と4.4のCIに違いがあり、F統計量に負値の記載がある。修正値を推測せず該当定量結果を現稿から除外。撤回や結論無効を認定したものではない。",
+      "evidence_relation_role": "context_only",
+      "method_signals": 2,
+      "reporting_issues": [
+        {
+          "id": "SC6-TV-CI",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "遅延CIは抄録.03～.57、本文4.4 .08～.53。即時CI下限も抄録−.01、本文.00で異なる。"
+        },
+        {
+          "id": "SC6-TV-F",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "本文4.4 F(1,27)=−1.84。通常のF統計量は非負。t等への推測修正はしない。"
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC271",
+      "source_id": "SRC271",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "url": "https://link.springer.com/article/10.1186/s12889-019-6923-x",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "randomized_controlled_trial",
+      "locators": [
+        "Methods: design, sample, randomisation and blinding, statistical analyses",
+        "Results: sample, primary outcomes and adherence analyses",
+        "Discussion"
+      ],
+      "findings_ja": "減量希望の過体重・肥満成人107人をアプリ＋助言53人と同じ助言54人へ割付。8週調整体重差−.10kg、CI−1.6～1.3。摂取量にも明確な差なし。多重代入で主要解析に全割付者を維持。",
+      "limitations_ja": "英国、参加者・測定者非盲検、8週完了85人。特定アプリ上乗せの試験で、全注意介入の無効とはしない。2020年の利用者解析は同試験由来で独立追試に数えない。",
+      "metrics": [
+        {
+          "metric": "randomized_n",
+          "n": 107,
+          "arms": [
+            53,
+            54
+          ]
+        },
+        {
+          "metric": "8_week_followup_n",
+          "n": 85
+        },
+        {
+          "metric": "adjusted_difference_body_weight_kg",
+          "estimate": -0.1,
+          "ci95": [
+            -1.6,
+            1.3
+          ],
+          "timepoint_weeks": 8
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC054",
+      "source_id": "SRC054",
+      "topic_ids": [
+        "PSY-ATT-004"
+      ],
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Methods: inclusion and synthesis",
+        "Results: Table 3 and moderators",
+        "Discussion"
+      ],
+      "findings_ja": "19記録22独立標本N2335。活力d.36、疲労軽減d.35。成績15標本N1132 d.16、CI−.04～.37。課題・時間で条件差。",
+      "limitations_ja": "dを％改善にしない。休憩時間の研究間回帰は最適分数の因果検証でない。本文と表のp値は一致せず、記事は一致する推定値とCIを使用。",
+      "metrics": [
+        {
+          "metric": "vigor_d",
+          "estimate": 0.36,
+          "ci95": [
+            0.16,
+            0.55
+          ],
+          "samples": 9,
+          "n": 913
+        },
+        {
+          "metric": "fatigue_reduction_d",
+          "estimate": 0.35,
+          "ci95": [
+            0.19,
+            0.5
+          ],
+          "samples": 9,
+          "n": 803
+        },
+        {
+          "metric": "performance_d",
+          "estimate": 0.16,
+          "ci95": [
+            -0.04,
+            0.37
+          ],
+          "samples": 15,
+          "n": 1132
+        }
+      ],
+      "reporting_issues": [
+        {
+          "id": "SC6-BREAK-P",
+          "type": "reporting_inconsistency",
+          "status": "open_original_paper_check",
+          "detail_ja": "本文の成績p=.17、Table3 p=.116。dとCIは一致し両方5％非有意。記事ではpを用いず、データ修正は主張しない。"
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC038",
+      "source_id": "SRC038",
+      "topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "url": "https://academic.oup.com/sleep/article/48/4/zsae230/7815486",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "double_blind_randomized_crossover_trial",
+      "locators": [
+        "Materials and Methods: Participants, Experimental design, Statistical analysis",
+        "Results: Participants and dose/timing contrasts",
+        "Limitations and Practical Recommendations"
+      ],
+      "findings_ja": "30人割付、3人辞退4人不遵守除外し健康男性23人を解析。朝は各人の習慣量、追加100/400mgを就寝12/8/4時間前に比較。400mgで一部指標悪化、100mgで明確な差なし。主観・客観にずれ。",
+      "limitations_ja": "同等性試験でなく100mg無害を保証しない。単回追加量は1日総量・分割摂取と異なる。若年男性、睡眠・医学的条件・交代勤務を除外。遺伝効果の検出力不足、自宅環境、1条件1夜、複数比較の限界。",
+      "metrics": [
+        {
+          "metric": "randomized_n",
+          "n": 30
+        },
+        {
+          "metric": "analysis_n",
+          "n": 23
+        },
+        {
+          "metric": "additional_doses_mg",
+          "values": [
+            100,
+            400
+          ]
+        },
+        {
+          "metric": "hours_before_bed",
+          "values": [
+            12,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC111",
+      "source_id": "SRC111",
+      "topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "url": "https://doi.org/10.1016/j.smrv.2023.101764",
+      "review_scope": "abstract",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Abstract: pooled outcomes and model-derived timing"
+      ],
+      "findings_ja": "24研究を統合し、カフェインと睡眠時間・寝つき等の差、量・時刻のモデルを検討。",
+      "limitations_ja": "モデル時刻を個人の無影響境界にしない。単回試験と介入・対象が異なり、レビューと構成研究を独立人数に合算しない。"
+    },
+    {
+      "id": "SC6-SRC039",
+      "source_id": "SRC039",
+      "topic_ids": [
+        "PSY-HAB-001"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "systematic_review_meta_analysis_and_narrative_synthesis",
+      "locators": [
+        "2.3 Eligibility and outcome definitions",
+        "3.2 Study characteristics; 3.3 Time to reach habit formation",
+        "4 Discussion"
+      ],
+      "findings_ja": "20研究2601人中、期間報告は4研究。66日は引用されたLally研究の95％漸近値までの推定期間の中央値。測定法が異なり日数のメタ分析は実施できなかった。",
+      "limitations_ja": "前後スコア差と期間を分け、前後差を因果にしない。抄録平均106～154に対し本文には自己報告平均91日もあるため、全研究の平均範囲として使わない。",
+      "reporting_issues": [
+        {
+          "id": "SC6-HAB-DURATION",
+          "type": "reporting_scope_caveat",
+          "status": "excluded_from_current_numeric_claims",
+          "detail_ja": "抄録の平均106～154日を全研究の平均範囲として反復しない。本文3.3には91日があり測定も異なる。"
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC010",
+      "source_id": "SRC010",
+      "topic_ids": [
+        "PSY-SLP-009"
+      ],
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "cross_sectional_concept_and_scale_study",
+      "locators": [
+        "Introduction: definition",
+        "Methods and Discussion"
+      ],
+      "findings_ja": "外的理由によらず意図した時刻より就床を遅らせる行動を定義し、自己報告との関連を検討。",
+      "limitations_ja": "不眠、勤務・介護制約、夜型を意志の弱さで一括りにしない。横断研究で原因・治療効果は確定しない。",
+      "method_signals": 2
+    },
+    {
+      "id": "SC6-SRC272",
+      "source_id": "SRC272",
+      "topic_ids": [
+        "PSY-SLP-009"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36375334/",
+      "review_scope": "abstract",
+      "study_design": "systematic_review_meta_analysis_correlates",
+      "locators": [
+        "Abstract: methods, findings, GRADE and causal caveat"
+      ],
+      "findings_ja": "43研究。就寝先延ばしは夜型・日中疲労と正、睡眠時間・質・自己コントロールと負の関連。著者GRADEはlow。",
+      "limitations_ja": "相関の統合で因果は不明。著者GRADEを独立評価とせず、2023年同名学会要旨は別研究に数えない。"
+    },
+    {
+      "id": "SC6-SRC273",
+      "source_id": "SRC273",
+      "topic_ids": [
+        "PSY-SLP-009"
+      ],
+      "url": "https://link.springer.com/article/10.1186/s40359-024-01557-4",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "cross_sectional_scale_validation_with_retest",
+      "locators": [
+        "Methods: Participants, Survey design",
+        "Results: selection",
+        "Discussion: limitations"
+      ],
+      "findings_ja": "日本語版BPSを日中勤務者20～65歳で検討。募集600人、解析574人、再検査280人。睡眠変数との関連を検討。",
+      "limitations_ja": "横断的自己報告、交代勤務へ一般化しない。診断カットオフ・全国有病率・介入効果ではない。文献欄のHillレビューの誤ったDOIを転記せず、直接確認した10.1016/j.smrv.2022.101697を採用。",
+      "method_signals": 2
+    },
+    {
+      "id": "SC6-SRC266",
+      "source_id": "SRC266",
+      "topic_ids": [
+        "PSY-MOT-001"
+      ],
+      "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12011",
+      "review_scope": "abstract",
+      "study_design": "theoretical_review",
+      "locators": [
+        "Abstract"
+      ],
+      "findings_ja": "嫌悪的課題を避けて短期の気分を優先することと将来の自己の目標の対立を論じる理論レビュー。",
+      "limitations_ja": "唯一の原因、全個人の機序、時間管理との優劣を確定する介入比較ではない。",
+      "method_signals": 2
+    },
+    {
+      "id": "SC6-SRC104",
+      "source_id": "SRC104",
+      "topic_ids": [
+        "PSY-MOT-001"
+      ],
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01588/full",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Methods: eligibility, non-active comparators, protocol deviations",
+        "Results: primary and subgroup analyses",
+        "Discussion"
+      ],
+      "findings_ja": "12研究21比較N718。平均g=.34。自己報告・非活動的対照。CBT下位群の研究数は少なく、介入方法の優劣とは別。",
+      "limitations_ja": "I²61.14％。比較条件制限、少ない長期追跡、介入要素の重なり、自己報告。介入効果を原因の証明にしない。",
+      "metrics": [
+        {
+          "metric": "Hedges_g",
+          "estimate": 0.34,
+          "ci95": [
+            0.11,
+            0.56
+          ],
+          "studies": 12,
+          "comparisons": 21,
+          "n": 718
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC046",
+      "source_id": "SRC046",
+      "topic_ids": [
+        "PSY-PER-002"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/",
+      "review_scope": "abstract",
+      "study_design": "systematic_review_meta_analysis",
+      "locators": [
+        "Abstract: sample, design and trait change"
+      ],
+      "findings_ja": "主に臨床介入207研究。平均約24週間、情緒安定性などの尺度変化を統合。",
+      "limitations_ja": "RCTだけでなく非実験的・前後比較。症状・特性・一時的状態を区別し、望んだ人格へ必ず変わるとはしない。"
+    },
+    {
+      "id": "SC6-SRC047",
+      "source_id": "SRC047",
+      "topic_ids": [
+        "PSY-PER-002"
+      ],
+      "url": "https://doi.org/10.1073/PNAS.2017548118",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "randomized_waitlist_digital_intervention",
+      "locators": [
+        "Methods: Participants, procedure and design",
+        "Results: self and observer ratings",
+        "Discussion"
+      ],
+      "findings_ja": "同意・事前測定1523人、介入開始875人。3か月支援と1か月待機。自己評価で希望方向の変化、一部他者評価にも変化。",
+      "limitations_ja": "3か月同期間無介入比較ではない。本人と他者、増加目標と減少目標で違いがある。選択・離脱・他者評定欠測・短い追跡に注意。",
+      "metrics": [
+        {
+          "metric": "consenters_baseline",
+          "n": 1523
+        },
+        {
+          "metric": "intervention_starters",
+          "n": 875
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC036",
+      "source_id": "SRC036",
+      "topic_ids": [
+        "PSY-GEN-001"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25961374/",
+      "review_scope": "abstract",
+      "study_design": "meta_analysis_behavior_genetics",
+      "locators": [
+        "Abstract: selection and method differences"
+      ],
+      "findings_ja": "採用62独立効果量、10万人超。性格遺伝率平均.40、双生児.47、家族・養子.22。",
+      "limitations_ja": "集団・環境の分散の推定。個人の遺伝割合・不変性、残余のすべてが育児という意味でない。全文モデルを再解析していない。",
+      "metrics": [
+        {
+          "metric": "heritability_proportion",
+          "estimate": 0.4
+        },
+        {
+          "metric": "twin_estimate",
+          "estimate": 0.47
+        },
+        {
+          "metric": "family_adoption_estimate",
+          "estimate": 0.22
+        }
+      ]
+    },
+    {
+      "id": "SC6-SRC037",
+      "source_id": "SRC037",
+      "topic_ids": [
+        "PSY-GEN-001"
+      ],
+      "url": "https://www.research.ed.ac.uk/en/publications/familial-similarity-and-heritability-of-personality-traits-and-li/",
+      "review_scope": "abstract",
+      "study_design": "multimethod_family_study",
+      "locators": [
+        "Author institutional repository abstract; PubMed PMID40146588"
+      ],
+      "findings_ja": "通常の親族で本人・他者評価を組み合わせ、単一評定より高い類似性・遺伝率の推定を報告。",
+      "limitations_ja": "全文モデル評価は未実施。加算・非加算など仮定の違いを考慮し、育児や環境が無意味と解釈しない。プレプリントと刊行版は独立根拠でない。",
+      "method_signals": 2
+    },
+    {
+      "id": "SC6-SRC004",
+      "source_id": "SRC004",
+      "topic_ids": [
+        "PSY-GEN-001"
+      ],
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/",
+      "review_scope": "selected_fulltext_sections",
+      "study_design": "official_genetics_explainer",
+      "locators": [
+        "What is heritability? Definition and interpretation limitations"
+      ],
+      "findings_ja": "遺伝率は集団内の個人差に対する遺伝の関わり。個人の割合・不変性ではなく、集団・環境・時代に依存。",
+      "limitations_ja": "性格の具体的遺伝率を実測した資料ではない。特定の遺伝子・個人予測を保証しない。",
+      "method_signals": 2
+    },
+    {
+      "id": "SC7-SRC136",
+      "source_id": "SRC136",
+      "topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "url": "https://doi.org/10.1086/651235",
+      "study_design": "meta_analysis",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract; publication metadata"
+      ],
+      "findings_ja": "50実験に含まれる63条件・5036人を統合。平均効果はほぼゼロ、研究間のばらつきが大きい。",
+      "limitations_ja": "各場面の無効果・同等性は保証しない。2015年レビューと収載研究が重なり得るため人数を足さない。"
+    },
+    {
+      "id": "SC7-SRC269",
+      "source_id": "SRC269",
+      "topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "url": "https://doi.org/10.1016/j.jcps.2014.08.002",
+      "study_design": "meta_analysis",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract; study scope"
+      ],
+      "findings_ja": "99観測・7202人、複雑さ・課題の難度・好みの不確かさ・選択目標の条件差を検討。",
+      "limitations_ja": "個人への最適な選択肢数を確定しない。",
+      "reporting_issues": [
+        {
+          "detail_ja": "p.348の係数bとt値を訂正したSRC270を照合。",
+          "status": "correction_notice_content_checked"
+        }
+      ]
+    },
+    {
+      "id": "SC7-SRC270",
+      "source_id": "SRC270",
+      "topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "url": "https://myscp.onlinelibrary.wiley.com/doi/10.1016/j.jcps.2015.07.001",
+      "study_design": "correction_notice",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Full corrigendum; three corrected statistics on p.348"
+      ],
+      "findings_ja": "2015年レビューの回帰係数bとt値の3箇所の記載を訂正。オンライン2015年、巻号2016年。",
+      "limitations_ja": "2010年の別レビューへの訂正ではない。独立した効果研究や元データの再解析に数えない。"
+    },
+    {
+      "id": "SC7-SRC274",
+      "source_id": "SRC274",
+      "topic_ids": [
+        "PSY-SLP-007"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20815182/",
+      "study_design": "randomized_sleep_restriction_recovery_experiment",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: Design, Participants, Interventions, Results"
+      ],
+      "findings_ja": "159人のうち142人が5夜4時間の就床機会後に回復量を割付、17人対照。回復量に応じ改善するが、10時間の就床機会でも注意・主観的眠気・疲労の一部は基準値まで戻らなかった。",
+      "limitations_ja": "健康成人22～45歳の強い制限条件。就床10時間は平均実睡眠8.96時間。個人の回復量を計算できない。"
+    },
+    {
+      "id": "SC7-SRC101",
+      "source_id": "SRC101",
+      "topic_ids": [
+        "PSY-SLP-007"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12798825/",
+      "study_design": "randomized_parallel_laboratory_experiment",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Summary; Results and Discussion; Conclusions; experimental groups"
+      ],
+      "findings_ja": "健康若年成人36人、9時間就床8人・5時間継続14人・週末自由睡眠と再制限14人。週末の改善の一部は維持されず、再制限時の代謝変化を防ぎきれなかった。",
+      "limitations_ja": "短期実験で糖尿病予防を評価していない。群内の有意差を群間差とせず、自由な食事等の条件を含む。睡眠だけによる体重増加率を断定しない。"
+    },
+    {
+      "id": "SC7-SRC275",
+      "source_id": "SRC275",
+      "topic_ids": [
+        "PSY-SLP-001"
+      ],
+      "url": "https://www.mhlw.go.jp/content/001305530.pdf",
+      "study_design": "official_public_health_guidance",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "印刷p.9 基本的事項 (PDF page11)",
+        "印刷p.11 成人版 (PDF page13); screenshots checked"
+      ],
+      "findings_ja": "個人差を踏まえ6時間以上を目安に必要な睡眠を確保。時間以外に休養感や日中の支障、改善しない問題への相談を扱う。",
+      "limitations_ja": "全員6時間で十分という個別必要量の診断ではない。年齢群を区別し、睡眠制限療法や薬の選択に転用しない。"
+    },
+    {
+      "id": "SC7-SRC276",
+      "source_id": "SRC276",
+      "topic_ids": [
+        "PSY-SLP-001"
+      ],
+      "url": "https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/",
+      "study_design": "professional_society_consensus",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "AASM official explanation June4 2015: adults18–60",
+        "PubMed26039963: consensus method and citation"
+      ],
+      "findings_ja": "AASM/SRS声明は18～60歳に日常的な7時間以上を推奨。既存証拠の専門家審議であり、個人必要量の測定試験ではない。",
+      "limitations_ja": "日本の目安との違いを一方が全員の最適時間を確定したと解釈しない。同じ声明の別誌版は独立研究ではない。"
+    },
+    {
+      "id": "SC7-SRC050",
+      "source_id": "SRC050",
+      "topic_ids": [
+        "PSY-LEA-001"
+      ],
+      "url": "https://doi.org/10.1037/bul0000309",
+      "study_design": "systematic_meta_analytic_review",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: 222 studies,48478 students; moderators"
+      ],
+      "findings_ja": "教室場面の222研究48478人で小テストの平均効果g=.499。対照学習法、訂正、教材への対応などで差。",
+      "limitations_ja": "標準化差を50％の得点増加としない。全資格試験の合格や一般能力の向上は保証しない。",
+      "metrics": [
+        {
+          "metric": "Hedges g",
+          "estimate": 0.499
+        }
+      ]
+    },
+    {
+      "id": "SC7-SRC277",
+      "source_id": "SRC277",
+      "topic_ids": [
+        "PSY-LEA-001"
+      ],
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "study_design": "two_learning_experiments",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: prose, testing/restudy, five minutes/two days/one week"
+      ],
+      "findings_ja": "2実験で文章の想起と再学習を比較。5分後は再学習、2日・1週間後は想起が優位。再学習の自信と保持は一致しなかった。",
+      "limitations_ja": "実験で答えを提示しない条件を、日常で誤答を訂正しない推奨へ変えない。レビューとの研究重複も未点検。"
+    },
+    {
+      "id": "SC7-SRC075",
+      "source_id": "SRC075",
+      "topic_ids": [
+        "PSY-WRK-002"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+      "study_design": "meta_analysis_interventions",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: 30studies,34interventions,N3725,d=.36"
+      ],
+      "findings_ja": "心理的切り離しの介入の統合で平均d=.36の改善。介入量や状況で条件差。",
+      "limitations_ja": "切り離し尺度の改善と睡眠・身体疾患・生産性の改善は別。労働条件の影響を除外しない。"
+    },
+    {
+      "id": "SC7-SRC278",
+      "source_id": "SRC278",
+      "topic_ids": [
+        "PSY-WRK-002"
+      ],
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+      "study_design": "longitudinal_goal_study_and_planning_experiment",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract; Practitioner points distinguished from measured outcomes"
+      ],
+      "findings_ja": "103従業員1127目標。重要で未完了の目標ほど離れにくい関連。計画操作は離れにくい特性の人で効果を示した。",
+      "limitations_ja": "計画が全員に同じ効果とはしない。長期健康や成果は抄録で直接測定したと確認できない。"
+    },
+    {
+      "id": "SC7-SRC012",
+      "source_id": "SRC012",
+      "topic_ids": [
+        "PSY-DIG-001"
+      ],
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841",
+      "study_design": "observational_experience_sampling",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Methods; participants/experience sampling; Results; Discussion limitations"
+      ],
+      "findings_ja": "若年成人82人を募集し2週間の自己報告を追跡。Facebook利用と後の感情・生活満足の低下の関連。",
+      "limitations_ja": "時間の前後を追っても無作為化ではない。2013年Facebookと若年標本、自己報告、残る交絡を考慮。"
+    },
+    {
+      "id": "SC7-SRC160",
+      "source_id": "SRC160",
+      "topic_ids": [
+        "PSY-DIG-001"
+      ],
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
+      "study_design": "randomized_facebook_deactivation_trial",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: four weeks before2018USmidterm; wellbeing/news/offline activity"
+      ],
+      "findings_ja": "4週間のFacebook停止で主観的幸福の改善、ニュース知識の低下、オフライン活動の増加等を報告。",
+      "limitations_ja": "特定時代・国・サービス・参加者。全指標の改善や臨床治療効果は示さない。"
+    },
+    {
+      "id": "SC7-SRC245",
+      "source_id": "SRC245",
+      "topic_ids": [
+        "PSY-DIG-001"
+      ],
+      "url": "https://academic.oup.com/jcmc/article/29/1/zmad055/7595758",
+      "study_design": "meta_analysis",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Publication history Jan31 2024; Abstract; Method; Results/Table1"
+      ],
+      "findings_ja": "141研究。多くの能動・受動的利用と幸福指標の関連は小さく、支援・年齢・利用文脈で差。多くは横断観察・自己報告。",
+      "limitations_ja": "人同士の関連を個人の利用変更の効果としない。合計897と内訳562+334の1件差は独自に修正せず、記事で使わない。",
+      "reporting_issues": [
+        {
+          "detail_ja": "Results897と562active+334passiveが一致しない。解析再実行なし。本文では該当数を不使用。",
+          "status": "reported_mismatch_not_used_in_manuscript"
+        }
+      ]
+    },
+    {
+      "id": "SC7-SRC068",
+      "source_id": "SRC068",
+      "topic_ids": [
+        "PSY-WEL-005"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36857342/",
+      "study_design": "adversarial_collaboration_reanalysis",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: reanalysis; quantiles; log income; ceiling effect"
+      ],
+      "findings_ja": "既存の経験サンプリングデータの再分析。幸福の低い層と他の層で所得との関係が異なる。",
+      "limitations_ja": "新たな独立試験や増収介入ではない。日本の個人への普遍的所得閾値は導けない。"
+    },
+    {
+      "id": "SC7-SRC279",
+      "source_id": "SRC279",
+      "topic_ids": [
+        "PSY-WEL-005"
+      ],
+      "url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+      "study_design": "unreviewed_working_paper_model_reanalysis",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract; publication date2026-02-18; university author publication list(non-peer-reviewed)"
+      ],
+      "findings_ja": "折れ線モデルの連続性等の仮定を変えると、所得と幸福の頭打ちについての推論が変わると報告。",
+      "limitations_ja": "査読前のモデル検討。同じデータの再分析を独立した新標本の追試や確定反証と扱わない。"
+    },
+    {
+      "id": "SC7-SRC268",
+      "source_id": "SRC268",
+      "topic_ids": [
+        "PSY-HAB-005"
+      ],
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206294",
+      "study_design": "systematic_review_meta_analysis_randomized_trials",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Results:13RCTreviewed/11pooled; subgroup; Discussion:self-report measures"
+      ],
+      "findings_ja": "全体SMD=.15(95％CI−.01～.31)。計画強化の研究群は.25(.05～.45)。身体活動は全研究で自己報告。",
+      "limitations_ja": "一方で有意・他方で非有意だけでは群間の優越を示さない。計画単独、強化、他の要素を分離する。客観的活動量や長期健康を保証しない。",
+      "metrics": [
+        {
+          "metric": "SMD overall",
+          "estimate": 0.15,
+          "ci95": [
+            -0.01,
+            0.31
+          ]
+        },
+        {
+          "metric": "SMD reinforced subgroup",
+          "estimate": 0.25,
+          "ci95": [
+            0.05,
+            0.45
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SC7-SRC093",
+      "source_id": "SRC093",
+      "topic_ids": [
+        "PSY-LAN-008"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28447835/",
+      "study_design": "two_conversation_experiments_and_speed_dating_observation",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract; related critique/reply/correction links"
+      ],
+      "findings_ja": "質問・追質問と相手からの好意や応答性の関連を報告。実験と観察を含む。",
+      "limitations_ja": "質問回数と傾聴は同一ではない。2019年の再分析・応答と2025年訂正を別に確認。"
+    },
+    {
+      "id": "SC7-SRC280",
+      "source_id": "SRC280",
+      "topic_ids": [
+        "PSY-LAN-008"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31714108/",
+      "study_design": "reanalysis_and_methodological_critique",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: Study3, dyadic analysis, outcome conceptualization"
+      ],
+      "findings_ja": "短時間デートの元データの人物・相手・二者関係の分析や、次のデート希望を好意と扱う点を批判。質問数を傾聴の質と同一視しない。",
+      "limitations_ja": "新しい参加者の追試ではなく第3研究の再分析。元の会話実験すべての否定とはしない。"
+    },
+    {
+      "id": "SC7-SRC281",
+      "source_id": "SRC281",
+      "topic_ids": [
+        "PSY-LAN-008"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31714109/",
+      "study_design": "author_reply_and_reanalysis",
+      "review_scope": "abstract",
+      "locators": [
+        "Abstract: response to critique and follow-up questions"
+      ],
+      "findings_ja": "原著者らが追質問の意義を擁護し、同一データと解釈への批判に応答。",
+      "limitations_ja": "著者の応答を新標本による独立再現と数えない。批判と併記する。"
+    },
+    {
+      "id": "SC7-SRC094",
+      "source_id": "SRC094",
+      "topic_ids": [
+        "PSY-LAN-008"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40111841/",
+      "study_design": "correction_notice",
+      "review_scope": "abstract",
+      "locators": [
+        "Correction abstract; independent audit description; linked OSF not reanalysed"
+      ],
+      "findings_ja": "2025年訂正は、独立監査で軽微な報告誤りが確認され、主たる結論は維持されたと記載。",
+      "limitations_ja": "独立監査は告知が報告する作業で本プロジェクトの実施ではない。理論・分析の批判まで自動的に解決しない。"
+    },
+    {
+      "id": "SC7-SRC069",
+      "source_id": "SRC069",
+      "topic_ids": [
+        "PSY-MON-001"
+      ],
+      "url": "https://doi.org/10.1073/pnas.1706541114",
+      "study_design": "surveys_and_counterbalanced_within_person_field_experiment",
+      "review_scope": "selected_fulltext_sections",
+      "locators": [
+        "Methods/Results:Study8N60,two40dollarweekends,prespecifiedsequentialstopping",
+        "SurveysN6271; Discussion; 2022changehistory"
+      ],
+      "findings_ja": "4か国6271人の調査と、働く成人60人の2週末の実験。時間節約と物への各40ドルの支出の順序を釣り合わせ、当日の気分を比較。",
+      "limitations_ja": "短期の気分と長期生活満足を分離。事前設定の逐次募集停止と片側検定の手続きも記載。日本の全家計の最適支出額を決定しない。",
+      "reporting_issues": [
+        {
+          "detail_ja": "2022-10-19はOSF事前登録リンク更新。データ撤回として扱わない。",
+          "status": "change_history_checked"
+        }
+      ]
+    }
+  ]
+}

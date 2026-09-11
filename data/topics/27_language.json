@@ -205,7 +205,9 @@
       "priority": 1,
       "source_ids": [
         "SRC093",
-        "SRC094"
+        "SRC094",
+        "SRC280",
+        "SRC281"
       ],
       "caution_ja": "尋問やプライバシー侵害を勧めず、相互性を重視する。",
       "related_topic_ids": [
@@ -219,6 +221,12 @@
       },
       "research_brief_ids": [
         "RB-28447835"
+      ],
+      "source_review_ids": [
+        "SC7-SRC093",
+        "SC7-SRC280",
+        "SC7-SRC281",
+        "SC7-SRC094"
       ]
     },
     {

@@ -36,22 +36,43 @@
           "edge_id": "EV-PSY-WRK-002-SRC075",
           "source_id": "SRC075",
           "title": "Interventions for improving psychological detachment from work: A meta-analysis.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "切り離し尺度の改善と睡眠・身体疾患・生産性の改善は別。労働条件の影響を除外しない。",
+          "priority_score": 82.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WRK-002-SRC278",
+          "source_id": "SRC278",
+          "title": "Successfully leaving work at work: The self-regulatory underpinnings of psychological detachment",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "計画が全員に同じ効果とはしない。長期健康や成果は抄録で直接測定したと確認できない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-WRK-002-SRC100",
@@ -72,7 +93,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },
@@ -311,15 +332,15 @@
           "edge_id": "EV-PSY-WRK-010-SRC075",
           "source_id": "SRC075",
           "title": "Interventions for improving psychological detachment from work: A meta-analysis.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

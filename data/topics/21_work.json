@@ -41,7 +41,8 @@
       "priority": 1,
       "source_ids": [
         "SRC075",
-        "SRC100"
+        "SRC100",
+        "SRC278"
       ],
       "caution_ja": "考えない努力だけを解決策にせず、業務量と連絡ルールも扱う。",
       "related_topic_ids": [
@@ -56,6 +57,10 @@
       "research_brief_ids": [
         "RB-34096763",
         "RB-40691306"
+      ],
+      "source_review_ids": [
+        "SC7-SRC075",
+        "SC7-SRC278"
       ]
     },
     {

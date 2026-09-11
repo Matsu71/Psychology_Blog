@@ -14,11 +14,16 @@
       "priority": 1,
       "source_ids": [
         "SRC027",
-        "SRC050"
+        "SRC050",
+        "SRC277"
       ],
       "caution_ja": "確認テストを成績評価や罰と混同しない。誤答の修正と学習材料を確認する。",
       "research_brief_ids": [
         "RB-33683913"
+      ],
+      "source_review_ids": [
+        "SC7-SRC050",
+        "SC7-SRC277"
       ]
     },
     {

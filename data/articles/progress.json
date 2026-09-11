@@ -6,7 +6,7 @@
   "theme_count": 300,
   "manuscript_count": 26,
   "claim_dossier_count": 26,
-  "claim_and_caution_count": 75,
+  "claim_and_caution_count": 77,
   "revised_manuscript_count": 20,
   "publication_ready_count": 0,
   "top20_topic_ids": [
@@ -39,19 +39,29 @@
     "原稿の再編集と独立した科学的査読、医療上の安全確認、公開承認を分離しています。",
     "300テーマの状態をすべて記録し、未着手の記事を完成数へ加算しません。"
   ],
-  "source_checked_manuscript_count": 10,
+  "source_checked_manuscript_count": 20,
   "source_checked_manuscript_ids": [
+    "PSY-SLP-001",
     "PSY-SLP-004",
+    "PSY-SLP-007",
     "PSY-SLP-009",
     "PSY-GEN-001",
     "PSY-HAB-001",
+    "PSY-HAB-005",
     "PSY-PER-002",
     "PSY-MOT-001",
+    "PSY-LEA-001",
     "PSY-ATT-004",
+    "PSY-DEC-006",
+    "PSY-WEL-005",
     "PSY-NUT-003",
+    "PSY-DIG-001",
     "PSY-DIG-004",
-    "PSY-MON-002"
+    "PSY-WRK-002",
+    "PSY-MON-001",
+    "PSY-MON-002",
+    "PSY-LAN-008"
   ],
   "latest_editorial_pass": "source-editorial-pass-20260911",
-  "top20_source_checked_count": 10
+  "top20_source_checked_count": 20
 }

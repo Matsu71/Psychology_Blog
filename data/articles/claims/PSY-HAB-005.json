@@ -1,40 +1,21 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-HAB-005",
-  "title_ja": "『もし帰宅したら、まず着替える』——行動を始める計画はどう役立つ？",
+  "title_ja": "『もし雨なら室内で歩く』――実行計画は、どこまで行動を助ける？",
   "category_id": "habits",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-HAB-005.json",
+  "authoring_input_sha256": "3b3253e0cacab37a6494442890749f530203692c9b723634db19ff8f77b4f58e",
   "source_resolution": {
-    "S1": {
+    "SRC268": {
       "selector": {
-        "key": "S1",
-        "doi": "10.1016/s0065-2601(06)38002-1"
-      },
-      "source_ids": [
-        "SRC124"
-      ],
-      "resolution_method": "exact_identifier",
-      "claim_support_verified_by_compiler": false
-    },
-    "S2": {
-      "selector": {
-        "key": "S2",
-        "pmid": "30427874"
+        "source_id": "SRC268",
+        "doi": "10.1371/journal.pone.0206294"
       },
       "source_ids": [
         "SRC268"
-      ],
-      "resolution_method": "exact_identifier",
-      "claim_support_verified_by_compiler": false
-    },
-    "S3": {
-      "selector": {
-        "key": "S3",
-        "pmid": "34054628"
-      },
-      "source_ids": [
-        "SRC098"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -42,56 +23,75 @@
   },
   "claims": [
     {
-      "id": "PSY-HAB-005-C01",
-      "claim_ja": "実行意図は、目標だけでなく行動の機会と反応を結びつける計画として検討されている。",
-      "population_and_scope_ja": "2006年のメタ分析が扱う方法。",
-      "not_supported_ja": "一度書けば必ず目標を達成できるという保証。",
+      "id": "PSY-HAB-005-R6-C01",
+      "claim_ja": "全体の身体活動効果はSMD=.15、95％CI−.01～.31だった。",
+      "population_and_scope_ja": "13RCTのうち11件を統合した成人身体活動レビュー。",
+      "not_supported_ja": "全体で確実な改善や、15％の活動増加を示す値ではない。",
       "source_keys": [
-        "S1"
-      ],
-      "source_ids": [
-        "SRC124"
-      ],
-      "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-HAB-005-C02",
-      "claim_ja": "身体活動研究の計画強化を含む効果を、単回の計画記入だけの効果と解釈できない。",
-      "population_and_scope_ja": "13RCTの2018年レビュー。",
-      "not_supported_ja": "介入の複数要素の効果を分離したという説明。",
-      "source_keys": [
-        "S2"
+        "SRC268"
       ],
       "source_ids": [
         "SRC268"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC268"
+      ],
+      "source_locators": {
+        "SRC268": [
+          "Results:13RCTreviewed/11pooled; subgroup; Discussion:self-report measures"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-HAB-005-C03",
-      "claim_ja": "理想と障害の対比を組み合わせた研究は、実行意図単独の研究とは別に扱う。",
-      "population_and_scope_ja": "複合介入のメタ分析との比較。",
-      "not_supported_ja": "組み合わせの効果を、もし〜なら計画のみへ帰属すること。",
+      "id": "PSY-HAB-005-R6-C02",
+      "claim_ja": "計画の強化を伴う研究群ではSMD=.25、CI.05～.45だった。",
+      "population_and_scope_ja": "レビュー中のサブグループ解析。",
+      "not_supported_ja": "他群に対する直接の優越性や単回計画だけの効果ではない。",
       "source_keys": [
-        "S1",
-        "S3"
+        "SRC268"
       ],
       "source_ids": [
-        "SRC124",
-        "SRC098"
+        "SRC268"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC268"
+      ],
+      "source_locators": {
+        "SRC268": [
+          "Results:13RCTreviewed/11pooled; subgroup; Discussion:self-report measures"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-HAB-005-R6-C03",
+      "claim_ja": "身体活動の測定は全研究で自己報告だった。",
+      "population_and_scope_ja": "本文Discussionの測定法。",
+      "not_supported_ja": "客観的活動量や長期健康効果を同じ根拠で保証しない。",
+      "source_keys": [
+        "SRC268"
+      ],
+      "source_ids": [
+        "SRC268"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC268"
+      ],
+      "source_locators": {
+        "SRC268": [
+          "Results:13RCTreviewed/11pooled; subgroup; Discussion:self-report measures"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
       "publication_ready": false
     }
   ],
@@ -99,29 +99,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "実際に遭遇する状況と、無理なく実行できる最初の行動を一つ結びつけます。",
-      "実行できなかった場合、文章の問題なのか、機会や体調の問題なのかを分けて見直します。",
-      "計画を固定した義務とせず、生活条件が変わったら内容も更新します。"
+      "目標とは別に、実際に機会がある場面とそこで行う小さな行動を書く。",
+      "実行できないときは、思い出せなかったのか、時間がないのか、内容が重いのかを区別する。",
+      "計画を続けること自体を目的にせず、生活の変化に合わせて内容を見直す。"
     ],
-    "safety": "痛みや体調不良、医療者の指示より計画の達成を優先しません。"
+    "safety": "体調や痛みに反して計画を強行しないでください。運動量、治療、服薬の自己変更を勧めるものではありません。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-012",
-      "severity": "major",
-      "finding_ja": "理想と障害の対比を組み合わせた研究から、実行意図単独の効果は分離できない。",
-      "next_action_ja": "実行意図単独のレビュー・原著と、複合介入の研究を分けて追加する。書誌だけのWebb・Sheeran論文を読解済みへ昇格しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "単独介入と複合介入を分離。最新研究と各介入の具体的手順の最終点検は残る。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

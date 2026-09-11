@@ -187,7 +187,7 @@
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "平均がゼロであることは、すべての人・場面で影響がないことではありません。後の条件別レビューや分析手法の研究と比較します。2015年の別レビューの訂正をこの論文の訂正として扱いません。",
+          "limits_ja": "各場面の無効果・同等性は保証しない。2015年レビューと収載研究が重なり得るため人数を足さない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -208,7 +208,7 @@
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "2010年レビューと収載研究が重なり得るため独立した参加者として足しません。2016年訂正は回帰係数bとt値の表記を修正しています。条件別分析を万人への最適個数に変換しません。",
+          "limits_ja": "個人への最適な選択肢数を確定しない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -228,12 +228,12 @@
           "title": "Corrigendum to “Choice overload: A conceptual review and meta‐analysis” [J Consum Psychol 22 (2015) 333–358]",
           "review_scope": "selected_fulltext_sections",
           "relation_role": "correction_notice",
-          "conclusion_direction": "correction",
-          "limits_ja": "独立した効果研究ではありません。2010年レビューへの訂正ではなく、出典IDを分けて結び付けます。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "2010年の別レビューへの訂正ではない。独立した効果研究や元データの再解析に数えない。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 1,
+            "method_signals_0_to_4": 3,
             "reading_depth_0_to_4": 3
           },
           "caps": [],

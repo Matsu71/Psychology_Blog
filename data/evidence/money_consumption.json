@@ -6,16 +6,16 @@
       "id": "EV-PSY-MON-001-SRC069",
       "topic_id": "PSY-MON-001",
       "source_id": "SRC069",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC069",
       "legacy_brief_ids": [
         "RB-28739889"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "4か国6271人の調査と、働く成人60人の2週末の実験。時間節約と物への各40ドルの支出の順序を釣り合わせ、当日の気分を比較。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "短期の気分と長期生活満足を分離。事前設定の逐次募集停止と片側検定の手続きも記載。日本の全家計の最適支出額を決定しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {

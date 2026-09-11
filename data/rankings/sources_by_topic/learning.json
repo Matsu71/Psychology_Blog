@@ -10,10 +10,10 @@
           "edge_id": "EV-PSY-LEA-001-SRC050",
           "source_id": "SRC050",
           "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
-          "review_scope": "legacy_abstract_review",
+          "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "conclusion_direction": "mixed",
+          "limits_ja": "標準化差を50％の得点増加としない。全資格試験の合格や一般能力の向上は保証しない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -26,6 +26,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LEA-001-SRC277",
+          "source_id": "SRC277",
+          "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "実験で答えを提示しない条件を、日常で誤答を訂正しない推奨へ変えない。レビューとの研究重複も未点検。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-LEA-001-SRC027",
@@ -46,7 +67,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },
@@ -271,7 +292,7 @@
           "edge_id": "EV-PSY-LEA-007-SRC050",
           "source_id": "SRC050",
           "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
-          "review_scope": "legacy_abstract_review",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
@@ -344,7 +365,7 @@
           "edge_id": "EV-PSY-LEA-009-SRC050",
           "source_id": "SRC050",
           "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
-          "review_scope": "legacy_abstract_review",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",

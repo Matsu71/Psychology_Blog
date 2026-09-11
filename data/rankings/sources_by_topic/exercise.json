@@ -329,15 +329,15 @@
           "edge_id": "EV-PSY-EXE-006-SRC268",
           "source_id": "SRC268",
           "title": "Impact of implementation intentions on physical activity practice in adults: A systematic review and meta-analysis of randomized clinical trials.",
-          "review_scope": "abstract",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
           "limits_ja": "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。",
-          "priority_score": 82.5,
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

@@ -10,21 +10,21 @@
           "edge_id": "EV-PSY-MON-001-SRC069",
           "source_id": "SRC069",
           "title": "Buying time promotes happiness.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "短期の気分と長期生活満足を分離。事前設定の逐次募集停止と片側検定の手続きも記載。日本の全家計の最適支出額を決定しない。",
+          "priority_score": 87.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 1,
           "display_position": 1
         }
       ]

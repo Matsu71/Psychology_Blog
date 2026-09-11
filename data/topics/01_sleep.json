@@ -18,7 +18,9 @@
         "SRC071",
         "SRC072",
         "SRC100",
-        "SRC101"
+        "SRC101",
+        "SRC275",
+        "SRC276"
       ],
       "caution_ja": "万人に同じ時間を保証しない。強い眠気やいびきは生活改善だけで扱わない。",
       "research_brief_ids": [
@@ -27,6 +29,10 @@
         "RB-35129580",
         "RB-40691306",
         "RB-30827911"
+      ],
+      "source_review_ids": [
+        "SC7-SRC275",
+        "SC7-SRC276"
       ]
     },
     {
@@ -139,12 +145,17 @@
       "priority": 1,
       "source_ids": [
         "SRC042",
-        "SRC101"
+        "SRC101",
+        "SRC274"
       ],
       "caution_ja": "一つの指標の回復を全身の完全回復と表現しない。",
       "research_brief_ids": [
         "RB-12683469",
         "RB-30827911"
+      ],
+      "source_review_ids": [
+        "SC7-SRC274",
+        "SC7-SRC101"
       ]
     },
     {

@@ -87,12 +87,17 @@
       "priority": 1,
       "source_ids": [
         "SRC068",
-        "SRC069"
+        "SRC069",
+        "SRC279"
       ],
       "caution_ja": "過去の米国の金額を日本の現在の閾値に換算して断言しない。",
       "research_brief_ids": [
         "RB-36857342",
         "RB-28739889"
+      ],
+      "source_review_ids": [
+        "SC7-SRC068",
+        "SC7-SRC279"
       ]
     },
     {

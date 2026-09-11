@@ -1,40 +1,32 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-SLP-001",
-  "title_ja": "自分に必要な睡眠時間は？『平気な気がする』だけでは決めにくい理由",
+  "title_ja": "自分に必要な睡眠時間は？『6時間』『7時間』の数字だけで決めない",
   "category_id": "sleep",
   "created_on": "2026-09-11",
-  "authoring_revision": "preserved_round4_draft",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-SLP-001.json",
+  "authoring_input_sha256": "f7def12e0441b21b8acdee2bf638e9cbc9bfbab35e6f5250bd0c3073c88dfaeb",
   "source_resolution": {
-    "restriction": {
+    "SRC275": {
       "selector": {
-        "key": "restriction",
-        "pmid": "12683469"
+        "source_id": "SRC275",
+        "doi": null
       },
       "source_ids": [
-        "SRC042"
+        "SRC275"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
     },
-    "extension": {
+    "SRC276": {
       "selector": {
-        "key": "extension",
-        "pmid": "35129580"
+        "source_id": "SRC276",
+        "doi": "10.5665/sleep.4716"
       },
       "source_ids": [
-        "SRC072"
-      ],
-      "resolution_method": "exact_identifier",
-      "claim_support_verified_by_compiler": false
-    },
-    "insomnia": {
-      "selector": {
-        "key": "insomnia",
-        "pmid": "33164742"
-      },
-      "source_ids": [
-        "SRC040"
+        "SRC276"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -42,101 +34,105 @@
   },
   "claims": [
     {
-      "id": "PSY-SLP-001-C01",
-      "claim_ja": "睡眠制限の実験では、4時間・6時間の就床機会を続けた条件で認知課題の低下が蓄積した。",
-      "population_and_scope_ja": "健康成人48人を対象とする14日間の実験。就床機会と実際の睡眠時間は同一ではない。",
-      "not_supported_ja": "この条件から各個人の必要睡眠時間を診断すること。",
+      "id": "PSY-SLP-001-R6-C01",
+      "claim_ja": "日本の成人向けガイドは個人差を踏まえ6時間以上を目安に必要な睡眠を確保することを示す。",
+      "population_and_scope_ja": "健康づくりのための睡眠ガイド2023、印刷p.11。",
+      "not_supported_ja": "全員の必要量が6時間、6時間未満の一夜だけで疾患といった判断はできない。",
       "source_keys": [
-        "restriction"
+        "SRC275"
       ],
       "source_ids": [
-        "SRC042"
+        "SRC275"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC275"
+      ],
+      "source_locators": {
+        "SRC275": [
+          "印刷p.9 基本的事項 (PDF page11)",
+          "印刷p.11 成人版 (PDF page13); screenshots checked"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-001-C02",
-      "claim_ja": "眠気の自己評価は、認知課題の変化と同じ形では悪化し続けなかった。",
-      "population_and_scope_ja": "実験内の主観と客観的課題の比較。",
-      "not_supported_ja": "自覚がなければ影響がない、または本人の感覚は無価値という主張。",
+      "id": "PSY-SLP-001-R6-C02",
+      "claim_ja": "AASM/SRSは18～60歳に日常的な7時間以上を推奨する。",
+      "population_and_scope_ja": "2015年共同声明とAASM公式説明。",
+      "not_supported_ja": "同じ声明の別誌掲載を別の研究として足さない。個別必要量の診断ではない。",
       "source_keys": [
-        "restriction"
+        "SRC276"
       ],
       "source_ids": [
-        "SRC042"
+        "SRC276"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC276"
+      ],
+      "source_locators": {
+        "SRC276": [
+          "AASM official explanation June4 2015: adults18–60",
+          "PubMed26039963: consensus method and citation"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-SLP-001-C03",
-      "claim_ja": "習慣的に睡眠が短い過体重の成人への睡眠延長試験は、睡眠を増やすと生活上の結果も変化し得ることを示す。",
-      "population_and_scope_ja": "21～40歳80人の短期試験。",
-      "not_supported_ja": "長く寝るほど全員の健康がよくなるという一般化。",
+      "id": "PSY-SLP-001-R6-C03",
+      "claim_ja": "時間だけでなく休養感や日中の支障を考慮し、改善しない問題は相談につなぐ。",
+      "population_and_scope_ja": "日本のガイドの基本的事項と成人版。",
+      "not_supported_ja": "自宅の睡眠記録を診断や治療の代わりにしない。",
       "source_keys": [
-        "extension"
+        "SRC275"
       ],
       "source_ids": [
-        "SRC072"
+        "SRC275"
       ],
       "source_resolution_complete": true,
-      "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-SLP-001-C04",
-      "claim_ja": "慢性不眠に対しては、睡眠衛生の助言だけを単独治療とすることは推奨されていない。",
-      "population_and_scope_ja": "AASMの成人慢性不眠の指針。",
-      "not_supported_ja": "眠れない人にただ長く寝床にいるよう勧めること。",
-      "source_keys": [
-        "insomnia"
+      "source_check_ids": [
+        "SC7-SRC275"
       ],
-      "source_ids": [
-        "SRC040"
-      ],
-      "source_resolution_complete": true,
+      "source_locators": {
+        "SRC275": [
+          "印刷p.9 基本的事項 (PDF page11)",
+          "印刷p.11 成人版 (PDF page13); screenshots checked"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     }
   ],
   "unresolved_source_keys": [],
   "application": {
-    "type": "editorial_low_risk_suggestion_not_direct_trial_replication",
+    "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "就床時刻と起床時刻を、実睡眠時間とは分けて記録する。",
-      "日中の眠気や生活への支障を見る。",
-      "眠る機会の不足と、機会があっても眠れないことを分ける。"
+      "睡眠時間の目安と、休めた感覚、日中の強い眠気を分けて振り返る。",
+      "睡眠を押し出している予定を一つ選び、変更・分担できるか考える。",
+      "生活を整えても続く不眠や強い眠気は、経過を整理して医療機関へ相談する。"
     ],
-    "safety": "必要時間を確かめるために睡眠を削らない。"
+    "safety": "必要量を調べる目的で睡眠を削らないでください。この記事は成人向けの一般情報です。持病・服薬・交代勤務などが関わる場合の個別判断は医療者と相談してください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-009",
-      "severity": "major",
-      "finding_ja": "睡眠制限実験の就床機会は実睡眠時間と違い、代謝・認知・眠気の回復を合算できない。",
-      "next_action_ja": "睡眠制限実験の訂正を照合し、各結果指標と期間の根拠を個別に示す。個人の必要睡眠時間を計算する記事にしない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
   "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

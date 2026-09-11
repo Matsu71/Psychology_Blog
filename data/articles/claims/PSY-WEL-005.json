@@ -1,18 +1,32 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-WEL-005",
-  "title_ja": "年収が増えれば幸せになる？——『幸福の上限額』という話を読む前に",
+  "title_ja": "お金が増えれば幸せになる？『年収の限界』を一つに決められない理由",
   "category_id": "wellbeing",
   "created_on": "2026-09-11",
-  "authoring_revision": "editorial_revision",
+  "updated_on": "2026-09-11",
+  "authoring_revision": "source-editorial-pass-20260911",
+  "authoring_input": "research/editorial_pass_20260911/PSY-WEL-005.json",
+  "authoring_input_sha256": "8777f13c851c743959991b4bcf85c0d1065080d4bca7ad7443bbf2ebeb52526b",
   "source_resolution": {
-    "S1": {
+    "SRC068": {
       "selector": {
-        "key": "S1",
-        "pmid": "36857342"
+        "source_id": "SRC068",
+        "doi": "10.1073/pnas.2208661120"
       },
       "source_ids": [
         "SRC068"
+      ],
+      "resolution_method": "exact_identifier",
+      "claim_support_verified_by_compiler": false
+    },
+    "SRC279": {
+      "selector": {
+        "source_id": "SRC279",
+        "doi": "10.24352/UB.OVGU-2026-025"
+      },
+      "source_ids": [
+        "SRC279"
       ],
       "resolution_method": "exact_identifier",
       "claim_support_verified_by_compiler": false
@@ -20,37 +34,81 @@
   },
   "claims": [
     {
-      "id": "PSY-WEL-005-C01",
-      "claim_ja": "所得と感情的な幸福との関係の形は、幸福感の水準によって異なった。",
-      "population_and_scope_ja": "2023年の共同再分析が扱う米国の経験サンプリングデータ。",
-      "not_supported_ja": "全員に共通する所得の頭打ちや、日本での特定の最適年収。",
+      "id": "PSY-WEL-005-R6-C01",
+      "claim_ja": "2023年の共同再分析は所得と幸福の関係が幸福感の層で異なると報告した。",
+      "population_and_scope_ja": "既存の経験サンプリングデータの分析。",
+      "not_supported_ja": "個人への増収介入の因果効果や普遍的な金額の境目ではない。",
       "source_keys": [
-        "S1"
+        "SRC068"
       ],
       "source_ids": [
         "SRC068"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC068"
+      ],
+      "source_locators": {
+        "SRC068": [
+          "Abstract: reanalysis; quantiles; log income; ceiling effect"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
       "publication_ready": false
     },
     {
-      "id": "PSY-WEL-005-C02",
-      "claim_ja": "観察的な所得と幸福の関係は、個人の所得を増やす介入の効果とは区別する必要がある。",
-      "population_and_scope_ja": "研究設計と個人への適用範囲の解釈。",
-      "not_supported_ja": "昇給額から個人の幸福の増加を確実に計算できること。",
+      "id": "PSY-WEL-005-R6-C02",
+      "claim_ja": "モデルの連続性など分析の仮定で頭打ちの推論が変わるという検討がある。",
+      "population_and_scope_ja": "2026年2月の査読前ワーキングペーパー。",
+      "not_supported_ja": "査読済みの確定反証や、新標本の独立追試として扱わない。",
       "source_keys": [
-        "S1"
+        "SRC279"
       ],
       "source_ids": [
-        "SRC068"
+        "SRC279"
       ],
       "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC279"
+      ],
+      "source_locators": {
+        "SRC279": [
+          "Abstract; publication date2026-02-18; university author publication list(non-peer-reviewed)"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
       "evidence_certainty": "not_formally_assessed",
-      "claim_review_status": "authoring_claim_pending_source_text_check",
-      "application_type": "research_claim_or_interpretation_caution",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-WEL-005-R6-C03",
+      "claim_ja": "異なる測定や分析の結論を一つの普遍的所得閾値へまとめない。",
+      "population_and_scope_ja": "所得と感情の分析およびモデル感度の議論。",
+      "not_supported_ja": "海外の金額をそのまま日本の個人年収目標にできない。",
+      "source_keys": [
+        "SRC068",
+        "SRC279"
+      ],
+      "source_ids": [
+        "SRC068",
+        "SRC279"
+      ],
+      "source_resolution_complete": true,
+      "source_check_ids": [
+        "SC7-SRC068",
+        "SC7-SRC279"
+      ],
+      "source_locators": {
+        "SRC068": [
+          "Abstract: reanalysis; quantiles; log income; ceiling effect"
+        ],
+        "SRC279": [
+          "Abstract; publication date2026-02-18; university author publication list(non-peer-reviewed)"
+        ]
+      },
+      "claim_review_status": "AI_source_text_checked_with_stated_scope",
+      "evidence_certainty": "not_formally_assessed",
       "publication_ready": false
     }
   ],
@@ -58,29 +116,26 @@
   "application": {
     "type": "editorial_application_not_directly_validated_protocol",
     "steps": [
-      "収入に関する記事では、日々の気分、人生への満足、生活の安心のどれを測ったのか確認します。",
-      "働き方を選ぶ際は、金額とともに変化する時間や負担も別の項目として比較します。",
-      "研究の金額を、自分や他人の満足度の基準として押し付けないようにします。"
+      "収入を増やして解消したい困りごとを、具体的な生活場面で書く。",
+      "金額の増加と、それに伴う時間・責任・通勤の変化を別々に比べる。",
+      "他人の年収ではなく、自分が改善したい安心や生活の選択肢を確認する。"
     ],
-    "safety": "個別の転職・投資・家計判断を、この関連研究だけから決めることは勧めません。"
+    "safety": "この記事は投資、転職、家計の個別助言ではありません。研究中の所得と個人の手取りを同一視せず、費用やリスクを別に確認してください。"
   },
   "outstanding_audit_items": [
     {
       "audit_id": "R4-QA-016",
-      "severity": "moderate",
-      "finding_ja": "調査の関連、短期実験、長期の幸福や家計の判断を分ける必要がある。",
-      "next_action_ja": "対象者・支出条件・測定時点を照合し、海外の金額を日本の幸福の閾値に転換しない。",
-      "status": "requires_recheck_after_revision"
+      "status": "addressed_in_current_manuscript"
     },
     {
       "audit_id": "R4-QA-018",
-      "severity": "global_data_integrity",
-      "finding_ja": "今回執筆したテーマ集合と、実データの編集上位20件は一致確認が必要である。未登録テーマへの書誌追加も旧台帳へ未結合なら未登録件数は変わらない。",
-      "next_action_ja": "実際のrankingsファイル、source registry、evidence edges、coverage、article statusを照合し、未実施工程を未完了として残す。",
-      "status": "requires_recheck_after_revision"
+      "status": "registry_and_top20_alignment_resolved"
     }
   ],
-  "editorial_hold": "金額の閾値や因果への飛躍を避けて再編集。分析の分位点・指標の詳細について最終照合が必要。",
+  "editorial_hold": null,
+  "state": "source_checked_manuscript",
+  "reporting_caveats": [],
   "publication_ready": false,
-  "independent_review_completed": false
+  "independent_review_completed": false,
+  "review_boundary_ja": "確認した原文箇所と限定した主張を照合し改稿。独立査読・医学的監修・公開承認とは別。"
 }

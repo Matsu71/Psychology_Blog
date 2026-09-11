@@ -8,7 +8,7 @@
       "topic_file": "data/topics/01_sleep.json",
       "evidence_file": "data/evidence/sleep.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
-      "source_count": 6,
+      "source_count": 8,
       "editorial_score": 91
     },
     {
@@ -68,7 +68,7 @@
       "topic_file": "data/topics/01_sleep.json",
       "evidence_file": "data/evidence/sleep.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 95
     },
     {
@@ -608,7 +608,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 93
     },
     {
@@ -1348,7 +1348,7 @@
       "topic_file": "data/topics/14_wellbeing.json",
       "evidence_file": "data/evidence/wellbeing.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 90
     },
     {
@@ -2018,7 +2018,7 @@
       "topic_file": "data/topics/21_work.json",
       "evidence_file": "data/evidence/work.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 93
     },
     {
@@ -2838,7 +2838,7 @@
       "topic_file": "data/topics/27_language.json",
       "evidence_file": "data/evidence/language.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": 89
     },
     {

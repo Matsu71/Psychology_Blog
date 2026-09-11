@@ -110,32 +110,32 @@
       "id": "EV-PSY-LAN-008-SRC093",
       "topic_id": "PSY-LAN-008",
       "source_id": "SRC093",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC093",
       "legacy_brief_ids": [
         "RB-28447835"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "質問・追質問と相手からの好意や応答性の関連を報告。実験と観察を含む。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "質問回数と傾聴は同一ではない。2019年の再分析・応答と2025年訂正を別に確認。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
       "id": "EV-PSY-LAN-008-SRC094",
       "topic_id": "PSY-LAN-008",
       "source_id": "SRC094",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "correction_notice",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC094",
       "legacy_brief_ids": [
         "RB-28447835"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "2025年訂正は、独立監査で軽微な報告誤りが確認され、主たる結論は維持されたと記載。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "独立監査は告知が報告する作業で本プロジェクトの実施ではない。理論・分析の批判まで自動的に解決しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -206,6 +206,34 @@
       "finding_scope_ja": "17研究に含まれる47実験を統合し、母語と外国語で判断する場合の道徳的選択やリスク選好の違いを検討しています。使用言語で選択が変わる傾向がある一方、領域や言語間の近さも考慮しています。",
       "conclusion_direction": "mixed",
       "limits_ja": "外国語なら必ず合理的・倫理的になるとは言えません。道徳課題の功利的選択、リスクへの態度、実際の生活上の良い判断は同じではありません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-008-SRC280",
+      "topic_id": "PSY-LAN-008",
+      "source_id": "SRC280",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC280",
+      "finding_scope_ja": "短時間デートの元データの人物・相手・二者関係の分析や、次のデート希望を好意と扱う点を批判。質問数を傾聴の質と同一視しない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "新しい参加者の追試ではなく第3研究の再分析。元の会話実験すべての否定とはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-008-SRC281",
+      "topic_id": "PSY-LAN-008",
+      "source_id": "SRC281",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "SC7-SRC281",
+      "finding_scope_ja": "原著者らが追質問の意義を擁護し、同一データと解釈への批判に応答。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "著者の応答を新標本による独立再現と数えない。批判と併記する。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

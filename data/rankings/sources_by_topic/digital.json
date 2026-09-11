@@ -7,6 +7,27 @@
       "topic_id": "PSY-DIG-001",
       "sources": [
         {
+          "edge_id": "EV-PSY-DIG-001-SRC012",
+          "source_id": "SRC012",
+          "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "時間の前後を追っても無作為化ではない。2013年Facebookと若年標本、自己報告、残る交絡を考慮。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-DIG-001-SRC159",
           "source_id": "SRC159",
           "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
@@ -25,7 +46,28 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
-          "display_position": 1
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-DIG-001-SRC245",
+          "source_id": "SRC245",
+          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "人同士の関連を個人の利用変更の効果としない。合計897と内訳562+334の1件差は独自に修正せず、記事で使わない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-DIG-001-SRC160",
@@ -34,7 +76,7 @@
           "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
-          "limits_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+          "limits_ja": "特定時代・国・サービス・参加者。全指標の改善や臨床治療効果は示さない。",
           "priority_score": 82.5,
           "components": {
             "theme_relevance_1_to_5": 5,
@@ -45,49 +87,7 @@
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 2,
-          "display_position": 2
-        },
-        {
-          "edge_id": "EV-PSY-DIG-001-SRC245",
-          "source_id": "SRC245",
-          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
-          "review_scope": "abstract",
-          "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "mixed",
-          "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
-          "priority_score": 82.5,
-          "components": {
-            "theme_relevance_1_to_5": 5,
-            "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": 2,
-          "display_position": 3
-        },
-        {
-          "edge_id": "EV-PSY-DIG-001-SRC012",
-          "source_id": "SRC012",
-          "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
-          "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
-          },
-          "caps": [],
-          "excluded_from_evidence_priority": false,
-          "integrity_requires_followup": false,
-          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 4,
           "display_position": 4
         }
       ]
@@ -99,15 +99,15 @@
           "edge_id": "EV-PSY-DIG-002-SRC245",
           "source_id": "SRC245",
           "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
-          "review_scope": "abstract",
+          "review_scope": "selected_fulltext_sections",
           "relation_role": "direct_or_targeted_evidence",
           "conclusion_direction": "mixed",
           "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
-          "priority_score": 82.5,
+          "priority_score": 87.5,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 3,
-            "reading_depth_0_to_4": 2
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
