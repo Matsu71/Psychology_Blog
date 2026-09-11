@@ -15,7 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate and export
-        run: python3 scripts/validate.py --export build
+        run: |
+          python3 scripts/validate.py --export build
+          if [ -f data/research/briefs.json ]; then
+            python3 scripts/validate_research.py --export build
+          fi
       - name: Save portable topic database
         uses: actions/upload-artifact@v4
         with:

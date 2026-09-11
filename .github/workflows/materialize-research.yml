@@ -1,0 +1,87 @@
+name: Materialize and verify research snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'research/new_topics.psv'
+      - 'research/reviews_01.psv'
+      - 'research/reviews_02.psv'
+      - 'scripts/materialize_research.py'
+      - '.github/workflows/materialize-research.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: psychology-research-snapshot
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the first completed literature reading bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: literature-research-bundle
+          run-id: 34545106140
+          github-token: ${{ github.token }}
+          path: _inputs/literature
+      - name: Download the completed supplemental bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: supplemental-literature
+          run-id: 34545908849
+          github-token: ${{ github.token }}
+          path: _inputs/supplement
+      - name: Materialize canonical JSON and reader documents
+        run: python3 scripts/materialize_research.py
+      - name: Validate and export all canonical data
+        run: |
+          python3 scripts/validate.py --export build
+          python3 scripts/validate_research.py --export build
+      - name: Verify preservation of the original 200 themes and 35 sources
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          def before(path):
+              return json.loads(subprocess.check_output(['git','show','HEAD:'+path], text=True))
+          total = 0
+          for category in before('data/categories.json')['categories']:
+              path = category['file']
+              old = before(path)['topics']
+              new = json.loads(Path(path).read_text())['topics']
+              assert [(t['id'],t['title_ja']) for t in old] == [(t['id'],t['title_ja']) for t in new]
+              for left,right in zip(old,new):
+                  assert set(left['source_ids']).issubset(right['source_ids'])
+              total += len(old)
+          old_sources = before('data/sources.json')['sources']
+          new_sources = json.loads(Path('data/sources.json').read_text())['sources']
+          assert new_sources[:len(old_sources)] == old_sources
+          assert total == 200 and len(old_sources) == 35
+          print('PASS: original 200 IDs, titles, order and source links; original 35 source records preserved.')
+          PY
+      - name: Commit only reviewed metadata and original summaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md
+          if git diff --cached --quiet; then
+            echo 'No canonical changes to commit.'
+          else
+            git commit -m 'data: expand to 300 themes with 68 research briefs and transparent search provenance'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > build/source_commit.txt
+      - name: Save verified portable database without article abstracts
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-research-expanded-300
+          path: build/
+          if-no-files-found: error
+          retention-days: 14
