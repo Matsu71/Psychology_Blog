@@ -1,0 +1,108 @@
+name: Round 4 extended draft package
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/round4-continuation-package.yml'
+      - 'research/round4_continuation_05.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: psychology-round4-continuation-drafts
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Extend the builder without altering the original topic order
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build_round4_continuation.py')
+          s=p.read_text()
+          changes=[
+              ('round4_continuation_0[1-4].json','round4_continuation_0[1-5].json'),
+              ("assert len(specs)==20 and len({s['topic_id'] for s in specs})==20", "assert len(specs)==25 and len({s['topic_id'] for s in specs})==25"),
+              ("doi_clean(source.get('doi')) or str(source.get('pmid')) or source.get('url')", "doi_clean(source.get('doi')) or str(source.get('pmid') or '') or source.get('url')"),
+              ('20本は初稿・構成稿であり、完成記事300本に数えない。','25本は初稿・構成稿であり、完成記事300本に数えない。')
+          ]
+          for old,new in changes:
+              if old in s:s=s.replace(old,new)
+              elif new not in s:raise SystemExit('Builder changed unexpectedly; reconcile before applying.')
+          p.write_text(s)
+          PY
+          python3 -m py_compile scripts/build_round4_continuation.py
+      - name: Build bibliography, claim maps, applications and article drafts
+        run: python3 scripts/build_round4_continuation.py
+      - name: Validate the additive package and preserve original topic identities
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 - <<'PY'
+          import json,subprocess,hashlib
+          from pathlib import Path
+          out=Path('data/research/round4_continuation')
+          report=json.loads((out/'report.json').read_text())
+          assert report['new_authored_drafts']==25
+          assert report['new_publication_ready_articles']==0
+          assert report['goal_completed'] is False
+          assert report['canonical_registry_mutated'] is False
+          for name in ['data/sources.json','data/categories.json','data/manifest.json']:
+              previous=subprocess.check_output(['git','show','HEAD:'+name])
+              assert previous==Path(name).read_bytes(),name
+          for p in Path('data/topics').glob('*.json'):
+              assert subprocess.check_output(['git','show','HEAD:'+str(p)])==p.read_bytes(),str(p)
+          registry=json.loads((out/'sources.json').read_text())['sources']
+          assert len({r['id'] for r in registry})==len(registry)
+          manifest=[]
+          for root in [out,Path('docs/round4_continuation'),Path('articles/drafts/round4_continuation')]:
+              for p in sorted(root.rglob('*')):
+                  if p.is_file() and p.name!='file_manifest.json':
+                      manifest.append({'path':str(p),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+          (out/'file_manifest.json').write_text(json.dumps({'schema_version':'1.0','files':manifest},ensure_ascii=False,indent=2)+'\n')
+          print('PASS: 25 distinct draft records, no publication-ready inflation, canonical data unchanged.')
+          PY
+      - name: Save manuscripts and supplementary dossiers without changing workflows
+        run: |
+          original=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$original" = "$remote" || { echo 'Concurrent update: refusing to overwrite main. Artifacts will still be exported.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/build_round4_continuation.py data/research/round4_continuation docs/round4_continuation articles/drafts/round4_continuation
+          if ! git diff --cached --quiet; then
+            git commit -m 'research: continue with 25 evidence-linked drafts and retain explicit scientific review gates'
+            git push origin HEAD:main
+          fi
+          mkdir -p round4-export
+          git rev-parse HEAD > round4-export/source_commit.txt
+      - name: Preserve generated work regardless of later publishing status
+        if: always()
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,shutil
+          out=Path('round4-export');out.mkdir(exist_ok=True)
+          for src,dst in [('data/research/round4_continuation','data'),('docs/round4_continuation','docs'),('articles/drafts/round4_continuation','articles')]:
+              if Path(src).is_dir():shutil.copytree(src,out/dst,dirs_exist_ok=True)
+          (out/'authoring_inputs').mkdir(exist_ok=True)
+          for p in Path('research').glob('round4_continuation_*.json'):
+              shutil.copyfile(p,out/'authoring_inputs'/p.name)
+          if not (out/'data/report.json').exists():
+              (out/'incomplete.json').write_text(json.dumps({'schema_version':'1.0','status':'build_did_not_reach_final_report','publication_ready':False}))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round4-extended-drafts
+          path: round4-export/
+          if-no-files-found: error
+          retention-days: 14
