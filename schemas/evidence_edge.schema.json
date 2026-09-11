@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Theme-source evidence relationship",
+  "type":"object",
+  "required":["id","topic_id","source_id","relation_role","relevance_1_to_5","relevance_scope","source_review_id","limits_ja","formal_evidence_certainty"],
+  "properties":{
+    "id":{"type":"string","pattern":"^EV-PSY-[A-Z]{3}-[0-9]{3,}-SRC[0-9]{3,}$"},
+    "topic_id":{"type":"string","pattern":"^PSY-[A-Z]{3}-[0-9]{3,}$"},
+    "source_id":{"type":"string","pattern":"^SRC[0-9]{3,}$"},
+    "relation_role":{"enum":["direct_or_targeted_evidence","context_only","correction_notice","unassessed_legacy_link"]},
+    "relevance_1_to_5":{"type":["integer","null"],"minimum":1,"maximum":5},
+    "relevance_scope":{"enum":["abstract_screened","title_only_provisional","anchor_question_checked","not_reassessed"]},
+    "source_review_id":{"type":["string","null"]},
+    "limits_ja":{"type":"string","minLength":1},
+    "formal_evidence_certainty":{"const":"not_assessed"}
+  },
+  "additionalProperties":true
+}

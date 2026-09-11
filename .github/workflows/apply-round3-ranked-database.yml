@@ -1,0 +1,94 @@
+name: Apply and validate ranked research database
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/apply-round3-ranked-database.yml'
+      - 'scripts/import_round3.py'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: psychology-canonical-writer
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: psychology-round3-reading
+          run-id: 34548795256
+          github-token: ${{ github.token }}
+          path: _round3
+      - uses: actions/download-artifact@v4
+        with:
+          name: psychology-round3-resolved
+          run-id: 34549481613
+          github-token: ${{ github.token }}
+          path: _resolved
+      - name: Update compatible validators and archive unsafe snapshot replays
+        run: python3 scripts/upgrade_round3_tools.py
+      - name: Import reviewed sources and derive rankings
+        run: |
+          python3 scripts/import_round3.py
+          python3 scripts/build_research_views.py
+          python3 scripts/build_research_views.py
+      - name: Run structural and scoring checks
+        run: |
+          python3 scripts/validate.py --export build
+          python3 scripts/validate_research.py --export build
+          python3 scripts/validate_round3.py --export build
+          python3 scripts/query_database.py topic PSY-SLP-004 --limit 5 > build/sample_topic_dossier.json
+          python3 scripts/query_database.py queue --limit 10 > build/next_research_tasks.json
+      - name: Verify old records and deterministic views
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          def old(path):
+              return json.loads(subprocess.check_output(['git','show','HEAD:'+path],text=True))
+          n=0
+          for c in old('data/categories.json')['categories']:
+              before=old(c['file'])['topics'];after=json.loads(Path(c['file']).read_text())['topics']
+              assert [(t['id'],t['title_ja']) for t in before]==[(t['id'],t['title_ja']) for t in after]
+              for left,right in zip(before,after): assert set(left['source_ids'])<=set(right['source_ids'])
+              n+=len(before)
+          assert n==300
+          baseline=old('data/sources.json')['sources']
+          assert len(baseline)==106
+          assert json.loads(Path('data/sources.json').read_text())['sources'][:106]==baseline
+          paths=list(Path('data/rankings').rglob('*.json'))
+          before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+          subprocess.run(['python3','scripts/build_research_views.py'],check=True)
+          assert all(before[str(p)]==hashlib.sha256(p.read_bytes()).hexdigest() for p in paths)
+          print('PASS: 300 IDs/titles/order, all old source links, 106 original source records, deterministic ranking files.')
+          # Update complete exports after final deterministic build.
+          subprocess.run(['python3','scripts/validate_round3.py','--export','build'],check=True)
+          import shutil
+          shutil.copytree('scripts','build/database/scripts',dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
+          shutil.copytree('research','build/database/research',dirs_exist_ok=True)
+          PY
+      - name: Commit validated canonical metadata and views without overwriting concurrent work
+        run: |
+          original=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$original" = "$remote" || { echo 'Concurrent main update detected; refusing overwrite.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md scripts .github/workflows .gitignore AGENTS.md schemas
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: enrich missing topics, rank sources and editorial priorities, validate text database'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > build/source_commit.txt
+      - name: Export verified research database
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-round3-ranked-database
+          path: build/
+          retention-days: 14
+          if-no-files-found: error

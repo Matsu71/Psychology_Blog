@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Provisional source assessment (not a formal grade)",
+  "type":"object",
+  "required":["source_id","review_scope","method_signals","formal_risk_of_bias","formal_evidence_certainty","reliability_ja","integrity_status"],
+  "properties":{
+    "source_id":{"type":"string","pattern":"^SRC[0-9]{3,}$"},
+    "review_scope":{"enum":["bibliography","abstract","legacy_abstract_review","legacy_not_reassessed","selected_fulltext_sections"]},
+    "method_signals":{"type":["integer","null"],"minimum":1,"maximum":4},
+    "formal_risk_of_bias":{"const":"not_assessed"},
+    "formal_evidence_certainty":{"const":"not_assessed"},
+    "reliability_ja":{"type":"string","minLength":1},
+    "integrity_status":{"enum":["not_completed","indexed_links_checked_not_exhaustive"]}
+  },
+  "additionalProperties":true
+}
