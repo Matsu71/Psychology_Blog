@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LAN-001",
+  "title_ja": "大人になってから外国語を学ぶのは遅い？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC051",
+    "SRC092"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LAN-001-D01",
+      "text": "2018年の大規模研究は、開始年齢・現在年齢・経験年数を分けて英語文法の習得をモデル化した。",
+      "claim_ja": "2018年の大規模研究は、開始年齢・現在年齢・経験年数を分けて英語文法の習得をモデル化した。",
+      "source_ids": [
+        "SRC092"
+      ],
+      "scope": "文法課題と研究のモデルの範囲。",
+      "scope_ja": "文法課題と研究のモデルの範囲。",
+      "not_supported": "成人の言語学習が不可能であること、全言語能力の年齢制限。",
+      "limitations_ja": "成人の言語学習が不可能であること、全言語能力の年齢制限。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LAN-001-D02",
+      "text": "分散学習では、保持したい期間と適した学習間隔の関係が重要になる。",
+      "claim_ja": "分散学習では、保持したい期間と適した学習間隔の関係が重要になる。",
+      "source_ids": [
+        "SRC051"
+      ],
+      "scope": "主に言語的再生課題を統合した研究。",
+      "scope_ja": "主に言語的再生課題を統合した研究。",
+      "not_supported": "すべての語学学習に共通する固定の復習日程。",
+      "limitations_ja": "すべての語学学習に共通する固定の復習日程。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC092",
+    "R2": "SRC051"
+  },
+  "remaining_checks": [
+    "文法モデルの年齢推定を数値として掲載する場合は原図と不確実性を確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

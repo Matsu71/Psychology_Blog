@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-CRE-011",
+  "title_ja": "制約がある方がアイデアを出しやすい？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC262"
+  ],
+  "claims": [
+    {
+      "id": "PSY-CRE-011-D01",
+      "text": "制約と創造性の関係を理解するには、制約の種類や働く仕組みを分ける必要がある。",
+      "claim_ja": "制約と創造性の関係を理解するには、制約の種類や働く仕組みを分ける必要がある。",
+      "source_ids": [
+        "SRC262"
+      ],
+      "scope": "分野横断の統合レビューが示す枠組み。",
+      "scope_ja": "分野横断の統合レビューが示す枠組み。",
+      "not_supported": "制約を強めるほど必ず創造性が高まること。",
+      "limitations_ja": "制約を強めるほど必ず創造性が高まること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-CRE-011-D02",
+      "text": "この統合レビューから、個人や職場に普遍的な最適の締切・予算削減量を導くことはできない。",
+      "claim_ja": "この統合レビューから、個人や職場に普遍的な最適の締切・予算削減量を導くことはできない。",
+      "source_ids": [
+        "SRC262"
+      ],
+      "scope": "レビューの設計と適用範囲。",
+      "scope_ja": "レビューの設計と適用範囲。",
+      "not_supported": "個別の過重労働や危険な作業条件を正当化すること。",
+      "limitations_ja": "個別の過重労働や危険な作業条件を正当化すること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC262"
+  },
+  "remaining_checks": [
+    "対象とする創作領域を絞り、条件を直接比較した原著を追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

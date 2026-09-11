@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-HAB-005",
+  "title_ja": "『もしXならYする』は行動を助ける？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC098",
+    "SRC124",
+    "SRC268"
+  ],
+  "claims": [
+    {
+      "id": "PSY-HAB-005-D01",
+      "text": "実行意図のメタ分析は目標達成への平均的な利点を報告している。",
+      "claim_ja": "実行意図のメタ分析は目標達成への平均的な利点を報告している。",
+      "source_ids": [
+        "SRC124"
+      ],
+      "scope": "2006年レビューの収載研究と比較。",
+      "scope_ja": "2006年レビューの収載研究と比較。",
+      "not_supported": "すべての目標での効果保証、固定の成功率上昇。",
+      "limitations_ja": "すべての目標での効果保証、固定の成功率上昇。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-HAB-005-D02",
+      "text": "身体活動のレビューでは、後から計画を強化する条件に小さな平均的改善が報告された。",
+      "claim_ja": "身体活動のレビューでは、後から計画を強化する条件に小さな平均的改善が報告された。",
+      "source_ids": [
+        "SRC268"
+      ],
+      "scope": "成人の身体活動の無作為化試験。",
+      "scope_ja": "成人の身体活動の無作為化試験。",
+      "not_supported": "計画を一度書くだけの普遍的効果。",
+      "limitations_ja": "計画を一度書くだけの普遍的効果。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-HAB-005-D03",
+      "text": "理想と障害の対比を加えた複合介入の結果は、実行意図単独の効果とは分ける。",
+      "claim_ja": "理想と障害の対比を加えた複合介入の結果は、実行意図単独の効果とは分ける。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "scope": "複合介入の構成要素と因果的な帰属。",
+      "scope_ja": "複合介入の構成要素と因果的な帰属。",
+      "not_supported": "複合介入の平均効果を一要素だけへ帰属すること。",
+      "limitations_ja": "複合介入の平均効果を一要素だけへ帰属すること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC124",
+    "R2": "SRC268",
+    "R3": "SRC098"
+  },
+  "remaining_checks": [
+    "実行意図単独の近年の独立試験を補い、レビュー間の重複を点検する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

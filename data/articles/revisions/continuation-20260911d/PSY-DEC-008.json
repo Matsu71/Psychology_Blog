@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-008",
+  "title_ja": "『自分は大丈夫』と思うのはなぜ？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC239",
+    "SRC240",
+    "SRC241"
+  ],
+  "claims": [
+    {
+      "id": "PSY-DEC-008-D01",
+      "text": "非現実的な楽観は、絶対的・比較的、個人・集団という測定上の違いを区別する必要がある。",
+      "claim_ja": "非現実的な楽観は、絶対的・比較的、個人・集団という測定上の違いを区別する必要がある。",
+      "source_ids": [
+        "SRC239"
+      ],
+      "scope": "レビューの概念整理。",
+      "scope_ja": "レビューの概念整理。",
+      "not_supported": "個人の楽観性から失敗や疾病を予測できること。",
+      "limitations_ja": "個人の楽観性から失敗や疾病を予測できること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-DEC-008-D02",
+      "text": "比較的楽観の一部の測定には、尺度や生起率に由来する見かけの偏りへの批判がある。",
+      "claim_ja": "比較的楽観の一部の測定には、尺度や生起率に由来する見かけの偏りへの批判がある。",
+      "source_ids": [
+        "SRC241"
+      ],
+      "scope": "論文が検討した測定と分析。",
+      "scope_ja": "論文が検討した測定と分析。",
+      "not_supported": "全種類の楽観バイアスの不存在。",
+      "limitations_ja": "全種類の楽観バイアスの不存在。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-DEC-008-D03",
+      "text": "2013年の訂正は資金提供の帰属先に関するものである。",
+      "claim_ja": "2013年の訂正は資金提供の帰属先に関するものである。",
+      "source_ids": [
+        "SRC240"
+      ],
+      "scope": "当該訂正告知の記載。",
+      "scope_ja": "当該訂正告知の記載。",
+      "not_supported": "元研究の結果や解析を訂正したという主張。",
+      "limitations_ja": "元研究の結果や解析を訂正したという主張。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC239",
+    "R2": "SRC241",
+    "C1": "SRC240"
+  },
+  "remaining_checks": [
+    "四分類それぞれについて後続研究を追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

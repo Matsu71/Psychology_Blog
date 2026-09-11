@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MON-008",
+  "title_ja": "使わないサブスクを解約できないのはなぜ？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC251",
+    "SRC252"
+  ],
+  "claims": [
+    {
+      "id": "PSY-MON-008-D01",
+      "text": "カード交換で能動的な更新が必要な月には、サブスクリプションの解約が増えることが決済データで観察された。",
+      "claim_ja": "カード交換で能動的な更新が必要な月には、サブスクリプションの解約が増えることが決済データで観察された。",
+      "source_ids": [
+        "SRC251"
+      ],
+      "scope": "論文が対象としたカード決済と契約更新。",
+      "scope_ja": "論文が対象としたカード決済と契約更新。",
+      "not_supported": "すべての利用者が契約を忘れていること、個人の損失率。",
+      "limitations_ja": "すべての利用者が契約を忘れていること、個人の損失率。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-MON-008-D02",
+      "text": "特定のスポーツクラブでは、実際の利用頻度に比べて割高な定額契約や解約の遅れが検討された。",
+      "claim_ja": "特定のスポーツクラブでは、実際の利用頻度に比べて割高な定額契約や解約の遅れが検討された。",
+      "source_ids": [
+        "SRC252"
+      ],
+      "scope": "米国3施設の契約・利用記録。",
+      "scope_ja": "米国3施設の契約・利用記録。",
+      "not_supported": "現在のすべての定額サービスが割高であること。",
+      "limitations_ja": "現在のすべての定額サービスが割高であること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC251",
+    "R2": "SRC252"
+  },
+  "remaining_checks": [
+    "2025年論文のモデル仮定と対象契約の範囲を全文で点検する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

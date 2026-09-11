@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-001",
+  "title_ja": "読み直すより思い出す練習：テスト効果を勉強に使うには？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC027",
+    "SRC050"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LEA-001-D01",
+      "text": "教室場面の小テストのメタ分析は学習への平均的な利点と、フィードバック等による条件差を報告している。",
+      "claim_ja": "教室場面の小テストのメタ分析は学習への平均的な利点と、フィードバック等による条件差を報告している。",
+      "source_ids": [
+        "SRC050"
+      ],
+      "scope": "収載された教室研究とその学習指標。",
+      "scope_ja": "収載された教室研究とその学習指標。",
+      "not_supported": "すべての教材で同じ効果、固定の合格率・得点上昇率。",
+      "limitations_ja": "すべての教材で同じ効果、固定の合格率・得点上昇率。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LEA-001-D02",
+      "text": "練習としてのテストと、理解のために解説を読むことは役割が異なる。",
+      "claim_ja": "練習としてのテストと、理解のために解説を読むことは役割が異なる。",
+      "source_ids": [
+        "SRC050",
+        "SRC027"
+      ],
+      "scope": "学習方法の比較と応用上の解釈。",
+      "scope_ja": "学習方法の比較と応用上の解釈。",
+      "not_supported": "読み直しが常に無価値、誤答の修正が不要という主張。",
+      "limitations_ja": "読み直しが常に無価値、誤答の修正が不要という主張。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC050",
+    "R2": "SRC027"
+  },
+  "remaining_checks": [
+    "教室メタ分析の対照条件と主要な効果量・信頼区間を原表で確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

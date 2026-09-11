@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LAN-002",
+  "title_ja": "二つの言語を話すと認知能力が高くなる？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC091"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LAN-002-D01",
+      "text": "2018年の成人のメタ分析では、出版バイアス補正後に一貫した実行機能の優位を支持する証拠が残らなかった。",
+      "claim_ja": "2018年の成人のメタ分析では、出版バイアス補正後に一貫した実行機能の優位を支持する証拠が残らなかった。",
+      "source_ids": [
+        "SRC091"
+      ],
+      "scope": "当該レビューが収載した成人研究と分析方法。",
+      "scope_ja": "当該レビューが収載した成人研究と分析方法。",
+      "not_supported": "全年齢・全研究で効果が絶対にないこと、語学学習の価値がないこと。",
+      "limitations_ja": "全年齢・全研究で効果が絶対にないこと、語学学習の価値がないこと。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LAN-002-D02",
+      "text": "この実行機能のメタ分析から認知症予防の効果を直接結論づけることはできない。",
+      "claim_ja": "この実行機能のメタ分析から認知症予防の効果を直接結論づけることはできない。",
+      "source_ids": [
+        "SRC091"
+      ],
+      "scope": "研究の対象指標と問いの範囲の区別。",
+      "scope_ja": "研究の対象指標と問いの範囲の区別。",
+      "not_supported": "認知症予防に関する独立したレビューの結論。",
+      "limitations_ja": "認知症予防に関する独立したレビューの結論。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC091"
+  },
+  "remaining_checks": [
+    "2018年以降の追試・統合研究を比較し、最終稿では更新範囲を明示する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

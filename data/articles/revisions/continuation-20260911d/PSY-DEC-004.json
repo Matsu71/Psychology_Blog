@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-DEC-004",
+  "title_ja": "もう払ったお金が、やめる判断を邪魔する？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC237"
+  ],
+  "claims": [
+    {
+      "id": "PSY-DEC-004-D01",
+      "text": "金銭的なサンクコストの影響は、利用判断と追加投資判断などの条件で異なる。",
+      "claim_ja": "金銭的なサンクコストの影響は、利用判断と追加投資判断などの条件で異なる。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "scope": "メタ分析に収載された金銭的判断。",
+      "scope_ja": "メタ分析に収載された金銭的判断。",
+      "not_supported": "全員が必ず影響されること、個人の誤判断確率や固定倍率。",
+      "limitations_ja": "全員が必ず影響されること、個人の誤判断確率や固定倍率。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-DEC-004-D02",
+      "text": "将来の便益や、今後発生する解約費用まで無視することはサンクコストの整理ではない。",
+      "claim_ja": "将来の便益や、今後発生する解約費用まで無視することはサンクコストの整理ではない。",
+      "source_ids": [],
+      "scope": "過去に回収できない費用と、選択で変わる費用の論理的な区別。",
+      "scope_ja": "過去に回収できない費用と、選択で変わる費用の論理的な区別。",
+      "not_supported": "個別の契約・投資・治療をやめるべきという助言。",
+      "limitations_ja": "個別の契約・投資・治療をやめるべきという助言。",
+      "claim_type": "editorial_reasoning",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC237"
+  },
+  "remaining_checks": [
+    "原著収載研究の独立性と条件別解析を全文で追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

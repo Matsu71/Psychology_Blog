@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LIF-004",
+  "title_ja": "引っ越しで生活満足度や人間関係はどう変わる？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC264"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LIF-004-D01",
+      "text": "英国のパネル研究では、転居前の幸福の低下と、転居後の以前の水準への回復という平均的な軌跡が報告された。",
+      "claim_ja": "英国のパネル研究では、転居前の幸福の低下と、転居後の以前の水準への回復という平均的な軌跡が報告された。",
+      "source_ids": [
+        "SRC264"
+      ],
+      "scope": "当該調査と分析における集団平均。",
+      "scope_ja": "当該調査と分析における集団平均。",
+      "not_supported": "転居の純粋な因果効果、各個人の今後の幸福の予測。",
+      "limitations_ja": "転居の純粋な因果効果、各個人の今後の幸福の予測。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LIF-004-D02",
+      "text": "転居後の改善と、以前の水準を上回る改善は異なる比較である。",
+      "claim_ja": "転居後の改善と、以前の水準を上回る改善は異なる比較である。",
+      "source_ids": [
+        "SRC264"
+      ],
+      "scope": "比較する時点に関する解釈。",
+      "scope_ja": "比較する時点に関する解釈。",
+      "not_supported": "全員が必ず同じ経過をたどること。",
+      "limitations_ja": "全員が必ず同じ経過をたどること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC264"
+  },
+  "remaining_checks": [
+    "日本の生活条件に近い縦断研究と、転居理由別の結果を追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

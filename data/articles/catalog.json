@@ -852,10 +852,21 @@
     {
       "topic_id": "PSY-DEC-008",
       "title_ja": "『自分は大丈夫』と思うのはなぜ？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-DEC-008.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-DEC-008.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC239",
+        "SRC240",
+        "SRC241"
+      ],
+      "claim_count": 3,
+      "manuscript_sha256": "c06364cf21f94ffb3fe28670f8fe9356e462cd9fd824b33cccfff8f982cedba8",
+      "claim_sha256": "da752f7bd3f8c314f22ad99fcd6aad92ae99982d2d4ee5a2f846a83bbd7f0363",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-DEC-009",
@@ -2467,10 +2478,19 @@
     {
       "topic_id": "PSY-CRE-011",
       "title_ja": "制約がある方がアイデアを出しやすい？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-CRE-011.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-CRE-011.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC262"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "a735a6bca93aada3bc1f32a6411d383c1c1716d9481136b84aec298f1b67bf77",
+      "claim_sha256": "da44832269bdec5044f157be2de964a228b1edbd6f1964907e5dc598fd63f48a",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-CRE-012",
@@ -2483,18 +2503,37 @@
     {
       "topic_id": "PSY-LAN-001",
       "title_ja": "大人になってから外国語を学ぶのは遅い？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-LAN-001.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-LAN-001.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC051",
+        "SRC092"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "75d7f76ff901e06637f3aa81b52bcfa0bb6a57cbca83c1344ed26041ee6cde7a",
+      "claim_sha256": "fcc92bcb4f9b34f8880fd4a0527d6b42d359f3d1997edf695a19b8bda7d827e1",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-LAN-002",
       "title_ja": "二つの言語を話すと認知能力が高くなる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-LAN-002.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-LAN-002.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC091"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "d4d424a004d2835eb885faa76ab3df31537c9a6246d42ad78ff941e0720ae185",
+      "claim_sha256": "365a75d535e238f3fd241477005ebf261cd4cc62352735fde3a0fa1db0b8c1e8",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-LAN-003",
@@ -2622,18 +2661,36 @@
     {
       "topic_id": "PSY-LIF-004",
       "title_ja": "引っ越しで生活満足度や人間関係はどう変わる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-LIF-004.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-LIF-004.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC264"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "860023fbf230176fd7687a9010b1ca0260b547775d5553f6fcd59f3d5c867caa",
+      "claim_sha256": "5a603346b6077281365ad385f2c92534b32b3b3c0fe8acc73742e1a59921eceb",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-LIF-005",
       "title_ja": "子どもが独立した後の寂しさにはどんな個人差がある？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/continuation-20260911d/PSY-LIF-005.md",
+      "claim_dossier_path": "data/articles/revisions/continuation-20260911d/PSY-LIF-005.json",
+      "publication_ready": false,
+      "unresolved_source_keys": [],
+      "source_ids": [
+        "SRC265"
+      ],
+      "claim_count": 2,
+      "manuscript_sha256": "d2cac23b02636c4dd756ac22a998423699d42e84ef3229c2c2cd65370317a0e2",
+      "claim_sha256": "7963409a83f265d58ddc09912df34112f40a3336fec9a0c4f2785aadd545f3b4",
+      "authoring_batch": "continuation-20260911d",
+      "updated_on": "2026-09-11"
     },
     {
       "topic_id": "PSY-LIF-006",

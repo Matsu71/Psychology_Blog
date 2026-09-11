@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-002",
+  "title_ja": "一夜漬けと分散学習、長く覚えられるのはどちら？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC027",
+    "SRC051"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LEA-002-D01",
+      "text": "分散学習のメタ分析では、保持期間が長いほど、成績に適した学習間隔も長くなる傾向が報告された。",
+      "claim_ja": "分散学習のメタ分析では、保持期間が長いほど、成績に適した学習間隔も長くなる傾向が報告された。",
+      "source_ids": [
+        "SRC051"
+      ],
+      "scope": "主に言語的再生課題を扱う収載実験。",
+      "scope_ja": "主に言語的再生課題を扱う収載実験。",
+      "not_supported": "すべての教材・技能に共通の固定日程、長く空けるほど無条件に有利という主張。",
+      "limitations_ja": "すべての教材・技能に共通の固定日程、長く空けるほど無条件に有利という主張。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LEA-002-D02",
+      "text": "分散学習と取り出す練習は、学習の配置と学習中の行為という異なる軸として整理できる。",
+      "claim_ja": "分散学習と取り出す練習は、学習の配置と学習中の行為という異なる軸として整理できる。",
+      "source_ids": [
+        "SRC027"
+      ],
+      "scope": "学習技法の区別と編集上の説明。",
+      "scope_ja": "学習技法の区別と編集上の説明。",
+      "not_supported": "任意の組み合わせの効果が直接検証済みであること。",
+      "limitations_ja": "任意の組み合わせの効果が直接検証済みであること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC051",
+    "R2": "SRC027"
+  },
+  "remaining_checks": [
+    "目的の保持期間に近い原著と、2006年以降のレビューを比較する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

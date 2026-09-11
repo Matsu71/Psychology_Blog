@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-009",
+  "title_ja": "失敗したとき、自分に厳しい方が再挑戦できる？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC105",
+    "SRC267"
+  ],
+  "claims": [
+    {
+      "id": "PSY-MOT-009-D01",
+      "text": "2012年の実験の一つでは、失敗後に自分へ思いやりを向ける条件で、次のテストへの勉強時間が長くなった。",
+      "claim_ja": "2012年の実験の一つでは、失敗後に自分へ思いやりを向ける条件で、次のテストへの勉強時間が長くなった。",
+      "source_ids": [
+        "SRC267"
+      ],
+      "scope": "当該実験の操作と短期の行動指標。",
+      "scope_ja": "当該実験の操作と短期の行動指標。",
+      "not_supported": "長期の学力や仕事の生産性の改善保証。",
+      "limitations_ja": "長期の学力や仕事の生産性の改善保証。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-MOT-009-D02",
+      "text": "2023年の介入メタ分析は心の症状への平均的改善を報告したが、研究のバイアスリスクや比較条件に制約がある。",
+      "claim_ja": "2023年の介入メタ分析は心の症状への平均的改善を報告したが、研究のバイアスリスクや比較条件に制約がある。",
+      "source_ids": [
+        "SRC105"
+      ],
+      "scope": "症状指標を扱う無作為化試験の統合。",
+      "scope_ja": "症状指標を扱う無作為化試験の統合。",
+      "not_supported": "症状改善から再挑戦や仕事の成果を直接導くこと。",
+      "limitations_ja": "症状改善から再挑戦や仕事の成果を直接導くこと。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC267",
+    "R2": "SRC105"
+  },
+  "remaining_checks": [
+    "失敗後の行動を直接扱う研究について、独立した追試と長期追跡を追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}

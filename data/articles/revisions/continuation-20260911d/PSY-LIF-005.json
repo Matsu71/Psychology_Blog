@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LIF-005",
+  "title_ja": "子どもが独立した後の寂しさにはどんな個人差がある？",
+  "authoring_batch": "continuation-20260911d",
+  "state": "manuscript_pending_article_review",
+  "publication_ready": false,
+  "independent_review_completed": false,
+  "evidence_basis": "previously_registered_source_reviews_not_a_new_systematic_search",
+  "source_ids": [
+    "SRC265"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LIF-005-D01",
+      "text": "中年女性の追跡研究は、子どもの独立で全員の生活の質が悪化するという見方を支持しない。",
+      "claim_ja": "中年女性の追跡研究は、子どもの独立で全員の生活の質が悪化するという見方を支持しない。",
+      "source_ids": [
+        "SRC265"
+      ],
+      "scope": "オーストラリアの当該観察研究の対象と指標。",
+      "scope_ja": "オーストラリアの当該観察研究の対象と指標。",
+      "not_supported": "すべての親や文化で同じ反応になること、個人の寂しさを否定すること。",
+      "limitations_ja": "すべての親や文化で同じ反応になること、個人の寂しさを否定すること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-LIF-005-D02",
+      "text": "事前の状態や同時期の生活変化を考慮する必要がある。",
+      "claim_ja": "事前の状態や同時期の生活変化を考慮する必要がある。",
+      "source_ids": [
+        "SRC265"
+      ],
+      "scope": "縦断的な変化とその解釈。",
+      "scope_ja": "縦断的な変化とその解釈。",
+      "not_supported": "個人の不調の原因を子どもの独立だけに特定すること。",
+      "limitations_ja": "個人の不調の原因を子どもの独立だけに特定すること。",
+      "claim_type": "research_interpretation",
+      "review_scope": "previously_registered_source_review",
+      "independent_review_completed": false,
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_key_map": {
+    "R1": "SRC265"
+  },
+  "remaining_checks": [
+    "父親や日本の家族を含む研究、より新しい追跡研究を追加確認する。"
+  ],
+  "application_status": "illustrative_and_editorial_not_independently_tested",
+  "updated_on": "2026-09-11"
+}
