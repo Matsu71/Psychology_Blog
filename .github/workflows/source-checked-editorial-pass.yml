@@ -1,0 +1,73 @@
+name: Source-checked editorial pass
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'research/editorial_pass_20260911/**'
+      - 'scripts/apply_editorial_pass.py'
+      - 'scripts/validate_editorial_pass.py'
+      - 'scripts/install_editorial_pass_hooks.py'
+      - '.github/workflows/source-checked-editorial-pass.yml'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-source-checked-editorial-pass
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply explicit reviewed records and manuscripts
+        run: |
+          python3 scripts/install_editorial_pass_hooks.py
+          python3 scripts/apply_editorial_pass.py
+      - name: Validate references, source counts and manuscript hashes
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+      - name: Check preservation and idempotence
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          def old(path): return json.loads(subprocess.check_output(['git','show','HEAD:'+path],text=True))
+          for cat in old('data/categories.json')['categories']:
+              path=cat['file']; a=old(path)['topics']; b=json.loads(Path(path).read_text())['topics']
+              assert [(t['id'],t['title_ja']) for t in a]==[(t['id'],t['title_ja']) for t in b]
+              for x,y in zip(a,b): assert set(x['source_ids'])<=set(y['source_ids'])
+          paths=list(Path('articles/manuscripts').glob('*.md'))+list(Path('data/articles/claims').glob('*.json'))
+          before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+          subprocess.run(['python3','scripts/apply_editorial_pass.py'],check=True)
+          assert all(before[str(p)]==hashlib.sha256(p.read_bytes()).hexdigest() for p in paths)
+          print('PASS: original 300 IDs/titles/order/source links, idempotent manuscripts and dossiers.')
+          PY
+      - name: Push data without force or workflow modifications
+        run: |
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent main update; reconcile before retrying.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs articles scripts README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: persist source-checked manuscripts, scoped claims and audit resolutions'
+            git push origin HEAD:main
+          fi
+      - name: Export verified snapshot and recovery diff
+        if: always()
+        run: |
+          mkdir -p pass-export
+          git archive --format=zip --output=pass-export/repository.zip HEAD
+          git rev-parse HEAD > pass-export/source_commit.txt
+          git status --short > pass-export/uncommitted_status.txt
+          git diff > pass-export/uncommitted.patch
+          if [ -f data/articles/editorial_pass_report.json ]; then cp data/articles/editorial_pass_report.json pass-export/; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-source-checked-editorial-pass
+          path: pass-export/
+          retention-days: 14
+          if-no-files-found: error
