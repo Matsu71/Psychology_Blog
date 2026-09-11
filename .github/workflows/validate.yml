@@ -20,6 +20,9 @@ jobs:
           if [ -f data/research/briefs.json ]; then
             python3 scripts/validate_research.py --export build
           fi
+          if [ -f data/research/source_reviews.json ]; then
+            python3 scripts/validate_round3.py --export build
+          fi
       - name: Save portable topic database
         uses: actions/upload-artifact@v4
         with:

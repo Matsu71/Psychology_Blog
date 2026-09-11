@@ -29,11 +29,12 @@ jobs:
           run-id: 34549481613
           github-token: ${{ github.token }}
           path: _resolved
-      - name: Update compatible validators and archive unsafe snapshot replays
+      - name: Upgrade compatible data validators
         run: python3 scripts/upgrade_round3_tools.py
-      - name: Import reviewed sources and derive rankings
+      - name: Import reviewed sources and canonical editorial inputs
         run: |
           python3 scripts/import_round3.py
+          python3 scripts/prepare_editorial_inputs.py
           python3 scripts/build_research_views.py
           python3 scripts/build_research_views.py
       - name: Run structural and scoring checks
@@ -46,7 +47,7 @@ jobs:
       - name: Verify old records and deterministic views
         run: |
           python3 - <<'PY'
-          import hashlib,json,subprocess
+          import hashlib,json,subprocess,shutil
           from pathlib import Path
           def old(path):
               return json.loads(subprocess.check_output(['git','show','HEAD:'+path],text=True))
@@ -64,23 +65,22 @@ jobs:
           before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
           subprocess.run(['python3','scripts/build_research_views.py'],check=True)
           assert all(before[str(p)]==hashlib.sha256(p.read_bytes()).hexdigest() for p in paths)
-          print('PASS: 300 IDs/titles/order, all old source links, 106 original source records, deterministic ranking files.')
-          # Update complete exports after final deterministic build.
+          print('PASS: 300 IDs/titles/order, original links, 106 sources, deterministic rankings.')
           subprocess.run(['python3','scripts/validate_round3.py','--export','build'],check=True)
-          import shutil
           shutil.copytree('scripts','build/database/scripts',dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
           shutil.copytree('research','build/database/research',dirs_exist_ok=True)
           PY
-      - name: Commit validated canonical metadata and views without overwriting concurrent work
+      - name: Commit validated data without workflow modifications
         run: |
           original=$(git rev-parse HEAD)
           remote=$(git ls-remote origin refs/heads/main | cut -f1)
           test "$original" = "$remote" || { echo 'Concurrent main update detected; refusing overwrite.'; exit 1; }
+          git diff --exit-code -- .github/workflows
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data docs README.md scripts .github/workflows .gitignore AGENTS.md schemas
+          git add data docs README.md scripts .gitignore AGENTS.md schemas
           if ! git diff --cached --quiet; then
-            git commit -m 'data: enrich missing topics, rank sources and editorial priorities, validate text database'
+            git commit -m 'data: enrich 102 missing themes, rank evidence and validate the JSON database'
             git push origin HEAD:main
           fi
           git rev-parse HEAD > build/source_commit.txt
