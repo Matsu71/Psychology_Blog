@@ -1,0 +1,54 @@
+name: Verify editorial delivery
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/verify-editorial-delivery.yml'
+      - 'scripts/apply_editorial_delivery.py'
+      - 'research/editorial_delivery/**'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-editorial-delivery
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply reviewed data when a delivery exists
+        run: |
+          if [ -f scripts/apply_editorial_delivery.py ]; then
+            python3 scripts/apply_editorial_delivery.py
+          fi
+      - name: Validate existing database
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+      - name: Commit data without workflow changes or force push
+        run: |
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent update; reconcile before retrying.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs README.md
+          if [ -d articles ]; then git add articles; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: integrate reviewed sources, claim dossiers and editorial progress'
+            git push origin HEAD:main
+          fi
+      - name: Export current tracked files for independent verification
+        if: always()
+        run: |
+          mkdir -p editorial-export
+          git archive --format=zip --output=editorial-export/repository.zip HEAD
+          git rev-parse HEAD > editorial-export/source_commit.txt
+          git status --short > editorial-export/uncommitted_status.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-editorial-verified-snapshot
+          path: editorial-export/
+          retention-days: 14
+          if-no-files-found: error
