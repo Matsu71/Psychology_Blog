@@ -1,0 +1,2369 @@
+{
+  "schema_version": "1.0",
+  "round": "round3-ranked-evidence-v1",
+  "reviews": [
+    {
+      "id": "R3-C000",
+      "source_id": "SRC107",
+      "topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "design": "position_statement",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "睡眠機器を臨床評価の補助として扱う考え方と、診断への安易な転用の問題を整理した立場表明。",
+      "limitations_ja": "2018年時点の米国の声明。現在の全製品の承認状況や精度を示すものではない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C001",
+      "source_id": "SRC108",
+      "topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "design": "device_validation",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "健康な若年成人34人・3夜の検証。睡眠を検出する感度は高い一方、覚醒や睡眠段階の判定に限界があった。",
+      "limitations_ja": "特定の旧世代機器と実験室の結果。現在の同ブランドの全製品にそのまま適用しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C002",
+      "source_id": "SRC109",
+      "topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "24研究・798人を統合。機器と睡眠ポリグラフの間に複数の睡眠指標で差が見られた。",
+      "limitations_ja": "機器・対象・研究条件が異なる。平均差が小さくても個人の測定誤差が小さいとは限らない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C003",
+      "source_id": "SRC110",
+      "topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "design": "device_validation",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "62人・1夜の検証。睡眠の検出に比べ覚醒の識別が難しく、段階判定の一致度は機器間で異なった。",
+      "limitations_ja": "男性が多い限定標本で、1夜の結果。製品の世代とアルゴリズム更新を区別する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C004",
+      "source_id": "SRC111",
+      "topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "24研究を統合し、カフェインによる睡眠時間・効率・入眠などへの影響を報告した。",
+      "limitations_ja": "摂取をやめる時刻の推定は統合モデルに基づく。8.8時間などの数字を万人に共通する安全な締切にしない。追加量・習慣・対象者の差を単回試験と比較する。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C005",
+      "source_id": "SRC112",
+      "topic_ids": [
+        "PSY-SLP-005"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "27研究でアルコールとREM睡眠の減少などを検討。寝つきへの作用と、その後の睡眠構造への作用は同一でない。",
+      "limitations_ja": "総睡眠時間や睡眠効率などには大きな不確実性がある。寝酒を勧めず、量や時刻を個人への処方にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C006",
+      "source_id": "SRC113",
+      "topic_ids": [
+        "PSY-EXE-005"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "23研究の統合は夜の運動全般が睡眠を悪化させるという説明を支持しなかった。就寝直前の激しい運動など条件差を検討。",
+      "limitations_ja": "一つの研究を除くと一部の調整変数の効果が消えた。健康成人の結果で、不眠症や全運動強度に一般化しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C007",
+      "source_id": "SRC114",
+      "topic_ids": [
+        "PSY-EXE-005"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "主に15試験・194人を統合。良好な睡眠の健康成人では、就寝より前に終える高強度運動で多くの睡眠指標に明確な悪化はなかった。",
+      "limitations_ja": "小規模な試験の集積。REM睡眠の変化もあり、非有意を全員への無影響保証にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C008",
+      "source_id": "SRC115",
+      "topic_ids": [
+        "PSY-GEN-007"
+      ],
+      "design": "methodological_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "多遺伝子スコアの予測性能が祖先集団間で異なるという移植可能性の問題を論じる。",
+      "limitations_ja": "市販の性格・適職検査を直接検証した論文ではない。背景資料としてのみ使用。2021年の訂正告知の内容は未精査。",
+      "conclusion_direction": "context",
+      "topic_relevance": 2,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C009",
+      "source_id": "SRC116",
+      "topic_ids": [
+        "PSY-GEN-007"
+      ],
+      "design": "correction_notice",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "上記論文に関する訂正の書誌を確認。内容と影響は未確認で、独立した効果研究に数えない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 1,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C010",
+      "source_id": "SRC117",
+      "topic_ids": [
+        "PSY-GEN-009"
+      ],
+      "design": "narrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "世代間のトラウマ関連研究を整理し、人の知見では遺伝・胎内環境・養育等を一つの機序に確定できないと指摘。",
+      "limitations_ja": "強い機序検証の多くは動物研究。人の経世代遺伝を証明したものとして扱わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C011",
+      "source_id": "SRC118",
+      "topic_ids": [
+        "PSY-ADD-009"
+      ],
+      "design": "laboratory_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "簡略化したギャンブル課題で、惜しい外れは不快でも継続欲求を高める場合があり、本人の操作可能性が関わった。",
+      "limitations_ja": "神経活動と主観の実験であり、個人の依存症や現実の損失を確実に予測しない。依存を強める設計指南にしない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C012",
+      "source_id": "SRC119",
+      "topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "design": "systematic_review_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "23論文の検討で問題的なスマホ使用と抑うつ・不安などの関連を整理した。",
+      "limitations_ja": "収載した関連研究から因果方向や正式な診断の妥当性は確定できない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C013",
+      "source_id": "SRC120",
+      "topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "design": "systematic_review_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "13研究で、スマホの問題的使用とSNSの問題的使用に重なりがあることを整理。",
+      "limitations_ja": "端末そのものと、使っているアプリや活動を区別する。関連の強さを依存症の診断に使わない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C014",
+      "source_id": "SRC121",
+      "topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "design": "systematic_review_measurement",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "78尺度を検討し、理論的基盤や信頼性の検証が十分でない尺度も多いと指摘。",
+      "limitations_ja": "高い尺度得点と疾患の診断は別。使用時間だけで病理化しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C015",
+      "source_id": "SRC122",
+      "topic_ids": [
+        "PSY-HAB-008"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "金銭的報酬による健康行動の変化を34研究で検討し、報酬終了後の持続には限界があると報告。",
+      "limitations_ja": "行動や対象集団が異なる。報酬は必ず逆効果・必ず持続するという両極端を避ける。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C016",
+      "source_id": "SRC123",
+      "topic_ids": [
+        "PSY-HAB-009"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "通勤手段と文脈変化を扱う論文の書誌のみ確認。抄録・結果・独立追試は未確認。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 4,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C017",
+      "source_id": "SRC124",
+      "topic_ids": [
+        "PSY-HAB-005"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "実行意図の基礎的統合研究の書誌のみ。書籍シリーズの章であり、本文や効果量を今回確認していない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C018",
+      "source_id": "SRC125",
+      "topic_ids": [
+        "PSY-PER-003"
+      ],
+      "design": "randomized_trial",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "1週間の外向的行動介入では平均的な便益があったが、内向性の高い参加者では疲れや否定的感情など負担も見られた。",
+      "limitations_ja": "全員に外向的行動を増やす助言にしない。短期・自己報告を含み、追加の比較群は別研究由来。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C019",
+      "source_id": "SRC126",
+      "topic_ids": [
+        "PSY-PER-007"
+      ],
+      "design": "theoretical_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "性格特性を、場面ごとに変動する状態の分布と説明機序として捉える理論を提示。",
+      "limitations_ja": "理論の提案であり、特定の生活介入や診断の有効性を検証した研究ではない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C020",
+      "source_id": "SRC127",
+      "topic_ids": [
+        "PSY-PER-008"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "個人的な妥当性判断を扱う古典の書誌。今回、原文の実験方法や結果は未確認。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C021",
+      "source_id": "SRC128",
+      "topic_ids": [
+        "PSY-MOT-007"
+      ],
+      "design": "meta_analysis_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "128研究で、予告された物的報酬などと自由選択時の活動低下を検討。一方で肯定的なフィードバックは異なる結果だった。",
+      "limitations_ja": "報酬の種類と測定する動機を区別。褒めると必ずやる気が消えるという結論ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C022",
+      "source_id": "SRC129",
+      "topic_ids": [
+        "PSY-MOT-007"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "自由時間の課題選択で測る動機と、課題成績で測る動機では、外的報酬の評価が異なると報告。",
+      "limitations_ja": "1992年の研究。別のメタ分析と収載基準・アウトカムを照合し、単純な賛否で結論を選ばない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C023",
+      "source_id": "SRC130",
+      "topic_ids": [
+        "PSY-MOT-010"
+      ],
+      "design": "archival_field_studies",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "週・月・年の始まりなどの節目の後に、検索・ジム利用・目標へのコミットメントが増える傾向を報告。",
+      "limitations_ja": "行動開始の観察と、長期の習慣維持への因果効果は別。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C024",
+      "source_id": "SRC131",
+      "topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C025",
+      "source_id": "SRC132",
+      "topic_ids": [
+        "PSY-ATT-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "背景音楽の作用は課題で異なり、読解や記憶への影響と、気分や運動への影響は同じではないと整理。",
+      "limitations_ja": "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C026",
+      "source_id": "SRC133",
+      "topic_ids": [
+        "PSY-RES-002",
+        "PSY-RES-008"
+      ],
+      "design": "preregistered_multisite_replications",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "28現象を多国・多標本で事前登録して追試。効果の大きさと再現性が現象ごとに異なることを報告。",
+      "limitations_ja": "選ばれた現象の集合であり、心理学全体の再現率ではない。個別現象の結論には該当課題の本文が必要。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C027",
+      "source_id": "SRC134",
+      "topic_ids": [
+        "PSY-DEC-003"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "2024年の刊行版の書誌を優先。類似題名のプレプリントの抄録を、刊行版の精査済み結果として転記しない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C028",
+      "source_id": "SRC135",
+      "topic_ids": [
+        "PSY-DEC-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "18研究で、利得・損失の表現によるリスク選択と年齢差が、場面や金額等で異なることを整理。",
+      "limitations_ja": "一般的フレーミングの全効果ではなく、年齢差を中心とした部分的な根拠。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C029",
+      "source_id": "SRC136",
+      "topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "選択肢過多のメタ分析の書誌のみ確認。効果量や条件差は原文確認後に記載する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C030",
+      "source_id": "SRC137",
+      "topic_ids": [
+        "PSY-DEC-009"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "統計的な見かけを論じる批判論文の書誌。批判の主張だけで現象全体を否定せず、原研究と応答を併読する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C031",
+      "source_id": "SRC138",
+      "topic_ids": [
+        "PSY-DEC-010"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "58研究で初期選択肢の平均的な作用を示す一方、無効果や逆方向の例もあり、分野や受け止め方で異なると報告。",
+      "limitations_ja": "メタ分析の効果量は選択確率の固定増加率ではない。変更のしやすさと倫理も別に検討する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C032",
+      "source_id": "SRC139",
+      "topic_ids": [
+        "PSY-SOC-001"
+      ],
+      "design": "field_experiment",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "家庭の節電実験で、多数派の使用量だけを伝えると逆効果になる場合があり、社会的評価の伝え方で違いが見られた。",
+      "limitations_ja": "電力使用という特定場面の知見。すべての健康行動や集団に同じ効果を保証しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C033",
+      "source_id": "SRC140",
+      "topic_ids": [
+        "PSY-SOC-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "173研究の統合では、本人と他者で原因説明が異なるという単純な平均的非対称性はほぼ見られず、場面・感情価で条件差があった。",
+      "limitations_ja": "帰属バイアスのすべてを否定する結果ではない。行為者観察者差と他の帰属概念を分ける。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C034",
+      "source_id": "SRC141",
+      "topic_ids": [
+        "PSY-SOC-006"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "スポットライト効果の古典の書誌のみ。現在の再現性や効果量は追加確認が必要。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C035",
+      "source_id": "SRC142",
+      "topic_ids": [
+        "PSY-SOC-007"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "反復接触による好意は単調な増加だけでなく逆U字型の傾向があり、刺激や提示方法で異なると報告。",
+      "limitations_ja": "嫌がる相手への反復接触を正当化しない。視覚と聴覚を同じに扱わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C036",
+      "source_id": "SRC143",
+      "topic_ids": [
+        "PSY-SOC-008"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "自由を脅かす言い方は怒りや反発を増やす傾向があった一方、利得と損失の表現差では同じ効果は明確でなかった。",
+      "limitations_ja": "説得結果への相関とメッセージ操作の効果を区別。相手を操作する指南にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C037",
+      "source_id": "SRC144",
+      "topic_ids": [
+        "PSY-SOC-009"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "136独立標本を統合し、心理的安全性と仕事の態度・成果・組織条件の関連を検討。",
+      "limitations_ja": "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C038",
+      "source_id": "SRC145",
+      "topic_ids": [
+        "PSY-WEL-003"
+      ],
+      "design": "narrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幸福の基準点や適応には個人差があり、全員が同じ水準へ完全に戻るという単純なモデルを修正する議論。",
+      "limitations_ja": "理論・研究の整理であり、苦痛から必ず回復できる期間を示すものではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C039",
+      "source_id": "SRC146",
+      "topic_ids": [
+        "PSY-WEL-004"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "経験と物への購入を比較する研究の書誌。購入すれば幸福になるという推奨や効果の数値は未確認。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C040",
+      "source_id": "SRC147",
+      "topic_ids": [
+        "PSY-WEL-006"
+      ],
+      "design": "surveys_and_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "多国の調査と複数の実験で、他者のための支出と幸福感の関係を検討した。",
+      "limitations_ja": "観察・想起課題・実際の支出を区別。寄付額や効果の普遍性、長期持続を保証しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C041",
+      "source_id": "SRC148",
+      "topic_ids": [
+        "PSY-WEL-008"
+      ],
+      "design": "meta_analysis_cohorts",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "10前向き研究で、人生の目的感と死亡・心血管イベントの関連を検討。",
+      "limitations_ja": "目的を持つ介入で寿命が延びるという証明ではない。健康状態や生活条件の交絡が残る。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C042",
+      "source_id": "SRC149",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "design": "meta_analysis_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "24研究で食事中の注意・記憶と、その場や後の摂取量を比較。気が散る条件で摂取量が増える傾向を報告。",
+      "limitations_ja": "短期の摂取量を長期の体重変化へ読み替えない。収載研究の訂正・撤回と新しい統合結果の照合が必要。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C043",
+      "source_id": "SRC150",
+      "topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "23研究の統合は全解析で一律に有意ではなく、テレビのみの比較では小さな効果、次の食事と直後の食事で違いがあった。",
+      "limitations_ja": "肯定的な題名だけで結論を要約しない。解析対象・異質性・アウトカム時点を明示する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C044",
+      "source_id": "SRC151",
+      "topic_ids": [
+        "PSY-NUT-005"
+      ],
+      "design": "cochrane_systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "24試験で食品の選択肢や距離を変える効果を検討。証拠の確実性は著者らのGRADEで低い～非常に低い。",
+      "limitations_ja": "題名にある酒・タバコの試験は収載されず、全て食品。実験室・高所得国が多く、万能な環境設計とはしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C045",
+      "source_id": "SRC152",
+      "topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "design": "conceptual_replication_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "子どもの待てる時間と後の学業の関連は、家庭背景・早期認知能力等を調整すると大きく減った。",
+      "limitations_ja": "自制心が無意味という結果ではない。一回のテストで子どもの将来や親の育て方を判断しない。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C046",
+      "source_id": "SRC153",
+      "topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "design": "preregistered_longitudinal_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "702人の成人期追跡では、幼少期のテストによる成人の成果の予測は概して弱かった。",
+      "limitations_ja": "前の追試と関連するデータ系列であり、独立した二重の再現と数えない。対象者の属性と欠測を全文で確認する。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C047",
+      "source_id": "SRC154",
+      "topic_ids": [
+        "PSY-DEV-006"
+      ],
+      "design": "meta_analysis_randomized_trials",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "19RCTで親子の絵本共有への介入と子どもの言語等を検討し、平均的な改善を報告。",
+      "limitations_ja": "介入量や対象年齢、親への支援内容を分ける。読んだ冊数だけの効果や全家庭への保証ではない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C048",
+      "source_id": "SRC155",
+      "topic_ids": [
+        "PSY-DEV-006"
+      ],
+      "design": "systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "3歳未満の読み聞かせ介入12研究を整理し、親子の実際の行動を直接測った研究は半数に限られた。",
+      "limitations_ja": "乳幼児の知見を年長児と混同せず、尺度・測定場面を確認する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C049",
+      "source_id": "SRC156",
+      "topic_ids": [
+        "PSY-DEV-007"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幼児の画面使用は時間だけでなく内容・共視聴・背景テレビ等と発達との関連を区別する必要を示した。",
+      "limitations_ja": "メタ分析の中心は観察研究。親の共視聴が発達を必ず改善するという因果結論にはしない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C050",
+      "source_id": "SRC157",
+      "topic_ids": [
+        "PSY-AGE-010"
+      ],
+      "design": "integrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "メモや通知などに情報処理を外在化する仕組みと、その認知的な帰結を整理。",
+      "limitations_ja": "主に一般的な認知の概説で、高齢者の長期的な記憶低下を直接測った介入試験ではない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C051",
+      "source_id": "SRC158",
+      "topic_ids": [
+        "PSY-DIG-004"
+      ],
+      "design": "randomized_trial",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "154人を1週間のSNS休止と通常利用に割り付け、気分関連指標の短期改善を報告。",
+      "limitations_ja": "自己報告と短い追跡。臨床患者や長期利用、失われる交流や便益は別途検討する。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C052",
+      "source_id": "SRC159",
+      "topic_ids": [
+        "PSY-DIG-004"
+      ],
+      "design": "randomized_trial",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "スマホのインターネットを2週間遮断し、心理指標や持続注意の改善を報告。電話・SMSや別端末のネット利用は維持された。",
+      "limitations_ja": "参加者の遵守と欠測に大きな制約。全員が同じ効果を得る、単なる画面時間削減で同じ結果になるとはしない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C053",
+      "source_id": "SRC160",
+      "topic_ids": [
+        "PSY-DIG-001",
+        "PSY-DIG-004"
+      ],
+      "design": "randomized_field_experiment",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "米国の選挙前にFacebookを休止する実験で幸福感などが変化した一方、ニュース知識も減った。",
+      "limitations_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C054",
+      "source_id": "SRC161",
+      "topic_ids": [
+        "PSY-DIG-005"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "FOMOの基礎研究の書誌のみ。尺度の妥当性や使用行動との因果関係は今回未確認。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C055",
+      "source_id": "SRC162",
+      "topic_ids": [
+        "PSY-WRK-004"
+      ],
+      "design": "meta_analysis_prospective_cohorts",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "8コホートで、努力に報酬が見合わないと感じる状態とうつ病の新規発症との関連を報告。",
+      "limitations_ja": "事前登録と感度分析は記載されるが観察研究。待遇を変える介入の効果や本人の将来を直接予測しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C056",
+      "source_id": "SRC163",
+      "topic_ids": [
+        "PSY-WRK-005"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "感情労働では、表面的な演技と内面の感情調整で、健康・仕事への態度・成果との関連が異なった。",
+      "limitations_ja": "相関と因果を分け、接客者の我慢や自己管理だけに責任を求めない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C057",
+      "source_id": "SRC164",
+      "topic_ids": [
+        "PSY-WRK-006"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "仕事の工夫を促す介入のメタ分析の書誌。結果と研究の品質をまだ読解していない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C058",
+      "source_id": "SRC165",
+      "topic_ids": [
+        "PSY-WRK-007"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "172研究で、人と仕事・組織・集団・上司の適合と就職や仕事の態度・成果等の関連を整理。",
+      "limitations_ja": "適合の測り方が異なる。性格診断だけで適職を断定したり、相関を採用・転職の処方に使ったりしない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C059",
+      "source_id": "SRC166",
+      "topic_ids": [
+        "PSY-WRK-009"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "会議負荷と日々の幸福を直接扱う研究の書誌。休憩や空気質の研究を代用せず、本論文の方法・結果を次に確認する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C060",
+      "source_id": "SRC167",
+      "topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "design": "systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "62研究の検討では、インポスター感の推定頻度は尺度や基準で大きく異なり、当時は治療評価研究がなかった。",
+      "limitations_ja": "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C061",
+      "source_id": "SRC168",
+      "topic_ids": [
+        "PSY-WRK-014"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "職場の雑談を直接扱う研究の書誌。題名にある気分向上・注意散漫の結果は本文確認前に断定しない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C062",
+      "source_id": "SRC169",
+      "topic_ids": [
+        "PSY-MON-002"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C063",
+      "source_id": "SRC170",
+      "topic_ids": [
+        "PSY-MON-003"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "メンタルアカウンティングの基礎論考の書誌。単一の因果効果を証明する資料として扱わない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C064",
+      "source_id": "SRC171",
+      "topic_ids": [
+        "PSY-MON-010"
+      ],
+      "design": "behavioral_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "無料と少額の価格を比較する実験で、ゼロ価格が通常の価格差とは異なる選択を促す結果を報告。",
+      "limitations_ja": "特定の商品・実験条件の結果。無料なら常に不合理な選択になるとはしない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C065",
+      "source_id": "SRC172",
+      "topic_ids": [
+        "PSY-MON-013"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "贈り物の希望を明示することを扱う研究の書誌のみ。文化差や親密さ、結果は追加確認する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C066",
+      "source_id": "SRC173",
+      "topic_ids": [
+        "PSY-INT-002"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "カップルの新しい活動と関係の質を扱う研究の書誌。本文・独立追試は未確認。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C067",
+      "source_id": "SRC174",
+      "topic_ids": [
+        "PSY-INT-005"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "93研究で親密さについての会話と関係・性的満足の関連を統合。会話の量より質で関連が大きい傾向を報告。",
+      "limitations_ja": "良い関係だから会話しやすいという逆因果もある。話題や行動への同意を強制しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C068",
+      "source_id": "SRC175",
+      "topic_ids": [
+        "PSY-INT-005"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "48研究で性的コミュニケーションと性機能の複数指標との関連を検討。",
+      "limitations_ja": "会話を増やすだけで機能が改善するという治療の証明ではない。前のメタ分析との収載重複を確認する。",
+      "conclusion_direction": "association",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C069",
+      "source_id": "SRC176",
+      "topic_ids": [
+        "PSY-INT-006"
+      ],
+      "design": "cross_sectional_study",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幼い子どもの母親322人で、家事の計画・段取りと実行の負担を分け、心の健康との関連を検討。",
+      "limitations_ja": "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C070",
+      "source_id": "SRC177",
+      "topic_ids": [
+        "PSY-INT-011"
+      ],
+      "design": "meta_analysis_longitudinal",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "出産前後に関係満足の平均的低下が見られたが、子どもを持たない新婚者の比較でも同様の低下があり、出産固有の作用は単純でない。",
+      "limitations_ja": "全家庭の必然ではない。比較群・時点・欠測・支援環境を確認する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C071",
+      "source_id": "SRC178",
+      "topic_ids": [
+        "PSY-INT-012"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "関係の運命観・成長観を扱う基礎研究の書誌。危険な関係への努力継続を正当化しない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C072",
+      "source_id": "SRC179",
+      "topic_ids": [
+        "PSY-HPS-003"
+      ],
+      "design": "clinical_guideline",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "IBSの評価と治療について、GRADEと合意形成に基づく指針で、腸に向けた心理療法も選択肢として扱う。",
+      "limitations_ja": "緊張時の腹痛全般をIBSと診断しない。米国の指針であり、薬や検査を個別に勧める資料ではない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C073",
+      "source_id": "SRC180",
+      "topic_ids": [
+        "PSY-HPS-004"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "不安に伴う身体感覚への恐れは、不安障害等と関連するが、疾患・尺度・年齢で違いがあった。",
+      "limitations_ja": "抄録自身が因果推論はできないと注意。動悸や胸痛を心理だけの問題と判断しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C074",
+      "source_id": "SRC181",
+      "topic_ids": [
+        "PSY-HPS-005"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "SNSと身体像のメタ分析の書誌。追加した新しい関連研究と重複・尺度・対象を照合する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C075",
+      "source_id": "SRC182",
+      "topic_ids": [
+        "PSY-HPS-007"
+      ],
+      "design": "prospective_viral_challenge_study",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ウイルスへの曝露を管理した研究で、事前のストレスの程度と感染・風邪発症の関連を報告。",
+      "limitations_ja": "ストレス自体を無作為割付した試験ではない。感染を気の持ちようや本人の責任に還元しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C076",
+      "source_id": "SRC183",
+      "topic_ids": [
+        "PSY-HPS-008",
+        "PSY-MEN-009"
+      ],
+      "design": "narrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "治療への否定的期待や説明と症状の経験を扱うノセボ研究の概説。",
+      "limitations_ja": "真の副作用を否定せず、必要なリスク説明を省略しない。個別の治療中断や変更を勧めない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C077",
+      "source_id": "SRC184",
+      "topic_ids": [
+        "PSY-HPS-009"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "健康情報の反復検索と健康不安等との関連を整理し、因果的な経路の追加検証が必要とした。",
+      "limitations_ja": "検索すれば必ず不安が増すという結論ではなく、不安が検索を促す可能性もある。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C078",
+      "source_id": "SRC185",
+      "topic_ids": [
+        "PSY-HPS-011"
+      ],
+      "design": "cochrane_systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "182RCTの結果は不均一で、低バイアス試験でも服薬継続と臨床結果の双方が改善したものは少なかった。",
+      "limitations_ja": "2013年までの検索。服薬支援を万能なアプリやリマインダー一つに還元せず、薬の自己調整を勧めない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C079",
+      "source_id": "SRC186",
+      "topic_ids": [
+        "PSY-HPS-012",
+        "PSY-DEC-005"
+      ],
+      "design": "cochrane_systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "自然頻度と確率、相対的減少と絶対的減少では理解や説得力が異なると整理。",
+      "limitations_ja": "行動を評価した比較はなく、理解度から健康行動の改善を直接推論しない。古いレビューで更新調査が必要。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C080",
+      "source_id": "SRC187",
+      "topic_ids": [
+        "PSY-ENV-003"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "交通騒音と睡眠には客観的・主観的指標の関連があり、質問の言い方や音源でも結果が異なった。",
+      "limitations_ja": "著者らの確実性は結果別に中程度から非常に低い。全ての音源や慣れの効果に一般化しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C081",
+      "source_id": "SRC188",
+      "topic_ids": [
+        "PSY-ENV-004"
+      ],
+      "design": "before_after_field_studies",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "2企業でオープン化の前後を測定し、対面交流が減り電子的な交流が増える結果を報告。",
+      "limitations_ja": "無作為化でなく、同時期の他の変化を除けない。全オフィスに同じ減少率を当てはめない。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C082",
+      "source_id": "SRC189",
+      "topic_ids": [
+        "PSY-ENV-007"
+      ],
+      "design": "within_person_experiment",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "においを伴う自伝的記憶は、同じ手掛かりの視覚提示等より感情的に感じられる傾向を報告。",
+      "limitations_ja": "鮮明さや感情の強さは記憶の事実的正確さとは別。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C083",
+      "source_id": "SRC190",
+      "topic_ids": [
+        "PSY-ENV-010"
+      ],
+      "design": "narrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "色と心理の研究には理論・方法上の弱点が残り、実生活への応用を急がないことを提案。",
+      "limitations_ja": "部屋の色で集中力を確実に変えられるという介入効果の証明ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C084",
+      "source_id": "SRC191",
+      "topic_ids": [
+        "PSY-ENV-010"
+      ],
+      "design": "historical_methodological_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "色彩研究の歴史と方法上の問題を整理し、研究を解釈するための注意を提示。",
+      "limitations_ja": "概説であり特定の色の効果量を算出したメタ分析ではない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C085",
+      "source_id": "SRC192",
+      "topic_ids": [
+        "PSY-ENV-012"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "自然音の研究を統合し、ストレスや感情などの平均的な改善を報告。",
+      "limitations_ja": "効果量の区間が広い指標があり、音源・対照条件・介入内容が異なる。特定音源や治療効果を保証しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C086",
+      "source_id": "SRC193",
+      "topic_ids": [
+        "PSY-CRE-003",
+        "PSY-DIG-006"
+      ],
+      "design": "preregistered_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "7実験で動画の切り替えと退屈を検討し、切り替えが退屈を強める場合を報告。記事や大学外の標本では結果が明確でない条件もあった。",
+      "limitations_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C087",
+      "source_id": "SRC194",
+      "topic_ids": [
+        "PSY-CRE-005",
+        "PSY-ATT-006"
+      ],
+      "design": "meta_analysis_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "問題を一度離れる効果は課題の種類、準備時間、間に行う活動の負荷によって異なると整理。",
+      "limitations_ja": "休めばどの問題も解けるわけではない。発散的思考と正解のある課題を分ける。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C088",
+      "source_id": "SRC195",
+      "topic_ids": [
+        "PSY-CRE-007"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "音楽を聴く、歌う、音楽療法などをまとめて生活の質の改善を検討。",
+      "limitations_ja": "単群前後比較も含む。趣味として演奏することだけの因果効果に切り出さず、臨床介入と一般の趣味を分ける。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C089",
+      "source_id": "SRC196",
+      "topic_ids": [
+        "PSY-CRE-009"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "親和的・自己を支えるユーモアと、攻撃的・自己を傷つけるユーモアでは幸福との関連が異なった。",
+      "limitations_ja": "相関を因果に変換しない。冗談による攻撃や自己否定を対処法として勧めない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C090",
+      "source_id": "SRC197",
+      "topic_ids": [
+        "PSY-CRE-012"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "集団のブレインストーミングと生産性を扱う統合研究の書誌。案の数・質と現在のオンライン協働への適用を追加確認する。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C091",
+      "source_id": "SRC198",
+      "topic_ids": [
+        "PSY-LAN-004"
+      ],
+      "design": "group_comparison_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "内的な言葉が少ないと報告する群で一部の言語課題に差があった一方、課題切替などには差がなかった。",
+      "limitations_ja": "自己報告で分けた小標本。内的独り言の少なさを一般知能や障害の診断に結びつけない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C092",
+      "source_id": "SRC199",
+      "topic_ids": [
+        "PSY-LAN-006"
+      ],
+      "design": "metadata_only",
+      "review_scope": "bibliography",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": null,
+      "limitations_ja": "アクセントと信頼判断の研究の書誌。訛りを能力や誠実さの指標として正当化しない。",
+      "conclusion_direction": "not_evaluated",
+      "topic_relevance": 5,
+      "relevance_scope": "title_only_provisional",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C093",
+      "source_id": "SRC200",
+      "topic_ids": [
+        "PSY-LAN-007"
+      ],
+      "design": "experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "メールの意図や感情が、送り手の想定ほど受け手に伝わらない場合を5実験で検討。",
+      "limitations_ja": "当時のメール課題と現在の全メッセージ媒体は異なる。短文を不機嫌と断定する規則にしない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C094",
+      "source_id": "SRC201",
+      "topic_ids": [
+        "PSY-LAN-009"
+      ],
+      "design": "field_and_laboratory_experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "通勤等で見知らぬ人との会話が、予想より肯定的に経験される場面を検討した。",
+      "limitations_ja": "安全感・文化・会話したくない人の選択を尊重。誰にでも話しかければ幸福になるという助言にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C095",
+      "source_id": "SRC202",
+      "topic_ids": [
+        "PSY-LAN-010"
+      ],
+      "design": "systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "医療現場で説明を受けた人に言い返してもらう方法の実装・効果を20研究で整理。研究の質は混在した。",
+      "limitations_ja": "一般の授業や職場への移植は追加検証。相手を試験するのでなく説明の伝わり方を確認する方法として扱う。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C096",
+      "source_id": "SRC203",
+      "topic_ids": [
+        "PSY-LAN-011",
+        "PSY-EMO-002"
+      ],
+      "design": "experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "自分の名前や一人称でない表現を使う内省と、対人ストレス時の反応を7研究で検討。",
+      "limitations_ja": "一論文内の実験群を独立した追試群と数えない。言語・文化差や長期の治療効果は未確認。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C097",
+      "source_id": "SRC204",
+      "topic_ids": [
+        "PSY-LAN-012"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "物語型と非物語型メッセージで、直後と遅れて測った態度・意図・行動への説得力を比較。",
+      "limitations_ja": "説得力は正しさの証拠ではない。一般の物語研究と健康情報の個別判断を区別する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C098",
+      "source_id": "SRC205",
+      "topic_ids": [
+        "PSY-LIF-006"
+      ],
+      "design": "longitudinal_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "別れの後の87人を追い、症状の推移に複数のパターンがあり、反すう等との関連を報告。",
+      "limitations_ja": "データから分類した小標本の軌跡。回復の期限や本人の責任を示さない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C099",
+      "source_id": "SRC206",
+      "topic_ids": [
+        "PSY-LIF-006"
+      ],
+      "design": "longitudinal_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "別れを経験した若年成人で、症状の上昇と回復、出来事の受け止め方による違いを検討。",
+      "limitations_ja": "平均で戻った時期を、全員が立ち直る期限にしない。別研究の軌跡と比較して個人差を残す。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C100",
+      "source_id": "SRC207",
+      "topic_ids": [
+        "PSY-LIF-011"
+      ],
+      "design": "observational_studies",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "達成困難な目標から離れることと、別の目標に再関与することの両面が幸福と関連する場合を報告。",
+      "limitations_ja": "病気の本人への治療試験ではなく、医療・リハビリの中止を勧めるものではない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-C101",
+      "source_id": "SRC208",
+      "topic_ids": [
+        "PSY-LIF-012"
+      ],
+      "design": "randomized_intervention",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "大学での所属感を支える短い介入について、学業や健康に関する結果を検討。",
+      "limitations_ja": "特定の大学生集団の試験。日本の転職や全集団への一般化、実際の差別の否定には使わない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S104",
+      "source_id": "SRC209",
+      "topic_ids": [
+        "PSY-REL-010"
+      ],
+      "design": "experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "25実験で、相手の立場を想像するだけでは心の読み取りの正確さが一貫して改善せず、直接会話して情報を得ることが役立つ条件を示した。",
+      "limitations_ja": "共感そのものが無意味という結論ではない。正確性と他者への配慮を区別する。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S108",
+      "source_id": "SRC210",
+      "topic_ids": [
+        "PSY-MON-012"
+      ],
+      "design": "longitudinal_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "学生の就職活動では最大化傾向と高い初任給が関連する一方、満足や感情には不利な関連もあった。",
+      "limitations_ja": "買い物の直接実験ではない。就職活動の例としてのみ使い、慎重な比較の全否定にしない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 3,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S110",
+      "source_id": "SRC211",
+      "topic_ids": [
+        "PSY-LAN-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "83独立標本を統合し、身ぶりを見たり作ったりすることと理解の改善を検討。身ぶりの種類や課題で差があった。",
+      "limitations_ja": "長期の記憶や全教材に同じ効果を保証しない。アクセシビリティへの配慮も必要。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S112",
+      "source_id": "SRC212",
+      "topic_ids": [
+        "PSY-HAB-010"
+      ],
+      "design": "randomized_field_trial",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "スウェーデンのジム会員1629人で、金銭を伴う契約の提示と来館行動の変化を比較。",
+      "limitations_ja": "契約の提示効果と実際に契約した人の効果を分ける。損失や負担があり、罰金式の自己管理を一律に勧めない。",
+      "conclusion_direction": "supports",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S114",
+      "source_id": "SRC213",
+      "topic_ids": [
+        "PSY-GEN-010"
+      ],
+      "design": "longitudinal_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "メキシコ系の若者674人で、児童期の気質と成人期の性格の連続性・変化を比較。",
+      "limitations_ja": "特定の文化集団と尺度の縦断研究。幼い子どもの将来を固定的に予測する検査ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S115",
+      "source_id": "SRC214",
+      "topic_ids": [
+        "PSY-PER-008"
+      ],
+      "design": "experiment",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ランダムな性格プロフィールでも、本人の実際の傾向から大きく外れた説明は拒否される場合を示した。",
+      "limitations_ja": "古典の一般的説明とは課題・数値プロフィールが違う。バーナム効果全体の有無を一論文で決めない。",
+      "conclusion_direction": "challenges",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S116",
+      "source_id": "SRC215",
+      "topic_ids": [
+        "PSY-REL-007"
+      ],
+      "design": "systematic_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "医療従事者・学生の自己主張トレーニングを検討し、一部の改善と対象・方法による差を報告。",
+      "limitations_ja": "一般人の日常的な断り方や長期の安全性を直接検証したものではない。組織の権力差も考慮する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 3,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S117",
+      "source_id": "SRC216",
+      "topic_ids": [
+        "PSY-REL-009"
+      ],
+      "design": "experiments",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "謝罪による信頼修復は、能力上の失敗か誠実さの侵害か、口頭か書面かなどで異なる結果だった。",
+      "limitations_ja": "短期の実験的な信頼判断であり、被害者に許すことを要求する根拠ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S119",
+      "source_id": "SRC217",
+      "topic_ids": [
+        "PSY-HPS-005"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "83研究を統合し、SNS上の比較と身体像の不安・食行動上の症状の関連を報告。",
+      "limitations_ja": "方向を確定する因果試験ではない。体形の価値判断や極端な食事制限につなげない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S120",
+      "source_id": "SRC218",
+      "topic_ids": [
+        "PSY-EXE-010"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "7研究で完璧主義と強迫的な運動の関連を検討。",
+      "limitations_ja": "多くが横断研究で臨床標本も少ない。頻繁に運動することだけで依存と診断しない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S121",
+      "source_id": "SRC219",
+      "topic_ids": [
+        "PSY-NUT-008"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "72RCTで腸内細菌に関わる介入と抑うつ・不安・睡眠を検討し、改善を報告する一方で高い異質性と方法の制約を指摘。",
+      "limitations_ja": "性格を変える研究ではない。製品・菌株・対象者を一括りにせず、サプリや治療の自己変更を勧めない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S122",
+      "source_id": "SRC220",
+      "topic_ids": [
+        "PSY-NUT-010"
+      ],
+      "design": "randomized_trial_secondary_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "生活介入の小規模な長期サブ研究では、柔軟な抑制だけでなく厳格な抑制の変化も体重維持と関連した。",
+      "limitations_ja": "厳格な食事ルールは必ず悪いという単純化への注意。個々の抑制を無作為割付したわけではなく、媒介解析は因果証明でない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S123",
+      "source_id": "SRC221",
+      "topic_ids": [
+        "PSY-DEV-003"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幼児の実行機能への介入は領域ごとに異なり、一部に小さな効果、ほぼゼロの効果も見られた。",
+      "limitations_ja": "訓練課題の変化を将来の成功に結びつけない。短期・異質性・一般化の制約が残る。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S124",
+      "source_id": "SRC222",
+      "topic_ids": [
+        "PSY-DEV-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "幼少期の愛着は一定の安定性と変化の双方があり、出版バイアスも検出された。",
+      "limitations_ja": "幼少期の区分と成人の恋愛を同一視しない。全人生を決定するという根拠ではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S125",
+      "source_id": "SRC223",
+      "topic_ids": [
+        "PSY-AGE-001"
+      ],
+      "design": "cross_sectional_longitudinal_comparison",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "加齢による認知成績の変化と、縦断研究で同じ検査を受ける練習効果を検討。",
+      "limitations_ja": "関連する批判・応答の索引情報あり。横断的な世代差と個人の加齢を混同せず、全文と反論を次に確認する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S130",
+      "source_id": "SRC224",
+      "topic_ids": [
+        "PSY-RES-010"
+      ],
+      "design": "methodological_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "一人の中で比較を繰り返すN-of-1試験の報告指針と透明性・個人情報上の注意を整理。",
+      "limitations_ja": "日常の自己記録がそのまま因果実験になるわけではない。薬・睡眠削減等の危険な自己実験は対象外。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S132",
+      "source_id": "SRC225",
+      "topic_ids": [
+        "PSY-MON-007"
+      ],
+      "design": "uncontrolled_pilot",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "経済的な困難がある18組のカップルで、会話・対処・家計技能を組み合わせるプログラムの前後を検討。",
+      "limitations_ja": "対照群のない小規模予備研究。改善を確実な因果効果とせず、有望な調査入口として扱う。",
+      "conclusion_direction": "preliminary",
+      "topic_relevance": 4,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 1,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S134",
+      "source_id": "SRC226",
+      "topic_ids": [
+        "PSY-INT-004"
+      ],
+      "design": "expert_position_statement",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "親密さを求める度合いの違いについて、個人を病理化せず二人の文脈で考える専門家の立場表明。",
+      "limitations_ja": "原文自身がエビデンス不足で意見に基づくと明記。学会名だけで高確実性と評価せず、同意を優先する。",
+      "conclusion_direction": "context",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S136",
+      "source_id": "SRC227",
+      "topic_ids": [
+        "PSY-INT-010"
+      ],
+      "design": "longitudinal_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ドイツの未婚者2930人の11年間の推移で、人生満足と恋人を求める気持ち等を分け、多様な軌跡を報告。",
+      "limitations_ja": "未婚であることを無作為割付した研究ではない。国・年齢・選択の違いを考慮する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S138",
+      "source_id": "SRC228",
+      "topic_ids": [
+        "PSY-HPS-010"
+      ],
+      "design": "meta_analysis_observational",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "予防接種についてのリスク知覚と行動を34研究で検討。測定法や前向き設計で関連の大きさが違った。",
+      "limitations_ja": "健診結果や全予防行動への直接の根拠ではない。恐怖を強めれば望ましい行動になるとはしない。",
+      "conclusion_direction": "association",
+      "topic_relevance": 3,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S139",
+      "source_id": "SRC229",
+      "topic_ids": [
+        "PSY-ENV-006"
+      ],
+      "design": "laboratory_comparison",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "画面上の情報の混雑と、視線・金融リスク判断を比較する研究。",
+      "limitations_ja": "部屋の散らかりを直接検証していないため背景資料に限定。片づけの生活指導の根拠にはしない。",
+      "conclusion_direction": "context",
+      "topic_relevance": 2,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "R3-S145",
+      "source_id": "SRC230",
+      "topic_ids": [
+        "PSY-MON-011"
+      ],
+      "design": "integrative_review",
+      "review_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "所有による価値評価の違いを、損失回避だけでなく認知的な枠組み等の複数の説明から整理。",
+      "limitations_ja": "所有すれば必ず高く評価するという固定則ではない。単一の神経機序や万能な売買指南にしない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "abstract_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ]
+}

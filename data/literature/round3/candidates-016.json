@@ -1,0 +1,1541 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "DOI:10.5937/psistra0-48157",
+      "title": "Sensory processing sensitivity",
+      "doi": "10.5937/psistra0-48157",
+      "year": 2024,
+      "authors": "Isidora Rajić",
+      "journal": "Psiholoska istrazivanja",
+      "url": "https://doi.org/10.5937/psistra0-48157",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0031512516666114",
+      "title": "Sensory Processing Sensitivity",
+      "doi": "10.1177/0031512516666114",
+      "year": 2016,
+      "authors": "Hanne Listou Grimen; Åge Diseth",
+      "journal": "Perceptual and Motor Skills",
+      "url": "https://doi.org/10.1177/0031512516666114",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0033-2909.125.6.627",
+      "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation.",
+      "doi": "10.1037/0033-2909.125.6.627",
+      "year": 1999,
+      "authors": "Edward L. Deci; Richard Koestner; Richard M. Ryan",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/0033-2909.125.6.627",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC128"
+    },
+    {
+      "id": "DOI:10.1111/j.2044-8325.1992.tb00488.x",
+      "title": "The effects of extrinsic rewards in intrinsic motivation: A meta‐analysis",
+      "doi": "10.1111/j.2044-8325.1992.tb00488.x",
+      "year": 1992,
+      "authors": "Uco J. Wiersma",
+      "journal": "Journal of Occupational and Organizational Psychology",
+      "url": "https://doi.org/10.1111/j.2044-8325.1992.tb00488.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC129"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.3787811",
+      "title": "The Effects of Extrinsic Rewards on Intrinsic Motivation",
+      "doi": "10.2139/ssrn.3787811",
+      "year": 2021,
+      "authors": "Raed Shenaq",
+      "journal": null,
+      "url": "https://doi.org/10.2139/ssrn.3787811",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/e578192014-307",
+      "title": "The fresh start effect: Temporal landmarks motivate aspirational behavior",
+      "doi": "10.1037/e578192014-307",
+      "year": 2014,
+      "authors": "Hengchen Dai; Katherine L. Milkman; Jason Riis",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e578192014-307",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1287/mnsc.2014.1901",
+      "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+      "doi": "10.1287/mnsc.2014.1901",
+      "year": 2014,
+      "authors": "Hengchen Dai; Katherine L. Milkman; Jason Riis",
+      "journal": "Management Science",
+      "url": "https://doi.org/10.1287/mnsc.2014.1901",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC130"
+    },
+    {
+      "id": "DOI:10.1037/e513702014-058",
+      "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+      "doi": "10.1037/e513702014-058",
+      "year": 2013,
+      "authors": "Hengchen Dai; Katherine L. Milkman; Jason Riis",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e513702014-058",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.obhdp.2009.04.002",
+      "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+      "doi": "10.1016/j.obhdp.2009.04.002",
+      "year": 2009,
+      "authors": "Sophie Leroy",
+      "journal": "Organizational Behavior and Human Decision Processes",
+      "url": "https://doi.org/10.1016/j.obhdp.2009.04.002",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC131"
+    },
+    {
+      "id": "DOI:10.1111/j.1070-3535.2005.00396.x",
+      "title": "Why do Americans Work so Hard?",
+      "doi": "10.1111/j.1070-3535.2005.00396.x",
+      "year": 2005,
+      "authors": "Alberto Alesina; Edward Glaeser; Bruce Sacerdote",
+      "journal": "Public Policy Research",
+      "url": "https://doi.org/10.1111/j.1070-3535.2005.00396.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/009770048501100203",
+      "title": "Why Do the Chinese Work So Hard?",
+      "doi": "10.1177/009770048501100203",
+      "year": 1985,
+      "authors": "Stevan Harrell",
+      "journal": "Modern China",
+      "url": "https://doi.org/10.1177/009770048501100203",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0305735610376261",
+      "title": "The impact of background music on adult listeners: A meta-analysis",
+      "doi": "10.1177/0305735610376261",
+      "year": 2010,
+      "authors": "Juliane Kämpfe; Peter Sedlmeier; Frank Renkewitz",
+      "journal": "Psychology of Music",
+      "url": "https://doi.org/10.1177/0305735610376261",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC132"
+    },
+    {
+      "id": "DOI:10.5014/ajot.47.3.268a",
+      "title": "Even Background Music Can Affect Listeners",
+      "doi": "10.5014/ajot.47.3.268a",
+      "year": 1993,
+      "authors": "Roberta Wigle Justice",
+      "journal": "American Journal of Occupational Therapy",
+      "url": "https://doi.org/10.5014/ajot.47.3.268a",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.30535/mto.21.3.7",
+      "title": "Listeners’ Bodies in Music Analysis",
+      "doi": "10.30535/mto.21.3.7",
+      "year": 2015,
+      "authors": "Mariusz Kozak",
+      "journal": "Music Theory Online",
+      "url": "https://doi.org/10.30535/mto.21.3.7",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/9654g",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Sample and Setting",
+      "doi": "10.31234/osf.io/9654g",
+      "year": 2018,
+      "authors": "Richard Anthony Klein; Michelangelo Vianello; Fred Hasselman; Byron Gregory Adams; Reginald B. Adams; Sinan Alper; Mark Aveyard; Jordan Axt; Mayowa Tosin Babalola; Štěpán Bahník; Mihaly Berkics; Michael Jason Bernstein; Daniel R. Berry; Olga Bialobrzeska; Konrad Bocian; Mark Brandt; Robert Busching; Huajian Cai; Fanny Cambier; Katarzyna Cantarero; Cheryl L Carmichael; Zeynep Cemalcilar; Jesse J. Chandler; Jen-Ho Chang; Armand Chatard; Eva CHEN; Winnee Cheong; David C Cicero; Sharon Coen; Jennifer A. Coleman; Brian Collisson; Morgan Anna Conway; Katherine S. Corker; Paul G Curran; Fiery Andrews Cushman; Ilker Dalgar; William E. Davis; Maaike Jolise de Bruijn; Marieke de Vries; Thierry Devos; Canay Doğulu; Nerisa Dozo; Kristin Nicole Dukes; Yarrow Dunham; Kevin Durrheim; Matthew Easterbrook; Charles R. Ebersole; John Edlund; Alexander Scott English; Anja Eller; Carolyn Finck; Miguel-Ángel Freyre; Mike Friedman; Natalia Frankowska; Elisa Maria Galliani; Tanuka Ghoshal; Steffen Robert Giessner; Tripat Gill; Timo Gnambs; Angel Gomez; Roberto Gonzalez; Jesse Graham; Jon E. Grahe; Ivan Grahek; Eva Green; Kakul Hai; Matthew Haigh; Elizabeth L. Haines; Michael P. Hall; Marie E. Heffernan; Joshua A. Hicks; Petr Houdek; Marije van der Hulst; Jeffrey R. Huntsinger; Ho Phi Huynh; Hans IJzerman; Yoel Inbar; Åse Innes-Ker; William Jimenez-Leal; Melissa-Sue John; Jennifer Alana Joy-Gaba; Roza Gizem Kamiloglu; Andreas Kappes; Heather Barry Kappes; Serdar Karabati; Haruna Karick; Victor N. Keller; Anna Kende; Nicolas / Kervyn; Goran Knezevic; Carrie Kovacs; Lacy Elise Krueger; German Kurapov; Jaime Kurtz; Daniel Lakens; Ljiljana B. Lazarevic; Carmel Levitan; Neil Anthony Lewis; Samuel Lins; Esther Maassen; Angela Maitner; Winfrida Malingumu; Robyn Mallett; Satia Adele Marotta; Jason Cameron McIntyre; Janko Mileta Međedović; Taciano L Milfont; Wendy Morris; Andriy Myachykov; Sean Christopher Murphy; Koen Ilja Neijenhuijs; Anthony J. Nelson; Felix Fernando Monteiro Neto; Austin Lee Nichols; Susan L. O'Donnell; Masanori Oikawa; Gabor Orosz; Malgorzata Osowiecka; Grant Packard; Rolando Pérez; Boban Petrovic; Ronaldo Pilati; Brad Pinter; Lysandra Maria Podesta; Monique Maria Henriettte Pollmann; Anna Dalla Rosa; Abraham M. Rutchick; Patricio Saavedra; Airi Sacco; Alexander K Saeri; Erika Salomon; Kathleen Schmidt; Felix D. Schönbrodt; Maciek Borys Sekerdej; David Ricardo Sirlopu; Jeanine Skorinko; Michael A. Smith; Vanessa Smith-Castro; Agata Sobkow; Walter J. Sowden; Philipp Spachtholz; Troy G. Steiner; Jeroen Stouten; Chris N. H. Street; Oskar Sundfelt; Ewa Szumowska; Andrew Tang; Norbert K. Tanzer; Morgan James Tear; Jordan E. Theriault; Manuela Thomae; David Torres-Fernández; Jakub Traczyk; Joshua M. Tybur; Adrienn Ujhelyi; Marcel A. L. M. van Assen; Anna Elisabeth van 't Veer; Alejandro Vásquez-Echeverría; Leigh Ann Vaughn; Alexandra . Vázquez; Diego Vega; Catherine Verniers; Mark Verschoor; Ingrid Voermans; Marek Albert Vranka; Cheryl Alyssa Welch; Aaron Lee Wichman; Lisa A. Williams; Julie A. Woodzicka; Marta Katarzyna Wronska; Liane Young; John M. Zelenski; Brian A. Nosek",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/9654g",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/9654g_v1",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Sample and Setting",
+      "doi": "10.31234/osf.io/9654g_v1",
+      "year": 2018,
+      "authors": "Richard Anthony Klein; Michelangelo Vianello; Fred Hasselman; Byron Gregory Adams; Reginald B. Adams; Sinan Alper; Mark Aveyard; Jordan Axt; Mayowa Tosin Babalola; Štěpán Bahník; Mihaly Berkics; Michael Jason Bernstein; Daniel R. Berry; Olga Bialobrzeska; Konrad Bocian; Mark Brandt; Robert Busching; Huajian Cai; Fanny Cambier; Katarzyna Cantarero; Cheryl L Carmichael; Zeynep Cemalcilar; Jesse J. Chandler; Jen-Ho Chang; Armand Chatard; Eva CHEN; Winnee Cheong; David C Cicero; Sharon Coen; Jennifer A. Coleman; Brian Collisson; Morgan Anna Conway; Katherine S. Corker; Paul G Curran; Fiery Andrews Cushman; Ilker Dalgar; William E. Davis; Maaike Jolise de Bruijn; Marieke de Vries; Thierry Devos; Canay Doğulu; Nerisa Dozo; Kristin Nicole Dukes; Yarrow Dunham; Kevin Durrheim; Matthew Easterbrook; Charles R. Ebersole; John Edlund; Alexander Scott English; Anja Eller; Carolyn Finck; Miguel-Ángel Freyre; Mike Friedman; Natalia Frankowska; Elisa Maria Galliani; Tanuka Ghoshal; Steffen Robert Giessner; Tripat Gill; Timo Gnambs; Angel Gomez; Roberto Gonzalez; Jesse Graham; Jon E. Grahe; Ivan Grahek; Eva Green; Kakul Hai; Matthew Haigh; Elizabeth L. Haines; Michael P. Hall; Marie E. Heffernan; Joshua A. Hicks; Petr Houdek; Marije van der Hulst; Jeffrey R. Huntsinger; Ho Phi Huynh; Hans IJzerman; Yoel Inbar; Åse Innes-Ker; William Jimenez-Leal; Melissa-Sue John; Jennifer Alana Joy-Gaba; Roza Gizem Kamiloglu; Andreas Kappes; Heather Barry Kappes; Serdar Karabati; Haruna Karick; Victor N. Keller; Anna Kende; Nicolas / Kervyn; Goran Knezevic; Carrie Kovacs; Lacy Elise Krueger; German Kurapov; Jaime Kurtz; Daniel Lakens; Ljiljana B. Lazarevic; Carmel Levitan; Neil Anthony Lewis; Samuel Lins; Esther Maassen; Angela Maitner; Winfrida Malingumu; Robyn Mallett; Satia Adele Marotta; Jason Cameron McIntyre; Janko Mileta Međedović; Taciano L Milfont; Wendy Morris; Andriy Myachykov; Sean Christopher Murphy; Koen Ilja Neijenhuijs; Anthony J. Nelson; Felix Fernando Monteiro Neto; Austin Lee Nichols; Susan L. O'Donnell; Masanori Oikawa; Gabor Orosz; Malgorzata Osowiecka; Grant Packard; Rolando Pérez; Boban Petrovic; Ronaldo Pilati; Brad Pinter; Lysandra Maria Podesta; Monique Maria Henriettte Pollmann; Anna Dalla Rosa; Abraham M. Rutchick; Patricio Saavedra; Airi Sacco; Alexander K Saeri; Erika Salomon; Kathleen Schmidt; Felix D. Schönbrodt; Maciek Borys Sekerdej; David Ricardo Sirlopu; Jeanine Skorinko; Michael A. Smith; Vanessa Smith-Castro; Agata Sobkow; Walter J. Sowden; Philipp Spachtholz; Troy G. Steiner; Jeroen Stouten; Chris N. H. Street; Oskar Sundfelt; Ewa Szumowska; Andrew Tang; Norbert K. Tanzer; Morgan James Tear; Jordan E. Theriault; Manuela Thomae; David Torres-Fernández; Jakub Traczyk; Joshua M. Tybur; Adrienn Ujhelyi; Marcel A. L. M. van Assen; Anna Elisabeth van 't Veer; Alejandro Vásquez-Echeverría; Leigh Ann Vaughn; Alexandra . Vázquez; Diego Vega; Catherine Verniers; Mark Verschoor; Ingrid Voermans; Marek Albert Vranka; Cheryl Alyssa Welch; Aaron Lee Wichman; Lisa A. Williams; Julie A. Woodzicka; Marta Katarzyna Wronska; Liane Young; John M. Zelenski; Brian A. Nosek",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/9654g_v1",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/2515245918810225",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "doi": "10.1177/2515245918810225",
+      "year": 2018,
+      "authors": "Richard A. Klein; Michelangelo Vianello; Fred Hasselman; Byron G. Adams; Reginald B. Adams; Sinan Alper; Mark Aveyard; Jordan R. Axt; Mayowa T. Babalola; Štěpán Bahník; Rishtee Batra; Mihály Berkics; Michael J. Bernstein; Daniel R. Berry; Olga Bialobrzeska; Evans Dami Binan; Konrad Bocian; Mark J. Brandt; Robert Busching; Anna Cabak Rédei; Huajian Cai; Fanny Cambier; Katarzyna Cantarero; Cheryl L. Carmichael; Francisco Ceric; Jesse Chandler; Jen-Ho Chang; Armand Chatard; Eva E. Chen; Winnee Cheong; David C. Cicero; Sharon Coen; Jennifer A. Coleman; Brian Collisson; Morgan A. Conway; Katherine S. Corker; Paul G. Curran; Fiery Cushman; Zubairu K. Dagona; Ilker Dalgar; Anna Dalla Rosa; William E. Davis; Maaike de Bruijn; Leander De Schutter; Thierry Devos; Marieke de Vries; Canay Doğulu; Nerisa Dozo; Kristin Nicole Dukes; Yarrow Dunham; Kevin Durrheim; Charles R. Ebersole; John E. Edlund; Anja Eller; Alexander Scott English; Carolyn Finck; Natalia Frankowska; Miguel-Ángel Freyre; Mike Friedman; Elisa Maria Galliani; Joshua C. Gandi; Tanuka Ghoshal; Steffen R. Giessner; Tripat Gill; Timo Gnambs; Ángel Gómez; Roberto González; Jesse Graham; Jon E. Grahe; Ivan Grahek; Eva G. T. Green; Kakul Hai; Matthew Haigh; Elizabeth L. Haines; Michael P. Hall; Marie E. Heffernan; Joshua A. Hicks; Petr Houdek; Jeffrey R. Huntsinger; Ho Phi Huynh; Hans IJzerman; Yoel Inbar; Åse H. Innes-Ker; William Jiménez-Leal; Melissa-Sue John; Jennifer A. Joy-Gaba; Roza G. Kamiloğlu; Heather Barry Kappes; Serdar Karabati; Haruna Karick; Victor N. Keller; Anna Kende; Nicolas Kervyn; Goran Knežević; Carrie Kovacs; Lacy E. Krueger; German Kurapov; Jamie Kurtz; Daniël Lakens; Ljiljana B. Lazarević; Carmel A. Levitan; Neil A. Lewis; Samuel Lins; Nikolette P. Lipsey; Joy E. Losee; Esther Maassen; Angela T. Maitner; Winfrida Malingumu; Robyn K. Mallett; Satia A. Marotta; Janko Međedović; Fernando Mena-Pacheco; Taciano L. Milfont; Wendy L. Morris; Sean C. Murphy; Andriy Myachykov; Nick Neave; Koen Neijenhuijs; Anthony J. Nelson; Félix Neto; Austin Lee Nichols; Aaron Ocampo; Susan L. O’Donnell; Haruka Oikawa; Masanori Oikawa; Elsie Ong; Gábor Orosz; Malgorzata Osowiecka; Grant Packard; Rolando Pérez-Sánchez; Boban Petrović; Ronaldo Pilati; Brad Pinter; Lysandra Podesta; Gabrielle Pogge; Monique M. H. Pollmann; Abraham M. Rutchick; Patricio Saavedra; Alexander K. Saeri; Erika Salomon; Kathleen Schmidt; Felix D. Schönbrodt; Maciej B. Sekerdej; David Sirlopú; Jeanine L. M. Skorinko; Michael A. Smith; Vanessa Smith-Castro; Karin C. H. J. Smolders; Agata Sobkow; Walter Sowden; Philipp Spachtholz; Manini Srivastava; Troy G. Steiner; Jeroen Stouten; Chris N. H. Street; Oskar K. Sundfelt; Stephanie Szeto; Ewa Szumowska; Andrew C. W. Tang; Norbert Tanzer; Morgan J. Tear; Jordan Theriault; Manuela Thomae; David Torres; Jakub Traczyk; Joshua M. Tybur; Adrienn Ujhelyi; Robbie C. M. van Aert; Marcel A. L. M. van Assen; Marije van der Hulst; Paul A. M. van Lange; Anna Elisabeth van ’t Veer; Alejandro Vásquez- Echeverría; Leigh Ann Vaughn; Alexandra Vázquez; Luis Diego Vega; Catherine Verniers; Mark Verschoor; Ingrid P. J. Voermans; Marek A. Vranka; Cheryl Welch; Aaron L. Wichman; Lisa A. Williams; Michael Wood; Julie A. Woodzicka; Marta K. Wronska; Liane Young; John M. Zelenski; Zeng Zhijia; Brian A. Nosek",
+      "journal": "Advances in Methods and Practices in Psychological Science",
+      "url": "https://doi.org/10.1177/2515245918810225",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC133"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.3189088",
+      "title": "A Meta-Analysis of Loss Aversion in Risky Contexts",
+      "doi": "10.2139/ssrn.3189088",
+      "year": 2018,
+      "authors": "Lukasz Walasek; Timothy L. Mullett; Neil Stewart",
+      "journal": null,
+      "url": "https://doi.org/10.2139/ssrn.3189088",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.joep.2024.102740",
+      "title": "A meta-analysis of loss aversion in risky contexts",
+      "doi": "10.1016/j.joep.2024.102740",
+      "year": 2024,
+      "authors": "Lukasz Walasek; Timothy L. Mullett; Neil Stewart",
+      "journal": "Journal of Economic Psychology",
+      "url": "https://doi.org/10.1016/j.joep.2024.102740",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC134"
+    },
+    {
+      "id": "DOI:10.1016/j.frl.2022.102985",
+      "title": "Loss aversion and risky entrepreneurship",
+      "doi": "10.1016/j.frl.2022.102985",
+      "year": 2022,
+      "authors": "Claudio A. Bonilla; Diego Fica",
+      "journal": "Finance Research Letters",
+      "url": "https://doi.org/10.1016/j.frl.2022.102985",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.3391018",
+      "title": "Generalized Sunk Cost Effect",
+      "doi": "10.2139/ssrn.3391018",
+      "year": 2019,
+      "authors": "Chang WANG",
+      "journal": "SSRN Electronic Journal",
+      "url": "https://doi.org/10.2139/ssrn.3391018",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.58225/tim.2025-4-105-110",
+      "title": "SUNK COST EFFECT AND FRAMING",
+      "doi": "10.58225/tim.2025-4-105-110",
+      "year": 2025,
+      "authors": "Pini Davidov",
+      "journal": "Tikintinin iqtisadiyyatı və menecment",
+      "url": "https://doi.org/10.58225/tim.2025-4-105-110",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1257/rct.4083-2.0",
+      "title": "Evaluating the Sunk Cost Effect",
+      "doi": "10.1257/rct.4083-2.0",
+      "year": 2019,
+      "authors": "Daniel Sgroi; Anthony Tuckwell; David Ronayne",
+      "journal": "AEA Randomized Controlled Trials",
+      "url": "https://doi.org/10.1257/rct.4083-2.0",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0039447",
+      "title": "Age differences in the effect of framing on risky choice: A meta-analysis.",
+      "doi": "10.1037/a0039447",
+      "year": 2015,
+      "authors": "Ryan Best; Neil Charness",
+      "journal": "Psychology and Aging",
+      "url": "https://doi.org/10.1037/a0039447",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC135"
+    },
+    {
+      "id": "DOI:10.1080/13669877.2021.1936611",
+      "title": "Risky-choice framing and its null effect on integral emotions",
+      "doi": "10.1080/13669877.2021.1936611",
+      "year": 2021,
+      "authors": "Hao Cheng; Calvin Burns; Matthew Revie",
+      "journal": "Journal of Risk Research",
+      "url": "https://doi.org/10.1080/13669877.2021.1936611",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/e537102012-429",
+      "title": "Risky choice framing: Not one effect but two",
+      "doi": "10.1037/e537102012-429",
+      "year": 2001,
+      "authors": "Sandra L. Schneider",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e537102012-429",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1086/651235",
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "doi": "10.1086/651235",
+      "year": 2010,
+      "authors": "Benjamin Scheibehenne; Rainer Greifeneder; Peter M. Todd",
+      "journal": "Journal of Consumer Research",
+      "url": "https://doi.org/10.1086/651235",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC136"
+    },
+    {
+      "id": "DOI:10.1037/e636742011-025",
+      "title": "Can there ever be too many options? Re-assessing the effect of choice overload",
+      "doi": "10.1037/e636742011-025",
+      "year": 2008,
+      "authors": "Benjamin Scheibehenne; Rainer Greifeneder; Peter M. Todd",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e636742011-025",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1136/dtb.2016.2.0379",
+      "title": "Too many options, too little choice in COPD?",
+      "doi": "10.1136/dtb.2016.2.0379",
+      "year": 2016,
+      "authors": "",
+      "journal": "Drug and Therapeutics Bulletin",
+      "url": "https://doi.org/10.1136/dtb.2016.2.0379",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.intell.2020.101449",
+      "title": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+      "doi": "10.1016/j.intell.2020.101449",
+      "year": 2020,
+      "authors": "Gilles E. Gignac; Marcin Zajenkowski",
+      "journal": "Intelligence",
+      "url": "https://doi.org/10.1016/j.intell.2020.101449",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC137"
+    },
+    {
+      "id": "DOI:10.1007/978-981-16-0143-9_20",
+      "title": "Dunning-Kruger Effect",
+      "doi": "10.1007/978-981-16-0143-9_20",
+      "year": 2021,
+      "authors": "Lisa TenEyck",
+      "journal": "Decision Making in Emergency Medicine",
+      "url": "https://doi.org/10.1007/978-981-16-0143-9_20",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.wneu.2022.02.046",
+      "title": "Dunning-Kruger Effect",
+      "doi": "10.1016/j.wneu.2022.02.046",
+      "year": 2022,
+      "authors": "Ed Benzel",
+      "journal": "World Neurosurgery",
+      "url": "https://doi.org/10.1016/j.wneu.2022.02.046",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1017/bpp.2018.43",
+      "title": "When and why defaults influence decisions: a meta-analysis of default effects",
+      "doi": "10.1017/bpp.2018.43",
+      "year": 2019,
+      "authors": "JON M. JACHIMOWICZ; SHANNON DUNCAN; ELKE U. WEBER; ERIC J. JOHNSON",
+      "journal": "Behavioural Public Policy",
+      "url": "https://doi.org/10.1017/bpp.2018.43",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC138"
+    },
+    {
+      "id": "DOI:10.1521/soco.2021.39.5.543",
+      "title": "The Limits of Defaults: The Influence of Decision Time on Default Effects",
+      "doi": "10.1521/soco.2021.39.5.543",
+      "year": 2021,
+      "authors": "Benjamin X. White; Duo Jiang; Dolores Albarracín",
+      "journal": "Social Cognition",
+      "url": "https://doi.org/10.1521/soco.2021.39.5.543",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/rfs/14.2.555",
+      "title": "An Analysis of Default Correlations and Multiple Defaults",
+      "doi": "10.1093/rfs/14.2.555",
+      "year": 2001,
+      "authors": "Chunsheng Zhou",
+      "journal": "Review of Financial Studies",
+      "url": "https://doi.org/10.1093/rfs/14.2.555",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5465/amproc.2025.12274abstract",
+      "title": "Evaluating the Effectiveness of AI Apologies in Repairing User Trust: A Systematic Review",
+      "doi": "10.5465/amproc.2025.12274abstract",
+      "year": 2025,
+      "authors": "Chenye Zhong; George Christopoulos",
+      "journal": "Academy of Management Proceedings",
+      "url": "https://doi.org/10.5465/amproc.2025.12274abstract",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5334/irsp.479",
+      "title": "Repairing Trust Between Individuals and Groups: The Effectiveness of Apologies in Interpersonal and Intergroup Contexts",
+      "doi": "10.5334/irsp.479",
+      "year": 2021,
+      "authors": "Christopher P. Reinders Folmer; Tim Wildschut; Tessa Haesevoets; Jonas De keersmaecker; Jasper Van Assche; Paul A. M. Van Lange",
+      "journal": "International Review of Social Psychology",
+      "url": "https://doi.org/10.5334/irsp.479",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.3812179",
+      "title": "Repairing Trust Between Individuals and Groups: The Effectiveness of Apologies in Interpersonal and Intergroup Contexts",
+      "doi": "10.2139/ssrn.3812179",
+      "year": 2020,
+      "authors": "Chris Reinders Folmer; Tim Wildschut; Tessa Haesevoets; Jonas De keersmaecker; Jasper Van Assche; Paul A. M. van Lange",
+      "journal": "SSRN Electronic Journal",
+      "url": "https://doi.org/10.2139/ssrn.3812179",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1111/j.1467-9280.2007.01917.x",
+      "title": "The Constructive, Destructive, and Reconstructive Power of Social Norms",
+      "doi": "10.1111/j.1467-9280.2007.01917.x",
+      "year": 2007,
+      "authors": "P. Wesley Schultz; Jessica M. Nolan; Robert B. Cialdini; Noah J. Goldstein; Vladas Griskevicius",
+      "journal": "Psychological Science",
+      "url": "https://doi.org/10.1111/j.1467-9280.2007.01917.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC139"
+    },
+    {
+      "id": "DOI:10.1177/1745691617693325",
+      "title": "The Constructive, Destructive, and Reconstructive Power of Social Norms: Reprise",
+      "doi": "10.1177/1745691617693325",
+      "year": 2018,
+      "authors": "P. Wesley Schultz; Jessica M. Nolan; Robert B. Cialdini; Noah J. Goldstein; Vladas Griskevicius",
+      "journal": "Perspectives on Psychological Science",
+      "url": "https://doi.org/10.1177/1745691617693325",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/rsbmz",
+      "title": "The Constructive and Destructive Power of Social Norms in the Presence of Authoritative Influence",
+      "doi": "10.31234/osf.io/rsbmz",
+      "year": 2020,
+      "authors": "Shuhei Kitamura; Katsunori Yamada",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/rsbmz",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0033-2909.132.6.895",
+      "title": "The actor-observer asymmetry in attribution: A (surprising) meta-analysis.",
+      "doi": "10.1037/0033-2909.132.6.895",
+      "year": 2006,
+      "authors": "Bertram F. Malle",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/0033-2909.132.6.895",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC140"
+    },
+    {
+      "id": "DOI:10.1037/0033-2909.132.6.895.supp",
+      "title": "Supplemental Material for The Actor–Observer Asymmetry in Attribution: A (Surprising) Meta-Analysis",
+      "doi": "10.1037/0033-2909.132.6.895.supp",
+      "year": 2006,
+      "authors": "",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/0033-2909.132.6.895.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.neuropsychologia.2019.107281",
+      "title": "Pointing fingers at others: The neural correlates of actor-observer asymmetry in blame attribution",
+      "doi": "10.1016/j.neuropsychologia.2019.107281",
+      "year": 2020,
+      "authors": "Chenyi Chen; Róger Marcelo Martínez; Yijhen Chen; Yawei Cheng",
+      "journal": "Neuropsychologia",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2019.107281",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0022-3514.78.2.211",
+      "title": "The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance.",
+      "doi": "10.1037/0022-3514.78.2.211",
+      "year": 2000,
+      "authors": "Thomas Gilovich; Victoria Husted Medvec; Kenneth Savitsky",
+      "journal": "Journal of Personality and Social Psychology",
+      "url": "https://doi.org/10.1037/0022-3514.78.2.211",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC141"
+    },
+    {
+      "id": "DOI:10.1080/00224545.1983.9924463",
+      "title": "Egocentric Bias in Estimates of Consensus",
+      "doi": "10.1080/00224545.1983.9924463",
+      "year": 1983,
+      "authors": "Brian Mullen",
+      "journal": "The Journal of Social Psychology",
+      "url": "https://doi.org/10.1080/00224545.1983.9924463",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0022-3514.71.2.213",
+      "title": "Evidence for egocentric comparison in social judgment.",
+      "doi": "10.1037/0022-3514.71.2.213",
+      "year": 1996,
+      "authors": "David Dunning; Andrew F. Hayes",
+      "journal": "Journal of Personality and Social Psychology",
+      "url": "https://doi.org/10.1037/0022-3514.71.2.213",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/bul0000085",
+      "title": "A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+      "doi": "10.1037/bul0000085",
+      "year": 2017,
+      "authors": "R. Matthew Montoya; Robert S. Horton; Jack L. Vevea; Martyna Citkowicz; Elissa A. Lauber",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/bul0000085",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC142"
+    },
+    {
+      "id": "DOI:10.1037/bul0000085.supp",
+      "title": "Supplemental Material for A Re-Examination of the Mere Exposure Effect: The Influence of Repeated Exposure on Recognition, Familiarity, and Liking",
+      "doi": "10.1037/bul0000085.supp",
+      "year": 2017,
+      "authors": "",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/bul0000085.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4324/9781410609274-17",
+      "title": "Familiarity Breeds Liking: The Positive Effects of Mere Exposure",
+      "doi": "10.4324/9781410609274-17",
+      "year": 2014,
+      "authors": "",
+      "journal": "Experiments With People",
+      "url": "https://doi.org/10.4324/9781410609274-17",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3389/fcomm.2019.00056",
+      "title": "Psychological Reactance and Persuasive Health Communication: A Review of the Literature",
+      "doi": "10.3389/fcomm.2019.00056",
+      "year": 2019,
+      "authors": "Tobias Reynolds-Tylus",
+      "journal": "Frontiers in Communication",
+      "url": "https://doi.org/10.3389/fcomm.2019.00056",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1111/j.1468-2958.2012.01443.x",
+      "title": "The Nature of Psychological Reactance Revisited: A Meta-Analytic Review",
+      "doi": "10.1111/j.1468-2958.2012.01443.x",
+      "year": 2012,
+      "authors": "Stephen A. Rains",
+      "journal": "Human Communication Research",
+      "url": "https://doi.org/10.1111/j.1468-2958.2012.01443.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/hcr/hqaf016",
+      "title": "Message effects on psychological reactance: meta-analyses",
+      "doi": "10.1093/hcr/hqaf016",
+      "year": 2025,
+      "authors": "Zixi Li; Jingyuan Shi",
+      "journal": "Human Communication Research",
+      "url": "https://doi.org/10.1093/hcr/hqaf016",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC143"
+    },
+    {
+      "id": "DOI:10.1111/peps.12183",
+      "title": "Psychological Safety: A Meta‐Analytic Review and Extension",
+      "doi": "10.1111/peps.12183",
+      "year": 2016,
+      "authors": "M. Lance Frazier; Stav Fainshmidt; Ryan L. Klinger; Amir Pezeshkan; Veselina Vracheva",
+      "journal": "Personnel Psychology",
+      "url": "https://doi.org/10.1111/peps.12183",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC144"
+    },
+    {
+      "id": "DOI:10.1016/j.jcbs.2017.11.002",
+      "title": "Psychological inflexibility and stigma: A meta-analytic review",
+      "doi": "10.1016/j.jcbs.2017.11.002",
+      "year": 2018,
+      "authors": "Jennifer Krafft; Jillian Ferrell; Michael E. Levin; Michael P. Twohig",
+      "journal": "Journal of Contextual Behavioral Science",
+      "url": "https://doi.org/10.1016/j.jcbs.2017.11.002",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3109/03005369909090101",
+      "title": "A meta-analytic review of psychological treatments for tinnitus",
+      "doi": "10.3109/03005369909090101",
+      "year": 1999,
+      "authors": "G. Andersson; L. Lyttkens",
+      "journal": "British Journal of Audiology",
+      "url": "https://doi.org/10.3109/03005369909090101",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-90-481-2350-6_5",
+      "title": "Beyond the Hedonic Treadmill: Revising the Adaptation Theory of Well-Being",
+      "doi": "10.1007/978-90-481-2350-6_5",
+      "year": 2009,
+      "authors": "Ed Diener; Richard E. Lucas; Christie Napa Scollon",
+      "journal": "Social Indicators Research Series; The Science of Well-Being",
+      "url": "https://doi.org/10.1007/978-90-481-2350-6_5",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0003-066x.61.4.305",
+      "title": "Beyond the hedonic treadmill: Revising the adaptation theory of well-being.",
+      "doi": "10.1037/0003-066x.61.4.305",
+      "year": 2006,
+      "authors": "Ed Diener; Richard E. Lucas; Christie Napa Scollon",
+      "journal": "American Psychologist",
+      "url": "https://doi.org/10.1037/0003-066x.61.4.305",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC145"
+    },
+    {
+      "id": "DOI:10.1037/0003-066x62.6.611",
+      "title": "\"Beyond the hedonic treadmill: Revising the adaptation theory of well-being\": Comment on Diener, Lucas, and Scollon (2006).",
+      "doi": "10.1037/0003-066x62.6.611",
+      "year": 2007,
+      "authors": "David T. Lykken",
+      "journal": "American Psychologist",
+      "url": "https://doi.org/10.1037/0003-066x62.6.611",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3724/sp.j.1042.2014.01782",
+      "title": "Experiential Purchases, Material Purchases, and Happiness: An Introduction",
+      "doi": "10.3724/sp.j.1042.2014.01782",
+      "year": 2014,
+      "authors": "Jiang JIANG; Feng XU; Taoran ZENG; Yayi XU",
+      "journal": "Advances in Psychological Science",
+      "url": "https://doi.org/10.3724/sp.j.1042.2014.01782",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.15444/gmc2018.07.05.04",
+      "title": "HUMAN-LIKE MATERIAL PURCHASES PROVIDE AS MUCH HAPPINESS AS EXPERIENTIAL PURCHASES",
+      "doi": "10.15444/gmc2018.07.05.04",
+      "year": 2018,
+      "authors": "Ulsan National Institute of Science and Technology, Republic of Korea; Jacob Chaeho Lee",
+      "journal": "Global Fashion Management Conference",
+      "url": "https://doi.org/10.15444/gmc2018.07.05.04",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1086/597049",
+      "title": "Happiness for Sale: Do Experiential Purchases Make Consumers Happier than Material Purchases?",
+      "doi": "10.1086/597049",
+      "year": 2009,
+      "authors": "Leonardo Nicolao; Julie R. Irwin; Joseph K. Goodman",
+      "journal": "Journal of Consumer Research",
+      "url": "https://doi.org/10.1086/597049",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC146"
+    },
+    {
+      "id": "DOI:10.1093/obo/9780199828340-0193",
+      "title": "Prosocial Spending and Well-Being",
+      "doi": "10.1093/obo/9780199828340-0193",
+      "year": 2017,
+      "authors": "Lara B Aknin; Kate Hanniball",
+      "journal": "Oxford Bibliographies in Psychology",
+      "url": "https://doi.org/10.1093/obo/9780199828340-0193",
+      "publication_types": [
+        "reference-entry"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/s10902-017-9918-2",
+      "title": "Prosocial Spending and Subjective Well-Being: The Recipient Perspective",
+      "doi": "10.1007/s10902-017-9918-2",
+      "year": 2017,
+      "authors": "Wuke Zhang; Mingliang Chen; Ying Xie; Zhen Zhao",
+      "journal": "Journal of Happiness Studies",
+      "url": "https://doi.org/10.1007/s10902-017-9918-2",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0031578",
+      "title": "Prosocial spending and well-being: Cross-cultural evidence for a psychological universal.",
+      "doi": "10.1037/a0031578",
+      "year": 2013,
+      "authors": "Lara B. Aknin; Christopher P. Barrington-Leigh; Elizabeth W. Dunn; John F. Helliwell; Justine Burns; Robert Biswas-Diener; Imelda Kemeza; Paul Nyende; Claire E. Ashton-James; Michael I. Norton",
+      "journal": "Journal of Personality and Social Psychology",
+      "url": "https://doi.org/10.1037/a0031578",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC147"
+    },
+    {
+      "id": "DOI:10.1097/psy.0000000000000274",
+      "title": "Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events",
+      "doi": "10.1097/psy.0000000000000274",
+      "year": 2016,
+      "authors": "Randy Cohen; Chirag Bavishi; Alan Rozanski",
+      "journal": "Psychosomatic Medicine",
+      "url": "https://doi.org/10.1097/psy.0000000000000274",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC148"
+    },
+    {
+      "id": "DOI:10.3410/f.725980721.793564423",
+      "title": "Faculty Opinions recommendation of Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events: A Meta-Analysis.",
+      "doi": "10.3410/f.725980721.793564423",
+      "year": 2019,
+      "authors": "Barbara Sommer",
+      "journal": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+      "url": "https://doi.org/10.3410/f.725980721.793564423",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/ajcn/nqac158",
+      "title": "Systematic review and meta-analysis examining the relationship between postprandial hypotension, cardiovascular events, and all-cause mortality",
+      "doi": "10.1093/ajcn/nqac158",
+      "year": 2022,
+      "authors": "David JA Jenkins; Sandhya Sahye-Pudaruth; Khosrow Khodabandehlou; Fred Liang; Maaria Kasmani; Jessica Wanyan; Maggie Wang; Keishini Selvaganesh; Melanie Paquette; Darshna Patel; Andrea J Glenn; Korbua Srichaikul; Cyril WC Kendall; John L Sievenpiper",
+      "journal": "The American Journal of Clinical Nutrition",
+      "url": "https://doi.org/10.1093/ajcn/nqac158",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3945/ajcn.112.045245",
+      "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating",
+      "doi": "10.3945/ajcn.112.045245",
+      "year": 2013,
+      "authors": "Eric Robinson; Paul Aveyard; Amanda Daley; Kate Jolly; Amanda Lewis; Deborah Lycett; Suzanne Higgs",
+      "journal": "The American Journal of Clinical Nutrition",
+      "url": "https://doi.org/10.3945/ajcn.112.045245",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC149"
+    },
+    {
+      "id": "DOI:10.1007/s12671-026-02785-y",
+      "title": "Impact of Mindful Eating Interventions on Food Intake and Eating Behaviors in Youth: A Systematic Review and Meta-Analysis",
+      "doi": "10.1007/s12671-026-02785-y",
+      "year": 2026,
+      "authors": "Yu-Rou Lai; Yun-Chen Chang",
+      "journal": "Mindfulness",
+      "url": "https://doi.org/10.1007/s12671-026-02785-y",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3390/nu17010166",
+      "title": "Watching Television While Eating Increases Food Intake: A Systematic Review and Meta-Analysis of Experimental Studies",
+      "doi": "10.3390/nu17010166",
+      "year": 2025,
+      "authors": "Dresshti Garg; Evelyn Smith; Tuki Attuquayefio",
+      "journal": "Nutrients",
+      "url": "https://doi.org/10.3390/nu17010166",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC150"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd012573.pub2",
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+      "doi": "10.1002/14651858.cd012573.pub2",
+      "year": 2019,
+      "authors": "Gareth J Hollands; Patrice Carter; Sumayya Anwer; Sarah E King; Susan A Jebb; David Ogilvie; Ian Shemilt; Julian P T Higgins; Theresa M Marteau",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd012573.pub2",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd012573.pub3",
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+      "doi": "10.1002/14651858.cd012573.pub3",
+      "year": 2019,
+      "authors": "Gareth J Hollands; Patrice Carter; Sumayya Anwer; Sarah E King; Susan A Jebb; David Ogilvie; Ian Shemilt; Julian P T Higgins; Theresa M Marteau",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd012573.pub3",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC151"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd012573",
+      "title": "Altering the availability or proximity of food, alcohol and tobacco products to change their selection and consumption",
+      "doi": "10.1002/14651858.cd012573",
+      "year": 2017,
+      "authors": "Gareth J Hollands; Patrice Carter; Ian Shemilt; Theresa M Marteau; Susan A Jebb; Julian Higgins; David Ogilvie",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd012573",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0956797618761661",
+      "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes",
+      "doi": "10.1177/0956797618761661",
+      "year": 2018,
+      "authors": "Tyler W. Watts; Greg J. Duncan; Haonan Quan",
+      "journal": "Psychological Science",
+      "url": "https://doi.org/10.1177/0956797618761661",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC152"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2018.02719",
+      "title": "Commentary: Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes",
+      "doi": "10.3389/fpsyg.2018.02719",
+      "year": 2019,
+      "authors": "Gladys Barragan-Jason; Cristina M. Atance; Astrid Hopfensitz; Jonathan Stieglitz; Maxime Cauchoix",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2018.02719",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1111/cdev.14129",
+      "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning",
+      "doi": "10.1111/cdev.14129",
+      "year": 2024,
+      "authors": "Jessica F Sperber; Deborah Lowe Vandell; Greg J Duncan; Tyler W Watts",
+      "journal": "Child Development",
+      "url": "https://doi.org/10.1111/cdev.14129",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC153"
+    },
+    {
+      "id": "DOI:10.1111/cdev.13225",
+      "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+      "doi": "10.1111/cdev.13225",
+      "year": 2020,
+      "authors": "Nicholas Dowdall; G J Melendez-Torres; Lynne Murray; Frances Gardner; Leila Hartford; Peter J Cooper",
+      "journal": "Child Development",
+      "url": "https://doi.org/10.1111/cdev.13225",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC154"
+    },
+    {
+      "id": "DOI:10.1177/0271121421998793",
+      "title": "A Systematic Review of Parent–Child Shared Book Reading Interventions for Infants and Toddlers",
+      "doi": "10.1177/0271121421998793",
+      "year": 2021,
+      "authors": "Ciera M. Lorio; Abigail D. Delehanty; Mollie K. Romano",
+      "journal": "Topics in Early Childhood Special Education",
+      "url": "https://doi.org/10.1177/0271121421998793",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC155"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2025.1635956",
+      "title": "Parent–child shared book reading challenges and facilitators: a systematic review and meta synthesis",
+      "doi": "10.3389/fpsyg.2025.1635956",
+      "year": 2025,
+      "authors": "Jiaopeng Nan; Yin Tian",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2025.1635956",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1001/jamapediatrics.2024.2620",
+      "title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes",
+      "doi": "10.1001/jamapediatrics.2024.2620",
+      "year": 2024,
+      "authors": "Sumudu Mallawaarachchi; Jade Burley; Myrto Mavilidi; Steven J. Howard; Leon Straker; Lisa Kervin; Sally Staton; Nicole Hayes; Amanda Machell; Marina Torjinski; Brodie Brady; George Thomas; Sharon Horwood; Sonia L. J. White; Juliana Zabatiero; Clara Rivera; Dylan Cliff",
+      "journal": "JAMA Pediatrics",
+      "url": "https://doi.org/10.1001/jamapediatrics.2024.2620",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC156"
+    },
+    {
+      "id": "DOI:10.1016/j.ecresq.2021.12.008",
+      "title": "Associations of smartphone and tablet use in early childhood with psychosocial, cognitive and sleep factors: a systematic review and meta-analysis",
+      "doi": "10.1016/j.ecresq.2021.12.008",
+      "year": 2022,
+      "authors": "Sumudu R. Mallawaarachchi; Jeromy Anglim; Merrilyn Hooley; Sharon Horwood",
+      "journal": "Early Childhood Research Quarterly",
+      "url": "https://doi.org/10.1016/j.ecresq.2021.12.008",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/jd69k",
+      "title": "Associations of Smartphone and Tablet Use in Early Childhood with Psychosocial, Cognitive and Sleep Factors: A Systematic Review and Meta-Analysis",
+      "doi": "10.31234/osf.io/jd69k",
+      "year": 2022,
+      "authors": "Sumudu R. Mallawaarachchi; Jeromy Anglim; Merrilyn Hooley; Sharon Horwood",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/jd69k",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-3-031-52643-5_164-1",
+      "title": "Cognitive Offloading",
+      "doi": "10.1007/978-3-031-52643-5_164-1",
+      "year": 2026,
+      "authors": "Megan O. Kelly; Evan F. Risko",
+      "journal": "The Palgrave Encyclopedia of Cyberpsychology",
+      "url": "https://doi.org/10.1007/978-3-031-52643-5_164-1",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.tics.2016.07.002",
+      "title": "Cognitive Offloading",
+      "doi": "10.1016/j.tics.2016.07.002",
+      "year": 2016,
+      "authors": "Evan F. Risko; Sam J. Gilbert",
+      "journal": "Trends in Cognitive Sciences",
+      "url": "https://doi.org/10.1016/j.tics.2016.07.002",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC157"
+    },
+    {
+      "id": "DOI:10.4018/979-8-3373-9484-8.ch008",
+      "title": "Cognitive Offloading to Cognitive Atrophy",
+      "doi": "10.4018/979-8-3373-9484-8.ch008",
+      "year": 2026,
+      "authors": "Ayesha Asghar Gill; Fouzia Janjua; Mehwish Zahoor; Adnan Afzal",
+      "journal": "Advances in Computational Intelligence and Robotics; Psychological and Neurological Consequences of AI",
+      "url": "https://doi.org/10.4018/979-8-3373-9484-8.ch008",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1089/cyber.2021.0324",
+      "title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial",
+      "doi": "10.1089/cyber.2021.0324",
+      "year": 2022,
+      "authors": "Jeffrey Lambert; George Barnstable; Eleanor Minter; Jemima Cooper; Desmond McEwan",
+      "journal": "Cyberpsychology, Behavior, and Social Networking",
+      "url": "https://doi.org/10.1089/cyber.2021.0324",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC158"
+    },
+    {
+      "id": "DOI:10.1089/cyber.2020.0217",
+      "title": "Taking a Break from Social Media Improves Wellbeing Through Sleep Quality",
+      "doi": "10.1089/cyber.2020.0217",
+      "year": 2021,
+      "authors": "Sarah Graham; Andre Mason; Benjamin Riordan; Taylor Winter; Damian Scarf",
+      "journal": "Cyberpsychology, Behavior, and Social Networking",
+      "url": "https://doi.org/10.1089/cyber.2020.0217",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1186/isrctn13527390",
+      "title": "Effects of taking a break from social media on sleep, stress and well-being in teenage girls",
+      "doi": "10.1186/isrctn13527390",
+      "year": 2026,
+      "authors": "Andrew Ahn",
+      "journal": "http://isrctn.com/",
+      "url": "https://doi.org/10.1186/isrctn13527390",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/pnasnexus/pgaf017",
+      "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being",
+      "doi": "10.1093/pnasnexus/pgaf017",
+      "year": 2025,
+      "authors": "Noah Castelo; Kostadin Kushlev; Adrian F Ward; Michael Esterman; Peter B Reiner",
+      "journal": "PNAS Nexus",
+      "url": "https://doi.org/10.1093/pnasnexus/pgaf017",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC159"
+    },
+    {
+      "id": "DOI:10.1332/policypress/9781447325628.003.0005",
+      "title": "Subjective well-being and mental health",
+      "doi": "10.1332/policypress/9781447325628.003.0005",
+      "year": 2016,
+      "authors": "Gwyther Rees; Gill Main",
+      "journal": "The well-being of children in the UK",
+      "url": "https://doi.org/10.1332/policypress/9781447325628.003.0005",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.51952/9781447325642.ch005",
+      "title": "Subjective well-being and mental health",
+      "doi": "10.51952/9781447325642.ch005",
+      "year": 2016,
+      "authors": "Gwyther Rees; Gill Main",
+      "journal": "The Well-Being of Children in the UK",
+      "url": "https://doi.org/10.51952/9781447325642.ch005",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.3308640",
+      "title": "The Welfare Effects of Social Media",
+      "doi": "10.2139/ssrn.3308640",
+      "year": 2018,
+      "authors": "Hunt Allcott; Luca Braghieri; Sarah Eichmeyer; Matthew Gentzkow",
+      "journal": "SSRN Electronic Journal",
+      "url": "https://doi.org/10.2139/ssrn.3308640",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3386/w25514",
+      "title": "The Welfare Effects of Social Media",
+      "doi": "10.3386/w25514",
+      "year": 2019,
+      "authors": "Hunt Allcott; Luca Braghieri; Sarah Eichmeyer; Matthew Gentzkow",
+      "journal": null,
+      "url": "https://doi.org/10.3386/w25514",
+      "publication_types": [
+        "report"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1257/aer.20190658",
+      "title": "The Welfare Effects of Social Media",
+      "doi": "10.1257/aer.20190658",
+      "year": 2020,
+      "authors": "Hunt Allcott; Luca Braghieri; Sarah Eichmeyer; Matthew Gentzkow",
+      "journal": "American Economic Review",
+      "url": "https://doi.org/10.1257/aer.20190658",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC160"
+    },
+    {
+      "id": "DOI:10.1016/j.chb.2013.02.014",
+      "title": "Motivational, emotional, and behavioral correlates of fear of missing out",
+      "doi": "10.1016/j.chb.2013.02.014",
+      "year": 2013,
+      "authors": "Andrew K. Przybylski; Kou Murayama; Cody R. DeHaan; Valerie Gladwell",
+      "journal": "Computers in Human Behavior",
+      "url": "https://doi.org/10.1016/j.chb.2013.02.014",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC161"
+    },
+    {
+      "id": "DOI:10.5817/cp2020-3-4",
+      "title": "Social network sites, fear of missing out, and psychosocial correlates",
+      "doi": "10.5817/cp2020-3-4",
+      "year": 2020,
+      "authors": "Ben Classen; Jay K. Wood; Patsi Davies",
+      "journal": "Cyberpsychology: Journal of Psychosocial Research on Cyberspace",
+      "url": "https://doi.org/10.5817/cp2020-3-4",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1111/phpr.70067",
+      "title": "Fear of Missing Out",
+      "doi": "10.1111/phpr.70067",
+      "year": 2025,
+      "authors": "Rebecca Rowson",
+      "journal": "Philosophy and Phenomenological Research",
+      "url": "https://doi.org/10.1111/phpr.70067",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5271/sjweh.3632",
+      "title": "Effort–reward imbalance at work and risk of depressive disorders. A systematic review and meta-analysis of prospective cohort studies",
+      "doi": "10.5271/sjweh.3632",
+      "year": 2017,
+      "authors": "Reiner Rugulies; Birgit Aust; Ida EH Madsen",
+      "journal": "Scandinavian Journal of Work, Environment &amp; Health",
+      "url": "https://doi.org/10.5271/sjweh.3632",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC162"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2024.1425445",
+      "title": "Incidence of effort-reward imbalance among nurses: a systematic review and meta-analysis",
+      "doi": "10.3389/fpsyg.2024.1425445",
+      "year": 2024,
+      "authors": "Yujie Zhang; Shanyan Lei; Fang Yang",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2024.1425445",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "attention",
+  "topics": [
+    {
+      "topic_id": "PSY-ATT-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-001-SRC055",
+          "source_id": "SRC055",
+          "title": "The attentional cost of receiving a cell phone notification.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-002-SRC055",
+          "source_id": "SRC055",
+          "title": "The attentional cost of receiving a cell phone notification.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-003-SRC131",
+          "source_id": "SRC131",
+          "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "注意の残留と仕事の切り替えを扱う原論文の書誌のみ確認。全実験・追試の読解は未実施。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-004-SRC054",
+          "source_id": "SRC054",
+          "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-005-SRC132",
+          "source_id": "SRC132",
+          "title": "The impact of background music on adult listeners: A meta-analysis",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "全体平均がゼロでも全課題が無影響とは限らない。古い少数研究の条件差と品質に注意。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-006-SRC194",
+          "source_id": "SRC194",
+          "title": "Does incubation enhance problem solving? A meta-analytic review.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "休めばどの問題も解けるわけではない。発散的思考と正解のある課題を分ける。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ATT-006-SRC083",
+          "source_id": "SRC083",
+          "title": "Give your ideas some legs: the positive effect of walking on creative thinking.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-007-SRC054",
+          "source_id": "SRC054",
+          "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": 77.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ATT-007-SRC042",
+          "source_id": "SRC042",
+          "title": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-ATT-007-SRC076",
+          "source_id": "SRC076",
+          "title": "Poverty impedes cognitive function.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-ATT-007-SRC081",
+          "source_id": "SRC081",
+          "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
+        },
+        {
+          "edge_id": "EV-PSY-ATT-007-SRC082",
+          "source_id": "SRC082",
+          "title": "Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers: A Controlled Exposure Study of Green and Conventional Office Environments.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 5
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-008",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-ATT-009",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-ATT-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-010-SRC013",
+          "source_id": "SRC013",
+          "title": "Meditation and Mindfulness: Effectiveness and Safety",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ATT-010-SRC059",
+          "source_id": "SRC059",
+          "title": "Mindfulness-based programmes for mental health promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised controlled trials.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    }
+  ]
+}

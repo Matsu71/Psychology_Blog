@@ -1,0 +1,1850 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "MED:41575704",
+      "title": "How Status Quo Bias Shapes Willingness, Uptake, and Adherence to PrEP Among Chinese MSM: A Behavioral Economics Perspective.",
+      "doi": "10.1007/s40121-025-01296-y",
+      "year": "2026",
+      "authors": "Zhao M, Zhao X, Zhang Y, Yin Z, Ji F, Ong JJ, Tang W, Zhang L.",
+      "journal": "Infectious diseases and therapy",
+      "pmid": "41575704",
+      "pmcid": "PMC12924801",
+      "url": "https://europepmc.org/article/MED/41575704",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41962129",
+      "title": "Moderating Role of Condom-Use Inertia on the Association Between Status Quo Bias and Pre-Exposure Prophylaxis Resistance Intention Among Chinese Men Who Have Sex With Men: Cross-Sectional Study.",
+      "doi": "10.2196/88806",
+      "year": "2026",
+      "authors": "Zhao M, Li S, Zhao X, Hu J, Yin Z, Ji F, Tang W, Zhang L.",
+      "journal": "JMIR public health and surveillance",
+      "pmid": "41962129",
+      "pmcid": "PMC13068365",
+      "url": "https://europepmc.org/article/MED/41962129",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40441672",
+      "title": "Forward-looking questions regarding ego depletion and mental fatigue in sport psychology: Comment on Englert.",
+      "doi": "10.1016/j.psychsport.2025.102898",
+      "year": "2025",
+      "authors": "Baumeister RF, André N, Southwick D.",
+      "journal": "Psychology of sport and exercise",
+      "pmid": "40441672",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40441672",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42115901",
+      "title": "Patient and clinician perspectives on clinical trials in transplant failure: a qualitative interview study.",
+      "doi": "10.1186/s13063-026-09732-1",
+      "year": "2026",
+      "authors": "Venter B, Noyes J, Selman LE, Exley C, Griffin S, Hancock A, McLaughlin L, Hole B, Bailey PK.",
+      "journal": "Trials",
+      "pmid": "42115901",
+      "pmcid": "PMC13330387",
+      "url": "https://europepmc.org/article/MED/42115901",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:30157514",
+      "title": "Behavioral Economics Interventions in Clinical Decision Support Systems.",
+      "doi": "10.1055/s-0038-1641221",
+      "year": "2018",
+      "authors": "Cho I, Bates DW.",
+      "journal": "Yearbook of medical informatics",
+      "pmid": "30157514",
+      "pmcid": "PMC6115210",
+      "url": "https://europepmc.org/article/MED/30157514",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42647733",
+      "title": "Boundary-Setting at Sexual Debut Predicts Later Sexual Wellbeing Including Communication, Condom Use Negotiation, Exposure to Coercive Sex, and Pleasure Deservingness in Young Adults.",
+      "doi": "10.1080/00224499.2026.2720734",
+      "year": "2026",
+      "authors": "Malousek EE, Schutz D, Gervais SJ, Lorenz TK.",
+      "journal": "Journal of sex research",
+      "pmid": "42647733",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42647733",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42342625",
+      "title": "Outsourcing moral cognition: Delegation, diffusion of responsibility, and coalitional exclusion.",
+      "doi": "10.1017/s0140525x25101556",
+      "year": "2026",
+      "authors": "Forstmann M, Weiss A.",
+      "journal": "The Behavioral and brain sciences",
+      "pmid": "42342625",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42342625",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42549072",
+      "title": "Citizens' national identity criteria and attitudes toward immigrants' cultural impact: ingroup-outgroup boundary setting and permeability across national contexts.",
+      "doi": "10.3389/fsoc.2026.1849822",
+      "year": "2026",
+      "authors": "Reyes ML, Calleja MO, Polias SG.",
+      "journal": "Frontiers in sociology",
+      "pmid": "42549072",
+      "pmcid": "PMC13430557",
+      "url": "https://europepmc.org/article/MED/42549072",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41485578",
+      "title": "Difficult Encounters: How to Set Boundaries in the Context of Structural Inequities.",
+      "doi": "10.1016/j.jpainsymman.2025.12.025",
+      "year": "2026",
+      "authors": "Wu CC, Fromme EK.",
+      "journal": "Journal of pain and symptom management",
+      "pmid": "41485578",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41485578",
+      "publication_types": [
+        "Review",
+        "Journal Article",
+        "Case Reports"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41009254",
+      "title": "Workplace Resocialization After Parental Leave as a Site of Work/Life Paradox in Three Boundary-Setting Contexts.",
+      "doi": "10.3390/bs15091224",
+      "year": "2025",
+      "authors": "Godager EA, Riforgiate SE.",
+      "journal": "Behavioral sciences (Basel, Switzerland)",
+      "pmid": "41009254",
+      "pmcid": "PMC12466862",
+      "url": "https://europepmc.org/article/MED/41009254",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40458996",
+      "title": "[Family accommodation and an obsessive-compulsive disorder: a meta-analysis and systematic review].",
+      "doi": null,
+      "year": "2025",
+      "authors": "De Witz J, Danckaerts M.",
+      "journal": "Tijdschrift voor psychiatrie",
+      "pmid": "40458996",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40458996",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article",
+        "English Abstract"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40078777",
+      "title": "Belonging: a meta-theme analysis of women's community-making in group antenatal and postnatal care.",
+      "doi": "10.3389/fpubh.2025.1506956",
+      "year": "2025",
+      "authors": "Horn A, Orgill M, Billings DL, Slemming W, Van Damme A, Crone M, Gwele M, Leister N, Hindori-Mohangoo AD, Beeckman K, Bradley S, Hindori MP, Abanga J, Ryan J, Bucinca H, McCourt C.",
+      "journal": "Frontiers in public health",
+      "pmid": "40078777",
+      "pmcid": "PMC11897044",
+      "url": "https://europepmc.org/article/MED/40078777",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:35202995",
+      "title": "Psychological interventions for personal stigma of patients with schizophrenia: A systematic review and network meta-analysis.",
+      "doi": "10.1016/j.jpsychires.2022.02.010",
+      "year": "2022",
+      "authors": "Luo H, Li Y, Yang BX, Chen J, Zhao P.",
+      "journal": "Journal of psychiatric research",
+      "pmid": "35202995",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/35202995",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "Network Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:32398129",
+      "title": "A systematic review of sexual and reproductive health interventions for young people in humanitarian and lower-and-middle-income country settings.",
+      "doi": "10.1186/s12889-020-08818-y",
+      "year": "2020",
+      "authors": "Desrosiers A, Betancourt T, Kergoat Y, Servilli C, Say L, Kobeissi L.",
+      "journal": "BMC public health",
+      "pmid": "32398129",
+      "pmcid": "PMC7216726",
+      "url": "https://europepmc.org/article/MED/32398129",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:25579201",
+      "title": "Identifying effective techniques within psychological treatments for irritable bowel syndrome: a meta-analysis.",
+      "doi": "10.1016/j.jpsychores.2014.12.009",
+      "year": "2015",
+      "authors": "Henrich JF, Knittle K, De Gucht V, Warren S, Dombrowski SU, Maes S.",
+      "journal": "Journal of psychosomatic research",
+      "pmid": "25579201",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/25579201",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:28964979",
+      "title": "The effectiveness of assertiveness communication training programs for healthcare professionals and students: A systematic review.",
+      "doi": "10.1016/j.ijnurstu.2017.09.001",
+      "year": "2017",
+      "authors": "Omura M, Maguire J, Levett-Jones T, Stone TE.",
+      "journal": "International journal of nursing studies",
+      "pmid": "28964979",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/28964979",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC215"
+    },
+    {
+      "id": "MED:28786368",
+      "title": "Nurse prescribing in primary care: a metasynthesis of the literature.",
+      "doi": "10.1017/s1463423617000500",
+      "year": "2018",
+      "authors": "Nuttall D.",
+      "journal": "Primary health care research & development",
+      "pmid": "28786368",
+      "pmcid": "PMC6452973",
+      "url": "https://europepmc.org/article/MED/28786368",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:25692326",
+      "title": "Pharmacological interventions for those who have sexually offended or are at risk of offending.",
+      "doi": "10.1002/14651858.cd007989.pub2",
+      "year": "2015",
+      "authors": "Khan O, Ferriter M, Huband N, Powney MJ, Dennis JA, Duggan C.",
+      "journal": "The Cochrane database of systematic reviews",
+      "pmid": "25692326",
+      "pmcid": "PMC6544815",
+      "url": "https://europepmc.org/article/MED/25692326",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42501502",
+      "title": "\"Oops! That was my fault, I am so sorry for sudden braking\": using voice assistants to repair trust after automated driving failures.",
+      "doi": "10.1016/j.apergo.2026.104857",
+      "year": "2027",
+      "authors": "Luo P, Peng C, Tan Z, Chen Z, Filtness A, Morris A.",
+      "journal": "Applied ergonomics",
+      "pmid": "42501502",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42501502",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42624456",
+      "title": "Trust repair under social surveillance: Behavioral and neural evidence for reputational buffering.",
+      "doi": "10.1016/j.biopsycho.2026.109379",
+      "year": "2026",
+      "authors": "Chen Y, Zhao C, Zeng C, Wu X, Zhang S.",
+      "journal": "Biological psychology",
+      "pmid": "42624456",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42624456",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42032286",
+      "title": "Academics demand apology for scientist investigated for China ties but never charged.",
+      "doi": "10.1038/d41586-026-01113-7",
+      "year": "2026",
+      "authors": "Udesky L.",
+      "journal": "Nature",
+      "pmid": "42032286",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42032286",
+      "publication_types": [
+        "News"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41980448",
+      "title": "Willingness to forgive in contexts of armed conflict: A systematic review.",
+      "doi": "10.1016/j.actpsy.2026.106764",
+      "year": "2026",
+      "authors": "Turizo-Palencia Y, Avila Paternina KA, De La Hoz Maldonado A, Núñez Menco SS.",
+      "journal": "Acta psychologica",
+      "pmid": "41980448",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41980448",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39964537",
+      "title": "Examining the dynamic impact of emotional apologies on forgiveness.",
+      "doi": "10.1037/emo0001504",
+      "year": "2025",
+      "authors": "Russell PS, Hepper EG, Fasoli F, Hopkins-Doyle A, Boone F.",
+      "journal": "Emotion (Washington, D.C.)",
+      "pmid": "39964537",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39964537",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39939873",
+      "title": "What can we learn from patient and family experiences of open disclosure and how they have been evaluated? A systematic review.",
+      "doi": "10.1186/s12913-025-12388-3",
+      "year": "2025",
+      "authors": "Rathnayake D, Sasame A, Radomska A, Shé ÉN, McAuliffe E, De Brún A.",
+      "journal": "BMC health services research",
+      "pmid": "39939873",
+      "pmcid": "PMC11817258",
+      "url": "https://europepmc.org/article/MED/39939873",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:32281822",
+      "title": "Parental behavior and child distress and pain during pediatric medical procedures: Systematic review and meta-analysis.",
+      "doi": "10.1037/hea0000864",
+      "year": "2020",
+      "authors": "Sobol-Kwapińska M, Sobol M, Woźnica-Niesobska E.",
+      "journal": "Health psychology : official journal of the Division of Health Psychology, American Psychological Association",
+      "pmid": "32281822",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/32281822",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:24048298",
+      "title": "Fraudulent data: an apology and the fate of angiotensin receptor blockers.",
+      "doi": "10.1136/bmj.f5549",
+      "year": "2013",
+      "authors": "Bangalore S, Messerli FH.",
+      "journal": "BMJ (Clinical research ed.)",
+      "pmid": "24048298",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/24048298",
+      "publication_types": [
+        "Letter",
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:23744586",
+      "title": "Excuses, excuses: a meta-analytic review of how mitigating information can change aggression and an exploration of moderating variables.",
+      "doi": "10.1002/ab.21491",
+      "year": "2013",
+      "authors": "Barlett CP.",
+      "journal": "Aggressive behavior",
+      "pmid": "23744586",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/23744586",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:21251144",
+      "title": "What happens when things go wrong?",
+      "doi": "10.1111/j.1460-9592.2010.03513.x",
+      "year": "2011",
+      "authors": "Brandom BW, Callahan P, Micalizzi DA.",
+      "journal": "Paediatric anaesthesia",
+      "pmid": "21251144",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/21251144",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:20804242",
+      "title": "The road to forgiveness: a meta-analytic synthesis of its situational and dispositional correlates.",
+      "doi": "10.1037/a0019993",
+      "year": "2010",
+      "authors": "Fehr R, Gelfand MJ, Nag M.",
+      "journal": "Psychological bulletin",
+      "pmid": "20804242",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/20804242",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40353999",
+      "title": "Adolescents' Preferred and Inferred Strategies for Being Accurately Understood by Their Parents.",
+      "doi": "10.1007/s10964-025-02193-w",
+      "year": "2025",
+      "authors": "Sabato H, Gozlan S, Eyal T.",
+      "journal": "Journal of youth and adolescence",
+      "pmid": "40353999",
+      "pmcid": "PMC12420688",
+      "url": "https://europepmc.org/article/MED/40353999",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42664081",
+      "title": "Adolescent Attachment and Peer Relationships: The Distinct Mediating Roles of Affective and Cognitive Empathy.",
+      "doi": "10.1080/00221325.2026.2720273",
+      "year": "2026",
+      "authors": "Liu X, Li Q, Huang L, Yan Z.",
+      "journal": "The Journal of genetic psychology",
+      "pmid": "42664081",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42664081",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42421740",
+      "title": "Childhood trauma and aggression in incarcerated males: the parallel mediating effects of empathic concern and perspective-taking.",
+      "doi": "10.3389/fpsyg.2026.1806562",
+      "year": "2026",
+      "authors": "Liu G, Jiang Y, Bai X, Liang Q, Wang Z, Li M.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42421740",
+      "pmcid": "PMC13341598",
+      "url": "https://europepmc.org/article/MED/42421740",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41421107",
+      "title": "A systematic review and meta-analyses on the psychological effects and mechanisms of the second-person pronoun \"you\".",
+      "doi": "10.1016/j.actpsy.2025.106104",
+      "year": "2026",
+      "authors": "Jin J, Zhao T.",
+      "journal": "Acta psychologica",
+      "pmid": "41421107",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41421107",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41856950",
+      "title": "Impact of Subdomains of Affective and Cognitive Empathy on Burnout Syndrome in Nurses: A Meta-Analysis.",
+      "doi": "10.1111/inr.70173",
+      "year": "2026",
+      "authors": "Maximiano-Barreto MA, Raminelli AO, Luchesi BM, Chagas MHN, Matias M, Osório FL.",
+      "journal": "International nursing review",
+      "pmid": "41856950",
+      "pmcid": "PMC13002559",
+      "url": "https://europepmc.org/article/MED/41856950",
+      "publication_types": [
+        "Meta-Analysis",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42656243",
+      "title": "The role of receptive arts and culture to improve anxiety, depression and psychological distress in young people: a realist review.",
+      "doi": "10.3389/frcha.2026.1869450",
+      "year": "2026",
+      "authors": "Hayes D, Wright J, Chandler L, Albaya de Gago K, Ng S, Langley J, Fancourt D, Bhui K, Mooney R, Syed Sheriff R.",
+      "journal": "Frontiers in child and adolescent psychiatry",
+      "pmid": "42656243",
+      "pmcid": "PMC13506279",
+      "url": "https://europepmc.org/article/MED/42656243",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39786812",
+      "title": "The effects of gender and gender (in)congruency on level-2 visuo-spatial perspective-taking performance: An individual participant data meta-analysis.",
+      "doi": "10.1037/xhp0001256",
+      "year": "2025",
+      "authors": "Erle TM, Hertogs NJ, Tran CB.",
+      "journal": "Journal of experimental psychology. Human perception and performance",
+      "pmid": "39786812",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39786812",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41169909",
+      "title": "Turning on the we-mode: a systematic review on joint action principles for promoting collective pro-environmental engagement.",
+      "doi": "10.3389/fpsyg.2025.1642312",
+      "year": "2025",
+      "authors": "Sarabi S, Gillebaart M, de Ridder D.",
+      "journal": "Frontiers in psychology",
+      "pmid": "41169909",
+      "pmcid": "PMC12568691",
+      "url": "https://europepmc.org/article/MED/41169909",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39073386",
+      "title": "Looking inside the black box of gender differences in creativity: A dual-process model and meta-analysis.",
+      "doi": "10.1037/apl0001205",
+      "year": "2024",
+      "authors": "Kim JJ, Vaulont MJ, Zhang Z, Byron K.",
+      "journal": "The Journal of applied psychology",
+      "pmid": "39073386",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39073386",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40304125",
+      "title": "Client Perspectives of Family Therapy: A Qualitative Systematic Review.",
+      "doi": "10.1111/jmft.70024",
+      "year": "2025",
+      "authors": "Todd E, Pond R, Coomber K.",
+      "journal": "Journal of marital and family therapy",
+      "pmid": "40304125",
+      "pmcid": "PMC12042159",
+      "url": "https://europepmc.org/article/MED/40304125",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38039916",
+      "title": "A meta-analytic review of the relations between anxiety and empathy.",
+      "doi": "10.1016/j.janxdis.2023.102795",
+      "year": "2024",
+      "authors": "Nair TK, Waslin SM, Rodrigues GA, Datta S, Moore MT, Brumariu LE.",
+      "journal": "Journal of anxiety disorders",
+      "pmid": "38039916",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38039916",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42594550",
+      "title": "Comment on 'Effects of social norms vs health claims on purchasing behavior: Reducing high-salt foods and promoting fruit and vegetables'.",
+      "doi": "10.1016/j.puhe.2026.106456",
+      "year": "2026",
+      "authors": "Mabborang J, Siddayao B, Balisi HM.",
+      "journal": "Public health",
+      "pmid": "42594550",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42594550",
+      "publication_types": [
+        "Letter"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42439254",
+      "title": "Silent forces: How normative ecologies reshape super-attractors.",
+      "doi": "10.1017/s0140525x25104378",
+      "year": "2026",
+      "authors": "Zhang W, Ding X, Mu Y.",
+      "journal": "The Behavioral and brain sciences",
+      "pmid": "42439254",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42439254",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42436568",
+      "title": "What makes you different? A qualitative study on experiences of not fitting in with social norms across cultures.",
+      "doi": "10.1186/s40359-026-05130-z",
+      "year": "2026",
+      "authors": "Heu LC, Oyekola A, Sharma N, Montiel AE, Piri İ, Lam H.",
+      "journal": "BMC psychology",
+      "pmid": "42436568",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42436568",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40983670",
+      "title": "A systematic review and meta-analysis of the effectiveness of social norms messaging approaches for improving health behaviours in developed countries.",
+      "doi": "10.1038/s41562-025-02275-6",
+      "year": "2025",
+      "authors": "Papakonstantinou T, Flecke SL, Edmunds CER, Cross R, Tran A, Gold N.",
+      "journal": "Nature human behaviour",
+      "pmid": "40983670",
+      "pmcid": "PMC12727529",
+      "url": "https://europepmc.org/article/MED/40983670",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41986740",
+      "title": "Individual versus group-based interventions: a systematic review and meta-analysis of physical activity, functional, psychosocial and health outcomes.",
+      "doi": "10.1038/s41562-026-02429-0",
+      "year": "2026",
+      "authors": "Kritz M, Riddell H, Olsen D, Harden SM, Burke SM, Ntoumanis N, Thøgersen-Ntoumani C.",
+      "journal": "Nature human behaviour",
+      "pmid": "41986740",
+      "pmcid": "PMC13290480",
+      "url": "https://europepmc.org/article/MED/41986740",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39394921",
+      "title": "Understanding the mechanisms of change in social norms around tobacco use: A systematic review and meta-analysis of interventions.",
+      "doi": "10.1111/add.16685",
+      "year": "2025",
+      "authors": "Lahiri S, Bingenheimer JB, Evans WD, Wang Y, Cislaghi B, Dubey P, Snowden B.",
+      "journal": "Addiction (Abingdon, England)",
+      "pmid": "39394921",
+      "pmcid": "PMC11707324",
+      "url": "https://europepmc.org/article/MED/39394921",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41016229",
+      "title": "Facilitators to strengthening vaccine uptake post-pandemic amongst underserved populations considering social norms and health beliefs: a global systematic review.",
+      "doi": "10.1016/j.vaccine.2025.127769",
+      "year": "2025",
+      "authors": "Chaudhry T, Tum P, Morrow F, Hargreaves S, Kielmann K, Kunst H, Griffiths C, Campbell NJC, Zenner D.",
+      "journal": "Vaccine",
+      "pmid": "41016229",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41016229",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40443841",
+      "title": "Scoping review of social norms interventions to reduce violence and improve SRHR outcomes among adolescents and young people in sub-Saharan Africa.",
+      "doi": "10.3389/frph.2025.1592696",
+      "year": "2025",
+      "authors": "Leite L, Yates R, Strigelli GC, Han JY, Chen-Charles J, Rotaru M, Toska E.",
+      "journal": "Frontiers in reproductive health",
+      "pmid": "40443841",
+      "pmcid": "PMC12119623",
+      "url": "https://europepmc.org/article/MED/40443841",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40935263",
+      "title": "Prevalence and risk factors of perinatal depression among women in South Asian countries: A systematic review and meta-analysis.",
+      "doi": "10.1016/j.jad.2025.120286",
+      "year": "2026",
+      "authors": "Thakuri AK, Gc VS, Belenky N, Wasti P, Shrestha R, Wasti SP.",
+      "journal": "Journal of affective disorders",
+      "pmid": "40935263",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40935263",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42468223",
+      "title": "Impact of health education intervention on knowledge and attitude towards HPV vaccination in Africa: A systematic review.",
+      "doi": "10.1016/j.vaccine.2026.128930",
+      "year": "2026",
+      "authors": "Gyamfi-Samakome A, Nimo FA, Odoom E, Nabe B, Koranteng HK, Ubeida S, Lanyo GS, Kagbo JE, Amoadu M, Enyan NIE.",
+      "journal": "Vaccine",
+      "pmid": "42468223",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42468223",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42386093",
+      "title": "Capabilities, opportunities, and motivations influencing young people's sustainable and healthy food-related behaviours: A systematic review.",
+      "doi": "10.1016/j.appet.2026.108702",
+      "year": "2026",
+      "authors": "van Etten S, Bal M, Jansen L, Dermody B, de Wit J, Stok M.",
+      "journal": "Appetite",
+      "pmid": "42386093",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42386093",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41917652",
+      "title": "Can conceptual beliefs shape impressions from voices?",
+      "doi": "10.3758/s13423-026-02876-w",
+      "year": "2026",
+      "authors": "Irvine M, Lavan N.",
+      "journal": "Psychonomic bulletin & review",
+      "pmid": "41917652",
+      "pmcid": "PMC13038661",
+      "url": "https://europepmc.org/article/MED/41917652",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41684181",
+      "title": "Erratum to \"Flexible Diagnosticity in Person Impression Formation: An Integrative Framework\".",
+      "doi": "10.1177/01461672261422632",
+      "year": "2026",
+      "authors": null,
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "41684181",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41684181",
+      "publication_types": [
+        "Published Erratum",
+        "Journal Article"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41773385",
+      "title": "Perceiver Positivity Differences Originate in Early-Stage Impression Formation: Evidence From a Recognition Task.",
+      "doi": "10.1177/01461672261424543",
+      "year": "2026",
+      "authors": "Rau R, Weiner L, Vogel L.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "41773385",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41773385",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40900947",
+      "title": "The devil effect triggered by sexual crimes.",
+      "doi": "10.3389/fpsyg.2025.1602972",
+      "year": "2025",
+      "authors": "Pfundmair M, Matanovic R.",
+      "journal": "Frontiers in psychology",
+      "pmid": "40900947",
+      "pmcid": "PMC12399528",
+      "url": "https://europepmc.org/article/MED/40900947",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42398079",
+      "title": "A neuroimaging meta-analysis on social impression formation of stable characteristics.",
+      "doi": "10.1093/cercor/bhag087",
+      "year": "2026",
+      "authors": "Koch EMW, Arioli M, Contò F, Canessa N, Cattaneo Z.",
+      "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+      "pmid": "42398079",
+      "pmcid": "PMC13331448",
+      "url": "https://europepmc.org/article/MED/42398079",
+      "publication_types": [
+        "Meta-Analysis",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42250360",
+      "title": "Neural correlates of mental illness related stigma: a systematic review of neuroimaging evidence.",
+      "doi": "10.1016/j.jpsychires.2026.06.002",
+      "year": "2026",
+      "authors": "Cabaços C, Quaresma M, Pereira AT, Madeira N, Duarte IC, Macedo A, Castelo-Branco M.",
+      "journal": "Journal of psychiatric research",
+      "pmid": "42250360",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42250360",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38934917",
+      "title": "Negativity bias in intergroup contact: Meta-analytical evidence that bad is stronger than good, especially when people have the opportunity and motivation to opt out of contact.",
+      "doi": "10.1037/bul0000439",
+      "year": "2024",
+      "authors": "Paolini S, Gibbs M, Sales B, Anderson D, McIntyre K.",
+      "journal": "Psychological bulletin",
+      "pmid": "38934917",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38934917",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38831949",
+      "title": "A systematic literature review of the stereotype content model in the fields of psychology and marketing: main themes examined in the literature and an agenda for future research in marketing.",
+      "doi": "10.3389/fpsyg.2024.1392629",
+      "year": "2024",
+      "authors": "Luna Cortes G.",
+      "journal": "Frontiers in psychology",
+      "pmid": "38831949",
+      "pmcid": "PMC11144869",
+      "url": "https://europepmc.org/article/MED/38831949",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:37288732",
+      "title": "You're heartless, I'm less: self-image and social norms in moral judgment.",
+      "doi": "10.1080/00221309.2023.2218637",
+      "year": "2024",
+      "authors": "Trémolière B, Rateau P.",
+      "journal": "The Journal of general psychology",
+      "pmid": "37288732",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/37288732",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:15121538",
+      "title": "A meta-analysis of priming effects on impression formation supporting a general model of informational biases.",
+      "doi": "10.1207/s15327957pspr0801_1",
+      "year": "2004",
+      "authors": "DeCoster J, Claypool HM.",
+      "journal": "Personality and social psychology review : an official journal of the Society for Personality and Social Psychology, Inc",
+      "pmid": "15121538",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/15121538",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41169921",
+      "title": "The impact of self-control on aggressive behavior: the chained mediating role of hostile attribution bias and positive/negative implicit affect.",
+      "doi": "10.3389/fpsyg.2025.1638323",
+      "year": "2025",
+      "authors": "Ma Q, Wang X, Liu L.",
+      "journal": "Frontiers in psychology",
+      "pmid": "41169921",
+      "pmcid": "PMC12568584",
+      "url": "https://europepmc.org/article/MED/41169921",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42536063",
+      "title": "The Association Between Trait Anger and Hostile Attribution Bias: A Systematic Review and Meta-Analysis.",
+      "doi": "10.1111/jopy.70092",
+      "year": "2026",
+      "authors": "Fenerdjian C, Gagnon J.",
+      "journal": "Journal of personality",
+      "pmid": "42536063",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42536063",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41687023",
+      "title": "How hostile attribution bias affects attachment anxiety/avoidance and relationship satisfaction: a cross-cultural perspective during the COVID pandemic.",
+      "doi": "10.1080/00224545.2026.2626036",
+      "year": "2026",
+      "authors": "Li D, Carnelley KB, Crawford MT, Lin X, Rowe AC.",
+      "journal": "The Journal of social psychology",
+      "pmid": "41687023",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41687023",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:37970850",
+      "title": "The Role of Parent-Child Attachment, Hostile Attribution Bias in Aggression: A Meta-Analytic Review.",
+      "doi": "10.1177/15248380231210920",
+      "year": "2024",
+      "authors": "Xu X, Wu Y, Xu Y, Ding M, Zhou S, Long S.",
+      "journal": "Trauma, violence & abuse",
+      "pmid": "37970850",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/37970850",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:36062321",
+      "title": "Insecure Attachment Orientation in Adults and Children and Negative Attribution Bias: A Meta-Analysis.",
+      "doi": "10.1177/01461672221117690",
+      "year": "2023",
+      "authors": "Li D, Carnelley KB, Rowe AC.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "36062321",
+      "pmcid": "PMC11951465",
+      "url": "https://europepmc.org/article/MED/36062321",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:35572150",
+      "title": "Exploring the Relationship Between Deficits in Social Cognition and Neurodegenerative Dementia: A Systematic Review.",
+      "doi": "10.3389/fnagi.2022.778093",
+      "year": "2022",
+      "authors": "Setién-Suero E, Murillo-García N, Sevilla-Ramos M, Abreu-Fernández G, Pozueta A, Ayesa-Arriola R.",
+      "journal": "Frontiers in aging neuroscience",
+      "pmid": "35572150",
+      "pmcid": "PMC9093607",
+      "url": "https://europepmc.org/article/MED/35572150",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:34715494",
+      "title": "Somatization and Somatic Symptom Disorder and its overlap with dimensionally measured personality pathology: A systematic review.",
+      "doi": "10.1016/j.jpsychores.2021.110646",
+      "year": "2021",
+      "authors": "Macina C, Bendel R, Walter M, Wrege JS.",
+      "journal": "Journal of psychosomatic research",
+      "pmid": "34715494",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/34715494",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:32156419",
+      "title": "[Cognitive explanations of auditory verbal hallucinations in schizophrenia: An inventory of the scientific literature].",
+      "doi": "10.1016/j.encep.2019.11.010",
+      "year": "2020",
+      "authors": "Livet A, Salomé F.",
+      "journal": "L'Encephale",
+      "pmid": "32156419",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/32156419",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:31287149",
+      "title": "[Neuropsychology of generalized anxiety disorders: a systematic review].",
+      "doi": "10.33588/rn.6902.2018371",
+      "year": "2019",
+      "authors": "Langarita-Llorente R, Gracia-Garcia P.",
+      "journal": "Revista de neurologia",
+      "pmid": "31287149",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/31287149",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:28688282",
+      "title": "Social cognition interventions for people with schizophrenia: a systematic review focussing on methodological quality and intervention modality.",
+      "doi": "10.1016/j.cpr.2017.06.001",
+      "year": "2017",
+      "authors": "Grant N, Lawrence M, Preti A, Wykes T, Cella M.",
+      "journal": "Clinical psychology review",
+      "pmid": "28688282",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/28688282",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:25873071",
+      "title": "Use of non-pharmaceutical interventions to reduce the transmission of influenza in adults: A systematic review.",
+      "doi": "10.1111/resp.12541",
+      "year": "2015",
+      "authors": "Smith SM, Sonego S, Wallen GR, Waterer G, Cheng AC, Thompson P.",
+      "journal": "Respirology (Carlton, Vic.)",
+      "pmid": "25873071",
+      "pmcid": "PMC4699551",
+      "url": "https://europepmc.org/article/MED/25873071",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42068717",
+      "title": "Predicting infant social attention: The role of temperament and mother-child interaction.",
+      "doi": "10.1016/j.infbeh.2026.102196",
+      "year": "2026",
+      "authors": "Kohl NV, Schmidt JA, Henning A, Aschersleben G.",
+      "journal": "Infant behavior & development",
+      "pmid": "42068717",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42068717",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42522133",
+      "title": "Intrinsic potency of biological motion in guiding attention: A conflict-based assessment across autistic traits.",
+      "doi": "10.1111/bjop.70104",
+      "year": "2026",
+      "authors": "Huang X, Wang L, Jiang Y.",
+      "journal": "British journal of psychology (London, England : 1953)",
+      "pmid": "42522133",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42522133",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42559647",
+      "title": "Analysis of Bifurcation-Induced Indecisive Limit Cycles in Hybrid Opinion Dynamics with Social Attention-Controlled Consensus.",
+      "doi": "10.1109/lcsys.2026.3708586",
+      "year": "2026",
+      "authors": "Kumar R, Yao N.",
+      "journal": "IEEE control systems letters",
+      "pmid": "42559647",
+      "pmcid": "PMC13441232",
+      "url": "https://europepmc.org/article/MED/42559647",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42382374",
+      "title": "Differential Patterns of Social Attention and Memory Profiles in Depression: Evidence From Third-Person Social Interaction Processing.",
+      "doi": "10.1155/da/7518415",
+      "year": "2026",
+      "authors": "Tang E, Zhang XM, Li J, Liu Y, Shen ZX, Chen H.",
+      "journal": "Depression and anxiety",
+      "pmid": "42382374",
+      "pmcid": "PMC13316134",
+      "url": "https://europepmc.org/article/MED/42382374",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41457198",
+      "title": "Beauty in the eye of the beholder: Attention to attractive faces dissociates across covert and overt measures.",
+      "doi": "10.3758/s13414-025-03162-y",
+      "year": "2025",
+      "authors": "Pereira EJ, Ristic J.",
+      "journal": "Attention, perception & psychophysics",
+      "pmid": "41457198",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41457198",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41840275",
+      "title": "A meta-analytic review of gaze cueing across the autism trait continuum.",
+      "doi": "10.3758/s13423-026-02882-y",
+      "year": "2026",
+      "authors": "Chen Z, Nie Z, Zhao Y, Song Y.",
+      "journal": "Psychonomic bulletin & review",
+      "pmid": "41840275",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41840275",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42416614",
+      "title": "Infant frontal alpha asymmetry predicts social attention and transdiagnostic risk for emotional reactivity.",
+      "doi": "10.1002/jcv2.70089",
+      "year": "2026",
+      "authors": "Valdes V, Lutri N, Chung H, Nelson CA.",
+      "journal": "JCPP advances",
+      "pmid": "42416614",
+      "pmcid": "PMC13339033",
+      "url": "https://europepmc.org/article/MED/42416614",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42189312",
+      "title": "Face masks do not hinder gaze-triggered social attention.",
+      "doi": "10.1007/s00426-026-02320-7",
+      "year": "2026",
+      "authors": "Tanaka Y, Ishikawa K, Okubo M.",
+      "journal": "Psychological research",
+      "pmid": "42189312",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42189312",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42365510",
+      "title": "Gaze-Tracking-Based Tests for Autism in Children: A Diagnostic Test Accuracy Systematic Review and Meta-Analysis.",
+      "doi": "10.1177/13623613261451896",
+      "year": "2026",
+      "authors": "Christian Alejandro DW, Juan Antonio SC, Sofía Lizeth AE, Mario Antonio TG, Ramón Mauricio CV, Christian Gabriel TL, Silvia G.",
+      "journal": "Autism : the international journal of research and practice",
+      "pmid": "42365510",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42365510",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42416153",
+      "title": "The relationship between teacher punishment and student academic achievement: a meta-analysis.",
+      "doi": "10.3389/fpsyg.2026.1705506",
+      "year": "2026",
+      "authors": "Li SY, Zhang JH, Wei JX, Zeng YL.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42416153",
+      "pmcid": "PMC13337892",
+      "url": "https://europepmc.org/article/MED/42416153",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41103460",
+      "title": "Real experiences and care needs of frail older patients: a systematic review of qualitative studies.",
+      "doi": "10.3389/fpubh.2025.1679832",
+      "year": "2025",
+      "authors": "Peng S, He H, Luo X, Kang J, Wang X, Tan Y.",
+      "journal": "Frontiers in public health",
+      "pmid": "41103460",
+      "pmcid": "PMC12521136",
+      "url": "https://europepmc.org/article/MED/41103460",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41262688",
+      "title": "Effectiveness of exercise intervention on children and adolescents with depression: a systematic review and meta-analysis of randomized controlled trial.",
+      "doi": "10.3389/fpsyt.2025.1699554",
+      "year": "2025",
+      "authors": "Yan H, Chen R, Chen D, Li C.",
+      "journal": "Frontiers in psychiatry",
+      "pmid": "41262688",
+      "pmcid": "PMC12624221",
+      "url": "https://europepmc.org/article/MED/41262688",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41562918",
+      "title": "The Diagnostic Potential of Eye Tracking to Detect Autism Spectrum Disorder in Children: A Systematic Review.",
+      "doi": "10.3390/medsci14010028",
+      "year": "2026",
+      "authors": "Di Cara M, De Domenico C, Piccolo A, Alito A, Costa L, Quartarone A, Cucinotta F.",
+      "journal": "Medical sciences (Basel, Switzerland)",
+      "pmid": "41562918",
+      "pmcid": "PMC12821402",
+      "url": "https://europepmc.org/article/MED/41562918",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39503176",
+      "title": "A systematic review and meta-analysis of atypical visual attention towards non-social stimuli in preschoolers with autism spectrum disorder.",
+      "doi": "10.1002/aur.3261",
+      "year": "2024",
+      "authors": "Hinz JR, Eikeseth FF, Chawarska K, Eikeseth S.",
+      "journal": "Autism research : official journal of the International Society for Autism Research",
+      "pmid": "39503176",
+      "pmcid": "PMC11638896",
+      "url": "https://europepmc.org/article/MED/39503176",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38788284",
+      "title": "The relationship between depression severity and heart rate variability in children and adolescents: A meta-analysis.",
+      "doi": "10.1016/j.jpsychores.2024.111804",
+      "year": "2024",
+      "authors": "Ding J, Wu Y, Wang B, Sun Z.",
+      "journal": "Journal of psychosomatic research",
+      "pmid": "38788284",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38788284",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42567154",
+      "title": "A Diary of Familiarity: A Diary of Familiarity: A Qualitative Exploration of Clinicians' Experiences of Familiarity and Serious Illness Decision-making in A Rural State.",
+      "doi": "10.1097/ans.0000000000000686",
+      "year": "2026",
+      "authors": null,
+      "journal": "ANS. Advances in nursing science",
+      "pmid": "42567154",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42567154",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42487066",
+      "title": "AI-generated familiarity estimates are a useful new source of information about word knowledge in Simplified Chinese.",
+      "doi": "10.3758/s13428-026-03120-y",
+      "year": "2026",
+      "authors": "Ding Z, Qin K, Brysbaert M, Cai Q.",
+      "journal": "Behavior research methods",
+      "pmid": "42487066",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42487066",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42510240",
+      "title": "The Influence of Format Familiarity on the Word Segmentation Effect in Tibetan Reading.",
+      "doi": "10.3390/bs16071119",
+      "year": "2026",
+      "authors": "Liang H, Zhang C, Xie Z, Gao L, Gao X.",
+      "journal": "Behavioral sciences (Basel, Switzerland)",
+      "pmid": "42510240",
+      "pmcid": "PMC13403434",
+      "url": "https://europepmc.org/article/MED/42510240",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42461590",
+      "title": "Lifetime familiarity and episodic familiarity: The role of the transentorhinal cortex in aging.",
+      "doi": "10.1037/neu0001102",
+      "year": "2026",
+      "authors": "Servais A, Frick A, Meyer F, Bastin C, Delhaye E.",
+      "journal": "Neuropsychology",
+      "pmid": "42461590",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42461590",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42617556",
+      "title": "Relevance-of-processing manipulations on familiarity- and recollection-based recognition for dynamic scenes.",
+      "doi": "10.1016/j.concog.2026.104115",
+      "year": "2026",
+      "authors": "McNeely-White KL, Liégeois-Chauvel C, Yonelinas AP, Huebert AM, Pedersen NP.",
+      "journal": "Consciousness and cognition",
+      "pmid": "42617556",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42617556",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42538772",
+      "title": "Song Familiarity Relies on Evidence Accumulation.",
+      "doi": "10.1111/psyp.70370",
+      "year": "2026",
+      "authors": "Girard JR, Bishop A, Hassall CD.",
+      "journal": "Psychophysiology",
+      "pmid": "42538772",
+      "pmcid": "PMC13428188",
+      "url": "https://europepmc.org/article/MED/42538772",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42700691",
+      "title": "Tactile restoration of familiarity in Capgras syndrome following right hemorrhagic stroke: Lesion mapping, Disconnectome analysis, and lesion network characterization of multisensory person recognition.",
+      "doi": "10.1016/j.bandc.2026.106479",
+      "year": "2026",
+      "authors": "Ponraj L, Suresh T, Ahmed SAI, Margabandhu K, Prasad TK, Bosco CJ, Sampathkumar S, Victoria MM, Sunderraj ES, Rafi R, Jepegnanam RT, Prabhakar AT.",
+      "journal": "Brain and cognition",
+      "pmid": "42700691",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42700691",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42612090",
+      "title": "Medical Students' Attitudes, Perceptions, and Self-Reported Familiarity With AI in Health Care: Systematic Review and Meta-Analysis.",
+      "doi": "10.2196/89411",
+      "year": "2026",
+      "authors": "Zhang W, Han J, Han X, Xu H, Wang L, Lin T, Tan P, Zhang P, Zheng X.",
+      "journal": "JMIR medical education",
+      "pmid": "42612090",
+      "pmcid": "PMC13484950",
+      "url": "https://europepmc.org/article/MED/42612090",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42216248",
+      "title": "Cycling versus swapping strategies for treatment of psoriatic arthritis after primary tumour necrosis factor inhibitors failure: a systematic review and meta-analysis.",
+      "doi": "10.1093/rheumatology/keag281",
+      "year": "2026",
+      "authors": "Tomo ATJ, Ratan P, Gonçalves LS, Marques TC, Souza MEC, Finn LC, Rima JAA, Moreira GSF.",
+      "journal": "Rheumatology (Oxford, England)",
+      "pmid": "42216248",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42216248",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42061891",
+      "title": "Source memory engages familiarity-like, not recollection-like, neural patterns: an fMRI meta-analysis.",
+      "doi": "10.1093/cercor/bhag052",
+      "year": "2026",
+      "authors": "Kim H.",
+      "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+      "pmid": "42061891",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42061891",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42215812",
+      "title": "Mapping the neural patterns of verbal repetition: an activation likelihood estimation meta-analysis.",
+      "doi": "10.1007/s00429-026-03119-3",
+      "year": "2026",
+      "authors": "Awana A, Berthier ML, Torres-Prioris MJ, López-Barroso D.",
+      "journal": "Brain structure & function",
+      "pmid": "42215812",
+      "pmcid": "PMC13221332",
+      "url": "https://europepmc.org/article/MED/42215812",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42157673",
+      "title": "Anticoagulation Strategies in Adults Undergoing Extracorporeal Membrane Oxygenation: A Systematic Review and Meta-Analysis.",
+      "doi": "10.1111/aor.70162",
+      "year": "2026",
+      "authors": "Scharner V, Lenz K, Herkner H, Buchtele N, Staudinger T, Schaden E, Wiegele M, Gratz J.",
+      "journal": "Artificial organs",
+      "pmid": "42157673",
+      "pmcid": "PMC13452911",
+      "url": "https://europepmc.org/article/MED/42157673",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42560176",
+      "title": "Factors influencing mutual trust in interprofessional partnerships within primary care settings: a systematic review.",
+      "doi": "10.1093/fampra/cmag060",
+      "year": "2026",
+      "authors": "Mey A, Guo M, Warriner H, Vuong K.",
+      "journal": "Family practice",
+      "pmid": "42560176",
+      "pmcid": "PMC13445621",
+      "url": "https://europepmc.org/article/MED/42560176",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    }
+  ]
+}

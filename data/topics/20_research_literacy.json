@@ -40,12 +40,16 @@
       "source_ids": [
         "SRC016",
         "SRC066",
-        "SRC068"
+        "SRC068",
+        "SRC133"
       ],
       "caution_ja": "一つの追試失敗を全研究の否定にせず、対象の選び方を確認する。",
       "research_brief_ids": [
         "RB-36266452",
         "RB-36857342"
+      ],
+      "source_review_ids": [
+        "R3-C026"
       ]
     },
     {
@@ -154,7 +158,8 @@
         "SRC049",
         "SRC053",
         "SRC068",
-        "SRC097"
+        "SRC097",
+        "SRC133"
       ],
       "caution_ja": "文化を固定的な国民性として扱わず、集団内の違いも考慮する。",
       "research_brief_ids": [
@@ -162,6 +167,9 @@
         "RB-26162104",
         "RB-36857342",
         "RB-40627390"
+      ],
+      "source_review_ids": [
+        "R3-C026"
       ]
     },
     {
@@ -193,8 +201,13 @@
       "angle_ja": "低リスクな生活習慣で、比較期間と測定の限界を考える。",
       "search_query": "N of 1 behavioral intervention self monitoring regression to mean methods",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "薬、断食、睡眠削減など危険な自己実験は扱わない。個人の体験を一般的な因果証拠としない。"
+      "source_ids": [
+        "SRC224"
+      ],
+      "caution_ja": "薬、断食、睡眠削減など危険な自己実験は扱わない。個人の体験を一般的な因果証拠としない。",
+      "source_review_ids": [
+        "R3-S130"
+      ]
     }
   ]
 }

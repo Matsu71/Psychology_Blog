@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "category_id": "mental_health",
+  "edges": [
+    {
+      "id": "EV-PSY-MEN-001-SRC014",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC014",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-001-SRC029",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC029",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-001-SRC044",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC044",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33687070"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-001-SRC088",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC088",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24121465"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-001-SRC095",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC095",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38642901"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-001-SRC096",
+      "topic_id": "PSY-MEN-001",
+      "source_id": "SRC096",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-37973069"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-002-SRC029",
+      "topic_id": "PSY-MEN-002",
+      "source_id": "SRC029",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-002-SRC040",
+      "topic_id": "PSY-MEN-002",
+      "source_id": "SRC040",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33164742"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-002-SRC089",
+      "topic_id": "PSY-MEN-002",
+      "source_id": "SRC089",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-27276373"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-003-SRC029",
+      "topic_id": "PSY-MEN-003",
+      "source_id": "SRC029",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-003-SRC060",
+      "topic_id": "PSY-MEN-003",
+      "source_id": "SRC060",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34586357"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-004-SRC061",
+      "topic_id": "PSY-MEN-004",
+      "source_id": "SRC061",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38355154"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-004-SRC062",
+      "topic_id": "PSY-MEN-004",
+      "source_id": "SRC062",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38355154"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-004-SRC063",
+      "topic_id": "PSY-MEN-004",
+      "source_id": "SRC063",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-41667154"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-005-SRC013",
+      "topic_id": "PSY-MEN-005",
+      "source_id": "SRC013",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-005-SRC057",
+      "topic_id": "PSY-MEN-005",
+      "source_id": "SRC057",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-36624160"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-005-SRC059",
+      "topic_id": "PSY-MEN-005",
+      "source_id": "SRC059",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33428616"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-006-SRC022",
+      "topic_id": "PSY-MEN-006",
+      "source_id": "SRC022",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-006-SRC013",
+      "topic_id": "PSY-MEN-006",
+      "source_id": "SRC013",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-007-SRC075",
+      "topic_id": "PSY-MEN-007",
+      "source_id": "SRC075",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34096763"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-007-SRC102",
+      "topic_id": "PSY-MEN-007",
+      "source_id": "SRC102",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-22981903"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-008-SRC024",
+      "topic_id": "PSY-MEN-008",
+      "source_id": "SRC024",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-008-SRC060",
+      "topic_id": "PSY-MEN-008",
+      "source_id": "SRC060",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34586357"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-008-SRC078",
+      "topic_id": "PSY-MEN-008",
+      "source_id": "SRC078",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38589702"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-009-SRC060",
+      "topic_id": "PSY-MEN-009",
+      "source_id": "SRC060",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34586357"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-009-SRC183",
+      "topic_id": "PSY-MEN-009",
+      "source_id": "SRC183",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C076",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "治療への否定的期待や説明と症状の経験を扱うノセボ研究の概説。",
+      "conclusion_direction": "context",
+      "limits_ja": "真の副作用を否定せず、必要なリスク説明を省略しない。個別の治療中断や変更を勧めない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MEN-010-SRC029",
+      "topic_id": "PSY-MEN-010",
+      "source_id": "SRC029",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

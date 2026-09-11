@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "digital",
+  "topics": [
+    {
+      "topic_id": "PSY-DIG-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-001-SRC160",
+          "source_id": "SRC160",
+          "title": "The Welfare Effects of Social Media",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DIG-001-SRC012",
+          "source_id": "SRC012",
+          "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-002",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DIG-003",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DIG-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-004-SRC159",
+          "source_id": "SRC159",
+          "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "参加者の遵守と欠測に大きな制約。全員が同じ効果を得る、単なる画面時間削減で同じ結果になるとはしない。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DIG-004-SRC158",
+          "source_id": "SRC158",
+          "title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "自己報告と短い追跡。臨床患者や長期利用、失われる交流や便益は別途検討する。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-DIG-004-SRC160",
+          "source_id": "SRC160",
+          "title": "The Welfare Effects of Social Media",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 3
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-005-SRC161",
+          "source_id": "SRC161",
+          "title": "Motivational, emotional, and behavioral correlates of fear of missing out",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "FOMOの基礎研究の書誌のみ。尺度の妥当性や使用行動との因果関係は今回未確認。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-006-SRC193",
+          "source_id": "SRC193",
+          "title": "Fast-forward to boredom: How switching behavior on digital media makes people more bored.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DIG-006-SRC055",
+          "source_id": "SRC055",
+          "title": "The attentional cost of receiving a cell phone notification.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-007",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DIG-008",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DIG-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-009-SRC067",
+          "source_id": "SRC067",
+          "title": "Shifting attention to accuracy can reduce misinformation online.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-010-SRC003",
+          "source_id": "SRC003",
+          "title": "How Sleep Works - Your Sleep/Wake Cycle",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DIG-010-SRC010",
+          "source_id": "SRC010",
+          "title": "Bedtime procrastination: introducing a new area of procrastination",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-DIG-010-SRC041",
+          "source_id": "SRC041",
+          "title": "Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        }
+      ]
+    }
+  ]
+}

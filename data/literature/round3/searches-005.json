@@ -1,0 +1,1527 @@
+{
+  "schema_version": "1.0",
+  "cutoff": "2026-09-11",
+  "searches": [
+    {
+      "task_id": "R3-X-036",
+      "topic_id": "PSY-SOC-008",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1093/hcr/hqaf016\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fhcr%2Fhqaf016%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-037",
+      "topic_id": "PSY-SOC-009",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1111/peps.12183\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fpeps.12183%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-038",
+      "topic_id": "PSY-WEL-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/0003-066x.61.4.305\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0003-066x.61.4.305%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:16719675"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-039",
+      "topic_id": "PSY-WEL-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1086/597049\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1086%2F597049%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-040",
+      "topic_id": "PSY-WEL-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0031578\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0031578%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:23421360"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-041",
+      "topic_id": "PSY-WEL-008",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1097/psy.0000000000000274\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1097%2Fpsy.0000000000000274%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:26630073"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-042",
+      "topic_id": "PSY-NUT-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.3945/ajcn.112.045245\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3945%2Fajcn.112.045245%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:23446890"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-043",
+      "topic_id": "PSY-NUT-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.3390/nu17010166\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3390%2Fnu17010166%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39796600"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-044",
+      "topic_id": "PSY-NUT-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/14651858.cd012573.pub3\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd012573.pub3%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:31482606"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-045",
+      "topic_id": "PSY-DEV-002",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1177/0956797618761661\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0956797618761661%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:29799765"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-046",
+      "topic_id": "PSY-DEV-002",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1111/cdev.14129\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fcdev.14129%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39073534"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-047",
+      "topic_id": "PSY-DEV-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1111/cdev.13225\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fcdev.13225%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:30737957"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-048",
+      "topic_id": "PSY-DEV-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1177/0271121421998793\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0271121421998793%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-049",
+      "topic_id": "PSY-DEV-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1001/jamapediatrics.2024.2620\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1001%2Fjamapediatrics.2024.2620%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39102255"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-050",
+      "topic_id": "PSY-AGE-010",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.tics.2016.07.002\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.tics.2016.07.002%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:27542527"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-051",
+      "topic_id": "PSY-DIG-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1089/cyber.2021.0324\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1089%2Fcyber.2021.0324%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:35512731"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-052",
+      "topic_id": "PSY-DIG-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1093/pnasnexus/pgaf017\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fpnasnexus%2Fpgaf017%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39967678"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-053",
+      "topic_id": "PSY-DIG-001",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1257/aer.20190658\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1257%2Faer.20190658%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-054",
+      "topic_id": "PSY-DIG-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.chb.2013.02.014\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.chb.2013.02.014%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-055",
+      "topic_id": "PSY-WRK-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.5271/sjweh.3632\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.5271%2Fsjweh.3632%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:28306759"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-056",
+      "topic_id": "PSY-WRK-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0022876\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0022876%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:21728441"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-057",
+      "topic_id": "PSY-WRK-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1080/1359432x.2019.1646728\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1080%2F1359432x.2019.1646728%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-058",
+      "topic_id": "PSY-WRK-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1111/j.1744-6570.2005.00672.x\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fj.1744-6570.2005.00672.x%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-059",
+      "topic_id": "PSY-WRK-009",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/1089-2699.9.1.58\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F1089-2699.9.1.58%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-060",
+      "topic_id": "PSY-WRK-011",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1007/s11606-019-05364-1\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs11606-019-05364-1%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:31848865"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-061",
+      "topic_id": "PSY-WRK-014",
+      "provider": "europepmc",
+      "query": "DOI:\"10.5465/amj.2018.1474\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.5465%2Famj.2018.1474%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-062",
+      "topic_id": "PSY-MON-002",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.jretai.2024.05.003\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.jretai.2024.05.003%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-063",
+      "topic_id": "PSY-MON-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F%28sici%291099-0771%28199909%2912%3A3%3C183%3A%3Aaid-bdm318%3E3.0.co%3B2-f%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-064",
+      "topic_id": "PSY-MON-010",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1287/mksc.1060.0254\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1287%2Fmksc.1060.0254%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-065",
+      "topic_id": "PSY-MON-013",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.jesp.2011.03.015\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.jesp.2011.03.015%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-066",
+      "topic_id": "PSY-INT-002",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/0022-3514.78.2.273\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0022-3514.78.2.273%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-067",
+      "topic_id": "PSY-INT-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/fam0000946\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Ffam0000946%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:34968095"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-068",
+      "topic_id": "PSY-INT-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1080/00224499.2019.1568375\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1080%2F00224499.2019.1568375%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:30777780"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-069",
+      "topic_id": "PSY-INT-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1007/s00737-024-01490-w\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs00737-024-01490-w%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:38951218"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-070",
+      "topic_id": "PSY-INT-011",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0017004\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0017004%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:20001143"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-071",
+      "topic_id": "PSY-INT-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/0022-3514.74.2.360\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0022-3514.74.2.360%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-072",
+      "topic_id": "PSY-HPS-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.14309/ajg.0000000000001036\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.14309%2Fajg.0000000000001036%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:33315591"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-073",
+      "topic_id": "PSY-HPS-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0017428\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0017428%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:19883144"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-074",
+      "topic_id": "PSY-HPS-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.chb.2019.07.028\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.chb.2019.07.028%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-075",
+      "topic_id": "PSY-HPS-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1056/nejm199108293250903\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1056%2Fnejm199108293250903%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:1713648"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-076",
+      "topic_id": "PSY-HPS-008",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/prp2.208\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2Fprp2.208%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:27069627"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-077",
+      "topic_id": "PSY-HPS-009",
+      "provider": "europepmc",
+      "query": "DOI:\"10.2196/27835\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.2196%2F27835%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:34792473"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-078",
+      "topic_id": "PSY-HPS-011",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/14651858.cd000011.pub4\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd000011.pub4%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:25412402"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-079",
+      "topic_id": "PSY-HPS-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/14651858.cd006776.pub2\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd006776.pub2%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:21412897"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-080",
+      "topic_id": "PSY-ENV-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.3390/ijerph15030519\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3390%2Fijerph15030519%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:29538344"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-081",
+      "topic_id": "PSY-ENV-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1098/rstb.2017.0239\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1098%2Frstb.2017.0239%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:29967303"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-082",
+      "topic_id": "PSY-ENV-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.2307/1423672\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.2307%2F1423672%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:11868193"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-083",
+      "topic_id": "PSY-ENV-010",
+      "provider": "europepmc",
+      "query": "DOI:\"10.3389/fpsyg.2015.00368\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3389%2Ffpsyg.2015.00368%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:25883578"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-084",
+      "topic_id": "PSY-ENV-010",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/gpr0000170\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fgpr0000170%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-085",
+      "topic_id": "PSY-ENV-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1073/pnas.2013097118\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1073%2Fpnas.2013097118%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:33753555"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-086",
+      "topic_id": "PSY-CRE-003",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/xge0001639\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fxge0001639%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39158465"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-087",
+      "topic_id": "PSY-CRE-005",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0014212\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0014212%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:19210055"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-088",
+      "topic_id": "PSY-CRE-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1001/jamanetworkopen.2022.3236\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1001%2Fjamanetworkopen.2022.3236%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:35315920"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-089",
+      "topic_id": "PSY-CRE-009",
+      "provider": "europepmc",
+      "query": "DOI:\"10.3389/fpsyg.2020.02213\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3389%2Ffpsyg.2020.02213%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:33071846"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-090",
+      "topic_id": "PSY-CRE-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1207/s15324834basp1201_1\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1207%2Fs15324834basp1201_1%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-091",
+      "topic_id": "PSY-LAN-004",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1177/09567976241243004\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F09567976241243004%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:38728320"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-092",
+      "topic_id": "PSY-LAN-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1016/j.jesp.2010.05.025\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.jesp.2010.05.025%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-093",
+      "topic_id": "PSY-LAN-007",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/0022-3514.89.6.925\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0022-3514.89.6.925%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:16393025"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-094",
+      "topic_id": "PSY-LAN-009",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0037323\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0037323%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:25019381"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-095",
+      "topic_id": "PSY-LAN-010",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1371/journal.pone.0231350\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1371%2Fjournal.pone.0231350%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:32287296"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-096",
+      "topic_id": "PSY-LAN-011",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1037/a0035173\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0035173%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:24467424"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-097",
+      "topic_id": "PSY-LAN-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1093/joc/jqaa017\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fjoc%2Fjqaa017%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-098",
+      "topic_id": "PSY-LIF-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1002/smi.3123\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2Fsmi.3123%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:34921589"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-099",
+      "topic_id": "PSY-LIF-006",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1177/21676968231184922\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F21676968231184922%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39092184"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-100",
+      "topic_id": "PSY-LIF-011",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1177/0146167203256921\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0146167203256921%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:15018681"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-101",
+      "topic_id": "PSY-LIF-012",
+      "provider": "europepmc",
+      "query": "DOI:\"10.1126/science.1198364\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1126%2Fscience.1198364%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:21415354"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-102",
+      "topic_id": "PSY-PER-009",
+      "provider": "europepmc",
+      "query": "TITLE:\"Sensory Processing Sensitivity\" AND AUTH_LAST:Greven",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Sensory+Processing+Sensitivity%22+AND+AUTH_LAST%3AGreven%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "PPR:PPR1120980",
+        "MED:39881701",
+        "PPR:PPR829868",
+        "PPR:PPR878272",
+        "PPR:PPR666573"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-103",
+      "topic_id": "PSY-DEC-004",
+      "provider": "europepmc",
+      "query": "TITLE:\"sunk cost\" AND TITLE:\"meta\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22sunk+cost%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-104",
+      "topic_id": "PSY-REL-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"Perspective mistaking\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Perspective+mistaking%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:29620401"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-105",
+      "topic_id": "PSY-ATT-009",
+      "provider": "europepmc",
+      "query": "TITLE:\"flow\" AND TITLE:\"systematic review\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22flow%22+AND+TITLE%3A%22systematic+review%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42665343",
+        "MED:42714407",
+        "MED:42708135",
+        "MED:42639123",
+        "MED:42566916"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-106",
+      "topic_id": "PSY-INT-003",
+      "provider": "europepmc",
+      "query": "TITLE:\"Sexual Frequency Predicts\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Sexual+Frequency+Predicts%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "PPR:PPR853635"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-107",
+      "topic_id": "PSY-INT-007",
+      "provider": "europepmc",
+      "query": "TITLE:\"sleep\" AND AUTH_LAST:Gordon AND FIRST_PDATE:[2013-01-01 TO 2014-12-31]",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22sleep%22+AND+AUTH_LAST%3AGordon+AND+FIRST_PDATE%3A%5B2013-01-01+TO+2014-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:24612904",
+        "MED:24990025"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-108",
+      "topic_id": "PSY-MON-012",
+      "provider": "europepmc",
+      "query": "TITLE:\"Doing better but feeling worse\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Doing+better+but+feeling+worse%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:22213379",
+        "MED:16466422",
+        "MED:7949436",
+        "MED:6911497",
+        "PMC:PMC1154647"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-109",
+      "topic_id": "PSY-LAN-003",
+      "provider": "europepmc",
+      "query": "TITLE:\"foreign-language effect\" AND AUTH_LAST:Keysar",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22foreign-language+effect%22+AND+AUTH_LAST%3AKeysar%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:30803325",
+        "MED:30803340",
+        "MED:28806137"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-110",
+      "topic_id": "PSY-LAN-005",
+      "provider": "europepmc",
+      "query": "TITLE:\"gesture\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22gesture%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:37971416",
+        "MED:37816134",
+        "MED:31219263",
+        "PPR:PPR38327",
+        "MED:26271719"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-111",
+      "topic_id": "PSY-LIF-005",
+      "provider": "europepmc",
+      "query": "TITLE:\"empty nest\" AND TITLE:\"satisfaction\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22empty+nest%22+AND+TITLE%3A%22satisfaction%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:34675816",
+        "MED:18595006"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-112",
+      "topic_id": "PSY-HAB-010",
+      "provider": "europepmc",
+      "query": "TITLE_ABS:\"commitment contracts\" AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22commitment+contracts%22+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39571470",
+        "MED:40209542",
+        "MED:32470089",
+        "MED:35893723",
+        "MED:37150823"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-113",
+      "topic_id": "PSY-HAB-006",
+      "provider": "europepmc",
+      "query": "TITLE_ABS:\"environmental restructuring\" AND TITLE_ABS:\"behavior\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22environmental+restructuring%22+AND+TITLE_ABS%3A%22behavior%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42660524",
+        "MED:42576175",
+        "MED:42482415",
+        "MED:42519204",
+        "MED:42275410"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-114",
+      "topic_id": "PSY-GEN-010",
+      "provider": "europepmc",
+      "query": "EXT_ID:40965930 AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A40965930+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:40965930"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-115",
+      "topic_id": "PSY-PER-008",
+      "provider": "europepmc",
+      "query": "EXT_ID:12061595 AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A12061595+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:12061595"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-116",
+      "topic_id": "PSY-REL-007",
+      "provider": "europepmc",
+      "query": "TITLE:\"assertiveness\" AND TITLE:\"systematic\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22assertiveness%22+AND+TITLE%3A%22systematic%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:40137675",
+        "MED:36462396",
+        "MED:28964979"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-117",
+      "topic_id": "PSY-REL-009",
+      "provider": "europepmc",
+      "query": "TITLE:\"apology\" AND TITLE:\"trust\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22apology%22+AND+TITLE%3A%22trust%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:40851628",
+        "PPR:PPR881413",
+        "MED:35548542",
+        "PPR:PPR322353",
+        "PPR:PPR396520"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-118",
+      "topic_id": "PSY-SOC-004",
+      "provider": "europepmc",
+      "query": "TITLE:\"halo effect\" AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22halo+effect%22+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:41567448",
+        "MED:42337325",
+        "MED:42353337",
+        "MED:42630536",
+        "MED:40294958"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-119",
+      "topic_id": "PSY-WEL-007",
+      "provider": "europepmc",
+      "query": "TITLE:\"social comparison\" AND TITLE:\"meta\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22social+comparison%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42343480",
+        "MED:42220404",
+        "MED:41711152",
+        "MED:40389595",
+        "MED:39721448"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-120",
+      "topic_id": "PSY-EXE-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"compulsive exercise\" AND TITLE:\"systematic\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22compulsive+exercise%22+AND+TITLE%3A%22systematic%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:39820893",
+        "MED:34029170",
+        "MED:33568203",
+        "PPR:PPR275370"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-121",
+      "topic_id": "PSY-NUT-008",
+      "provider": "europepmc",
+      "query": "TITLE:\"probiotics\" AND TITLE:\"depression\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22probiotics%22+AND+TITLE%3A%22depression%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42526285",
+        "MED:42495752",
+        "MED:41259365",
+        "MED:42021200",
+        "MED:41310510"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-122",
+      "topic_id": "PSY-NUT-010",
+      "provider": "europepmc",
+      "query": "TITLE_ABS:\"rigid\" AND TITLE_ABS:\"flexible\" AND TITLE_ABS:\"restraint\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22rigid%22+AND+TITLE_ABS%3A%22flexible%22+AND+TITLE_ABS%3A%22restraint%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:40217548",
+        "MED:42387546",
+        "MED:39247962",
+        "MED:37410385",
+        "MED:37149709"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-123",
+      "topic_id": "PSY-DEV-003",
+      "provider": "europepmc",
+      "query": "TITLE:\"executive function\" AND TITLE:\"preschool\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22executive+function%22+AND+TITLE%3A%22preschool%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42539512",
+        "MED:41491942",
+        "PPR:PPR899437",
+        "MED:38255370",
+        "PPR:PPR750826"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-124",
+      "topic_id": "PSY-DEV-005",
+      "provider": "europepmc",
+      "query": "TITLE:\"attachment\" AND TITLE:\"stability\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22attachment%22+AND+TITLE%3A%22stability%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:32772822"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-125",
+      "topic_id": "PSY-AGE-001",
+      "provider": "europepmc",
+      "query": "TITLE:\"When does age-related cognitive decline begin\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22When+does+age-related+cognitive+decline+begin%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:19231028",
+        "MED:19231029",
+        "MED:19237224"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-126",
+      "topic_id": "PSY-DIG-002",
+      "provider": "europepmc",
+      "query": "TITLE:\"active\" AND TITLE:\"passive\" AND TITLE:\"social media\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22active%22+AND+TITLE%3A%22passive%22+AND+TITLE%3A%22social+media%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "PPR:PPR796488"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-127",
+      "topic_id": "PSY-DIG-003",
+      "provider": "europepmc",
+      "query": "TITLE:\"doomscrolling\" AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22doomscrolling%22+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42344097",
+        "MED:41987309",
+        "MED:42190084",
+        "MED:42374759",
+        "MED:41437290"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-128",
+      "topic_id": "PSY-DIG-007",
+      "provider": "europepmc",
+      "query": "TITLE:\"phubbing\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22phubbing%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:38757677",
+        "MED:37877136"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-129",
+      "topic_id": "PSY-DIG-008",
+      "provider": "europepmc",
+      "query": "TITLE:\"online harassment\" AND TITLE:\"review\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22online+harassment%22+AND+TITLE%3A%22review%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:41941712",
+        "MED:42017912",
+        "MED:35251597"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-130",
+      "topic_id": "PSY-RES-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"N-of-1\" AND TITLE:\"guidelines\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22N-of-1%22+AND+TITLE%3A%22guidelines%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:38031562",
+        "MED:36516128",
+        "MED:28679407",
+        "PMC:PMC3373855",
+        "MED:12344304"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-131",
+      "topic_id": "PSY-MON-005",
+      "provider": "europepmc",
+      "query": "TITLE:\"impulse buying\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22impulse+buying%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-132",
+      "topic_id": "PSY-MON-007",
+      "provider": "europepmc",
+      "query": "TITLE:\"financial\" AND TITLE:\"couples\" AND TITLE:\"communication\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22financial%22+AND+TITLE%3A%22couples%22+AND+TITLE%3A%22communication%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:31446485",
+        "MED:24910157"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-133",
+      "topic_id": "PSY-MON-009",
+      "provider": "europepmc",
+      "query": "TITLE:\"scarcity\" AND TITLE:\"consumer\" AND TITLE:\"meta\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22scarcity%22+AND+TITLE%3A%22consumer%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-134",
+      "topic_id": "PSY-INT-004",
+      "provider": "europepmc",
+      "query": "TITLE:\"Sexual Desire Discrepancy\" AND TITLE:\"Position\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Sexual+Desire+Discrepancy%22+AND+TITLE%3A%22Position%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:32192965"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-135",
+      "topic_id": "PSY-INT-008",
+      "provider": "europepmc",
+      "query": "TITLE:\"jealousy\" AND TITLE:\"social media\" AND TITLE:\"review\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22jealousy%22+AND+TITLE%3A%22social+media%22+AND+TITLE%3A%22review%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    }
+  ]
+}

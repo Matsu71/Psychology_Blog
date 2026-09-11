@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "decisions",
+  "topics": [
+    {
+      "topic_id": "PSY-DEC-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-001-SRC067",
+          "source_id": "SRC067",
+          "title": "Shifting attention to accuracy can reduce misinformation online.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-002",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DEC-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-003-SRC134",
+          "source_id": "SRC134",
+          "title": "A meta-analysis of loss aversion in risky contexts",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "2024年の刊行版の書誌を優先。類似題名のプレプリントの抄録を、刊行版の精査済み結果として転記しない。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DEC-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-005-SRC186",
+          "source_id": "SRC186",
+          "title": "Using alternative statistical formats for presenting risks and risk reductions.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "行動を評価した比較はなく、理解度から健康行動の改善を直接推論しない。古いレビューで更新調査が必要。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DEC-005-SRC135",
+          "source_id": "SRC135",
+          "title": "Age differences in the effect of framing on risky choice: A meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一般的フレーミングの全効果ではなく、年齢差を中心とした部分的な根拠。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-006-SRC136",
+          "source_id": "SRC136",
+          "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "選択肢過多のメタ分析の書誌のみ確認。効果量や条件差は原文確認後に記載する。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-007",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DEC-008",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-DEC-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-009-SRC137",
+          "source_id": "SRC137",
+          "title": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "統計的な見かけを論じる批判論文の書誌。批判の主張だけで現象全体を否定せず、原研究と応答を併読する。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-010-SRC138",
+          "source_id": "SRC138",
+          "title": "When and why defaults influence decisions: a meta-analysis of default effects",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "メタ分析の効果量は選択確率の固定増加率ではない。変更のしやすさと倫理も別に検討する。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

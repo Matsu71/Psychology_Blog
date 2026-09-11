@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0",
+  "category_id": "work",
+  "edges": [
+    {
+      "id": "EV-PSY-WRK-001-SRC099",
+      "topic_id": "PSY-WRK-001",
+      "source_id": "SRC099",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "anchor_question_checked",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38867040"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-002-SRC075",
+      "topic_id": "PSY-WRK-002",
+      "source_id": "SRC075",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34096763"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-002-SRC100",
+      "topic_id": "PSY-WRK-002",
+      "source_id": "SRC100",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-40691306"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-003-SRC090",
+      "topic_id": "PSY-WRK-003",
+      "source_id": "SRC090",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-19897238"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-003-SRC102",
+      "topic_id": "PSY-WRK-003",
+      "source_id": "SRC102",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-22981903"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-004-SRC162",
+      "topic_id": "PSY-WRK-004",
+      "source_id": "SRC162",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C055",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "8コホートで、努力に報酬が見合わないと感じる状態とうつ病の新規発症との関連を報告。",
+      "conclusion_direction": "association",
+      "limits_ja": "事前登録と感度分析は記載されるが観察研究。待遇を変える介入の効果や本人の将来を直接予測しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-005-SRC163",
+      "topic_id": "PSY-WRK-005",
+      "source_id": "SRC163",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C056",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "感情労働では、表面的な演技と内面の感情調整で、健康・仕事への態度・成果との関連が異なった。",
+      "conclusion_direction": "association",
+      "limits_ja": "相関と因果を分け、接客者の我慢や自己管理だけに責任を求めない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-006-SRC164",
+      "topic_id": "PSY-WRK-006",
+      "source_id": "SRC164",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C057",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "仕事の工夫を促す介入のメタ分析の書誌。結果と研究の品質をまだ読解していない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-007-SRC165",
+      "topic_id": "PSY-WRK-007",
+      "source_id": "SRC165",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C058",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "172研究で、人と仕事・組織・集団・上司の適合と就職や仕事の態度・成果等の関連を整理。",
+      "conclusion_direction": "association",
+      "limits_ja": "適合の測り方が異なる。性格診断だけで適職を断定したり、相関を採用・転職の処方に使ったりしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-008-SRC099",
+      "topic_id": "PSY-WRK-008",
+      "source_id": "SRC099",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38867040"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-009-SRC166",
+      "topic_id": "PSY-WRK-009",
+      "source_id": "SRC166",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C059",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "会議負荷と日々の幸福を直接扱う研究の書誌。休憩や空気質の研究を代用せず、本論文の方法・結果を次に確認する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-010-SRC055",
+      "topic_id": "PSY-WRK-010",
+      "source_id": "SRC055",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-26121498"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-010-SRC075",
+      "topic_id": "PSY-WRK-010",
+      "source_id": "SRC075",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-34096763"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-011-SRC167",
+      "topic_id": "PSY-WRK-011",
+      "source_id": "SRC167",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C060",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "62研究の検討では、インポスター感の推定頻度は尺度や基準で大きく異なり、当時は治療評価研究がなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "2018年までの検索であり現在の治療研究不存在を意味しない。正式な疾患名として自己診断しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-012-SRC103",
+      "topic_id": "PSY-WRK-012",
+      "source_id": "SRC103",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-26298822"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-013-SRC100",
+      "topic_id": "PSY-WRK-013",
+      "source_id": "SRC100",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-40691306"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-013-SRC103",
+      "topic_id": "PSY-WRK-013",
+      "source_id": "SRC103",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-26298822"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-014-SRC168",
+      "topic_id": "PSY-WRK-014",
+      "source_id": "SRC168",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C061",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "職場の雑談を直接扱う研究の書誌。題名にある気分向上・注意散漫の結果は本文確認前に断定しない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

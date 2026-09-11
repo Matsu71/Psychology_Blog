@@ -1,0 +1,1837 @@
+{
+  "schema_version": "1.0",
+  "cutoff": "2026-09-11",
+  "searches": [
+    {
+      "task_id": "R3-B-PSY-HPS-011",
+      "topic_id": "PSY-HPS-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"medication adherence\" OR TITLE_ABS:\"intentional nonadherence\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22medication+adherence%22+OR+TITLE_ABS%3A%22intentional+nonadherence%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:36.007125+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41689970",
+        "MED:42617321",
+        "MED:42687553",
+        "MED:40186412",
+        "MED:42700349",
+        "MED:42472703",
+        "MED:42573603",
+        "MED:42580975"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-HPS-011",
+      "topic_id": "PSY-HPS-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"medication adherence\" OR TITLE_ABS:\"intentional nonadherence\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22medication+adherence%22+OR+TITLE_ABS%3A%22intentional+nonadherence%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:36.059113+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42226527",
+        "MED:41663870",
+        "MED:41930416",
+        "MED:41886822",
+        "MED:42133217",
+        "MED:41911404",
+        "MED:42469587",
+        "MED:42564514"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-HPS-012",
+      "topic_id": "PSY-HPS-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"absolute relative risk\" OR TITLE_ABS:\"health risk communication\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22absolute+relative+risk%22+OR+TITLE_ABS%3A%22health+risk+communication%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:37.072312+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42058088",
+        "MED:41343312",
+        "MED:42578389",
+        "MED:41365613",
+        "MED:41809090",
+        "MED:42387237",
+        "MED:42447149",
+        "MED:40509804"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-HPS-012",
+      "topic_id": "PSY-HPS-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"absolute relative risk\" OR TITLE_ABS:\"health risk communication\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22absolute+relative+risk%22+OR+TITLE_ABS%3A%22health+risk+communication%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:37.119513+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:37224939",
+        "MED:33565172",
+        "MED:34764167",
+        "MED:27508901",
+        "MED:30118325",
+        "MED:16929039"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-003",
+      "topic_id": "PSY-ENV-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"environmental noise\" OR TITLE_ABS:\"sleep disturbance\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22environmental+noise%22+OR+TITLE_ABS%3A%22sleep+disturbance%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:38.230448+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42694157",
+        "MED:42470505",
+        "MED:42629171",
+        "MED:42578733",
+        "MED:42639432",
+        "MED:42459164",
+        "MED:42521952",
+        "MED:42535777"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-003",
+      "topic_id": "PSY-ENV-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"environmental noise\" OR TITLE_ABS:\"sleep disturbance\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22environmental+noise%22+OR+TITLE_ABS%3A%22sleep+disturbance%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:38.298353+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42595020",
+        "MED:42085091",
+        "MED:42526949",
+        "MED:41553843",
+        "MED:42309189",
+        "MED:41857720",
+        "MED:41500302",
+        "MED:42553631"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-004",
+      "topic_id": "PSY-ENV-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"open plan office\" OR TITLE_ABS:\"privacy distraction\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22open+plan+office%22+OR+TITLE_ABS%3A%22privacy+distraction%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:39.290383+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42132039",
+        "MED:42446341",
+        "MED:39485102",
+        "MED:41627039",
+        "MED:39296048",
+        "MED:42627036",
+        "MED:37306540",
+        "MED:40410683"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-004",
+      "topic_id": "PSY-ENV-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"open plan office\" OR TITLE_ABS:\"privacy distraction\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22open+plan+office%22+OR+TITLE_ABS%3A%22privacy+distraction%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:39.331214+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:35675991",
+        "MED:35938273",
+        "MED:29240739"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-006",
+      "topic_id": "PSY-ENV-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"visual clutter\" OR TITLE_ABS:\"attention environment\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22visual+clutter%22+OR+TITLE_ABS%3A%22attention+environment%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:40.320204+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42479014",
+        "MED:42433478",
+        "MED:42019103",
+        "MED:42301412",
+        "MED:39918271",
+        "MED:41264436",
+        "MED:42383748",
+        "MED:42229505"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-006",
+      "topic_id": "PSY-ENV-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"visual clutter\" OR TITLE_ABS:\"attention environment\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22visual+clutter%22+OR+TITLE_ABS%3A%22attention+environment%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:40.916782+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-007",
+      "topic_id": "PSY-ENV-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"odor evoked autobiographical memory\" OR TITLE_ABS:\"emotion\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22odor+evoked+autobiographical+memory%22+OR+TITLE_ABS%3A%22emotion%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:41.444380+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:35936247",
+        "MED:42716328",
+        "MED:36710781",
+        "MED:42680945",
+        "MED:34491308",
+        "MED:42631617",
+        "MED:42670295",
+        "MED:42578734"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-007",
+      "topic_id": "PSY-ENV-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"odor evoked autobiographical memory\" OR TITLE_ABS:\"emotion\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22odor+evoked+autobiographical+memory%22+OR+TITLE_ABS%3A%22emotion%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:41.560130+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42215453",
+        "MED:42521870",
+        "MED:42157226",
+        "MED:41871665",
+        "MED:42475994",
+        "MED:41946422",
+        "MED:41785109",
+        "MED:42480683"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-010",
+      "topic_id": "PSY-ENV-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"color psychology\" OR TITLE_ABS:\"contextual effects\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22color+psychology%22+OR+TITLE_ABS%3A%22contextual+effects%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:42.518472+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42385678",
+        "MED:42388657",
+        "MED:42014570",
+        "MED:40827008",
+        "MED:42467012",
+        "MED:42150228",
+        "MED:41734011",
+        "MED:42608444"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-010",
+      "topic_id": "PSY-ENV-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"color psychology\" OR TITLE_ABS:\"contextual effects\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22color+psychology%22+OR+TITLE_ABS%3A%22contextual+effects%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:42.552510+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41587898",
+        "MED:39443961",
+        "MED:38687160",
+        "MED:41731503",
+        "MED:38116995",
+        "MED:40803761",
+        "MED:41041444",
+        "MED:34311793"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-011",
+      "topic_id": "PSY-ENV-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"crowding\" OR TITLE_ABS:\"personal space\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22crowding%22+OR+TITLE_ABS%3A%22personal+space%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:44.355087+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42633006",
+        "MED:42568279",
+        "MED:42537437",
+        "MED:42651574",
+        "MED:42462359",
+        "MED:42687306",
+        "MED:42441005",
+        "MED:42552518"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-011",
+      "topic_id": "PSY-ENV-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"crowding\" OR TITLE_ABS:\"personal space\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22crowding%22+OR+TITLE_ABS%3A%22personal+space%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:44.853564+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42204530",
+        "MED:42029940",
+        "MED:41554283",
+        "MED:42114023",
+        "MED:41714943",
+        "MED:40556469",
+        "MED:39360973",
+        "MED:41188801"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-ENV-012",
+      "topic_id": "PSY-ENV-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"natural soundscapes\" OR TITLE_ABS:\"stress recovery\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22natural+soundscapes%22+OR+TITLE_ABS%3A%22stress+recovery%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:45.839744+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41091133",
+        "MED:39602385",
+        "MED:42568383",
+        "MED:42675091",
+        "MED:42083449",
+        "MED:39075109",
+        "MED:42247680",
+        "MED:41661144"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-ENV-012",
+      "topic_id": "PSY-ENV-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"natural soundscapes\" OR TITLE_ABS:\"stress recovery\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22natural+soundscapes%22+OR+TITLE_ABS%3A%22stress+recovery%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:46.208131+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42026257",
+        "MED:38308964",
+        "MED:40634877",
+        "MED:41830413",
+        "MED:35714120",
+        "MED:33753555",
+        "MED:33289307",
+        "MED:37783020"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-003",
+      "topic_id": "PSY-CRE-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"digital switching\" OR TITLE_ABS:\"boredom\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22digital+switching%22+OR+TITLE_ABS%3A%22boredom%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:46.846347+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42656088",
+        "MED:42601638",
+        "MED:42675870",
+        "MED:42619333",
+        "MED:42484060",
+        "MED:42711547",
+        "MED:42664929",
+        "MED:39158465"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-003",
+      "topic_id": "PSY-CRE-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"digital switching\" OR TITLE_ABS:\"boredom\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22digital+switching%22+OR+TITLE_ABS%3A%22boredom%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:47.271144+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41811543",
+        "MED:42287851",
+        "MED:40782625",
+        "MED:42361459",
+        "MED:41849573",
+        "MED:42043680",
+        "MED:41112531",
+        "MED:41422633"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-005",
+      "topic_id": "PSY-CRE-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"incubation\" OR TITLE_ABS:\"creative problem solving\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22incubation%22+OR+TITLE_ABS%3A%22creative+problem+solving%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:47.855955+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42505939",
+        "MED:42407262",
+        "MED:42647960",
+        "MED:41625462",
+        "MED:41947959",
+        "MED:42236577",
+        "MED:41801039",
+        "MED:41659884"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-005",
+      "topic_id": "PSY-CRE-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"incubation\" OR TITLE_ABS:\"creative problem solving\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22incubation%22+OR+TITLE_ABS%3A%22creative+problem+solving%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:48.222693+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41165245",
+        "MED:41850479",
+        "MED:41928489",
+        "MED:42127832",
+        "MED:41239379",
+        "MED:42167636",
+        "MED:41666664",
+        "MED:39814168"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-007",
+      "topic_id": "PSY-CRE-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"music making\" OR TITLE_ABS:\"well being\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22music+making%22+OR+TITLE_ABS%3A%22well+being%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:48.885708+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42007922",
+        "MED:41860276",
+        "MED:42429353",
+        "MED:41855511",
+        "MED:42044524",
+        "MED:42485328",
+        "MED:42421576",
+        "MED:41469997"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-007",
+      "topic_id": "PSY-CRE-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"music making\" OR TITLE_ABS:\"well being\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22music+making%22+OR+TITLE_ABS%3A%22well+being%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:49.174682+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42343444",
+        "MED:42429353",
+        "MED:41914576",
+        "MED:42244942",
+        "MED:42030477",
+        "MED:42447710",
+        "MED:42057043",
+        "MED:42447696"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-008",
+      "topic_id": "PSY-CRE-008",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"adult playfulness\" OR TITLE_ABS:\"play well being\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22adult+playfulness%22+OR+TITLE_ABS%3A%22play+well+being%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:50.384071+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42022421",
+        "MED:42344979",
+        "MED:39912581",
+        "MED:39255359",
+        "MED:39344628",
+        "MED:41753944",
+        "MED:41163664",
+        "MED:40394189"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-008",
+      "topic_id": "PSY-CRE-008",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"adult playfulness\" OR TITLE_ABS:\"play well being\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22adult+playfulness%22+OR+TITLE_ABS%3A%22play+well+being%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:50.437582+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-009",
+      "topic_id": "PSY-CRE-009",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"humor styles\" OR TITLE_ABS:\"coping\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22humor+styles%22+OR+TITLE_ABS%3A%22coping%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:51.064244+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42052067",
+        "MED:41301382",
+        "MED:42643249",
+        "MED:42494565",
+        "MED:42613802",
+        "MED:41267134",
+        "MED:40249982",
+        "MED:42428531"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-009",
+      "topic_id": "PSY-CRE-009",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"humor styles\" OR TITLE_ABS:\"coping\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22humor+styles%22+OR+TITLE_ABS%3A%22coping%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:51.373322+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42658011",
+        "MED:41859264",
+        "MED:41785109",
+        "MED:41983520",
+        "MED:42463572",
+        "MED:42591640",
+        "MED:42447696",
+        "MED:41722144"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-010",
+      "topic_id": "PSY-CRE-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"nostalgia\" OR TITLE_ABS:\"social connectedness\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22nostalgia%22+OR+TITLE_ABS%3A%22social+connectedness%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:52.340629+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:40130943",
+        "MED:42702048",
+        "MED:40088051",
+        "MED:42531749",
+        "MED:42667132",
+        "MED:42663190",
+        "MED:42342997",
+        "MED:42399325"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-010",
+      "topic_id": "PSY-CRE-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"nostalgia\" OR TITLE_ABS:\"social connectedness\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22nostalgia%22+OR+TITLE_ABS%3A%22social+connectedness%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:52.513744+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41926689",
+        "MED:42129700",
+        "MED:42462497",
+        "MED:41619370",
+        "MED:42067496",
+        "MED:42564690",
+        "MED:42372996",
+        "MED:42591142"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-011",
+      "topic_id": "PSY-CRE-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"creative constraints\" OR TITLE_ABS:\"innovation\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22creative+constraints%22+OR+TITLE_ABS%3A%22innovation%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:53.367117+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42691771",
+        "MED:42680097",
+        "MED:42528218",
+        "MED:42666187",
+        "MED:41556296",
+        "MED:42567127",
+        "MED:42374350",
+        "MED:42714419"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-011",
+      "topic_id": "PSY-CRE-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"creative constraints\" OR TITLE_ABS:\"innovation\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22creative+constraints%22+OR+TITLE_ABS%3A%22innovation%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:53.558896+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42508354",
+        "MED:42343480",
+        "MED:42612650",
+        "MED:42332728",
+        "MED:42661595",
+        "MED:42199268",
+        "MED:41572352",
+        "MED:41351113"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-CRE-012",
+      "topic_id": "PSY-CRE-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"brainstorming\" OR TITLE_ABS:\"brainwriting production blocking\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22brainstorming%22+OR+TITLE_ABS%3A%22brainwriting+production+blocking%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:54.519291+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42163241",
+        "MED:42479784",
+        "MED:41667163",
+        "MED:41902326",
+        "MED:42554919",
+        "MED:41194275",
+        "MED:42497579",
+        "MED:42445989"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-CRE-012",
+      "topic_id": "PSY-CRE-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"brainstorming\" OR TITLE_ABS:\"brainwriting production blocking\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22brainstorming%22+OR+TITLE_ABS%3A%22brainwriting+production+blocking%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:54.547230+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:40246326",
+        "MED:39103199",
+        "MED:26173666",
+        "MED:30511593",
+        "MED:14694856"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-003",
+      "topic_id": "PSY-LAN-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"foreign language effect\" OR TITLE_ABS:\"decision bias\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22foreign+language+effect%22+OR+TITLE_ABS%3A%22decision+bias%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:55.358794+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41744414",
+        "MED:41843477",
+        "MED:41438019",
+        "MED:41803490",
+        "MED:40760274",
+        "MED:41771742",
+        "MED:42263365",
+        "MED:41633007"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-003",
+      "topic_id": "PSY-LAN-003",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"foreign language effect\" OR TITLE_ABS:\"decision bias\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22foreign+language+effect%22+OR+TITLE_ABS%3A%22decision+bias%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:55.470318+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42067496",
+        "MED:38530468",
+        "MED:35093765",
+        "MED:33555512"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-004",
+      "topic_id": "PSY-LAN-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"inner speech\" OR TITLE_ABS:\"individual differences\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22inner+speech%22+OR+TITLE_ABS%3A%22individual+differences%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:56.188099+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42667871",
+        "MED:42340689",
+        "MED:42148316",
+        "MED:42431837",
+        "MED:42331125",
+        "MED:41521642",
+        "MED:42441592",
+        "MED:41380643"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-004",
+      "topic_id": "PSY-LAN-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"inner speech\" OR TITLE_ABS:\"individual differences\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22inner+speech%22+OR+TITLE_ABS%3A%22individual+differences%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:56.541999+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42331125",
+        "MED:42423713",
+        "MED:41946420",
+        "MED:42134427",
+        "MED:42025615",
+        "MED:42435864",
+        "MED:41390109",
+        "MED:42069166"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-005",
+      "topic_id": "PSY-LAN-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"gesture learning\" OR TITLE_ABS:\"embodied communication\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22gesture+learning%22+OR+TITLE_ABS%3A%22embodied+communication%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:57.266226+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42675579",
+        "MED:41583616",
+        "MED:38929339",
+        "MED:42427374",
+        "MED:42122576",
+        "MED:41796574",
+        "MED:41262389",
+        "MED:39252392"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-005",
+      "topic_id": "PSY-LAN-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"gesture learning\" OR TITLE_ABS:\"embodied communication\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22gesture+learning%22+OR+TITLE_ABS%3A%22embodied+communication%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:57.644718+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-006",
+      "topic_id": "PSY-LAN-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"accent bias\" OR TITLE_ABS:\"credibility judgments\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22accent+bias%22+OR+TITLE_ABS%3A%22credibility+judgments%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:58.260261+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42592527",
+        "MED:42001848",
+        "MED:41066629",
+        "MED:41897989",
+        "MED:42612008",
+        "MED:41983607",
+        "MED:42189902",
+        "MED:42222675"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-006",
+      "topic_id": "PSY-LAN-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"accent bias\" OR TITLE_ABS:\"credibility judgments\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22accent+bias%22+OR+TITLE_ABS%3A%22credibility+judgments%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:58.318527+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:36326202",
+        "MED:31282696",
+        "MED:28630033"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-007",
+      "topic_id": "PSY-LAN-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"email tone miscommunication\" OR TITLE_ABS:\"perspective taking\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22email+tone+miscommunication%22+OR+TITLE_ABS%3A%22perspective+taking%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:59.121854+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42682489",
+        "MED:42251508",
+        "MED:42594781",
+        "MED:42517800",
+        "MED:42568474",
+        "MED:42664081",
+        "MED:42421740",
+        "MED:42029167"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-007",
+      "topic_id": "PSY-LAN-007",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"email tone miscommunication\" OR TITLE_ABS:\"perspective taking\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22email+tone+miscommunication%22+OR+TITLE_ABS%3A%22perspective+taking%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:01:59.270358+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41421107",
+        "MED:41856950",
+        "MED:42656243",
+        "MED:39786812",
+        "MED:41169909",
+        "MED:39073386",
+        "MED:40304125",
+        "MED:38039916"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-009",
+      "topic_id": "PSY-LAN-009",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"weak ties\" OR TITLE_ABS:\"conversation with strangers\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22weak+ties%22+OR+TITLE_ABS%3A%22conversation+with+strangers%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:00.054415+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42334051",
+        "MED:42372130",
+        "MED:42083879",
+        "MED:40786126",
+        "MED:40765120",
+        "MED:40318421",
+        "MED:39935039",
+        "MED:41298086"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-009",
+      "topic_id": "PSY-LAN-009",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"weak ties\" OR TITLE_ABS:\"conversation with strangers\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22weak+ties%22+OR+TITLE_ABS%3A%22conversation+with+strangers%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:00.228249+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:36652321",
+        "MED:21134295"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-010",
+      "topic_id": "PSY-LAN-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"teach back\" OR TITLE_ABS:\"communication comprehension\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22teach+back%22+OR+TITLE_ABS%3A%22communication+comprehension%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:01.061011+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42706547",
+        "MED:42693371",
+        "MED:42713865",
+        "MED:42415690",
+        "MED:42512609",
+        "MED:42677139",
+        "MED:42422541",
+        "MED:42081684"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-010",
+      "topic_id": "PSY-LAN-010",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"teach back\" OR TITLE_ABS:\"communication comprehension\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22teach+back%22+OR+TITLE_ABS%3A%22communication+comprehension%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:01.592700+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42693371",
+        "MED:39462344",
+        "MED:37010245",
+        "MED:36411152",
+        "MED:30882616",
+        "MED:39876828",
+        "MED:34639741",
+        "MED:32798080"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-011",
+      "topic_id": "PSY-LAN-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"distanced self talk\" OR TITLE_ABS:\"emotion regulation\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22distanced+self+talk%22+OR+TITLE_ABS%3A%22emotion+regulation%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:02.040499+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41198739",
+        "MED:42716328",
+        "MED:42658636",
+        "MED:42559539",
+        "MED:42670295",
+        "MED:42717443",
+        "MED:42568907",
+        "MED:42710007"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-011",
+      "topic_id": "PSY-LAN-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"distanced self talk\" OR TITLE_ABS:\"emotion regulation\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22distanced+self+talk%22+OR+TITLE_ABS%3A%22emotion+regulation%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:02.571365+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42215453",
+        "MED:42564061",
+        "MED:42521870",
+        "MED:42069166",
+        "MED:42475994",
+        "MED:42314507",
+        "MED:42098872",
+        "MED:41946422"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LAN-012",
+      "topic_id": "PSY-LAN-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"narrative persuasion\" OR TITLE_ABS:\"anecdotal evidence\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22narrative+persuasion%22+OR+TITLE_ABS%3A%22anecdotal+evidence%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:02.973211+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42227723",
+        "MED:41312904",
+        "MED:42617505",
+        "MED:42573067",
+        "MED:42490536",
+        "MED:42331401",
+        "MED:42441977",
+        "MED:40354156"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LAN-012",
+      "topic_id": "PSY-LAN-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"narrative persuasion\" OR TITLE_ABS:\"anecdotal evidence\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22narrative+persuasion%22+OR+TITLE_ABS%3A%22anecdotal+evidence%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:03.477669+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42558265",
+        "MED:42257592",
+        "MED:39384411",
+        "MED:39716309",
+        "MED:39884386",
+        "MED:39607678",
+        "MED:41896979",
+        "MED:39965111"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LIF-004",
+      "topic_id": "PSY-LIF-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"residential relocation\" OR TITLE_ABS:\"social networks\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22residential+relocation%22+OR+TITLE_ABS%3A%22social+networks%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:03.927518+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41947571",
+        "MED:42301119",
+        "MED:42096500",
+        "MED:42711612",
+        "MED:41878914",
+        "MED:40626160",
+        "MED:42706292",
+        "MED:42615384"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LIF-004",
+      "topic_id": "PSY-LIF-004",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"residential relocation\" OR TITLE_ABS:\"social networks\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22residential+relocation%22+OR+TITLE_ABS%3A%22social+networks%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:04.719149+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41240390",
+        "MED:41790696",
+        "MED:41958334",
+        "MED:41926689",
+        "MED:40760917",
+        "MED:40918588",
+        "MED:41973776",
+        "MED:42625570"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LIF-005",
+      "topic_id": "PSY-LIF-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"empty nest\" OR TITLE_ABS:\"parental well being\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22empty+nest%22+OR+TITLE_ABS%3A%22parental+well+being%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:05.087585+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41755696",
+        "MED:41675409",
+        "MED:41639649",
+        "MED:41705737",
+        "MED:42352684",
+        "MED:42591317",
+        "MED:42553645",
+        "MED:42666637"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LIF-005",
+      "topic_id": "PSY-LIF-005",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"empty nest\" OR TITLE_ABS:\"parental well being\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22empty+nest%22+OR+TITLE_ABS%3A%22parental+well+being%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:05.754769+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41405185",
+        "MED:42516237",
+        "MED:41533378",
+        "MED:39603255",
+        "MED:40057656",
+        "MED:40257658",
+        "MED:37668850",
+        "MED:31752538"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LIF-006",
+      "topic_id": "PSY-LIF-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"relationship breakup\" OR TITLE_ABS:\"rumination recovery\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22relationship+breakup%22+OR+TITLE_ABS%3A%22rumination+recovery%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:06.346249+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42635791",
+        "MED:40880447",
+        "MED:41854207",
+        "MED:41289337",
+        "MED:39551574",
+        "MED:40071369",
+        "MED:39092184",
+        "MED:37139172"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LIF-006",
+      "topic_id": "PSY-LIF-006",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"relationship breakup\" OR TITLE_ABS:\"rumination recovery\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22relationship+breakup%22+OR+TITLE_ABS%3A%22rumination+recovery%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:06.694381+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LIF-011",
+      "topic_id": "PSY-LIF-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"goal adjustment\" OR TITLE_ABS:\"chronic illness adaptation\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22goal+adjustment%22+OR+TITLE_ABS%3A%22chronic+illness+adaptation%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:07.278520+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41570562",
+        "MED:41685277",
+        "MED:42494167",
+        "MED:41613256",
+        "MED:42488070",
+        "MED:41233533",
+        "MED:42516779",
+        "MED:41601140"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LIF-011",
+      "topic_id": "PSY-LIF-011",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"goal adjustment\" OR TITLE_ABS:\"chronic illness adaptation\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22goal+adjustment%22+OR+TITLE_ABS%3A%22chronic+illness+adaptation%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:07.454166+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:41233533",
+        "MED:31131441",
+        "MED:26872741"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-B-PSY-LIF-012",
+      "topic_id": "PSY-LIF-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"belonging uncertainty\" OR TITLE_ABS:\"social transition\") AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22belonging+uncertainty%22+OR+TITLE_ABS%3A%22social+transition%22%29+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:08.352493+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:42620611",
+        "MED:42033654",
+        "MED:41552004",
+        "MED:41761695",
+        "MED:41940484",
+        "MED:41756502",
+        "MED:41736599",
+        "MED:42591276"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-R-PSY-LIF-012",
+      "topic_id": "PSY-LIF-012",
+      "provider": "europepmc",
+      "query": "(TITLE_ABS:\"belonging uncertainty\" OR TITLE_ABS:\"social transition\") AND SRC:MED AND (PUB_TYPE:\"Meta-Analysis\" OR PUB_TYPE:\"Systematic Review\")",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22belonging+uncertainty%22+OR+TITLE_ABS%3A%22social+transition%22%29+AND+SRC%3AMED+AND+%28PUB_TYPE%3A%22Meta-Analysis%22+OR+PUB_TYPE%3A%22Systematic+Review%22%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=8",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:08.375264+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "MED:38594055",
+        "MED:35805599",
+        "MED:22223712"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-001",
+      "topic_id": "PSY-SLP-010",
+      "provider": "crossref",
+      "query": "Consumer Sleep Technology An American Academy of Sleep Medicine Position Statement",
+      "api_url": "https://api.crossref.org/works?query.title=Consumer+Sleep+Technology+An+American+Academy+of+Sleep+Medicine+Position+Statement&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:09.557651+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.5664/jcsm.7128",
+        "DOI:10.5664/jcsm.8288",
+        "DOI:10.5664/jcsm.11832"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-002",
+      "topic_id": "PSY-SLP-010",
+      "provider": "crossref",
+      "query": "Performance of seven consumer sleep tracking devices compared with polysomnography",
+      "api_url": "https://api.crossref.org/works?query.title=Performance+of+seven+consumer+sleep+tracking+devices+compared+with+polysomnography&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:09.951594+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1093/sleep/zsaa291",
+        "DOI:10.5664/jcsm.11460",
+        "DOI:10.1093/sleepadvances/zpaf021"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-003",
+      "topic_id": "PSY-SLP-004",
+      "provider": "crossref",
+      "query": "The effect of caffeine on subsequent sleep A systematic review and meta-analysis",
+      "api_url": "https://api.crossref.org/works?query.title=The+effect+of+caffeine+on+subsequent+sleep+A+systematic+review+and+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:10.452241+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.smrv.2023.101764",
+        "DOI:10.1016/j.smrv.2024.102030",
+        "DOI:10.3233/jad-2010-091387"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-004",
+      "topic_id": "PSY-EXE-005",
+      "provider": "crossref",
+      "query": "Effects of Evening Exercise on Sleep in Healthy Participants",
+      "api_url": "https://api.crossref.org/works?query.title=Effects+of+Evening+Exercise+on+Sleep+in+Healthy+Participants&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:10.498125+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1007/s40279-018-1015-0",
+        "DOI:10.1016/j.smrv.2021.101535",
+        "DOI:10.1080/17461391.2019.1611934"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-005",
+      "topic_id": "PSY-GEN-007",
+      "provider": "crossref",
+      "query": "Clinical use of current polygenic risk scores may exacerbate health disparities",
+      "api_url": "https://api.crossref.org/works?query.title=Clinical+use+of+current+polygenic+risk+scores+may+exacerbate+health+disparities&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:10.998113+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1038/s41588-019-0379-x",
+        "DOI:10.1038/s41588-021-00797-z",
+        "DOI:10.3410/f.735412067.793562999"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-006",
+      "topic_id": "PSY-GEN-009",
+      "provider": "crossref",
+      "query": "Intergenerational transmission of trauma effects putative role of epigenetic mechanisms",
+      "api_url": "https://api.crossref.org/works?query.title=Intergenerational+transmission+of+trauma+effects+putative+role+of+epigenetic+mechanisms&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:11.667709+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1002/wps.20568",
+        "DOI:10.3410/f.733993761.793578528",
+        "DOI:10.30773/pi.2019.05.01"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-007",
+      "topic_id": "PSY-GEN-010",
+      "provider": "crossref",
+      "query": "The relationship between temperament and personality",
+      "api_url": "https://api.crossref.org/works?query.title=The+relationship+between+temperament+and+personality&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:12.170882+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/e711662007-001",
+        "DOI:10.1016/0191-8869(86)90086-3",
+        "DOI:10.5455/apd.164248"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-008",
+      "topic_id": "PSY-ADD-009",
+      "provider": "crossref",
+      "query": "Gambling near-misses enhance motivation to gamble and recruit win-related brain circuitry",
+      "api_url": "https://api.crossref.org/works?query.title=Gambling+near-misses+enhance+motivation+to+gamble+and+recruit+win-related+brain+circuitry&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:12.448714+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.neuron.2008.12.031",
+        "DOI:10.1038/sj.npp.1300333",
+        "DOI:10.1016/j.neulet.2011.01.059"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-009",
+      "topic_id": "PSY-ADD-010",
+      "provider": "crossref",
+      "query": "Problematic smartphone use A conceptual overview and systematic review",
+      "api_url": "https://api.crossref.org/works?query.title=Problematic+smartphone+use+A+conceptual+overview+and+systematic+review&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:12.563241+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.jad.2016.08.030",
+        "DOI:10.1007/s40429-021-00398-0",
+        "DOI:10.3389/fpsyg.2020.00672"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-010",
+      "topic_id": "PSY-HAB-008",
+      "provider": "crossref",
+      "query": "Personal financial incentives for changing habitual health-related behaviors",
+      "api_url": "https://api.crossref.org/works?query.title=Personal+financial+incentives+for+changing+habitual+health-related+behaviors&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:13.406895+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.ypmed.2015.03.001",
+        "DOI:10.1186/s12889-019-7407-8",
+        "DOI:10.5038/1936-4660.17.2.1449"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-011",
+      "topic_id": "PSY-HAB-009",
+      "provider": "crossref",
+      "query": "Habit discontinuity and behaviour change",
+      "api_url": "https://api.crossref.org/works?query.title=Habit+discontinuity+and+behaviour+change&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:13.895988+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.trf.2019.04.022",
+        "DOI:10.1016/j.jenvp.2007.10.005",
+        "DOI:10.1007/978-3-319-45920-2_3"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-012",
+      "topic_id": "PSY-HAB-010",
+      "provider": "crossref",
+      "query": "Commitment devices in health systematic review",
+      "api_url": "https://api.crossref.org/works?query.title=Commitment+devices+in+health+systematic+review&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:14.123348+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.4018/978-1-7998-2731-3.ch003",
+        "DOI:10.2196/18907",
+        "DOI:10.2196/preprints.18907"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-013",
+      "topic_id": "PSY-HAB-005",
+      "provider": "crossref",
+      "query": "Implementation intentions and goal achievement A meta-analysis of effects and processes",
+      "api_url": "https://api.crossref.org/works?query.title=Implementation+intentions+and+goal+achievement+A+meta-analysis+of+effects+and+processes&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:14.451863+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/s0065-2601(06)38002-1",
+        "DOI:10.3724/sp.j.1042.2013.00282",
+        "DOI:10.3389/fpsyg.2021.565202"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-014",
+      "topic_id": "PSY-PER-003",
+      "provider": "crossref",
+      "query": "Randomized trial of a week-long extraverted behavior intervention",
+      "api_url": "https://api.crossref.org/works?query.title=Randomized+trial+of+a+week-long+extraverted+behavior+intervention&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:14.789295+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.bbi.2026.106299",
+        "DOI:10.1037/xge0000516",
+        "DOI:10.31234/osf.io/8ze6w"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-015",
+      "topic_id": "PSY-PER-007",
+      "provider": "crossref",
+      "query": "Whole Trait Theory",
+      "api_url": "https://api.crossref.org/works?query.title=Whole+Trait+Theory&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:16.348182+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.jrp.2014.10.009",
+        "DOI:10.1002/9781118970843.ch70",
+        "DOI:10.1002/9781119547143.ch70"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-016",
+      "topic_id": "PSY-PER-008",
+      "provider": "crossref",
+      "query": "The fallacy of personal validation A classroom demonstration of gullibility",
+      "api_url": "https://api.crossref.org/works?query.title=The+fallacy+of+personal+validation+A+classroom+demonstration+of+gullibility&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:16.911577+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/h0059240",
+        "DOI:10.1002/1097-4679(197201)28:1<47::aid-jclp2270280116>3.0.co;2-k",
+        "DOI:10.1037/e581482009-006"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-017",
+      "topic_id": "PSY-PER-009",
+      "provider": "crossref",
+      "query": "Sensory Processing Sensitivity in the context of Environmental Sensitivity",
+      "api_url": "https://api.crossref.org/works?query.title=Sensory+Processing+Sensitivity+in+the+context+of+Environmental+Sensitivity&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:18.786244+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.54097/ehss.v8i.4649",
+        "DOI:10.5937/psistra0-48157",
+        "DOI:10.1177/0031512516666114"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-018",
+      "topic_id": "PSY-MOT-007",
+      "provider": "crossref",
+      "query": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+      "api_url": "https://api.crossref.org/works?query.title=A+meta-analytic+review+of+experiments+examining+the+effects+of+extrinsic+rewards+on+intrinsic+motivation&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:20.147727+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/0033-2909.125.6.627",
+        "DOI:10.1111/j.2044-8325.1992.tb00488.x",
+        "DOI:10.2139/ssrn.3787811"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-019",
+      "topic_id": "PSY-MOT-010",
+      "provider": "crossref",
+      "query": "The fresh start effect Temporal landmarks motivate aspirational behavior",
+      "api_url": "https://api.crossref.org/works?query.title=The+fresh+start+effect+Temporal+landmarks+motivate+aspirational+behavior&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:20.338532+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/e578192014-307",
+        "DOI:10.1287/mnsc.2014.1901",
+        "DOI:10.1037/e513702014-058"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-020",
+      "topic_id": "PSY-ATT-003",
+      "provider": "crossref",
+      "query": "Why is it so hard to do my work The challenge of attention residue when switching between work tasks",
+      "api_url": "https://api.crossref.org/works?query.title=Why+is+it+so+hard+to+do+my+work+The+challenge+of+attention+residue+when+switching+between+work+tasks&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:20.657888+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.obhdp.2009.04.002",
+        "DOI:10.1111/j.1070-3535.2005.00396.x",
+        "DOI:10.1177/009770048501100203"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-021",
+      "topic_id": "PSY-ATT-005",
+      "provider": "crossref",
+      "query": "The impact of background music on adult listeners A meta-analysis",
+      "api_url": "https://api.crossref.org/works?query.title=The+impact+of+background+music+on+adult+listeners+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:21.852383+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1177/0305735610376261",
+        "DOI:10.5014/ajot.47.3.268a",
+        "DOI:10.30535/mto.21.3.7"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-022",
+      "topic_id": "PSY-ATT-009",
+      "provider": "crossref",
+      "query": "The flow experience and its significance for human psychology",
+      "api_url": "https://api.crossref.org/works?query.title=The+flow+experience+and+its+significance+for+human+psychology&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "failed",
+      "searched_at_utc": "2026-09-11T01:02:22.190022+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "task_id": "R3-C-023",
+      "topic_id": "PSY-DEC-002",
+      "provider": "crossref",
+      "query": "Many Labs 2 Investigating variation in replicability across sample and setting",
+      "api_url": "https://api.crossref.org/works?query.title=Many+Labs+2+Investigating+variation+in+replicability+across+sample+and+setting&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:23.602589+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.31234/osf.io/9654g",
+        "DOI:10.31234/osf.io/9654g_v1",
+        "DOI:10.1177/2515245918810225"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-024",
+      "topic_id": "PSY-DEC-003",
+      "provider": "crossref",
+      "query": "A meta-analysis of loss aversion in risky contexts",
+      "api_url": "https://api.crossref.org/works?query.title=A+meta-analysis+of+loss+aversion+in+risky+contexts&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:24.238573+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.2139/ssrn.3189088",
+        "DOI:10.1016/j.joep.2024.102740",
+        "DOI:10.1016/j.frl.2022.102985"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-025",
+      "topic_id": "PSY-DEC-004",
+      "provider": "crossref",
+      "query": "A meta-analysis on the sunk cost effect",
+      "api_url": "https://api.crossref.org/works?query.title=A+meta-analysis+on+the+sunk+cost+effect&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:25.040644+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.2139/ssrn.3391018",
+        "DOI:10.58225/tim.2025-4-105-110",
+        "DOI:10.1257/rct.4083-2.0"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-026",
+      "topic_id": "PSY-DEC-005",
+      "provider": "crossref",
+      "query": "The risky-choice framing effect and its moderators A meta-analysis",
+      "api_url": "https://api.crossref.org/works?query.title=The+risky-choice+framing+effect+and+its+moderators+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:25.485415+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/a0039447",
+        "DOI:10.1080/13669877.2021.1936611",
+        "DOI:10.1037/e537102012-429"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-027",
+      "topic_id": "PSY-DEC-006",
+      "provider": "crossref",
+      "query": "Can there ever be too many options A meta-analytic review of choice overload",
+      "api_url": "https://api.crossref.org/works?query.title=Can+there+ever+be+too+many+options+A+meta-analytic+review+of+choice+overload&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:25.921085+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1086/651235",
+        "DOI:10.1037/e636742011-025",
+        "DOI:10.1136/dtb.2016.2.0379"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-028",
+      "topic_id": "PSY-DEC-009",
+      "provider": "crossref",
+      "query": "The Dunning-Kruger effect is mostly a statistical artefact",
+      "api_url": "https://api.crossref.org/works?query.title=The+Dunning-Kruger+effect+is+mostly+a+statistical+artefact&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:30.547358+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1016/j.intell.2020.101449",
+        "DOI:10.1007/978-981-16-0143-9_20",
+        "DOI:10.1016/j.wneu.2022.02.046"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-029",
+      "topic_id": "PSY-DEC-010",
+      "provider": "crossref",
+      "query": "When and why defaults influence decisions A meta-analysis of default effects",
+      "api_url": "https://api.crossref.org/works?query.title=When+and+why+defaults+influence+decisions+A+meta-analysis+of+default+effects&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:31.457765+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1017/bpp.2018.43",
+        "DOI:10.1521/soco.2021.39.5.543",
+        "DOI:10.1093/rfs/14.2.555"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-030",
+      "topic_id": "PSY-REL-010",
+      "provider": "crossref",
+      "query": "Perspective mistaking Accurately understanding the mind of another requires getting perspective not taking perspective",
+      "api_url": "https://api.crossref.org/works?query.title=Perspective+mistaking+Accurately+understanding+the+mind+of+another+requires+getting+perspective+not+taking+perspective&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "failed",
+      "searched_at_utc": "2026-09-11T01:02:31.471134+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [],
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "task_id": "R3-C-031",
+      "topic_id": "PSY-REL-009",
+      "provider": "crossref",
+      "query": "The effectiveness of apologies in repairing trust A meta-analysis",
+      "api_url": "https://api.crossref.org/works?query.title=The+effectiveness+of+apologies+in+repairing+trust+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:32.086733+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.5465/amproc.2025.12274abstract",
+        "DOI:10.5334/irsp.479",
+        "DOI:10.2139/ssrn.3812179"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-032",
+      "topic_id": "PSY-SOC-001",
+      "provider": "crossref",
+      "query": "The constructive destructive and reconstructive power of social norms",
+      "api_url": "https://api.crossref.org/works?query.title=The+constructive+destructive+and+reconstructive+power+of+social+norms&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:32.789299+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1111/j.1467-9280.2007.01917.x",
+        "DOI:10.1177/1745691617693325",
+        "DOI:10.31234/osf.io/rsbmz"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-033",
+      "topic_id": "PSY-SOC-005",
+      "provider": "crossref",
+      "query": "The actor-observer asymmetry in attribution A surprising meta-analysis",
+      "api_url": "https://api.crossref.org/works?query.title=The+actor-observer+asymmetry+in+attribution+A+surprising+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:33.576143+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/0033-2909.132.6.895",
+        "DOI:10.1037/0033-2909.132.6.895.supp",
+        "DOI:10.1016/j.neuropsychologia.2019.107281"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-034",
+      "topic_id": "PSY-SOC-006",
+      "provider": "crossref",
+      "query": "The spotlight effect in social judgment An egocentric bias in estimates of the salience of one's own actions and appearance",
+      "api_url": "https://api.crossref.org/works?query.title=The+spotlight+effect+in+social+judgment+An+egocentric+bias+in+estimates+of+the+salience+of+one%27s+own+actions+and+appearance&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:34.211113+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/0022-3514.78.2.211",
+        "DOI:10.1080/00224545.1983.9924463",
+        "DOI:10.1037/0022-3514.71.2.213"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-035",
+      "topic_id": "PSY-SOC-007",
+      "provider": "crossref",
+      "query": "A re-examination of the mere exposure effect The influence of repeated exposure on recognition familiarity and liking",
+      "api_url": "https://api.crossref.org/works?query.title=A+re-examination+of+the+mere+exposure+effect+The+influence+of+repeated+exposure+on+recognition+familiarity+and+liking&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:35.557081+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1037/bul0000085",
+        "DOI:10.1037/bul0000085.supp",
+        "DOI:10.4324/9781410609274-17"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-036",
+      "topic_id": "PSY-SOC-008",
+      "provider": "crossref",
+      "query": "A meta-analytical review of research on psychological reactance in health communication",
+      "api_url": "https://api.crossref.org/works?query.title=A+meta-analytical+review+of+research+on+psychological+reactance+in+health+communication&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:35.952353+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.3389/fcomm.2019.00056",
+        "DOI:10.1111/j.1468-2958.2012.01443.x",
+        "DOI:10.1093/hcr/hqaf016"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-037",
+      "topic_id": "PSY-SOC-009",
+      "provider": "crossref",
+      "query": "Psychological safety A meta-analytic review and extension",
+      "api_url": "https://api.crossref.org/works?query.title=Psychological+safety+A+meta-analytic+review+and+extension&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:38.031679+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1111/peps.12183",
+        "DOI:10.1016/j.jcbs.2017.11.002",
+        "DOI:10.3109/03005369909090101"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-C-038",
+      "topic_id": "PSY-WEL-003",
+      "provider": "crossref",
+      "query": "Beyond the hedonic treadmill Revising the adaptation theory of well-being",
+      "api_url": "https://api.crossref.org/works?query.title=Beyond+the+hedonic+treadmill+Revising+the+adaptation+theory+of+well-being&rows=3&filter=until-pub-date%3A2026-09-11",
+      "status": "completed",
+      "searched_at_utc": "2026-09-11T01:02:39.236983+00:00",
+      "collection_run_id": 34548795256,
+      "candidate_ids": [
+        "DOI:10.1007/978-90-481-2350-6_5",
+        "DOI:10.1037/0003-066x.61.4.305",
+        "DOI:10.1037/0003-066x62.6.611"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "category_id": "personality",
+  "edges": [
+    {
+      "id": "EV-PSY-PER-001-SRC036",
+      "topic_id": "PSY-PER-001",
+      "source_id": "SRC036",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-25961374"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-001-SRC077",
+      "topic_id": "PSY-PER-001",
+      "source_id": "SRC077",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-32719123"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-002-SRC046",
+      "topic_id": "PSY-PER-002",
+      "source_id": "SRC046",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-28054797"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-002-SRC047",
+      "topic_id": "PSY-PER-002",
+      "source_id": "SRC047",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33558417"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-003-SRC125",
+      "topic_id": "PSY-PER-003",
+      "source_id": "SRC125",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C018",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "1週間の外向的行動介入では平均的な便益があったが、内向性の高い参加者では疲れや否定的感情など負担も見られた。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "全員に外向的行動を増やす助言にしない。短期・自己報告を含み、追加の比較群は別研究由来。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-004-SRC046",
+      "topic_id": "PSY-PER-004",
+      "source_id": "SRC046",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-28054797"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-005-SRC099",
+      "topic_id": "PSY-PER-005",
+      "source_id": "SRC099",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38867040"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-006-SRC037",
+      "topic_id": "PSY-PER-006",
+      "source_id": "SRC037",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-40146588"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-006-SRC047",
+      "topic_id": "PSY-PER-006",
+      "source_id": "SRC047",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33558417"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-007-SRC126",
+      "topic_id": "PSY-PER-007",
+      "source_id": "SRC126",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C019",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "性格特性を、場面ごとに変動する状態の分布と説明機序として捉える理論を提示。",
+      "conclusion_direction": "context",
+      "limits_ja": "理論の提案であり、特定の生活介入や診断の有効性を検証した研究ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-008-SRC127",
+      "topic_id": "PSY-PER-008",
+      "source_id": "SRC127",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C020",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "個人的な妥当性判断を扱う古典の書誌。今回、原文の実験方法や結果は未確認。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-008-SRC214",
+      "topic_id": "PSY-PER-008",
+      "source_id": "SRC214",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S115",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "ランダムな性格プロフィールでも、本人の実際の傾向から大きく外れた説明は拒否される場合を示した。",
+      "conclusion_direction": "challenges",
+      "limits_ja": "古典の一般的説明とは課題・数値プロフィールが違う。バーナム効果全体の有無を一論文で決めない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-010-SRC105",
+      "topic_id": "PSY-PER-010",
+      "source_id": "SRC105",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-37362192"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-010-SRC106",
+      "topic_id": "PSY-PER-010",
+      "source_id": "SRC106",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-37554304"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

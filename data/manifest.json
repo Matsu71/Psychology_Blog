@@ -8,9 +8,9 @@
   "phase": "topic_discovery_and_preliminary_evidence_mapping",
   "category_count": 28,
   "topic_count": 300,
-  "source_count": 106,
-  "reference_linked_count": 169,
-  "search_pending_count": 131,
+  "source_count": 230,
+  "reference_linked_count": 271,
+  "search_pending_count": 29,
   "topic_defaults": {
     "record_status": "theme_candidate",
     "evidence_appraisal": "not_assessed",
@@ -36,7 +36,12 @@
     "coverage": "data/research/coverage.json",
     "candidate_records": "data/literature/candidates.json",
     "search_log": "data/literature/search_log.json",
-    "topic_relations": "data/topic_relations.json"
+    "topic_relations": "data/topic_relations.json",
+    "source_reviews": "data/research/source_reviews.json",
+    "source_assessments": "data/source_assessments.json",
+    "evidence_catalog": "data/evidence/catalog.json",
+    "literature_catalog": "data/literature/catalog.json",
+    "rankings": "data/rankings/"
   },
   "initial_shortlist": [
     "PSY-SLP-001",
@@ -53,18 +58,19 @@
     "PSY-LEA-001"
   ],
   "coverage_notes_ja": [
-    "重要論文68件は抄録中心の予備読解で、全テーマの正式なエビデンス評価ではない。",
-    "候補件数はデータベースのレコード数。プレプリントと刊行版など同一研究の別版を含み得る。",
-    "既存200テーマは概念検索済み。新規100テーマすべての個別検索は未実施。",
-    "Europe PMC中心の検索には収載分野の偏りがある。各検索の上位5件であり網羅的検索ではない。",
-    "検索の成功は関連文献が存在することや十分な根拠を得たことを意味しない。",
-    "索引上の訂正・関連論文は確認したが、全文・全追試・撤回情報の網羅的精査は未実施。",
-    "生活例は説明用の想定場面であり、実在人物の事例やその方法を直接検証した結果ではない。"
+    "資料の登録は確実性や公開準備完了を意味しない。書誌のみ・背景資料を含む。",
+    "旧68件の読解メモと今回のsource_reviewsは別管理。本文指定箇所の確認は正式なバイアス評価ではない。",
+    "候補数はデータベースのレコード数。同一研究の別版やDOIとPMIDの重複を含み得る。",
+    "探索検索であり系統的レビューではない。出典未登録テーマを無関係な資料で埋めない。",
+    "今回の510検索は507成功・3失敗。0件も研究不存在の証明ではない。",
+    "編集ランキングは50テーマの仮説的評価。閲覧数・検索数・市場調査は用いていない。",
+    "出典の点数は調査の優先順。正しさの確率、GRADE、AMSTAR 2の合計点ではない。"
   ],
   "research_snapshot": "2026-09-11-expanded-300",
   "updated_on": "2026-09-11",
   "research_brief_count": 68,
   "brief_linked_topic_count": 139,
-  "candidate_record_count": 1105,
-  "search_request_count": 300
+  "candidate_record_count": 3018,
+  "search_request_count": 810,
+  "research_round": "round3-ranked-evidence-v1"
 }

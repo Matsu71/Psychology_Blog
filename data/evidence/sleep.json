@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "category_id": "sleep",
+  "edges": [
+    {
+      "id": "EV-PSY-SLP-001-SRC001",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC001",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC042",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC042",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-12683469"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC071",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC071",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-31102877"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC072",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC072",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-35129580"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC100",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC100",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-40691306"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-001-SRC101",
+      "topic_id": "PSY-SLP-001",
+      "source_id": "SRC101",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-30827911"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-002-SRC003",
+      "topic_id": "PSY-SLP-002",
+      "source_id": "SRC003",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-002-SRC041",
+      "topic_id": "PSY-SLP-002",
+      "source_id": "SRC041",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "anchor_question_checked",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-35298459"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-003-SRC003",
+      "topic_id": "PSY-SLP-003",
+      "source_id": "SRC003",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-003-SRC041",
+      "topic_id": "PSY-SLP-003",
+      "source_id": "SRC041",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-35298459"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-004-SRC002",
+      "topic_id": "PSY-SLP-004",
+      "source_id": "SRC002",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-004-SRC003",
+      "topic_id": "PSY-SLP-004",
+      "source_id": "SRC003",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-004-SRC038",
+      "topic_id": "PSY-SLP-004",
+      "source_id": "SRC038",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "anchor_question_checked",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-39377163"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-004-SRC111",
+      "topic_id": "PSY-SLP-004",
+      "source_id": "SRC111",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C004",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "24研究を統合し、カフェインによる睡眠時間・効率・入眠などへの影響を報告した。",
+      "conclusion_direction": "supports",
+      "limits_ja": "摂取をやめる時刻の推定は統合モデルに基づく。8.8時間などの数字を万人に共通する安全な締切にしない。追加量・習慣・対象者の差を単回試験と比較する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-005-SRC002",
+      "topic_id": "PSY-SLP-005",
+      "source_id": "SRC002",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-005-SRC112",
+      "topic_id": "PSY-SLP-005",
+      "source_id": "SRC112",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C005",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "27研究でアルコールとREM睡眠の減少などを検討。寝つきへの作用と、その後の睡眠構造への作用は同一でない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "総睡眠時間や睡眠効率などには大きな不確実性がある。寝酒を勧めず、量や時刻を個人への処方にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-006-SRC002",
+      "topic_id": "PSY-SLP-006",
+      "source_id": "SRC002",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-007-SRC042",
+      "topic_id": "PSY-SLP-007",
+      "source_id": "SRC042",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-12683469"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-007-SRC101",
+      "topic_id": "PSY-SLP-007",
+      "source_id": "SRC101",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-30827911"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-008-SRC002",
+      "topic_id": "PSY-SLP-008",
+      "source_id": "SRC002",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-008-SRC040",
+      "topic_id": "PSY-SLP-008",
+      "source_id": "SRC040",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "anchor_question_checked",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33164742"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-008-SRC071",
+      "topic_id": "PSY-SLP-008",
+      "source_id": "SRC071",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-31102877"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-008-SRC095",
+      "topic_id": "PSY-SLP-008",
+      "source_id": "SRC095",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38642901"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-009-SRC010",
+      "topic_id": "PSY-SLP-009",
+      "source_id": "SRC010",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-010-SRC107",
+      "topic_id": "PSY-SLP-010",
+      "source_id": "SRC107",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C000",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "睡眠機器を臨床評価の補助として扱う考え方と、診断への安易な転用の問題を整理した立場表明。",
+      "conclusion_direction": "context",
+      "limits_ja": "2018年時点の米国の声明。現在の全製品の承認状況や精度を示すものではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-010-SRC108",
+      "topic_id": "PSY-SLP-010",
+      "source_id": "SRC108",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C001",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "健康な若年成人34人・3夜の検証。睡眠を検出する感度は高い一方、覚醒や睡眠段階の判定に限界があった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "特定の旧世代機器と実験室の結果。現在の同ブランドの全製品にそのまま適用しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-010-SRC109",
+      "topic_id": "PSY-SLP-010",
+      "source_id": "SRC109",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C002",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "24研究・798人を統合。機器と睡眠ポリグラフの間に複数の睡眠指標で差が見られた。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "機器・対象・研究条件が異なる。平均差が小さくても個人の測定誤差が小さいとは限らない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-010-SRC110",
+      "topic_id": "PSY-SLP-010",
+      "source_id": "SRC110",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C003",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "62人・1夜の検証。睡眠の検出に比べ覚醒の識別が難しく、段階判定の一致度は機器間で異なった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "男性が多い限定標本で、1夜の結果。製品の世代とアルゴリズム更新を区別する。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "category_id": "life_transitions",
+  "edges": [
+    {
+      "id": "EV-PSY-LIF-001-SRC086",
+      "topic_id": "PSY-LIF-001",
+      "source_id": "SRC086",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-14736317"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-001-SRC089",
+      "topic_id": "PSY-LIF-001",
+      "source_id": "SRC089",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-27276373"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-002-SRC088",
+      "topic_id": "PSY-LIF-002",
+      "source_id": "SRC088",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24121465"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-003-SRC090",
+      "topic_id": "PSY-LIF-003",
+      "source_id": "SRC090",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-19897238"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-006-SRC205",
+      "topic_id": "PSY-LIF-006",
+      "source_id": "SRC205",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C098",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "別れの後の87人を追い、症状の推移に複数のパターンがあり、反すう等との関連を報告。",
+      "conclusion_direction": "association",
+      "limits_ja": "データから分類した小標本の軌跡。回復の期限や本人の責任を示さない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-006-SRC206",
+      "topic_id": "PSY-LIF-006",
+      "source_id": "SRC206",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C099",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "別れを経験した若年成人で、症状の上昇と回復、出来事の受け止め方による違いを検討。",
+      "conclusion_direction": "association",
+      "limits_ja": "平均で戻った時期を、全員が立ち直る期限にしない。別研究の軌跡と比較して個人差を残す。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-007-SRC089",
+      "topic_id": "PSY-LIF-007",
+      "source_id": "SRC089",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-27276373"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-008-SRC056",
+      "topic_id": "PSY-LIF-008",
+      "source_id": "SRC056",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-22582737"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-009-SRC086",
+      "topic_id": "PSY-LIF-009",
+      "source_id": "SRC086",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-14736317"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-010-SRC064",
+      "topic_id": "PSY-LIF-010",
+      "source_id": "SRC064",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-25910392"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-010-SRC087",
+      "topic_id": "PSY-LIF-010",
+      "source_id": "SRC087",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-20716644"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-011-SRC207",
+      "topic_id": "PSY-LIF-011",
+      "source_id": "SRC207",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C100",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "達成困難な目標から離れることと、別の目標に再関与することの両面が幸福と関連する場合を報告。",
+      "conclusion_direction": "association",
+      "limits_ja": "病気の本人への治療試験ではなく、医療・リハビリの中止を勧めるものではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-012-SRC208",
+      "topic_id": "PSY-LIF-012",
+      "source_id": "SRC208",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C101",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "大学での所属感を支える短い介入について、学業や健康に関する結果を検討。",
+      "conclusion_direction": "supports",
+      "limits_ja": "特定の大学生集団の試験。日本の転職や全集団への一般化、実際の差別の否定には使わない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

@@ -13,9 +13,13 @@
       "search_query": "social media use well being longitudinal randomized meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC012"
+        "SRC012",
+        "SRC160"
       ],
-      "caution_ja": "2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。"
+      "caution_ja": "2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。",
+      "source_review_ids": [
+        "R3-C053"
+      ]
     },
     {
       "id": "PSY-DIG-002",
@@ -53,8 +57,17 @@
       "angle_ja": "完全停止、時間制限、使い方の変更を比較する。",
       "search_query": "digital detox social media abstinence reduction randomized systematic review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "短期の利用制限を長期の解決策とせず、失われる支援や交流も評価する。"
+      "source_ids": [
+        "SRC158",
+        "SRC159",
+        "SRC160"
+      ],
+      "caution_ja": "短期の利用制限を長期の解決策とせず、失われる支援や交流も評価する。",
+      "source_review_ids": [
+        "R3-C051",
+        "R3-C052",
+        "R3-C053"
+      ]
     },
     {
       "id": "PSY-DIG-005",
@@ -66,8 +79,13 @@
       "angle_ja": "取り残される感覚、通知確認、孤独の関係を研究する。",
       "search_query": "fear of missing out FOMO smartphone longitudinal meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "尺度の相関を一方向の原因とせず、診断ラベルとして使わない。"
+      "source_ids": [
+        "SRC161"
+      ],
+      "caution_ja": "尺度の相関を一方向の原因とせず、診断ラベルとして使わない。",
+      "source_review_ids": [
+        "R3-C054"
+      ]
     },
     {
       "id": "PSY-DIG-006",
@@ -81,11 +99,15 @@
       "search_query": "infinite scroll autoplay stopping cues user behavior experiment",
       "priority": 1,
       "source_ids": [
-        "SRC055"
+        "SRC055",
+        "SRC193"
       ],
       "caution_ja": "依存を強める設計の実装指南にせず、利用者保護の視点にする。",
       "research_brief_ids": [
         "RB-26121498"
+      ],
+      "source_review_ids": [
+        "R3-C086"
       ]
     },
     {

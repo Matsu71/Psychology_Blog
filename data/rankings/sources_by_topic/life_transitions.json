@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "life_transitions",
+  "topics": [
+    {
+      "topic_id": "PSY-LIF-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-001-SRC086",
+          "source_id": "SRC086",
+          "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LIF-001-SRC089",
+          "source_id": "SRC089",
+          "title": "Optimizing Treatment of Complicated Grief: A Randomized Clinical Trial.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-002-SRC088",
+          "source_id": "SRC088",
+          "title": "The relationship between personal unsecured debt and mental and physical health: a systematic review and meta-analysis.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-003-SRC090",
+          "source_id": "SRC090",
+          "title": "Self-rated health before and after retirement in France (GAZEL): a cohort study.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-004",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-LIF-005",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-LIF-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-006-SRC205",
+          "source_id": "SRC205",
+          "title": "Depressive symptom trajectory following romantic relationship breakup and effects of rumination, neuroticism and cognitive control.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "データから分類した小標本の軌跡。回復の期限や本人の責任を示さない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LIF-006-SRC206",
+          "source_id": "SRC206",
+          "title": "Trajectory of depressive symptoms in the context of romantic relationship breakup: Characterizing the \"natural course\" of response and recovery in young adults.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "平均で戻った時期を、全員が立ち直る期限にしない。別研究の軌跡と比較して個人差を残す。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-007-SRC089",
+          "source_id": "SRC089",
+          "title": "Optimizing Treatment of Complicated Grief: A Randomized Clinical Trial.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-008",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-008-SRC056",
+          "source_id": "SRC056",
+          "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-009-SRC086",
+          "source_id": "SRC086",
+          "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-010-SRC064",
+          "source_id": "SRC064",
+          "title": "Loneliness and social isolation as risk factors for mortality: a meta-analytic review.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LIF-010-SRC087",
+          "source_id": "SRC087",
+          "title": "A meta-analysis of interventions to reduce loneliness.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-011",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-011-SRC207",
+          "source_id": "SRC207",
+          "title": "Adaptive self-regulation of unattainable goals: goal disengagement, goal reengagement, and subjective well-being.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "病気の本人への治療試験ではなく、医療・リハビリの中止を勧めるものではない。",
+          "priority_score": 65.0,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LIF-012-SRC208",
+          "source_id": "SRC208",
+          "title": "A brief social-belonging intervention improves academic and health outcomes of minority students.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "特定の大学生集団の試験。日本の転職や全集団への一般化、実際の差別の否定には使わない。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "wellbeing",
+  "topics": [
+    {
+      "topic_id": "PSY-WEL-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-001-SRC068",
+          "source_id": "SRC068",
+          "title": "Income and emotional well-being: A conflict resolved.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-002-SRC014",
+          "source_id": "SRC014",
+          "title": "Caring for Your Mental Health",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-002-SRC097",
+          "source_id": "SRC097",
+          "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-003-SRC145",
+          "source_id": "SRC145",
+          "title": "Beyond the hedonic treadmill: revising the adaptation theory of well-being.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "理論・研究の整理であり、苦痛から必ず回復できる期間を示すものではない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-004-SRC146",
+          "source_id": "SRC146",
+          "title": "Happiness for Sale: Do Experiential Purchases Make Consumers Happier than Material Purchases?",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "経験と物への購入を比較する研究の書誌。購入すれば幸福になるという推奨や効果の数値は未確認。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-005-SRC068",
+          "source_id": "SRC068",
+          "title": "Income and emotional well-being: A conflict resolved.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-005-SRC069",
+          "source_id": "SRC069",
+          "title": "Buying time promotes happiness.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-006-SRC147",
+          "source_id": "SRC147",
+          "title": "Prosocial spending and well-being: cross-cultural evidence for a psychological universal.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "観察・想起課題・実際の支出を区別。寄付額や効果の普遍性、長期持続を保証しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-WEL-008",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-008-SRC148",
+          "source_id": "SRC148",
+          "title": "Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events: A Meta-Analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "目的を持つ介入で寿命が延びるという証明ではない。健康状態や生活条件の交絡が残る。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-009-SRC069",
+          "source_id": "SRC069",
+          "title": "Buying time promotes happiness.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-009-SRC100",
+          "source_id": "SRC100",
+          "title": "Work time reduction via a 4-day workweek finds improvements in workers' well-being.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-010-SRC070",
+          "source_id": "SRC070",
+          "title": "Spending at least 120 minutes a week in nature is associated with good health and wellbeing.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-010-SRC079",
+          "source_id": "SRC079",
+          "title": "Effect of Greening Vacant Land on Mental Health of Community-Dwelling Adults: A Cluster Randomized Trial.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-WEL-010-SRC080",
+          "source_id": "SRC080",
+          "title": "Error in Figure.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": true,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-WEL-010-SRC085",
+          "source_id": "SRC085",
+          "title": "Big smile, small self: Awe walks promote prosocial positive emotions in older adults.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
+        }
+      ]
+    }
+  ]
+}

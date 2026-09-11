@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "category_id": "intimacy",
+  "edges": [
+    {
+      "id": "EV-PSY-INT-001-SRC077",
+      "topic_id": "PSY-INT-001",
+      "source_id": "SRC077",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-32719123"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-002-SRC173",
+      "topic_id": "PSY-INT-002",
+      "source_id": "SRC173",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C066",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "カップルの新しい活動と関係の質を扱う研究の書誌。本文・独立追試は未確認。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-004-SRC226",
+      "topic_id": "PSY-INT-004",
+      "source_id": "SRC226",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S134",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "親密さを求める度合いの違いについて、個人を病理化せず二人の文脈で考える専門家の立場表明。",
+      "conclusion_direction": "context",
+      "limits_ja": "原文自身がエビデンス不足で意見に基づくと明記。学会名だけで高確実性と評価せず、同意を優先する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-005-SRC174",
+      "topic_id": "PSY-INT-005",
+      "source_id": "SRC174",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C067",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "93研究で親密さについての会話と関係・性的満足の関連を統合。会話の量より質で関連が大きい傾向を報告。",
+      "conclusion_direction": "association",
+      "limits_ja": "良い関係だから会話しやすいという逆因果もある。話題や行動への同意を強制しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-005-SRC175",
+      "topic_id": "PSY-INT-005",
+      "source_id": "SRC175",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C068",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "48研究で性的コミュニケーションと性機能の複数指標との関連を検討。",
+      "conclusion_direction": "association",
+      "limits_ja": "会話を増やすだけで機能が改善するという治療の証明ではない。前のメタ分析との収載重複を確認する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-006-SRC176",
+      "topic_id": "PSY-INT-006",
+      "source_id": "SRC176",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C069",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "幼い子どもの母親322人で、家事の計画・段取りと実行の負担を分け、心の健康との関連を検討。",
+      "conclusion_direction": "association",
+      "limits_ja": "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-009-SRC077",
+      "topic_id": "PSY-INT-009",
+      "source_id": "SRC077",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-32719123"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-010-SRC227",
+      "topic_id": "PSY-INT-010",
+      "source_id": "SRC227",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S136",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "ドイツの未婚者2930人の11年間の推移で、人生満足と恋人を求める気持ち等を分け、多様な軌跡を報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "未婚であることを無作為割付した研究ではない。国・年齢・選択の違いを考慮する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-011-SRC177",
+      "topic_id": "PSY-INT-011",
+      "source_id": "SRC177",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C070",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "出産前後に関係満足の平均的低下が見られたが、子どもを持たない新婚者の比較でも同様の低下があり、出産固有の作用は単純でない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "全家庭の必然ではない。比較群・時点・欠測・支援環境を確認する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-012-SRC178",
+      "topic_id": "PSY-INT-012",
+      "source_id": "SRC178",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C071",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "関係の運命観・成長観を扱う基礎研究の書誌。危険な関係への努力継続を正当化しない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

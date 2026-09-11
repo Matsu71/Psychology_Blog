@@ -178,11 +178,15 @@
       "search_query": "placebo nocebo expectations clinical outcomes systematic review",
       "priority": 1,
       "source_ids": [
-        "SRC060"
+        "SRC060",
+        "SRC183"
       ],
       "caution_ja": "自然回復や平均への回帰をプラセボ効果と混同しない。治療中断を勧めない。",
       "research_brief_ids": [
         "RB-34586357"
+      ],
+      "source_review_ids": [
+        "R3-C076"
       ]
     },
     {

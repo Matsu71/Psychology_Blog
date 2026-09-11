@@ -91,8 +91,15 @@
       "angle_ja": "終了時刻、強度、本人の習慣で違いがあるか調べる。",
       "search_query": "evening exercise timing intensity sleep systematic review meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "夜は運動禁止という一律の結論にしない。不眠症の人は別に評価する。"
+      "source_ids": [
+        "SRC113",
+        "SRC114"
+      ],
+      "caution_ja": "夜は運動禁止という一律の結論にしない。不眠症の人は別に評価する。",
+      "source_review_ids": [
+        "R3-C006",
+        "R3-C007"
+      ]
     },
     {
       "id": "PSY-EXE-006",
@@ -183,8 +190,13 @@
       "angle_ja": "健康的な継続と、痛みや疲れを無視した運動の境界を調べる。",
       "search_query": "compulsive exercise guilt rest injury recovery systematic review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "高頻度の運動だけで依存と診断しない。痛みや機能障害を軽視しない。"
+      "source_ids": [
+        "SRC218"
+      ],
+      "caution_ja": "高頻度の運動だけで依存と診断しない。痛みや機能障害を軽視しない。",
+      "source_review_ids": [
+        "R3-S120"
+      ]
     }
   ]
 }

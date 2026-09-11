@@ -97,7 +97,9 @@
       "angle_ja": "責任ばかり増え、給与や評価が変わらないと感じる。",
       "search_query": "effort reward imbalance organizational justice systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC162"
+      ],
       "caution_ja": "自己報告の不公平感と客観的待遇を区別する。",
       "related_topic_ids": [
         "PSY-WEL-005",
@@ -107,7 +109,10 @@
         "type": "illustrative_scenario",
         "description_ja": "責任ばかり増え、給与や評価が変わらないと感じる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C055"
+      ]
     },
     {
       "id": "PSY-WRK-005",
@@ -119,7 +124,9 @@
       "angle_ja": "嫌な応対を受けても表情を変えられず疲れる。",
       "search_query": "emotional labor surface acting systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC163"
+      ],
       "caution_ja": "演技をやめれば解決するとせず、職務上の制約と支援を確認する。",
       "related_topic_ids": [
         "PSY-EMO-003"
@@ -128,7 +135,10 @@
         "type": "illustrative_scenario",
         "description_ja": "嫌な応対を受けても表情を変えられず疲れる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C056"
+      ]
     },
     {
       "id": "PSY-WRK-006",
@@ -140,7 +150,9 @@
       "angle_ja": "作業分担や相談先を少し変え、自分の強みを活かす。",
       "search_query": "job crafting work engagement systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC164"
+      ],
       "caution_ja": "自由に変えられない仕事もあり、会社の安全手順に反する変更を勧めない。",
       "related_topic_ids": [
         "PSY-PER-005",
@@ -150,7 +162,10 @@
         "type": "illustrative_scenario",
         "description_ja": "作業分担や相談先を少し変え、自分の強みを活かす。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C057"
+      ]
     },
     {
       "id": "PSY-WRK-007",
@@ -162,7 +177,9 @@
       "angle_ja": "仕事内容、価値観、得意なことを転職時に比較する。",
       "search_query": "person job fit vocational interests systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC165"
+      ],
       "caution_ja": "性格検査だけで適職を断定せず、経験や条件も含める。",
       "related_topic_ids": [
         "PSY-PER-001",
@@ -172,7 +189,10 @@
         "type": "illustrative_scenario",
         "description_ja": "仕事内容、価値観、得意なことを転職時に比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C058"
+      ]
     },
     {
       "id": "PSY-WRK-008",
@@ -211,7 +231,9 @@
       "angle_ja": "会議の合間が短く、集中作業を始められない。",
       "search_query": "meeting load work fragmentation systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC166"
+      ],
       "caution_ja": "会議の本数だけで有害と判断せず、意思決定や連携の便益も扱う。",
       "related_topic_ids": [
         "PSY-ATT-001",
@@ -221,7 +243,10 @@
         "type": "illustrative_scenario",
         "description_ja": "会議の合間が短く、集中作業を始められない。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C059"
+      ]
     },
     {
       "id": "PSY-WRK-010",
@@ -262,7 +287,9 @@
       "angle_ja": "評価されても、実力がないと見抜かれる不安が消えない。",
       "search_query": "impostor phenomenon work self doubt systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC167"
+      ],
       "caution_ja": "一般的な経験と診断を混同せず、本人の能力不足と解釈しない。",
       "related_topic_ids": [
         "PSY-PER-010",
@@ -272,7 +299,10 @@
         "type": "illustrative_scenario",
         "description_ja": "評価されても、実力がないと見抜かれる不安が消えない。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C060"
+      ]
     },
     {
       "id": "PSY-WRK-012",
@@ -340,7 +370,9 @@
       "angle_ja": "雑談は好きではないが、誰にも相談できない状態も困る。",
       "search_query": "workplace social interaction belonging systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC168"
+      ],
       "caution_ja": "交流を強制せず、孤独と静かに働きたい希望を区別する。",
       "related_topic_ids": [
         "PSY-REL-004",
@@ -350,7 +382,10 @@
         "type": "illustrative_scenario",
         "description_ja": "雑談は好きではないが、誰にも相談できない状態も困る。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C061"
+      ]
     }
   ]
 }

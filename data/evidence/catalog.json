@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    "data/evidence/sleep.json",
+    "data/evidence/genetics.json",
+    "data/evidence/addiction.json",
+    "data/evidence/habits.json",
+    "data/evidence/personality.json",
+    "data/evidence/motivation.json",
+    "data/evidence/learning.json",
+    "data/evidence/attention.json",
+    "data/evidence/decisions.json",
+    "data/evidence/emotions.json",
+    "data/evidence/mental_health.json",
+    "data/evidence/relationships.json",
+    "data/evidence/social.json",
+    "data/evidence/wellbeing.json",
+    "data/evidence/exercise.json",
+    "data/evidence/nutrition.json",
+    "data/evidence/development.json",
+    "data/evidence/aging.json",
+    "data/evidence/digital.json",
+    "data/evidence/research_literacy.json",
+    "data/evidence/work.json",
+    "data/evidence/money_consumption.json",
+    "data/evidence/intimacy.json",
+    "data/evidence/health_psychology.json",
+    "data/evidence/environment.json",
+    "data/evidence/creativity.json",
+    "data/evidence/language.json",
+    "data/evidence/life_transitions.json"
+  ]
+}

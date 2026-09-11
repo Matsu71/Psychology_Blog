@@ -45,8 +45,15 @@
       "angle_ja": "食事中の注意、その場の摂取量、後の間食を分ける。",
       "search_query": "distracted eating television smartphone memory intake meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "小規模な実験課題の結果を長期の体重変化に読み替えない。"
+      "source_ids": [
+        "SRC149",
+        "SRC150"
+      ],
+      "caution_ja": "小規模な実験課題の結果を長期の体重変化に読み替えない。",
+      "source_review_ids": [
+        "R3-C042",
+        "R3-C043"
+      ]
     },
     {
       "id": "PSY-NUT-004",
@@ -73,8 +80,13 @@
       "angle_ja": "配置、手間、空腹感と食行動を調べる。",
       "search_query": "food availability proximity cues eating randomized systematic review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "食行動研究には撤回や再現性の問題があるため原典を確認する。"
+      "source_ids": [
+        "SRC151"
+      ],
+      "caution_ja": "食行動研究には撤回や再現性の問題があるため原典を確認する。",
+      "source_review_ids": [
+        "R3-C044"
+      ]
     },
     {
       "id": "PSY-NUT-006",
@@ -123,8 +135,13 @@
       "angle_ja": "動物実験、人の関連研究、介入試験の距離を整理する。",
       "search_query": "gut microbiome mental health human randomized systematic review probiotics",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "動物の行動変化を人の性格改善としない。サプリや便移植を安易に推奨しない。"
+      "source_ids": [
+        "SRC219"
+      ],
+      "caution_ja": "動物の行動変化を人の性格改善としない。サプリや便移植を安易に推奨しない。",
+      "source_review_ids": [
+        "R3-S121"
+      ]
     },
     {
       "id": "PSY-NUT-009",
@@ -151,8 +168,13 @@
       "angle_ja": "禁止の多さ、罪悪感、持続可能な食行動を研究する。",
       "search_query": "rigid flexible dietary restraint adherence disordered eating longitudinal review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "体重や食事量で人の価値を評価しない。極端な制限や過食の自己治療にしない。"
+      "source_ids": [
+        "SRC220"
+      ],
+      "caution_ja": "体重や食事量で人の価値を評価しない。極端な制限や過食の自己治療にしない。",
+      "source_review_ids": [
+        "R3-S122"
+      ]
     }
   ]
 }

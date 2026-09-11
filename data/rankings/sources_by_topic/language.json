@@ -1,0 +1,341 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "language",
+  "topics": [
+    {
+      "topic_id": "PSY-LAN-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-001-SRC051",
+          "source_id": "SRC051",
+          "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LAN-001-SRC092",
+          "source_id": "SRC092",
+          "title": "A critical period for second language acquisition: Evidence from 2/3 million English speakers.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-002-SRC091",
+          "source_id": "SRC091",
+          "title": "Is bilingualism associated with enhanced executive functioning in adults? A meta-analytic review.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-003",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-LAN-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-004-SRC198",
+          "source_id": "SRC198",
+          "title": "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "自己報告で分けた小標本。内的独り言の少なさを一般知能や障害の診断に結びつけない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-005-SRC211",
+          "source_id": "SRC211",
+          "title": "When our hands help us understand: A meta-analysis into the effects of gesture on comprehension.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "長期の記憶や全教材に同じ効果を保証しない。アクセシビリティへの配慮も必要。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-006-SRC199",
+          "source_id": "SRC199",
+          "title": "Why don't we believe non-native speakers? The influence of accent on credibility",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "アクセントと信頼判断の研究の書誌。訛りを能力や誠実さの指標として正当化しない。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-007-SRC200",
+          "source_id": "SRC200",
+          "title": "Egocentrism over e-mail: can we communicate as well as we think?",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "当時のメール課題と現在の全メッセージ媒体は異なる。短文を不機嫌と断定する規則にしない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-008",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-008-SRC093",
+          "source_id": "SRC093",
+          "title": "It doesn't hurt to ask: Question-asking increases liking.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LAN-008-SRC094",
+          "source_id": "SRC094",
+          "title": "Correction to \"It doesn't hurt to ask: Question-asking increases liking\" by Huang et al. (2017).",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": true,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-009-SRC201",
+          "source_id": "SRC201",
+          "title": "Mistakenly seeking solitude.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "安全感・文化・会話したくない人の選択を尊重。誰にでも話しかければ幸福になるという助言にしない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-010-SRC202",
+          "source_id": "SRC202",
+          "title": "Teach-back: A systematic review of implementation and impacts.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一般の授業や職場への移植は追加検証。相手を試験するのでなく説明の伝わり方を確認する方法として扱う。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-011",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-011-SRC203",
+          "source_id": "SRC203",
+          "title": "Self-talk as a regulatory mechanism: how you do it matters.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "一論文内の実験群を独立した追試群と数えない。言語・文化差や長期の治療効果は未確認。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-012-SRC204",
+          "source_id": "SRC204",
+          "title": "Long-term Persuasive Effects in Narrative Communication Research: A Meta-Analysis",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "説得力は正しさの証拠ではない。一般の物語研究と健康情報の個別判断を区別する。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

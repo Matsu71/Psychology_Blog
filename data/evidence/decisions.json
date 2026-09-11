@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "category_id": "decisions",
+  "edges": [
+    {
+      "id": "EV-PSY-DEC-001-SRC067",
+      "topic_id": "PSY-DEC-001",
+      "source_id": "SRC067",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33731933"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-003-SRC134",
+      "topic_id": "PSY-DEC-003",
+      "source_id": "SRC134",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C027",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "2024年の刊行版の書誌を優先。類似題名のプレプリントの抄録を、刊行版の精査済み結果として転記しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-005-SRC135",
+      "topic_id": "PSY-DEC-005",
+      "source_id": "SRC135",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C028",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "18研究で、利得・損失の表現によるリスク選択と年齢差が、場面や金額等で異なることを整理。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "一般的フレーミングの全効果ではなく、年齢差を中心とした部分的な根拠。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-005-SRC186",
+      "topic_id": "PSY-DEC-005",
+      "source_id": "SRC186",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C079",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "自然頻度と確率、相対的減少と絶対的減少では理解や説得力が異なると整理。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "行動を評価した比較はなく、理解度から健康行動の改善を直接推論しない。古いレビューで更新調査が必要。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-006-SRC136",
+      "topic_id": "PSY-DEC-006",
+      "source_id": "SRC136",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C029",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "選択肢過多のメタ分析の書誌のみ確認。効果量や条件差は原文確認後に記載する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-009-SRC137",
+      "topic_id": "PSY-DEC-009",
+      "source_id": "SRC137",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C030",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "統計的な見かけを論じる批判論文の書誌。批判の主張だけで現象全体を否定せず、原研究と応答を併読する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-010-SRC138",
+      "topic_id": "PSY-DEC-010",
+      "source_id": "SRC138",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C031",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "58研究で初期選択肢の平均的な作用を示す一方、無効果や逆方向の例もあり、分野や受け止め方で異なると報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "メタ分析の効果量は選択確率の固定増加率ではない。変更のしやすさと倫理も別に検討する。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

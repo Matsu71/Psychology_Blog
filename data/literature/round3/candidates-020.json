@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "MED:31280801",
+      "title": "Display clutter and its effects on visual attention distribution and financial risk judgment.",
+      "doi": "10.1016/j.apergo.2019.05.008",
+      "year": "2019",
+      "authors": "Ognjanovic S, Thüring M, Murphy RO, Hölscher C.",
+      "journal": "Applied ergonomics",
+      "pmid": "31280801",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/31280801",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC229"
+    },
+    {
+      "id": "MED:41672893",
+      "title": "Enzymatic activation complex formation induced by crowding stress.",
+      "doi": "10.1039/d5cp03239c",
+      "year": "2026",
+      "authors": "Shahu L, Senarathne DS, Saha S, Lu HP.",
+      "journal": "Physical chemistry chemical physics : PCCP",
+      "pmid": "41672893",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41672893",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41004006",
+      "title": "Macromolecular Crowding in Cell Stress and Death.",
+      "doi": "10.1007/978-3-032-03370-3_14",
+      "year": "2025",
+      "authors": "Model MA.",
+      "journal": "Sub-cellular biochemistry",
+      "pmid": "41004006",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41004006",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40312912",
+      "title": "Molecular crowding suppresses mechanical stress-driven DNA strand separation.",
+      "doi": "10.1016/j.bpj.2025.04.024",
+      "year": "2025",
+      "authors": "Desai PR, Marko JF.",
+      "journal": "Biophysical journal",
+      "pmid": "40312912",
+      "pmcid": "PMC12256819",
+      "url": "https://europepmc.org/article/MED/40312912",
+      "publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40723368",
+      "title": "Transcriptomic Changes of Telencephalon and Hypothalamus in Largemouth Bass (<i>Micropterus salmoides</i>) Under Crowding Stress.",
+      "doi": "10.3390/biology14070809",
+      "year": "2025",
+      "authors": "Li M, Yang L, Liu Y.",
+      "journal": "Biology",
+      "pmid": "40723368",
+      "pmcid": "PMC12292805",
+      "url": "https://europepmc.org/article/MED/40723368",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41213344",
+      "title": "Playing or fighting? Home cage dynamics in crowding or social instability paradigms contribute to stress and reproductive impairments in adult female Wistar rats.",
+      "doi": "10.1016/j.beproc.2025.105301",
+      "year": "2025",
+      "authors": "Poitras M, Ouellette ÉA, Pellis SM, Plamondon H.",
+      "journal": "Behavioural processes",
+      "pmid": "41213344",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41213344",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:29747526",
+      "title": "Nostalgia as a psychological resource for people with dementia: A systematic review and meta-analysis of evidence of effectiveness from experimental studies.",
+      "doi": "10.1177/1471301218774909",
+      "year": "2020",
+      "authors": "Umar Ismail S, Cheston R, Christopher G, Meyrick J.",
+      "journal": "Dementia (London, England)",
+      "pmid": "29747526",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/29747526",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "PPR:PPR1142928",
+      "title": "Forced or Desired Residential Relocation? Moving Voluntariness and Its Effects on Well-Being and Travel Behaviour",
+      "doi": "10.31234/osf.io/z4vdc_v2",
+      "year": "2026",
+      "authors": "Stolze D, Siebert FW, Haustein S.",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/PPR/PPR1142928",
+      "publication_types": [
+        "Preprint"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "PPR:PPR1134895",
+      "title": "Forced or Desired Residential Relocation? Moving Voluntariness and Its Effects on Well-Being and Travel Behaviour",
+      "doi": "10.31234/osf.io/z4vdc_v1",
+      "year": "2025",
+      "authors": "Stolze D, Siebert FW, Haustein S.",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/PPR/PPR1134895",
+      "publication_types": [
+        "Preprint"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38546563",
+      "title": "Well-being and contexts of development of U.S. citizen children in Mexico following parental deportation or voluntary relocation.",
+      "doi": "10.1037/ort0000734",
+      "year": "2024",
+      "authors": "Zayas LH, Garcia Isaza A, Fuentes-Balderrama J, Rivera-Heredia ME.",
+      "journal": "The American journal of orthopsychiatry",
+      "pmid": "38546563",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38546563",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38342949",
+      "title": "Social consequences of planned relocation in response to sea level rise: impacts on anxiety, well-being, and perceived safety.",
+      "doi": "10.1038/s41598-024-53277-9",
+      "year": "2024",
+      "authors": "Abu M, Heath SC, Adger WN, Codjoe SNA, Butler C, Quinn T.",
+      "journal": "Scientific reports",
+      "pmid": "38342949",
+      "pmcid": "PMC10859369",
+      "url": "https://europepmc.org/article/MED/38342949",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:33408669",
+      "title": "Moderating Effect of the Situation of Return or Relocation on the Well-Being and Psychosocial Trauma of Young Victims of the Armed Conflict in Colombia.",
+      "doi": "10.3389/fpsyg.2020.603964",
+      "year": "2020",
+      "authors": "Quintero-González SM, Madariaga-Orozco CA, Millán-de Lange AC, Castellar-Jiménez DM, Palacio-Sañudo JE.",
+      "journal": "Frontiers in psychology",
+      "pmid": "33408669",
+      "pmcid": "PMC7779608",
+      "url": "https://europepmc.org/article/MED/33408669",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:25939336",
+      "title": "Explanations of the endowment effect: an integrative review.",
+      "doi": "10.1016/j.tics.2015.04.004",
+      "year": "2015",
+      "authors": "Morewedge CK, Giblin CE.",
+      "journal": "Trends in cognitive sciences",
+      "pmid": "25939336",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/25939336",
+      "publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC230"
+    }
+  ]
+}

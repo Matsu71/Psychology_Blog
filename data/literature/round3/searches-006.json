@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "cutoff": "2026-09-11",
+  "searches": [
+    {
+      "task_id": "R3-X-136",
+      "topic_id": "PSY-INT-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"singlehood\" AND TITLE:\"well-being\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22singlehood%22+AND+TITLE%3A%22well-being%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:42630018",
+        "PPR:PPR1275347",
+        "MED:42562801",
+        "PPR:PPR1111337",
+        "PMC:PMC11690542"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-137",
+      "topic_id": "PSY-HPS-006",
+      "provider": "europepmc",
+      "query": "TITLE:\"body functionality\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22body+functionality%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-138",
+      "topic_id": "PSY-HPS-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"risk perception\" AND TITLE:\"health behavior\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22risk+perception%22+AND+TITLE%3A%22health+behavior%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:17385964"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-139",
+      "topic_id": "PSY-ENV-006",
+      "provider": "europepmc",
+      "query": "TITLE:\"clutter\" AND TITLE:\"attention\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22clutter%22+AND+TITLE%3A%22attention%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:41330229",
+        "MED:36966853",
+        "PPR:PPR488908",
+        "MED:33782251",
+        "MED:31280801"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-140",
+      "topic_id": "PSY-ENV-011",
+      "provider": "europepmc",
+      "query": "TITLE:\"crowding\" AND TITLE:\"stress\" AND SRC:MED",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22crowding%22+AND+TITLE%3A%22stress%22+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:41672893",
+        "MED:41004006",
+        "MED:40312912",
+        "MED:40723368",
+        "MED:41213344"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-141",
+      "topic_id": "PSY-CRE-008",
+      "provider": "europepmc",
+      "query": "TITLE:\"adult playfulness\" AND TITLE:\"well-being\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22adult+playfulness%22+AND+TITLE%3A%22well-being%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-142",
+      "topic_id": "PSY-CRE-010",
+      "provider": "europepmc",
+      "query": "TITLE:\"nostalgia\" AND TITLE:\"meta-analysis\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22nostalgia%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:29747526"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-143",
+      "topic_id": "PSY-CRE-011",
+      "provider": "europepmc",
+      "query": "TITLE:\"constraints\" AND TITLE:\"creativity\" AND TITLE:\"meta\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22constraints%22+AND+TITLE%3A%22creativity%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-144",
+      "topic_id": "PSY-LIF-004",
+      "provider": "europepmc",
+      "query": "TITLE:\"relocation\" AND TITLE:\"well-being\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22relocation%22+AND+TITLE%3A%22well-being%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "PPR:PPR1142928",
+        "PPR:PPR1134895",
+        "MED:38546563",
+        "MED:38342949",
+        "MED:33408669"
+      ],
+      "error": null
+    },
+    {
+      "task_id": "R3-X-145",
+      "topic_id": "PSY-MON-011",
+      "provider": "europepmc",
+      "query": "TITLE:\"endowment effect\" AND TITLE:\"review\"",
+      "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22endowment+effect%22+AND+TITLE%3A%22review%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "status": "completed",
+      "searched_at_utc": null,
+      "collection_date": "2026-09-11",
+      "collection_run_id": 34549481613,
+      "candidate_ids": [
+        "MED:25939336"
+      ],
+      "error": null
+    }
+  ]
+}

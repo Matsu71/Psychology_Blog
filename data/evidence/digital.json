@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "category_id": "digital",
+  "edges": [
+    {
+      "id": "EV-PSY-DIG-001-SRC012",
+      "topic_id": "PSY-DIG-001",
+      "source_id": "SRC012",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-001-SRC160",
+      "topic_id": "PSY-DIG-001",
+      "source_id": "SRC160",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C053",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "米国の選挙前にFacebookを休止する実験で幸福感などが変化した一方、ニュース知識も減った。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-004-SRC158",
+      "topic_id": "PSY-DIG-004",
+      "source_id": "SRC158",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C051",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "154人を1週間のSNS休止と通常利用に割り付け、気分関連指標の短期改善を報告。",
+      "conclusion_direction": "supports",
+      "limits_ja": "自己報告と短い追跡。臨床患者や長期利用、失われる交流や便益は別途検討する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-004-SRC159",
+      "topic_id": "PSY-DIG-004",
+      "source_id": "SRC159",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C052",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "スマホのインターネットを2週間遮断し、心理指標や持続注意の改善を報告。電話・SMSや別端末のネット利用は維持された。",
+      "conclusion_direction": "supports",
+      "limits_ja": "参加者の遵守と欠測に大きな制約。全員が同じ効果を得る、単なる画面時間削減で同じ結果になるとはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-004-SRC160",
+      "topic_id": "PSY-DIG-004",
+      "source_id": "SRC160",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C053",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "米国の選挙前にFacebookを休止する実験で幸福感などが変化した一方、ニュース知識も減った。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "特定時期・サービスの知見。SNSの便益と害を両方扱い、現在の全SNSに一般化しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-005-SRC161",
+      "topic_id": "PSY-DIG-005",
+      "source_id": "SRC161",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C054",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "FOMOの基礎研究の書誌のみ。尺度の妥当性や使用行動との因果関係は今回未確認。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-006-SRC055",
+      "topic_id": "PSY-DIG-006",
+      "source_id": "SRC055",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-26121498"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-006-SRC193",
+      "topic_id": "PSY-DIG-006",
+      "source_id": "SRC193",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C086",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "7実験で動画の切り替えと退屈を検討し、切り替えが退屈を強める場合を報告。記事や大学外の標本では結果が明確でない条件もあった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-009-SRC067",
+      "topic_id": "PSY-DIG-009",
+      "source_id": "SRC067",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-33731933"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-010-SRC003",
+      "topic_id": "PSY-DIG-010",
+      "source_id": "SRC003",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-010-SRC010",
+      "topic_id": "PSY-DIG-010",
+      "source_id": "SRC010",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-010-SRC041",
+      "topic_id": "PSY-DIG-010",
+      "source_id": "SRC041",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-35298459"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

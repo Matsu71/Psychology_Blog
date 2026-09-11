@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "category_id": "creativity",
+  "edges": [
+    {
+      "id": "EV-PSY-CRE-001-SRC083",
+      "topic_id": "PSY-CRE-001",
+      "source_id": "SRC083",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24749966"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-002-SRC084",
+      "topic_id": "PSY-CRE-002",
+      "source_id": "SRC084",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-25284006"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-003-SRC193",
+      "topic_id": "PSY-CRE-003",
+      "source_id": "SRC193",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C086",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "7実験で動画の切り替えと退屈を検討し、切り替えが退屈を強める場合を報告。記事や大学外の標本では結果が明確でない条件もあった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "6実験が事前登録。長期の依存や全プラットフォームへの一般化ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-004-SRC085",
+      "topic_id": "PSY-CRE-004",
+      "source_id": "SRC085",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-32955293"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-005-SRC194",
+      "topic_id": "PSY-CRE-005",
+      "source_id": "SRC194",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C087",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "問題を一度離れる効果は課題の種類、準備時間、間に行う活動の負荷によって異なると整理。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "休めばどの問題も解けるわけではない。発散的思考と正解のある課題を分ける。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-006-SRC083",
+      "topic_id": "PSY-CRE-006",
+      "source_id": "SRC083",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24749966"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-007-SRC195",
+      "topic_id": "PSY-CRE-007",
+      "source_id": "SRC195",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C088",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "音楽を聴く、歌う、音楽療法などをまとめて生活の質の改善を検討。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "単群前後比較も含む。趣味として演奏することだけの因果効果に切り出さず、臨床介入と一般の趣味を分ける。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-009-SRC196",
+      "topic_id": "PSY-CRE-009",
+      "source_id": "SRC196",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C089",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "親和的・自己を支えるユーモアと、攻撃的・自己を傷つけるユーモアでは幸福との関連が異なった。",
+      "conclusion_direction": "association",
+      "limits_ja": "相関を因果に変換しない。冗談による攻撃や自己否定を対処法として勧めない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-012-SRC197",
+      "topic_id": "PSY-CRE-012",
+      "source_id": "SRC197",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C090",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "集団のブレインストーミングと生産性を扱う統合研究の書誌。案の数・質と現在のオンライン協働への適用を追加確認する。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

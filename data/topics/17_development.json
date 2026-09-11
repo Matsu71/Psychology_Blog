@@ -33,8 +33,15 @@
       "angle_ja": "自制心だけでなく、家庭環境や信頼できる状況を検討する。",
       "search_query": "marshmallow test delay gratification conceptual replication socioeconomic confounding",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "一回のテストで子どもの将来や親の育て方を判定しない。"
+      "source_ids": [
+        "SRC152",
+        "SRC153"
+      ],
+      "caution_ja": "一回のテストで子どもの将来や親の育て方を判定しない。",
+      "source_review_ids": [
+        "R3-C045",
+        "R3-C046"
+      ]
     },
     {
       "id": "PSY-DEV-003",
@@ -46,8 +53,13 @@
       "angle_ja": "年齢、遊び、生活環境、支援の役割を調べる。",
       "search_query": "child executive function self regulation development intervention meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "大人と同じ自己管理を要求せず、訓練の転移と長期効果を確認する。"
+      "source_ids": [
+        "SRC221"
+      ],
+      "caution_ja": "大人と同じ自己管理を要求せず、訓練の転移と長期効果を確認する。",
+      "source_review_ids": [
+        "R3-S123"
+      ]
     },
     {
       "id": "PSY-DEV-004",
@@ -74,8 +86,13 @@
       "angle_ja": "初期の関係、後の経験、変化の可能性を切り分ける。",
       "search_query": "child attachment adult relationships longitudinal continuity meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "乳幼児期だけで人生が決まるとせず、保護者を一方的に責めない。"
+      "source_ids": [
+        "SRC222"
+      ],
+      "caution_ja": "乳幼児期だけで人生が決まるとせず、保護者を一方的に責めない。",
+      "source_review_ids": [
+        "R3-S124"
+      ]
     },
     {
       "id": "PSY-DEV-006",
@@ -87,8 +104,15 @@
       "angle_ja": "一方的に読むことと、質問・やり取りの違いを調べる。",
       "search_query": "dialogic shared book reading language development randomized meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "家庭の時間や経済条件を無視せず、言語発達の個人差に配慮する。"
+      "source_ids": [
+        "SRC154",
+        "SRC155"
+      ],
+      "caution_ja": "家庭の時間や経済条件を無視せず、言語発達の個人差に配慮する。",
+      "source_review_ids": [
+        "R3-C047",
+        "R3-C048"
+      ]
     },
     {
       "id": "PSY-DEV-007",
@@ -100,8 +124,13 @@
       "angle_ja": "年齢、内容、共視聴、睡眠や遊びとの置き換わりを調べる。",
       "search_query": "children screen time content context developmental outcomes systematic review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "成人SNS研究を子どもに転用せず、相関・逆因果・年齢差を確認する。"
+      "source_ids": [
+        "SRC156"
+      ],
+      "caution_ja": "成人SNS研究を子どもに転用せず、相関・逆因果・年齢差を確認する。",
+      "source_review_ids": [
+        "R3-C049"
+      ]
     },
     {
       "id": "PSY-DEV-008",

@@ -43,8 +43,13 @@
       "angle_ja": "同じ金額でも持っている状態や基準が違う場面を比較する。",
       "search_query": "loss aversion reference dependence boundary conditions meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "損失の痛みは必ず利益の何倍という固定倍率にしない。"
+      "source_ids": [
+        "SRC134"
+      ],
+      "caution_ja": "損失の痛みは必ず利益の何倍という固定倍率にしない。",
+      "source_review_ids": [
+        "R3-C027"
+      ]
     },
     {
       "id": "PSY-DEC-004",
@@ -69,8 +74,15 @@
       "angle_ja": "成功率と失敗率など、表現形式と理解を比較する。",
       "search_query": "framing effect risk communication absolute relative risk randomized study",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "人を操る手法の指南ではなく、分母や絶対数の確認を中心にする。"
+      "source_ids": [
+        "SRC135",
+        "SRC186"
+      ],
+      "caution_ja": "人を操る手法の指南ではなく、分母や絶対数の確認を中心にする。",
+      "source_review_ids": [
+        "R3-C028",
+        "R3-C079"
+      ]
     },
     {
       "id": "PSY-DEC-006",
@@ -82,8 +94,13 @@
       "angle_ja": "商品の比較、知識、好みの明確さによる条件差を調べる。",
       "search_query": "choice overload meta analysis moderators preference uncertainty",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "有名な一実験だけで『選択肢は少ないほどよい』と一般化しない。"
+      "source_ids": [
+        "SRC136"
+      ],
+      "caution_ja": "有名な一実験だけで『選択肢は少ないほどよい』と一般化しない。",
+      "source_review_ids": [
+        "R3-C029"
+      ]
     },
     {
       "id": "PSY-DEC-007",
@@ -121,8 +138,13 @@
       "angle_ja": "自信と成績の関係、統計的な見かけの説明を比較する。",
       "search_query": "Dunning Kruger effect statistical artifacts metacognition replication",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "他人を無知と断定するレッテルにせず、測定誤差と回帰効果を検討する。"
+      "source_ids": [
+        "SRC137"
+      ],
+      "caution_ja": "他人を無知と断定するレッテルにせず、測定誤差と回帰効果を検討する。",
+      "source_review_ids": [
+        "R3-C030"
+      ]
     },
     {
       "id": "PSY-DEC-010",
@@ -134,8 +156,13 @@
       "angle_ja": "通知設定、契約、選択画面で変更コストと意思表示を調べる。",
       "search_query": "default effects choice architecture meta analysis opt in opt out",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "効果と倫理を分け、撤回や変更のしやすさを扱う。"
+      "source_ids": [
+        "SRC138"
+      ],
+      "caution_ja": "効果と倫理を分け、撤回や変更のしやすさを扱う。",
+      "source_review_ids": [
+        "R3-C031"
+      ]
     }
   ]
 }

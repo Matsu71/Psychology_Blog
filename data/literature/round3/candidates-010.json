@@ -1,0 +1,1820 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "MED:39945596",
+      "title": "Meta-Analyzing People's Self-Disclosure of Sexual Information to Romantic Partners.",
+      "doi": "10.1080/00224499.2025.2455543",
+      "year": "2026",
+      "authors": "Knowles KO, Hammond MD.",
+      "journal": "Journal of sex research",
+      "pmid": "39945596",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39945596",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:36918983",
+      "title": "Effects of couple-based dyadic interventions on breast cancer patients and their intimate partners: A systematic review and meta-analysis.",
+      "doi": "10.1111/jan.15639",
+      "year": "2023",
+      "authors": "Li M, Zhang L, Li N, Luo X, Chen J, Zhang Y, Xiong C, Zhao M, Guo Z, Yan J.",
+      "journal": "Journal of advanced nursing",
+      "pmid": "36918983",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/36918983",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39965005",
+      "title": "Couples and parenting dynamics during Covid-19 pandemic: A systematic review of the literature.",
+      "doi": "10.1371/journal.pone.0315417",
+      "year": "2025",
+      "authors": "Sentieiro ML, Cunha Ferreira L, Pires de Miranda M, Araújo Vitória B.",
+      "journal": "PloS one",
+      "pmid": "39965005",
+      "pmcid": "PMC11835339",
+      "url": "https://europepmc.org/article/MED/39965005",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38936816",
+      "title": "Conservative treatment of sexual dysfunction among men undergoing prostate cancer treatment: a systematic review.",
+      "doi": "10.1093/sxmrev/qeae045",
+      "year": "2024",
+      "authors": "da Fonseca Pedroso IM, Siqueira MLS, de Sousa Santos TABP, de Paula Barbosa K, de Lima EAN, Sampaio ACRI, da Costa Cunha K, da Silva ML, Alves AT.",
+      "journal": "Sexual medicine reviews",
+      "pmid": "38936816",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38936816",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:37291077",
+      "title": "Impact of female stress urinary incontinence and related treatments on the sexual function of male partners: a systematic review and meta-analysis.",
+      "doi": "10.1093/jsxmed/qdad070",
+      "year": "2023",
+      "authors": "Tian Z, Wang X, Fu L, Du Z, Sun Z.",
+      "journal": "The journal of sexual medicine",
+      "pmid": "37291077",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/37291077",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:34826667",
+      "title": "Systematic review of sexual function in older women.",
+      "doi": "10.1016/j.ejogrb.2021.11.011",
+      "year": "2021",
+      "authors": "Athey RA, Kershaw V, Radley S.",
+      "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+      "pmid": "34826667",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/34826667",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:32673005",
+      "title": "The link between sacrifice and relational and personal well-being: A meta-analysis.",
+      "doi": "10.1037/bul0000297",
+      "year": "2020",
+      "authors": "Righetti F, Sakaluk JK, Faure R, Impett EA.",
+      "journal": "Psychological bulletin",
+      "pmid": "32673005",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/32673005",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:36061280",
+      "title": "Exploring the adult sexual wellbeing and behavior during the COVID-19 pandemic. A systematic review and meta-analysis.",
+      "doi": "10.3389/fpsyt.2022.949077",
+      "year": "2022",
+      "authors": "Mourikis I, Kokka I, Koumantarou-Malisiova E, Kontoangelos K, Konstantakopoulos G, Papageorgiou C.",
+      "journal": "Frontiers in psychiatry",
+      "pmid": "36061280",
+      "pmcid": "PMC9433807",
+      "url": "https://europepmc.org/article/MED/36061280",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42470096",
+      "title": "Our Past Between Us: A Dyadic Actor-Partner Interdependence Model of Adverse Childhood Experiences, Loneliness, and Couple Adjustment.",
+      "doi": "10.1177/08862605261463265",
+      "year": "2026",
+      "authors": "Erus SM, Körün AB, Satici B, Deniz ME.",
+      "journal": "Journal of interpersonal violence",
+      "pmid": "42470096",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42470096",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42298705",
+      "title": "\"Desperate not to make the same mistakes\": Couple adjustment to parenthood in the context of childhood maltreatment.",
+      "doi": "10.1002/imhj.70106",
+      "year": "2026",
+      "authors": "Martin LN, Renshaw KD, Kelly AG, Goldberg DG.",
+      "journal": "Infant mental health journal",
+      "pmid": "42298705",
+      "pmcid": "PMC13269663",
+      "url": "https://europepmc.org/article/MED/42298705",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40011322",
+      "title": "The Impact of Heterosexual Scripts on Women's Sexual Desire in Relationships.",
+      "doi": "10.1007/s10508-025-03096-4",
+      "year": "2025",
+      "authors": "Smets JW, Miller S, Leys C.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "40011322",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40011322",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:36900654",
+      "title": "Sexual Satisfaction Mediates the Effects of the Quality of Dyadic Sexual Communication on the Degree of Perceived Sexual Desire Discrepancy.",
+      "doi": "10.3390/healthcare11050648",
+      "year": "2023",
+      "authors": "Galizia R, Theodorou A, Simonelli C, Lai C, Nimbi FM.",
+      "journal": "Healthcare (Basel, Switzerland)",
+      "pmid": "36900654",
+      "pmcid": "PMC10001296",
+      "url": "https://europepmc.org/article/MED/36900654",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40000541",
+      "title": "Sex Therapists and the Problem of Sexual Desire Discrepancy in the Relationship.",
+      "doi": "10.1007/s10508-025-03104-7",
+      "year": "2025",
+      "authors": "Grunt-Mejer K, Chańska W.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "40000541",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40000541",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42421238",
+      "title": "Self-esteem, partner support, and body image changes across pregnancy.",
+      "doi": "10.1080/02646838.2026.2700754",
+      "year": "2026",
+      "authors": "Keles E, Kaya L, Bilge Y, Kumru P, Kaya Z, Dokumuş H.",
+      "journal": "Journal of reproductive and infant psychology",
+      "pmid": "42421238",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42421238",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38234271",
+      "title": "Desire discrepancy in long-term relationships: A qualitative study with diverse couples.",
+      "doi": "10.1111/famp.12967",
+      "year": "2024",
+      "authors": "Arenella K, Girard A, Connor J.",
+      "journal": "Family process",
+      "pmid": "38234271",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38234271",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40200679",
+      "title": "Relevance of Positive Dyadic Coping for Couples Undergoing Assisted Reproduction Treatments: A Systematic Review.",
+      "doi": "10.1111/jmft.70016",
+      "year": "2025",
+      "authors": "Santamaría-Gutiez R, Martínez-Corredor S, González-Sala F, Lacomba-Trejo L.",
+      "journal": "Journal of marital and family therapy",
+      "pmid": "40200679",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40200679",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:36816018",
+      "title": "Genetic and epigenetic effects on couple adjustment in context of romantic relationship: A scoping systematic review.",
+      "doi": "10.3389/fgene.2023.1002048",
+      "year": "2023",
+      "authors": "Khani P, Ansari Dezfouli M, Nasri F, Rahemi M, Ahmadloo S, Afkhami H, Saeidi F, Tereshchenko S, Bigdeli MR, Modarressi MH.",
+      "journal": "Frontiers in genetics",
+      "pmid": "36816018",
+      "pmcid": "PMC9937082",
+      "url": "https://europepmc.org/article/MED/36816018",
+      "publication_types": [
+        "Scoping Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:20545405",
+      "title": "Effects of parenting education with expectant and new parents: a meta-analysis.",
+      "doi": "10.1037/a0019691",
+      "year": "2010",
+      "authors": "Pinquart M, Teubert D.",
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "pmid": "20545405",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/20545405",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42205333",
+      "title": "Factors Associated with Intentions for Sexual Consent: A National Comparison Study Among Three East Asian Countries.",
+      "doi": "10.1080/19317611.2025.2601610",
+      "year": "2026",
+      "authors": "Hong Y, Li G, Park S.",
+      "journal": "International journal of sexual health : official journal of the World Association for Sexual Health",
+      "pmid": "42205333",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42205333",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40891967",
+      "title": "Exploring How Large Language Models Understand Sexual Communication in Hypothetical Sexual Situations.",
+      "doi": "10.1080/00224499.2025.2547814",
+      "year": "2026",
+      "authors": "Vowels LM, Marcantonio T.",
+      "journal": "Journal of sex research",
+      "pmid": "40891967",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40891967",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42215733",
+      "title": "Sexual Communication: Assessing the Validity of Three Scales that Reflect In-Person, Text-Based, and Voice Chat-Based Frequency of Communication Among U.S. Young Adults.",
+      "doi": "10.1007/s10508-026-03444-y",
+      "year": "2026",
+      "authors": "Maes C, Kotiuga J, Maheux AJ.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "42215733",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42215733",
+      "publication_types": [
+        "Validation Study",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42641052",
+      "title": "Norms and Sanctions for Talking About Sex: Women's Sexual Communication with Friends.",
+      "doi": "10.1080/00224499.2026.2714427",
+      "year": "2026",
+      "authors": "Pariera KL, Blasband A, Job M.",
+      "journal": "Journal of sex research",
+      "pmid": "42641052",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42641052",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42503591",
+      "title": "Validation of the Multidimensional Sexual Communication Questionnaires: A Framework for Assessing Content and Process Domains.",
+      "doi": "10.1007/s10508-026-03479-1",
+      "year": "2026",
+      "authors": "Wasson KS, Bőthe B, Rosen NO, Bergeron S, Rehman US.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "42503591",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42503591",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Validation Study",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41966705",
+      "title": "Humor in Sexual Communication and Sexual Well-Being Outcomes Among Mother-Daughter Dyads.",
+      "doi": "10.1080/00224499.2026.2653032",
+      "year": "2026",
+      "authors": "Schmil-Itzhak L, Efrati Y.",
+      "journal": "Journal of sex research",
+      "pmid": "41966705",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41966705",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41785252",
+      "title": "The role of childhood traumas on father-child sexual communication language: Self-esteem, social anxiety and sexual education.",
+      "doi": "10.1371/journal.pone.0340776",
+      "year": "2026",
+      "authors": "Güngör I, Artan IZ.",
+      "journal": "PloS one",
+      "pmid": "41785252",
+      "pmcid": "PMC12962492",
+      "url": "https://europepmc.org/article/MED/41785252",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41805159",
+      "title": "Sexual Communication and Satisfaction in Queer Relationships: A Dyadic Approach.",
+      "doi": "10.1080/00224499.2026.2630962",
+      "year": "2026",
+      "authors": "Sorg M, Reindl IM, Greitemeyer T.",
+      "journal": "Journal of sex research",
+      "pmid": "41805159",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41805159",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42392439",
+      "title": "Beyond incontinence: a systematic review and meta-analysis of sexual dysfunction after anal fistula surgery.",
+      "doi": "10.1016/j.gassur.2026.102504",
+      "year": "2026",
+      "authors": "Garg P, Mahak G, Choudhary PR, Sattyadeep G, Yagnik VD.",
+      "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
+      "pmid": "42392439",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42392439",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42128615",
+      "title": "Time toxicity of patients with cancer enrolled in clinical trials: a systematic review and meta-analysis.",
+      "doi": "10.1136/spcare-2025-006038",
+      "year": "2026",
+      "authors": "Chow R, Im JHB, Richards GC, Zimmermann C, Heneghan C.",
+      "journal": "BMJ supportive & palliative care",
+      "pmid": "42128615",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42128615",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41144507",
+      "title": "Adverse Psychological Events Associated With Mohs Micrographic Surgery: A Rapid Review and Meta-Analysis.",
+      "doi": "10.1097/dss.0000000000004925",
+      "year": "2026",
+      "authors": "Schmaling KB, Sharon VR, Wilken R, Blume AW.",
+      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+      "pmid": "41144507",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41144507",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42153656",
+      "title": "Facial Canal Dehiscence: Systematic Review and Meta-analysis of Prevalence in Healthy Subjects.",
+      "doi": "10.1097/mao.0000000000004938",
+      "year": "2026",
+      "authors": "Patel P, Ansbro R, Hardman JC.",
+      "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+      "pmid": "42153656",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42153656",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42455968",
+      "title": "Revealing the Weakness of Evidence Regarding Presumed Consent Efficacy: A Systematic, Framework-guided Review of Cross-country Panel Studies.",
+      "doi": "10.1097/tp.0000000000005819",
+      "year": "2026",
+      "authors": "Soria-Oliver M, García-Sánchez R, Martínez JM, Martín MJ, Domínguez-Gil B, López JS.",
+      "journal": "Transplantation",
+      "pmid": "42455968",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42455968",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42219076",
+      "title": "Risk of Retinal Detachment After Intravitreal Injection of Anti-VEGF: A Systematic Review and Meta-Analysis.",
+      "doi": "10.1016/j.ajo.2026.05.042",
+      "year": "2026",
+      "authors": "Mikhail D, Tao BK, Yu P, Calicchia L, Butt FR, Dhivagaran T, Al-Qattan HM, Feo A, Quarta A, Mishra AV, Seamone ME, Navajas EV, Kertes PJ, Wong DT, Muni RH, Kaplan AJ, Yan P, Popovic MM.",
+      "journal": "American journal of ophthalmology",
+      "pmid": "42219076",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42219076",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42050812",
+      "title": "Frenotomy for Ankyloglossia Associated With Feeding Challenges in Infants: Effectiveness, Technique, and Safety-A Systematic Review and Meta-Analysis, Part 2.",
+      "doi": null,
+      "year": "2026",
+      "authors": "Dhar V, Marghalani AA, Amini H, Brickhouse T, Caffrey E, Jayaraman J, Keels MA, Messner A, Patterson KK, Raol N, Shrestha P, Stark CM, Susarla HK, Thomas J.",
+      "journal": "Pediatric dentistry",
+      "pmid": "42050812",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42050812",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42332966",
+      "title": "Blockchain-Based Dynamic and Revocable Consent for Secondary Health Data Use: Systematic Review.",
+      "doi": "10.2196/88536",
+      "year": "2026",
+      "authors": "Phuyal S, Bhandari M, Bista R, Ferreira JC.",
+      "journal": "JMIR medical informatics",
+      "pmid": "42332966",
+      "pmcid": "PMC13287375",
+      "url": "https://europepmc.org/article/MED/42332966",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42685048",
+      "title": "Mental load in women and mothers: Causes of distress, personality traits, and psychopathology.",
+      "doi": "10.1371/journal.pone.0356255",
+      "year": "2026",
+      "authors": "Jungmann SM, Garbe Huedo SF, Jacobs KAS, Pothorn NK.",
+      "journal": "PloS one",
+      "pmid": "42685048",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42685048",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42630014",
+      "title": "Unequal Burdens, Unequal Benefits: Housework, Mental Load, and Gendered Satisfaction in Heterosexual Relationships.",
+      "doi": "10.1177/01461672261474320",
+      "year": "2026",
+      "authors": "Klein V, Ascigil E, Oschatz T, Kahalon R.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "42630014",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42630014",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42183820",
+      "title": "Correction to: A novel tool for measuring mental load in dermatology: construction and validation of the \"Dermatological Mental Load Questionnaire (DMLQ)\" in patients with atopic dermatitis.",
+      "doi": "10.1093/ced/llag209",
+      "year": "2026",
+      "authors": null,
+      "journal": "Clinical and experimental dermatology",
+      "pmid": "42183820",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42183820",
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41885636",
+      "title": "Validation of the Dermatological Mental Load Questionnaire in patients with chronic skin conditions.",
+      "doi": "10.1093/ced/llag148",
+      "year": "2026",
+      "authors": "Halioua B, Demessant-Flavigny A, Merhand S, BenHayoun Y, LeFloc'h C, Kerob D, Sampogna F, Taieb C.",
+      "journal": "Clinical and experimental dermatology",
+      "pmid": "41885636",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41885636",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42524425",
+      "title": "Physical and mental load of tactical athletes during Arctic military training.",
+      "doi": "10.3389/fspor.2026.1861009",
+      "year": "2026",
+      "authors": "van den Berg NH, Michaud X, Vaara JP, Ojanen T, Kyröläinen H, Martin A, Haman F, Heikkinen R, Van Cutsem J, Pattyn N, Helen J, Simonelli G.",
+      "journal": "Frontiers in sports and active living",
+      "pmid": "42524425",
+      "pmcid": "PMC13410677",
+      "url": "https://europepmc.org/article/MED/42524425",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41575795",
+      "title": "Adaptation of a novice robotic nurse team to the Medtronic Hugo RAS system.",
+      "doi": "10.12968/bjon.2025.0140",
+      "year": "2026",
+      "authors": "Olsen RG, Stadeager MW, Togsverd-Bo M, Kongeb L, Bramsholm IM, Møller L, Røder A, Bjerrum F.",
+      "journal": "British journal of nursing (Mark Allen Publishing)",
+      "pmid": "41575795",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41575795",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41206611",
+      "title": "Addressing the unseen strain: mental load in atopic dermatitis - a nationwide French study.",
+      "doi": "10.1093/ced/llaf497",
+      "year": "2026",
+      "authors": "Taieb C, Skayem C, Merhand S, BenHayoun Y, Staumont-Salle D.",
+      "journal": "Clinical and experimental dermatology",
+      "pmid": "41206611",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41206611",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41638941",
+      "title": "Mental load: An often-overlooked aspect of the surgical profession.",
+      "doi": "10.1016/j.jviscsurg.2026.01.002",
+      "year": "2026",
+      "authors": "Slim K, Pocard M.",
+      "journal": "Journal of visceral surgery",
+      "pmid": "41638941",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41638941",
+      "publication_types": [
+        "Editorial"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41788882",
+      "title": "Evaluating the methods used to examine sitting breaks and their influence on mental load, physical strain, and cognitive performance - a scoping review.",
+      "doi": "10.3389/fphys.2026.1755356",
+      "year": "2026",
+      "authors": "Freyer M, Jost C, Jankowiak S, Bressem KA, Hegewald J.",
+      "journal": "Frontiers in physiology",
+      "pmid": "41788882",
+      "pmcid": "PMC12956524",
+      "url": "https://europepmc.org/article/MED/41788882",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38164583",
+      "title": "Measurement of visual function in infantile nystagmus: a systematic review.",
+      "doi": "10.1136/bjo-2023-324254",
+      "year": "2024",
+      "authors": "Almagren B, Nystagmus UK Eye Research Group (NUKE), Dunn MJ.",
+      "journal": "The British journal of ophthalmology",
+      "pmid": "38164583",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38164583",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38235004",
+      "title": "Effect of music on driving performance and physiological and psychological indicators: A systematic review and meta-analysis study.",
+      "doi": "10.34172/hpp.2023.32",
+      "year": "2023",
+      "authors": "Ghojazadeh M, Farhoudi M, Rezaei M, Rahnemayan S, Narimani M, Sadeghi-Bazargani H.",
+      "journal": "Health promotion perspectives",
+      "pmid": "38235004",
+      "pmcid": "PMC10790125",
+      "url": "https://europepmc.org/article/MED/38235004",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:35010678",
+      "title": "Mental Load and Fatigue Assessment Instruments: A Systematic Review.",
+      "doi": "10.3390/ijerph19010419",
+      "year": "2021",
+      "authors": "Díaz-García J, González-Ponce I, Ponce-Bordón JC, López-Gajardo MÁ, Ramírez-Bravo I, Rubio-Morales A, García-Calvo T.",
+      "journal": "International journal of environmental research and public health",
+      "pmid": "35010678",
+      "pmcid": "PMC8744873",
+      "url": "https://europepmc.org/article/MED/35010678",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:30927508",
+      "title": "Patients' Perspectives and Experience of Psoriasis and Psoriatic Arthritis: A Systematic Review and Thematic Synthesis of Qualitative Studies.",
+      "doi": "10.1002/acr.23896",
+      "year": "2020",
+      "authors": "Sumpton D, Kelly A, Tunnicliffe DJ, Craig JC, Hassett G, Chessman D, Tong A.",
+      "journal": "Arthritis care & research",
+      "pmid": "30927508",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/30927508",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42716328",
+      "title": "The Role of Inferior Parietal Lobule in Emotion Dysregulation in Bipolar Disorder.",
+      "doi": "10.1016/j.neubiorev.2026.106939",
+      "year": "2026",
+      "authors": "Ellard KK, Zheng J, Lenza B, Sidelinger L, Carr C, Makhoul W, Sheline YI.",
+      "journal": "Neuroscience and biobehavioral reviews",
+      "pmid": "42716328",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42716328",
+      "publication_types": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42658636",
+      "title": "Acceptance and vagal reactivity: Insights from a laboratory-based study of emotion regulation in late life.",
+      "doi": "10.1037/emo0001737",
+      "year": "2026",
+      "authors": "Fu LX, Rompilla DB, Mikels JA, Haase CM.",
+      "journal": "Emotion (Washington, D.C.)",
+      "pmid": "42658636",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42658636",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42559539",
+      "title": "Prolonged Exposure and Emotion Regulation Skills Training: A Pilot Study Among Veterans with Military Sexual Trauma-Related PTSD and Difficulties with Emotion Regulation.",
+      "doi": "10.1016/j.cbpra.2025.12.005",
+      "year": "2026",
+      "authors": "Gilmore AK, Thompson C, Martinez J, Prince J, Muzzy W, Hart S, Murphy S, Vaughn J, Hamski S, Chipman T, Foa E, Acierno R.",
+      "journal": "Cognitive and behavioral practice",
+      "pmid": "42559539",
+      "pmcid": "PMC13441421",
+      "url": "https://europepmc.org/article/MED/42559539",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42670295",
+      "title": "The Effects of Adverse Childhood Experiences (ACEs) on Change in Emotion Regulation Difficulty in Clinical Couples.",
+      "doi": "10.1111/famp.70190",
+      "year": "2026",
+      "authors": "Barrow BH, Bradford AB, Dyer JW, Witting AB, Johnson LN.",
+      "journal": "Family process",
+      "pmid": "42670295",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42670295",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42717443",
+      "title": "Associations Between Emotion Regulation, Callous-Unemotional Traits, and Bullying in Middle Childhood.",
+      "doi": "10.1177/08862605261478656",
+      "year": "2026",
+      "authors": "Wilke J, Rademacher A, von Düring U, Cauffman E, Zumbach-Basu J.",
+      "journal": "Journal of interpersonal violence",
+      "pmid": "42717443",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42717443",
+      "publication_types": [
+        "IM",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42568907",
+      "title": "The influence of college students' \"Wan Geng\" motivation on emotion regulation self-efficacy.",
+      "doi": "10.3389/fpsyg.2026.1802652",
+      "year": "2026",
+      "authors": "He Z, Zhao Y, Shan Y, Wan F, Liu T.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42568907",
+      "pmcid": "PMC13448810",
+      "url": "https://europepmc.org/article/MED/42568907",
+      "publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42710007",
+      "title": "The relationship between trait mindfulness and problematic smartphone use: the serial mediation role of difficulties with emotion regulation and fear of missing out.",
+      "doi": "10.1080/13548506.2026.2731629",
+      "year": "2026",
+      "authors": "Hidalgo-Fuentes S, Martínez-Álvarez I, González-Pérez E, Llamas-Salguero F.",
+      "journal": "Psychology, health & medicine",
+      "pmid": "42710007",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42710007",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42624742",
+      "title": "The longitudinal association between physical activity and insomnia symptoms among Chinese adolescents: The mediating role of maladaptive cognitive emotion regulation and the moderating role of sex.",
+      "doi": "10.1016/j.sleh.2026.07.007",
+      "year": "2026",
+      "authors": "Hu C, Liu W, Wu M, Wang X, Gao Y.",
+      "journal": "Sleep health",
+      "pmid": "42624742",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42624742",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42215453",
+      "title": "Emotion regulation impairment across psychiatric disorders: a systematic review and meta-analysis.",
+      "doi": "10.1038/s41398-026-04119-x",
+      "year": "2026",
+      "authors": "Sloan ME, Stellern J, Xiao KB, Germeyer A, Gill K, Laputsina V, Mulsant BH, Ngoy A, Nguyen M, Tang VM, Sanches M, Gowin JL.",
+      "journal": "Translational psychiatry",
+      "pmid": "42215453",
+      "pmcid": "PMC13424126",
+      "url": "https://europepmc.org/article/MED/42215453",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42564061",
+      "title": "The impact of mindfulness intervention on emotion regulation in athletes: a meta-analysis.",
+      "doi": "10.3389/fpsyg.2026.1875000",
+      "year": "2026",
+      "authors": "Li J, Lu J, Fang D.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42564061",
+      "pmcid": "PMC13441827",
+      "url": "https://europepmc.org/article/MED/42564061",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42521870",
+      "title": "Characterizing brain structural and functional abnormalities in borderline personality disorder by seed-based d mapping approach.",
+      "doi": "10.1007/s11682-026-01182-2",
+      "year": "2026",
+      "authors": "Qiu W, Li S, Zhang A, Yu H, Cui J, Xu Y, Ping L, Zheng H, Dong C, Li K, Zhou C.",
+      "journal": "Brain imaging and behavior",
+      "pmid": "42521870",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42521870",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42069166",
+      "title": "Rethinking the link between cognitive control and emotion regulation: A meta-analytic review.",
+      "doi": "10.1016/j.neubiorev.2026.106708",
+      "year": "2026",
+      "authors": "Schulze K, Mueller I, Holt DV, Putz S, Barnow S, Pruessner L.",
+      "journal": "Neuroscience and biobehavioral reviews",
+      "pmid": "42069166",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42069166",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42475994",
+      "title": "Emotion regulation in children with social anxiety: A systematic review and meta-analysis.",
+      "doi": "10.1016/j.janxdis.2026.103210",
+      "year": "2026",
+      "authors": "Werkmann NL, Schwenck C.",
+      "journal": "Journal of anxiety disorders",
+      "pmid": "42475994",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42475994",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42314507",
+      "title": "Meta-analysis of associations between childhood emotional abuse and adulthood emotion regulation.",
+      "doi": "10.1016/j.cpr.2026.102778",
+      "year": "2026",
+      "authors": "Amini-Tehrani M, Mazidi M, Ranjbar S, Ohan JL, Weinborn M, Naragon-Gainey K.",
+      "journal": "Clinical psychology review",
+      "pmid": "42314507",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42314507",
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42098872",
+      "title": "Cultural background and pandemic context as moderators of the association between expressive suppression and sleep quality in healthy adults: a systematic review and meta‑analysis.",
+      "doi": "10.1186/s40359-026-04527-0",
+      "year": "2026",
+      "authors": "Donglin W, Xuewei W, Syed Jaapar SZ, Ab Razak A.",
+      "journal": "BMC psychology",
+      "pmid": "42098872",
+      "pmcid": "PMC13321729",
+      "url": "https://europepmc.org/article/MED/42098872",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41946422",
+      "title": "Transdiagnostic effects of mindfulness-based interventions on emotion regulation and psychopathology in adolescents: A systematic review and meta-analysis.",
+      "doi": "10.1016/j.jad.2026.121738",
+      "year": "2026",
+      "authors": "Zhao H, Huang H.",
+      "journal": "Journal of affective disorders",
+      "pmid": "41946422",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41946422",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39788614",
+      "title": "Unpacking the Role of Multidimensional Romantic Jealousy in the Perpetration of Cyber Dating Abuse: The Mediating Role of Self-Esteem.",
+      "doi": "10.1891/vv-2024-0139",
+      "year": "2025",
+      "authors": "Bhogal MS, Galbraith N, Guy A, Rhead C, Lalli G.",
+      "journal": "Violence and victims",
+      "pmid": "39788614",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39788614",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39843831",
+      "title": "Romantic Jealousy, Cortisol, and Dark Chocolate.",
+      "doi": "10.1007/s10508-025-03089-3",
+      "year": "2025",
+      "authors": "Chuang JY.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "39843831",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39843831",
+      "publication_types": [
+        "Letter"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40420506",
+      "title": "Romantic Jealousy, Intimate Partner Violence, and Envy: An Ethnographic Study of Acid Attacks in Cambodia.",
+      "doi": "10.1177/08862605251318270",
+      "year": "2026",
+      "authors": "Eisenbruch M.",
+      "journal": "Journal of interpersonal violence",
+      "pmid": "40420506",
+      "pmcid": "PMC12858653",
+      "url": "https://europepmc.org/article/MED/40420506",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39679998",
+      "title": "Mixed signals: Romantic jealousy and ambivalence in relationships.",
+      "doi": "10.1037/emo0001458",
+      "year": "2025",
+      "authors": "Đurić M, Righetti F, Zoppolat G, Lohmer C, Schneider IK.",
+      "journal": "Emotion (Washington, D.C.)",
+      "pmid": "39679998",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/39679998",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42022421",
+      "title": "Localizing adult playfulness in dimensions of romantic attachment and jealousy in singles.",
+      "doi": "10.3389/fpsyg.2026.1776141",
+      "year": "2026",
+      "authors": "Brauer K, Proyer RT.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42022421",
+      "pmcid": "PMC13096026",
+      "url": "https://europepmc.org/article/MED/42022421",
+      "publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41885857",
+      "title": "Personality, Jealousy, and Empathy as Predictors of Cyber Dating Abuse Perpetration and Victimization in Young Adults.",
+      "doi": "10.1177/00332941261436663",
+      "year": "2026",
+      "authors": "Mattu HK, Bhogal MS, Guy A, Galbraith N.",
+      "journal": "Psychological reports",
+      "pmid": "41885857",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41885857",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40713727",
+      "title": "Evaluating cervical screening coverage in Royal Navy personnel at sea (2016-2023): a case study on the limitations of digital surveillance.",
+      "doi": "10.1136/military-2025-003019",
+      "year": "2026",
+      "authors": "Morris KA, Taylor H, Griffin C, Tilbury M.",
+      "journal": "BMJ military health",
+      "pmid": "40713727",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40713727",
+      "publication_types": [
+        "Letter"
+      ],
+      "abstract_available": false,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40619915",
+      "title": "Burning emotions: taxonomy of acid attacks in Cambodia and the cultural construction of jealousy and envy.",
+      "doi": "10.1192/bjp.2025.10306",
+      "year": "2026",
+      "authors": "Eisenbruch M.",
+      "journal": "The British journal of psychiatry : the journal of mental science",
+      "pmid": "40619915",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40619915",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42344246",
+      "title": "Occupational health and safety in the wake of COVID-19: insights from India's workforce.",
+      "doi": "10.3389/fpubh.2026.1807940",
+      "year": "2026",
+      "authors": "Birhman N, Kharkwal G, Roy S, Shaikh N, Velamuri PS, Lata H, Saxena A, Satija A, Singh KJ, Madan T, Kishore J, Kanti P, Anand T.",
+      "journal": "Frontiers in public health",
+      "pmid": "42344246",
+      "pmcid": "PMC13287014",
+      "url": "https://europepmc.org/article/MED/42344246",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38509693",
+      "title": "Representation of marginalised populations in digital surveillance for notifiable conditions in Australia: a systematic review.",
+      "doi": "10.1177/17579139241237101",
+      "year": "2024",
+      "authors": "Dias-Karunaratne N, Whop L, Ward J, Vujovich-Dunn C, Amin J, Dakiniewich A, Dyda A.",
+      "journal": "Perspectives in public health",
+      "pmid": "38509693",
+      "pmcid": "PMC11103913",
+      "url": "https://europepmc.org/article/MED/38509693",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:32781565",
+      "title": "A Mixed-Methods Systematic Review: Infidelity, Romantic Jealousy and Intimate Partner Violence against Women.",
+      "doi": "10.3390/ijerph17165682",
+      "year": "2020",
+      "authors": "Pichon M, Treves-Kagan S, Stern E, Kyegombe N, Stöckl H, Buller AM.",
+      "journal": "International journal of environmental research and public health",
+      "pmid": "32781565",
+      "pmcid": "PMC7459695",
+      "url": "https://europepmc.org/article/MED/32781565",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39141074",
+      "title": "Internet-based Surveillance Systems and Infectious Diseases Prediction: An Updated Review of the Last 10 Years and Lessons from the COVID-19 Pandemic.",
+      "doi": "10.1007/s44197-024-00272-y",
+      "year": "2024",
+      "authors": "McClymont H, Lambert SB, Barr I, Vardoulakis S, Bambrick H, Hu W.",
+      "journal": "Journal of epidemiology and global health",
+      "pmid": "39141074",
+      "pmcid": "PMC11442909",
+      "url": "https://europepmc.org/article/MED/39141074",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:37204833",
+      "title": "Effectiveness of Public Health Digital Surveillance Systems for Infectious Disease Prevention and Control at Mass Gatherings: Systematic Review.",
+      "doi": "10.2196/44649",
+      "year": "2023",
+      "authors": "Maddah N, Verma A, Almashmoum M, Ainsworth J.",
+      "journal": "Journal of medical Internet research",
+      "pmid": "37204833",
+      "pmcid": "PMC10238952",
+      "url": "https://europepmc.org/article/MED/37204833",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:34543228",
+      "title": "Ethics, Integrity, and Retributions of Digital Detection Surveillance Systems for Infectious Diseases: Systematic Literature Review.",
+      "doi": "10.2196/32328",
+      "year": "2021",
+      "authors": "Zhao IY, Ma YX, Yu MWC, Liu J, Dong WN, Pang Q, Lu XQ, Molassiotis A, Holroyd E, Wong CWW.",
+      "journal": "Journal of medical Internet research",
+      "pmid": "34543228",
+      "pmcid": "PMC8530254",
+      "url": "https://europepmc.org/article/MED/34543228",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:34187472",
+      "title": "Nocturnal digital surveillance in aged populations and its effects on health, welfare and social care provision: a systematic review.",
+      "doi": "10.1186/s12913-021-06624-9",
+      "year": "2021",
+      "authors": "Richardson MX, Ehn M, Stridsberg SL, Redekop K, Wamala-Andersson S.",
+      "journal": "BMC health services research",
+      "pmid": "34187472",
+      "pmcid": "PMC8241531",
+      "url": "https://europepmc.org/article/MED/34187472",
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42630018",
+      "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles' Well-Being Across Cohorts.",
+      "doi": "10.1177/01461672261475727",
+      "year": "2026",
+      "authors": "Hoan E, MacDonald G, Johnson MD.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "42630018",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42630018",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC227"
+    },
+    {
+      "id": "MED:42032860",
+      "title": "Happily Ever After? Singles' Expectations of Romantic Relationships Are Associated With Singlehood Satisfaction and Future Romantic Outcomes.",
+      "doi": "10.1177/01461672261438616",
+      "year": "2026",
+      "authors": "Wells T, Hoan E, MacDonald G.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "42032860",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42032860",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41399843",
+      "title": "Who Signs Up for Singlehood and Romantic Relationship Studies? Examining Volunteer Bias in Online Recruitment.",
+      "doi": "10.1177/01461672251390020",
+      "year": "2025",
+      "authors": "Hoan E, Park Y, MacDonald G.",
+      "journal": "Personality & social psychology bulletin",
+      "pmid": "41399843",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41399843",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42560348",
+      "title": "Psychosocial Health in Adults Who Have Undergone Treatment for Cleft Lip and Palate: A Meta-Analysis.",
+      "doi": "10.1177/10556656261475443",
+      "year": "2026",
+      "authors": "Abi Zeid Daou C, Carapiperis I, Khalil L, Ghzayel L, Jalkh RM, Dunya G, Patel K.",
+      "journal": "The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association",
+      "pmid": "42560348",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42560348",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41484538",
+      "title": "\"I Could Practice Flirting Without Pressure\": A Proof-of-Concept Study of an AI Chatbot-Assisted Intervention for Men Facing Distressing Involuntary Singlehood.",
+      "doi": "10.1007/s10508-025-03356-3",
+      "year": "2026",
+      "authors": "Lafortune D, Lapointe VA, Canivet C, Bonneau J, Hassan G, Boislard MA, Calazana F, Labrie C, Dubé S.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "41484538",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41484538",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41525385",
+      "title": "Life satisfaction, loneliness, and depressivity in consistently single young adults in Germany and the United Kingdom.",
+      "doi": "10.1037/pspp0000595",
+      "year": "2026",
+      "authors": "Krämer MD, Stern J, Buchinger L, MacDonald G, Bleidorn W.",
+      "journal": "Journal of personality and social psychology",
+      "pmid": "41525385",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41525385",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41160569",
+      "title": "Sociodemographic and cultural factors are related to singlehood rates: A multilevel analysis across 59 countries from the World Values Survey.",
+      "doi": "10.1371/journal.pone.0335416",
+      "year": "2025",
+      "authors": "Kowal M, Adamczyk K.",
+      "journal": "PloS one",
+      "pmid": "41160569",
+      "pmcid": "PMC12571265",
+      "url": "https://europepmc.org/article/MED/41160569",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42347800",
+      "title": "Attachment insecurities interact with caregiving and sexuality to predict relationship satisfaction in first-time parents.",
+      "doi": "10.1037/fam0001496",
+      "year": "2026",
+      "authors": "Brassard A, Beaulieu N, Negura I, Dubé S, Lafontaine MF, Brault-Labbé A, Gosselin P, Péloquin K.",
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "pmid": "42347800",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42347800",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41772902",
+      "title": "Predictors of stability and change of attachment avoidance and anxiety over the transition to parenthood.",
+      "doi": "10.1080/14616734.2026.2637554",
+      "year": "2026",
+      "authors": "Bailes LG, Augustine ME, Girod SA, Leerkes EM.",
+      "journal": "Attachment & human development",
+      "pmid": "41772902",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41772902",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40991793",
+      "title": "Retraction of \"Perceptions of partner responsiveness across the transition to parenthood\" by Smallen et al. (2022).",
+      "doi": "10.1037/fam0001358",
+      "year": "2025",
+      "authors": null,
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "pmid": "40991793",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40991793",
+      "publication_types": [
+        "Journal Article",
+        "Retraction Notice"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42205344",
+      "title": "Sexual experiences of new fathers in the first year postpartum.",
+      "doi": "10.1080/19317611.2025.2610321",
+      "year": "2026",
+      "authors": "Jansen TJ, Robinson BE, Jennings L, Vencill JA.",
+      "journal": "International journal of sexual health : official journal of the World Association for Sexual Health",
+      "pmid": "42205344",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42205344",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42512230",
+      "title": "The Effect of Parenthood on Health Lifestyles: A Longitudinal Analysis Using Data from the German Socio-Economic Panel.",
+      "doi": "10.3390/ijerph23070926",
+      "year": "2026",
+      "authors": "Großbach M, Linden P, Reibling N.",
+      "journal": "International journal of environmental research and public health",
+      "pmid": "42512230",
+      "pmcid": "PMC13410006",
+      "url": "https://europepmc.org/article/MED/42512230",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42545382",
+      "title": "Changes in parent-grandparent relationship quality and links with parents' distress throughout the transition to parenthood.",
+      "doi": "10.1037/fam0001522",
+      "year": "2026",
+      "authors": "van den Hurk GJ, Geeraerts SB, Missler MA, Boelen PA, Branje S.",
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "pmid": "42545382",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42545382",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42658607",
+      "title": "The development of a parental identity during the transition to parenthood: A psychological resource for first-time parents' well-being.",
+      "doi": "10.1037/dev0002251",
+      "year": "2026",
+      "authors": "Schrooyen C, Beyers W, Soenens B.",
+      "journal": "Developmental psychology",
+      "pmid": "42658607",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42658607",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40932763",
+      "title": "Retraction of \"Here one time, gone the next: Fluctuations in support received and provided predict changes in relationship satisfaction across the transition to parenthood,\" by Eller et al. (2022).",
+      "doi": "10.1037/pspi0000505",
+      "year": "2025",
+      "authors": null,
+      "journal": "Journal of personality and social psychology",
+      "pmid": "40932763",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40932763",
+      "publication_types": [
+        "Letter",
+        "Retraction Notice"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41024307",
+      "title": "Effectiveness of digital interventions on relationship satisfaction among couples: a systematic review and meta-analysis.",
+      "doi": "10.1186/s40359-025-03444-y",
+      "year": "2025",
+      "authors": "Kernová L, Halamová J, Deriglazov D.",
+      "journal": "BMC psychology",
+      "pmid": "41024307",
+      "pmcid": "PMC12482273",
+      "url": "https://europepmc.org/article/MED/41024307",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41652530",
+      "title": "The effectiveness of mobile app-based interventions to improve parental mental health: a meta-analysis.",
+      "doi": "10.1186/s40359-026-04104-5",
+      "year": "2026",
+      "authors": "Maral S, Uygun EG, Erus SM.",
+      "journal": "BMC psychology",
+      "pmid": "41652530",
+      "pmcid": "PMC12973784",
+      "url": "https://europepmc.org/article/MED/41652530",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41468175",
+      "title": "Female Sexual Dysfunction in Primary Care: A Systematic Review and Meta-Analysis of Prevalence.",
+      "doi": "10.1177/15409996251410095",
+      "year": "2026",
+      "authors": "Vechiu C, Zimmermann M, Aubuchon-Endsley N, Kegley M, Beker K, Hmaidan R, O'Donohue WT.",
+      "journal": "Journal of women's health (2002)",
+      "pmid": "41468175",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41468175",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42029817",
+      "title": "Problematic Love Behaviors and Correlated Factors: A Systematic Review with Subgroup Meta-Analysis Including Gender/Sex Moderation.",
+      "doi": "10.1007/s10508-026-03420-6",
+      "year": "2026",
+      "authors": "Sánchez-Fernández M, Almeda N, Borda-Mas M.",
+      "journal": "Archives of sexual behavior",
+      "pmid": "42029817",
+      "pmcid": "PMC13194331",
+      "url": "https://europepmc.org/article/MED/42029817",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40388149",
+      "title": "The effect of mindfulness interventions on couple relationship satisfaction: A systematic review and meta-analysis.",
+      "doi": "10.1037/ccp0000954",
+      "year": "2025",
+      "authors": "Voldstad A, Zeas-Sigüenza A, Skolzkov A, Walthaug M, Montero-Marín J, Kuyken W.",
+      "journal": "Journal of consulting and clinical psychology",
+      "pmid": "40388149",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40388149",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41135309",
+      "title": "Physician responses to patients' emotional cues and concerns and their association with patient-related outcomes.",
+      "doi": "10.1016/j.pec.2025.109386",
+      "year": "2026",
+      "authors": "Gössi F, Arpagaus A, Gross S, Zumbrunn SK, Bissmann B, Hunziker S, Becker C.",
+      "journal": "Patient education and counseling",
+      "pmid": "41135309",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41135309",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40505258",
+      "title": "Effectiveness of parenting interventions on self-efficacy, anxiety, stress, and depression among parents of preterm infants: A systematic review and meta-analysis of randomized control trials.",
+      "doi": "10.1016/j.ijnurstu.2025.105128",
+      "year": "2025",
+      "authors": "Dewi DTK, Nguyen CTT, Chen SR, Lee GT, Tsai SY, Huda MH, Kuo SY.",
+      "journal": "International journal of nursing studies",
+      "pmid": "40505258",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40505258",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    }
+  ]
+}

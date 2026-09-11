@@ -139,7 +139,10 @@
       "angle_ja": "別れを整理する時間と、同じ確認を繰り返す時間を分ける。",
       "search_query": "relationship breakup rumination recovery systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC205",
+        "SRC206"
+      ],
       "caution_ja": "回復の期限を示さず、連絡や復縁を強制しない。",
       "related_topic_ids": [
         "PSY-EMO-004",
@@ -149,7 +152,11 @@
         "type": "illustrative_scenario",
         "description_ja": "別れを整理する時間と、同じ確認を繰り返す時間を分ける。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C098",
+        "R3-C099"
+      ]
     },
     {
       "id": "PSY-LIF-007",
@@ -271,7 +278,9 @@
       "angle_ja": "諦めることと、今できる目標に切り替えることを区別する。",
       "search_query": "goal adjustment chronic illness adaptation systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC207"
+      ],
       "caution_ja": "医学的なリハビリや治療を中断する助言にしない。",
       "related_topic_ids": [
         "PSY-MOT-004",
@@ -281,7 +290,10 @@
         "type": "illustrative_scenario",
         "description_ja": "諦めることと、今できる目標に切り替えることを区別する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C100"
+      ]
     },
     {
       "id": "PSY-LIF-012",
@@ -293,7 +305,9 @@
       "angle_ja": "入学や転職直後の気まずさを、相性の悪さと決めつけない。",
       "search_query": "belonging uncertainty social transition systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC208"
+      ],
       "caution_ja": "実際の差別や排除を単なる思い込みとして片づけない。",
       "related_topic_ids": [
         "PSY-SOC-006",
@@ -303,7 +317,10 @@
         "type": "illustrative_scenario",
         "description_ja": "入学や転職直後の気まずさを、相性の悪さと決めつけない。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C101"
+      ]
     }
   ]
 }

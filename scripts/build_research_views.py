@@ -117,13 +117,14 @@ def build() -> dict:
         'definition_ja': 'テーマ別の最大調査優先度で表示。リンク数・引用数では加点しない。未評価は順位なし。',
         'sources': sort_sources(list(global_rows.values()))})
     editorial = []
-    for line in (ROOT / 'research/round3_editorial.psv').read_text(encoding='utf-8').splitlines():
-        if not line.strip() or line.startswith('#'):
-            continue
-        tid, values, reason = line.split('|')
-        tid = 'PSY-' + tid
+    for input_row in load('data/editorial_assessments.json')['assessments']:
+        tid=input_row['topic_id']
         assert tid in topics
-        daily, action, interest, breadth = map(int, values.split(','))
+        daily=input_row['daily_relevance']
+        action=input_row['actionability']
+        interest=input_row['interest']
+        breadth=input_row['audience_breadth']
+        reason=input_row['reason_ja']
         assert all(1 <= x <= 5 for x in (daily, action, interest, breadth))
         score = daily*8 + action*5 + interest*4 + breadth*3
         editorial.append({'topic_id': tid, 'title_ja': topics[tid]['title_ja'], 'editorial_score': score,

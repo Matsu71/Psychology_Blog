@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "environment",
+  "topics": [
+    {
+      "topic_id": "PSY-ENV-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-001-SRC081",
+          "source_id": "SRC081",
+          "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-002-SRC082",
+          "source_id": "SRC082",
+          "title": "Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers: A Controlled Exposure Study of Green and Conventional Office Environments.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-003-SRC187",
+          "source_id": "SRC187",
+          "title": "WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Effects on Sleep.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "著者らの確実性は結果別に中程度から非常に低い。全ての音源や慣れの効果に一般化しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-004-SRC188",
+          "source_id": "SRC188",
+          "title": "The impact of the 'open' workspace on human collaboration.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "challenges",
+          "limits_ja": "無作為化でなく、同時期の他の変化を除けない。全オフィスに同じ減少率を当てはめない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-005-SRC070",
+          "source_id": "SRC070",
+          "title": "Spending at least 120 minutes a week in nature is associated with good health and wellbeing.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ENV-005-SRC079",
+          "source_id": "SRC079",
+          "title": "Effect of Greening Vacant Land on Mental Health of Community-Dwelling Adults: A Cluster Randomized Trial.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-ENV-005-SRC080",
+          "source_id": "SRC080",
+          "title": "Error in Figure.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": true,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-006-SRC229",
+          "source_id": "SRC229",
+          "title": "Display clutter and its effects on visual attention distribution and financial risk judgment.",
+          "review_scope": "abstract",
+          "relation_role": "context_only",
+          "conclusion_direction": "context",
+          "limits_ja": "部屋の散らかりを直接検証していないため背景資料に限定。片づけの生活指導の根拠にはしない。",
+          "priority_score": 45.0,
+          "components": {
+            "theme_relevance_1_to_5": 2,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-007-SRC189",
+          "source_id": "SRC189",
+          "title": "A naturalistic study of autobiographical memories evoked by olfactory and visual cues: testing the Proustian hypothesis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "鮮明さや感情の強さは記憶の事実的正確さとは別。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-008",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-008-SRC041",
+          "source_id": "SRC041",
+          "title": "Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-009-SRC078",
+          "source_id": "SRC078",
+          "title": "A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-010-SRC190",
+          "source_id": "SRC190",
+          "title": "Color and psychological functioning: a review of theoretical and empirical work.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "部屋の色で集中力を確実に変えられるという介入効果の証明ではない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-ENV-010-SRC191",
+          "source_id": "SRC191",
+          "title": "A Historically Based Review of Empirical Work on Color and Psychological Functioning: Content, Methods, and Recommendations for Future Research",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "context",
+          "limits_ja": "概説であり特定の色の効果量を算出したメタ分析ではない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-011",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-ENV-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-012-SRC192",
+          "source_id": "SRC192",
+          "title": "A synthesis of health benefits of natural sounds and their distribution in national parks.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "効果量の区間が広い指標があり、音源・対照条件・介入内容が異なる。特定音源や治療効果を保証しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

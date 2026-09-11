@@ -1,0 +1,3005 @@
+{
+  "schema_version": "1.0",
+  "topics": [
+    {
+      "topic_id": "PSY-SLP-001",
+      "title_ja": "自分に必要な睡眠時間はどう見極める？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 6,
+      "editorial_score": 91
+    },
+    {
+      "topic_id": "PSY-SLP-002",
+      "title_ja": "朝の光と夜の明るさは体内時計にどう関わる？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 2,
+      "editorial_score": 87
+    },
+    {
+      "topic_id": "PSY-SLP-003",
+      "title_ja": "夜型は怠けなのか？クロノタイプと社会的時差",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SLP-004",
+      "title_ja": "コーヒーは何時まで？カフェインと睡眠の個人差",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 4,
+      "editorial_score": 100
+    },
+    {
+      "topic_id": "PSY-SLP-005",
+      "title_ja": "寝酒で眠れるのに、睡眠の質は下がるのか？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SLP-006",
+      "title_ja": "昼寝は味方か、夜の睡眠の敵か？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SLP-007",
+      "title_ja": "休日の寝だめで平日の睡眠不足は取り戻せる？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 2,
+      "editorial_score": 95
+    },
+    {
+      "topic_id": "PSY-SLP-008",
+      "title_ja": "眠ろうと頑張るほど眠れないのはなぜ？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SLP-009",
+      "title_ja": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 1,
+      "editorial_score": 100
+    },
+    {
+      "topic_id": "PSY-SLP-010",
+      "title_ja": "睡眠アプリの点数はどこまで信じてよい？",
+      "category_id": "sleep",
+      "topic_file": "data/topics/01_sleep.json",
+      "evidence_file": "data/evidence/sleep.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
+      "source_count": 4,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-GEN-001",
+      "title_ja": "性格には遺伝がどれくらい影響する？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 4,
+      "editorial_score": 90
+    },
+    {
+      "topic_id": "PSY-GEN-002",
+      "title_ja": "遺伝率50％は『あなたの半分が遺伝で決まる』ではない",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 3,
+      "editorial_score": 77
+    },
+    {
+      "topic_id": "PSY-GEN-003",
+      "title_ja": "一卵性双生児の研究から何が分かり、何が分からない？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-004",
+      "title_ja": "同じ家庭で育ったきょうだいの性格が違うのはなぜ？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-005",
+      "title_ja": "遺伝の影響が強い特徴でも、環境で変わる？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-006",
+      "title_ja": "人は自分の性格に合う環境を選んでいる？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-007",
+      "title_ja": "市販の遺伝子検査で性格や向いている仕事が分かる？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-008",
+      "title_ja": "『性格を決める一つの遺伝子』という説明は妥当？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-009",
+      "title_ja": "ストレス体験はエピジェネティクスで次世代に伝わる？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-GEN-010",
+      "title_ja": "生まれつきの気質と、育ってからの性格はどう違う？",
+      "category_id": "genetics",
+      "topic_file": "data/topics/02_genetics.json",
+      "evidence_file": "data/evidence/genetics.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-001",
+      "title_ja": "なぜ人はタバコをやめにくくなるのか？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 2,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-ADD-002",
+      "title_ja": "食後や休憩中に吸いたくなる：場所と合図の力",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-003",
+      "title_ja": "禁煙すると集中できないのはなぜ？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-004",
+      "title_ja": "タバコでストレスが減るという感覚をどう理解する？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 2,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-ADD-005",
+      "title_ja": "禁煙中に眠りにくくなることはある？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-006",
+      "title_ja": "禁煙は根性だけより、支援を組み合わせる方がよい？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-007",
+      "title_ja": "一度吸ってしまったら禁煙は失敗なのか？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-008",
+      "title_ja": "ドーパミンは本当に『快楽物質』なのか？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-009",
+      "title_ja": "ギャンブルの『次こそ当たる』はなぜ強い？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ADD-010",
+      "title_ja": "スマホの使いすぎと依存症は同じなのか？",
+      "category_id": "addiction",
+      "topic_file": "data/topics/03_addiction.json",
+      "evidence_file": "data/evidence/addiction.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/addiction.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-001",
+      "title_ja": "習慣は21日で身につく？必要な期間の個人差",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 2,
+      "editorial_score": 96
+    },
+    {
+      "topic_id": "PSY-HAB-002",
+      "title_ja": "続けたい行動には『いつ・どこで』を決めるべき？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-003",
+      "title_ja": "一日サボると習慣はリセットされる？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-004",
+      "title_ja": "『毎日やっている』と『習慣になった』は違う？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-005",
+      "title_ja": "『もしXならYする』は行動を助ける？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 3,
+      "editorial_score": 89
+    },
+    {
+      "topic_id": "PSY-HAB-006",
+      "title_ja": "やる気を増やすより、始める手間を減らす方がよい？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "title_ja": "記録をつけるだけで行動は変わる？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-008",
+      "title_ja": "行動にご褒美をつけると、続くのか続かなくなるのか？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-009",
+      "title_ja": "引っ越しや転職は悪い習慣を変えるチャンス？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HAB-010",
+      "title_ja": "自分を縛る仕組みは先延ばしを減らす？",
+      "category_id": "habits",
+      "topic_file": "data/topics/04_habits.json",
+      "evidence_file": "data/evidence/habits.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-001",
+      "title_ja": "性格を5つの軸で見る：ビッグファイブは何を測る？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-002",
+      "title_ja": "大人になってから性格は変わる？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 2,
+      "editorial_score": 95
+    },
+    {
+      "topic_id": "PSY-PER-003",
+      "title_ja": "内向的な人は人付き合いで不利なのか？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 1,
+      "editorial_score": 86
+    },
+    {
+      "topic_id": "PSY-PER-004",
+      "title_ja": "心配しやすい性格には長所もある？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-005",
+      "title_ja": "まじめさと健康・仕事の成果はどう関係する？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-006",
+      "title_ja": "自分の性格を、本人と周囲は同じように見ている？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-007",
+      "title_ja": "場面で性格が変わるのは『本当の自分』がないから？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-008",
+      "title_ja": "性格診断が『当たっている』と感じるのはなぜ？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-009",
+      "title_ja": "『繊細な人』という言葉は研究ではどう扱われる？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-PER-010",
+      "title_ja": "自信を高めることと、自分を受け入れることは同じ？",
+      "category_id": "personality",
+      "topic_file": "data/topics/05_personality.json",
+      "evidence_file": "data/evidence/personality.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-001",
+      "title_ja": "先延ばしは時間管理の問題か、感情の問題か？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": 100
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "title_ja": "やる気が出るのを待つより、先に少し動くべき？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "title_ja": "自分で選んだ目標は、押し付けられた目標より続く？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "title_ja": "目標は具体的で難しい方がよいのか？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "title_ja": "成功を想像するだけで行動は増える？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "title_ja": "完璧にやろうとするほど着手できなくなる？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 1,
+      "editorial_score": 85
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "title_ja": "ご褒美をもらうと好きなことまで嫌になる？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "title_ja": "成長マインドセットは誰に、どんな場面で役立つ？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "title_ja": "失敗したとき、自分に厳しい方が再挑戦できる？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MOT-010",
+      "title_ja": "新年や月曜日にやる気が出る『フレッシュスタート』は続く？",
+      "category_id": "motivation",
+      "topic_file": "data/topics/06_motivation.json",
+      "evidence_file": "data/evidence/motivation.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-001",
+      "title_ja": "読み直すより思い出す練習：テスト効果を勉強に使うには？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 2,
+      "editorial_score": 93
+    },
+    {
+      "topic_id": "PSY-LEA-002",
+      "title_ja": "一夜漬けと分散学習、長く覚えられるのはどちら？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "title_ja": "似た問題をまとめず、混ぜて解くと学びやすい？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-004",
+      "title_ja": "人に説明するつもりで学ぶと理解は深まる？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-005",
+      "title_ja": "マーカーだらけのノートは勉強になる？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-006",
+      "title_ja": "『なぜそうなる？』を自分に問う学習は役立つ？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-007",
+      "title_ja": "『分かったつもり』はどうすれば見抜ける？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "title_ja": "視覚型・聴覚型に合わせて学ぶ方法には根拠がある？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-009",
+      "title_ja": "間違えてから答えを見ることにも学習効果はある？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LEA-010",
+      "title_ja": "覚えた後に眠ると記憶はどう変わる？",
+      "category_id": "learning",
+      "topic_file": "data/topics/07_learning.json",
+      "evidence_file": "data/evidence/learning.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-001",
+      "title_ja": "マルチタスクは本当に時間の節約になる？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "title_ja": "通知を見ていなくても集中は途切れる？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "title_ja": "中断した仕事に戻りにくいのはなぜ？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 1,
+      "editorial_score": 85
+    },
+    {
+      "topic_id": "PSY-ATT-004",
+      "title_ja": "短い休憩で集中力は戻る？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 1,
+      "editorial_score": 96
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "title_ja": "音楽を聴きながらの勉強は、どんなときに向く？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 1,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-ATT-006",
+      "title_ja": "ぼんやりする時間は創造性に役立つ？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-007",
+      "title_ja": "考え続けて疲れる『頭の疲労』は何を意味する？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 5,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-008",
+      "title_ja": "締切が近いほど集中できるのはよいこと？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-009",
+      "title_ja": "フロー状態は狙って作れる？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ATT-010",
+      "title_ja": "瞑想の練習で集中力は改善する？",
+      "category_id": "attention",
+      "topic_file": "data/topics/08_attention.json",
+      "evidence_file": "data/evidence/attention.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-001",
+      "title_ja": "なぜ自分の意見に合う情報ばかり集めてしまう？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-002",
+      "title_ja": "最初に見た値段が判断の基準になる？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-003",
+      "title_ja": "得する喜びより損する痛みが大きいのか？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "title_ja": "もう払ったお金が、やめる判断を邪魔する？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 0,
+      "editorial_score": 88
+    },
+    {
+      "topic_id": "PSY-DEC-005",
+      "title_ja": "同じ内容でも言い方で選択は変わる？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-006",
+      "title_ja": "選択肢が多いほど選べなくなるのは本当？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 1,
+      "editorial_score": 95
+    },
+    {
+      "topic_id": "PSY-DEC-007",
+      "title_ja": "未来の自分より今の自分を優先してしまうのはなぜ？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-008",
+      "title_ja": "『自分は大丈夫』と思うのはなぜ？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-009",
+      "title_ja": "ダニング＝クルーガー効果はどこまで本当？",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEC-010",
+      "title_ja": "初期設定のままにするのはなぜ？デフォルト効果",
+      "category_id": "decisions",
+      "topic_file": "data/topics/09_decisions.json",
+      "evidence_file": "data/evidence/decisions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-001",
+      "title_ja": "ストレスは全部悪いのか？短期反応と慢性的な負担",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 5,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-002",
+      "title_ja": "出来事の見方を変えると気分は変わる？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-003",
+      "title_ja": "感情を隠すことと、感情が落ち着くことは同じ？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "title_ja": "考えて整理することと、考えすぎることはどう違う？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-005",
+      "title_ja": "感情に名前をつけると落ち着ける？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "title_ja": "ゆっくり呼吸すると緊張は下がる？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-007",
+      "title_ja": "嫌な出来事を書き出すと気持ちは軽くなる？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "title_ja": "怒りを発散すれば、怒りは収まる？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 1,
+      "editorial_score": 87
+    },
+    {
+      "topic_id": "PSY-EMO-009",
+      "title_ja": "将来の幸福や後悔を、私たちは正しく予測できる？",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EMO-010",
+      "title_ja": "笑顔を作ると気分も変わる？表情フィードバックを検証する",
+      "category_id": "emotions",
+      "topic_file": "data/topics/10_emotions.json",
+      "evidence_file": "data/evidence/emotions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-001",
+      "title_ja": "セルフケアと専門家への相談は、どう使い分ける？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 6,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-002",
+      "title_ja": "認知行動療法は『前向きに考える練習』なのか？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-003",
+      "title_ja": "不安なことを避け続けると、不安はどう変わる？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-004",
+      "title_ja": "気分が落ち込んだとき、活動を増やす治療は何をする？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-005",
+      "title_ja": "マインドフルネスはどこまで効果が確かめられている？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 3,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-MEN-006",
+      "title_ja": "瞑想でかえってつらくなることはある？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-007",
+      "title_ja": "仕事の燃え尽きは、普通の疲れやうつとどう違う？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-008",
+      "title_ja": "痛みの感じ方に、注意や期待はどう関わる？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-009",
+      "title_ja": "『効くと思う』ことで何が変わる？プラセボとノセボ",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MEN-010",
+      "title_ja": "心の健康アプリやAI相談は専門家の代わりになる？",
+      "category_id": "mental_health",
+      "topic_file": "data/topics/11_mental_health.json",
+      "evidence_file": "data/evidence/mental_health.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/mental_health.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-001",
+      "title_ja": "友人の多さと健康は、どう関係している？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-002",
+      "title_ja": "一人でいることと孤独を感じることは違う？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 3,
+      "editorial_score": 86
+    },
+    {
+      "topic_id": "PSY-REL-003",
+      "title_ja": "助けてもらえる感覚と、実際に受けた助けは同じ効果？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-004",
+      "title_ja": "話を聞いてもらうと、なぜ安心できる？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-005",
+      "title_ja": "自分のことを話すと距離は縮まる？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-006",
+      "title_ja": "相手が喜んでいるとき、どんな反応が関係を育てる？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-007",
+      "title_ja": "断ることが苦手な人に、アサーションは役立つ？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-008",
+      "title_ja": "恋愛の愛着スタイルは一生変わらない？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-009",
+      "title_ja": "謝れば許される？信頼を取り戻す謝罪の条件",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-REL-010",
+      "title_ja": "対立のとき、相手の立場を想像するだけで分かり合える？",
+      "category_id": "relationships",
+      "topic_file": "data/topics/12_relationships.json",
+      "evidence_file": "data/evidence/relationships.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-001",
+      "title_ja": "『みんながやっている』と聞くと行動が変わる？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-002",
+      "title_ja": "周囲に合わせてしまうのは、判断力が弱いから？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-003",
+      "title_ja": "人が多いほど助けてもらえない？傍観者効果の条件",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-004",
+      "title_ja": "第一印象が他の評価まで引っ張る？ハロー効果",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-005",
+      "title_ja": "自分の失敗は事情のせい、他人の失敗は性格のせい？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-006",
+      "title_ja": "自分はみんなに見られている？スポットライト効果",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-007",
+      "title_ja": "見慣れたものを好きになるのはなぜ？単純接触効果",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-008",
+      "title_ja": "強く説得されると、かえって反発したくなる？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-SOC-009",
+      "title_ja": "チームの『言いにくさ』は仕事の質に影響する？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 1,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-SOC-010",
+      "title_ja": "有名な社会的プライミング研究はどこまで再現した？",
+      "category_id": "social",
+      "topic_file": "data/topics/13_social.json",
+      "evidence_file": "data/evidence/social.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-001",
+      "title_ja": "幸福は『今の気分』と『人生への満足』で違う？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "title_ja": "よかったことを書き留める習慣は気分に役立つ？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 2,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "title_ja": "よいことにも慣れる：快楽順応は避けられる？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-004",
+      "title_ja": "物を買うのと経験を買うのでは、満足度が違う？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "title_ja": "お金が増えれば幸福も増える？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 2,
+      "editorial_score": 90
+    },
+    {
+      "topic_id": "PSY-WEL-006",
+      "title_ja": "人のために何かすると、自分も幸福になる？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "title_ja": "他人と比べるほど満足しにくくなる？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-008",
+      "title_ja": "人生の意味を感じることは健康と関係する？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "title_ja": "自由時間が多ければ多いほど幸せなのか？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WEL-010",
+      "title_ja": "自然の中で過ごすと気分はよくなる？",
+      "category_id": "wellbeing",
+      "topic_file": "data/topics/14_wellbeing.json",
+      "evidence_file": "data/evidence/wellbeing.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-001",
+      "title_ja": "一度体を動かすだけでも気分は変わる？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-002",
+      "title_ja": "運動はうつや不安のケアでどんな役割を持つ？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 5,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-EXE-003",
+      "title_ja": "散歩程度の運動にも意味はある？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-004",
+      "title_ja": "座りっぱなしを中断すると何が変わる？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-005",
+      "title_ja": "夜の運動は睡眠を妨げるのか？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 2,
+      "editorial_score": 85
+    },
+    {
+      "topic_id": "PSY-EXE-006",
+      "title_ja": "運動を続けるには、楽しさと達成感のどちらが大事？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-007",
+      "title_ja": "一人で運動するのと仲間と行うのでは続けやすさが違う？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-008",
+      "title_ja": "筋力トレーニングは気分や自己評価にも関係する？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-009",
+      "title_ja": "運動すると頭も働きやすくなる？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-EXE-010",
+      "title_ja": "休むことへの罪悪感は、運動の継続を妨げる？",
+      "category_id": "exercise",
+      "topic_file": "data/topics/15_exercise.json",
+      "evidence_file": "data/evidence/exercise.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-001",
+      "title_ja": "ストレスを感じると食べたくなるのはなぜ？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-002",
+      "title_ja": "超加工食品は、なぜ食べすぎにつながる可能性がある？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-003",
+      "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 2,
+      "editorial_score": 91
+    },
+    {
+      "topic_id": "PSY-NUT-004",
+      "title_ja": "ゆっくり食べると満腹になりやすい？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-005",
+      "title_ja": "食べ物が見える場所にあると、つい手が伸びる？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-006",
+      "title_ja": "睡眠不足と空腹感はどう関係する？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-007",
+      "title_ja": "食生活の改善は気分のケアにも役立つ？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-008",
+      "title_ja": "腸内細菌で性格や気分は変わる？人の研究を読む",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": 79
+    },
+    {
+      "topic_id": "PSY-NUT-009",
+      "title_ja": "空腹や満腹に注意を向ける食べ方には根拠がある？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-NUT-010",
+      "title_ja": "厳しすぎる食事ルールは、かえって続きにくい？",
+      "category_id": "nutrition",
+      "topic_file": "data/topics/16_nutrition.json",
+      "evidence_file": "data/evidence/nutrition.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/nutrition.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-001",
+      "title_ja": "子どもを褒めるとき、才能と取り組み方で違いはある？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-002",
+      "title_ja": "マシュマロを待てる子は将来成功する、は本当？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 2,
+      "editorial_score": 79
+    },
+    {
+      "topic_id": "PSY-DEV-003",
+      "title_ja": "子どもの自制心は、どのように育つ？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-004",
+      "title_ja": "子どもの強い感情を、大人はどう支えられる？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-005",
+      "title_ja": "幼い頃の愛着が、その後の人間関係を決める？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-006",
+      "title_ja": "読み聞かせでは、本の量と会話の質のどちらが重要？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-007",
+      "title_ja": "子どもの画面時間は、長さだけで判断してよい？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-008",
+      "title_ja": "思春期に夜型になるのは生活態度だけの問題？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-009",
+      "title_ja": "いじめが心身に及ぼす影響と、周囲にできる支援",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DEV-010",
+      "title_ja": "子どもだけでなく、保護者の支援も大切なのはなぜ？",
+      "category_id": "development",
+      "topic_file": "data/topics/17_development.json",
+      "evidence_file": "data/evidence/development.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/development.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-001",
+      "title_ja": "年齢を重ねると、すべての知的能力が下がる？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-002",
+      "title_ja": "脳トレで伸びるのはゲームの点数だけ？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-003",
+      "title_ja": "認知機能のケアは、一つの習慣より組み合わせが重要？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-004",
+      "title_ja": "聞こえにくさは会話や認知機能にどう関わる？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-005",
+      "title_ja": "学び続けることは認知機能の予備力になる？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-006",
+      "title_ja": "年齢を重ねた後の社会参加にはどんな意味がある？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-007",
+      "title_ja": "加齢による睡眠の変化と、相談した方がよい不眠は違う？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-008",
+      "title_ja": "家族を支える人の心身をどう守る？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-009",
+      "title_ja": "年齢とともに感情の扱い方は変わる？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-AGE-010",
+      "title_ja": "忘れないためにメモや通知を使うと記憶力は衰える？",
+      "category_id": "aging",
+      "topic_file": "data/topics/18_aging.json",
+      "evidence_file": "data/evidence/aging.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/aging.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-001",
+      "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 2,
+      "editorial_score": 91
+    },
+    {
+      "topic_id": "PSY-DIG-002",
+      "title_ja": "SNSは見るだけと交流する使い方で違う？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-003",
+      "title_ja": "不安なニュースを見続けてしまうのはなぜ？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-004",
+      "title_ja": "デジタルデトックスは気分や生活を改善する？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 3,
+      "editorial_score": 96
+    },
+    {
+      "topic_id": "PSY-DIG-005",
+      "title_ja": "見逃すのが怖い：FOMOはどう測られる？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-006",
+      "title_ja": "無限スクロールや自動再生は、やめどきを変える？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-007",
+      "title_ja": "会話中にスマホを見ると、相手はどう感じる？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-008",
+      "title_ja": "オンラインの嫌な交流から心を守るには？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-009",
+      "title_ja": "何度も見る情報は本当らしく感じる？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-DIG-010",
+      "title_ja": "夜のスマホと睡眠は、ブルーライトだけの問題？",
+      "category_id": "digital",
+      "topic_file": "data/topics/19_digital.json",
+      "evidence_file": "data/evidence/digital.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-001",
+      "title_ja": "『関係がある』は『原因である』とは違う",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 5,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "title_ja": "心理学の研究はなぜ追試が必要なのか？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 4,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "title_ja": "『有意差あり』でも日常で実感できる効果とは限らない？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "title_ja": "メタ分析なら結論を信じてよい？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-005",
+      "title_ja": "p値0.05は『95％の確率で正しい』という意味？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "title_ja": "効果があった研究ばかりが目立つのはなぜ？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "title_ja": "マウスで効いた方法は、人にも効く？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "title_ja": "海外の大学生の研究は、日本の生活にも当てはまる？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 5,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "title_ja": "論文に訂正や撤回が出たら、記事はどう更新すべき？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "title_ja": "自分に合う習慣を試すとき、何を記録するとよい？",
+      "category_id": "research_literacy",
+      "topic_file": "data/topics/20_research_literacy.json",
+      "evidence_file": "data/evidence/research_literacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "title_ja": "在宅と出社を組み合わせると仕事の成果はどう変わる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "title_ja": "仕事を終えても頭から離れないのはなぜ？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 2,
+      "editorial_score": 93
+    },
+    {
+      "topic_id": "PSY-WRK-003",
+      "title_ja": "仕事のストレスは忙しさだけで決まる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-004",
+      "title_ja": "頑張りに見合う評価がないと何が起きる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-005",
+      "title_ja": "笑顔で接客し続ける仕事はなぜ疲れる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-006",
+      "title_ja": "仕事のやり方を自分で工夫すると満足度は上がる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-007",
+      "title_ja": "好きな仕事より自分に合う仕事を選ぶべき？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-008",
+      "title_ja": "通勤時間は睡眠や気分にどれくらい関わる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-009",
+      "title_ja": "会議が続くと仕事が進まないのはなぜ？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-010",
+      "title_ja": "夜の仕事連絡は返さなくても負担になる？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "title_ja": "実績があっても自信が持てない：インポスター感とは？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": 79
+    },
+    {
+      "topic_id": "PSY-WRK-012",
+      "title_ja": "仕事に熱中することと働きすぎをやめられないことは違う？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-013",
+      "title_ja": "週4日勤務は休みが増えるだけでなく健康にも影響する？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-WRK-014",
+      "title_ja": "職場で雑談する時間には意味がある？",
+      "category_id": "work",
+      "topic_file": "data/topics/21_work.json",
+      "evidence_file": "data/evidence/work.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/work.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-001",
+      "title_ja": "家事を外注して時間を買うと幸福度は上がる？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": 89
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "title_ja": "キャッシュレスだと現金より使いすぎる？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": 96
+    },
+    {
+      "topic_id": "PSY-MON-003",
+      "title_ja": "同じお金なのにボーナスだけ使いやすいのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-004",
+      "title_ja": "買うときに支払いの痛みを感じるのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-005",
+      "title_ja": "疲れた夜に衝動買いしやすくなる？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-006",
+      "title_ja": "お金の心配は考える余裕を奪う？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-007",
+      "title_ja": "パートナーとお金の話が難しいのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "title_ja": "使わないサブスクを解約できないのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 0,
+      "editorial_score": 88
+    },
+    {
+      "topic_id": "PSY-MON-009",
+      "title_ja": "期間限定や残りわずかに弱いのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-010",
+      "title_ja": "無料が魅力的すぎるのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-011",
+      "title_ja": "自分の持ち物を高く評価するのはなぜ？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-012",
+      "title_ja": "最高の買い物を探し続けるほど満足しなくなる？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-013",
+      "title_ja": "贈る側が喜ばれると思う物と欲しい物は違う？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-MON-014",
+      "title_ja": "借金と心の健康はどう関係する？",
+      "category_id": "money_consumption",
+      "topic_file": "data/topics/22_money_consumption.json",
+      "evidence_file": "data/evidence/money_consumption.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-001",
+      "title_ja": "長続きする関係は性格の相性で予測できる？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-002",
+      "title_ja": "二人で新しいことをすると関係は変わる？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-003",
+      "title_ja": "性的な頻度が多いほど満足度は高い？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-004",
+      "title_ja": "親密になりたい頻度が違うとき、どう考える？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-005",
+      "title_ja": "親しい相手とも希望や境界を言葉にした方がよい？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-006",
+      "title_ja": "家事の不満は作業時間より考える負担から生じる？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-INT-007",
+      "title_ja": "睡眠不足の日はパートナーと衝突しやすい？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-008",
+      "title_ja": "SNSで相手を確認し続けると安心できる？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-009",
+      "title_ja": "似た者同士と正反対の二人、どちらが合う？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-010",
+      "title_ja": "恋人がいないことと不幸であることは同じ？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-011",
+      "title_ja": "子どもが生まれると夫婦関係はどう変わる？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-INT-012",
+      "title_ja": "運命の相手という考え方は関係を助ける？",
+      "category_id": "intimacy",
+      "topic_file": "data/topics/23_intimacy.json",
+      "evidence_file": "data/evidence/intimacy.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-001",
+      "title_ja": "月経前の気分変化はどう記録すると理解しやすい？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-002",
+      "title_ja": "更年期の睡眠や気分の変化には何が関係する？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-003",
+      "title_ja": "緊張するとお腹が痛くなるのは気のせい？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-HPS-004",
+      "title_ja": "心臓のドキドキを気にすると不安が強くなる？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-005",
+      "title_ja": "見た目を他人と比べると自分の体の評価は変わる？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-006",
+      "title_ja": "自分の体を好きになれないとき、無理に肯定すべき？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-007",
+      "title_ja": "ストレスがたまると風邪をひきやすくなる？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-008",
+      "title_ja": "副作用の説明を読むと症状が気になりやすくなる？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-009",
+      "title_ja": "症状を検索するほど心配になるのはなぜ？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-HPS-010",
+      "title_ja": "症状がないと健康上の注意を続けにくいのはなぜ？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-011",
+      "title_ja": "薬や通院を忘れることと、続けたくないことは違う？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-HPS-012",
+      "title_ja": "リスクが半減という説明は、何人減るという説明と同じ？",
+      "category_id": "health_psychology",
+      "topic_file": "data/topics/24_health_psychology.json",
+      "evidence_file": "data/evidence/health_psychology.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
+      "source_count": 1,
+      "editorial_score": 83
+    },
+    {
+      "topic_id": "PSY-ENV-001",
+      "title_ja": "暑い部屋では考える力や集中は変わる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": 88
+    },
+    {
+      "topic_id": "PSY-ENV-002",
+      "title_ja": "換気の悪い会議室では判断が鈍る？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-003",
+      "title_ja": "慣れた騒音でも睡眠やストレスに影響する？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-004",
+      "title_ja": "オープンなオフィスは会話を増やし集中を妨げる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-005",
+      "title_ja": "近所に緑が増えると住民の気分は変わる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 3,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-006",
+      "title_ja": "散らかった部屋は本当に集中を妨げる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-007",
+      "title_ja": "においで昔の記憶がよみがえるのはなぜ？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-008",
+      "title_ja": "窓のある部屋や日中の明るさは生活にどう関わる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-009",
+      "title_ja": "安心できる触れ合いはストレスや痛みに関係する？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-010",
+      "title_ja": "部屋の色だけで集中力や気分は変えられる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-011",
+      "title_ja": "混雑した場所が疲れるのはなぜ？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-ENV-012",
+      "title_ja": "自然の音を流すとリラックスできる？",
+      "category_id": "environment",
+      "topic_file": "data/topics/25_environment.json",
+      "evidence_file": "data/evidence/environment.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-001",
+      "title_ja": "歩きながら考えるとアイデアは出やすくなる？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-002",
+      "title_ja": "知りたいと思ったことは覚えやすい？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-003",
+      "title_ja": "退屈を避けて動画を次々替えると、もっと退屈になる？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": 84
+    },
+    {
+      "topic_id": "PSY-CRE-004",
+      "title_ja": "壮大な景色や音楽で圧倒される感覚には意味がある？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-005",
+      "title_ja": "行き詰まった問題をいったん離れると解ける？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-006",
+      "title_ja": "アイデアを多く出す力と、よい案を選ぶ力は同じ？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-007",
+      "title_ja": "楽器や歌を趣味にすることは心の健康に関係する？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-008",
+      "title_ja": "大人が遊ぶ時間にはどんな価値がある？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-009",
+      "title_ja": "笑いで気分を切り替える方法には向き不向きがある？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-010",
+      "title_ja": "懐かしさを感じると孤独や不安は変わる？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-011",
+      "title_ja": "制約がある方がアイデアを出しやすい？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-CRE-012",
+      "title_ja": "皆で話すより、先に一人で案を書く方がよい？",
+      "category_id": "creativity",
+      "topic_file": "data/topics/26_creativity.json",
+      "evidence_file": "data/evidence/creativity.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-001",
+      "title_ja": "大人になってから外国語を学ぶのは遅い？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 2,
+      "editorial_score": 80
+    },
+    {
+      "topic_id": "PSY-LAN-002",
+      "title_ja": "二つの言語を話すと認知能力が高くなる？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-003",
+      "title_ja": "外国語で考えると判断や感情は変わる？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-004",
+      "title_ja": "頭の中で言葉を使って考える量は人によって違う？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-005",
+      "title_ja": "身ぶりを使って説明すると理解や記憶は変わる？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-006",
+      "title_ja": "話し方や訛りだけで信頼性を判断してしまう？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-007",
+      "title_ja": "文字のメッセージはなぜ冷たく受け取られる？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-008",
+      "title_ja": "話が上手いより質問が上手い方が好かれる？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 2,
+      "editorial_score": 89
+    },
+    {
+      "topic_id": "PSY-LAN-009",
+      "title_ja": "知らない人との短い会話は気分を変える？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-010",
+      "title_ja": "説明が伝わったか確かめるには、分かりましたかで十分？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-011",
+      "title_ja": "自分への言葉を少し他人行儀にすると落ち着ける？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LAN-012",
+      "title_ja": "数字より一人の体験談が心に残るのはなぜ？",
+      "category_id": "language",
+      "topic_file": "data/topics/27_language.json",
+      "evidence_file": "data/evidence/language.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-001",
+      "title_ja": "悲しみは決まった順番で乗り越えるもの？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-002",
+      "title_ja": "失業がつらいのは収入が減るからだけ？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-003",
+      "title_ja": "退職すると心身は楽になるのか、張り合いがなくなるのか？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-004",
+      "title_ja": "引っ越しで生活満足度や人間関係はどう変わる？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-005",
+      "title_ja": "子どもが独立した後の寂しさにはどんな個人差がある？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 0,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-006",
+      "title_ja": "別れた後、振り返ることと考え続けることはどう違う？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-007",
+      "title_ja": "家族の病気で先の喪失を心配する気持ちをどう理解する？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-008",
+      "title_ja": "ストレス対処は一つの得意技より使い分けが大切？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-009",
+      "title_ja": "つらい経験をすると必ず成長できる？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-010",
+      "title_ja": "孤独を減らすには、会う人を増やすだけで十分？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 2,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-011",
+      "title_ja": "病気やけがで以前のようにできなくなったとき、目標をどう変える？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": null
+    },
+    {
+      "topic_id": "PSY-LIF-012",
+      "title_ja": "新しい学校や職場で自分だけ浮いていると感じるのはなぜ？",
+      "category_id": "life_transitions",
+      "topic_file": "data/topics/28_life_transitions.json",
+      "evidence_file": "data/evidence/life_transitions.json",
+      "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
+      "source_count": 1,
+      "editorial_score": 80
+    }
+  ]
+}

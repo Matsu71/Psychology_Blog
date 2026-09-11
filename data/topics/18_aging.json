@@ -12,8 +12,13 @@
       "angle_ja": "処理速度、知識、記憶などを別々に研究する。",
       "search_query": "cognitive aging fluid crystallized abilities longitudinal review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "年齢集団の平均から個人の能力や価値を判断しない。世代差と加齢変化を分ける。"
+      "source_ids": [
+        "SRC223"
+      ],
+      "caution_ja": "年齢集団の平均から個人の能力や価値を判断しない。世代差と加齢変化を分ける。",
+      "source_review_ids": [
+        "R3-S125"
+      ]
     },
     {
       "id": "PSY-AGE-002",
@@ -173,8 +178,13 @@
       "angle_ja": "能力の訓練と、日常の失敗を減らす外部支援を分ける。",
       "search_query": "prospective memory external aids cognitive offloading older adults intervention",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "補助具への依存を悪いと決めつけず、生活機能と安全を優先する。"
+      "source_ids": [
+        "SRC157"
+      ],
+      "caution_ja": "補助具への依存を悪いと決めつけず、生活機能と安全を優先する。",
+      "source_review_ids": [
+        "R3-C050"
+      ]
     }
   ]
 }

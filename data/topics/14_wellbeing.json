@@ -49,8 +49,13 @@
       "angle_ja": "買い物や生活の変化への慣れと、味わう行動を研究する。",
       "search_query": "hedonic adaptation positive events savoring intervention review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "重大な生活困難にも全員が完全適応するとしない。"
+      "source_ids": [
+        "SRC145"
+      ],
+      "caution_ja": "重大な生活困難にも全員が完全適応するとしない。",
+      "source_review_ids": [
+        "R3-C038"
+      ]
     },
     {
       "id": "PSY-WEL-004",
@@ -62,8 +67,13 @@
       "angle_ja": "共有、記憶、比較、収入の制約を含めて調べる。",
       "search_query": "experiential material purchases happiness meta analysis socioeconomic",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "必要な生活用品まで経験より劣ると扱わず、支出を一律に勧めない。"
+      "source_ids": [
+        "SRC146"
+      ],
+      "caution_ja": "必要な生活用品まで経験より劣ると扱わず、支出を一律に勧めない。",
+      "source_review_ids": [
+        "R3-C039"
+      ]
     },
     {
       "id": "PSY-WEL-005",
@@ -95,8 +105,13 @@
       "angle_ja": "小さな親切、ボランティア、寄付の違いを比較する。",
       "search_query": "prosocial behavior kindness volunteering well being randomized meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "見返りの保証や無理な自己犠牲の正当化にしない。"
+      "source_ids": [
+        "SRC147"
+      ],
+      "caution_ja": "見返りの保証や無理な自己犠牲の正当化にしない。",
+      "source_review_ids": [
+        "R3-C040"
+      ]
     },
     {
       "id": "PSY-WEL-007",
@@ -121,8 +136,13 @@
       "angle_ja": "役割、目標、日常の充実と長期的な健康の関連を調べる。",
       "search_query": "purpose meaning life health mortality longitudinal meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "意味を見いだせない人を責めず、相関と介入効果を区別する。"
+      "source_ids": [
+        "SRC148"
+      ],
+      "caution_ja": "意味を見いだせない人を責めず、相関と介入効果を区別する。",
+      "source_review_ids": [
+        "R3-C041"
+      ]
     },
     {
       "id": "PSY-WEL-009",

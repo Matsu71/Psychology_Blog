@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-11",
+  "category_count": 28,
+  "topic_count": 300,
+  "new_topic_count": 100,
+  "source_count": 106,
+  "legacy_source_count": 35,
+  "added_source_count": 71,
+  "reviewed_research_count": 68,
+  "correction_notice_count": 3,
+  "brief_linked_topic_count": 139,
+  "original_topics_with_new_briefs": 106,
+  "new_topics_with_briefs": 33,
+  "previously_unreferenced_original_topics_now_linked": 52,
+  "reference_linked_count": 169,
+  "search_pending_count": 131,
+  "illustrative_scenario_count": 168,
+  "study_context_count": 68,
+  "search_request_count": 300,
+  "successful_searches": 300,
+  "failed_searches": 0,
+  "zero_hit_searches": 26,
+  "candidate_record_count": 1105,
+  "original_topic_search_count": 200,
+  "categories": [
+    {
+      "category_id": "sleep",
+      "name_ja": "睡眠・体内時計",
+      "topic_count": 10,
+      "reference_linked_count": 9,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "genetics",
+      "name_ja": "遺伝・環境・気質",
+      "topic_count": 10,
+      "reference_linked_count": 7,
+      "brief_linked_count": 5
+    },
+    {
+      "category_id": "addiction",
+      "name_ja": "依存・報酬・禁煙",
+      "topic_count": 10,
+      "reference_linked_count": 8,
+      "brief_linked_count": 5
+    },
+    {
+      "category_id": "habits",
+      "name_ja": "習慣形成・行動変容",
+      "topic_count": 10,
+      "reference_linked_count": 6,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "personality",
+      "name_ja": "性格・自己理解",
+      "topic_count": 10,
+      "reference_linked_count": 6,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "motivation",
+      "name_ja": "動機づけ・先延ばし",
+      "topic_count": 10,
+      "reference_linked_count": 8,
+      "brief_linked_count": 8
+    },
+    {
+      "category_id": "learning",
+      "name_ja": "学習・記憶・勉強法",
+      "topic_count": 10,
+      "reference_linked_count": 10,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "attention",
+      "name_ja": "注意・集中・仕事の効率",
+      "topic_count": 10,
+      "reference_linked_count": 6,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "decisions",
+      "name_ja": "意思決定・認知バイアス",
+      "topic_count": 10,
+      "reference_linked_count": 1,
+      "brief_linked_count": 1
+    },
+    {
+      "category_id": "emotions",
+      "name_ja": "感情・ストレス対処",
+      "topic_count": 10,
+      "reference_linked_count": 10,
+      "brief_linked_count": 9
+    },
+    {
+      "category_id": "mental_health",
+      "name_ja": "メンタルヘルス・心理療法",
+      "topic_count": 10,
+      "reference_linked_count": 10,
+      "brief_linked_count": 8
+    },
+    {
+      "category_id": "relationships",
+      "name_ja": "対人関係・コミュニケーション",
+      "topic_count": 10,
+      "reference_linked_count": 7,
+      "brief_linked_count": 7
+    },
+    {
+      "category_id": "social",
+      "name_ja": "社会心理・集団・心理効果",
+      "topic_count": 10,
+      "reference_linked_count": 3,
+      "brief_linked_count": 3
+    },
+    {
+      "category_id": "wellbeing",
+      "name_ja": "幸福・生活満足度",
+      "topic_count": 10,
+      "reference_linked_count": 5,
+      "brief_linked_count": 5
+    },
+    {
+      "category_id": "exercise",
+      "name_ja": "運動・身体活動・回復",
+      "topic_count": 10,
+      "reference_linked_count": 8,
+      "brief_linked_count": 7
+    },
+    {
+      "category_id": "nutrition",
+      "name_ja": "食行動・栄養・心身",
+      "topic_count": 10,
+      "reference_linked_count": 6,
+      "brief_linked_count": 2
+    },
+    {
+      "category_id": "development",
+      "name_ja": "発達・子育て・思春期",
+      "topic_count": 10,
+      "reference_linked_count": 5,
+      "brief_linked_count": 1
+    },
+    {
+      "category_id": "aging",
+      "name_ja": "加齢・認知機能・介護",
+      "topic_count": 10,
+      "reference_linked_count": 8,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "digital",
+      "name_ja": "スマホ・SNS・デジタル生活",
+      "topic_count": 10,
+      "reference_linked_count": 4,
+      "brief_linked_count": 3
+    },
+    {
+      "category_id": "research_literacy",
+      "name_ja": "研究の読み方・再現性",
+      "topic_count": 10,
+      "reference_linked_count": 9,
+      "brief_linked_count": 6
+    },
+    {
+      "category_id": "work",
+      "name_ja": "仕事・働き方・キャリア",
+      "topic_count": 14,
+      "reference_linked_count": 7,
+      "brief_linked_count": 7
+    },
+    {
+      "category_id": "money_consumption",
+      "name_ja": "お金・買い物・消費心理",
+      "topic_count": 14,
+      "reference_linked_count": 3,
+      "brief_linked_count": 3
+    },
+    {
+      "category_id": "intimacy",
+      "name_ja": "恋愛・親密さ・パートナーシップ",
+      "topic_count": 12,
+      "reference_linked_count": 2,
+      "brief_linked_count": 2
+    },
+    {
+      "category_id": "health_psychology",
+      "name_ja": "身体感覚・ホルモン・健康行動",
+      "topic_count": 12,
+      "reference_linked_count": 2,
+      "brief_linked_count": 2
+    },
+    {
+      "category_id": "environment",
+      "name_ja": "生活環境・感覚・快適さ",
+      "topic_count": 12,
+      "reference_linked_count": 5,
+      "brief_linked_count": 5
+    },
+    {
+      "category_id": "creativity",
+      "name_ja": "好奇心・創造性・遊び",
+      "topic_count": 12,
+      "reference_linked_count": 4,
+      "brief_linked_count": 4
+    },
+    {
+      "category_id": "language",
+      "name_ja": "言葉・会話・語学・思考",
+      "topic_count": 12,
+      "reference_linked_count": 3,
+      "brief_linked_count": 3
+    },
+    {
+      "category_id": "life_transitions",
+      "name_ja": "人生の変化・喪失・適応",
+      "topic_count": 12,
+      "reference_linked_count": 7,
+      "brief_linked_count": 7
+    }
+  ],
+  "limits_ja": [
+    "重要論文68件は抄録中心の予備読解で、全テーマの正式なエビデンス評価ではない。",
+    "候補件数はデータベースのレコード数。プレプリントと刊行版など同一研究の別版を含み得る。",
+    "既存200テーマは概念検索済み。新規100テーマすべての個別検索は未実施。",
+    "Europe PMC中心の検索には収載分野の偏りがある。各検索の上位5件であり網羅的検索ではない。",
+    "検索の成功は関連文献が存在することや十分な根拠を得たことを意味しない。",
+    "索引上の訂正・関連論文は確認したが、全文・全追試・撤回情報の網羅的精査は未実施。",
+    "生活例は説明用の想定場面であり、実在人物の事例やその方法を直接検証した結果ではない。"
+  ],
+  "relevance_links_removed_in_final_audit": 7
+}

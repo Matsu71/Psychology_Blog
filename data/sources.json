@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "accessed_on": "2026-09-11",
   "evidence_appraisal": "not_assessed",
-  "notes_ja": "旧35資料の確認状態は保持。追加資料は抄録中心の予備読解68件と訂正告知3件。掲載・確認の状態は各レコードを参照。全文査読相当の評価ではない。",
+  "notes_ja": "旧106資料を保持し追加。書誌のみ、抄録、本文指定箇所の確認を分離。信頼性と確実性の正式評価は未実施。",
   "sources": [
     {
       "id": "SRC001",
@@ -2493,6 +2493,2920 @@
       "first_publication_date": "2023-08-03",
       "provenance_query_ids": [
         "SUP-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC107",
+      "title": "Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement.",
+      "authors_display": "Khosla S, Deak MC, Gault D, Goldstein CA, Hwang D, Kwon Y, O'Hearn D, Schutte-Rodin S, Yurcheshen M, Rosen IM, Kirsch DB, Chervin RD, Carden KA, Ramar K, Aurora RN, Kristo DA, Malhotra RK, Martin JL, Olson EJ, Rosen CL, Rowley JA, American Academy of Sleep Medicine Board of Directors.",
+      "year": 2018,
+      "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+      "source_type": "journal_article",
+      "doi": "10.5664/jcsm.7128",
+      "pmid": "29734997",
+      "url": "https://europepmc.org/article/MED/29734997",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.5664%2Fjcsm.7128%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-001",
+        "R3-X-000"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30621844",
+          "source": "MED",
+          "reference": "J Clin Sleep Med. 2019 Jan 15;15(1):159-161. doi: 10.5664/jcsm.7596.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "30621847",
+          "source": "MED",
+          "reference": "J Clin Sleep Med. 2019 Jan 15;15(1):163-165. doi: 10.5664/jcsm.7598.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC108",
+      "title": "Performance of seven consumer sleep-tracking devices compared with polysomnography.",
+      "authors_display": "Chinoy ED, Cuellar JA, Huwa KE, Jameson JT, Watson CH, Bessman SC, Hirsch DA, Cooper AD, Drummond SPA, Markwald RR.",
+      "year": 2021,
+      "journal": "Sleep",
+      "source_type": "journal_article",
+      "doi": "10.1093/sleep/zsaa291",
+      "pmid": "33378539",
+      "url": "https://europepmc.org/article/MED/33378539",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fsleep%2Fzsaa291%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-002",
+        "R3-X-001"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "33782687",
+          "source": "MED",
+          "reference": "Sleep. 2021 May 14;44(5):zsab071. doi: 10.1093/sleep/zsab071",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC109",
+      "title": "Performance of consumer wrist-worn sleep tracking devices compared to polysomnography: a meta-analysis.",
+      "authors_display": "Lee YJ, Lee JY, Cho JH, Kang YJ, Choi JH.",
+      "year": 2025,
+      "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+      "source_type": "journal_article",
+      "doi": "10.5664/jcsm.11460",
+      "pmid": "39484805",
+      "url": "https://europepmc.org/article/MED/39484805",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.5664%2Fjcsm.11460%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-002",
+        "R3-X-002"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC110",
+      "title": "A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography.",
+      "authors_display": "Schyvens AM, Peters B, Van Oost NC, Aerts JM, Masci F, Neven A, Dirix H, Wets G, Ross V, Verbraecken J.",
+      "year": 2025,
+      "journal": "Sleep advances : a journal of the Sleep Research Society",
+      "source_type": "journal_article",
+      "doi": "10.1093/sleepadvances/zpaf021",
+      "pmid": "40303381",
+      "url": "https://europepmc.org/article/MED/40303381",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fsleepadvances%2Fzpaf021%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-002",
+        "R3-X-003"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC111",
+      "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis.",
+      "authors_display": "Gardiner C, Weakley J, Burke LM, Roach GD, Sargent C, Maniar N, Townshend A, Halson SL.",
+      "year": 2023,
+      "journal": "Sleep medicine reviews",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.smrv.2023.101764",
+      "pmid": "36870101",
+      "url": "https://europepmc.org/article/MED/36870101",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.smrv.2023.101764%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-003",
+        "R3-X-004"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC112",
+      "title": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis.",
+      "authors_display": "Gardiner C, Weakley J, Burke LM, Roach GD, Sargent C, Maniar N, Huynh M, Miller DJ, Townshend A, Halson SL.",
+      "year": 2025,
+      "journal": "Sleep medicine reviews",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.smrv.2024.102030",
+      "pmid": "39631226",
+      "url": "https://europepmc.org/article/MED/39631226",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.smrv.2024.102030%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-003",
+        "R3-X-005"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC113",
+      "title": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis.",
+      "authors_display": "Stutz J, Eiholzer R, Spengler CM.",
+      "year": 2019,
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "source_type": "journal_article",
+      "doi": "10.1007/s40279-018-1015-0",
+      "pmid": "30374942",
+      "url": "https://europepmc.org/article/MED/30374942",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs40279-018-1015-0%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-004",
+        "R3-X-006"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC114",
+      "title": "The effects of evening high-intensity exercise on sleep in healthy adults: A systematic review and meta-analysis.",
+      "authors_display": "Frimpong E, Mograss M, Zvionow T, Dang-Vu TT.",
+      "year": 2021,
+      "journal": "Sleep medicine reviews",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.smrv.2021.101535",
+      "pmid": "34416428",
+      "url": "https://europepmc.org/article/MED/34416428",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.smrv.2021.101535%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-004",
+        "R3-X-007"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "34710769",
+          "source": "MED",
+          "reference": "Sleep Med Rev. 2021 Dec;60:101560. doi: 10.1016/j.smrv.2021.101560.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC115",
+      "title": "Clinical use of current polygenic risk scores may exacerbate health disparities.",
+      "authors_display": "Martin AR, Kanai M, Kamatani Y, Okada Y, Neale BM, Daly MJ.",
+      "year": 2019,
+      "journal": "Nature genetics",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41588-019-0379-x",
+      "pmid": "30926966",
+      "url": "https://europepmc.org/article/MED/30926966",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1038%2Fs41588-019-0379-x%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-005",
+        "R3-X-008"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "33510478",
+          "source": "MED",
+          "reference": "Nat Genet. 2021 May;53(5):763. doi: 10.1038/s41588-021-00797-z",
+          "type": "Erratum in",
+          "orderIn": 1
+        },
+        {
+          "id": "37017951",
+          "source": "MED",
+          "reference": "JAMA Psychiatry. 2023 Jun 1;80(6):647. doi: 10.1001/jamapsychiatry.2023.0400",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "PPR58258",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC116",
+      "title": "Publisher Correction: Clinical use of current polygenic risk scores may exacerbate health disparities.",
+      "authors_display": "Martin AR, Kanai M, Kamatani Y, Okada Y, Neale BM, Daly MJ.",
+      "year": 2021,
+      "journal": "Nature genetics",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41588-021-00797-z",
+      "pmid": "33510478",
+      "url": "https://europepmc.org/article/MED/33510478",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1038%2Fs41588-021-00797-z%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "correction_notice",
+      "provenance_query_ids": [
+        "R3-C-005",
+        "R3-X-009"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30926966",
+          "source": "MED",
+          "reference": "Nat Genet. 2019 Apr;51(4):584-591. doi: 10.1038/s41588-019-0379-x",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC117",
+      "title": "Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms.",
+      "authors_display": "Yehuda R, Lehrner A.",
+      "year": 2018,
+      "journal": "World psychiatry : official journal of the World Psychiatric Association (WPA)",
+      "source_type": "journal_article",
+      "doi": "10.1002/wps.20568",
+      "pmid": "30192087",
+      "url": "https://europepmc.org/article/MED/30192087",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2Fwps.20568%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-006",
+        "R3-X-010"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC118",
+      "title": "Gambling near-misses enhance motivation to gamble and recruit win-related brain circuitry.",
+      "authors_display": "Clark L, Lawrence AJ, Astley-Jones F, Gray N.",
+      "year": 2009,
+      "journal": "Neuron",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.neuron.2008.12.031",
+      "pmid": "19217383",
+      "url": "https://europepmc.org/article/MED/19217383",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.neuron.2008.12.031%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-008",
+        "R3-X-011"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC119",
+      "title": "Problematic smartphone use: A conceptual overview and systematic review of relations with anxiety and depression psychopathology.",
+      "authors_display": "Elhai JD, Dvorak RD, Levine JC, Hall BJ.",
+      "year": 2017,
+      "journal": "Journal of affective disorders",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jad.2016.08.030",
+      "pmid": "27736736",
+      "url": "https://europepmc.org/article/MED/27736736",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.jad.2016.08.030%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-009",
+        "R3-X-012"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC120",
+      "title": "The Overlap Between Problematic Smartphone Use and Problematic Social Media Use: a Systematic Review",
+      "authors_display": "Claudia Marino; Natale Canale; Fiordalisa Melodia; Marcantonio M. Spada; Alessio Vieno",
+      "year": 2021,
+      "journal": "Current Addiction Reports",
+      "source_type": "journal_article",
+      "doi": "10.1007/s40429-021-00398-0",
+      "pmid": null,
+      "url": "https://doi.org/10.1007/s40429-021-00398-0",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Problematic+smartphone+use+A+conceptual+overview+and+systematic+review&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-009"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC121",
+      "title": "Problematic Mobile Phone and Smartphone Use Scales: A Systematic Review.",
+      "authors_display": "Harris B, Regan T, Schueler J, Fields SA.",
+      "year": 2020,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2020.00672",
+      "pmid": "32431636",
+      "url": "https://europepmc.org/article/MED/32431636",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3389%2Ffpsyg.2020.00672%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-009",
+        "R3-X-014"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC122",
+      "title": "Personal financial incentives for changing habitual health-related behaviors: A systematic review and meta-analysis.",
+      "authors_display": "Mantzari E, Vogt F, Shemilt I, Wei Y, Higgins JP, Marteau TM.",
+      "year": 2015,
+      "journal": "Preventive medicine",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.ypmed.2015.03.001",
+      "pmid": "25843244",
+      "url": "https://europepmc.org/article/MED/25843244",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.ypmed.2015.03.001%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-010",
+        "R3-X-015"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "25862674",
+          "source": "MED",
+          "reference": "BMJ. 2015 Apr 10;350:h1912. doi: 10.1136/bmj.h1912.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC123",
+      "title": "Context change and travel mode choice: Combining the habit discontinuity and self-activation hypotheses",
+      "authors_display": "Bas Verplanken; Ian Walker; Adrian Davis; Michaela Jurasek",
+      "year": 2008,
+      "journal": "Journal of Environmental Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jenvp.2007.10.005",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.jenvp.2007.10.005",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Habit+discontinuity+and+behaviour+change&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-011"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC124",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "authors_display": "Peter M. Gollwitzer; Paschal Sheeran",
+      "year": 2006,
+      "journal": "Advances in Experimental Social Psychology; Advances in Experimental Social Psychology Volume 38",
+      "source_type": "book_chapter",
+      "doi": "10.1016/s0065-2601(06)38002-1",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/s0065-2601(06)38002-1",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Implementation+intentions+and+goal+achievement+A+meta-analysis+of+effects+and+processes&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-013"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC125",
+      "title": "Costs and benefits of acting extraverted: A randomized controlled trial.",
+      "authors_display": "Jacques-Hamilton R, Sun J, Smillie LD.",
+      "year": 2019,
+      "journal": "Journal of experimental psychology. General",
+      "source_type": "journal_article",
+      "doi": "10.1037/xge0000516",
+      "pmid": "30489119",
+      "url": "https://europepmc.org/article/MED/30489119",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fxge0000516%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-014",
+        "R3-X-018"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "42347822",
+          "source": "MED",
+          "reference": "J Exp Psychol Gen. 2026 Jul;155(7):1725. doi: 10.1037/xge0001339.",
+          "type": "Erratum in",
+          "orderIn": 1
+        },
+        {
+          "id": "PPR333951",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC126",
+      "title": "Whole Trait Theory.",
+      "authors_display": "Fleeson W, Jayawickreme E.",
+      "year": 2015,
+      "journal": "Journal of research in personality",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jrp.2014.10.009",
+      "pmid": "26097268",
+      "url": "https://europepmc.org/article/MED/26097268",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.jrp.2014.10.009%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-015",
+        "R3-X-019"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC127",
+      "title": "The fallacy of personal validation; a classroom demonstration of gullibility.",
+      "authors_display": "FORER BR.",
+      "year": 1949,
+      "journal": "Journal of abnormal psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/h0059240",
+      "pmid": "18110193",
+      "url": "https://europepmc.org/article/MED/18110193",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fh0059240%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-016",
+        "R3-X-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC128",
+      "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation.",
+      "authors_display": "Deci EL, Koestner R, Ryan RM.",
+      "year": 1999,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/0033-2909.125.6.627",
+      "pmid": "10589297",
+      "url": "https://europepmc.org/article/MED/10589297",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0033-2909.125.6.627%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-018",
+        "R3-X-021"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "10589298",
+          "source": "MED",
+          "reference": "Psychol Bull. 1999 Nov;125(6):669-76; discussion 692-700. doi: 10.1037/0033-2909.125.6.669",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "10589299",
+          "source": "MED",
+          "reference": "Psychol Bull. 1999 Nov;125(6):677-91; discussion 692-700. doi: 10.1037/0033-2909.125.6.677",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC129",
+      "title": "The effects of extrinsic rewards in intrinsic motivation: A meta‐analysis",
+      "authors_display": "Uco J. Wiersma",
+      "year": 1992,
+      "journal": "Journal of Occupational and Organizational Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1111/j.2044-8325.1992.tb00488.x",
+      "pmid": null,
+      "url": "https://doi.org/10.1111/j.2044-8325.1992.tb00488.x",
+      "verified_via_url": "https://api.crossref.org/works?query.title=A+meta-analytic+review+of+experiments+examining+the+effects+of+extrinsic+rewards+on+intrinsic+motivation&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-018"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC130",
+      "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+      "authors_display": "Hengchen Dai; Katherine L. Milkman; Jason Riis",
+      "year": 2014,
+      "journal": "Management Science",
+      "source_type": "journal_article",
+      "doi": "10.1287/mnsc.2014.1901",
+      "pmid": null,
+      "url": "https://doi.org/10.1287/mnsc.2014.1901",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+fresh+start+effect+Temporal+landmarks+motivate+aspirational+behavior&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-019"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC131",
+      "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+      "authors_display": "Sophie Leroy",
+      "year": 2009,
+      "journal": "Organizational Behavior and Human Decision Processes",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.obhdp.2009.04.002",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.obhdp.2009.04.002",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Why+is+it+so+hard+to+do+my+work+The+challenge+of+attention+residue+when+switching+between+work+tasks&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-020"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC132",
+      "title": "The impact of background music on adult listeners: A meta-analysis",
+      "authors_display": "Juliane Kämpfe; Peter Sedlmeier; Frank Renkewitz",
+      "year": 2010,
+      "journal": "Psychology of Music",
+      "source_type": "journal_article",
+      "doi": "10.1177/0305735610376261",
+      "pmid": null,
+      "url": "https://doi.org/10.1177/0305735610376261",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+impact+of+background+music+on+adult+listeners+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-021"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC133",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "authors_display": "Richard A. Klein; Michelangelo Vianello; Fred Hasselman; Byron G. Adams; Reginald B. Adams; Sinan Alper; Mark Aveyard; Jordan R. Axt; Mayowa T. Babalola; Štěpán Bahník; Rishtee Batra; Mihály Berkics; Michael J. Bernstein; Daniel R. Berry; Olga Bialobrzeska; Evans Dami Binan; Konrad Bocian; Mark J. Brandt; Robert Busching; Anna Cabak Rédei; Huajian Cai; Fanny Cambier; Katarzyna Cantarero; Cheryl L. Carmichael; Francisco Ceric; Jesse Chandler; Jen-Ho Chang; Armand Chatard; Eva E. Chen; Winnee Cheong; David C. Cicero; Sharon Coen; Jennifer A. Coleman; Brian Collisson; Morgan A. Conway; Katherine S. Corker; Paul G. Curran; Fiery Cushman; Zubairu K. Dagona; Ilker Dalgar; Anna Dalla Rosa; William E. Davis; Maaike de Bruijn; Leander De Schutter; Thierry Devos; Marieke de Vries; Canay Doğulu; Nerisa Dozo; Kristin Nicole Dukes; Yarrow Dunham; Kevin Durrheim; Charles R. Ebersole; John E. Edlund; Anja Eller; Alexander Scott English; Carolyn Finck; Natalia Frankowska; Miguel-Ángel Freyre; Mike Friedman; Elisa Maria Galliani; Joshua C. Gandi; Tanuka Ghoshal; Steffen R. Giessner; Tripat Gill; Timo Gnambs; Ángel Gómez; Roberto González; Jesse Graham; Jon E. Grahe; Ivan Grahek; Eva G. T. Green; Kakul Hai; Matthew Haigh; Elizabeth L. Haines; Michael P. Hall; Marie E. Heffernan; Joshua A. Hicks; Petr Houdek; Jeffrey R. Huntsinger; Ho Phi Huynh; Hans IJzerman; Yoel Inbar; Åse H. Innes-Ker; William Jiménez-Leal; Melissa-Sue John; Jennifer A. Joy-Gaba; Roza G. Kamiloğlu; Heather Barry Kappes; Serdar Karabati; Haruna Karick; Victor N. Keller; Anna Kende; Nicolas Kervyn; Goran Knežević; Carrie Kovacs; Lacy E. Krueger; German Kurapov; Jamie Kurtz; Daniël Lakens; Ljiljana B. Lazarević; Carmel A. Levitan; Neil A. Lewis; Samuel Lins; Nikolette P. Lipsey; Joy E. Losee; Esther Maassen; Angela T. Maitner; Winfrida Malingumu; Robyn K. Mallett; Satia A. Marotta; Janko Međedović; Fernando Mena-Pacheco; Taciano L. Milfont; Wendy L. Morris; Sean C. Murphy; Andriy Myachykov; Nick Neave; Koen Neijenhuijs; Anthony J. Nelson; Félix Neto; Austin Lee Nichols; Aaron Ocampo; Susan L. O’Donnell; Haruka Oikawa; Masanori Oikawa; Elsie Ong; Gábor Orosz; Malgorzata Osowiecka; Grant Packard; Rolando Pérez-Sánchez; Boban Petrović; Ronaldo Pilati; Brad Pinter; Lysandra Podesta; Gabrielle Pogge; Monique M. H. Pollmann; Abraham M. Rutchick; Patricio Saavedra; Alexander K. Saeri; Erika Salomon; Kathleen Schmidt; Felix D. Schönbrodt; Maciej B. Sekerdej; David Sirlopú; Jeanine L. M. Skorinko; Michael A. Smith; Vanessa Smith-Castro; Karin C. H. J. Smolders; Agata Sobkow; Walter Sowden; Philipp Spachtholz; Manini Srivastava; Troy G. Steiner; Jeroen Stouten; Chris N. H. Street; Oskar K. Sundfelt; Stephanie Szeto; Ewa Szumowska; Andrew C. W. Tang; Norbert Tanzer; Morgan J. Tear; Jordan Theriault; Manuela Thomae; David Torres; Jakub Traczyk; Joshua M. Tybur; Adrienn Ujhelyi; Robbie C. M. van Aert; Marcel A. L. M. van Assen; Marije van der Hulst; Paul A. M. van Lange; Anna Elisabeth van ’t Veer; Alejandro Vásquez- Echeverría; Leigh Ann Vaughn; Alexandra Vázquez; Luis Diego Vega; Catherine Verniers; Mark Verschoor; Ingrid P. J. Voermans; Marek A. Vranka; Cheryl Welch; Aaron L. Wichman; Lisa A. Williams; Michael Wood; Julie A. Woodzicka; Marta K. Wronska; Liane Young; John M. Zelenski; Zeng Zhijia; Brian A. Nosek",
+      "year": 2018,
+      "journal": "Advances in Methods and Practices in Psychological Science",
+      "source_type": "journal_article",
+      "doi": "10.1177/2515245918810225",
+      "pmid": null,
+      "url": "https://doi.org/10.1177/2515245918810225",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Many+Labs+2+Investigating+variation+in+replicability+across+sample+and+setting&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-023"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC134",
+      "title": "A meta-analysis of loss aversion in risky contexts",
+      "authors_display": "Lukasz Walasek; Timothy L. Mullett; Neil Stewart",
+      "year": 2024,
+      "journal": "Journal of Economic Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.joep.2024.102740",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.joep.2024.102740",
+      "verified_via_url": "https://api.crossref.org/works?query.title=A+meta-analysis+of+loss+aversion+in+risky+contexts&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-024"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC135",
+      "title": "Age differences in the effect of framing on risky choice: A meta-analysis.",
+      "authors_display": "Best R, Charness N.",
+      "year": 2015,
+      "journal": "Psychology and aging",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0039447",
+      "pmid": "26098168",
+      "url": "https://europepmc.org/article/MED/26098168",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0039447%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-026",
+        "R3-X-028"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC136",
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "authors_display": "Benjamin Scheibehenne; Rainer Greifeneder; Peter M. Todd",
+      "year": 2010,
+      "journal": "Journal of Consumer Research",
+      "source_type": "journal_article",
+      "doi": "10.1086/651235",
+      "pmid": null,
+      "url": "https://doi.org/10.1086/651235",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Can+there+ever+be+too+many+options+A+meta-analytic+review+of+choice+overload&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-027"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC137",
+      "title": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+      "authors_display": "Gilles E. Gignac; Marcin Zajenkowski",
+      "year": 2020,
+      "journal": "Intelligence",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.intell.2020.101449",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.intell.2020.101449",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+Dunning-Kruger+effect+is+mostly+a+statistical+artefact&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-028"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC138",
+      "title": "When and why defaults influence decisions: a meta-analysis of default effects",
+      "authors_display": "JON M. JACHIMOWICZ; SHANNON DUNCAN; ELKE U. WEBER; ERIC J. JOHNSON",
+      "year": 2019,
+      "journal": "Behavioural Public Policy",
+      "source_type": "journal_article",
+      "doi": "10.1017/bpp.2018.43",
+      "pmid": null,
+      "url": "https://doi.org/10.1017/bpp.2018.43",
+      "verified_via_url": "https://api.crossref.org/works?query.title=When+and+why+defaults+influence+decisions+A+meta-analysis+of+default+effects&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-029"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC139",
+      "title": "The constructive, destructive, and reconstructive power of social norms.",
+      "authors_display": "Schultz PW, Nolan JM, Cialdini RB, Goldstein NJ, Griskevicius V.",
+      "year": 2007,
+      "journal": "Psychological science",
+      "source_type": "journal_article",
+      "doi": "10.1111/j.1467-9280.2007.01917.x",
+      "pmid": "17576283",
+      "url": "https://europepmc.org/article/MED/17576283",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fj.1467-9280.2007.01917.x%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-032",
+        "R3-X-032"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC140",
+      "title": "The actor-observer asymmetry in attribution: a (surprising) meta-analysis.",
+      "authors_display": "Malle BF.",
+      "year": 2006,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/0033-2909.132.6.895",
+      "pmid": "17073526",
+      "url": "https://europepmc.org/article/MED/17073526",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0033-2909.132.6.895%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-033",
+        "R3-X-033"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC141",
+      "title": "The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance.",
+      "authors_display": "Thomas Gilovich; Victoria Husted Medvec; Kenneth Savitsky",
+      "year": 2000,
+      "journal": "Journal of Personality and Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/0022-3514.78.2.211",
+      "pmid": null,
+      "url": "https://doi.org/10.1037/0022-3514.78.2.211",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+spotlight+effect+in+social+judgment+An+egocentric+bias+in+estimates+of+the+salience+of+one%27s+own+actions+and+appearance&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-034"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC142",
+      "title": "A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+      "authors_display": "Montoya RM, Horton RS, Vevea JL, Citkowicz M, Lauber EA.",
+      "year": 2017,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000085",
+      "pmid": "28263645",
+      "url": "https://europepmc.org/article/MED/28263645",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fbul0000085%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-035",
+        "R3-X-035"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC143",
+      "title": "Message effects on psychological reactance: meta-analyses",
+      "authors_display": "Zixi Li; Jingyuan Shi",
+      "year": 2025,
+      "journal": "Human Communication Research",
+      "source_type": "journal_article",
+      "doi": "10.1093/hcr/hqaf016",
+      "pmid": null,
+      "url": "https://doi.org/10.1093/hcr/hqaf016",
+      "verified_via_url": "https://api.crossref.org/works?query.title=A+meta-analytical+review+of+research+on+psychological+reactance+in+health+communication&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-036"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC144",
+      "title": "Psychological Safety: A Meta‐Analytic Review and Extension",
+      "authors_display": "M. Lance Frazier; Stav Fainshmidt; Ryan L. Klinger; Amir Pezeshkan; Veselina Vracheva",
+      "year": 2016,
+      "journal": "Personnel Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1111/peps.12183",
+      "pmid": null,
+      "url": "https://doi.org/10.1111/peps.12183",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Psychological+safety+A+meta-analytic+review+and+extension&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-037"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC145",
+      "title": "Beyond the hedonic treadmill: revising the adaptation theory of well-being.",
+      "authors_display": "Diener E, Lucas RE, Scollon CN.",
+      "year": 2006,
+      "journal": "The American psychologist",
+      "source_type": "journal_article",
+      "doi": "10.1037/0003-066x.61.4.305",
+      "pmid": "16719675",
+      "url": "https://europepmc.org/article/MED/16719675",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0003-066x.61.4.305%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-038",
+        "R3-X-038"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "17874912",
+          "source": "MED",
+          "reference": "Am Psychol. 2007 Sep;62(6):611-2. doi: 10.1037/0003-066X62.6.611",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "17874913",
+          "source": "MED",
+          "reference": "Am Psychol. 2007 Sep;62(6):612-3. doi: 10.1037/0003-066X62.6.612",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC146",
+      "title": "Happiness for Sale: Do Experiential Purchases Make Consumers Happier than Material Purchases?",
+      "authors_display": "Leonardo Nicolao; Julie R. Irwin; Joseph K. Goodman",
+      "year": 2009,
+      "journal": "Journal of Consumer Research",
+      "source_type": "journal_article",
+      "doi": "10.1086/597049",
+      "pmid": null,
+      "url": "https://doi.org/10.1086/597049",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Experiential+purchases+and+happiness+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-039"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC147",
+      "title": "Prosocial spending and well-being: cross-cultural evidence for a psychological universal.",
+      "authors_display": "Aknin LB, Barrington-Leigh CP, Dunn EW, Helliwell JF, Burns J, Biswas-Diener R, Kemeza I, Nyende P, Ashton-James CE, Norton MI.",
+      "year": 2013,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0031578",
+      "pmid": "23421360",
+      "url": "https://europepmc.org/article/MED/23421360",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0031578%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-040",
+        "R3-X-040"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC148",
+      "title": "Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events: A Meta-Analysis.",
+      "authors_display": "Cohen R, Bavishi C, Rozanski A.",
+      "year": 2016,
+      "journal": "Psychosomatic medicine",
+      "source_type": "journal_article",
+      "doi": "10.1097/psy.0000000000000274",
+      "pmid": "26630073",
+      "url": "https://europepmc.org/article/MED/26630073",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1097%2Fpsy.0000000000000274%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-041",
+        "R3-X-041"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC149",
+      "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating.",
+      "authors_display": "Robinson E, Aveyard P, Daley A, Jolly K, Lewis A, Lycett D, Higgs S.",
+      "year": 2013,
+      "journal": "The American journal of clinical nutrition",
+      "source_type": "journal_article",
+      "doi": "10.3945/ajcn.112.045245",
+      "pmid": "23446890",
+      "url": "https://europepmc.org/article/MED/23446890",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3945%2Fajcn.112.045245%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-042",
+        "R3-X-042"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC150",
+      "title": "Watching Television While Eating Increases Food Intake: A Systematic Review and Meta-Analysis of Experimental Studies.",
+      "authors_display": "Garg D, Smith E, Attuquayefio T.",
+      "year": 2025,
+      "journal": "Nutrients",
+      "source_type": "journal_article",
+      "doi": "10.3390/nu17010166",
+      "pmid": "39796600",
+      "url": "https://europepmc.org/article/MED/39796600",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3390%2Fnu17010166%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-042",
+        "R3-X-043"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC151",
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption.",
+      "authors_display": "Hollands GJ, Carter P, Anwer S, King SE, Jebb SA, Ogilvie D, Shemilt I, Higgins JPT, Marteau TM.",
+      "year": 2019,
+      "journal": "The Cochrane database of systematic reviews",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.cd012573.pub3",
+      "pmid": "31482606",
+      "url": "https://europepmc.org/article/MED/31482606",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd012573.pub3%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-043",
+        "R3-X-044"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "31452193",
+          "source": "MED",
+          "reference": "Cochrane Database Syst Rev. 2019 Aug 27;8:CD012573. doi: 10.1002/14651858.CD012573.pub2.",
+          "type": "Update of",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC152",
+      "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes.",
+      "authors_display": "Watts TW, Duncan GJ, Quan H.",
+      "year": 2018,
+      "journal": "Psychological science",
+      "source_type": "journal_article",
+      "doi": "10.1177/0956797618761661",
+      "pmid": "29799765",
+      "url": "https://europepmc.org/article/MED/29799765",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0956797618761661%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-044",
+        "R3-X-045"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "30687175",
+          "source": "MED",
+          "reference": "Front Psychol. 2019 Jan 10;9:2719. doi: 10.3389/fpsyg.2018.02719.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "31850825",
+          "source": "MED",
+          "reference": "Psychol Sci. 2020 Jan;31(1):105-108. doi: 10.1177/0956797619893606.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "31850827",
+          "source": "MED",
+          "reference": "Psychol Sci. 2020 Jan;31(1):97-99. doi: 10.1177/0956797619839045.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "31850833",
+          "source": "MED",
+          "reference": "Psychol Sci. 2020 Jan;31(1):100-104. doi: 10.1177/0956797619861720.",
+          "type": "Comment in",
+          "orderIn": 4
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC153",
+      "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning.",
+      "authors_display": "Sperber JF, Vandell DL, Duncan GJ, Watts TW.",
+      "year": 2024,
+      "journal": "Child development",
+      "source_type": "journal_article",
+      "doi": "10.1111/cdev.14129",
+      "pmid": "39073534",
+      "url": "https://europepmc.org/article/MED/39073534",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fcdev.14129%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-044",
+        "R3-X-046"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC154",
+      "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis.",
+      "authors_display": "Dowdall N, Melendez-Torres GJ, Murray L, Gardner F, Hartford L, Cooper PJ.",
+      "year": 2020,
+      "journal": "Child development",
+      "source_type": "journal_article",
+      "doi": "10.1111/cdev.13225",
+      "pmid": "30737957",
+      "url": "https://europepmc.org/article/MED/30737957",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1111%2Fcdev.13225%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-045",
+        "R3-X-047"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC155",
+      "title": "A Systematic Review of Parent–Child Shared Book Reading Interventions for Infants and Toddlers",
+      "authors_display": "Ciera M. Lorio; Abigail D. Delehanty; Mollie K. Romano",
+      "year": 2021,
+      "journal": "Topics in Early Childhood Special Education",
+      "source_type": "journal_article",
+      "doi": "10.1177/0271121421998793",
+      "pmid": null,
+      "url": "https://doi.org/10.1177/0271121421998793",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Shared+picture+book+reading+interventions+for+child+language+development+A+systematic+review+and+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-045"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC156",
+      "title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes: A Systematic Review and Meta-analysis.",
+      "authors_display": "Mallawaarachchi S, Burley J, Mavilidi M, Howard SJ, Straker L, Kervin L, Staton S, Hayes N, Machell A, Torjinski M, Brady B, Thomas G, Horwood S, White SLJ, Zabatiero J, Rivera C, Cliff D.",
+      "year": 2024,
+      "journal": "JAMA pediatrics",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamapediatrics.2024.2620",
+      "pmid": "39102255",
+      "url": "https://europepmc.org/article/MED/39102255",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1001%2Fjamapediatrics.2024.2620%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-046",
+        "R3-X-049"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC157",
+      "title": "Cognitive Offloading.",
+      "authors_display": "Risko EF, Gilbert SJ.",
+      "year": 2016,
+      "journal": "Trends in cognitive sciences",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tics.2016.07.002",
+      "pmid": "27542527",
+      "url": "https://europepmc.org/article/MED/27542527",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1016%2Fj.tics.2016.07.002%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-047",
+        "R3-X-050"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC158",
+      "title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial.",
+      "authors_display": "Lambert J, Barnstable G, Minter E, Cooper J, McEwan D.",
+      "year": 2022,
+      "journal": "Cyberpsychology, behavior and social networking",
+      "source_type": "journal_article",
+      "doi": "10.1089/cyber.2021.0324",
+      "pmid": "35512731",
+      "url": "https://europepmc.org/article/MED/35512731",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1089%2Fcyber.2021.0324%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-048",
+        "R3-X-051"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC159",
+      "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
+      "authors_display": "Castelo N, Kushlev K, Ward AF, Esterman M, Reiner PB.",
+      "year": 2025,
+      "journal": "PNAS nexus",
+      "source_type": "journal_article",
+      "doi": "10.1093/pnasnexus/pgaf017",
+      "pmid": "39967678",
+      "url": "https://europepmc.org/article/MED/39967678",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1093%2Fpnasnexus%2Fpgaf017%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-049",
+        "R3-X-052"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC160",
+      "title": "The Welfare Effects of Social Media",
+      "authors_display": "Hunt Allcott; Luca Braghieri; Sarah Eichmeyer; Matthew Gentzkow",
+      "year": 2020,
+      "journal": "American Economic Review",
+      "source_type": "journal_article",
+      "doi": "10.1257/aer.20190658",
+      "pmid": null,
+      "url": "https://doi.org/10.1257/aer.20190658",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+welfare+effects+of+social+media&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-050"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC161",
+      "title": "Motivational, emotional, and behavioral correlates of fear of missing out",
+      "authors_display": "Andrew K. Przybylski; Kou Murayama; Cody R. DeHaan; Valerie Gladwell",
+      "year": 2013,
+      "journal": "Computers in Human Behavior",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.chb.2013.02.014",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.chb.2013.02.014",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Motivational+emotional+and+behavioral+correlates+of+fear+of+missing+out&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-051"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC162",
+      "title": "Effort-reward imbalance at work and risk of depressive disorders. A systematic review and meta-analysis of prospective cohort studies.",
+      "authors_display": "Rugulies R, Aust B, Madsen IE.",
+      "year": 2017,
+      "journal": "Scandinavian journal of work, environment & health",
+      "source_type": "journal_article",
+      "doi": "10.5271/sjweh.3632",
+      "pmid": "28306759",
+      "url": "https://europepmc.org/article/MED/28306759",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.5271%2Fsjweh.3632%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-052",
+        "R3-X-055"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "28463383",
+          "source": "MED",
+          "reference": "Scand J Work Environ Health. 2017 Jul 1;43(4):291-293. doi: 10.5271/sjweh.3642.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC163",
+      "title": "On the costs and benefits of emotional labor: a meta-analysis of three decades of research.",
+      "authors_display": "Hülsheger UR, Schewe AF.",
+      "year": 2011,
+      "journal": "Journal of occupational health psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0022876",
+      "pmid": "21728441",
+      "url": "https://europepmc.org/article/MED/21728441",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0022876%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-053",
+        "R3-X-056"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC164",
+      "title": "Effectiveness of job crafting interventions: a meta-analysis and utility analysis",
+      "authors_display": "Bogdan Teodor Oprea; Liubița Barzin; Delia Vîrgă; Dragoș Iliescu; Andrei Rusu",
+      "year": 2019,
+      "journal": "European Journal of Work and Organizational Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1080/1359432x.2019.1646728",
+      "pmid": null,
+      "url": "https://doi.org/10.1080/1359432x.2019.1646728",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Job+crafting+interventions+systematic+review+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-054"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC165",
+      "title": "CONSEQUENCES OF INDIVIDUALS' FIT AT WORK: A META‐ANALYSIS OF PERSON–JOB, PERSON–ORGANIZATION, PERSON–GROUP, AND PERSON–SUPERVISOR FIT",
+      "authors_display": "AMY L. KRISTOF‐BROWN; RYAN D. ZIMMERMAN; ERIN C. JOHNSON",
+      "year": 2005,
+      "journal": "Personnel Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1111/j.1744-6570.2005.00672.x",
+      "pmid": null,
+      "url": "https://doi.org/10.1111/j.1744-6570.2005.00672.x",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Consequences+of+individuals+fit+at+work+A+meta-analysis+of+person-job+person-organization+person-group+and+person-supervisor+fit&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-055"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC166",
+      "title": "Meetings and More Meetings: The Relationship Between Meeting Load and the Daily Well-Being of Employees.",
+      "authors_display": "Alexandra Luong; Steven G. Rogelberg",
+      "year": 2005,
+      "journal": "Group Dynamics: Theory, Research, and Practice",
+      "source_type": "journal_article",
+      "doi": "10.1037/1089-2699.9.1.58",
+      "pmid": null,
+      "url": "https://doi.org/10.1037/1089-2699.9.1.58",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+relationship+between+meeting+load+and+daily+well-being+of+employees&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-056"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC167",
+      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+      "authors_display": "Bravata DM, Watts SA, Keefer AL, Madhusudhan DK, Taylor KT, Clark DM, Nelson RS, Cokley KO, Hagg HK.",
+      "year": 2020,
+      "journal": "Journal of general internal medicine",
+      "source_type": "journal_article",
+      "doi": "10.1007/s11606-019-05364-1",
+      "pmid": "31848865",
+      "url": "https://europepmc.org/article/MED/31848865",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs11606-019-05364-1%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-057",
+        "R3-X-060"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC168",
+      "title": "Office Chitchat as a Social Ritual: The Uplifting Yet Distracting Effects of Daily Small Talk at Work",
+      "authors_display": "Jessica R. Methot; Emily H. Rosado-Solomon; Patrick E. Downes; Allison S. Gabriel",
+      "year": 2021,
+      "journal": "Academy of Management Journal",
+      "source_type": "journal_article",
+      "doi": "10.5465/amj.2018.1474",
+      "pmid": null,
+      "url": "https://doi.org/10.5465/amj.2018.1474",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Office+chitchat+as+a+social+ritual+The+uplifting+yet+distracting+effects+of+daily+small+talk+at+work&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-058"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC169",
+      "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+      "authors_display": "Lachlan Schomburgk; Alex Belli; Arvid O.I. Hoffmann",
+      "year": 2024,
+      "journal": "Journal of Retailing",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jretai.2024.05.003",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.jretai.2024.05.003",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Less+cash+more+splash+A+meta-analysis+on+the+cashless+effect&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-059"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC170",
+      "title": "Mental accounting matters",
+      "authors_display": "Richard H. Thaler",
+      "year": 1999,
+      "journal": "Journal of Behavioral Decision Making",
+      "source_type": "journal_article",
+      "doi": "10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+      "pmid": null,
+      "url": "https://doi.org/10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Mental+accounting+matters&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-060"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC171",
+      "title": "Zero as a Special Price: The True Value of Free Products",
+      "authors_display": "Kristina Shampanier; Nina Mazar; Dan Ariely",
+      "year": 2007,
+      "journal": "Marketing Science",
+      "source_type": "journal_article",
+      "doi": "10.1287/mksc.1060.0254",
+      "pmid": null,
+      "url": "https://doi.org/10.1287/mksc.1060.0254",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Zero+as+a+special+price+The+true+value+of+free+products&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-061"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC172",
+      "title": "Give them what they want: The benefits of explicitness in gift exchange",
+      "authors_display": "Francesca Gino; Francis J. Flynn",
+      "year": 2011,
+      "journal": "Journal of Experimental Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jesp.2011.03.015",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.jesp.2011.03.015",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Give+them+what+they+want+The+benefits+of+explicitness+in+gift+exchange&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-064"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC173",
+      "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality.",
+      "authors_display": "Arthur Aron; Christina C. Norman; Elaine N. Aron; Colin McKenna; Richard E. Heyman",
+      "year": 2000,
+      "journal": "Journal of Personality and Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/0022-3514.78.2.273",
+      "pmid": null,
+      "url": "https://doi.org/10.1037/0022-3514.78.2.273",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Couples+shared+participation+in+novel+and+arousing+activities+and+experienced+relationship+quality&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-065"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC174",
+      "title": "Dimensions of couples' sexual communication, relationship satisfaction, and sexual satisfaction: A meta-analysis.",
+      "authors_display": "Mallory AB.",
+      "year": 2022,
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "source_type": "journal_article",
+      "doi": "10.1037/fam0000946",
+      "pmid": "34968095",
+      "url": "https://europepmc.org/article/MED/34968095",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Ffam0000946%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-067",
+        "R3-X-067"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC175",
+      "title": "Couples' Sexual Communication and Dimensions of Sexual Function: A Meta-Analysis.",
+      "authors_display": "Mallory AB, Stanton AM, Handy AB.",
+      "year": 2019,
+      "journal": "Journal of sex research",
+      "source_type": "journal_article",
+      "doi": "10.1080/00224499.2019.1568375",
+      "pmid": "30777780",
+      "url": "https://europepmc.org/article/MED/30777780",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1080%2F00224499.2019.1568375%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-067",
+        "R3-X-068"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC176",
+      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
+      "authors_display": "Aviv E, Waizman Y, Kim E, Liu J, Rodsky E, Saxbe D.",
+      "year": 2025,
+      "journal": "Archives of women's mental health",
+      "source_type": "journal_article",
+      "doi": "10.1007/s00737-024-01490-w",
+      "pmid": "38951218",
+      "url": "https://europepmc.org/article/MED/38951218",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs00737-024-01490-w%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-068",
+        "R3-X-069"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC177",
+      "title": "Changes in relationship satisfaction across the transition to parenthood: a meta-analysis.",
+      "authors_display": "Mitnick DM, Heyman RE, Smith Slep AM.",
+      "year": 2009,
+      "journal": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0017004",
+      "pmid": "20001143",
+      "url": "https://europepmc.org/article/MED/20001143",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0017004%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-070",
+        "R3-X-070"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC178",
+      "title": "Implicit theories of relationships: Assessment and prediction of romantic relationship initiation, coping, and longevity.",
+      "authors_display": "C. Raymond Knee",
+      "year": 1998,
+      "journal": "Journal of Personality and Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/0022-3514.74.2.360",
+      "pmid": null,
+      "url": "https://doi.org/10.1037/0022-3514.74.2.360",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Implicit+theories+of+relationships+Assessment+and+prediction+of+romantic+relationship+initiation+coping+and+longevity&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-071"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC179",
+      "title": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome.",
+      "authors_display": "Lacy BE, Pimentel M, Brenner DM, Chey WD, Keefer LA, Long MD, Moshiree B.",
+      "year": 2021,
+      "journal": "The American journal of gastroenterology",
+      "source_type": "journal_article",
+      "doi": "10.14309/ajg.0000000000001036",
+      "pmid": "33315591",
+      "url": "https://europepmc.org/article/MED/33315591",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.14309%2Fajg.0000000000001036%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-072",
+        "R3-X-072"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC180",
+      "title": "Anxiety sensitivity and the anxiety disorders: a meta-analytic review and synthesis.",
+      "authors_display": "Olatunji BO, Wolitzky-Taylor KB.",
+      "year": 2009,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0017428",
+      "pmid": "19883144",
+      "url": "https://europepmc.org/article/MED/19883144",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0017428%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-073",
+        "R3-X-073"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC181",
+      "title": "A meta-analytic review of the relationship between social media use and body image disturbance",
+      "authors_display": "Alyssa N. Saiphoo; Zahra Vahedi",
+      "year": 2019,
+      "journal": "Computers in Human Behavior",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.chb.2019.07.028",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.chb.2019.07.028",
+      "verified_via_url": "https://api.crossref.org/works?query.title=A+meta-analytic+review+of+the+relationship+between+social+media+use+and+body+image+disturbance&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-074"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC182",
+      "title": "Psychological stress and susceptibility to the common cold.",
+      "authors_display": "Cohen S, Tyrrell DA, Smith AP.",
+      "year": 1991,
+      "journal": "The New England journal of medicine",
+      "source_type": "journal_article",
+      "doi": "10.1056/nejm199108293250903",
+      "pmid": "1713648",
+      "url": "https://europepmc.org/article/MED/1713648",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1056%2Fnejm199108293250903%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-075",
+        "R3-X-075"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "1310349",
+          "source": "MED",
+          "reference": "N Engl J Med. 1992 Feb 27;326(9):644-5; author reply 645-6. doi: 10.1056/NEJM199202273260915",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "1734261",
+          "source": "MED",
+          "reference": "N Engl J Med. 1992 Feb 27;326(9):645; author reply 645-6.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "1861700",
+          "source": "MED",
+          "reference": "N Engl J Med. 1991 Aug 29;325(9):654-6. doi: 10.1056/NEJM199108293250910",
+          "type": "Comment in",
+          "orderIn": 3
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC183",
+      "title": "The nocebo effect of drugs.",
+      "authors_display": "Planès S, Villier C, Mallaret M.",
+      "year": 2016,
+      "journal": "Pharmacology research & perspectives",
+      "source_type": "journal_article",
+      "doi": "10.1002/prp2.208",
+      "pmid": "27069627",
+      "url": "https://europepmc.org/article/MED/27069627",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2Fprp2.208%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-076",
+        "R3-X-076"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC184",
+      "title": "Conceptualizations of Cyberchondria and Relations to the Anxiety Spectrum: Systematic Review and Meta-analysis.",
+      "authors_display": "Schenkel SK, Jungmann SM, Gropalis M, Witthöft M.",
+      "year": 2021,
+      "journal": "Journal of medical Internet research",
+      "source_type": "journal_article",
+      "doi": "10.2196/27835",
+      "pmid": "34792473",
+      "url": "https://europepmc.org/article/MED/34792473",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.2196%2F27835%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-077",
+        "R3-X-077"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC185",
+      "title": "Interventions for enhancing medication adherence.",
+      "authors_display": "Nieuwlaat R, Wilczynski N, Navarro T, Hobson N, Jeffery R, Keepanasseril A, Agoritsas T, Mistry N, Iorio A, Jack S, Sivaramalingam B, Iserman E, Mustafa RA, Jedraszewski D, Cotoi C, Haynes RB.",
+      "year": 2014,
+      "journal": "The Cochrane database of systematic reviews",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.cd000011.pub4",
+      "pmid": "25412402",
+      "url": "https://europepmc.org/article/MED/25412402",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd000011.pub4%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-078",
+        "R3-X-078"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "18425859",
+          "source": "MED",
+          "reference": "Cochrane Database Syst Rev. 2008 Apr 16;(2):CD000011. doi: 10.1002/14651858.CD000011.pub3.",
+          "type": "Update of",
+          "orderIn": 1
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC186",
+      "title": "Using alternative statistical formats for presenting risks and risk reductions.",
+      "authors_display": "Akl EA, Oxman AD, Herrin J, Vist GE, Terrenato I, Sperati F, Costiniuk C, Blank D, Schünemann H.",
+      "year": 2011,
+      "journal": "The Cochrane database of systematic reviews",
+      "source_type": "journal_article",
+      "doi": "10.1002/14651858.cd006776.pub2",
+      "pmid": "21412897",
+      "url": "https://europepmc.org/article/MED/21412897",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2F14651858.cd006776.pub2%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-079",
+        "R3-X-079"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC187",
+      "title": "WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Effects on Sleep.",
+      "authors_display": "Basner M, McGuire S.",
+      "year": 2018,
+      "journal": "International journal of environmental research and public health",
+      "source_type": "journal_article",
+      "doi": "10.3390/ijerph15030519",
+      "pmid": "29538344",
+      "url": "https://europepmc.org/article/MED/29538344",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3390%2Fijerph15030519%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-080",
+        "R3-X-080"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC188",
+      "title": "The impact of the 'open' workspace on human collaboration.",
+      "authors_display": "Bernstein ES, Turban S.",
+      "year": 2018,
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "source_type": "journal_article",
+      "doi": "10.1098/rstb.2017.0239",
+      "pmid": "29967303",
+      "url": "https://europepmc.org/article/MED/29967303",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1098%2Frstb.2017.0239%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-081",
+        "R3-X-081"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC189",
+      "title": "A naturalistic study of autobiographical memories evoked by olfactory and visual cues: testing the Proustian hypothesis.",
+      "authors_display": "Herz RS, Schooler JW.",
+      "year": 2002,
+      "journal": "The American journal of psychology",
+      "source_type": "journal_article",
+      "doi": "10.2307/1423672",
+      "pmid": "11868193",
+      "url": "https://europepmc.org/article/MED/11868193",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.2307%2F1423672%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-082",
+        "R3-X-082"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC190",
+      "title": "Color and psychological functioning: a review of theoretical and empirical work.",
+      "authors_display": "Elliot AJ.",
+      "year": 2015,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2015.00368",
+      "pmid": "25883578",
+      "url": "https://europepmc.org/article/MED/25883578",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3389%2Ffpsyg.2015.00368%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-083",
+        "R3-X-083"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC191",
+      "title": "A Historically Based Review of Empirical Work on Color and Psychological Functioning: Content, Methods, and Recommendations for Future Research",
+      "authors_display": "Andrew J. Elliot",
+      "year": 2018,
+      "journal": "Review of General Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/gpr0000170",
+      "pmid": null,
+      "url": "https://doi.org/10.1037/gpr0000170",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Color+and+psychological+functioning+A+review+of+theoretical+and+empirical+work&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-083"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC192",
+      "title": "A synthesis of health benefits of natural sounds and their distribution in national parks.",
+      "authors_display": "Buxton RT, Pearson AL, Allou C, Fristrup K, Wittemyer G.",
+      "year": 2021,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "source_type": "journal_article",
+      "doi": "10.1073/pnas.2013097118",
+      "pmid": "33753555",
+      "url": "https://europepmc.org/article/MED/33753555",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1073%2Fpnas.2013097118%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-084",
+        "R3-X-085"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC193",
+      "title": "Fast-forward to boredom: How switching behavior on digital media makes people more bored.",
+      "authors_display": "Tam KYY, Inzlicht M.",
+      "year": 2024,
+      "journal": "Journal of experimental psychology. General",
+      "source_type": "journal_article",
+      "doi": "10.1037/xge0001639",
+      "pmid": "39158465",
+      "url": "https://europepmc.org/article/MED/39158465",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fxge0001639%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-085",
+        "R3-X-086"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR721444",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC194",
+      "title": "Does incubation enhance problem solving? A meta-analytic review.",
+      "authors_display": "Sio UN, Ormerod TC.",
+      "year": 2009,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0014212",
+      "pmid": "19210055",
+      "url": "https://europepmc.org/article/MED/19210055",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0014212%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-086",
+        "R3-X-087"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC195",
+      "title": "Association of Music Interventions With Health-Related Quality of Life: A Systematic Review and Meta-analysis.",
+      "authors_display": "McCrary JM, Altenmüller E, Kretschmer C, Scholz DS.",
+      "year": 2022,
+      "journal": "JAMA network open",
+      "source_type": "journal_article",
+      "doi": "10.1001/jamanetworkopen.2022.3236",
+      "pmid": "35315920",
+      "url": "https://europepmc.org/article/MED/35315920",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1001%2Fjamanetworkopen.2022.3236%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-087",
+        "R3-X-088"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR427003",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC196",
+      "title": "Does the Relation Between Humor Styles and Subjective Well-Being Vary Across Culture and Age? A Meta-Analysis.",
+      "authors_display": "Jiang F, Lu S, Jiang T, Jia H.",
+      "year": 2020,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2020.02213",
+      "pmid": "33071846",
+      "url": "https://europepmc.org/article/MED/33071846",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.3389%2Ffpsyg.2020.02213%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-088",
+        "R3-X-089"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC197",
+      "title": "Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration",
+      "authors_display": "Brian Mullen; Craig Johnson; Eduardo Salas",
+      "year": 1991,
+      "journal": "Basic and Applied Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1207/s15324834basp1201_1",
+      "pmid": null,
+      "url": "https://doi.org/10.1207/s15324834basp1201_1",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Productivity+loss+in+brainstorming+groups+A+meta-analytic+integration&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-089"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC198",
+      "title": "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia.",
+      "authors_display": "Nedergaard JSK, Lupyan G.",
+      "year": 2024,
+      "journal": "Psychological science",
+      "source_type": "journal_article",
+      "doi": "10.1177/09567976241243004",
+      "pmid": "38728320",
+      "url": "https://europepmc.org/article/MED/38728320",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F09567976241243004%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-091",
+        "R3-X-091"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC199",
+      "title": "Why don't we believe non-native speakers? The influence of accent on credibility",
+      "authors_display": "Shiri Lev-Ari; Boaz Keysar",
+      "year": 2010,
+      "journal": "Journal of Experimental Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jesp.2010.05.025",
+      "pmid": null,
+      "url": "https://doi.org/10.1016/j.jesp.2010.05.025",
+      "verified_via_url": "https://api.crossref.org/works?query.title=Why+don%27t+we+believe+non-native+speakers+The+influence+of+accent+on+credibility&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "bibliography_verified",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-093"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC200",
+      "title": "Egocentrism over e-mail: can we communicate as well as we think?",
+      "authors_display": "Kruger J, Epley N, Parker J, Ng ZW.",
+      "year": 2005,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/0022-3514.89.6.925",
+      "pmid": "16393025",
+      "url": "https://europepmc.org/article/MED/16393025",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0022-3514.89.6.925%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-094",
+        "R3-X-093"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC201",
+      "title": "Mistakenly seeking solitude.",
+      "authors_display": "Epley N, Schroeder J.",
+      "year": 2014,
+      "journal": "Journal of experimental psychology. General",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0037323",
+      "pmid": "25019381",
+      "url": "https://europepmc.org/article/MED/25019381",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0037323%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-095",
+        "R3-X-094"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC202",
+      "title": "Teach-back: A systematic review of implementation and impacts.",
+      "authors_display": "Talevski J, Wong Shee A, Rasmussen B, Kemp G, Beauchamp A.",
+      "year": 2020,
+      "journal": "PloS one",
+      "source_type": "journal_article",
+      "doi": "10.1371/journal.pone.0231350",
+      "pmid": "32287296",
+      "url": "https://europepmc.org/article/MED/32287296",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1371%2Fjournal.pone.0231350%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-096",
+        "R3-X-095"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC203",
+      "title": "Self-talk as a regulatory mechanism: how you do it matters.",
+      "authors_display": "Kross E, Bruehlman-Senecal E, Park J, Burson A, Dougherty A, Shablack H, Bremner R, Moser J, Ayduk O.",
+      "year": 2014,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/a0035173",
+      "pmid": "24467424",
+      "url": "https://europepmc.org/article/MED/24467424",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2Fa0035173%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-097",
+        "R3-X-096"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC204",
+      "title": "Long-term Persuasive Effects in Narrative Communication Research: A Meta-Analysis",
+      "authors_display": "Corinna Oschatz; Caroline Marker",
+      "year": 2020,
+      "journal": "Journal of Communication",
+      "source_type": "journal_article",
+      "doi": "10.1093/joc/jqaa017",
+      "pmid": null,
+      "url": "https://doi.org/10.1093/joc/jqaa017",
+      "verified_via_url": "https://api.crossref.org/works?query.title=The+persuasive+effect+of+narrative+in+health+communication+A+meta-analysis&rows=3&filter=until-pub-date%3A2026-09-11",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-098"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "not_completed"
+    },
+    {
+      "id": "SRC205",
+      "title": "Depressive symptom trajectory following romantic relationship breakup and effects of rumination, neuroticism and cognitive control.",
+      "authors_display": "Verhallen AM, Alonso-Martínez S, Renken RJ, Marsman JC, Ter Horst GJ.",
+      "year": 2022,
+      "journal": "Stress and health : journal of the International Society for the Investigation of Stress",
+      "source_type": "journal_article",
+      "doi": "10.1002/smi.3123",
+      "pmid": "34921589",
+      "url": "https://europepmc.org/article/MED/34921589",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1002%2Fsmi.3123%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-100",
+        "R3-X-098"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC206",
+      "title": "Trajectory of depressive symptoms in the context of romantic relationship breakup: Characterizing the \"natural course\" of response and recovery in young adults.",
+      "authors_display": "Acolin J, Cadigan JM, Fleming CB, Rhew IC, Lee CM.",
+      "year": 2023,
+      "journal": "Emerging adulthood (Print)",
+      "source_type": "journal_article",
+      "doi": "10.1177/21676968231184922",
+      "pmid": "39092184",
+      "url": "https://europepmc.org/article/MED/39092184",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F21676968231184922%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-100",
+        "R3-X-099"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC207",
+      "title": "Adaptive self-regulation of unattainable goals: goal disengagement, goal reengagement, and subjective well-being.",
+      "authors_display": "Wrosch C, Scheier MF, Miller GE, Schulz R, Carver CS.",
+      "year": 2003,
+      "journal": "Personality & social psychology bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1177/0146167203256921",
+      "pmid": "15018681",
+      "url": "https://europepmc.org/article/MED/15018681",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1177%2F0146167203256921%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-101",
+        "R3-X-100"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC208",
+      "title": "A brief social-belonging intervention improves academic and health outcomes of minority students.",
+      "authors_display": "Walton GM, Cohen GL.",
+      "year": 2011,
+      "journal": "Science (New York, N.Y.)",
+      "source_type": "journal_article",
+      "doi": "10.1126/science.1198364",
+      "pmid": "21415354",
+      "url": "https://europepmc.org/article/MED/21415354",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1126%2Fscience.1198364%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-C-102",
+        "R3-X-101"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC209",
+      "title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective.",
+      "authors_display": "Eyal T, Steffel M, Epley N.",
+      "year": 2018,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspa0000115",
+      "pmid": "29620401",
+      "url": "https://europepmc.org/article/MED/29620401",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Perspective+mistaking%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-104"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC210",
+      "title": "Doing better but feeling worse. Looking for the \"best\" job undermines satisfaction.",
+      "authors_display": "Iyengar SS, Wells RE, Schwartz B.",
+      "year": 2006,
+      "journal": "Psychological science",
+      "source_type": "journal_article",
+      "doi": "10.1111/j.1467-9280.2006.01677.x",
+      "pmid": "16466422",
+      "url": "https://europepmc.org/article/MED/16466422",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Doing+better+but+feeling+worse%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-108"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC211",
+      "title": "When our hands help us understand: A meta-analysis into the effects of gesture on comprehension.",
+      "authors_display": "Dargue N, Sweller N, Jones MP.",
+      "year": 2019,
+      "journal": "Psychological bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1037/bul0000202",
+      "pmid": "31219263",
+      "url": "https://europepmc.org/article/MED/31219263",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22gesture%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-110"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC212",
+      "title": "Put a bet on it: Can self-funded commitment contracts curb fitness procrastination?",
+      "authors_display": "Spika D, Wickström Östervall L, Gerdtham U, Wengström E.",
+      "year": 2024,
+      "journal": "Journal of health economics",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.jhealeco.2024.102943",
+      "pmid": "39571470",
+      "url": "https://europepmc.org/article/MED/39571470",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22commitment+contracts%22+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-112"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC213",
+      "title": "Linking temperament and personality traits from late childhood to adulthood by examining continuity, stability, and change.",
+      "authors_display": "Ringwald WR, Lawson KM, Kaurin A, Robins RW.",
+      "year": 2026,
+      "journal": "Journal of personality and social psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspp0000576",
+      "pmid": "40965930",
+      "url": "https://europepmc.org/article/MED/40965930",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A40965930+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-114"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "PPR986601",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "Link created based on a title-first author match",
+          "orderIn": 10002
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC214",
+      "title": "Possible barnum effect in the five factor model: do respondents accept random neo personality inventory-revised scores as their actual trait profile?",
+      "authors_display": "Andersen P, Nordvik H.",
+      "year": 2002,
+      "journal": "Psychological reports",
+      "source_type": "journal_article",
+      "doi": "10.2466/pr0.2002.90.2.539",
+      "pmid": "12061595",
+      "url": "https://europepmc.org/article/MED/12061595",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A12061595+AND+SRC%3AMED%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-115"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC215",
+      "title": "The effectiveness of assertiveness communication training programs for healthcare professionals and students: A systematic review.",
+      "authors_display": "Omura M, Maguire J, Levett-Jones T, Stone TE.",
+      "year": 2017,
+      "journal": "International journal of nursing studies",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.ijnurstu.2017.09.001",
+      "pmid": "28964979",
+      "url": "https://europepmc.org/article/MED/28964979",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22assertiveness%22+AND+TITLE%3A%22systematic%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-116"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC216",
+      "title": "Verbal or Written? The Impact of Apology on the Repair of Trust: Based on Competence- vs. Integrity-Based Trust Violation.",
+      "authors_display": "Gao S, Yan J.",
+      "year": 2022,
+      "journal": "Frontiers in psychology",
+      "source_type": "journal_article",
+      "doi": "10.3389/fpsyg.2022.884867",
+      "pmid": "35548542",
+      "url": "https://europepmc.org/article/MED/35548542",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22apology%22+AND+TITLE%3A%22trust%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-117"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC217",
+      "title": "The association between social comparison in social media, body image concerns and eating disorder symptoms: A systematic review and meta-analysis.",
+      "authors_display": "Bonfanti RC, Melchiori F, Teti A, Albano G, Raffard S, Rodgers R, Lo Coco G.",
+      "year": 2025,
+      "journal": "Body image",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.bodyim.2024.101841",
+      "pmid": "39721448",
+      "url": "https://europepmc.org/article/MED/39721448",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22social+comparison%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-119"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC218",
+      "title": "Perfectionism and compulsive exercise: a systematic review and preliminary meta-analysis.",
+      "authors_display": "Bills E, Muir SR, Stackpole R, Egan SJ.",
+      "year": 2025,
+      "journal": "Eating and weight disorders : EWD",
+      "source_type": "journal_article",
+      "doi": "10.1007/s40519-024-01704-1",
+      "pmid": "39820893",
+      "url": "https://europepmc.org/article/MED/39820893",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22compulsive+exercise%22+AND+TITLE%3A%22systematic%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-120"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC219",
+      "title": "The efficacy of probiotics, prebiotics, and synbiotics on anxiety, depression, and sleep: a systematic review and meta-analysis of randomized controlled trials.",
+      "authors_display": "Zhang J, Zhu L, Meng Q, Wang Z, Zhu H.",
+      "year": 2025,
+      "journal": "BMC psychiatry",
+      "source_type": "journal_article",
+      "doi": "10.1186/s12888-025-07644-z",
+      "pmid": "41310510",
+      "url": "https://europepmc.org/article/MED/41310510",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22probiotics%22+AND+TITLE%3A%22depression%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-121"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC220",
+      "title": "Eating behavior dimensions and 9-year weight loss maintenance: a sub-study of the Finnish Diabetes prevention study.",
+      "authors_display": "Salmela J, Konttinen H, Lappalainen R, Muotka J, Antikainen A, Lindström J, Tuomilehto J, Uusitupa M, Karhunen L.",
+      "year": 2023,
+      "journal": "International journal of obesity (2005)",
+      "source_type": "journal_article",
+      "doi": "10.1038/s41366-023-01300-w",
+      "pmid": "37149709",
+      "url": "https://europepmc.org/article/MED/37149709",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22rigid%22+AND+TITLE_ABS%3A%22flexible%22+AND+TITLE_ABS%3A%22restraint%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-122"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC221",
+      "title": "[Formula: see text] Effectiveness of executive function interventions in typically developing preschool children: a systematic review and meta-analysis.",
+      "authors_display": "Trujillo-Trujillo CC, Cadavid Ruiz N, Sanabria-Mazo JP.",
+      "year": 2026,
+      "journal": "Child neuropsychology : a journal on normal and abnormal development in childhood and adolescence",
+      "source_type": "journal_article",
+      "doi": "10.1080/09297049.2025.2595075",
+      "pmid": "41491942",
+      "url": "https://europepmc.org/article/MED/41491942",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22executive+function%22+AND+TITLE%3A%22preschool%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-123"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC222",
+      "title": "Early childhood attachment stability and change: a meta-analysis.",
+      "authors_display": "Opie JE, McIntosh JE, Esler TB, Duschinsky R, George C, Schore A, Kothe EJ, Tan ES, Greenwood CJ, Olsson CA.",
+      "year": 2021,
+      "journal": "Attachment & human development",
+      "source_type": "journal_article",
+      "doi": "10.1080/14616734.2020.1800769",
+      "pmid": "32772822",
+      "url": "https://europepmc.org/article/MED/32772822",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22attachment%22+AND+TITLE%3A%22stability%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-124"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC223",
+      "title": "When does age-related cognitive decline begin?",
+      "authors_display": "Salthouse TA.",
+      "year": 2009,
+      "journal": "Neurobiology of aging",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.neurobiolaging.2008.09.023",
+      "pmid": "19231028",
+      "url": "https://europepmc.org/article/MED/19231028",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22When+does+age-related+cognitive+decline+begin%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-125"
+      ],
+      "indexed_related_records": [
+        {
+          "id": "19231029",
+          "source": "MED",
+          "reference": "Neurobiol Aging. 2009 Apr;30(4):528-9; discussion 530-33. doi: 10.1016/j.neurobiolaging.2008.12.012.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "id": "19231030",
+          "source": "MED",
+          "reference": "Neurobiol Aging. 2009 Apr;30(4):515-20; discussion 530-33. doi: 10.1016/j.neurobiolaging.2008.11.011.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "id": "19237224",
+          "source": "MED",
+          "reference": "Neurobiol Aging. 2009 Apr;30(4):525-7; discussion 530-3. doi: 10.1016/j.neurobiolaging.2008.11.012.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "id": "19285194",
+          "source": "MED",
+          "reference": "Neurobiol Aging. 2009 Apr;30(4):521-4; discussion 530-3. doi: 10.1016/j.neurobiolaging.2008.11.013.",
+          "type": "Comment in",
+          "orderIn": 4
+        }
+      ],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC224",
+      "title": "N-of-1 Trials, Their Reporting Guidelines, and the Advancement of Open Science Principles.",
+      "authors_display": "Porcino A, Vohra S.",
+      "year": 2022,
+      "journal": "Harvard data science review",
+      "source_type": "journal_article",
+      "doi": "10.1162/99608f92.a65a257a",
+      "pmid": "38031562",
+      "url": "https://europepmc.org/article/MED/38031562",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22N-of-1%22+AND+TITLE%3A%22guidelines%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-130"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC225",
+      "title": "Together - a couples' program to improve communication, coping, and financial management skills: development and initial pilot-testing.",
+      "authors_display": "Falconier MK.",
+      "year": 2015,
+      "journal": "Journal of marital and family therapy",
+      "source_type": "journal_article",
+      "doi": "10.1111/jmft.12052",
+      "pmid": "24910157",
+      "url": "https://europepmc.org/article/MED/24910157",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22financial%22+AND+TITLE%3A%22couples%22+AND+TITLE%3A%22communication%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-132"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC226",
+      "title": "Sexual Desire Discrepancy: A Position Statement of the European Society for Sexual Medicine.",
+      "authors_display": "Marieke D, Joana C, Giovanni C, Erika L, Patricia P, Yacov R, Aleksandar Š.",
+      "year": 2020,
+      "journal": "Sexual medicine",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.esxm.2020.02.008",
+      "pmid": "32192965",
+      "url": "https://europepmc.org/article/MED/32192965",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Sexual+Desire+Discrepancy%22+AND+TITLE%3A%22Position%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-134"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC227",
+      "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles' Well-Being Across Cohorts.",
+      "authors_display": "Hoan E, MacDonald G, Johnson MD.",
+      "year": 2026,
+      "journal": "Personality & social psychology bulletin",
+      "source_type": "journal_article",
+      "doi": "10.1177/01461672261475727",
+      "pmid": "42630018",
+      "url": "https://europepmc.org/article/MED/42630018",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22singlehood%22+AND+TITLE%3A%22well-being%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-136"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC228",
+      "title": "Meta-analysis of the relationship between risk perception and health behavior: the example of vaccination.",
+      "authors_display": "Brewer NT, Chapman GB, Gibbons FX, Gerrard M, McCaul KD, Weinstein ND.",
+      "year": 2007,
+      "journal": "Health psychology : official journal of the Division of Health Psychology, American Psychological Association",
+      "source_type": "journal_article",
+      "doi": "10.1037/0278-6133.26.2.136",
+      "pmid": "17385964",
+      "url": "https://europepmc.org/article/MED/17385964",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22risk+perception%22+AND+TITLE%3A%22health+behavior%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-138"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC229",
+      "title": "Display clutter and its effects on visual attention distribution and financial risk judgment.",
+      "authors_display": "Ognjanovic S, Thüring M, Murphy RO, Hölscher C.",
+      "year": 2019,
+      "journal": "Applied ergonomics",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.apergo.2019.05.008",
+      "pmid": "31280801",
+      "url": "https://europepmc.org/article/MED/31280801",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22clutter%22+AND+TITLE%3A%22attention%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-139"
+      ],
+      "indexed_related_records": [],
+      "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+    },
+    {
+      "id": "SRC230",
+      "title": "Explanations of the endowment effect: an integrative review.",
+      "authors_display": "Morewedge CK, Giblin CE.",
+      "year": 2015,
+      "journal": "Trends in cognitive sciences",
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tics.2015.04.004",
+      "pmid": "25939336",
+      "url": "https://europepmc.org/article/MED/25939336",
+      "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22endowment+effect%22+AND+TITLE%3A%22review%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+      "accessed_on": "2026-09-11",
+      "record_role": "research_entry",
+      "provenance_query_ids": [
+        "R3-X-145"
       ],
       "indexed_related_records": [],
       "correction_retraction_check": "indexed_links_checked_not_exhaustive"

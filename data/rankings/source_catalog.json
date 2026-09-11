@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    "data/rankings/sources_by_topic/sleep.json",
+    "data/rankings/sources_by_topic/genetics.json",
+    "data/rankings/sources_by_topic/addiction.json",
+    "data/rankings/sources_by_topic/habits.json",
+    "data/rankings/sources_by_topic/personality.json",
+    "data/rankings/sources_by_topic/motivation.json",
+    "data/rankings/sources_by_topic/learning.json",
+    "data/rankings/sources_by_topic/attention.json",
+    "data/rankings/sources_by_topic/decisions.json",
+    "data/rankings/sources_by_topic/emotions.json",
+    "data/rankings/sources_by_topic/mental_health.json",
+    "data/rankings/sources_by_topic/relationships.json",
+    "data/rankings/sources_by_topic/social.json",
+    "data/rankings/sources_by_topic/wellbeing.json",
+    "data/rankings/sources_by_topic/exercise.json",
+    "data/rankings/sources_by_topic/nutrition.json",
+    "data/rankings/sources_by_topic/development.json",
+    "data/rankings/sources_by_topic/aging.json",
+    "data/rankings/sources_by_topic/digital.json",
+    "data/rankings/sources_by_topic/research_literacy.json",
+    "data/rankings/sources_by_topic/work.json",
+    "data/rankings/sources_by_topic/money_consumption.json",
+    "data/rankings/sources_by_topic/intimacy.json",
+    "data/rankings/sources_by_topic/health_psychology.json",
+    "data/rankings/sources_by_topic/environment.json",
+    "data/rankings/sources_by_topic/creativity.json",
+    "data/rankings/sources_by_topic/language.json",
+    "data/rankings/sources_by_topic/life_transitions.json"
+  ]
+}

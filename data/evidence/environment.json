@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "category_id": "environment",
+  "edges": [
+    {
+      "id": "EV-PSY-ENV-001-SRC081",
+      "topic_id": "PSY-ENV-001",
+      "source_id": "SRC081",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-29990359"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-002-SRC082",
+      "topic_id": "PSY-ENV-002",
+      "source_id": "SRC082",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-26502459"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-003-SRC187",
+      "topic_id": "PSY-ENV-003",
+      "source_id": "SRC187",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C080",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "交通騒音と睡眠には客観的・主観的指標の関連があり、質問の言い方や音源でも結果が異なった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "著者らの確実性は結果別に中程度から非常に低い。全ての音源や慣れの効果に一般化しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-004-SRC188",
+      "topic_id": "PSY-ENV-004",
+      "source_id": "SRC188",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C081",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2企業でオープン化の前後を測定し、対面交流が減り電子的な交流が増える結果を報告。",
+      "conclusion_direction": "challenges",
+      "limits_ja": "無作為化でなく、同時期の他の変化を除けない。全オフィスに同じ減少率を当てはめない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-005-SRC070",
+      "topic_id": "PSY-ENV-005",
+      "source_id": "SRC070",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-31197192"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-005-SRC079",
+      "topic_id": "PSY-ENV-005",
+      "source_id": "SRC079",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-30646029"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-005-SRC080",
+      "topic_id": "PSY-ENV-005",
+      "source_id": "SRC080",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-30646029"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-006-SRC229",
+      "topic_id": "PSY-ENV-006",
+      "source_id": "SRC229",
+      "relation_role": "context_only",
+      "relevance_1_to_5": 2,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S139",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "画面上の情報の混雑と、視線・金融リスク判断を比較する研究。",
+      "conclusion_direction": "context",
+      "limits_ja": "部屋の散らかりを直接検証していないため背景資料に限定。片づけの生活指導の根拠にはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-007-SRC189",
+      "topic_id": "PSY-ENV-007",
+      "source_id": "SRC189",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C082",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "においを伴う自伝的記憶は、同じ手掛かりの視覚提示等より感情的に感じられる傾向を報告。",
+      "conclusion_direction": "supports",
+      "limits_ja": "鮮明さや感情の強さは記憶の事実的正確さとは別。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-008-SRC041",
+      "topic_id": "PSY-ENV-008",
+      "source_id": "SRC041",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-35298459"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-009-SRC078",
+      "topic_id": "PSY-ENV-009",
+      "source_id": "SRC078",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-38589702"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-010-SRC190",
+      "topic_id": "PSY-ENV-010",
+      "source_id": "SRC190",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C083",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "色と心理の研究には理論・方法上の弱点が残り、実生活への応用を急がないことを提案。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "部屋の色で集中力を確実に変えられるという介入効果の証明ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-010-SRC191",
+      "topic_id": "PSY-ENV-010",
+      "source_id": "SRC191",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C084",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "色彩研究の歴史と方法上の問題を整理し、研究を解釈するための注意を提示。",
+      "conclusion_direction": "context",
+      "limits_ja": "概説であり特定の色の効果量を算出したメタ分析ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ENV-012-SRC192",
+      "topic_id": "PSY-ENV-012",
+      "source_id": "SRC192",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C085",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "自然音の研究を統合し、ストレスや感情などの平均的な改善を報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "効果量の区間が広い指標があり、音源・対照条件・介入内容が異なる。特定音源や治療効果を保証しない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

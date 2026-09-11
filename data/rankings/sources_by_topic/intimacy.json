@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "intimacy",
+  "topics": [
+    {
+      "topic_id": "PSY-INT-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-001-SRC077",
+          "source_id": "SRC077",
+          "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-002-SRC173",
+          "source_id": "SRC173",
+          "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality.",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "カップルの新しい活動と関係の質を扱う研究の書誌。本文・独立追試は未確認。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-003",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-INT-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-004-SRC226",
+          "source_id": "SRC226",
+          "title": "Sexual Desire Discrepancy: A Position Statement of the European Society for Sexual Medicine.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "context",
+          "limits_ja": "原文自身がエビデンス不足で意見に基づくと明記。学会名だけで高確実性と評価せず、同意を優先する。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-005-SRC174",
+          "source_id": "SRC174",
+          "title": "Dimensions of couples' sexual communication, relationship satisfaction, and sexual satisfaction: A meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "良い関係だから会話しやすいという逆因果もある。話題や行動への同意を強制しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-INT-005-SRC175",
+          "source_id": "SRC175",
+          "title": "Couples' Sexual Communication and Dimensions of Sexual Function: A Meta-Analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "会話を増やすだけで機能が改善するという治療の証明ではない。前のメタ分析との収載重複を確認する。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-006-SRC176",
+          "source_id": "SRC176",
+          "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "自己報告・一時点・母親中心の標本。家族全体の実測や因果効果ではなく、性別で役割を固定しない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-007",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-INT-008",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-INT-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-009-SRC077",
+          "source_id": "SRC077",
+          "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-010-SRC227",
+          "source_id": "SRC227",
+          "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles' Well-Being Across Cohorts.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "未婚であることを無作為割付した研究ではない。国・年齢・選択の違いを考慮する。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-011",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-011-SRC177",
+          "source_id": "SRC177",
+          "title": "Changes in relationship satisfaction across the transition to parenthood: a meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "全家庭の必然ではない。比較群・時点・欠測・支援環境を確認する。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-012-SRC178",
+          "source_id": "SRC178",
+          "title": "Implicit theories of relationships: Assessment and prediction of romantic relationship initiation, coping, and longevity.",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "関係の運命観・成長観を扱う基礎研究の書誌。危険な関係への努力継続を正当化しない。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

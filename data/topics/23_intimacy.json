@@ -39,7 +39,9 @@
       "angle_ja": "いつもの外食と初めての共同体験で気分が違うか考える。",
       "search_query": "self expansion shared novel activities systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC173"
+      ],
       "caution_ja": "新奇性と一緒に過ごす時間の効果を分け、無理な参加を勧めない。",
       "related_topic_ids": [
         "PSY-WEL-004",
@@ -49,7 +51,10 @@
         "type": "illustrative_scenario",
         "description_ja": "いつもの外食と初めての共同体験で気分が違うか考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C066"
+      ]
     },
     {
       "id": "PSY-INT-003",
@@ -82,7 +87,9 @@
       "angle_ja": "片方が親密さを求めるとき、相手は休みたい。",
       "search_query": "sexual desire discrepancy couple adjustment systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC226"
+      ],
       "caution_ja": "要求の強制や病理化を避け、同意と健康状態を前提にする。",
       "related_topic_ids": [
         "PSY-REL-010"
@@ -91,7 +98,10 @@
         "type": "illustrative_scenario",
         "description_ja": "片方が親密さを求めるとき、相手は休みたい。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S134"
+      ]
     },
     {
       "id": "PSY-INT-005",
@@ -103,7 +113,10 @@
       "angle_ja": "察してほしい気持ちと、確認する会話の違いを考える。",
       "search_query": "sexual communication consent systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC174",
+        "SRC175"
+      ],
       "caution_ja": "同意は継続的で撤回可能という前提を守り、交渉で覆す話にしない。",
       "related_topic_ids": [
         "PSY-REL-007",
@@ -113,7 +126,11 @@
         "type": "illustrative_scenario",
         "description_ja": "察してほしい気持ちと、確認する会話の違いを考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C067",
+        "R3-C068"
+      ]
     },
     {
       "id": "PSY-INT-006",
@@ -125,7 +142,9 @@
       "angle_ja": "買い物だけでなく献立や在庫を考える役割が偏る。",
       "search_query": "cognitive household labor mental load systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC176"
+      ],
       "caution_ja": "性別で役割を固定せず、家族構成と労働時間を考慮する。",
       "related_topic_ids": [
         "PSY-WRK-003",
@@ -135,7 +154,10 @@
         "type": "illustrative_scenario",
         "description_ja": "買い物だけでなく献立や在庫を考える役割が偏る。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C069"
+      ]
     },
     {
       "id": "PSY-INT-007",
@@ -218,7 +240,9 @@
       "angle_ja": "周囲の結婚と比べず、自分の交流や生活満足を考える。",
       "search_query": "singlehood relationship status well being systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC227"
+      ],
       "caution_ja": "独身を欠如と扱わず、自発性や支援関係の違いを確認する。",
       "related_topic_ids": [
         "PSY-REL-002",
@@ -228,7 +252,10 @@
         "type": "illustrative_scenario",
         "description_ja": "周囲の結婚と比べず、自分の交流や生活満足を考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S136"
+      ]
     },
     {
       "id": "PSY-INT-011",
@@ -240,7 +267,9 @@
       "angle_ja": "育児、睡眠、仕事の分担が変わった時期を扱う。",
       "search_query": "transition to parenthood relationship satisfaction systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC177"
+      ],
       "caution_ja": "平均変化を全家庭の運命にせず、支援資源と個人差を記載する。",
       "related_topic_ids": [
         "PSY-DEV-010",
@@ -250,7 +279,10 @@
         "type": "illustrative_scenario",
         "description_ja": "育児、睡眠、仕事の分担が変わった時期を扱う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C070"
+      ]
     },
     {
       "id": "PSY-INT-012",
@@ -262,7 +294,9 @@
       "angle_ja": "衝突を相性の悪さと見るか、話し合いの課題と見るかを考える。",
       "search_query": "implicit theories relationships destiny growth beliefs systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC178"
+      ],
       "caution_ja": "努力すれば危険な関係も改善できるとせず、離れる選択も尊重する。",
       "related_topic_ids": [
         "PSY-MOT-008",
@@ -272,7 +306,10 @@
         "type": "illustrative_scenario",
         "description_ja": "衝突を相性の悪さと見るか、話し合いの課題と見るかを考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C071"
+      ]
     }
   ]
 }

@@ -157,8 +157,13 @@
       "angle_ja": "不規則な報酬、ニアミス、損失の追跡を研究する。",
       "search_query": "gambling near miss intermittent reinforcement loss chasing human studies",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "依存を強める設計の指南にしない。支援につながる説明を優先する。"
+      "source_ids": [
+        "SRC118"
+      ],
+      "caution_ja": "依存を強める設計の指南にしない。支援につながる説明を優先する。",
+      "source_review_ids": [
+        "R3-C011"
+      ]
     },
     {
       "id": "PSY-ADD-010",
@@ -170,8 +175,17 @@
       "angle_ja": "使用時間だけでなく、生活支障やコントロール困難を調べる。",
       "search_query": "problematic smartphone use addiction diagnostic validity functional impairment review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "俗語の『依存』と正式な診断分類を混同しない。現在の分類を公開前に確認する。"
+      "source_ids": [
+        "SRC119",
+        "SRC120",
+        "SRC121"
+      ],
+      "caution_ja": "俗語の『依存』と正式な診断分類を混同しない。現在の分類を公開前に確認する。",
+      "source_review_ids": [
+        "R3-C012",
+        "R3-C013",
+        "R3-C014"
+      ]
     }
   ]
 }

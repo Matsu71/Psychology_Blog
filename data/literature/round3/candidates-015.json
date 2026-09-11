@@ -1,0 +1,1696 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "MED:42615384",
+      "title": "Resilience in Real Time: Ecological Momentary Assessments Show Social Networks Buffer Black Youths' Posttraumatic Stress in Trauma-Reminding Places.",
+      "doi": "10.1177/08862605261473538",
+      "year": "2026",
+      "authors": "Ajith A, Wilson T, Riley A, Barrett S, Shannon L, Booth J, Fabio A, Culyba A.",
+      "journal": "Journal of interpersonal violence",
+      "pmid": "42615384",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42615384",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41240390",
+      "title": "Using Social Network Analysis to Understand Peer Relationships on Dietary Patterns in Early Adolescents: A Systematic Review.",
+      "doi": "10.1093/nutrit/nuaf212",
+      "year": "2026",
+      "authors": "Johnson-Kanda I, Sibeko L.",
+      "journal": "Nutrition reviews",
+      "pmid": "41240390",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41240390",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41790696",
+      "title": "Associations between social relationships and cognitive impairment in older adults: A systematic review of risk and protective factors.",
+      "doi": "10.1097/md.0000000000047753",
+      "year": "2026",
+      "authors": "Li J, Shi L, Jiang N, Wang L, Wang Y, Zheng Z.",
+      "journal": "Medicine",
+      "pmid": "41790696",
+      "pmcid": "PMC12975201",
+      "url": "https://europepmc.org/article/MED/41790696",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41958334",
+      "title": "A Systematic Review of Controlling Rumors in Online Social Networks: Insights From Epidemiological Models.",
+      "doi": "10.1111/risa.70247",
+      "year": "2026",
+      "authors": "Karmaker CL, Al Aziz R, Arman MH, Zhuang J.",
+      "journal": "Risk analysis : an official publication of the Society for Risk Analysis",
+      "pmid": "41958334",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41958334",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40918588",
+      "title": "A systematic review of deep learning methods for community detection in social networks.",
+      "doi": "10.3389/frai.2025.1572645",
+      "year": "2025",
+      "authors": "El-Moussaoui M, Hanine M, Kartit A, Villar MG, Garay H, de la Torre Díez I.",
+      "journal": "Frontiers in artificial intelligence",
+      "pmid": "40918588",
+      "pmcid": "PMC12411782",
+      "url": "https://europepmc.org/article/MED/40918588",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41973776",
+      "title": "Can the Bergen Facebook Addiction Scale be adapted across contexts? Evidence from a COnsensus-based Standards for the selection of health Measurement INstruments systematic review.",
+      "doi": "10.1037/adb0001149",
+      "year": "2026",
+      "authors": "Fam JY, Männikkö N.",
+      "journal": "Psychology of addictive behaviors : journal of the Society of Psychologists in Addictive Behaviors",
+      "pmid": "41973776",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41973776",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42625570",
+      "title": "Psychosocial and economic factors related to better health among older adults in Europe - a systematic review.",
+      "doi": "10.3389/fpubh.2026.1858548",
+      "year": "2026",
+      "authors": "Wypych-Ślusarska A, Niewiadomska E, Oleksiuk K, Brand T.",
+      "journal": "Frontiers in public health",
+      "pmid": "42625570",
+      "pmcid": "PMC13489839",
+      "url": "https://europepmc.org/article/MED/42625570",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41755696",
+      "title": "The Not-So-Empty Nest: Exploring the Lived Experience of Iranian Parents with Adult Children Migrating from Tehran.",
+      "doi": "10.1177/00914150261426023",
+      "year": "2026",
+      "authors": "Rastegar S, Zamanshoar E, Kachooei M.",
+      "journal": "International journal of aging & human development",
+      "pmid": "41755696",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41755696",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41675409",
+      "title": "\"Sunlight\" illuminates \"empty nests\": the influence of social participation on the multi-dimensional health of empty-nest elderly in China.",
+      "doi": "10.1016/j.pmedr.2026.103395",
+      "year": "2026",
+      "authors": "Jin Q, Cheng P, Zhou T.",
+      "journal": "Preventive medicine reports",
+      "pmid": "41675409",
+      "pmcid": "PMC12887711",
+      "url": "https://europepmc.org/article/MED/41675409",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41639649",
+      "title": "Seeking medical services on the smartphone among rural empty-nest older adults in China: a qualitative study.",
+      "doi": "10.1186/s12877-026-07046-0",
+      "year": "2026",
+      "authors": "Zhang X, Zhang J, Pan Y, Wang C, Liu J, Chong X, Wang M.",
+      "journal": "BMC geriatrics",
+      "pmid": "41639649",
+      "pmcid": "PMC12964851",
+      "url": "https://europepmc.org/article/MED/41639649",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41705737",
+      "title": "The Onset of Empty Nest Increases Subjective Well-Being Amongst Middle-Aged and Older Adults: Longitudinal National Evidence From Thailand, 2015-2022.",
+      "doi": "10.1111/psyg.70147",
+      "year": "2026",
+      "authors": "Pengpid S, Peltzer K, Satitvipawee P, Kaewchankha W, Suanrueang P, Hajek A.",
+      "journal": "Psychogeriatrics : the official journal of the Japanese Psychogeriatric Society",
+      "pmid": "41705737",
+      "pmcid": "PMC12914757",
+      "url": "https://europepmc.org/article/MED/41705737",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42352684",
+      "title": "Depressive Symptoms and Self-Reported Emotion Regulation Strategy Use Among Empty-Nest Older Adults Following Recalled Happy and Sad Events.",
+      "doi": "10.3390/bs16060851",
+      "year": "2026",
+      "authors": "Wang J, Yang J, Zhang Q.",
+      "journal": "Behavioral sciences (Basel, Switzerland)",
+      "pmid": "42352684",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42352684",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42591317",
+      "title": "Predicting wellbeing in empty-nesters: an ensemble machine learning approach with data-driven feature selection.",
+      "doi": "10.3389/fpsyg.2026.1888784",
+      "year": "2026",
+      "authors": "Khreich W, Ayoub M.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42591317",
+      "pmcid": "PMC13461626",
+      "url": "https://europepmc.org/article/MED/42591317",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42553645",
+      "title": "Prevalence and determinants of social frailty among community-dwelling empty-nest older adults in China.",
+      "doi": "10.3389/fpubh.2026.1860833",
+      "year": "2026",
+      "authors": "Zou X, Zheng M, He Y, Wang H.",
+      "journal": "Frontiers in public health",
+      "pmid": "42553645",
+      "pmcid": "PMC13435923",
+      "url": "https://europepmc.org/article/MED/42553645",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42666637",
+      "title": "The relationship between social capital, self-efficacy, and health-related quality of life in rural empty-nest older adults with chronic diseases: a latent profile and mediation analysis.",
+      "doi": "10.3389/fpubh.2026.1866381",
+      "year": "2026",
+      "authors": "Wang Y, Zhao Y, Tian C, Shi L, Xu M.",
+      "journal": "Frontiers in public health",
+      "pmid": "42666637",
+      "pmcid": "PMC13522742",
+      "url": "https://europepmc.org/article/MED/42666637",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41405185",
+      "title": "Effectiveness of Family Integrated Care for Preterm Infants and Their Parents in Neonatal Intensive Care Units: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
+      "doi": "10.1111/nicc.70280",
+      "year": "2026",
+      "authors": "Liu RL, Zhan SZ, Guo XP, Wang YK, Li CY, Yang L, Wang XJ.",
+      "journal": "Nursing in critical care",
+      "pmid": "41405185",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41405185",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42516237",
+      "title": "The association of communal vs. solitary dining on nutritional intake and depression risk in older adults: a systematic review and meta-analysis.",
+      "doi": "10.3389/fnut.2026.1878848",
+      "year": "2026",
+      "authors": "Zhang Y, Zhang Y, Cai J, Yu W, Feng P, Wang H.",
+      "journal": "Frontiers in nutrition",
+      "pmid": "42516237",
+      "pmcid": "PMC13402156",
+      "url": "https://europepmc.org/article/MED/42516237",
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41533378",
+      "title": "Quality of Life of Parents of Premature Infants: A Systematic Review and Meta-Analysis.",
+      "doi": "10.1001/jamanetworkopen.2025.53712",
+      "year": "2026",
+      "authors": "Yip SASE, Lim QZX, Kong G, Amin Z, Ng YPM.",
+      "journal": "JAMA network open",
+      "pmid": "41533378",
+      "pmcid": "PMC12805452",
+      "url": "https://europepmc.org/article/MED/41533378",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39603255",
+      "title": "Psychological interventions for parents of children with intellectual disabilities to enhance child behavioral outcomes or parental well-being: A systematic review, content analysis and effects.",
+      "doi": "10.1177/17446295241302857",
+      "year": "2025",
+      "authors": "Ranta K, Saarimäki H, Gummerus J, Virtanen J, Peltomäki S, Kontu E.",
+      "journal": "Journal of intellectual disabilities : JOID",
+      "pmid": "39603255",
+      "pmcid": "PMC12084672",
+      "url": "https://europepmc.org/article/MED/39603255",
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40057656",
+      "title": "Parental Stress and Well-Being: A Meta-analysis.",
+      "doi": "10.1007/s10567-025-00515-9",
+      "year": "2025",
+      "authors": "Rusu PP, Candel OS, Bogdan I, Ilciuc C, Ursu A, Podina IR.",
+      "journal": "Clinical child and family psychology review",
+      "pmid": "40057656",
+      "pmcid": "PMC12162691",
+      "url": "https://europepmc.org/article/MED/40057656",
+      "publication_types": [
+        "Meta-Analysis",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40257658",
+      "title": "Self-Compassion and Psychological Health of Parents: A Meta-Analysis Focused on Some Neurodevelopmental Disorders.",
+      "doi": "10.1007/s10803-025-06841-9",
+      "year": "2026",
+      "authors": "Ozturk C, Guzel HS.",
+      "journal": "Journal of autism and developmental disorders",
+      "pmid": "40257658",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/40257658",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:37668850",
+      "title": "Cognitive-Based Interventions for Improving Psychological Health and Well-Being for Parents of Children with Developmental Disabilities: A Systematic Review and Meta-analysis.",
+      "doi": "10.1007/s10803-023-06063-x",
+      "year": "2024",
+      "authors": "Li S, Yong Y, Li Y, Li J, Xie J.",
+      "journal": "Journal of autism and developmental disorders",
+      "pmid": "37668850",
+      "pmcid": "PMC11362495",
+      "url": "https://europepmc.org/article/MED/37668850",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:31752538",
+      "title": "Quality of life of empty-nest elderly in China: a systematic review and meta-analysis.",
+      "doi": "10.1080/13548506.2019.1695863",
+      "year": "2020",
+      "authors": "He W, Jiang L, Ge X, Ye J, Yang N, Li M, Wang M, Han X.",
+      "journal": "Psychology, health & medicine",
+      "pmid": "31752538",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/31752538",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42635791",
+      "title": "Feeling out of place: a qualitative study on pathways from social adversities to early psychosis.",
+      "doi": "10.1007/s00127-026-03199-w",
+      "year": "2026",
+      "authors": "Both AP, Xavier SM, van den Bogerd N, Salmanova AR, Maas J, van der Ven E, Iyer SN, Jansen ILJ.",
+      "journal": "Social psychiatry and psychiatric epidemiology",
+      "pmid": "42635791",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42635791",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40880447",
+      "title": "Adaptive or maladaptive music-listening coping strategy: How does neuroticism use music after experiencing a romantic relationship breakup?",
+      "doi": "10.1371/journal.pone.0331373",
+      "year": "2025",
+      "authors": "He H, Chen S, Hua C.",
+      "journal": "PloS one",
+      "pmid": "40880447",
+      "pmcid": "PMC12396676",
+      "url": "https://europepmc.org/article/MED/40880447",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41854207",
+      "title": "Development of Negative Emotionality in Mothers Across 18 Years: Does Relationship Breakup Matter?",
+      "doi": "10.1111/jopy.70064",
+      "year": "2026",
+      "authors": "Borren I, De Fruyt F, Bølstad E, Torvik FA, Røysamb E, Gustavson K.",
+      "journal": "Journal of personality",
+      "pmid": "41854207",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41854207",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41289337",
+      "title": "The effects of narrative framing of own broken love on understanding the past and imagining the future in close relationships.",
+      "doi": "10.1371/journal.pone.0334973",
+      "year": "2025",
+      "authors": "Czarnecka JZ, Trzebiński J.",
+      "journal": "PloS one",
+      "pmid": "41289337",
+      "pmcid": "PMC12646452",
+      "url": "https://europepmc.org/article/MED/41289337",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39551574",
+      "title": "The association between childhood adversity and hippocampal volumes is moderated by romantic relationship experiences.",
+      "doi": "10.1111/ejn.16593",
+      "year": "2025",
+      "authors": "Acosta H, Jansen A, Kircher T.",
+      "journal": "The European journal of neuroscience",
+      "pmid": "39551574",
+      "pmcid": "PMC11664501",
+      "url": "https://europepmc.org/article/MED/39551574",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:40071369",
+      "title": "Stressful Life Events and Neuroticism among Chinese Women with Recurrent Major Depressive Disorder.",
+      "doi": "10.62641/aep.v53i2.1730",
+      "year": "2025",
+      "authors": "Chu F, Wang C, Tao S, Gao J, Zhu X, Tao D, Chen B, Tao M.",
+      "journal": "Actas espanolas de psiquiatria",
+      "pmid": "40071369",
+      "pmcid": "PMC11898265",
+      "url": "https://europepmc.org/article/MED/40071369",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:39092184",
+      "title": "Trajectory of depressive symptoms in the context of romantic relationship breakup: Characterizing the \"natural course\" of response and recovery in young adults.",
+      "doi": "10.1177/21676968231184922",
+      "year": "2023",
+      "authors": "Acolin J, Cadigan JM, Fleming CB, Rhew IC, Lee CM.",
+      "journal": "Emerging adulthood (Print)",
+      "pmid": "39092184",
+      "pmcid": "PMC11290389",
+      "url": "https://europepmc.org/article/MED/39092184",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC206"
+    },
+    {
+      "id": "MED:37139172",
+      "title": "A phenomenological study of the lived experiences of partner relationship breakup during pregnancy: Psychosocial effects, coping mechanisms, and the healthcare providers' role.",
+      "doi": "10.3389/fgwh.2023.1048366",
+      "year": "2023",
+      "authors": "Negussie A, Girma E, Kaba M.",
+      "journal": "Frontiers in global women's health",
+      "pmid": "37139172",
+      "pmcid": "PMC10150961",
+      "url": "https://europepmc.org/article/MED/37139172",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41570562",
+      "title": "Impact of rational drug use on chronic illness adaptation in elderly patients: A study from southeast Türkiye.",
+      "doi": "10.1016/j.gerinurse.2026.103797",
+      "year": "2026",
+      "authors": "Buyukbayram Genc Z, Citlik Saritas S.",
+      "journal": "Geriatric nursing (New York, N.Y.)",
+      "pmid": "41570562",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41570562",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41685277",
+      "title": "A qualitative analysis of healthcare professionals' perspectives on goal adjustment in chronic pain.",
+      "doi": "10.1177/20494637261418200",
+      "year": "2026",
+      "authors": "Roux L, Gustin SM, Newton-John TR.",
+      "journal": "British journal of pain",
+      "pmid": "41685277",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41685277",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42494167",
+      "title": "Using Network Analysis to Explore Longitudinal Predictors of Goal Progress and Adjustment.",
+      "doi": "10.1111/jopy.70090",
+      "year": "2026",
+      "authors": "Chhabda A, Maccarone F, Gawned A, Sieunarine A, Riddell H.",
+      "journal": "Journal of personality",
+      "pmid": "42494167",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42494167",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41613256",
+      "title": "Flexible Goal Adjustment Predicts Well-Being Before and After Retirement.",
+      "doi": "10.1155/jare/2950011",
+      "year": "2026",
+      "authors": "Viegas LM, Bermeitinger C, Greve W.",
+      "journal": "Journal of aging research",
+      "pmid": "41613256",
+      "pmcid": "PMC12848535",
+      "url": "https://europepmc.org/article/MED/41613256",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42488070",
+      "title": "When AI threatens future careers: a dual-appraisal model of university students' career goal adjustment intentions.",
+      "doi": "10.3389/fpsyg.2026.1879844",
+      "year": "2026",
+      "authors": "Zhang L, Long F, Chen D.",
+      "journal": "Frontiers in psychology",
+      "pmid": "42488070",
+      "pmcid": "PMC13388150",
+      "url": "https://europepmc.org/article/MED/42488070",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41233533",
+      "title": "A meta-analytic review and conceptual model of the antecedents and outcomes of goal adjustment in response to striving difficulties.",
+      "doi": "10.1038/s41562-025-02312-4",
+      "year": "2026",
+      "authors": "Riddell H, Sedikides C, Sedikides C, Sivaramakrishnan H, Wan P, Maltagliati S, Jackson B, Thøgersen-Ntoumani C, Gucciardi DF, Ntoumanis N.",
+      "journal": "Nature human behaviour",
+      "pmid": "41233533",
+      "pmcid": "PMC12932095",
+      "url": "https://europepmc.org/article/MED/41233533",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42516779",
+      "title": "Medical Challenges in Caring for Older Adults With Type 2 Diabetes and Dementia: A Qualitative Interview Study Using SCAT to Compare Primary Care Physicians and Diabetes Specialists in Japan.",
+      "doi": "10.1002/jgf2.70154",
+      "year": "2026",
+      "authors": "Taniguchi SI, Son D, Inoue K, Imaoka S, Nakai T, Otsuka Y, Taniguchi S, Hamada T, Sunami N.",
+      "journal": "Journal of general and family medicine",
+      "pmid": "42516779",
+      "pmcid": "PMC13402852",
+      "url": "https://europepmc.org/article/MED/42516779",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41601140",
+      "title": "Navigating career barriers: Gendered experiences and professional trajectories of female physicians in contemporary China.",
+      "doi": "10.1016/j.actpsy.2025.106200",
+      "year": "2026",
+      "authors": "Deng Y, Wang L, Ding Q.",
+      "journal": "Acta psychologica",
+      "pmid": "41601140",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41601140",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:31131441",
+      "title": "Goal adjustment capacities and quality of life: A meta-analytic review.",
+      "doi": "10.1111/jopy.12492",
+      "year": "2020",
+      "authors": "Barlow MA, Wrosch C, McGrath JJ.",
+      "journal": "Journal of personality",
+      "pmid": "31131441",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/31131441",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:26872741",
+      "title": "Towards integration of palliative care in patients with chronic heart failure and chronic obstructive pulmonary disease: a systematic literature review of European guidelines and pathways.",
+      "doi": "10.1186/s12904-016-0089-4",
+      "year": "2016",
+      "authors": "Siouta N, van Beek K, Preston N, Hasselaar J, Hughes S, Payne S, Garralda E, Centeno C, van der Eerden M, Groot M, Hodiamont F, Radbruch L, Busa C, Csikos A, Menten J.",
+      "journal": "BMC palliative care",
+      "pmid": "26872741",
+      "pmcid": "PMC4752742",
+      "url": "https://europepmc.org/article/MED/26872741",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42620611",
+      "title": "Trajectories of social transition among trans children and adolescents in Victoria, Australia: a longitudinal descriptive study.",
+      "doi": "10.1016/j.lanwpc.2026.101933",
+      "year": "2026",
+      "authors": "Conabere W, Buckingham P, Martin S, Pang KC, Tollit MA.",
+      "journal": "The Lancet regional health. Western Pacific",
+      "pmid": "42620611",
+      "pmcid": "PMC13486318",
+      "url": "https://europepmc.org/article/MED/42620611",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:42033654",
+      "title": "Reflections of a transnational Adolescent Medicine physician on gender social transition and language.",
+      "doi": "10.1515/ijamh-2026-0004",
+      "year": "2026",
+      "authors": "Kanbur N.",
+      "journal": "International journal of adolescent medicine and health",
+      "pmid": "42033654",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/42033654",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41552004",
+      "title": "Operationalising social transition in trans and gender diverse youth: a scoping review of definitions and measures.",
+      "doi": "10.1016/j.eclinm.2025.103720",
+      "year": "2026",
+      "authors": "Conabere W, Lami F, Andrews H, Skarlatos M, Pace CC, Buckingham P, Hay S, De Ieso T, Pang KC, Tollit MA.",
+      "journal": "EClinicalMedicine",
+      "pmid": "41552004",
+      "pmcid": "PMC12804129",
+      "url": "https://europepmc.org/article/MED/41552004",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41761695",
+      "title": "A grounded theory of the process of social transition in a family context from the perspective of gender diverse young people and their parents.",
+      "doi": "10.1111/camh.70078",
+      "year": "2026",
+      "authors": "Razzel S, Levinson S, Joscelyne T.",
+      "journal": "Child and adolescent mental health",
+      "pmid": "41761695",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41761695",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41940484",
+      "title": "The Role of Parental Rejection in Mental Health Outcomes of Transgender and Gender-Diverse Youth.",
+      "doi": "10.1111/eip.70176",
+      "year": "2026",
+      "authors": "Tüzün Z, Başar K, Aslan C, Nalbant K, Kızılkan MP, Alan BE, Akgül S.",
+      "journal": "Early intervention in psychiatry",
+      "pmid": "41940484",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41940484",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41756502",
+      "title": "Construing motherhood across generations in Taiwan's social transition: associations with depression and somatic symptoms.",
+      "doi": "10.3389/fpsyg.2026.1655539",
+      "year": "2026",
+      "authors": "Lin Y.",
+      "journal": "Frontiers in psychology",
+      "pmid": "41756502",
+      "pmcid": "PMC12932449",
+      "url": "https://europepmc.org/article/MED/41756502",
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:41736599",
+      "title": "Comparison of Autistic and Nonautistic Transgender Youth Attending Psychiatric Clinics Who Request Hormonal Therapy: A Retrospective Pilot Study.",
+      "doi": null,
+      "year": "2026",
+      "authors": "Balan-Moshe L, Shemesh-Iron M, Assaf D, Goldman S, Schwartz-Lifshitz M, Tsafrir S, Gothelf D.",
+      "journal": "The Israel Medical Association journal : IMAJ",
+      "pmid": "41736599",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/41736599",
+      "publication_types": [
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:38594055",
+      "title": "Impact of social transition in relation to gender for children and adolescents: a systematic review.",
+      "doi": "10.1136/archdischild-2023-326112",
+      "year": "2024",
+      "authors": "Hall R, Taylor J, Hewitt CE, Heathcote C, Jarvis SW, Langton T, Fraser L.",
+      "journal": "Archives of disease in childhood",
+      "pmid": "38594055",
+      "pmcid": null,
+      "url": "https://europepmc.org/article/MED/38594055",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:35805599",
+      "title": "Dynamics of Primary Social Networks to Support Mothers, Fathers, or Guardians of Transgender Children and Adolescents: A Systematic Review.",
+      "doi": "10.3390/ijerph19137941",
+      "year": "2022",
+      "authors": "Abreu PD, Andrade RLP, Maza ILDS, Faria MGBF, Nogueira JA, Monroe AA.",
+      "journal": "International journal of environmental research and public health",
+      "pmid": "35805599",
+      "pmcid": "PMC9265819",
+      "url": "https://europepmc.org/article/MED/35805599",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "MED:22223712",
+      "title": "Inequalities in body mass index and smoking behavior in 70 countries: evidence for a social transition in chronic disease risk.",
+      "doi": "10.1093/aje/kwr314",
+      "year": "2012",
+      "authors": "Fleischer NL, Diez Roux AV, Hubbard AE.",
+      "journal": "American journal of epidemiology",
+      "pmid": "22223712",
+      "pmcid": "PMC3261437",
+      "url": "https://europepmc.org/article/MED/22223712",
+      "publication_types": [
+        "Meta-Analysis",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "abstract_available": true,
+      "provider": "europepmc",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5664/jcsm.7128",
+      "title": "Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement",
+      "doi": "10.5664/jcsm.7128",
+      "year": 2018,
+      "authors": "Seema Khosla; Maryann C. Deak; Dominic Gault; Cathy A. Goldstein; Dennis Hwang; Younghoon Kwon; Daniel O'Hearn; Sharon Schutte-Rodin; Michael Yurcheshen; Ilene M. Rosen; Douglas B. Kirsch; Ronald D. Chervin; Kelly A. Carden; Kannan Ramar; R. Nisha Aurora; David A. Kristo; Raman K. Malhotra; Jennifer L. Martin; Eric J. Olson; Carol L. Rosen; James A. Rowley; for the American Academy of Sleep Medicine Board of Directors",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "url": "https://doi.org/10.5664/jcsm.7128",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC107"
+    },
+    {
+      "id": "DOI:10.5664/jcsm.8288",
+      "title": "Artificial intelligence in sleep medicine: an American Academy of Sleep Medicine position statement",
+      "doi": "10.5664/jcsm.8288",
+      "year": 2020,
+      "authors": "Cathy A. Goldstein; Richard B. Berry; David T. Kent; David A. Kristo; Azizi A. Seixas; Susan Redline; M. Brandon Westover; Fariha Abbasi-Feinberg; R. Nisha Aurora; Kelly A. Carden; Douglas B. Kirsch; Raman K. Malhotra; Jennifer L. Martin; Eric J. Olson; Kannan Ramar; Carol L. Rosen; James A. Rowley; Anita V. Shelgikar",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "url": "https://doi.org/10.5664/jcsm.8288",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5664/jcsm.11832",
+      "title": "Artificial intelligence in sleep medicine: an updated American Academy of Sleep Medicine position statement",
+      "doi": "10.5664/jcsm.11832",
+      "year": 2025,
+      "authors": "Margarita Oks; Ramesh Sachdeva; Mattina A. Davenport; Aatif M. Husain; Maninder Kalra; Vidya Krishnan; Trung Le; Ankit A. Parekh; Hyung Park; Bharati Prasad; Scott M. Ryals; Subaila Zia; Matthew Anastasi; Anita V. Shelgikar; Fariha Abbasi-Feinberg; Alexandre Rocha Abreu; Anuja Bandyopadhyay; Indira Gurubhagavatula; Vishesh K. Kapur; David Kuhlmann; Eric J. Olson; Susheel P. Patil; James A. Rowley; Lynn Marie Trotti; Emerson M. Wickwire",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "url": "https://doi.org/10.5664/jcsm.11832",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/sleep/zsaa291",
+      "title": "Performance of seven consumer sleep-tracking devices compared with polysomnography",
+      "doi": "10.1093/sleep/zsaa291",
+      "year": 2020,
+      "authors": "Evan D Chinoy; Joseph A Cuellar; Kirbie E Huwa; Jason T Jameson; Catherine H Watson; Sara C Bessman; Dale A Hirsch; Adam D Cooper; Sean P A Drummond; Rachel R Markwald",
+      "journal": "Sleep",
+      "url": "https://doi.org/10.1093/sleep/zsaa291",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC108"
+    },
+    {
+      "id": "DOI:10.5664/jcsm.11460",
+      "title": "Performance of consumer wrist-worn sleep tracking devices compared to polysomnography: a meta-analysis",
+      "doi": "10.5664/jcsm.11460",
+      "year": 2025,
+      "authors": "Young Jeong Lee; Jae Yong Lee; Jae Hoon Cho; Yun Jin Kang; Ji Ho Choi",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "url": "https://doi.org/10.5664/jcsm.11460",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC109"
+    },
+    {
+      "id": "DOI:10.1093/sleepadvances/zpaf021",
+      "title": "A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography",
+      "doi": "10.1093/sleepadvances/zpaf021",
+      "year": 2025,
+      "authors": "An-Marie Schyvens; Brent Peters; Nina Catharina Van Oost; Jean-Marie Aerts; Federica Masci; An Neven; Hélène Dirix; Geert Wets; Veerle Ross; Johan Verbraecken",
+      "journal": "Sleep Advances",
+      "url": "https://doi.org/10.1093/sleepadvances/zpaf021",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC110"
+    },
+    {
+      "id": "DOI:10.1016/j.smrv.2023.101764",
+      "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis",
+      "doi": "10.1016/j.smrv.2023.101764",
+      "year": 2023,
+      "authors": "Carissa Gardiner; Jonathon Weakley; Louise M. Burke; Gregory D. Roach; Charli Sargent; Nirav Maniar; Andrew Townshend; Shona L. Halson",
+      "journal": "Sleep Medicine Reviews",
+      "url": "https://doi.org/10.1016/j.smrv.2023.101764",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC111"
+    },
+    {
+      "id": "DOI:10.1016/j.smrv.2024.102030",
+      "title": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis",
+      "doi": "10.1016/j.smrv.2024.102030",
+      "year": 2025,
+      "authors": "Carissa Gardiner; Jonathon Weakley; Louise M. Burke; Gregory D. Roach; Charli Sargent; Nirav Maniar; Minh Huynh; Dean J. Miller; Andrew Townshend; Shona L. Halson",
+      "journal": "Sleep Medicine Reviews",
+      "url": "https://doi.org/10.1016/j.smrv.2024.102030",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC112"
+    },
+    {
+      "id": "DOI:10.3233/jad-2010-091387",
+      "title": "Caffeine Intake and Dementia: Systematic Review and Meta-Analysis",
+      "doi": "10.3233/jad-2010-091387",
+      "year": 2010,
+      "authors": "Catarina Santos; João Costa; João Santos; António Vaz-Carneiro; Nuno Lunet",
+      "journal": "Journal of Alzheimer's Disease",
+      "url": "https://doi.org/10.3233/jad-2010-091387",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/s40279-018-1015-0",
+      "title": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis",
+      "doi": "10.1007/s40279-018-1015-0",
+      "year": 2018,
+      "authors": "Jan Stutz; Remo Eiholzer; Christina M. Spengler",
+      "journal": "Sports Medicine",
+      "url": "https://doi.org/10.1007/s40279-018-1015-0",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC113"
+    },
+    {
+      "id": "DOI:10.1016/j.smrv.2021.101535",
+      "title": "The effects of evening high-intensity exercise on sleep in healthy adults: A systematic review and meta-analysis",
+      "doi": "10.1016/j.smrv.2021.101535",
+      "year": 2021,
+      "authors": "Emmanuel Frimpong; Melodee Mograss; Tehila Zvionow; Thien Thanh Dang-Vu",
+      "journal": "Sleep Medicine Reviews",
+      "url": "https://doi.org/10.1016/j.smrv.2021.101535",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC114"
+    },
+    {
+      "id": "DOI:10.1080/17461391.2019.1611934",
+      "title": "Moderate‐intensity exercise performed in the evening does not impair sleep in healthy males",
+      "doi": "10.1080/17461391.2019.1611934",
+      "year": 2019,
+      "authors": "D. J. Miller; C. Sargent; G. D. Roach; A. T. Scanlan; G. E. Vincent; M. Lastella",
+      "journal": "European Journal of Sport Science",
+      "url": "https://doi.org/10.1080/17461391.2019.1611934",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1038/s41588-019-0379-x",
+      "title": "Clinical use of current polygenic risk scores may exacerbate health disparities",
+      "doi": "10.1038/s41588-019-0379-x",
+      "year": 2019,
+      "authors": "Alicia R. Martin; Masahiro Kanai; Yoichiro Kamatani; Yukinori Okada; Benjamin M. Neale; Mark J. Daly",
+      "journal": "Nature Genetics",
+      "url": "https://doi.org/10.1038/s41588-019-0379-x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC115"
+    },
+    {
+      "id": "DOI:10.1038/s41588-021-00797-z",
+      "title": "Publisher Correction: Clinical use of current polygenic risk scores may exacerbate health disparities",
+      "doi": "10.1038/s41588-021-00797-z",
+      "year": 2021,
+      "authors": "Alicia R. Martin; Masahiro Kanai; Yoichiro Kamatani; Yukinori Okada; Benjamin M. Neale; Mark J. Daly",
+      "journal": "Nature Genetics",
+      "url": "https://doi.org/10.1038/s41588-021-00797-z",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC116"
+    },
+    {
+      "id": "DOI:10.3410/f.735412067.793562999",
+      "title": "Faculty Opinions recommendation of Clinical use of current polygenic risk scores may exacerbate health disparities.",
+      "doi": "10.3410/f.735412067.793562999",
+      "year": 2019,
+      "authors": "John Nurnberger",
+      "journal": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+      "url": "https://doi.org/10.3410/f.735412067.793562999",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/wps.20568",
+      "title": "Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms",
+      "doi": "10.1002/wps.20568",
+      "year": 2018,
+      "authors": "Rachel Yehuda; Amy Lehrner",
+      "journal": "World Psychiatry",
+      "url": "https://doi.org/10.1002/wps.20568",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC117"
+    },
+    {
+      "id": "DOI:10.3410/f.733993761.793578528",
+      "title": "Faculty Opinions recommendation of Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms.",
+      "doi": "10.3410/f.733993761.793578528",
+      "year": 2020,
+      "authors": "David Olson",
+      "journal": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+      "url": "https://doi.org/10.3410/f.733993761.793578528",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.30773/pi.2019.05.01",
+      "title": "Role of Putative Epigenetic Mechanisms in the Intergenerational Transmission of Trauma Effects in “Comfort Women” Survivor Offspring",
+      "doi": "10.30773/pi.2019.05.01",
+      "year": 2019,
+      "authors": "Seon-Cheol Park",
+      "journal": "Psychiatry Investigation",
+      "url": "https://doi.org/10.30773/pi.2019.05.01",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/e711662007-001",
+      "title": "Relationship Between Temperament and Personality Across the Life Span",
+      "doi": "10.1037/e711662007-001",
+      "year": 2007,
+      "authors": "Donna Marie Caro; Warren W. Tryon; Patricia Cohen",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e711662007-001",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/0191-8869(86)90086-3",
+      "title": "The relationship between temperament and personality: An exploratory study",
+      "doi": "10.1016/0191-8869(86)90086-3",
+      "year": 1986,
+      "authors": "Margot Prior; Gay Crook; Andrew Stripp; Marion Power; Michelle Joseph",
+      "journal": "Personality and Individual Differences",
+      "url": "https://doi.org/10.1016/0191-8869(86)90086-3",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5455/apd.164248",
+      "title": "The relationship between Nine Types Temperament Model with Psychobiological Personality Model and Affective Temperament Model",
+      "doi": "10.5455/apd.164248",
+      "year": 2015,
+      "authors": "Enver Yilmaz; Gorkem Gencer; Ozge nal; Alp Orek; Omer Aydemir; Erdem Deveci; Ismet Kirpinar",
+      "journal": "Anatolian Journal of Psychiatry",
+      "url": "https://doi.org/10.5455/apd.164248",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.neuron.2008.12.031",
+      "title": "Gambling Near-Misses Enhance Motivation to Gamble and Recruit Win-Related Brain Circuitry",
+      "doi": "10.1016/j.neuron.2008.12.031",
+      "year": 2009,
+      "authors": "Luke Clark; Andrew J. Lawrence; Frances Astley-Jones; Nicola Gray",
+      "journal": "Neuron",
+      "url": "https://doi.org/10.1016/j.neuron.2008.12.031",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC118"
+    },
+    {
+      "id": "DOI:10.1038/sj.npp.1300333",
+      "title": "Amphetamine Primes Motivation to Gamble and Gambling-Related Semantic Networks in Problem Gamblers",
+      "doi": "10.1038/sj.npp.1300333",
+      "year": 2003,
+      "authors": "Martin Zack; Constantine X Poulos",
+      "journal": "Neuropsychopharmacology",
+      "url": "https://doi.org/10.1038/sj.npp.1300333",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.neulet.2011.01.059",
+      "title": "Neural correlates of near-misses effect in gambling",
+      "doi": "10.1016/j.neulet.2011.01.059",
+      "year": 2011,
+      "authors": "Senqing Qi; Cody Ding; Yan Song; Dong Yang",
+      "journal": "Neuroscience Letters",
+      "url": "https://doi.org/10.1016/j.neulet.2011.01.059",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jad.2016.08.030",
+      "title": "Problematic smartphone use: A conceptual overview and systematic review of relations with anxiety and depression psychopathology",
+      "doi": "10.1016/j.jad.2016.08.030",
+      "year": 2017,
+      "authors": "Jon D. Elhai; Robert D. Dvorak; Jason C. Levine; Brian J. Hall",
+      "journal": "Journal of Affective Disorders",
+      "url": "https://doi.org/10.1016/j.jad.2016.08.030",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC119"
+    },
+    {
+      "id": "DOI:10.1007/s40429-021-00398-0",
+      "title": "The Overlap Between Problematic Smartphone Use and Problematic Social Media Use: a Systematic Review",
+      "doi": "10.1007/s40429-021-00398-0",
+      "year": 2021,
+      "authors": "Claudia Marino; Natale Canale; Fiordalisa Melodia; Marcantonio M. Spada; Alessio Vieno",
+      "journal": "Current Addiction Reports",
+      "url": "https://doi.org/10.1007/s40429-021-00398-0",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC120"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2020.00672",
+      "title": "Problematic Mobile Phone and Smartphone Use Scales: A Systematic Review",
+      "doi": "10.3389/fpsyg.2020.00672",
+      "year": 2020,
+      "authors": "Bethany Harris; Timothy Regan; Jordan Schueler; Sherecce A. Fields",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2020.00672",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC121"
+    },
+    {
+      "id": "DOI:10.1016/j.ypmed.2015.03.001",
+      "title": "Personal financial incentives for changing habitual health-related behaviors: A systematic review and meta-analysis",
+      "doi": "10.1016/j.ypmed.2015.03.001",
+      "year": 2015,
+      "authors": "Eleni Mantzari; Florian Vogt; Ian Shemilt; Yinghui Wei; Julian P.T. Higgins; Theresa M. Marteau",
+      "journal": "Preventive Medicine",
+      "url": "https://doi.org/10.1016/j.ypmed.2015.03.001",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC122"
+    },
+    {
+      "id": "DOI:10.1186/s12889-019-7407-8",
+      "title": "Changing health behaviors using financial incentives: a review from behavioral economics",
+      "doi": "10.1186/s12889-019-7407-8",
+      "year": 2019,
+      "authors": "Ivo Vlaev; Dominic King; Ara Darzi; Paul Dolan",
+      "journal": "BMC Public Health",
+      "url": "https://doi.org/10.1186/s12889-019-7407-8",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5038/1936-4660.17.2.1449",
+      "title": "Financial Literacy, Health Insurance, and Health-Related Financial Behaviors",
+      "doi": "10.5038/1936-4660.17.2.1449",
+      "year": 2024,
+      "authors": "Kyle Kopplin",
+      "journal": "Numeracy",
+      "url": "https://doi.org/10.5038/1936-4660.17.2.1449",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.trf.2019.04.022",
+      "title": "Habit discontinuity and student travel mode choice",
+      "doi": "10.1016/j.trf.2019.04.022",
+      "year": 2019,
+      "authors": "Paul Haggar; Lorraine Whitmarsh; Stephen M. Skippon",
+      "journal": "Transportation Research Part F: Traffic Psychology and Behaviour",
+      "url": "https://doi.org/10.1016/j.trf.2019.04.022",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jenvp.2007.10.005",
+      "title": "Context change and travel mode choice: Combining the habit discontinuity and self-activation hypotheses",
+      "doi": "10.1016/j.jenvp.2007.10.005",
+      "year": 2008,
+      "authors": "Bas Verplanken; Ian Walker; Adrian Davis; Michaela Jurasek",
+      "journal": "Journal of Environmental Psychology",
+      "url": "https://doi.org/10.1016/j.jenvp.2007.10.005",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC123"
+    },
+    {
+      "id": "DOI:10.1007/978-3-319-45920-2_3",
+      "title": "Habits, Habit Change, and the Habit of Habit Change According to Peirce",
+      "doi": "10.1007/978-3-319-45920-2_3",
+      "year": 2016,
+      "authors": "Winfried Nöth",
+      "journal": "Studies in Applied Philosophy, Epistemology and Rational Ethics; Consensus on Peirce’s Concept of Habit",
+      "url": "https://doi.org/10.1007/978-3-319-45920-2_3",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4018/978-1-7998-2731-3.ch003",
+      "title": "Commitment Devices for Health",
+      "doi": "10.4018/978-1-7998-2731-3.ch003",
+      "year": 2020,
+      "authors": "Manu M. Savani",
+      "journal": "Advances in Public Policy and Administration; Behavioral-Based Interventions for Improving Public Policies",
+      "url": "https://doi.org/10.4018/978-1-7998-2731-3.ch003",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2196/18907",
+      "title": "Wearable Health Devices in Health Care: Narrative Systematic Review",
+      "doi": "10.2196/18907",
+      "year": 2020,
+      "authors": "Lin Lu; Jiayao Zhang; Yi Xie; Fei Gao; Song Xu; Xinghuo Wu; Zhewei Ye",
+      "journal": "JMIR mHealth and uHealth",
+      "url": "https://doi.org/10.2196/18907",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2196/preprints.18907",
+      "title": "Wearable Health Devices in Health Care: Narrative Systematic Review (Preprint)",
+      "doi": "10.2196/preprints.18907",
+      "year": 2020,
+      "authors": "Lin Lu; Jiayao Zhang; Yi Xie; Fei Gao; Song Xu; Xinghuo Wu; Zhewei Ye",
+      "journal": null,
+      "url": "https://doi.org/10.2196/preprints.18907",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/s0065-2601(06)38002-1",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "doi": "10.1016/s0065-2601(06)38002-1",
+      "year": 2006,
+      "authors": "Peter M. Gollwitzer; Paschal Sheeran",
+      "journal": "Advances in Experimental Social Psychology; Advances in Experimental Social Psychology Volume 38",
+      "url": "https://doi.org/10.1016/s0065-2601(06)38002-1",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC124"
+    },
+    {
+      "id": "DOI:10.3724/sp.j.1042.2013.00282",
+      "title": "The Promotion Role of Implementation Intentions on Goal Achievement and Their Psychological Processes",
+      "doi": "10.3724/sp.j.1042.2013.00282",
+      "year": 2013,
+      "authors": "Xiaoyong HU; Yongyu GUO",
+      "journal": "Advances in Psychological Science",
+      "url": "https://doi.org/10.3724/sp.j.1042.2013.00282",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2021.565202",
+      "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment",
+      "doi": "10.3389/fpsyg.2021.565202",
+      "year": 2021,
+      "authors": "Guoxia Wang; Yi Wang; Xiaosong Gai",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2021.565202",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC098"
+    },
+    {
+      "id": "DOI:10.1016/j.bbi.2026.106299",
+      "title": "An extraverted behavior intervention improves immune gene expression",
+      "doi": "10.1016/j.bbi.2026.106299",
+      "year": 2026,
+      "authors": "Ramona L. Martinez; Sonja Lyubomirsky; Steve W. Cole",
+      "journal": "Brain, Behavior, and Immunity",
+      "url": "https://doi.org/10.1016/j.bbi.2026.106299",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/xge0000516",
+      "title": "Costs and benefits of acting extraverted: A randomized controlled trial.",
+      "doi": "10.1037/xge0000516",
+      "year": 2019,
+      "authors": "Rowan Jacques-Hamilton; Jessie Sun; Luke D. Smillie",
+      "journal": "Journal of Experimental Psychology: General",
+      "url": "https://doi.org/10.1037/xge0000516",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC125"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/8ze6w",
+      "title": "Costs and Benefits of Acting Extraverted: A Randomized Controlled Trial",
+      "doi": "10.31234/osf.io/8ze6w",
+      "year": 2018,
+      "authors": "Rowan Jacques-Hamilton; Jessie Sun; Luke D. Smillie",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/8ze6w",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jrp.2014.10.009",
+      "title": "Whole Trait Theory",
+      "doi": "10.1016/j.jrp.2014.10.009",
+      "year": 2015,
+      "authors": "William Fleeson; Eranda Jayawickreme",
+      "journal": "Journal of Research in Personality",
+      "url": "https://doi.org/10.1016/j.jrp.2014.10.009",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC126"
+    },
+    {
+      "id": "DOI:10.1002/9781118970843.ch70",
+      "title": "Whole Trait Theory",
+      "doi": "10.1002/9781118970843.ch70",
+      "year": 2020,
+      "authors": "Kira O. McCabe",
+      "journal": "The Wiley Encyclopedia of Personality and Individual Differences",
+      "url": "https://doi.org/10.1002/9781118970843.ch70",
+      "publication_types": [
+        "other"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/9781119547143.ch70",
+      "title": "Whole Trait Theory",
+      "doi": "10.1002/9781119547143.ch70",
+      "year": 2020,
+      "authors": "Kira O. McCabe",
+      "journal": "The Wiley Encyclopedia of Personality and Individual Differences",
+      "url": "https://doi.org/10.1002/9781119547143.ch70",
+      "publication_types": [
+        "other"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/h0059240",
+      "title": "The fallacy of personal validation: a classroom demonstration of gullibility.",
+      "doi": "10.1037/h0059240",
+      "year": 1949,
+      "authors": "Bertram R. Forer",
+      "journal": "The Journal of Abnormal and Social Psychology",
+      "url": "https://doi.org/10.1037/h0059240",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC127"
+    },
+    {
+      "id": "DOI:10.1002/1097-4679(197201)28:1<47::aid-jclp2270280116>3.0.co;2-k",
+      "title": "Personal gullibility or pseudodiagnosis: A further test of the “fallacy of personal validation”",
+      "doi": "10.1002/1097-4679(197201)28:1<47::aid-jclp2270280116>3.0.co;2-k",
+      "year": 1972,
+      "authors": "Robert R. Dies",
+      "journal": "Journal of Clinical Psychology",
+      "url": "https://doi.org/10.1002/1097-4679(197201)28:1<47::aid-jclp2270280116>3.0.co;2-k",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/e581482009-006",
+      "title": "A further demonstration of gullibility",
+      "doi": "10.1037/e581482009-006",
+      "year": 1963,
+      "authors": "Earl X. Freed",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e581482009-006",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.54097/ehss.v8i.4649",
+      "title": "Sensory Processing Sensitivity and Children Development in the Context of Environmental Sensitivity",
+      "doi": "10.54097/ehss.v8i.4649",
+      "year": 2023,
+      "authors": "Yilin Hu",
+      "journal": "Journal of Education, Humanities and Social Sciences",
+      "url": "https://doi.org/10.54097/ehss.v8i.4649",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    }
+  ]
+}

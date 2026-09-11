@@ -1,0 +1,1538 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-09-11",
+  "papers": [
+    {
+      "id": "DOI:10.1007/978-3-319-32937-6_6",
+      "title": "Effort-Reward Imbalance and Affective Disorders",
+      "doi": "10.1007/978-3-319-32937-6_6",
+      "year": 2016,
+      "authors": "Reiner Rugulies; Birgit Aust; Ida E. H. Madsen",
+      "journal": "Aligning Perspectives on Health, Safety and Well-Being; Work Stress and Health in a Globalized Economy",
+      "url": "https://doi.org/10.1007/978-3-319-32937-6_6",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0022876",
+      "title": "On the costs and benefits of emotional labor: A meta-analysis of three decades of research.",
+      "doi": "10.1037/a0022876",
+      "year": 2011,
+      "authors": "Ute R. Hülsheger; Anna F. Schewe",
+      "journal": "Journal of Occupational Health Psychology",
+      "url": "https://doi.org/10.1037/a0022876",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC163"
+    },
+    {
+      "id": "DOI:10.1037/a0022876.supp",
+      "title": "Supplemental Material for On the Costs and Benefits of Emotional Labor: A Meta-Analysis of Three Decades of Research",
+      "doi": "10.1037/a0022876.supp",
+      "year": 2011,
+      "authors": "",
+      "journal": "Journal of Occupational Health Psychology",
+      "url": "https://doi.org/10.1037/a0022876.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0146167219841621",
+      "title": "Three Decades of Research on Induced Hypocrisy: A Meta-Analysis",
+      "doi": "10.1177/0146167219841621",
+      "year": 2019,
+      "authors": "Daniel Priolo; Audrey Pelt; Roxane St. Bauzel; Lolita Rubens; Dimitri Voisin; Valerie Fointiat",
+      "journal": "Personality and Social Psychology Bulletin",
+      "url": "https://doi.org/10.1177/0146167219841621",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.9788/tp2019.2-06",
+      "title": "Job Crafting Interventions: Systematic Review",
+      "doi": "10.9788/tp2019.2-06",
+      "year": 2019,
+      "authors": "Rita P. Devotto; Solange M. Wechsler",
+      "journal": "Temas em Psicologia",
+      "url": "https://doi.org/10.9788/tp2019.2-06",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1080/1359432x.2019.1646728",
+      "title": "Effectiveness of job crafting interventions: a meta-analysis and utility analysis",
+      "doi": "10.1080/1359432x.2019.1646728",
+      "year": 2019,
+      "authors": "Bogdan Teodor Oprea; Liubița Barzin; Delia Vîrgă; Dragoș Iliescu; Andrei Rusu",
+      "journal": "European Journal of Work and Organizational Psychology",
+      "url": "https://doi.org/10.1080/1359432x.2019.1646728",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC164"
+    },
+    {
+      "id": "DOI:10.1093/oso/9780197692554.003.0017",
+      "title": "Job Crafting Interventions",
+      "doi": "10.1093/oso/9780197692554.003.0017",
+      "year": 2025,
+      "authors": "Evangelia Demerouti; Maria Peeters; Machteld van den Heuvel",
+      "journal": "Transformative Work Design",
+      "url": "https://doi.org/10.1093/oso/9780197692554.003.0017",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1111/j.1744-6570.2005.00672.x",
+      "title": "CONSEQUENCES OF INDIVIDUALS' FIT AT WORK: A META‐ANALYSIS OF PERSON–JOB, PERSON–ORGANIZATION, PERSON–GROUP, AND PERSON–SUPERVISOR FIT",
+      "doi": "10.1111/j.1744-6570.2005.00672.x",
+      "year": 2005,
+      "authors": "AMY L. KRISTOF‐BROWN; RYAN D. ZIMMERMAN; ERIN C. JOHNSON",
+      "journal": "Personnel Psychology",
+      "url": "https://doi.org/10.1111/j.1744-6570.2005.00672.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC165"
+    },
+    {
+      "id": "DOI:10.3846/btp.2020.9487",
+      "title": "INNOVATIVE WORK BEHAVIOUR: AN INTEGRATIVE INVESTIGATION OF PERSON-JOB FIT, PERSON-ORGANIZATION FIT, AND PERSON-GROUP FIT",
+      "doi": "10.3846/btp.2020.9487",
+      "year": 2020,
+      "authors": "Emiliana Sri Pudjiarti; Prihatin Tiyanto Priagung Hutomo",
+      "journal": "Business: Theory and Practice",
+      "url": "https://doi.org/10.3846/btp.2020.9487",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5465/ambpp.2014.14644abstract",
+      "title": "\"Person-Job Fit, Person-Organization Fit and Innovative Work Behavior\"",
+      "doi": "10.5465/ambpp.2014.14644abstract",
+      "year": 2014,
+      "authors": "Bilal Afsar; Yuosre F. Badir; Bilal Saeed",
+      "journal": "Academy of Management Proceedings",
+      "url": "https://doi.org/10.5465/ambpp.2014.14644abstract",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/1089-2699.9.1.58",
+      "title": "Meetings and More Meetings: The Relationship Between Meeting Load and the Daily Well-Being of Employees.",
+      "doi": "10.1037/1089-2699.9.1.58",
+      "year": 2005,
+      "authors": "Alexandra Luong; Steven G. Rogelberg",
+      "journal": "Group Dynamics: Theory, Research, and Practice",
+      "url": "https://doi.org/10.1037/1089-2699.9.1.58",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC166"
+    },
+    {
+      "id": "DOI:10.55041/isjem03133",
+      "title": "Examining The Relationship Between Employees Well - Being & Engagement",
+      "doi": "10.55041/isjem03133",
+      "year": 2025,
+      "authors": "Dr. Shweta Patel",
+      "journal": "International Scientific Journal of Engineering and Management",
+      "url": "https://doi.org/10.55041/isjem03133",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1080/02701367.2023.2198575",
+      "title": "Relationship Between Training Load, Neuromuscular Fatigue, and Daily Well-Being in Elite Young Wrestlers",
+      "doi": "10.1080/02701367.2023.2198575",
+      "year": 2023,
+      "authors": "Mehmet Yildiz; Zeki Akyildiz; Mehmet Gunay; Filipe Manuel Clemente",
+      "journal": "Research Quarterly for Exercise and Sport",
+      "url": "https://doi.org/10.1080/02701367.2023.2198575",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/s11606-019-05364-1",
+      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review",
+      "doi": "10.1007/s11606-019-05364-1",
+      "year": 2019,
+      "authors": "Dena M. Bravata; Sharon A. Watts; Autumn L. Keefer; Divya K. Madhusudhan; Katie T. Taylor; Dani M. Clark; Ross S. Nelson; Kevin O. Cokley; Heather K. Hagg",
+      "journal": "Journal of General Internal Medicine",
+      "url": "https://doi.org/10.1007/s11606-019-05364-1",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC167"
+    },
+    {
+      "id": "DOI:10.29245/2578-2959/2020/3.1207",
+      "title": "Commentary: Prevalence, Predictors, and Treatment of Imposter Syndrome: A Systematic Review",
+      "doi": "10.29245/2578-2959/2020/3.1207",
+      "year": 2020,
+      "authors": "Dena Bravata; Divya Madhusudhan; Michael Boroff; Kevin Cokley",
+      "journal": "Journal of Mental Health &amp; Clinical Psychology",
+      "url": "https://doi.org/10.29245/2578-2959/2020/3.1207",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.11591/ijere.v13i6.30726",
+      "title": "A systematic review of impostor syndrome in higher education",
+      "doi": "10.11591/ijere.v13i6.30726",
+      "year": 2024,
+      "authors": "Xiaohan Yang; Kee Jiar Yeo; Shih-Hui Lee; Lina Handayani",
+      "journal": "International Journal of Evaluation and Research in Education (IJERE)",
+      "url": "https://doi.org/10.11591/ijere.v13i6.30726",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.5465/amj.2018.1474",
+      "title": "Office Chitchat as a Social Ritual: The Uplifting Yet Distracting Effects of Daily Small Talk at Work",
+      "doi": "10.5465/amj.2018.1474",
+      "year": 2021,
+      "authors": "Jessica R. Methot; Emily H. Rosado-Solomon; Patrick E. Downes; Allison S. Gabriel",
+      "journal": "Academy of Management Journal",
+      "url": "https://doi.org/10.5465/amj.2018.1474",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC168"
+    },
+    {
+      "id": "DOI:10.5040/9781839979705.ch-004",
+      "title": "Office Small Talk",
+      "doi": "10.5040/9781839979705.ch-004",
+      "year": 2024,
+      "authors": "",
+      "journal": "Just the Job!",
+      "url": "https://doi.org/10.5040/9781839979705.ch-004",
+      "publication_types": [
+        "other"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1556/2062.2023.00663",
+      "title": "Ritual Small Talk in Chinese",
+      "doi": "10.1556/2062.2023.00663",
+      "year": 2023,
+      "authors": "Zongfeng Xia; Fengguang Liu; Dániel Z. Kádár; Juliane House",
+      "journal": "Acta Linguistica Academica",
+      "url": "https://doi.org/10.1556/2062.2023.00663",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jretai.2024.05.003",
+      "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+      "doi": "10.1016/j.jretai.2024.05.003",
+      "year": 2024,
+      "authors": "Lachlan Schomburgk; Alex Belli; Arvid O.I. Hoffmann",
+      "journal": "Journal of Retailing",
+      "url": "https://doi.org/10.1016/j.jretai.2024.05.003",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC169"
+    },
+    {
+      "id": "DOI:10.1080/03064229608536116",
+      "title": "Less cash, more troubles",
+      "doi": "10.1080/03064229608536116",
+      "year": 1996,
+      "authors": "Robert Springborg",
+      "journal": "Index on Censorship",
+      "url": "https://doi.org/10.1080/03064229608536116",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1108/978-1-78714-425-520171013",
+      "title": "Less Cash or Cashless: What about the Common Man?",
+      "doi": "10.1108/978-1-78714-425-520171013",
+      "year": 2017,
+      "authors": "",
+      "journal": "The Role of Microfinance in Women’s Empowerment",
+      "url": "https://doi.org/10.1108/978-1-78714-425-520171013",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+      "title": "Mental accounting matters",
+      "doi": "10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+      "year": 1999,
+      "authors": "Richard H. Thaler",
+      "journal": "Journal of Behavioral Decision Making",
+      "url": "https://doi.org/10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC170"
+    },
+    {
+      "id": "DOI:10.1017/cbo9780511803475.015",
+      "title": "Mental Accounting Matters",
+      "doi": "10.1017/cbo9780511803475.015",
+      "year": 2000,
+      "authors": "Richard H. Thaler",
+      "journal": "Choices, Values, and Frames",
+      "url": "https://doi.org/10.1017/cbo9780511803475.015",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2307/j.ctvcm4j8j.8",
+      "title": "Mental Accounting Matters",
+      "doi": "10.2307/j.ctvcm4j8j.8",
+      "year": 2011,
+      "authors": "RICHARD H. THALER",
+      "journal": "Advances in Behavioral Economics",
+      "url": "https://doi.org/10.2307/j.ctvcm4j8j.8",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1287/mksc.1060.0254",
+      "title": "Zero as a Special Price: The True Value of Free Products",
+      "doi": "10.1287/mksc.1060.0254",
+      "year": 2007,
+      "authors": "Kristina Shampanier; Nina Mazar; Dan Ariely",
+      "journal": "Marketing Science",
+      "url": "https://doi.org/10.1287/mksc.1060.0254",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC171"
+    },
+    {
+      "id": "DOI:10.2139/ssrn.951742",
+      "title": "How Small is Zero Price? The True Value of Free Products",
+      "doi": "10.2139/ssrn.951742",
+      "year": 2006,
+      "authors": "Dan Ariely; Kristina Shampan'er",
+      "journal": null,
+      "url": "https://doi.org/10.2139/ssrn.951742",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jclepro.2023.136145",
+      "title": "Creating trust and consumer value for true price food products",
+      "doi": "10.1016/j.jclepro.2023.136145",
+      "year": 2023,
+      "authors": "Danny Taufik; Mariët A. van Haaster-de Winter; Machiel J. Reinders",
+      "journal": "Journal of Cleaner Production",
+      "url": "https://doi.org/10.1016/j.jclepro.2023.136145",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-1-4614-7883-6_545-1",
+      "title": "Endowment Effect",
+      "doi": "10.1007/978-1-4614-7883-6_545-1",
+      "year": 2014,
+      "authors": "Ben Depoorter; Sven Hoeppner",
+      "journal": "Encyclopedia of Law and Economics",
+      "url": "https://doi.org/10.1007/978-1-4614-7883-6_545-1",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.7551/mitpress/12243.003.0005",
+      "title": "Endowment Effect",
+      "doi": "10.7551/mitpress/12243.003.0005",
+      "year": 2020,
+      "authors": "",
+      "journal": "Achievement Relocked",
+      "url": "https://doi.org/10.7551/mitpress/12243.003.0005",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-3-642-27739-9_1579-1",
+      "title": "Endowment Effect",
+      "doi": "10.1007/978-3-642-27739-9_1579-1",
+      "year": 2021,
+      "authors": "Karen Renaud",
+      "journal": "Encyclopedia of Cryptography, Security and Privacy",
+      "url": "https://doi.org/10.1007/978-3-642-27739-9_1579-1",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1097/00005110-197805000-00010",
+      "title": "Doing Better Feeling Worse",
+      "doi": "10.1097/00005110-197805000-00010",
+      "year": 1978,
+      "authors": "Nancy Greenleaf",
+      "journal": "JONA: The Journal of Nursing Administration",
+      "url": "https://doi.org/10.1097/00005110-197805000-00010",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/0360-3016(92)90130-a",
+      "title": "“Doing better, feeling worse”",
+      "doi": "10.1016/0360-3016(92)90130-a",
+      "year": 1992,
+      "authors": "Donald Kennedy",
+      "journal": "International Journal of Radiation Oncology*Biology*Physics",
+      "url": "https://doi.org/10.1016/0360-3016(92)90130-a",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4414/bms.2005.11463",
+      "title": "Doing better / feeling worse",
+      "doi": "10.4414/bms.2005.11463",
+      "year": 2005,
+      "authors": "",
+      "journal": "Bulletin des Médecins Suisses",
+      "url": "https://doi.org/10.4414/bms.2005.11463",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.jesp.2011.03.015",
+      "title": "Give them what they want: The benefits of explicitness in gift exchange",
+      "doi": "10.1016/j.jesp.2011.03.015",
+      "year": 2011,
+      "authors": "Francesca Gino; Francis J. Flynn",
+      "journal": "Journal of Experimental Social Psychology",
+      "url": "https://doi.org/10.1016/j.jesp.2011.03.015",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC172"
+    },
+    {
+      "id": "DOI:10.2307/808032",
+      "title": "Give Them What They Want",
+      "doi": "10.2307/808032",
+      "year": 1947,
+      "authors": "Olive Eckerson",
+      "journal": "The English Journal",
+      "url": "https://doi.org/10.2307/808032",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1093/ptj/44.10.874a",
+      "title": "Give Them What They Want",
+      "doi": "10.1093/ptj/44.10.874a",
+      "year": 1964,
+      "authors": "Helen J. Hislop",
+      "journal": "Physical Therapy",
+      "url": "https://doi.org/10.1093/ptj/44.10.874a",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0022-3514.78.2.273",
+      "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality.",
+      "doi": "10.1037/0022-3514.78.2.273",
+      "year": 2000,
+      "authors": "Arthur Aron; Christina C. Norman; Elaine N. Aron; Colin McKenna; Richard E. Heyman",
+      "journal": "Journal of Personality and Social Psychology",
+      "url": "https://doi.org/10.1037/0022-3514.78.2.273",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC173"
+    },
+    {
+      "id": "DOI:10.1017/cbo9780511500077.010",
+      "title": "Shared Participation in Self-Expanding Activities: Positive Effects on Experienced Marital Quality",
+      "doi": "10.1017/cbo9780511500077.010",
+      "year": 2002,
+      "authors": "Arthur Aron; Christine C. Norman; Elaine N. Aron; Gary Lewandowski",
+      "journal": "Understanding Marriage",
+      "url": "https://doi.org/10.1017/cbo9780511500077.010",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0265407518801095",
+      "title": "Do shared self-expanding activities have to be physically arousing?",
+      "doi": "10.1177/0265407518801095",
+      "year": 2018,
+      "authors": "Jennifer M. Tomlinson; Erin K. Hughes; Gary W. Lewandowski; Arthur Aron; Rachel Geyer",
+      "journal": "Journal of Social and Personal Relationships",
+      "url": "https://doi.org/10.1177/0265407518801095",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/fam0000946",
+      "title": "Dimensions of couples’ sexual communication, relationship satisfaction, and sexual satisfaction: A meta-analysis.",
+      "doi": "10.1037/fam0000946",
+      "year": 2022,
+      "authors": "Allen B. Mallory",
+      "journal": "Journal of Family Psychology",
+      "url": "https://doi.org/10.1037/fam0000946",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC174"
+    },
+    {
+      "id": "DOI:10.1037/fam0000946.supp",
+      "title": "Supplemental Material for Dimensions of Couples’ Sexual Communication, Relationship Satisfaction, and Sexual Satisfaction: A Meta-Analysis",
+      "doi": "10.1037/fam0000946.supp",
+      "year": 2021,
+      "authors": "",
+      "journal": "Journal of Family Psychology",
+      "url": "https://doi.org/10.1037/fam0000946.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1080/00224499.2019.1568375",
+      "title": "Couples’ Sexual Communication and Dimensions of Sexual Function: A Meta-Analysis",
+      "doi": "10.1080/00224499.2019.1568375",
+      "year": 2019,
+      "authors": "Allen B. Mallory; Amelia M. Stanton; Ariel B. Handy",
+      "journal": "The Journal of Sex Research",
+      "url": "https://doi.org/10.1080/00224499.2019.1568375",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC175"
+    },
+    {
+      "id": "DOI:10.1007/s00737-024-01490-w",
+      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing",
+      "doi": "10.1007/s00737-024-01490-w",
+      "year": 2024,
+      "authors": "Elizabeth Aviv; Yael Waizman; Elizabeth Kim; Jasmine Liu; Eve Rodsky; Darby Saxbe",
+      "journal": "Archives of Women's Mental Health",
+      "url": "https://doi.org/10.1007/s00737-024-01490-w",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC176"
+    },
+    {
+      "id": "DOI:10.1080/02646830701669497",
+      "title": "Maternal mental health and wellbeing",
+      "doi": "10.1080/02646830701669497",
+      "year": 2007,
+      "authors": "Maggie Redshaw; Olga van den Akker",
+      "journal": "Journal of Reproductive and Infant Psychology",
+      "url": "https://doi.org/10.1080/02646830701669497",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4018/979-8-3693-4272-5.ch002",
+      "title": "Navigating Black Maternal Mental Health and Wellbeing",
+      "doi": "10.4018/979-8-3693-4272-5.ch002",
+      "year": 2025,
+      "authors": "Mercedes Jamecia Moore",
+      "journal": "Advances in Medical Diagnosis, Treatment, and Care; Navigating Black Maternal Mental Health and Well-Being",
+      "url": "https://doi.org/10.4018/979-8-3693-4272-5.ch002",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.64591/y4scs704",
+      "title": "Sleepless Nights, Tuition Fights",
+      "doi": "10.64591/y4scs704",
+      "year": 2025,
+      "authors": "Collin Ceneciro",
+      "journal": "LITERATURE AND SOCIETY",
+      "url": "https://doi.org/10.64591/y4scs704",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/s41999-021-00551-y",
+      "title": "Sleepless nights mean worse metabolism: a link to cardiovascular risk in older women",
+      "doi": "10.1007/s41999-021-00551-y",
+      "year": 2021,
+      "authors": "Karolina Piotrowicz; Barbara Gryglewska; Jerzy Gąsowski",
+      "journal": "European Geriatric Medicine",
+      "url": "https://doi.org/10.1007/s41999-021-00551-y",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.7748/ns.5.23.44.s57",
+      "title": "Sleepless nights",
+      "doi": "10.7748/ns.5.23.44.s57",
+      "year": 1991,
+      "authors": "Malcolm Williams",
+      "journal": "Nursing Standard",
+      "url": "https://doi.org/10.7748/ns.5.23.44.s57",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0017004",
+      "title": "Changes in relationship satisfaction across the transition to parenthood: A meta-analysis.",
+      "doi": "10.1037/a0017004",
+      "year": 2009,
+      "authors": "Danielle M. Mitnick; Richard E. Heyman; Amy M. Smith Slep",
+      "journal": "Journal of Family Psychology",
+      "url": "https://doi.org/10.1037/a0017004",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC177"
+    },
+    {
+      "id": "DOI:10.1037/a0017004.supp",
+      "title": "Supplemental Material for Changes in Relationship Satisfaction Across the Transition to Parenthood: A Meta-Analysis",
+      "doi": "10.1037/a0017004.supp",
+      "year": 2009,
+      "authors": "",
+      "journal": "Journal of Family Psychology",
+      "url": "https://doi.org/10.1037/a0017004.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1177/0146167212454548",
+      "title": "Changes in Marital Satisfaction Across the Transition to Parenthood",
+      "doi": "10.1177/0146167212454548",
+      "year": 2012,
+      "authors": "Jamie L. Kohn; Steven W. Rholes; Jeffry A. Simpson; A. McLeish Martin; SiSi Tran; Carol L. Wilson",
+      "journal": "Personality and Social Psychology Bulletin",
+      "url": "https://doi.org/10.1177/0146167212454548",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/0022-3514.74.2.360",
+      "title": "Implicit theories of relationships: Assessment and prediction of romantic relationship initiation, coping, and longevity.",
+      "doi": "10.1037/0022-3514.74.2.360",
+      "year": 1998,
+      "authors": "C. Raymond Knee",
+      "journal": "Journal of Personality and Social Psychology",
+      "url": "https://doi.org/10.1037/0022-3514.74.2.360",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC178"
+    },
+    {
+      "id": "DOI:10.1037/e413792005-551",
+      "title": "Implicit Theories of Romantic Relationships and Relationship Longevity",
+      "doi": "10.1037/e413792005-551",
+      "year": 2000,
+      "authors": "Renae Franiuk; Dov Cohen; Eva Pomerantz",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e413792005-551",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/e413782005-091",
+      "title": "Implicit Theories of Romantic Relationships",
+      "doi": "10.1037/e413782005-091",
+      "year": 1999,
+      "authors": "Renae Franiuk; Dov Cohen; Eva Pomerantz",
+      "journal": "PsycEXTRA Dataset",
+      "url": "https://doi.org/10.1037/e413782005-091",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.14309/ajg.0000000000001036",
+      "title": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome",
+      "doi": "10.14309/ajg.0000000000001036",
+      "year": 2020,
+      "authors": "Brian E. Lacy; Mark Pimentel; Darren M. Brenner; William D. Chey; Laurie A. Keefer; Millie D. Long; Baha Moshiree",
+      "journal": "American Journal of Gastroenterology",
+      "url": "https://doi.org/10.14309/ajg.0000000000001036",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC179"
+    },
+    {
+      "id": "DOI:10.3410/f.739215445.793582237",
+      "title": "Faculty Opinions recommendation of ACG clinical guideline: management of irritable bowel syndrome.",
+      "doi": "10.3410/f.739215445.793582237",
+      "year": 2021,
+      "authors": "Edith Ho",
+      "journal": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+      "url": "https://doi.org/10.3410/f.739215445.793582237",
+      "publication_types": [
+        "dataset"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1038/ajg.2015.246",
+      "title": "ACG Clinical Guideline: Diagnosis and Management of Small Bowel Bleeding",
+      "doi": "10.1038/ajg.2015.246",
+      "year": 2015,
+      "authors": "Lauren B Gerson; Jeff L Fidler; David R Cave; Jonathan A Leighton",
+      "journal": "American Journal of Gastroenterology",
+      "url": "https://doi.org/10.1038/ajg.2015.246",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0017428",
+      "title": "Anxiety sensitivity and the anxiety disorders: A meta-analytic review and synthesis.",
+      "doi": "10.1037/a0017428",
+      "year": 2009,
+      "authors": "Bunmi O. Olatunji; Kate B. Wolitzky-Taylor",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/a0017428",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC180"
+    },
+    {
+      "id": "DOI:10.1007/s10802-011-9489-3",
+      "title": "A Meta-analytic Review of the Role of Child Anxiety Sensitivity in Child Anxiety",
+      "doi": "10.1007/s10802-011-9489-3",
+      "year": 2011,
+      "authors": "Valerie A. Noël; Sarah E. Francis",
+      "journal": "Journal of Abnormal Child Psychology",
+      "url": "https://doi.org/10.1007/s10802-011-9489-3",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.cpr.2014.03.004",
+      "title": "A meta-analytic review of psychodynamic therapies for anxiety disorders",
+      "doi": "10.1016/j.cpr.2014.03.004",
+      "year": 2014,
+      "authors": "John R. Keefe; Kevin S. McCarthy; Ulrike Dinger; Sigal Zilcha-Mano; Jacques P. Barber",
+      "journal": "Clinical Psychology Review",
+      "url": "https://doi.org/10.1016/j.cpr.2014.03.004",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.chb.2019.07.028",
+      "title": "A meta-analytic review of the relationship between social media use and body image disturbance",
+      "doi": "10.1016/j.chb.2019.07.028",
+      "year": 2019,
+      "authors": "Alyssa N. Saiphoo; Zahra Vahedi",
+      "journal": "Computers in Human Behavior",
+      "url": "https://doi.org/10.1016/j.chb.2019.07.028",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC181"
+    },
+    {
+      "id": "DOI:10.1080/15213269.2025.2564698",
+      "title": "Examining the Relationship Between Social Media Use and Addiction and Body Dysmorphic Disorder Symptoms: A Meta-Analytic Review",
+      "doi": "10.1080/15213269.2025.2564698",
+      "year": 2025,
+      "authors": "Mitchell R. Sheehy; Tanvi Vora; Brooke B. Hiscock; Anna C. George; Michelle Swab; Jonathan M. Fawcett; Emily J. Fawcett",
+      "journal": "Media Psychology",
+      "url": "https://doi.org/10.1080/15213269.2025.2564698",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1016/j.tele.2020.101379",
+      "title": "A meta-analytic review of the relationship between social media use and employee outcomes",
+      "doi": "10.1016/j.tele.2020.101379",
+      "year": 2020,
+      "authors": "Tsz Hang Chu",
+      "journal": "Telematics and Informatics",
+      "url": "https://doi.org/10.1016/j.tele.2020.101379",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1017/cbo9780511759048.014",
+      "title": "Psychological stress and susceptibility to the common cold",
+      "doi": "10.1017/cbo9780511759048.014",
+      "year": 1994,
+      "authors": "S. Cohen; D. A. J. Tyrrell; A. P. Smith",
+      "journal": "Psychosocial Processes and Health",
+      "url": "https://doi.org/10.1017/cbo9780511759048.014",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1056/nejm199108293250903",
+      "title": "Psychological Stress and Susceptibility to the Common Cold",
+      "doi": "10.1056/nejm199108293250903",
+      "year": 1991,
+      "authors": "Sheldon Cohen; David A.J. Tyrrell; Andrew P. Smith",
+      "journal": "New England Journal of Medicine",
+      "url": "https://doi.org/10.1056/nejm199108293250903",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC182"
+    },
+    {
+      "id": "DOI:10.1056/nejm199202273260915",
+      "title": "Psychological Stress and the Common Cold",
+      "doi": "10.1056/nejm199202273260915",
+      "year": 1992,
+      "authors": "",
+      "journal": "New England Journal of Medicine",
+      "url": "https://doi.org/10.1056/nejm199202273260915",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/prp2.208",
+      "title": "The nocebo effect of drugs",
+      "doi": "10.1002/prp2.208",
+      "year": 2016,
+      "authors": "Sara Planès; Céline Villier; Michel Mallaret",
+      "journal": "Pharmacology Research &amp; Perspectives",
+      "url": "https://doi.org/10.1002/prp2.208",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC183"
+    },
+    {
+      "id": "DOI:10.1007/978-3-030-39903-0_1622",
+      "title": "Nocebo and Nocebo Effect",
+      "doi": "10.1007/978-3-030-39903-0_1622",
+      "year": 2020,
+      "authors": "Magne Arve Flaten",
+      "journal": "Encyclopedia of Behavioral Medicine",
+      "url": "https://doi.org/10.1007/978-3-030-39903-0_1622",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-1-4419-1005-9_1622",
+      "title": "Nocebo and Nocebo Effect",
+      "doi": "10.1007/978-1-4419-1005-9_1622",
+      "year": 2013,
+      "authors": "Jasmin Tiro; Simon J. Craddock Lee; Steven E. Lipshultz; Tracie L. Miller; James D. Wilkinson; Miriam A. Mestre; Barbara Resnick; Donna Miller; Cristina A. Fernandez; David J. Lee; Martica H. Hall; Deborah Lee Young-Hyman; Deborah Lee Young-Hyman; Jennifer Pellowski; Barbara Resnick; Natalie E. Bustillo; Jennifer Pellowski; Vaughn Bryant; Anne Frankel; Riyad Khanfer; Benjamin I. Felleman; G. Alan Marlatt; Hansel Tookes; Deborah M. Stringer; Johan Denollet; Louise C. Hawkley; J. Rick Turner; Wiebke Arlt; Ana Vitlic; Emil C. Toescu; Ornit Chiba-Falek; Elliott A. Beaton; Yori Gidron; Yori Gidron; Yori Gidron; Robert J. Gatchel; Matthew T. Knauf; Marijke Couck; Mustafa Al’Absi; Richard Hoffman; Yori Gidron; Yori Gidron; Leigh A. Sharma; Susan Dorsey; Motohiro Nakajima; Mustafa Al’Absi; Jed E. Rose; Alyssa Haney; Michele L. Okun; Sarah Aldred; Magne Arve Flaten; J. Rick Turner; Salvatore Insana; Elizabeth Galik; Sabrina Segal; Chad Barrett; William Whang; Steven Gambert; Lisa Harnack; Steven Gambert",
+      "journal": "Encyclopedia of Behavioral Medicine",
+      "url": "https://doi.org/10.1007/978-1-4419-1005-9_1622",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1108/intr-03-2020-0148",
+      "title": "Cyberchondria: a systematic review",
+      "doi": "10.1108/intr-03-2020-0148",
+      "year": 2020,
+      "authors": "Han Zheng; Sei-Ching Joanna Sin; Hye Kyung Kim; Yin-Leng Theng",
+      "journal": "Internet Research",
+      "url": "https://doi.org/10.1108/intr-03-2020-0148",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.18863/pgy.1743899",
+      "title": "Relationship Between Intolerance of Uncertainty and Cyberchondria: A Systematic Review and Meta-Analysis",
+      "doi": "10.18863/pgy.1743899",
+      "year": 2026,
+      "authors": "Ahmet Bülbül",
+      "journal": "Psikiyatride Guncel Yaklasimlar - Current Approaches in Psychiatry",
+      "url": "https://doi.org/10.18863/pgy.1743899",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2196/27835",
+      "title": "Conceptualizations of Cyberchondria and Relations to the Anxiety Spectrum: Systematic Review and Meta-analysis",
+      "doi": "10.2196/27835",
+      "year": 2021,
+      "authors": "Sandra K Schenkel; Stefanie M Jungmann; Maria Gropalis; Michael Witthöft",
+      "journal": "Journal of Medical Internet Research",
+      "url": "https://doi.org/10.2196/27835",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC184"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd000011.pub2",
+      "title": "Interventions for enhancing medication adherence",
+      "doi": "10.1002/14651858.cd000011.pub2",
+      "year": 2005,
+      "authors": "RB Haynes; X Yao; A Degani; S Kripalani; A Garg; HP McDonald",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd000011.pub2",
+      "publication_types": [
+        "reference-entry"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd000011.pub4",
+      "title": "Interventions for enhancing medication adherence",
+      "doi": "10.1002/14651858.cd000011.pub4",
+      "year": 2014,
+      "authors": "Robby Nieuwlaat; Nancy Wilczynski; Tamara Navarro; Nicholas Hobson; Rebecca Jeffery; Arun Keepanasseril; Thomas Agoritsas; Niraj Mistry; Alfonso Iorio; Susan Jack; Bhairavi Sivaramalingam; Emma Iserman; Reem A Mustafa; Dawn Jedraszewski; Chris Cotoi; R. Brian Haynes",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd000011.pub4",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC185"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd000011.pub3",
+      "title": "Interventions for enhancing medication adherence",
+      "doi": "10.1002/14651858.cd000011.pub3",
+      "year": 2008,
+      "authors": "R. Brian Haynes; Elizabeth Ackloo; Navdeep Sahota; Heather Pauline McDonald; Xiaomei Yao",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd000011.pub3",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd006776.pub2",
+      "title": "Using alternative statistical formats for presenting risks and risk reductions",
+      "doi": "10.1002/14651858.cd006776.pub2",
+      "year": 2011,
+      "authors": "Elie A Akl; Andrew D Oxman; Jeph Herrin; Gunn E Vist; Irene Terrenato; Francesca Sperati; Cecilia Costiniuk; Diana Blank; Holger Schünemann",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd006776.pub2",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC186"
+    },
+    {
+      "id": "DOI:10.1002/14651858.cd006776",
+      "title": "Using different statistical formats for presenting health information",
+      "doi": "10.1002/14651858.cd006776",
+      "year": 2007,
+      "authors": "Elie A Akl; Andrew D Oxman; Jeph Herrin; Gunn Elisabeth Vist; Cecilia Costiniuk; Diana Blank; Holger Schünemann",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "url": "https://doi.org/10.1002/14651858.cd006776",
+      "publication_types": [
+        "reference-entry"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1007/978-3-662-70726-5_6",
+      "title": "Alternative Formats",
+      "doi": "10.1007/978-3-662-70726-5_6",
+      "year": 2025,
+      "authors": "Sebastian Schwab; Joscha Balle",
+      "journal": "Soccer – The Practical Guide for Athletes and Coaches from Weekend Warriors to Elite Competitors",
+      "url": "https://doi.org/10.1007/978-3-662-70726-5_6",
+      "publication_types": [
+        "book-chapter"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3390/ijerph15030519",
+      "title": "WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Effects on Sleep",
+      "doi": "10.3390/ijerph15030519",
+      "year": 2018,
+      "authors": "Mathias Basner; Sarah McGuire",
+      "journal": "International Journal of Environmental Research and Public Health",
+      "url": "https://doi.org/10.3390/ijerph15030519",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC187"
+    },
+    {
+      "id": "DOI:10.1093/sleepj/zsx050.420",
+      "title": "0421 WHO ENVIRONMENTAL NOISE GUIDELINES: SYSTEMATIC REVIEW ON ENVIRONMENTAL NOISE AND EFFECTS ON SLEEP",
+      "doi": "10.1093/sleepj/zsx050.420",
+      "year": 2017,
+      "authors": "M Basner; S McGuire",
+      "journal": "Sleep",
+      "url": "https://doi.org/10.1093/sleepj/zsx050.420",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3390/ijerph15020285",
+      "title": "WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Cognition",
+      "doi": "10.3390/ijerph15020285",
+      "year": 2018,
+      "authors": "Charlotte Clark; Katarina Paunovic",
+      "journal": "International Journal of Environmental Research and Public Health",
+      "url": "https://doi.org/10.3390/ijerph15020285",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1098/rstb.2017.0239",
+      "title": "The impact of the ‘open’ workspace on human collaboration",
+      "doi": "10.1098/rstb.2017.0239",
+      "year": 2018,
+      "authors": "Ethan S. Bernstein; Stephen Turban",
+      "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+      "url": "https://doi.org/10.1098/rstb.2017.0239",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC188"
+    },
+    {
+      "id": "DOI:10.1145/142750.142980",
+      "title": "Spatial workspace collaboration",
+      "doi": "10.1145/142750.142980",
+      "year": 1992,
+      "authors": "Hideaki Kuzuoka",
+      "journal": "Proceedings of the SIGCHI conference on Human factors in computing systems  - CHI '92",
+      "url": "https://doi.org/10.1145/142750.142980",
+      "publication_types": [
+        "proceedings-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1109/iros.2016.7759147",
+      "title": "Human-robot shared workspace collaboration via hindsight optimization",
+      "doi": "10.1109/iros.2016.7759147",
+      "year": 2016,
+      "authors": "Stefania Pellegrinelli; Henny Admoni; Shervin Javdani; Siddhartha Srinivasa",
+      "journal": "2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "url": "https://doi.org/10.1109/iros.2016.7759147",
+      "publication_types": [
+        "proceedings-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.2307/1423672",
+      "title": "A Naturalistic Study of Autobiographical Memories Evoked by Olfactory and Visual Cues: Testing the Proustian Hypothesis",
+      "doi": "10.2307/1423672",
+      "year": 2002,
+      "authors": "Rachel S. Herz; Jonathan W. Schooler",
+      "journal": "The American Journal of Psychology",
+      "url": "https://doi.org/10.2307/1423672",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC189"
+    },
+    {
+      "id": "DOI:10.1080/09658211.2017.1381744",
+      "title": "Olfactory cues are more effective than visual cues in experimentally triggering autobiographical memories",
+      "doi": "10.1080/09658211.2017.1381744",
+      "year": 2017,
+      "authors": "Maaike J. de Bruijn; Michael Bender",
+      "journal": "Memory",
+      "url": "https://doi.org/10.1080/09658211.2017.1381744",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4992/pacjpa.77.0_2pm-017",
+      "title": "Study on retrieval latency and retrieved content of autobiographical memories induced by olfactory / visual / olfactory and visual cues",
+      "doi": "10.4992/pacjpa.77.0_2pm-017",
+      "year": 2013,
+      "authors": "Maia AKIYAMA; Tatsu KOBAYAKAWA; Takefumi KOBAYASHI",
+      "journal": "The Proceedings of the Annual Convention of the Japanese Psychological Association",
+      "url": "https://doi.org/10.4992/pacjpa.77.0_2pm-017",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.3389/fpsyg.2015.00368",
+      "title": "Color and psychological functioning: a review of theoretical and empirical work",
+      "doi": "10.3389/fpsyg.2015.00368",
+      "year": 2015,
+      "authors": "Andrew J. Elliot",
+      "journal": "Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00368",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC190"
+    },
+    {
+      "id": "DOI:10.1037/gpr0000170",
+      "title": "A Historically Based Review of Empirical Work on Color and Psychological Functioning: Content, Methods, and Recommendations for Future Research",
+      "doi": "10.1037/gpr0000170",
+      "year": 2018,
+      "authors": "Andrew J. Elliot",
+      "journal": "Review of General Psychology",
+      "url": "https://doi.org/10.1037/gpr0000170",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC191"
+    },
+    {
+      "id": "DOI:10.1111/j.1467-8721.2007.00514.x",
+      "title": "Color and Psychological Functioning",
+      "doi": "10.1111/j.1467-8721.2007.00514.x",
+      "year": 2007,
+      "authors": "Andrew J. Elliot; Markus A. Maier",
+      "journal": "Current Directions in Psychological Science",
+      "url": "https://doi.org/10.1111/j.1467-8721.2007.00514.x",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1073/pnas.2013097118",
+      "title": "A synthesis of health benefits of natural sounds and their distribution in national parks",
+      "doi": "10.1073/pnas.2013097118",
+      "year": 2021,
+      "authors": "Rachel T. Buxton; Amber L. Pearson; Claudia Allou; Kurt Fristrup; George Wittemyer",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.2013097118",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC192"
+    },
+    {
+      "id": "DOI:10.1121/1.3588697",
+      "title": "Automatically separating anthropogenic from natural sounds in parks.",
+      "doi": "10.1121/1.3588697",
+      "year": 2011,
+      "authors": "Jack Gillette; Paul Schomer",
+      "journal": "The Journal of the Acoustical Society of America",
+      "url": "https://doi.org/10.1121/1.3588697",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.4095/301627",
+      "title": "Natural Tourist Attractions - National Parks",
+      "doi": "10.4095/301627",
+      "year": 2010,
+      "authors": "Atlas of Canada",
+      "journal": null,
+      "url": "https://doi.org/10.4095/301627",
+      "publication_types": [
+        "report"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/xge0001639",
+      "title": "Fast-forward to boredom: How switching behavior on digital media makes people more bored.",
+      "doi": "10.1037/xge0001639",
+      "year": 2024,
+      "authors": "Katy Y. Y. Tam; Michael Inzlicht",
+      "journal": "Journal of Experimental Psychology: General",
+      "url": "https://doi.org/10.1037/xge0001639",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC193"
+    },
+    {
+      "id": "DOI:10.31219/osf.io/jc52y",
+      "title": "Fast-forward to boredom: How switching behaviour on digital media makes people more bored",
+      "doi": "10.31219/osf.io/jc52y",
+      "year": 2023,
+      "authors": "Katy Yuen Yan Tam; Michael Inzlicht",
+      "journal": null,
+      "url": "https://doi.org/10.31219/osf.io/jc52y",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.31234/osf.io/n4qeg",
+      "title": "Fast-forward to boredom: How switching behaviour on digital media makes people more bored",
+      "doi": "10.31234/osf.io/n4qeg",
+      "year": 2023,
+      "authors": "Katy Yuen Yan Tam; Michael Inzlicht",
+      "journal": null,
+      "url": "https://doi.org/10.31234/osf.io/n4qeg",
+      "publication_types": [
+        "posted-content"
+      ],
+      "abstract_available": true,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/a0014212",
+      "title": "Does incubation enhance problem solving? A meta-analytic review.",
+      "doi": "10.1037/a0014212",
+      "year": 2009,
+      "authors": "Ut Na Sio; Thomas C. Ormerod",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/a0014212",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "bibliographic_record_has_registered_source",
+      "source_id": "SRC194"
+    },
+    {
+      "id": "DOI:10.1037/bul0000103",
+      "title": "Does gratitude enhance prosociality?: A meta-analytic review.",
+      "doi": "10.1037/bul0000103",
+      "year": 2017,
+      "authors": "Lawrence K. Ma; Richard J. Tunney; Eamonn Ferguson",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/bul0000103",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    },
+    {
+      "id": "DOI:10.1037/bul0000103.supp",
+      "title": "Supplemental Material for Does Gratitude Enhance Prosociality?: A Meta-Analytic Review",
+      "doi": "10.1037/bul0000103.supp",
+      "year": 2017,
+      "authors": "",
+      "journal": "Psychological Bulletin",
+      "url": "https://doi.org/10.1037/bul0000103.supp",
+      "publication_types": [
+        "journal-article"
+      ],
+      "abstract_available": false,
+      "provider": "crossref",
+      "candidate_status": "machine_retrieved_not_screened"
+    }
+  ]
+}

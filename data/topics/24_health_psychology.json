@@ -66,7 +66,9 @@
       "angle_ja": "会議や試験前に腹部症状が出る場面を理解する。",
       "search_query": "disorders of gut brain interaction irritable bowel syndrome systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC179"
+      ],
       "caution_ja": "症状を心理のせいと決めつけず、身体疾患の評価を妨げない。",
       "related_topic_ids": [
         "PSY-NUT-008",
@@ -76,7 +78,10 @@
         "type": "illustrative_scenario",
         "description_ja": "会議や試験前に腹部症状が出る場面を理解する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C072"
+      ]
     },
     {
       "id": "PSY-HPS-004",
@@ -88,7 +93,9 @@
       "angle_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
       "search_query": "interoception anxiety sensitivity systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC180"
+      ],
       "caution_ja": "胸痛や呼吸苦を不安だけで説明せず、必要な医療評価を優先する。",
       "related_topic_ids": [
         "PSY-EMO-005",
@@ -98,7 +105,10 @@
         "type": "illustrative_scenario",
         "description_ja": "動悸に注意を向けるほど怖くなる経験を扱う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C073"
+      ]
     },
     {
       "id": "PSY-HPS-005",
@@ -110,7 +120,10 @@
       "angle_ja": "加工された写真を見た後に自分の姿を否定的に感じる。",
       "search_query": "appearance comparison body image systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC181",
+        "SRC217"
+      ],
       "caution_ja": "体形の優劣や極端な食事制限を推奨しない。",
       "related_topic_ids": [
         "PSY-WEL-007",
@@ -120,7 +133,11 @@
         "type": "illustrative_scenario",
         "description_ja": "加工された写真を見た後に自分の姿を否定的に感じる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C074",
+        "R3-S119"
+      ]
     },
     {
       "id": "PSY-HPS-006",
@@ -154,7 +171,9 @@
       "angle_ja": "忙しい時期の後に体調を崩しやすいという体感を研究と比較する。",
       "search_query": "psychological stress viral susceptibility systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC182"
+      ],
       "caution_ja": "感染を気の持ちように還元せず、曝露や睡眠などを区別する。",
       "related_topic_ids": [
         "PSY-EMO-001",
@@ -164,7 +183,10 @@
         "type": "illustrative_scenario",
         "description_ja": "忙しい時期の後に体調を崩しやすいという体感を研究と比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C075"
+      ]
     },
     {
       "id": "PSY-HPS-008",
@@ -176,7 +198,9 @@
       "angle_ja": "薬の説明を読んだ後の体調変化をどう解釈するか考える。",
       "search_query": "nocebo information adverse effect expectations systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC183"
+      ],
       "caution_ja": "実際の副作用を否定せず、必要な説明の省略や服薬中断を勧めない。",
       "related_topic_ids": [
         "PSY-MEN-009"
@@ -185,7 +209,10 @@
         "type": "illustrative_scenario",
         "description_ja": "薬の説明を読んだ後の体調変化をどう解釈するか考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C076"
+      ]
     },
     {
       "id": "PSY-HPS-009",
@@ -197,7 +224,9 @@
       "angle_ja": "頭痛を検索して重大な病気の記事ばかり気になってしまう。",
       "search_query": "cyberchondria health anxiety systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC184"
+      ],
       "caution_ja": "適切な情報収集と過剰な確認を分け、受診を妨げない。",
       "related_topic_ids": [
         "PSY-DIG-003",
@@ -207,7 +236,10 @@
         "type": "illustrative_scenario",
         "description_ja": "頭痛を検索して重大な病気の記事ばかり気になってしまう。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C077"
+      ]
     },
     {
       "id": "PSY-HPS-010",
@@ -219,7 +251,9 @@
       "angle_ja": "健診結果に注意があっても日々の実感がなく行動しにくい。",
       "search_query": "risk perception preventive health behavior systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC228"
+      ],
       "caution_ja": "個別の検査値を診断せず、リスク説明と行動支援を扱う。",
       "related_topic_ids": [
         "PSY-DEC-008",
@@ -229,7 +263,10 @@
         "type": "illustrative_scenario",
         "description_ja": "健診結果に注意があっても日々の実感がなく行動しにくい。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S138"
+      ]
     },
     {
       "id": "PSY-HPS-011",
@@ -241,7 +278,9 @@
       "angle_ja": "忙しくて忘れる場合と副作用が心配で避ける場合を分ける。",
       "search_query": "medication adherence intentional nonadherence systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC185"
+      ],
       "caution_ja": "服薬量の自己調整を提案せず、医療者と相談するための整理にする。",
       "related_topic_ids": [
         "PSY-HAB-002",
@@ -251,7 +290,10 @@
         "type": "illustrative_scenario",
         "description_ja": "忙しくて忘れる場合と副作用が心配で避ける場合を分ける。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C078"
+      ]
     },
     {
       "id": "PSY-HPS-012",
@@ -263,7 +305,9 @@
       "angle_ja": "健康ニュースの大きな割合を分母と絶対数で読む。",
       "search_query": "absolute relative risk health risk communication systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC186"
+      ],
       "caution_ja": "例の数値は仮定と実測を区別し、個別治療の利益を推測しない。",
       "related_topic_ids": [
         "PSY-DEC-005",
@@ -277,6 +321,9 @@
       "parent_topic_ids": [
         "PSY-DEC-005",
         "PSY-RES-003"
+      ],
+      "source_review_ids": [
+        "R3-C079"
       ]
     }
   ]

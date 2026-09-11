@@ -48,8 +48,13 @@
       "angle_ja": "作業途中の切り替えと、再開の手がかりを調べる。",
       "search_query": "attention residue task interruption resumption work experimental study",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "有名な概念名だけでなく、再現性と実際の仕事での検証を確認する。"
+      "source_ids": [
+        "SRC131"
+      ],
+      "caution_ja": "有名な概念名だけでなく、再現性と実際の仕事での検証を確認する。",
+      "source_review_ids": [
+        "R3-C024"
+      ]
     },
     {
       "id": "PSY-ATT-004",
@@ -79,8 +84,13 @@
       "angle_ja": "歌詞、音量、好み、作業の種類を整理する。",
       "search_query": "background music lyrics cognition reading meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "気分の改善と理解・記憶の改善を同じ指標にしない。"
+      "source_ids": [
+        "SRC132"
+      ],
+      "caution_ja": "気分の改善と理解・記憶の改善を同じ指標にしない。",
+      "source_review_ids": [
+        "R3-C025"
+      ]
     },
     {
       "id": "PSY-ATT-006",
@@ -93,11 +103,15 @@
       "search_query": "mind wandering incubation creativity experimental replication",
       "priority": 2,
       "source_ids": [
-        "SRC083"
+        "SRC083",
+        "SRC194"
       ],
       "caution_ja": "運転など危険な場面での注意逸脱を肯定しない。",
       "research_brief_ids": [
         "RB-24749966"
+      ],
+      "source_review_ids": [
+        "R3-C087"
       ]
     },
     {

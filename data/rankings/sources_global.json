@@ -1,0 +1,2578 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "definition_ja": "テーマ別の最大調査優先度で表示。リンク数・引用数では加点しない。未評価は順位なし。",
+  "sources": [
+    {
+      "source_id": "SRC038",
+      "title": "Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial.",
+      "priority_score": 95.0,
+      "best_matched_topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 1,
+      "display_position": 1
+    },
+    {
+      "source_id": "SRC043",
+      "title": "Pharmacological and electronic cigarette interventions for smoking cessation in adults: component network meta-analyses.",
+      "priority_score": 95.0,
+      "best_matched_topic_ids": [
+        "PSY-ADD-006"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 1,
+      "display_position": 2
+    },
+    {
+      "source_id": "SRC099",
+      "title": "Hybrid working from home improves retention without damaging performance.",
+      "priority_score": 95.0,
+      "best_matched_topic_ids": [
+        "PSY-WRK-001"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 1,
+      "display_position": 3
+    },
+    {
+      "source_id": "SRC039",
+      "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants.",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-HAB-001"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 4,
+      "display_position": 4
+    },
+    {
+      "source_id": "SRC041",
+      "title": "Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults.",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-002"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 4,
+      "display_position": 5
+    },
+    {
+      "source_id": "SRC054",
+      "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance.",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-004"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 4,
+      "display_position": 6
+    },
+    {
+      "source_id": "SRC159",
+      "title": "Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being.",
+      "priority_score": 87.5,
+      "best_matched_topic_ids": [
+        "PSY-DIG-004"
+      ],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 4,
+      "display_position": 7
+    },
+    {
+      "source_id": "SRC036",
+      "title": "Heritability of personality: A meta-analysis of behavior genetic studies.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-GEN-001"
+      ],
+      "review_scope": "legacy_abstract_review",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 8
+    },
+    {
+      "source_id": "SRC040",
+      "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-008"
+      ],
+      "review_scope": "legacy_abstract_review",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 9
+    },
+    {
+      "source_id": "SRC050",
+      "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-LEA-001"
+      ],
+      "review_scope": "legacy_abstract_review",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 10
+    },
+    {
+      "source_id": "SRC108",
+      "title": "Performance of seven consumer sleep-tracking devices compared with polysomnography.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 11
+    },
+    {
+      "source_id": "SRC109",
+      "title": "Performance of consumer wrist-worn sleep tracking devices compared to polysomnography: a meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 12
+    },
+    {
+      "source_id": "SRC110",
+      "title": "A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 13
+    },
+    {
+      "source_id": "SRC111",
+      "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 14
+    },
+    {
+      "source_id": "SRC112",
+      "title": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SLP-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 15
+    },
+    {
+      "source_id": "SRC113",
+      "title": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-EXE-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 16
+    },
+    {
+      "source_id": "SRC114",
+      "title": "The effects of evening high-intensity exercise on sleep in healthy adults: A systematic review and meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-EXE-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 17
+    },
+    {
+      "source_id": "SRC119",
+      "title": "Problematic smartphone use: A conceptual overview and systematic review of relations with anxiety and depression psychopathology.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 18
+    },
+    {
+      "source_id": "SRC120",
+      "title": "The Overlap Between Problematic Smartphone Use and Problematic Social Media Use: a Systematic Review",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 19
+    },
+    {
+      "source_id": "SRC121",
+      "title": "Problematic Mobile Phone and Smartphone Use Scales: A Systematic Review.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ADD-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 20
+    },
+    {
+      "source_id": "SRC122",
+      "title": "Personal financial incentives for changing habitual health-related behaviors: A systematic review and meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HAB-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 21
+    },
+    {
+      "source_id": "SRC128",
+      "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-MOT-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 22
+    },
+    {
+      "source_id": "SRC129",
+      "title": "The effects of extrinsic rewards in intrinsic motivation: A meta‐analysis",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-MOT-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 23
+    },
+    {
+      "source_id": "SRC132",
+      "title": "The impact of background music on adult listeners: A meta-analysis",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 24
+    },
+    {
+      "source_id": "SRC133",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-RES-002",
+        "PSY-RES-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 25
+    },
+    {
+      "source_id": "SRC138",
+      "title": "When and why defaults influence decisions: a meta-analysis of default effects",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEC-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 26
+    },
+    {
+      "source_id": "SRC139",
+      "title": "The constructive, destructive, and reconstructive power of social norms.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SOC-001"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 27
+    },
+    {
+      "source_id": "SRC140",
+      "title": "The actor-observer asymmetry in attribution: a (surprising) meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SOC-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 28
+    },
+    {
+      "source_id": "SRC142",
+      "title": "A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SOC-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 29
+    },
+    {
+      "source_id": "SRC143",
+      "title": "Message effects on psychological reactance: meta-analyses",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SOC-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 30
+    },
+    {
+      "source_id": "SRC144",
+      "title": "Psychological Safety: A Meta‐Analytic Review and Extension",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-SOC-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 31
+    },
+    {
+      "source_id": "SRC147",
+      "title": "Prosocial spending and well-being: cross-cultural evidence for a psychological universal.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WEL-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 32
+    },
+    {
+      "source_id": "SRC148",
+      "title": "Purpose in Life and Its Relationship to All-Cause Mortality and Cardiovascular Events: A Meta-Analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WEL-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 33
+    },
+    {
+      "source_id": "SRC149",
+      "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 34
+    },
+    {
+      "source_id": "SRC150",
+      "title": "Watching Television While Eating Increases Food Intake: A Systematic Review and Meta-Analysis of Experimental Studies.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-NUT-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 35
+    },
+    {
+      "source_id": "SRC151",
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-NUT-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 36
+    },
+    {
+      "source_id": "SRC152",
+      "title": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 37
+    },
+    {
+      "source_id": "SRC153",
+      "title": "Delay of gratification and adult outcomes: The Marshmallow Test does not reliably predict adult functioning.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-002"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 38
+    },
+    {
+      "source_id": "SRC154",
+      "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 39
+    },
+    {
+      "source_id": "SRC155",
+      "title": "A Systematic Review of Parent–Child Shared Book Reading Interventions for Infants and Toddlers",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 40
+    },
+    {
+      "source_id": "SRC156",
+      "title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes: A Systematic Review and Meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 41
+    },
+    {
+      "source_id": "SRC158",
+      "title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DIG-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 42
+    },
+    {
+      "source_id": "SRC160",
+      "title": "The Welfare Effects of Social Media",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DIG-001",
+        "PSY-DIG-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 43
+    },
+    {
+      "source_id": "SRC162",
+      "title": "Effort-reward imbalance at work and risk of depressive disorders. A systematic review and meta-analysis of prospective cohort studies.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WRK-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 44
+    },
+    {
+      "source_id": "SRC163",
+      "title": "On the costs and benefits of emotional labor: a meta-analysis of three decades of research.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WRK-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 45
+    },
+    {
+      "source_id": "SRC165",
+      "title": "CONSEQUENCES OF INDIVIDUALS' FIT AT WORK: A META‐ANALYSIS OF PERSON–JOB, PERSON–ORGANIZATION, PERSON–GROUP, AND PERSON–SUPERVISOR FIT",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WRK-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 46
+    },
+    {
+      "source_id": "SRC167",
+      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-WRK-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 47
+    },
+    {
+      "source_id": "SRC174",
+      "title": "Dimensions of couples' sexual communication, relationship satisfaction, and sexual satisfaction: A meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-INT-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 48
+    },
+    {
+      "source_id": "SRC177",
+      "title": "Changes in relationship satisfaction across the transition to parenthood: a meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-INT-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 49
+    },
+    {
+      "source_id": "SRC180",
+      "title": "Anxiety sensitivity and the anxiety disorders: a meta-analytic review and synthesis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 50
+    },
+    {
+      "source_id": "SRC182",
+      "title": "Psychological stress and susceptibility to the common cold.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 51
+    },
+    {
+      "source_id": "SRC184",
+      "title": "Conceptualizations of Cyberchondria and Relations to the Anxiety Spectrum: Systematic Review and Meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 52
+    },
+    {
+      "source_id": "SRC185",
+      "title": "Interventions for enhancing medication adherence.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 53
+    },
+    {
+      "source_id": "SRC186",
+      "title": "Using alternative statistical formats for presenting risks and risk reductions.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DEC-005",
+        "PSY-HPS-012"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 54
+    },
+    {
+      "source_id": "SRC187",
+      "title": "WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Effects on Sleep.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ENV-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 55
+    },
+    {
+      "source_id": "SRC192",
+      "title": "A synthesis of health benefits of natural sounds and their distribution in national parks.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ENV-012"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 56
+    },
+    {
+      "source_id": "SRC193",
+      "title": "Fast-forward to boredom: How switching behavior on digital media makes people more bored.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-DIG-006",
+        "PSY-CRE-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 57
+    },
+    {
+      "source_id": "SRC194",
+      "title": "Does incubation enhance problem solving? A meta-analytic review.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-ATT-006",
+        "PSY-CRE-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 58
+    },
+    {
+      "source_id": "SRC196",
+      "title": "Does the Relation Between Humor Styles and Subjective Well-Being Vary Across Culture and Age? A Meta-Analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-CRE-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 59
+    },
+    {
+      "source_id": "SRC201",
+      "title": "Mistakenly seeking solitude.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-LAN-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 60
+    },
+    {
+      "source_id": "SRC209",
+      "title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-REL-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 61
+    },
+    {
+      "source_id": "SRC211",
+      "title": "When our hands help us understand: A meta-analysis into the effects of gesture on comprehension.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-LAN-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 62
+    },
+    {
+      "source_id": "SRC212",
+      "title": "Put a bet on it: Can self-funded commitment contracts curb fitness procrastination?",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HAB-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 63
+    },
+    {
+      "source_id": "SRC213",
+      "title": "Linking temperament and personality traits from late childhood to adulthood by examining continuity, stability, and change.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-GEN-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 64
+    },
+    {
+      "source_id": "SRC217",
+      "title": "The association between social comparison in social media, body image concerns and eating disorder symptoms: A systematic review and meta-analysis.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 65
+    },
+    {
+      "source_id": "SRC227",
+      "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles' Well-Being Across Cohorts.",
+      "priority_score": 82.5,
+      "best_matched_topic_ids": [
+        "PSY-INT-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 8,
+      "display_position": 66
+    },
+    {
+      "source_id": "SRC107",
+      "title": "Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-SLP-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 67
+    },
+    {
+      "source_id": "SRC117",
+      "title": "Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-GEN-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 68
+    },
+    {
+      "source_id": "SRC118",
+      "title": "Gambling near-misses enhance motivation to gamble and recruit win-related brain circuitry.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ADD-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 69
+    },
+    {
+      "source_id": "SRC126",
+      "title": "Whole Trait Theory.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-PER-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 70
+    },
+    {
+      "source_id": "SRC130",
+      "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-MOT-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 71
+    },
+    {
+      "source_id": "SRC145",
+      "title": "Beyond the hedonic treadmill: revising the adaptation theory of well-being.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-WEL-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 72
+    },
+    {
+      "source_id": "SRC171",
+      "title": "Zero as a Special Price: The True Value of Free Products",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-MON-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 73
+    },
+    {
+      "source_id": "SRC176",
+      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-INT-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 74
+    },
+    {
+      "source_id": "SRC183",
+      "title": "The nocebo effect of drugs.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-MEN-009",
+        "PSY-HPS-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 75
+    },
+    {
+      "source_id": "SRC188",
+      "title": "The impact of the 'open' workspace on human collaboration.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 76
+    },
+    {
+      "source_id": "SRC189",
+      "title": "A naturalistic study of autobiographical memories evoked by olfactory and visual cues: testing the Proustian hypothesis.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 77
+    },
+    {
+      "source_id": "SRC190",
+      "title": "Color and psychological functioning: a review of theoretical and empirical work.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 78
+    },
+    {
+      "source_id": "SRC191",
+      "title": "A Historically Based Review of Empirical Work on Color and Psychological Functioning: Content, Methods, and Recommendations for Future Research",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 79
+    },
+    {
+      "source_id": "SRC198",
+      "title": "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-LAN-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 80
+    },
+    {
+      "source_id": "SRC200",
+      "title": "Egocentrism over e-mail: can we communicate as well as we think?",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-LAN-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 81
+    },
+    {
+      "source_id": "SRC203",
+      "title": "Self-talk as a regulatory mechanism: how you do it matters.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-EMO-002",
+        "PSY-LAN-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 82
+    },
+    {
+      "source_id": "SRC205",
+      "title": "Depressive symptom trajectory following romantic relationship breakup and effects of rumination, neuroticism and cognitive control.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-LIF-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 83
+    },
+    {
+      "source_id": "SRC206",
+      "title": "Trajectory of depressive symptoms in the context of romantic relationship breakup: Characterizing the \"natural course\" of response and recovery in young adults.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-LIF-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 84
+    },
+    {
+      "source_id": "SRC214",
+      "title": "Possible barnum effect in the five factor model: do respondents accept random neo personality inventory-revised scores as their actual trait profile?",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-PER-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 85
+    },
+    {
+      "source_id": "SRC216",
+      "title": "Verbal or Written? The Impact of Apology on the Repair of Trust: Based on Competence- vs. Integrity-Based Trust Violation.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-REL-009"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 86
+    },
+    {
+      "source_id": "SRC224",
+      "title": "N-of-1 Trials, Their Reporting Guidelines, and the Advancement of Open Science Principles.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-RES-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 87
+    },
+    {
+      "source_id": "SRC226",
+      "title": "Sexual Desire Discrepancy: A Position Statement of the European Society for Sexual Medicine.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-INT-004"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 88
+    },
+    {
+      "source_id": "SRC230",
+      "title": "Explanations of the endowment effect: an integrative review.",
+      "priority_score": 75.0,
+      "best_matched_topic_ids": [
+        "PSY-MON-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 67,
+      "display_position": 89
+    },
+    {
+      "source_id": "SRC135",
+      "title": "Age differences in the effect of framing on risky choice: A meta-analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-DEC-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 90
+    },
+    {
+      "source_id": "SRC175",
+      "title": "Couples' Sexual Communication and Dimensions of Sexual Function: A Meta-Analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-INT-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 91
+    },
+    {
+      "source_id": "SRC179",
+      "title": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-HPS-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 92
+    },
+    {
+      "source_id": "SRC195",
+      "title": "Association of Music Interventions With Health-Related Quality of Life: A Systematic Review and Meta-analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-CRE-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 93
+    },
+    {
+      "source_id": "SRC202",
+      "title": "Teach-back: A systematic review of implementation and impacts.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-LAN-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 94
+    },
+    {
+      "source_id": "SRC204",
+      "title": "Long-term Persuasive Effects in Narrative Communication Research: A Meta-Analysis",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-LAN-012"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 95
+    },
+    {
+      "source_id": "SRC208",
+      "title": "A brief social-belonging intervention improves academic and health outcomes of minority students.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-LIF-012"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 96
+    },
+    {
+      "source_id": "SRC218",
+      "title": "Perfectionism and compulsive exercise: a systematic review and preliminary meta-analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-EXE-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 97
+    },
+    {
+      "source_id": "SRC219",
+      "title": "The efficacy of probiotics, prebiotics, and synbiotics on anxiety, depression, and sleep: a systematic review and meta-analysis of randomized controlled trials.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-NUT-008"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 98
+    },
+    {
+      "source_id": "SRC220",
+      "title": "Eating behavior dimensions and 9-year weight loss maintenance: a sub-study of the Finnish Diabetes prevention study.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-NUT-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 99
+    },
+    {
+      "source_id": "SRC221",
+      "title": "[Formula: see text] Effectiveness of executive function interventions in typically developing preschool children: a systematic review and meta-analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 100
+    },
+    {
+      "source_id": "SRC222",
+      "title": "Early childhood attachment stability and change: a meta-analysis.",
+      "priority_score": 72.5,
+      "best_matched_topic_ids": [
+        "PSY-DEV-005"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 90,
+      "display_position": 101
+    },
+    {
+      "source_id": "SRC125",
+      "title": "Costs and benefits of acting extraverted: A randomized controlled trial.",
+      "priority_score": 65,
+      "best_matched_topic_ids": [
+        "PSY-PER-003"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 102,
+      "display_position": 102
+    },
+    {
+      "source_id": "SRC157",
+      "title": "Cognitive Offloading.",
+      "priority_score": 65.0,
+      "best_matched_topic_ids": [
+        "PSY-AGE-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 102,
+      "display_position": 103
+    },
+    {
+      "source_id": "SRC207",
+      "title": "Adaptive self-regulation of unattainable goals: goal disengagement, goal reengagement, and subjective well-being.",
+      "priority_score": 65.0,
+      "best_matched_topic_ids": [
+        "PSY-LIF-011"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 102,
+      "display_position": 104
+    },
+    {
+      "source_id": "SRC223",
+      "title": "When does age-related cognitive decline begin?",
+      "priority_score": 65.0,
+      "best_matched_topic_ids": [
+        "PSY-AGE-001"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 102,
+      "display_position": 105
+    },
+    {
+      "source_id": "SRC225",
+      "title": "Together - a couples' program to improve communication, coping, and financial management skills: development and initial pilot-testing.",
+      "priority_score": 57.5,
+      "best_matched_topic_ids": [
+        "PSY-MON-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 106,
+      "display_position": 106
+    },
+    {
+      "source_id": "SRC210",
+      "title": "Doing better but feeling worse. Looking for the \"best\" job undermines satisfaction.",
+      "priority_score": 55.0,
+      "best_matched_topic_ids": [
+        "PSY-MON-012"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 107,
+      "display_position": 107
+    },
+    {
+      "source_id": "SRC215",
+      "title": "The effectiveness of assertiveness communication training programs for healthcare professionals and students: A systematic review.",
+      "priority_score": 55,
+      "best_matched_topic_ids": [
+        "PSY-REL-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 107,
+      "display_position": 108
+    },
+    {
+      "source_id": "SRC228",
+      "title": "Meta-analysis of the relationship between risk perception and health behavior: the example of vaccination.",
+      "priority_score": 55,
+      "best_matched_topic_ids": [
+        "PSY-HPS-010"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 107,
+      "display_position": 109
+    },
+    {
+      "source_id": "SRC123",
+      "title": "Context change and travel mode choice: Combining the habit discontinuity and self-activation hypotheses",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-HAB-009"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 110
+    },
+    {
+      "source_id": "SRC124",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-HAB-005"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 111
+    },
+    {
+      "source_id": "SRC127",
+      "title": "The fallacy of personal validation; a classroom demonstration of gullibility.",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-PER-008"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 112
+    },
+    {
+      "source_id": "SRC131",
+      "title": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-ATT-003"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 113
+    },
+    {
+      "source_id": "SRC134",
+      "title": "A meta-analysis of loss aversion in risky contexts",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-DEC-003"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 114
+    },
+    {
+      "source_id": "SRC136",
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-DEC-006"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 115
+    },
+    {
+      "source_id": "SRC137",
+      "title": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-DEC-009"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 116
+    },
+    {
+      "source_id": "SRC141",
+      "title": "The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance.",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-SOC-006"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 117
+    },
+    {
+      "source_id": "SRC146",
+      "title": "Happiness for Sale: Do Experiential Purchases Make Consumers Happier than Material Purchases?",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-WEL-004"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 118
+    },
+    {
+      "source_id": "SRC161",
+      "title": "Motivational, emotional, and behavioral correlates of fear of missing out",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-DIG-005"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 119
+    },
+    {
+      "source_id": "SRC164",
+      "title": "Effectiveness of job crafting interventions: a meta-analysis and utility analysis",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-WRK-006"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 120
+    },
+    {
+      "source_id": "SRC166",
+      "title": "Meetings and More Meetings: The Relationship Between Meeting Load and the Daily Well-Being of Employees.",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-WRK-009"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 121
+    },
+    {
+      "source_id": "SRC168",
+      "title": "Office Chitchat as a Social Ritual: The Uplifting Yet Distracting Effects of Daily Small Talk at Work",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-WRK-014"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 122
+    },
+    {
+      "source_id": "SRC169",
+      "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-MON-002"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 123
+    },
+    {
+      "source_id": "SRC170",
+      "title": "Mental accounting matters",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-MON-003"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 124
+    },
+    {
+      "source_id": "SRC172",
+      "title": "Give them what they want: The benefits of explicitness in gift exchange",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-MON-013"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 125
+    },
+    {
+      "source_id": "SRC173",
+      "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality.",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-INT-002"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 126
+    },
+    {
+      "source_id": "SRC178",
+      "title": "Implicit theories of relationships: Assessment and prediction of romantic relationship initiation, coping, and longevity.",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-INT-012"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 127
+    },
+    {
+      "source_id": "SRC181",
+      "title": "A meta-analytic review of the relationship between social media use and body image disturbance",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-HPS-005"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 128
+    },
+    {
+      "source_id": "SRC197",
+      "title": "Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-CRE-012"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 129
+    },
+    {
+      "source_id": "SRC199",
+      "title": "Why don't we believe non-native speakers? The influence of accent on credibility",
+      "priority_score": 49,
+      "best_matched_topic_ids": [
+        "PSY-LAN-006"
+      ],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 110,
+      "display_position": 130
+    },
+    {
+      "source_id": "SRC115",
+      "title": "Clinical use of current polygenic risk scores may exacerbate health disparities.",
+      "priority_score": 45.0,
+      "best_matched_topic_ids": [
+        "PSY-GEN-007"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 131,
+      "display_position": 131
+    },
+    {
+      "source_id": "SRC229",
+      "title": "Display clutter and its effects on visual attention distribution and financial risk judgment.",
+      "priority_score": 45.0,
+      "best_matched_topic_ids": [
+        "PSY-ENV-006"
+      ],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": 131,
+      "display_position": 132
+    },
+    {
+      "source_id": "SRC001",
+      "title": "How Sleep Works",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 133
+    },
+    {
+      "source_id": "SRC002",
+      "title": "Insomnia - Treatment",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 134
+    },
+    {
+      "source_id": "SRC003",
+      "title": "How Sleep Works - Your Sleep/Wake Cycle",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 135
+    },
+    {
+      "source_id": "SRC004",
+      "title": "What is heritability?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 136
+    },
+    {
+      "source_id": "SRC005",
+      "title": "Assessing the Heritability of Complex Traits in Humans: Methodological Challenges and Opportunities",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 137
+    },
+    {
+      "source_id": "SRC006",
+      "title": "The heritability fallacy",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 138
+    },
+    {
+      "source_id": "SRC007",
+      "title": "Is nicotine addictive?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 139
+    },
+    {
+      "source_id": "SRC008",
+      "title": "Tobacco, Nicotine, and E-Cigarettes Research Report: References",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 140
+    },
+    {
+      "source_id": "SRC009",
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 141
+    },
+    {
+      "source_id": "SRC010",
+      "title": "Bedtime procrastination: introducing a new area of procrastination",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 142
+    },
+    {
+      "source_id": "SRC011",
+      "title": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 143
+    },
+    {
+      "source_id": "SRC012",
+      "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 144
+    },
+    {
+      "source_id": "SRC013",
+      "title": "Meditation and Mindfulness: Effectiveness and Safety",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 145
+    },
+    {
+      "source_id": "SRC014",
+      "title": "Caring for Your Mental Health",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 146
+    },
+    {
+      "source_id": "SRC015",
+      "title": "Why Most Published Research Findings Are False",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 147
+    },
+    {
+      "source_id": "SRC016",
+      "title": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 148
+    },
+    {
+      "source_id": "SRC017",
+      "title": "A randomised controlled trial of dietary improvement for adults with major depression (the ‘SMILES’ trial)",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 149
+    },
+    {
+      "source_id": "SRC018",
+      "title": "Association between nicotine dependence severity, BOLD response to smoking cues, and functional connectivity",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 150
+    },
+    {
+      "source_id": "SRC019",
+      "title": "Cognitive function during nicotine withdrawal: Implications for nicotine dependence treatment",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 151
+    },
+    {
+      "source_id": "SRC020",
+      "title": "Sleep changes in smokers before, during and 3 months after nicotine withdrawal",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 152
+    },
+    {
+      "source_id": "SRC021",
+      "title": "Combined pharmacotherapy and behavioural interventions for smoking cessation",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 153
+    },
+    {
+      "source_id": "SRC022",
+      "title": "Adverse events in meditation practices and meditation-based therapies: a systematic review",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 154
+    },
+    {
+      "source_id": "SRC023",
+      "title": "The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 155
+    },
+    {
+      "source_id": "SRC024",
+      "title": "Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 156
+    },
+    {
+      "source_id": "SRC025",
+      "title": "Mindfulness-based relapse prevention for substance use disorders: a systematic review and meta-analysis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 157
+    },
+    {
+      "source_id": "SRC026",
+      "title": "How do implementation intentions promote goal attainment? A test of component processes",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 158
+    },
+    {
+      "source_id": "SRC027",
+      "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 159
+    },
+    {
+      "source_id": "SRC028",
+      "title": "I’m So Stressed Out! Fact Sheet",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 160
+    },
+    {
+      "source_id": "SRC029",
+      "title": "Psychotherapies",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 161
+    },
+    {
+      "source_id": "SRC030",
+      "title": "Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 162
+    },
+    {
+      "source_id": "SRC031",
+      "title": "Physical activity",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 163
+    },
+    {
+      "source_id": "SRC032",
+      "title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 164
+    },
+    {
+      "source_id": "SRC033",
+      "title": "ACTIVE cognitive training trial: ten-year outcomes in cognition and everyday functioning",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 165
+    },
+    {
+      "source_id": "SRC034",
+      "title": "Children and Mental Health: Is This Just a Stage?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 166
+    },
+    {
+      "source_id": "SRC035",
+      "title": "Parent Praise to 1- to 3-Year-Olds Predicts Children's Motivational Frameworks 5 Years Later",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 167
+    },
+    {
+      "source_id": "SRC037",
+      "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 168
+    },
+    {
+      "source_id": "SRC042",
+      "title": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 169
+    },
+    {
+      "source_id": "SRC044",
+      "title": "Smoking cessation for improving mental health.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 170
+    },
+    {
+      "source_id": "SRC045",
+      "title": "Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 171
+    },
+    {
+      "source_id": "SRC046",
+      "title": "A systematic review of personality trait change through intervention.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 172
+    },
+    {
+      "source_id": "SRC047",
+      "title": "Changing personality traits with the help of a digital personality change intervention.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 173
+    },
+    {
+      "source_id": "SRC048",
+      "title": "To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 174
+    },
+    {
+      "source_id": "SRC049",
+      "title": "A national experiment reveals where a growth mindset improves achievement.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 175
+    },
+    {
+      "source_id": "SRC051",
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 176
+    },
+    {
+      "source_id": "SRC052",
+      "title": "Similarity matters: A meta-analysis of interleaved learning and its moderators.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 177
+    },
+    {
+      "source_id": "SRC053",
+      "title": "Learning Styles: Concepts and Evidence.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 178
+    },
+    {
+      "source_id": "SRC055",
+      "title": "The attentional cost of receiving a cell phone notification.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 179
+    },
+    {
+      "source_id": "SRC056",
+      "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 180
+    },
+    {
+      "source_id": "SRC057",
+      "title": "Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 181
+    },
+    {
+      "source_id": "SRC058",
+      "title": "A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 182
+    },
+    {
+      "source_id": "SRC059",
+      "title": "Mindfulness-based programmes for mental health promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised controlled trials.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 183
+    },
+    {
+      "source_id": "SRC060",
+      "title": "Effect of Pain Reprocessing Therapy vs Placebo and Usual Care for Patients With Chronic Back Pain: A Randomized Clinical Trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 184
+    },
+    {
+      "source_id": "SRC061",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 185
+    },
+    {
+      "source_id": "SRC062",
+      "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 186
+    },
+    {
+      "source_id": "SRC063",
+      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 187
+    },
+    {
+      "source_id": "SRC064",
+      "title": "Loneliness and social isolation as risk factors for mortality: a meta-analytic review.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 188
+    },
+    {
+      "source_id": "SRC065",
+      "title": "The bystander-effect: a meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 189
+    },
+    {
+      "source_id": "SRC066",
+      "title": "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 190
+    },
+    {
+      "source_id": "SRC067",
+      "title": "Shifting attention to accuracy can reduce misinformation online.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 191
+    },
+    {
+      "source_id": "SRC068",
+      "title": "Income and emotional well-being: A conflict resolved.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 192
+    },
+    {
+      "source_id": "SRC069",
+      "title": "Buying time promotes happiness.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 193
+    },
+    {
+      "source_id": "SRC070",
+      "title": "Spending at least 120 minutes a week in nature is associated with good health and wellbeing.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 194
+    },
+    {
+      "source_id": "SRC071",
+      "title": "Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 195
+    },
+    {
+      "source_id": "SRC072",
+      "title": "Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 196
+    },
+    {
+      "source_id": "SRC073",
+      "title": "Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 197
+    },
+    {
+      "source_id": "SRC074",
+      "title": "A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 198
+    },
+    {
+      "source_id": "SRC075",
+      "title": "Interventions for improving psychological detachment from work: A meta-analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 199
+    },
+    {
+      "source_id": "SRC076",
+      "title": "Poverty impedes cognitive function.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 200
+    },
+    {
+      "source_id": "SRC077",
+      "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 201
+    },
+    {
+      "source_id": "SRC078",
+      "title": "A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 202
+    },
+    {
+      "source_id": "SRC079",
+      "title": "Effect of Greening Vacant Land on Mental Health of Community-Dwelling Adults: A Cluster Randomized Trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 203
+    },
+    {
+      "source_id": "SRC080",
+      "title": "Error in Figure.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 204
+    },
+    {
+      "source_id": "SRC081",
+      "title": "Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 205
+    },
+    {
+      "source_id": "SRC082",
+      "title": "Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers: A Controlled Exposure Study of Green and Conventional Office Environments.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 206
+    },
+    {
+      "source_id": "SRC083",
+      "title": "Give your ideas some legs: the positive effect of walking on creative thinking.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 207
+    },
+    {
+      "source_id": "SRC084",
+      "title": "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 208
+    },
+    {
+      "source_id": "SRC085",
+      "title": "Big smile, small self: Awe walks promote prosocial positive emotions in older adults.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 209
+    },
+    {
+      "source_id": "SRC086",
+      "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 210
+    },
+    {
+      "source_id": "SRC087",
+      "title": "A meta-analysis of interventions to reduce loneliness.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 211
+    },
+    {
+      "source_id": "SRC088",
+      "title": "The relationship between personal unsecured debt and mental and physical health: a systematic review and meta-analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 212
+    },
+    {
+      "source_id": "SRC089",
+      "title": "Optimizing Treatment of Complicated Grief: A Randomized Clinical Trial.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 213
+    },
+    {
+      "source_id": "SRC090",
+      "title": "Self-rated health before and after retirement in France (GAZEL): a cohort study.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 214
+    },
+    {
+      "source_id": "SRC091",
+      "title": "Is bilingualism associated with enhanced executive functioning in adults? A meta-analytic review.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 215
+    },
+    {
+      "source_id": "SRC092",
+      "title": "A critical period for second language acquisition: Evidence from 2/3 million English speakers.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 216
+    },
+    {
+      "source_id": "SRC093",
+      "title": "It doesn't hurt to ask: Question-asking increases liking.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 217
+    },
+    {
+      "source_id": "SRC094",
+      "title": "Correction to \"It doesn't hurt to ask: Question-asking increases liking\" by Huang et al. (2017).",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 218
+    },
+    {
+      "source_id": "SRC095",
+      "title": "The risk of depression in the menopausal stages: A systematic review and meta-analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 219
+    },
+    {
+      "source_id": "SRC096",
+      "title": "Management of Premenstrual Disorders: ACOG Clinical Practice Guideline No. 7.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 220
+    },
+    {
+      "source_id": "SRC097",
+      "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 221
+    },
+    {
+      "source_id": "SRC098",
+      "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 222
+    },
+    {
+      "source_id": "SRC100",
+      "title": "Work time reduction via a 4-day workweek finds improvements in workers' well-being.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 223
+    },
+    {
+      "source_id": "SRC101",
+      "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 224
+    },
+    {
+      "source_id": "SRC102",
+      "title": "Job strain as a risk factor for coronary heart disease: a collaborative meta-analysis of individual participant data.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 225
+    },
+    {
+      "source_id": "SRC103",
+      "title": "Long working hours and risk of coronary heart disease and stroke: a systematic review and meta-analysis of published and unpublished data for 603,838 individuals.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 226
+    },
+    {
+      "source_id": "SRC104",
+      "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 227
+    },
+    {
+      "source_id": "SRC105",
+      "title": "Effects of Self-Compassion Interventions on Reducing Depressive Symptoms, Anxiety, and Stress: A Meta-Analysis.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 228
+    },
+    {
+      "source_id": "SRC106",
+      "title": "Self-Esteem and Self-Compassion: A Narrative Review and Meta-Analysis on Their Links to Psychological Problems and Well-Being.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "legacy_not_reassessed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 229
+    },
+    {
+      "source_id": "SRC116",
+      "title": "Publisher Correction: Clinical use of current polygenic risk scores may exacerbate health disparities.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 230
+    }
+  ]
+}

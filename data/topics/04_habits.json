@@ -90,11 +90,15 @@
       "priority": 1,
       "source_ids": [
         "SRC026",
-        "SRC098"
+        "SRC098",
+        "SRC124"
       ],
       "caution_ja": "書誌情報は確認したが効果量は未評価。行動の難度や実行機会の有無を確認する。",
       "research_brief_ids": [
         "RB-34054628"
+      ],
+      "source_review_ids": [
+        "R3-C017"
       ]
     },
     {
@@ -138,8 +142,13 @@
       "angle_ja": "報酬がある期間と、終了した後の継続を比較する。",
       "search_query": "financial incentives health behavior maintenance after withdrawal systematic review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "報酬の種類・頻度・本人の動機を区別し、報酬は必ず悪いとも良いとも言わない。"
+      "source_ids": [
+        "SRC122"
+      ],
+      "caution_ja": "報酬の種類・頻度・本人の動機を区別し、報酬は必ず悪いとも良いとも言わない。",
+      "source_review_ids": [
+        "R3-C015"
+      ]
     },
     {
       "id": "PSY-HAB-009",
@@ -151,8 +160,13 @@
       "angle_ja": "生活の節目と既存の合図の変化を調べる。",
       "search_query": "habit discontinuity relocation context change behavior intervention",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "節目にはストレスや制約も変わる。引っ越し自体を解決策として勧めない。"
+      "source_ids": [
+        "SRC123"
+      ],
+      "caution_ja": "節目にはストレスや制約も変わる。引っ越し自体を解決策として勧めない。",
+      "source_review_ids": [
+        "R3-C016"
+      ]
     },
     {
       "id": "PSY-HAB-010",
@@ -164,8 +178,13 @@
       "angle_ja": "予約、締切、使いすぎ防止設定などの事前決定を比較する。",
       "search_query": "commitment devices precommitment procrastination health behavior randomized trial",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。"
+      "source_ids": [
+        "SRC212"
+      ],
+      "caution_ja": "金銭的ペナルティや過剰な制限の害を考慮し、本人の選択可能性を残す。",
+      "source_review_ids": [
+        "R3-S112"
+      ]
     }
   ]
 }

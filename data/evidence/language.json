@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "category_id": "language",
+  "edges": [
+    {
+      "id": "EV-PSY-LAN-001-SRC051",
+      "topic_id": "PSY-LAN-001",
+      "source_id": "SRC051",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-16719566"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-001-SRC092",
+      "topic_id": "PSY-LAN-001",
+      "source_id": "SRC092",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-29729947"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-002-SRC091",
+      "topic_id": "PSY-LAN-002",
+      "source_id": "SRC091",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-29494195"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-004-SRC198",
+      "topic_id": "PSY-LAN-004",
+      "source_id": "SRC198",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C091",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "内的な言葉が少ないと報告する群で一部の言語課題に差があった一方、課題切替などには差がなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "自己報告で分けた小標本。内的独り言の少なさを一般知能や障害の診断に結びつけない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-005-SRC211",
+      "topic_id": "PSY-LAN-005",
+      "source_id": "SRC211",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S110",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "83独立標本を統合し、身ぶりを見たり作ったりすることと理解の改善を検討。身ぶりの種類や課題で差があった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "長期の記憶や全教材に同じ効果を保証しない。アクセシビリティへの配慮も必要。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-006-SRC199",
+      "topic_id": "PSY-LAN-006",
+      "source_id": "SRC199",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C092",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "アクセントと信頼判断の研究の書誌。訛りを能力や誠実さの指標として正当化しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-007-SRC200",
+      "topic_id": "PSY-LAN-007",
+      "source_id": "SRC200",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C093",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "メールの意図や感情が、送り手の想定ほど受け手に伝わらない場合を5実験で検討。",
+      "conclusion_direction": "supports",
+      "limits_ja": "当時のメール課題と現在の全メッセージ媒体は異なる。短文を不機嫌と断定する規則にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-008-SRC093",
+      "topic_id": "PSY-LAN-008",
+      "source_id": "SRC093",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-28447835"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-008-SRC094",
+      "topic_id": "PSY-LAN-008",
+      "source_id": "SRC094",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-28447835"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-009-SRC201",
+      "topic_id": "PSY-LAN-009",
+      "source_id": "SRC201",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C094",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "通勤等で見知らぬ人との会話が、予想より肯定的に経験される場面を検討した。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "安全感・文化・会話したくない人の選択を尊重。誰にでも話しかければ幸福になるという助言にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-010-SRC202",
+      "topic_id": "PSY-LAN-010",
+      "source_id": "SRC202",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C095",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "医療現場で説明を受けた人に言い返してもらう方法の実装・効果を20研究で整理。研究の質は混在した。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "一般の授業や職場への移植は追加検証。相手を試験するのでなく説明の伝わり方を確認する方法として扱う。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-011-SRC203",
+      "topic_id": "PSY-LAN-011",
+      "source_id": "SRC203",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C096",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "自分の名前や一人称でない表現を使う内省と、対人ストレス時の反応を7研究で検討。",
+      "conclusion_direction": "supports",
+      "limits_ja": "一論文内の実験群を独立した追試群と数えない。言語・文化差や長期の治療効果は未確認。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-012-SRC204",
+      "topic_id": "PSY-LAN-012",
+      "source_id": "SRC204",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C097",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "物語型と非物語型メッセージで、直後と遅れて測った態度・意図・行動への説得力を比較。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "説得力は正しさの証拠ではない。一般の物語研究と健康情報の個別判断を区別する。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

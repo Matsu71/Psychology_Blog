@@ -65,7 +65,9 @@
       "angle_ja": "交通音を気にしなくなったことと、体への影響を分けて考える。",
       "search_query": "environmental noise sleep disturbance systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC187"
+      ],
       "caution_ja": "主観的な慣れと生理反応を区別。騒音の大きさ・時刻を確認する。",
       "related_topic_ids": [
         "PSY-SLP-001",
@@ -75,7 +77,10 @@
         "type": "illustrative_scenario",
         "description_ja": "交通音を気にしなくなったことと、体への影響を分けて考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C080"
+      ]
     },
     {
       "id": "PSY-ENV-004",
@@ -87,7 +92,9 @@
       "angle_ja": "隣の会話が聞こえる席と静かな席を仕事の種類で使い分ける。",
       "search_query": "open plan office privacy distraction systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC188"
+      ],
       "caution_ja": "全職場に同じ配置を推奨せず、交流の実測と自己報告を区別する。",
       "related_topic_ids": [
         "PSY-ATT-003",
@@ -97,7 +104,10 @@
         "type": "illustrative_scenario",
         "description_ja": "隣の会話が聞こえる席と静かな席を仕事の種類で使い分ける。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C081"
+      ]
     },
     {
       "id": "PSY-ENV-005",
@@ -138,7 +148,9 @@
       "angle_ja": "机の上の物を減らすと作業しやすいかを研究する。",
       "search_query": "visual clutter attention environment systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC229"
+      ],
       "caution_ja": "片づけの価値観や住環境を道徳的に評価せず、研究条件を確認する。",
       "related_topic_ids": [
         "PSY-ATT-001"
@@ -147,7 +159,10 @@
         "type": "illustrative_scenario",
         "description_ja": "机の上の物を減らすと作業しやすいかを研究する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S139"
+      ]
     },
     {
       "id": "PSY-ENV-007",
@@ -159,7 +174,9 @@
       "angle_ja": "昔使っていた香りで当時の場所や気分を思い出す。",
       "search_query": "odor evoked autobiographical memory emotion systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC189"
+      ],
       "caution_ja": "鮮明な記憶を正確な記憶と同一視しない。",
       "related_topic_ids": [
         "PSY-LEA-007"
@@ -168,7 +185,10 @@
         "type": "illustrative_scenario",
         "description_ja": "昔使っていた香りで当時の場所や気分を思い出す。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C082"
+      ]
     },
     {
       "id": "PSY-ENV-008",
@@ -233,7 +253,10 @@
       "angle_ja": "勉強部屋を青くすれば集中できるという主張を検証する。",
       "search_query": "color psychology contextual effects systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC190",
+        "SRC191"
+      ],
       "caution_ja": "色の万能効果をうたわず、明るさ・文化・期待の交絡を確認する。",
       "related_topic_ids": [
         "PSY-RES-002"
@@ -242,7 +265,11 @@
         "type": "illustrative_scenario",
         "description_ja": "勉強部屋を青くすれば集中できるという主張を検証する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C083",
+        "R3-C084"
+      ]
     },
     {
       "id": "PSY-ENV-011",
@@ -276,7 +303,9 @@
       "angle_ja": "作業中の環境音や就寝前の音を比較する。",
       "search_query": "natural soundscapes stress recovery systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC192"
+      ],
       "caution_ja": "好み、音量、対照条件を区別し、音源だけで治療効果を保証しない。",
       "related_topic_ids": [
         "PSY-ATT-005",
@@ -286,7 +315,10 @@
         "type": "illustrative_scenario",
         "description_ja": "作業中の環境音や就寝前の音を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C085"
+      ]
     }
   ]
 }

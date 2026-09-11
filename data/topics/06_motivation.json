@@ -126,8 +126,15 @@
       "angle_ja": "報酬の予告、評価の伝え方、もともとの関心を区別する。",
       "search_query": "extrinsic rewards intrinsic motivation undermining meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "『褒めるとやる気が消える』という極端な一般化を避ける。"
+      "source_ids": [
+        "SRC128",
+        "SRC129"
+      ],
+      "caution_ja": "『褒めるとやる気が消える』という極端な一般化を避ける。",
+      "source_review_ids": [
+        "R3-C021",
+        "R3-C022"
+      ]
     },
     {
       "id": "PSY-MOT-008",
@@ -179,8 +186,13 @@
       "angle_ja": "節目で始める行動と、その後の維持を分けて考える。",
       "search_query": "fresh start effect temporal landmarks goal pursuit replication field study",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "開始率の増加を継続率の改善と混同しない。"
+      "source_ids": [
+        "SRC130"
+      ],
+      "caution_ja": "開始率の増加を継続率の改善と混同しない。",
+      "source_review_ids": [
+        "R3-C023"
+      ]
     }
   ]
 }

@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "money_consumption",
+  "topics": [
+    {
+      "topic_id": "PSY-MON-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-001-SRC069",
+          "source_id": "SRC069",
+          "title": "Buying time promotes happiness.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-002-SRC169",
+          "source_id": "SRC169",
+          "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-003-SRC170",
+          "source_id": "SRC170",
+          "title": "Mental accounting matters",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "メンタルアカウンティングの基礎論考の書誌。単一の因果効果を証明する資料として扱わない。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-004",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-MON-005",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-MON-006",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-006-SRC076",
+          "source_id": "SRC076",
+          "title": "Poverty impedes cognitive function.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-MON-006-SRC088",
+          "source_id": "SRC088",
+          "title": "The relationship between personal unsecured debt and mental and physical health: a systematic review and meta-analysis.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-007-SRC225",
+          "source_id": "SRC225",
+          "title": "Together - a couples' program to improve communication, coping, and financial management skills: development and initial pilot-testing.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "preliminary",
+          "limits_ja": "対照群のない小規模予備研究。改善を確実な因果効果とせず、有望な調査入口として扱う。",
+          "priority_score": 57.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-MON-009",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-MON-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-010-SRC171",
+          "source_id": "SRC171",
+          "title": "Zero as a Special Price: The True Value of Free Products",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "supports",
+          "limits_ja": "特定の商品・実験条件の結果。無料なら常に不合理な選択になるとはしない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-011",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-011-SRC230",
+          "source_id": "SRC230",
+          "title": "Explanations of the endowment effect: an integrative review.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "所有すれば必ず高く評価するという固定則ではない。単一の神経機序や万能な売買指南にしない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-012-SRC210",
+          "source_id": "SRC210",
+          "title": "Doing better but feeling worse. Looking for the \"best\" job undermines satisfaction.",
+          "review_scope": "abstract",
+          "relation_role": "context_only",
+          "conclusion_direction": "association",
+          "limits_ja": "買い物の直接実験ではない。就職活動の例としてのみ使い、慎重な比較の全否定にしない。",
+          "priority_score": 55.0,
+          "components": {
+            "theme_relevance_1_to_5": 3,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-013",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-013-SRC172",
+          "source_id": "SRC172",
+          "title": "Give them what they want: The benefits of explicitness in gift exchange",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "贈り物の希望を明示することを扱う研究の書誌のみ。文化差や親密さ、結果は追加確認する。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-014",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-014-SRC088",
+          "source_id": "SRC088",
+          "title": "The relationship between personal unsecured debt and mental and physical health: a systematic review and meta-analysis.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

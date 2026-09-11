@@ -79,10 +79,12 @@ def validate() -> dict:
         keys.add(key)
         require(key[0] in topics and key[1] in topics and key[0] != key[1], 'Invalid relation IDs')
         require(key[2] in {'related_question', 'application_of'}, 'Unknown relation type')
-    candidates = read('data/literature/candidates.json')['papers']
+    catalog_path = ROOT / 'data/literature/catalog.json'
+    catalog = read('data/literature/catalog.json') if catalog_path.exists() else {'candidate_files':['data/literature/candidates.json'], 'search_files':['data/literature/search_log.json']}
+    candidates = [p for path in catalog['candidate_files'] for p in read(path)['papers']]
     cids = {p['id'] for p in candidates}
     require(len(cids) == len(candidates), 'Duplicate candidate database ID')
-    searches = read('data/literature/search_log.json')['searches']
+    searches = [s for path in catalog['search_files'] for s in read(path)['searches']]
     require(len({s['task_id'] for s in searches}) == len(searches), 'Duplicate search ID')
     for search in searches:
         require(set(search['candidate_ids']) <= cids, 'Search references unknown candidate')

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "candidate_files": [
+    "data/literature/candidates.json",
+    "data/literature/round3/candidates-001.json",
+    "data/literature/round3/candidates-002.json",
+    "data/literature/round3/candidates-003.json",
+    "data/literature/round3/candidates-004.json",
+    "data/literature/round3/candidates-005.json",
+    "data/literature/round3/candidates-006.json",
+    "data/literature/round3/candidates-007.json",
+    "data/literature/round3/candidates-008.json",
+    "data/literature/round3/candidates-009.json",
+    "data/literature/round3/candidates-010.json",
+    "data/literature/round3/candidates-011.json",
+    "data/literature/round3/candidates-012.json",
+    "data/literature/round3/candidates-013.json",
+    "data/literature/round3/candidates-014.json",
+    "data/literature/round3/candidates-015.json",
+    "data/literature/round3/candidates-016.json",
+    "data/literature/round3/candidates-017.json",
+    "data/literature/round3/candidates-018.json",
+    "data/literature/round3/candidates-019.json",
+    "data/literature/round3/candidates-020.json"
+  ],
+  "search_files": [
+    "data/literature/search_log.json",
+    "data/literature/round3/searches-001.json",
+    "data/literature/round3/searches-002.json",
+    "data/literature/round3/searches-003.json",
+    "data/literature/round3/searches-004.json",
+    "data/literature/round3/searches-005.json",
+    "data/literature/round3/searches-006.json"
+  ],
+  "identity_rule": "provider record ID; not deduplicated independent studies",
+  "notes_ja": "旧ファイルは保持。新規台帳は100レコードずつ分割。候補・書誌の登録は効果確認を意味しない。"
+}

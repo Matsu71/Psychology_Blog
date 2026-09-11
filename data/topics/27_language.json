@@ -90,7 +90,9 @@
       "angle_ja": "頭の中の独り言が多い人と少ない人の経験を扱う。",
       "search_query": "inner speech individual differences systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC198"
+      ],
       "caution_ja": "内的経験の自己申告を単純な能力差や診断に結びつけない。",
       "related_topic_ids": [
         "PSY-PER-007",
@@ -100,7 +102,10 @@
         "type": "illustrative_scenario",
         "description_ja": "頭の中の独り言が多い人と少ない人の経験を扱う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C091"
+      ]
     },
     {
       "id": "PSY-LAN-005",
@@ -112,7 +117,9 @@
       "angle_ja": "道順や手順を言葉だけでなく動作でも説明する。",
       "search_query": "gesture learning embodied communication systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC211"
+      ],
       "caution_ja": "身ぶりの種類や視覚障害などの条件に応じて扱う。",
       "related_topic_ids": [
         "PSY-LEA-004",
@@ -122,7 +129,10 @@
         "type": "illustrative_scenario",
         "description_ja": "道順や手順を言葉だけでなく動作でも説明する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S110"
+      ]
     },
     {
       "id": "PSY-LAN-006",
@@ -134,7 +144,9 @@
       "angle_ja": "内容が同じ説明でも話し方で印象が変わるか考える。",
       "search_query": "accent bias credibility judgments systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC199"
+      ],
       "caution_ja": "アクセントを能力や誠実さの指標として正当化しない。",
       "related_topic_ids": [
         "PSY-SOC-004",
@@ -144,7 +156,10 @@
         "type": "illustrative_scenario",
         "description_ja": "内容が同じ説明でも話し方で印象が変わるか考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C092"
+      ]
     },
     {
       "id": "PSY-LAN-007",
@@ -156,7 +171,9 @@
       "angle_ja": "短い返事が不機嫌なのか、単に忙しいのか迷う。",
       "search_query": "email tone miscommunication perspective taking systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC200"
+      ],
       "caution_ja": "文化、世代、相手との関係を確認し、特定の記号を万能な解決策にしない。",
       "related_topic_ids": [
         "PSY-REL-010",
@@ -166,7 +183,10 @@
         "type": "illustrative_scenario",
         "description_ja": "短い返事が不機嫌なのか、単に忙しいのか迷う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C093"
+      ]
     },
     {
       "id": "PSY-LAN-008",
@@ -206,7 +226,9 @@
       "angle_ja": "店員や同じ場にいる人との短いやり取りを研究する。",
       "search_query": "weak ties conversation with strangers systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC201"
+      ],
       "caution_ja": "会話の強制をせず、相手の安全感と応じない権利を尊重する。",
       "related_topic_ids": [
         "PSY-REL-001",
@@ -216,7 +238,10 @@
         "type": "illustrative_scenario",
         "description_ja": "店員や同じ場にいる人との短いやり取りを研究する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C094"
+      ]
     },
     {
       "id": "PSY-LAN-010",
@@ -228,7 +253,9 @@
       "angle_ja": "相手の言葉で手順を説明してもらい、伝え方を見直す。",
       "search_query": "teach back communication comprehension systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC202"
+      ],
       "caution_ja": "相手を試験するのではなく説明者の伝え方を確認する方法として扱う。",
       "related_topic_ids": [
         "PSY-LEA-004",
@@ -238,7 +265,10 @@
         "type": "illustrative_scenario",
         "description_ja": "相手の言葉で手順を説明してもらい、伝え方を見直す。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C095"
+      ]
     },
     {
       "id": "PSY-LAN-011",
@@ -250,7 +280,9 @@
       "angle_ja": "失敗した自分に第三者へ話すように声をかける。",
       "search_query": "distanced self talk emotion regulation systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC203"
+      ],
       "caution_ja": "短期の感情調整と治療効果を区別する。",
       "related_topic_ids": [
         "PSY-EMO-002",
@@ -260,7 +292,10 @@
         "type": "illustrative_scenario",
         "description_ja": "失敗した自分に第三者へ話すように声をかける。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C096"
+      ]
     },
     {
       "id": "PSY-LAN-012",
@@ -272,7 +307,9 @@
       "angle_ja": "健康商品の体験談と比較試験のどちらを信じるか考える。",
       "search_query": "narrative persuasion anecdotal evidence systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC204"
+      ],
       "caution_ja": "体験談を研究の代替にせず、例の鮮明さと典型性を分ける。",
       "related_topic_ids": [
         "PSY-RES-001",
@@ -282,7 +319,10 @@
         "type": "illustrative_scenario",
         "description_ja": "健康商品の体験談と比較試験のどちらを信じるか考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C097"
+      ]
     }
   ]
 }

@@ -39,7 +39,9 @@
       "angle_ja": "カードやスマホで払う月と現金中心の月の感覚を比較する。",
       "search_query": "cashless payment spending behavior systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC169"
+      ],
       "caution_ja": "決済手段の平均効果を個人の必然とせず、予算管理機能の違いも扱う。",
       "related_topic_ids": [
         "PSY-DEC-007"
@@ -48,7 +50,10 @@
         "type": "illustrative_scenario",
         "description_ja": "カードやスマホで払う月と現金中心の月の感覚を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C062"
+      ]
     },
     {
       "id": "PSY-MON-003",
@@ -60,7 +65,9 @@
       "angle_ja": "臨時収入は普段なら買わない物に使いたくなる。",
       "search_query": "mental accounting windfall spending systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC170"
+      ],
       "caution_ja": "家計管理の便益もあり、心理的な区分けをすべて非合理としない。",
       "related_topic_ids": [
         "PSY-DEC-003"
@@ -69,7 +76,10 @@
         "type": "illustrative_scenario",
         "description_ja": "臨時収入は普段なら買わない物に使いたくなる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C063"
+      ]
     },
     {
       "id": "PSY-MON-004",
@@ -153,7 +163,9 @@
       "angle_ja": "貯金、趣味、家計負担の優先順位が食い違う。",
       "search_query": "financial communication couple conflict systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC225"
+      ],
       "caution_ja": "一方の価値観を正解とせず、経済的支配や安全の問題を区別する。",
       "related_topic_ids": [
         "PSY-REL-010"
@@ -162,7 +174,10 @@
         "type": "illustrative_scenario",
         "description_ja": "貯金、趣味、家計負担の優先順位が食い違う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S132"
+      ]
     },
     {
       "id": "PSY-MON-008",
@@ -222,7 +237,9 @@
       "angle_ja": "送料を無料にするため不要な物を追加する。",
       "search_query": "zero price effect consumer choice systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC171"
+      ],
       "caution_ja": "総支払額と便益を扱い、無料なら常に判断が狂うとしない。",
       "related_topic_ids": [
         "PSY-DEC-005"
@@ -231,7 +248,10 @@
         "type": "illustrative_scenario",
         "description_ja": "送料を無料にするため不要な物を追加する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C064"
+      ]
     },
     {
       "id": "PSY-MON-011",
@@ -243,7 +263,9 @@
       "angle_ja": "中古品を売るとき、買い手の提示額が安すぎると感じる。",
       "search_query": "endowment effect ownership valuation systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC230"
+      ],
       "caution_ja": "経験、愛着、取引慣れ、実験手続きによる条件差を確認する。",
       "related_topic_ids": [
         "PSY-DEC-003"
@@ -252,7 +274,10 @@
         "type": "illustrative_scenario",
         "description_ja": "中古品を売るとき、買い手の提示額が安すぎると感じる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S145"
+      ]
     },
     {
       "id": "PSY-MON-012",
@@ -264,7 +289,9 @@
       "angle_ja": "比較サイトを巡り続け、買った後も他の商品が気になる。",
       "search_query": "maximizing satisficing systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC210"
+      ],
       "caution_ja": "入念な比較の利点を否定せず、選択の重要度を区別する。",
       "related_topic_ids": [
         "PSY-DEC-006",
@@ -274,7 +301,10 @@
         "type": "illustrative_scenario",
         "description_ja": "比較サイトを巡り続け、買った後も他の商品が気になる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-S108"
+      ]
     },
     {
       "id": "PSY-MON-013",
@@ -286,7 +316,9 @@
       "angle_ja": "サプライズを選ぶか、相手が指定した品を贈るか悩む。",
       "search_query": "gift giving giver recipient asymmetry systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC172"
+      ],
       "caution_ja": "文化や親密さにより異なり、一つの贈り方を正解にしない。",
       "related_topic_ids": [
         "PSY-REL-004",
@@ -296,7 +328,10 @@
         "type": "illustrative_scenario",
         "description_ja": "サプライズを選ぶか、相手が指定した品を贈るか悩む。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C065"
+      ]
     },
     {
       "id": "PSY-MON-014",

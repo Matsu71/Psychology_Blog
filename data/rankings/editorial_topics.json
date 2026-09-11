@@ -1,0 +1,859 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "assessed_count": 50,
+  "not_assessed_count": 250,
+  "warning_ja": "50テーマの編集上の仮説。実際の人気・検索数・収益性のランキングではない。未評価250件は下位と判定したものではない。",
+  "topics": [
+    {
+      "topic_id": "PSY-MOT-001",
+      "title_ja": "先延ばしは時間管理の問題か、感情の問題か？",
+      "editorial_score": 100,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "先延ばしを怠けと決めつけず、感情と課題の設計から理解できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 1,
+      "display_position": 1
+    },
+    {
+      "topic_id": "PSY-SLP-004",
+      "title_ja": "コーヒーは何時まで？カフェインと睡眠の個人差",
+      "editorial_score": 100,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "毎日の飲み物と睡眠が結び付き、量と時刻という具体的な判断にできる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 1,
+      "display_position": 2
+    },
+    {
+      "topic_id": "PSY-SLP-009",
+      "title_ja": "眠いのに寝ない：就寝先延ばしはなぜ起きる？",
+      "editorial_score": 100,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "眠いのに寝ない経験に直結し、自由時間と生活制約も扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 1,
+      "display_position": 3
+    },
+    {
+      "topic_id": "PSY-ATT-004",
+      "title_ja": "短い休憩で集中力は戻る？",
+      "editorial_score": 96,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "仕事・勉強の休憩に直結し、疲れと成果の違いを説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 4,
+      "display_position": 4
+    },
+    {
+      "topic_id": "PSY-DIG-004",
+      "title_ja": "デジタルデトックスは気分や生活を改善する？",
+      "editorial_score": 96,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "スマホを減らす方法が生活に直結し、制限方法を比較できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 4,
+      "display_position": 5
+    },
+    {
+      "topic_id": "PSY-HAB-001",
+      "title_ja": "習慣は21日で身につく？必要な期間の個人差",
+      "editorial_score": 96,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "習慣化の日数への関心を、個人差と継続の判断につなげられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 4,
+      "display_position": 6
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "title_ja": "キャッシュレスだと現金より使いすぎる？",
+      "editorial_score": 96,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "日常の決済から、使いすぎと支払手段を考えられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 4,
+      "display_position": 7
+    },
+    {
+      "topic_id": "PSY-DEC-006",
+      "title_ja": "選択肢が多いほど選べなくなるのは本当？",
+      "editorial_score": 95,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "買い物や進路の迷いに結び付き、選択肢が多いことの条件差を扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 8,
+      "display_position": 8
+    },
+    {
+      "topic_id": "PSY-PER-002",
+      "title_ja": "大人になってから性格は変わる？",
+      "editorial_score": 95,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "変われるかという関心があり、固定的な性格観を検討できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 8,
+      "display_position": 9
+    },
+    {
+      "topic_id": "PSY-SLP-007",
+      "title_ja": "休日の寝だめで平日の睡眠不足は取り戻せる？",
+      "editorial_score": 95,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "平日の不足を休日で補うという身近な行動に独立した疑問がある。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 8,
+      "display_position": 10
+    },
+    {
+      "topic_id": "PSY-LEA-001",
+      "title_ja": "読み直すより思い出す練習：テスト効果を勉強に使うには？",
+      "editorial_score": 93,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "資格・学校・語学で使う復習の仕方につなげられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 11,
+      "display_position": 11
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "title_ja": "仕事を終えても頭から離れないのはなぜ？",
+      "editorial_score": 93,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "退勤後も仕事が頭から離れない人に関係し、個人と組織の両面を扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 11,
+      "display_position": 12
+    },
+    {
+      "topic_id": "PSY-DIG-001",
+      "title_ja": "SNSを使うと幸福度が下がる、はどこまで本当？",
+      "editorial_score": 91,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "SNSと気分は自分事にしやすく、単純な善悪論を検証できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 13,
+      "display_position": 13
+    },
+    {
+      "topic_id": "PSY-NUT-003",
+      "title_ja": "スマホやテレビを見ながら食べると量は変わる？",
+      "editorial_score": 91,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "ながら食べを、その場の摂取量と後の食欲に分けて考えられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 13,
+      "display_position": 14
+    },
+    {
+      "topic_id": "PSY-SLP-001",
+      "title_ja": "自分に必要な睡眠時間はどう見極める？",
+      "editorial_score": 91,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "毎日の睡眠時間の判断に直結し、万人共通の正解を避けて説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 13,
+      "display_position": 15
+    },
+    {
+      "topic_id": "PSY-GEN-001",
+      "title_ja": "性格には遺伝がどれくらい影響する？",
+      "editorial_score": 90,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 3,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "家族の性格を理解したい関心と、遺伝で決まるという誤解の双方を扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 16,
+      "display_position": 16
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "title_ja": "お金が増えれば幸福も増える？",
+      "editorial_score": 90,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 3,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "収入と幸福は幅広い読者に関係し、平均と個人差の読み方につながる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 16,
+      "display_position": 17
+    },
+    {
+      "topic_id": "PSY-HAB-005",
+      "title_ja": "『もしXならYする』は行動を助ける？",
+      "editorial_score": 89,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 5,
+        "interest": 3,
+        "audience_breadth": 4
+      },
+      "reason_ja": "具体的な状況と行動を組み合わせる計画につなげられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 18,
+      "display_position": 18
+    },
+    {
+      "topic_id": "PSY-LAN-008",
+      "title_ja": "話が上手いより質問が上手い方が好かれる？",
+      "editorial_score": 89,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "会話の悩みを、聞き方や追質問という行動につなげられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 18,
+      "display_position": 19
+    },
+    {
+      "topic_id": "PSY-MON-001",
+      "title_ja": "家事を外注して時間を買うと幸福度は上がる？",
+      "editorial_score": 89,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "物を買う以外の支出の価値を、忙しさと自由時間から考えられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 18,
+      "display_position": 20
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "title_ja": "もう払ったお金が、やめる判断を邪魔する？",
+      "editorial_score": 88,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "過去のお金や時間に引かれる判断を、身近な継続・撤退の場面で説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 21,
+      "display_position": 21
+    },
+    {
+      "topic_id": "PSY-ENV-001",
+      "title_ja": "暑い部屋では考える力や集中は変わる？",
+      "editorial_score": 88,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "暑さの中の仕事や学習という生活環境に直結する。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 21,
+      "display_position": 22
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "title_ja": "使わないサブスクを解約できないのはなぜ？",
+      "editorial_score": 88,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "使わない契約という出費に結び付き、解約の手間を考えられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 21,
+      "display_position": 23
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "title_ja": "怒りを発散すれば、怒りは収まる？",
+      "editorial_score": 87,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "怒りを発散すればよいという通説を条件付きで検討できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 24,
+      "display_position": 24
+    },
+    {
+      "topic_id": "PSY-SLP-002",
+      "title_ja": "朝の光と夜の明るさは体内時計にどう関わる？",
+      "editorial_score": 87,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 3,
+        "audience_breadth": 5
+      },
+      "reason_ja": "室内中心の生活と光を、観測と提言に分けて説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 24,
+      "display_position": 25
+    },
+    {
+      "topic_id": "PSY-PER-003",
+      "title_ja": "内向的な人は人付き合いで不利なのか？",
+      "editorial_score": 86,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 3,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "内向性と人付き合いの負担を、道徳評価抜きで扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 26,
+      "display_position": 26
+    },
+    {
+      "topic_id": "PSY-REL-002",
+      "title_ja": "一人でいることと孤独を感じることは違う？",
+      "editorial_score": 86,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 3,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "一人の時間と孤独感の区別が、さまざまな生活形態に役立つ。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 26,
+      "display_position": 27
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "title_ja": "中断した仕事に戻りにくいのはなぜ？",
+      "editorial_score": 85,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "中断した仕事に戻れないという具体的な業務場面につながる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 28,
+      "display_position": 28
+    },
+    {
+      "topic_id": "PSY-EXE-005",
+      "title_ja": "夜の運動は睡眠を妨げるのか？",
+      "editorial_score": 85,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "仕事後の運動と睡眠の両立という具体的な判断につながる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 28,
+      "display_position": 29
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "title_ja": "完璧にやろうとするほど着手できなくなる？",
+      "editorial_score": 85,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 5,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "高い基準と失敗不安を分け、着手の悩みを整理できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 28,
+      "display_position": 30
+    },
+    {
+      "topic_id": "PSY-ADD-001",
+      "title_ja": "なぜ人はタバコをやめにくくなるのか？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "本人と周囲に関係し、依存を意志だけで説明しない記事になる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 31
+    },
+    {
+      "topic_id": "PSY-ADD-004",
+      "title_ja": "タバコでストレスが減るという感覚をどう理解する？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "ストレス対処の実感と、短期離脱・長期経過を比較できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 32
+    },
+    {
+      "topic_id": "PSY-CRE-003",
+      "title_ja": "退屈を避けて動画を次々替えると、もっと退屈になる？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "動画を替え続ける行動と、退屈という体感が結び付く。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 33
+    },
+    {
+      "topic_id": "PSY-HPS-009",
+      "title_ja": "症状を検索するほど心配になるのはなぜ？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "症状検索で不安が増える経験を、情報の使い方の話にできる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 34
+    },
+    {
+      "topic_id": "PSY-INT-006",
+      "title_ja": "家事の不満は作業時間より考える負担から生じる？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "家事の見えない負担という日常の不満を言語化できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 35
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "title_ja": "よかったことを書き留める習慣は気分に役立つ？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 5,
+        "actionability": 4,
+        "interest": 3,
+        "audience_breadth": 4
+      },
+      "reason_ja": "簡単に見える習慣の効果の大きさと、向き不向きを比較できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 36
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "title_ja": "在宅と出社を組み合わせると仕事の成果はどう変わる？",
+      "editorial_score": 84,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "働き方の選択と現場試験の比較を結びつけられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 31,
+      "display_position": 37
+    },
+    {
+      "topic_id": "PSY-HPS-012",
+      "title_ja": "リスクが半減という説明は、何人減るという説明と同じ？",
+      "editorial_score": 83,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 5
+      },
+      "reason_ja": "健康ニュースの割合を読み違えない力につながる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 38,
+      "display_position": 38
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "title_ja": "音楽を聴きながらの勉強は、どんなときに向く？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "音楽を流す場面と、作業の種類による違いを比較できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 39
+    },
+    {
+      "topic_id": "PSY-EXE-002",
+      "title_ja": "運動はうつや不安のケアでどんな役割を持つ？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "運動と気分を、治療の代替ではない支援の話として整理できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 40
+    },
+    {
+      "topic_id": "PSY-HPS-003",
+      "title_ja": "緊張するとお腹が痛くなるのは気のせい？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "緊張と腹部症状を、気のせいとせずに説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 41
+    },
+    {
+      "topic_id": "PSY-LAN-001",
+      "title_ja": "大人になってから外国語を学ぶのは遅い？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "成人の語学目標を、母語並みと実用能力に分けられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 42
+    },
+    {
+      "topic_id": "PSY-LIF-012",
+      "title_ja": "新しい学校や職場で自分だけ浮いていると感じるのはなぜ？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "入学や転職の直後の居場所への不安に結び付く。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 43
+    },
+    {
+      "topic_id": "PSY-MEN-005",
+      "title_ja": "マインドフルネスはどこまで効果が確かめられている？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "普及した手法の効果・比較条件・安全性を一緒に検討できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 44
+    },
+    {
+      "topic_id": "PSY-SLP-010",
+      "title_ja": "睡眠アプリの点数はどこまで信じてよい？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "睡眠スコアに関心のある人に、測定と診断の違いを説明できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 45
+    },
+    {
+      "topic_id": "PSY-SOC-009",
+      "title_ja": "チームの『言いにくさ』は仕事の質に影響する？",
+      "editorial_score": 80,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 4,
+        "interest": 4,
+        "audience_breadth": 4
+      },
+      "reason_ja": "職場で質問・異論を言えるかという身近な問題につながる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 39,
+      "display_position": 46
+    },
+    {
+      "topic_id": "PSY-DEV-002",
+      "title_ja": "マシュマロを待てる子は将来成功する、は本当？",
+      "editorial_score": 79,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 3,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "有名なテストを見直し、子どもの将来の決めつけを避けられる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 47,
+      "display_position": 47
+    },
+    {
+      "topic_id": "PSY-NUT-008",
+      "title_ja": "腸内細菌で性格や気分は変わる？人の研究を読む",
+      "editorial_score": 79,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 3,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "腸と心の話を、動物実験と人の研究に分けて検証できる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 47,
+      "display_position": 48
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "title_ja": "実績があっても自信が持てない：インポスター感とは？",
+      "editorial_score": 79,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 3,
+        "interest": 5,
+        "audience_breadth": 4
+      },
+      "reason_ja": "実績があっても自信がない感覚を、診断と混同せず扱える。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 47,
+      "display_position": 49
+    },
+    {
+      "topic_id": "PSY-GEN-002",
+      "title_ja": "遺伝率50％は『あなたの半分が遺伝で決まる』ではない",
+      "editorial_score": 77,
+      "components": {
+        "daily_relevance": 4,
+        "actionability": 2,
+        "interest": 5,
+        "audience_breadth": 5
+      },
+      "reason_ja": "遺伝率の誤読を修正し、性格や才能の記事の土台にできる。",
+      "assessment_type": "subjective_editorial_hypothesis",
+      "audience_analytics_measured": false,
+      "publication_ready": false,
+      "rank": 50,
+      "display_position": 50
+    }
+  ]
+}

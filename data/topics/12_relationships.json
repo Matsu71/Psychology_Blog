@@ -130,8 +130,13 @@
       "angle_ja": "攻撃や我慢ではない意思表示の練習を調べる。",
       "search_query": "assertiveness training randomized trial systematic review adults",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "権力差や暴力のある関係では、伝え方だけを解決策にしない。"
+      "source_ids": [
+        "SRC215"
+      ],
+      "caution_ja": "権力差や暴力のある関係では、伝え方だけを解決策にしない。",
+      "source_review_ids": [
+        "R3-S116"
+      ]
     },
     {
       "id": "PSY-REL-008",
@@ -161,8 +166,13 @@
       "angle_ja": "責任の認識、修復行動、再発防止と言葉の違いを調べる。",
       "search_query": "apology trust repair responsibility restitution meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "被害を受けた人に許しを要求しない。短期評価と実際の信頼回復を区別する。"
+      "source_ids": [
+        "SRC216"
+      ],
+      "caution_ja": "被害を受けた人に許しを要求しない。短期評価と実際の信頼回復を区別する。",
+      "source_review_ids": [
+        "R3-S117"
+      ]
     },
     {
       "id": "PSY-REL-010",
@@ -174,8 +184,13 @@
       "angle_ja": "想像することと、直接尋ねて知ることを比較する。",
       "search_query": "perspective taking perspective getting interpersonal accuracy experiments",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "相手の気持ちを推測で決めつけない。理解と同意は区別する。"
+      "source_ids": [
+        "SRC209"
+      ],
+      "caution_ja": "相手の気持ちを推測で決めつけない。理解と同意は区別する。",
+      "source_review_ids": [
+        "R3-S104"
+      ]
     }
   ]
 }

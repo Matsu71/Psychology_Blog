@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "category_id": "money_consumption",
+  "edges": [
+    {
+      "id": "EV-PSY-MON-001-SRC069",
+      "topic_id": "PSY-MON-001",
+      "source_id": "SRC069",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-28739889"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-002-SRC169",
+      "topic_id": "PSY-MON-002",
+      "source_id": "SRC169",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C062",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "キャッシュレス決済のメタ分析の書誌のみ。平均効果や条件差は本文・抄録を確認してから記載する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-003-SRC170",
+      "topic_id": "PSY-MON-003",
+      "source_id": "SRC170",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C063",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "メンタルアカウンティングの基礎論考の書誌。単一の因果効果を証明する資料として扱わない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-006-SRC076",
+      "topic_id": "PSY-MON-006",
+      "source_id": "SRC076",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-23990553"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-006-SRC088",
+      "topic_id": "PSY-MON-006",
+      "source_id": "SRC088",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24121465"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-007-SRC225",
+      "topic_id": "PSY-MON-007",
+      "source_id": "SRC225",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S132",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "経済的な困難がある18組のカップルで、会話・対処・家計技能を組み合わせるプログラムの前後を検討。",
+      "conclusion_direction": "preliminary",
+      "limits_ja": "対照群のない小規模予備研究。改善を確実な因果効果とせず、有望な調査入口として扱う。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-010-SRC171",
+      "topic_id": "PSY-MON-010",
+      "source_id": "SRC171",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C064",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "無料と少額の価格を比較する実験で、ゼロ価格が通常の価格差とは異なる選択を促す結果を報告。",
+      "conclusion_direction": "supports",
+      "limits_ja": "特定の商品・実験条件の結果。無料なら常に不合理な選択になるとはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-011-SRC230",
+      "topic_id": "PSY-MON-011",
+      "source_id": "SRC230",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S145",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "所有による価値評価の違いを、損失回避だけでなく認知的な枠組み等の複数の説明から整理。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "所有すれば必ず高く評価するという固定則ではない。単一の神経機序や万能な売買指南にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-012-SRC210",
+      "topic_id": "PSY-MON-012",
+      "source_id": "SRC210",
+      "relation_role": "context_only",
+      "relevance_1_to_5": 3,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-S108",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "学生の就職活動では最大化傾向と高い初任給が関連する一方、満足や感情には不利な関連もあった。",
+      "conclusion_direction": "association",
+      "limits_ja": "買い物の直接実験ではない。就職活動の例としてのみ使い、慎重な比較の全否定にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-013-SRC172",
+      "topic_id": "PSY-MON-013",
+      "source_id": "SRC172",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C065",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "贈り物の希望を明示することを扱う研究の書誌のみ。文化差や親密さ、結果は追加確認する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-014-SRC088",
+      "topic_id": "PSY-MON-014",
+      "source_id": "SRC088",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-24121465"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

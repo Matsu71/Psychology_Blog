@@ -52,8 +52,13 @@
       "angle_ja": "刺激の好み、交流の量、疲れ、満足度を区別する。",
       "search_query": "introversion extraversion social interaction well being experience sampling",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "内向性と社交不安を同一視せず、外向的になることを一律に勧めない。"
+      "source_ids": [
+        "SRC125"
+      ],
+      "caution_ja": "内向性と社交不安を同一視せず、外向的になることを一律に勧めない。",
+      "source_review_ids": [
+        "R3-C018"
+      ]
     },
     {
       "id": "PSY-PER-004",
@@ -122,8 +127,13 @@
       "angle_ja": "職場、家庭、友人関係での振る舞いの違いを研究する。",
       "search_query": "personality states within person variability situations experience sampling",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "状態と特性を分け、変化だけで病理や不誠実さを判断しない。"
+      "source_ids": [
+        "SRC126"
+      ],
+      "caution_ja": "状態と特性を分け、変化だけで病理や不誠実さを判断しない。",
+      "source_review_ids": [
+        "R3-C019"
+      ]
     },
     {
       "id": "PSY-PER-008",
@@ -135,8 +145,15 @@
       "angle_ja": "誰にでも当てはまる文章と、自分に合うと思う感覚を検討する。",
       "search_query": "Barnum Forer effect personality feedback replication review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "すべての性格尺度が無意味という結論に飛躍しない。"
+      "source_ids": [
+        "SRC127",
+        "SRC214"
+      ],
+      "caution_ja": "すべての性格尺度が無意味という結論に飛躍しない。",
+      "source_review_ids": [
+        "R3-C020",
+        "R3-S115"
+      ]
     },
     {
       "id": "PSY-PER-009",

@@ -12,8 +12,13 @@
       "angle_ja": "実際の多数派と、望ましいとされる行動の違いを調べる。",
       "search_query": "descriptive injunctive social norms behavior field experiment meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "悪い行動の多さを強調すると逆効果になる条件も確認する。"
+      "source_ids": [
+        "SRC139"
+      ],
+      "caution_ja": "悪い行動の多さを強調すると逆効果になる条件も確認する。",
+      "source_review_ids": [
+        "R3-C032"
+      ]
     },
     {
       "id": "PSY-SOC-002",
@@ -74,8 +79,13 @@
       "angle_ja": "遅刻やミスを見たとき、状況をどこまで考慮するかを研究する。",
       "search_query": "attribution correspondence bias actor observer asymmetry meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "複数の帰属バイアスを一つにまとめず、文化差と再現性を確認する。"
+      "source_ids": [
+        "SRC140"
+      ],
+      "caution_ja": "複数の帰属バイアスを一つにまとめず、文化差と再現性を確認する。",
+      "source_review_ids": [
+        "R3-C033"
+      ]
     },
     {
       "id": "PSY-SOC-006",
@@ -87,8 +97,13 @@
       "angle_ja": "服装の失敗や発表後の気まずさを例に、注目の見積もりを調べる。",
       "search_query": "spotlight effect perceived social attention replication experimental study",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "実際のいじめや監視、差別の経験まで思い込みとして否定しない。"
+      "source_ids": [
+        "SRC141"
+      ],
+      "caution_ja": "実際のいじめや監視、差別の経験まで思い込みとして否定しない。",
+      "source_review_ids": [
+        "R3-C034"
+      ]
     },
     {
       "id": "PSY-SOC-007",
@@ -100,8 +115,13 @@
       "angle_ja": "広告、音楽、人との接触で、親しみと好意の関係を調べる。",
       "search_query": "mere exposure effect meta analysis repetition boundary conditions",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "嫌がる相手への反復接触を恋愛手法として勧めない。"
+      "source_ids": [
+        "SRC142"
+      ],
+      "caution_ja": "嫌がる相手への反復接触を恋愛手法として勧めない。",
+      "source_review_ids": [
+        "R3-C035"
+      ]
     },
     {
       "id": "PSY-SOC-008",
@@ -113,8 +133,13 @@
       "angle_ja": "健康の助言や職場の指示で、選択の自由と伝え方を調べる。",
       "search_query": "psychological reactance health communication meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "相手を巧みに操る技法ではなく、選択を尊重する伝え方を中心にする。"
+      "source_ids": [
+        "SRC143"
+      ],
+      "caution_ja": "相手を巧みに操る技法ではなく、選択を尊重する伝え方を中心にする。",
+      "source_review_ids": [
+        "R3-C036"
+      ]
     },
     {
       "id": "PSY-SOC-009",
@@ -126,8 +151,13 @@
       "angle_ja": "質問、失敗の報告、異論とチームの成果の関係を調べる。",
       "search_query": "psychological safety team performance speaking up meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "心理的安全性を仲良しや無責任と混同せず、組織条件と逆因果を確認する。"
+      "source_ids": [
+        "SRC144"
+      ],
+      "caution_ja": "心理的安全性を仲良しや無責任と混同せず、組織条件と逆因果を確認する。",
+      "source_review_ids": [
+        "R3-C037"
+      ]
     },
     {
       "id": "PSY-SOC-010",

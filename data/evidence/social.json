@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "category_id": "social",
+  "edges": [
+    {
+      "id": "EV-PSY-SOC-001-SRC139",
+      "topic_id": "PSY-SOC-001",
+      "source_id": "SRC139",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C032",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "家庭の節電実験で、多数派の使用量だけを伝えると逆効果になる場合があり、社会的評価の伝え方で違いが見られた。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "電力使用という特定場面の知見。すべての健康行動や集団に同じ効果を保証しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-002-SRC065",
+      "topic_id": "PSY-SOC-002",
+      "source_id": "SRC065",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-21534650"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-003-SRC065",
+      "topic_id": "PSY-SOC-003",
+      "source_id": "SRC065",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-21534650"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-005-SRC140",
+      "topic_id": "PSY-SOC-005",
+      "source_id": "SRC140",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C033",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "173研究の統合では、本人と他者で原因説明が異なるという単純な平均的非対称性はほぼ見られず、場面・感情価で条件差があった。",
+      "conclusion_direction": "challenges",
+      "limits_ja": "帰属バイアスのすべてを否定する結果ではない。行為者観察者差と他の帰属概念を分ける。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-006-SRC141",
+      "topic_id": "PSY-SOC-006",
+      "source_id": "SRC141",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R3-C034",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_evaluated",
+      "limits_ja": "スポットライト効果の古典の書誌のみ。現在の再現性や効果量は追加確認が必要。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-007-SRC142",
+      "topic_id": "PSY-SOC-007",
+      "source_id": "SRC142",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C035",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "反復接触による好意は単調な増加だけでなく逆U字型の傾向があり、刺激や提示方法で異なると報告。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "嫌がる相手への反復接触を正当化しない。視覚と聴覚を同じに扱わない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-008-SRC143",
+      "topic_id": "PSY-SOC-008",
+      "source_id": "SRC143",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C036",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "自由を脅かす言い方は怒りや反発を増やす傾向があった一方、利得と損失の表現差では同じ効果は明確でなかった。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "説得結果への相関とメッセージ操作の効果を区別。相手を操作する指南にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-009-SRC144",
+      "topic_id": "PSY-SOC-009",
+      "source_id": "SRC144",
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "abstract_screened",
+      "source_review_id": "R3-C037",
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "136独立標本を統合し、心理的安全性と仕事の態度・成果・組織条件の関連を検討。",
+      "conclusion_direction": "association",
+      "limits_ja": "元研究の因果性を全文で確認する必要がある。心理的安全性を仲良しや無責任と同義にしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-010-SRC016",
+      "topic_id": "PSY-SOC-010",
+      "source_id": "SRC016",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-010-SRC066",
+      "topic_id": "PSY-SOC-010",
+      "source_id": "SRC066",
+      "relation_role": "unassessed_legacy_link",
+      "relevance_1_to_5": null,
+      "relevance_scope": "not_reassessed",
+      "source_review_id": null,
+      "legacy_brief_ids": [
+        "RB-36266452"
+      ],
+      "finding_scope_ja": null,
+      "conclusion_direction": "not_classified",
+      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ]
+}

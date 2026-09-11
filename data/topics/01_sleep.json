@@ -80,11 +80,15 @@
       "source_ids": [
         "SRC002",
         "SRC003",
-        "SRC038"
+        "SRC038",
+        "SRC111"
       ],
       "caution_ja": "万人に共通の締切時刻や安全量を推測して提示しない。",
       "research_brief_ids": [
         "RB-39377163"
+      ],
+      "source_review_ids": [
+        "R3-C004"
       ]
     },
     {
@@ -98,9 +102,13 @@
       "search_query": "alcohol bedtime sleep architecture fragmentation systematic review humans",
       "priority": 1,
       "source_ids": [
-        "SRC002"
+        "SRC002",
+        "SRC112"
       ],
-      "caution_ja": "飲酒を睡眠法として勧めない。依存が疑われる場合の断酒は医療相談を前提にする。"
+      "caution_ja": "飲酒を睡眠法として勧めない。依存が疑われる場合の断酒は医療相談を前提にする。",
+      "source_review_ids": [
+        "R3-C005"
+      ]
     },
     {
       "id": "PSY-SLP-006",
@@ -185,8 +193,19 @@
       "angle_ja": "睡眠日誌、体感、機器の推定値の使い分けを調べる。",
       "search_query": "consumer wearable sleep tracker validation polysomnography orthosomnia",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "製品・世代ごとの精度を確認。機器の点数で診断や治療判断をしない。"
+      "source_ids": [
+        "SRC107",
+        "SRC108",
+        "SRC109",
+        "SRC110"
+      ],
+      "caution_ja": "製品・世代ごとの精度を確認。機器の点数で診断や治療判断をしない。",
+      "source_review_ids": [
+        "R3-C000",
+        "R3-C001",
+        "R3-C002",
+        "R3-C003"
+      ]
     }
   ]
 }

@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "scoring_version": "work-priority-1.0",
+  "category_id": "health_psychology",
+  "topics": [
+    {
+      "topic_id": "PSY-HPS-001",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-001-SRC096",
+          "source_id": "SRC096",
+          "title": "Management of Premenstrual Disorders: ACOG Clinical Practice Guideline No. 7.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-002",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-002-SRC095",
+          "source_id": "SRC095",
+          "title": "The risk of depression in the menopausal stages: A systematic review and meta-analysis.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "unassessed_legacy_link",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-003",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-003-SRC179",
+          "source_id": "SRC179",
+          "title": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "context",
+          "limits_ja": "緊張時の腹痛全般をIBSと診断しない。米国の指針であり、薬や検査を個別に勧める資料ではない。",
+          "priority_score": 72.5,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-004",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-004-SRC180",
+          "source_id": "SRC180",
+          "title": "Anxiety sensitivity and the anxiety disorders: a meta-analytic review and synthesis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "抄録自身が因果推論はできないと注意。動悸や胸痛を心理だけの問題と判断しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-005",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-005-SRC217",
+          "source_id": "SRC217",
+          "title": "The association between social comparison in social media, body image concerns and eating disorder symptoms: A systematic review and meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "方向を確定する因果試験ではない。体形の価値判断や極端な食事制限につなげない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-HPS-005-SRC181",
+          "source_id": "SRC181",
+          "title": "A meta-analytic review of the relationship between social media use and body image disturbance",
+          "review_scope": "bibliography",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "not_evaluated",
+          "limits_ja": "SNSと身体像のメタ分析の書誌。追加した新しい関連研究と重複・尺度・対象を照合する。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-006",
+      "sources": []
+    },
+    {
+      "topic_id": "PSY-HPS-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-007-SRC182",
+          "source_id": "SRC182",
+          "title": "Psychological stress and susceptibility to the common cold.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "ストレス自体を無作為割付した試験ではない。感染を気の持ちようや本人の責任に還元しない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-008",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-008-SRC183",
+          "source_id": "SRC183",
+          "title": "The nocebo effect of drugs.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "context",
+          "limits_ja": "真の副作用を否定せず、必要なリスク説明を省略しない。個別の治療中断や変更を勧めない。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-009",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-009-SRC184",
+          "source_id": "SRC184",
+          "title": "Conceptualizations of Cyberchondria and Relations to the Anxiety Spectrum: Systematic Review and Meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "association",
+          "limits_ja": "検索すれば必ず不安が増すという結論ではなく、不安が検索を促す可能性もある。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-010",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-010-SRC228",
+          "source_id": "SRC228",
+          "title": "Meta-analysis of the relationship between risk perception and health behavior: the example of vaccination.",
+          "review_scope": "abstract",
+          "relation_role": "context_only",
+          "conclusion_direction": "association",
+          "limits_ja": "健診結果や全予防行動への直接の根拠ではない。恐怖を強めれば望ましい行動になるとはしない。",
+          "priority_score": 55,
+          "components": {
+            "theme_relevance_1_to_5": 3,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-011",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-011-SRC185",
+          "source_id": "SRC185",
+          "title": "Interventions for enhancing medication adherence.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "2013年までの検索。服薬支援を万能なアプリやリマインダー一つに還元せず、薬の自己調整を勧めない。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-012",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-012-SRC186",
+          "source_id": "SRC186",
+          "title": "Using alternative statistical formats for presenting risks and risk reductions.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "行動を評価した比較はなく、理解度から健康行動の改善を直接推論しない。古いレビューで更新調査が必要。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
+    }
+  ]
+}

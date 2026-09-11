@@ -134,8 +134,15 @@
       "angle_ja": "集団予測と個人診断の距離、プライバシーを扱う。",
       "search_query": "polygenic score personality prediction validity direct to consumer genetics",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "祖先集団間の移植性、予測誤差、販売会社の根拠を確認。進路や採用判断を正当化しない。"
+      "source_ids": [
+        "SRC115",
+        "SRC116"
+      ],
+      "caution_ja": "祖先集団間の移植性、予測誤差、販売会社の根拠を確認。進路や採用判断を正当化しない。",
+      "source_review_ids": [
+        "R3-C008",
+        "R3-C009"
+      ]
     },
     {
       "id": "PSY-GEN-008",
@@ -162,8 +169,13 @@
       "angle_ja": "人の世代間研究と動物実験を区別して検討する。",
       "search_query": "human intergenerational transgenerational stress epigenetics systematic review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "世代間と経世代を区別。共有環境や胎内曝露を除かず『トラウマが遺伝する』と断定しない。"
+      "source_ids": [
+        "SRC117"
+      ],
+      "caution_ja": "世代間と経世代を区別。共有環境や胎内曝露を除かず『トラウマが遺伝する』と断定しない。",
+      "source_review_ids": [
+        "R3-C010"
+      ]
     },
     {
       "id": "PSY-GEN-010",
@@ -175,8 +187,13 @@
       "angle_ja": "子どもの反応の違いを固定的なラベルにせず理解する。",
       "search_query": "temperament personality development genetic environmental longitudinal review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "乳幼児の気質から成人の将来を決めつけない。測定法と発達段階を区別する。"
+      "source_ids": [
+        "SRC213"
+      ],
+      "caution_ja": "乳幼児の気質から成人の将来を決めつけない。測定法と発達段階を区別する。",
+      "source_review_ids": [
+        "R3-S114"
+      ]
     }
   ]
 }

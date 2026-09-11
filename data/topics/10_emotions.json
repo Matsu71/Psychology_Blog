@@ -39,11 +39,15 @@
       "priority": 1,
       "source_ids": [
         "SRC030",
-        "SRC056"
+        "SRC056",
+        "SRC203"
       ],
       "caution_ja": "基礎論文の個人差相関を治療効果に読み替えない。不当な扱いを我慢する方法にしない。",
       "research_brief_ids": [
         "RB-22582737"
+      ],
+      "source_review_ids": [
+        "R3-C096"
       ]
     },
     {

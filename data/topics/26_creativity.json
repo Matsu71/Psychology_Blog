@@ -66,7 +66,9 @@
       "angle_ja": "動画がつまらないたびに飛ばし続ける行動を扱う。",
       "search_query": "digital switching boredom systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC193"
+      ],
       "caution_ja": "短期実験と長期の依存症を混同しない。",
       "related_topic_ids": [
         "PSY-DIG-006",
@@ -76,7 +78,10 @@
         "type": "illustrative_scenario",
         "description_ja": "動画がつまらないたびに飛ばし続ける行動を扱う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C086"
+      ]
     },
     {
       "id": "PSY-CRE-004",
@@ -115,7 +120,9 @@
       "angle_ja": "解けない問題を置き、別の軽い作業の後に戻る。",
       "search_query": "incubation creative problem solving systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC194"
+      ],
       "caution_ja": "注意の逸脱一般ではなく、休止後の問題解決を扱う派生テーマとする。",
       "related_topic_ids": [
         "PSY-ATT-006"
@@ -127,6 +134,9 @@
       },
       "parent_topic_ids": [
         "PSY-ATT-006"
+      ],
+      "source_review_ids": [
+        "R3-C087"
       ]
     },
     {
@@ -166,7 +176,9 @@
       "angle_ja": "音楽を聴くだけの場合と自分で演奏する場合を比較する。",
       "search_query": "music making well being systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC195"
+      ],
       "caution_ja": "趣味の効果と専門家による音楽療法を区別する。",
       "related_topic_ids": [
         "PSY-ATT-005",
@@ -176,7 +188,10 @@
         "type": "illustrative_scenario",
         "description_ja": "音楽を聴くだけの場合と自分で演奏する場合を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C088"
+      ]
     },
     {
       "id": "PSY-CRE-008",
@@ -210,7 +225,9 @@
       "angle_ja": "自分を励ます冗談と自虐や相手を傷つける冗談を分ける。",
       "search_query": "humor styles coping systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC196"
+      ],
       "caution_ja": "ハラスメントを冗談で正当化せず、文化や文脈を確認する。",
       "related_topic_ids": [
         "PSY-EMO-002",
@@ -220,7 +237,10 @@
         "type": "illustrative_scenario",
         "description_ja": "自分を励ます冗談と自虐や相手を傷つける冗談を分ける。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C089"
+      ]
     },
     {
       "id": "PSY-CRE-010",
@@ -275,7 +295,9 @@
       "angle_ja": "会議前に各自が案を書き、その後に共有する方法を調べる。",
       "search_query": "brainstorming brainwriting production blocking systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC197"
+      ],
       "caution_ja": "発案数と案の質を分け、チームの熟練度や発言しやすさを確認する。",
       "related_topic_ids": [
         "PSY-SOC-002",
@@ -285,7 +307,10 @@
         "type": "illustrative_scenario",
         "description_ja": "会議前に各自が案を書き、その後に共有する方法を調べる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R3-C090"
+      ]
     }
   ]
 }
