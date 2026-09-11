@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-RES-001",
+  "title_ja": "『関係がある』は『原因である』とは違う",
+  "publication_ready": false,
+  "claims": [
+    {
+      "id": "PSY-RES-001-C01",
+      "text": "2013年のFacebook研究は若年成人の繰り返し測定を用いた観察研究である。",
+      "claim_ja": "2013年のFacebook研究は若年成人の繰り返し測定を用いた観察研究である。",
+      "kind": "research_finding",
+      "source_ids": [
+        "SRC012"
+      ],
+      "scope": "当時のサービス・対象・追跡期間に限定。",
+      "not_supported": "SNSを減らせば全員の幸福が改善するという介入の結論にはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-001-C02",
+      "text": "関連には順方向、逆方向、別要因という複数の説明が考えられる。",
+      "claim_ja": "関連には順方向、逆方向、別要因という複数の説明が考えられる。",
+      "kind": "methodological_reasoning",
+      "source_ids": [],
+      "scope": "本文の場面は説明用の仮定。",
+      "not_supported": "特定の人にどの説明が当てはまるかを診断しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-001-C03",
+      "text": "単純な前後比較だけでは、介入以外の変化と切り分けにくい。",
+      "claim_ja": "単純な前後比較だけでは、介入以外の変化と切り分けにくい。",
+      "kind": "methodological_reasoning",
+      "source_ids": [],
+      "scope": "比較の考え方の解説。",
+      "not_supported": "個人が生活の工夫を試すこと自体が無意味とはしない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-001-C04",
+      "text": "研究設計と報告上の偏りも結論を読む際に考慮する。",
+      "claim_ja": "研究設計と報告上の偏りも結論を読む際に考慮する。",
+      "kind": "methodological_context",
+      "source_ids": [
+        "SRC015"
+      ],
+      "scope": "方法論的な論考を背景として使用。",
+      "not_supported": "全心理学の誤りの割合を実測した資料として扱わない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_ids": [
+    "SRC012",
+    "SRC015"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "review_basis": "Previously registered reading notes and explicit methodological reasoning.",
+  "remaining_checks": [
+    "Independent editorial review",
+    "Publication decision"
+  ],
+  "authoring_batch": "research-literacy-20260911"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-RES-003",
+  "title_ja": "『有意差あり』でも日常で実感できる効果とは限らない？",
+  "publication_ready": false,
+  "claims": [
+    {
+      "id": "PSY-RES-003-C01",
+      "text": "統計的な検出と生活上の有用性は別の評価である。",
+      "claim_ja": "統計的な検出と生活上の有用性は別の評価である。",
+      "kind": "methodological_reasoning",
+      "source_ids": [],
+      "scope": "費用・負担と便益を考える解説。",
+      "not_supported": "有意なら必ず有用、小さい差なら必ず無意味、のどちらも主張しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-003-C02",
+      "text": "標準化効果量0.5は、そのまま得点が50％増える意味ではない。",
+      "claim_ja": "標準化効果量0.5は、そのまま得点が50％増える意味ではない。",
+      "kind": "mathematical_example",
+      "source_ids": [],
+      "scope": "5点と標準偏差10点は架空の計算例。",
+      "not_supported": "架空の値を特定の学習法の効果量として引用しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-003-C03",
+      "text": "相対的な割合と絶対的な人数の差は異なる量である。",
+      "claim_ja": "相対的な割合と絶対的な人数の差は異なる量である。",
+      "kind": "mathematical_example",
+      "source_ids": [],
+      "scope": "100人中2人と1人は説明用の仮定。",
+      "not_supported": "実際の薬や治療の効果へ当てはめない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "PSY-RES-003-C04",
+      "text": "2018年の社会科学追試プロジェクトは効果の大きさも検討した。",
+      "claim_ja": "2018年の社会科学追試プロジェクトは効果の大きさも検討した。",
+      "kind": "research_finding",
+      "source_ids": [
+        "SRC016"
+      ],
+      "scope": "選ばれた雑誌・時期・実験群。",
+      "not_supported": "全心理学の再現性を網羅した結果として使わない。",
+      "formal_evidence_certainty": "not_assessed"
+    }
+  ],
+  "source_ids": [
+    "SRC016"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "review_basis": "Previously registered reading notes and explicit methodological reasoning.",
+  "remaining_checks": [
+    "Independent editorial review",
+    "Publication decision"
+  ],
+  "authoring_batch": "research-literacy-20260911"
+}

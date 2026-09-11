@@ -1772,10 +1772,14 @@
     {
       "topic_id": "PSY-RES-001",
       "title_ja": "『関係がある』は『原因である』とは違う",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/research-literacy-20260911/PSY-RES-001.md",
+      "claim_dossier_path": "data/articles/claims/PSY-RES-001.json",
+      "publication_ready": false,
+      "manuscript_sha256": "141df48c4673836fd2a939e02a51c781269a731a6b908bf4eea9170d7ded0617",
+      "claim_count": 4,
+      "unresolved_source_keys": [],
+      "authoring_batch": "research-literacy-20260911"
     },
     {
       "topic_id": "PSY-RES-002",
@@ -1788,10 +1792,14 @@
     {
       "topic_id": "PSY-RES-003",
       "title_ja": "『有意差あり』でも日常で実感できる効果とは限らない？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/research-literacy-20260911/PSY-RES-003.md",
+      "claim_dossier_path": "data/articles/claims/PSY-RES-003.json",
+      "publication_ready": false,
+      "manuscript_sha256": "918f264e186f97919c6019d5fde0f4deda15604cdbd3a563a053fb364e89eb18",
+      "claim_count": 4,
+      "unresolved_source_keys": [],
+      "authoring_batch": "research-literacy-20260911"
     },
     {
       "topic_id": "PSY-RES-004",

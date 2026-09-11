@@ -1,6 +1,6 @@
 # 記事制作の現在地
 
-目標300記事。本文46件、主張対応表46件。
+目標300記事。本文48件、主張対応表48件。
 
 限定した原文照合の記録がある原稿：20件。公開承認済み：0件。
 
@@ -198,9 +198,9 @@
 | PSY-DIG-008 オンラインの嫌な交流から心を守るには？ | 未着手 | research_pending |
 | PSY-DIG-009 何度も見る情報は本当らしく感じる？ | 未着手 | research_pending |
 | PSY-DIG-010 夜のスマホと睡眠は、ブルーライトだけの問題？ | 未着手 | research_pending |
-| PSY-RES-001 『関係がある』は『原因である』とは違う | 未着手 | research_pending |
+| PSY-RES-001 『関係がある』は『原因である』とは違う | [原稿](../articles/manuscripts/research-literacy-20260911/PSY-RES-001.md) | manuscript_pending_article_review |
 | PSY-RES-002 心理学の研究はなぜ追試が必要なのか？ | 未着手 | research_pending |
-| PSY-RES-003 『有意差あり』でも日常で実感できる効果とは限らない？ | 未着手 | research_pending |
+| PSY-RES-003 『有意差あり』でも日常で実感できる効果とは限らない？ | [原稿](../articles/manuscripts/research-literacy-20260911/PSY-RES-003.md) | manuscript_pending_article_review |
 | PSY-RES-004 メタ分析なら結論を信じてよい？ | 未着手 | research_pending |
 | PSY-RES-005 p値0.05は『95％の確率で正しい』という意味？ | 未着手 | research_pending |
 | PSY-RES-006 効果があった研究ばかりが目立つのはなぜ？ | 未着手 | research_pending |
