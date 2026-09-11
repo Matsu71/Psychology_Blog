@@ -1,0 +1,66 @@
+name: Recover prepared editorial manuscripts
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/recover-prepared-editorial-20260911.yml'
+permissions:
+  contents: write
+concurrency:
+  group: psychology-editorial-writing
+  cancel-in-progress: false
+jobs:
+  recover:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover known prepared work in an isolated validation copy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/recover_prepared_editorial_20260911.py
+      - name: Validate canonical database without removing existing checks
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/validate_research.py
+          python3 scripts/validate_round3.py
+          python3 scripts/validate_editorial_pass.py
+          python3 scripts/reconcile_article_progress.py --check
+          python3 scripts/validate_reviewed_delivery.py
+      - name: Commit recovered work and verify remote main
+        run: |
+          current=$(git rev-parse HEAD)
+          remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$current" = "$remote" || { echo 'Concurrent main update. No overwrite.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs research scripts README.md
+          if [ -d articles ]; then git add articles; fi
+          if [ -d schemas ]; then git add schemas; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'editorial: recover prepared work with explicit validation status'
+            git push origin HEAD:main
+          fi
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)"
+          mkdir -p verified-recovery
+          git rev-parse HEAD > verified-recovery/pushed_commit.txt
+          git fetch --depth=1 origin main
+          git show origin/main:data/research/recovery_prepared_editorial_20260911.json > verified-recovery/remote_report.json
+          cmp data/research/recovery_prepared_editorial_20260911.json verified-recovery/remote_report.json
+      - name: Preserve precise recovery status
+        if: always()
+        run: |
+          mkdir -p verified-recovery
+          git archive --format=zip --output=verified-recovery/repository.zip HEAD
+          git rev-parse HEAD > verified-recovery/checkout_commit.txt
+          git status --short > verified-recovery/uncommitted_status.txt
+          git diff > verified-recovery/uncommitted.patch
+          if [ -f data/research/recovery_prepared_editorial_20260911.json ]; then cp data/research/recovery_prepared_editorial_20260911.json verified-recovery/local_report.json; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-prepared-editorial-recovery
+          path: verified-recovery/
+          retention-days: 14
+          if-no-files-found: error
