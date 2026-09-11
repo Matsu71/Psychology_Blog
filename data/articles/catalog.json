@@ -544,10 +544,24 @@
     {
       "topic_id": "PSY-MOT-008",
       "title_ja": "成長マインドセットは誰に、どんな場面で役立つ？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-MOT-008.md",
+      "claim_dossier_path": "data/articles/claims/PSY-MOT-008.json",
+      "publication_ready": false,
+      "manuscript_sha256": "b01adc986279c8a74d36295da17863aa35d19a2d3a96d68cf30794c867e11429",
+      "claim_dossier_sha256": "20f3d06e7dcfb7957a5de2dd3053c48da6988adbec84967e8a5ec5e024102716",
+      "source_ids": [
+        "SRC048",
+        "SRC288",
+        "SRC289",
+        "SRC049",
+        "SRC290",
+        "SRC291"
+      ],
+      "claim_count": 4,
+      "unresolved_source_keys": [],
+      "reviewed_delivery_id": "learning-20260911",
+      "article_level_scientific_review": "single_AI_claim_and_scope_check_not_independent"
     },
     {
       "topic_id": "PSY-MOT-009",
@@ -604,14 +618,15 @@
       "publication_ready": false,
       "unresolved_source_keys": [],
       "authoring_batch": "continuation-20260911b",
-      "manuscript_sha256": "75906ddcb85c12f003cbb517c4dd1a48245828b85168ecc4a00edfeaa9104f78",
-      "claim_dossier_sha256": "3e97b89e3a887bf7d38ac3154a7269be5f558e428c5d75a528c93fd3be4b811f",
+      "manuscript_sha256": "8c40338f5a06ecbfe5864f01cdd956c8267da1c8d55addb41ae1c924b2012092",
+      "claim_dossier_sha256": "e3aecadac948fb221519bae6469494ca885fea58d4e5b5ce6f29befb8370dc7b",
       "source_ids": [
         "SRC052",
-        "SRC027"
+        "SRC286"
       ],
-      "claim_count": 2,
-      "article_level_scientific_review": "pending"
+      "claim_count": 4,
+      "article_level_scientific_review": "single_AI_claim_and_scope_check_not_independent",
+      "reviewed_delivery_id": "learning-20260911"
     },
     {
       "topic_id": "PSY-LEA-004",
@@ -624,10 +639,20 @@
     {
       "topic_id": "PSY-LEA-005",
       "title_ja": "マーカーだらけのノートは勉強になる？",
-      "state": "research_pending",
-      "manuscript_path": null,
-      "claim_dossier_path": null,
-      "publication_ready": false
+      "state": "manuscript_pending_article_review",
+      "manuscript_path": "articles/manuscripts/PSY-LEA-005.md",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-005.json",
+      "publication_ready": false,
+      "manuscript_sha256": "ae8e8db5b0e1e52bbf2e7c28c3662fe04c07d3e64092ecc314a23cc29054d6ad",
+      "claim_dossier_sha256": "161997d1116a79317eb4b335febe0e950fe82a7188b76cd13b32ebd891b0456b",
+      "source_ids": [
+        "SRC027",
+        "SRC282"
+      ],
+      "claim_count": 4,
+      "unresolved_source_keys": [],
+      "reviewed_delivery_id": "learning-20260911",
+      "article_level_scientific_review": "single_AI_claim_and_scope_check_not_independent"
     },
     {
       "topic_id": "PSY-LEA-006",
@@ -654,14 +679,17 @@
       "publication_ready": false,
       "unresolved_source_keys": [],
       "authoring_batch": "continuation-20260911b",
-      "manuscript_sha256": "c42b22cd6006856b02d5fd143b4580141482450c33636a3f423c75c26a8897c7",
-      "claim_dossier_sha256": "c78122b5c5b1ff83167422cae3cf3e63bf1900a8afa7c44feb10312ae64a854d",
+      "manuscript_sha256": "1c07b24910a767cf5e6e815fabd4028aab0070981ceb12177dfb8095cbae187b",
+      "claim_dossier_sha256": "da7b2cd66dd7a7f8deefcbe2a328c1c43060cda50be9489896a8f3a818913187",
       "source_ids": [
         "SRC053",
-        "SRC027"
+        "SRC283",
+        "SRC284",
+        "SRC285"
       ],
       "claim_count": 4,
-      "article_level_scientific_review": "pending"
+      "article_level_scientific_review": "single_AI_claim_and_scope_check_not_independent",
+      "reviewed_delivery_id": "learning-20260911"
     },
     {
       "topic_id": "PSY-LEA-009",
@@ -2377,13 +2405,15 @@
       "publication_ready": false,
       "unresolved_source_keys": [],
       "authoring_batch": "continuation-20260911b",
-      "manuscript_sha256": "6eff97031608623caca69b87f185d2e9def86299318310f96b147cde59757da1",
-      "claim_dossier_sha256": "b33e4895e49e428e8a805705953e3161130cdf0a09da974beb422e888ed7011f",
+      "manuscript_sha256": "8dfd4546e653e156c65e8a7bdf7c85d0c5a6cc6550159617f207a1c23ffa571b",
+      "claim_dossier_sha256": "15923dcbed4afd0f658b3dc7854d823afc1b09f92adf307e23f2bc3843a2b067",
       "source_ids": [
-        "SRC083"
+        "SRC083",
+        "SRC287"
       ],
-      "claim_count": 2,
-      "article_level_scientific_review": "pending"
+      "claim_count": 4,
+      "article_level_scientific_review": "single_AI_claim_and_scope_check_not_independent",
+      "reviewed_delivery_id": "learning-20260911"
     },
     {
       "topic_id": "PSY-CRE-002",

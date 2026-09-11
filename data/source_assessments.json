@@ -2631,13 +2631,25 @@
     },
     {
       "source_id": "SRC027",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "低い有用性評価は、すべての教材・状況で効果ゼロという意味ではない。2013年以後の研究と比較する。"
+      ],
+      "provenance_review_ids": [
+        "RL7-dunlosky2013"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-dunlosky2013"
     },
     {
       "source_id": "SRC028",
@@ -3068,22 +3080,34 @@
     },
     {
       "source_id": "SRC048",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "相関と介入を混ぜず、サブグループ結果を全員に適用しない。後年レビューとの研究重複に注意。"
+      ],
+      "provenance_review_ids": [
+        "RL7-sisk2018"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-sisk2018"
     },
     {
       "source_id": "SRC049",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
       "integrity_notices": [
         {
           "id": "31494041",
@@ -3092,7 +3116,19 @@
           "type": "Comment in",
           "orderIn": 1
         }
-      ]
+      ],
+      "limitations_ja": [
+        "日本の学校や成人の仕事に直接一般化しない。レビューに収載される試験と独立した追加人数として合算しない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-yeager2019"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-yeager2019"
     },
     {
       "source_id": "SRC050",
@@ -3128,23 +3164,47 @@
     },
     {
       "source_id": "SRC052",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "教材別結果と個人への最適な練習法を同一視しない。科目やアプリの無関係な切替の有用性を示さない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-interleave2019"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-interleave2019"
     },
     {
       "source_id": "SRC053",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "2008年の基礎レビューで現在の全研究の最終評価ではない。障害への配慮や教材内容に合う表現の選択を否定しない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-pashler2008"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-pashler2008"
     },
     {
       "source_id": "SRC054",
@@ -3737,13 +3797,25 @@
     },
     {
       "source_id": "SRC083",
-      "review_scope": "legacy_not_reassessed",
-      "method_signals": null,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "既存資料・今回は未再評価",
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "limitations_ja": [
+        "一つの論文の4実験を4つの独立チームによる追試と数えない。実験課題から実際の企画の質や仕事全体の改善率を計算しない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-walking2014"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-walking2014"
     },
     {
       "source_id": "SRC084",
@@ -5315,6 +5387,254 @@
       "reporting_issues": [],
       "latest_source_check_id": "SC7-SRC281",
       "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。"
+    },
+    {
+      "source_id": "SRC282",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "全文は取得・精査していない。異なる比較群の平均効果から、教師の線が自分の線より直接比較で優れるとは言わない。最適な色・割合や個人の得点増加率は不明。"
+      ],
+      "provenance_review_ids": [
+        "RL7-highlight2022"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract; publication metadata (7 January 2022)"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-highlight2022"
+    },
+    {
+      "source_id": "SRC283",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "11/42は研究数でも、統計的に有意な交互作用の件数でもない。平均差だけで固定タイプ別の推奨を確定しない。抄録と本文で統合値が異なり、正しい値を推測せず記事には精密な平均値を掲載しない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-matching2024"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Methods: eligibility and crossover interactions",
+        "Results and Table 3",
+        "Crossover interactions; Discussion"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [
+        {
+          "id": "LS2024-ABSTRACT-BODY",
+          "status": "open_original_paper_check",
+          "type": "within_paper_numeric_discrepancy",
+          "detail_ja": "抄録g=.31/CI[.05,.57]、本文g=.32/CI[.07,.57]。勝手に訂正しない。記事は小さな平均差と表現し、監査表に両値を保存。"
+        }
+      ],
+      "latest_source_check_id": "SL7-matching2024"
+    },
+    {
+      "source_id": "SRC284",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "222人は主分析標本。追跡51人と混同しない。学習スタイルは学習後に測定し、全効果の不存在や他集団との同等性を証明したものではない。事前登録リンクは確認したが登録内容との独立照合は未実施。"
+      ],
+      "provenance_review_ids": [
+        "RL7-meshing2025"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Method: participants, design and procedure",
+        "Results: learning performance",
+        "Discussion and limitations"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-meshing2025"
+    },
+    {
+      "source_id": "SRC285",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "17は独立した介入や独立した標本の数ではない。構成研究の重複や比較の違いがあり、この論考を追加の実験的な裏付けと数えない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-hattie2025"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "What Does the Meta-Research Reveal?",
+        "Matching Studies Overview"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-hattie2025"
+    },
+    {
+      "source_id": "SRC286",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "23はパーセントポイントの差であり、全員の得点が23％上がるという意味ではない。限定した数学単元・地域の結果で、大学や全教科への直接的な証明ではない。本文全体の精査は未実施。"
+      ],
+      "provenance_review_ids": [
+        "RL7-math2020"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Publisher abstract",
+        "US IES What Works Clearinghouse study review 88770 (methods corroboration)"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-math2020"
+    },
+    {
+      "source_id": "SRC287",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "標本は主に高等教育の学生。異質性が大きく、独自のバイアス評価法にも制約。著者によるGRADEを当方の正式評価と表示しない。Oppezzoら2014年研究との重複に注意。人数とRCT数の本文内不一致があり、記事ではその正確な総数を使わない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-walking2026"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Methods: search through 8 January 2025, certainty approach",
+        "Results: study characteristics and divergent/convergent thinking",
+        "Discussion and limitations"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [
+        {
+          "id": "WALK2026-N",
+          "status": "open_original_paper_check",
+          "type": "within_paper_count_discrepancy",
+          "detail_ja": "抄録・結果は1036人、考察は1039人。RCT数も抄録・結果12と限界節13が不一致。正しい総数を独断で決めず、両箇所を保存し記事の正確な総数表示を避ける。"
+        }
+      ],
+      "latest_source_check_id": "SL7-walking2026"
+    },
+    {
+      "source_id": "SRC288",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "全文・全コードの再解析は未実施。小さい平均効果から個別の学校の効果を否定しない。研究選別・分析をめぐる他のレビューとの議論を残す。"
+      ],
+      "provenance_review_ids": [
+        "RL7-mindcritical2023"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-mindcritical2023"
+    },
+    {
+      "source_id": "SRC289",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "53すべてが学業試験とは限らない。条件付き推定を全員の平均へ置き換えない。信頼区間と新しい場面の予測区間は別。Macnamaraらと収載試験が重なり得る。"
+      ],
+      "provenance_review_ids": [
+        "RL7-mindconditions2023"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-mindconditions2023"
+    },
+    {
+      "source_id": "SRC290",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "新たなメタ分析の統合値ではない。学齢期・知能の信念に限定し、性格、成人、他の心理指標へ拡張しない。著者の品質判断を独立して再実施したものではない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-mindstructured2025"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract",
+        "Eligibility and review of school-age randomized trials",
+        "Discussion: most trustworthy trials"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-mindstructured2025"
+    },
+    {
+      "source_id": "SRC291",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "単独AI読解。著者の品質評価と当方の評価を区別。",
+      "limitations_ja": [
+        "組み合わせの上乗せ効果を検証した介入試験ではない。新しい論文という理由で、提案を確立済みの方法と扱わない。"
+      ],
+      "provenance_review_ids": [
+        "RL7-mindproposal2026"
+      ],
+      "checked_on": "2026-09-11",
+      "checked_sections": [
+        "Abstract; publication metadata"
+      ],
+      "integrity_status": "not_exhaustively_checked",
+      "integrity_notices": [],
+      "reporting_issues": [],
+      "latest_source_check_id": "SL7-mindproposal2026"
     }
   ],
   "updated_on": "2026-09-11"

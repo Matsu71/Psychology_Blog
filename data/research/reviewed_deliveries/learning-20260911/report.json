@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "delivery_id": "learning-20260911",
+  "date": "2026-09-11",
+  "goal_articles": 300,
+  "goal_completed": false,
+  "authored_articles": 5,
+  "new_manuscripts": 2,
+  "revised_manuscripts": 3,
+  "source_checks": 16,
+  "source_resolution": {
+    "pashler2008": "SRC053",
+    "dunlosky2013": "SRC027",
+    "highlight2022": "SRC282",
+    "matching2024": "SRC283",
+    "meshing2025": "SRC284",
+    "hattie2025": "SRC285",
+    "interleave2019": "SRC052",
+    "math2020": "SRC286",
+    "walking2014": "SRC083",
+    "walking2026": "SRC287",
+    "sisk2018": "SRC048",
+    "yeager2019": "SRC049",
+    "mindcritical2023": "SRC288",
+    "mindconditions2023": "SRC289",
+    "mindstructured2025": "SRC290",
+    "mindproposal2026": "SRC291"
+  },
+  "products": [
+    {
+      "topic_id": "PSY-CRE-001",
+      "new_manuscript": false,
+      "manuscript_path": "articles/manuscripts/PSY-CRE-001.md",
+      "manuscript_sha256": "8dfd4546e653e156c65e8a7bdf7c85d0c5a6cc6550159617f207a1c23ffa571b",
+      "claim_dossier_path": "data/articles/claims/PSY-CRE-001.json",
+      "claim_dossier_sha256": "15923dcbed4afd0f658b3dc7854d823afc1b09f92adf307e23f2bc3843a2b067"
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "new_manuscript": false,
+      "manuscript_path": "articles/manuscripts/PSY-LEA-003.md",
+      "manuscript_sha256": "8c40338f5a06ecbfe5864f01cdd956c8267da1c8d55addb41ae1c924b2012092",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-003.json",
+      "claim_dossier_sha256": "e3aecadac948fb221519bae6469494ca885fea58d4e5b5ce6f29befb8370dc7b"
+    },
+    {
+      "topic_id": "PSY-LEA-005",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-LEA-005.md",
+      "manuscript_sha256": "ae8e8db5b0e1e52bbf2e7c28c3662fe04c07d3e64092ecc314a23cc29054d6ad",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-005.json",
+      "claim_dossier_sha256": "161997d1116a79317eb4b335febe0e950fe82a7188b76cd13b32ebd891b0456b"
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "new_manuscript": false,
+      "manuscript_path": "articles/manuscripts/PSY-LEA-008.md",
+      "manuscript_sha256": "1c07b24910a767cf5e6e815fabd4028aab0070981ceb12177dfb8095cbae187b",
+      "claim_dossier_path": "data/articles/claims/PSY-LEA-008.json",
+      "claim_dossier_sha256": "da7b2cd66dd7a7f8deefcbe2a328c1c43060cda50be9489896a8f3a818913187"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "new_manuscript": true,
+      "manuscript_path": "articles/manuscripts/PSY-MOT-008.md",
+      "manuscript_sha256": "b01adc986279c8a74d36295da17863aa35d19a2d3a96d68cf30794c867e11429",
+      "claim_dossier_path": "data/articles/claims/PSY-MOT-008.json",
+      "claim_dossier_sha256": "20f3d06e7dcfb7957a5de2dd3053c48da6988adbec84967e8a5ec5e024102716"
+    }
+  ],
+  "publication_ready_count": 0,
+  "scope_ja": "本文改稿と単独AI点検。独立査読、正式な確実性評価、公開承認ではない。"
+}

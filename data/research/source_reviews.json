@@ -4510,6 +4510,406 @@
       "reading_source_url": "https://doi.org/10.1073/pnas.1706541114",
       "delivery_id": "source-editorial-pass-20260911",
       "structured_source_check": "data/research/source_text_checks.json#SC7-SRC069"
+    },
+    {
+      "id": "RL7-pashler2008",
+      "source_id": "SRC053",
+      "topic_ids": [
+        "PSY-LEA-008"
+      ],
+      "design": "critical_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "学び方の好みの存在と、好みに対応した教授方法で各群が特によく学べるという仮説を区別した。仮説に必要な比較設計を提示し、適切な根拠が不足すると評価した。",
+      "limitations_ja": "2008年の基礎レビューで現在の全研究の最終評価ではない。障害への配慮や教材内容に合う表現の選択を否定しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-dunlosky2013",
+      "source_id": "SRC027",
+      "topic_ids": [
+        "PSY-LEA-005",
+        "PSY-LEA-003",
+        "PSY-LEA-008"
+      ],
+      "design": "review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "複数の学習技法の汎用性と根拠を比較し、思い出す練習・分散学習を高く評価した。ハイライトや再読の有用性の評価は低かった。",
+      "limitations_ja": "低い有用性評価は、すべての教材・状況で効果ゼロという意味ではない。2013年以後の研究と比較する。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-highlight2022",
+      "source_id": "SRC282",
+      "topic_ids": [
+        "PSY-LEA-005"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "36論文85効果量の統合。学習者が引く線と教える側が事前に引く線、記憶と理解を分けた。学習者の線は記憶で利点、理解では明確でない。提供された線は記憶・理解の双方で平均的な利点を報告した。",
+      "limitations_ja": "全文は取得・精査していない。異なる比較群の平均効果から、教師の線が自分の線より直接比較で優れるとは言わない。最適な色・割合や個人の得点増加率は不明。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract; publication metadata (7 January 2022)"
+      ]
+    },
+    {
+      "id": "RL7-matching2024",
+      "source_id": "SRC283",
+      "topic_ids": [
+        "PSY-LEA-008"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "21研究1712人を統合し、小さな平均的なマッチングの利点を報告した。ただし研究の質、異質性、型別の交差パターンに問題が残る。42学習成果指標のうち11指標で、少なくとも二つの型に合う方法がそれぞれ有利な方向を示した。",
+      "limitations_ja": "11/42は研究数でも、統計的に有意な交互作用の件数でもない。平均差だけで固定タイプ別の推奨を確定しない。抄録と本文で統合値が異なり、正しい値を推測せず記事には精密な平均値を掲載しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract",
+        "Methods: eligibility and crossover interactions",
+        "Results and Table 3",
+        "Crossover interactions; Discussion"
+      ]
+    },
+    {
+      "id": "RL7-meshing2025",
+      "source_id": "SRC284",
+      "topic_ids": [
+        "PSY-LEA-008"
+      ],
+      "design": "preregistered_comparative_study",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "ドイツの教員志望学生222人で、図と文章の提示と学習スタイルとの対応を検討した。成績に対する型と提示方法の有意な交互作用は認められなかった。",
+      "limitations_ja": "222人は主分析標本。追跡51人と混同しない。学習スタイルは学習後に測定し、全効果の不存在や他集団との同等性を証明したものではない。事前登録リンクは確認したが登録内容との独立照合は未実施。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract",
+        "Method: participants, design and procedure",
+        "Results: learning performance",
+        "Discussion and limitations"
+      ]
+    },
+    {
+      "id": "RL7-hattie2025",
+      "source_id": "SRC285",
+      "topic_ids": [
+        "PSY-LEA-008"
+      ],
+      "design": "conceptual_review_of_meta_analyses",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "17のメタ分析を手がかりに、学習スタイル、好み、学習方略を混ぜると結論が変わる問題を整理した。相関研究と、教授法の一致を直接比較する研究を区別している。",
+      "limitations_ja": "17は独立した介入や独立した標本の数ではない。構成研究の重複や比較の違いがあり、この論考を追加の実験的な裏付けと数えない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract",
+        "What Does the Meta-Research Reveal?",
+        "Matching Studies Overview"
+      ]
+    },
+    {
+      "id": "RL7-interleave2019",
+      "source_id": "SRC052",
+      "topic_ids": [
+        "PSY-LEA-003"
+      ],
+      "design": "meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "59研究238効果量を統合した平均効果はg=.42。絵画の分類・数学では利点、単語ではまとまった練習が優位という条件差を報告した。説明文等は曖昧だった。",
+      "limitations_ja": "教材別結果と個人への最適な練習法を同一視しない。科目やアプリの無関係な切替の有用性を示さない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-math2020",
+      "source_id": "SRC286",
+      "topic_ids": [
+        "PSY-LEA-003"
+      ],
+      "design": "cluster_randomized_classroom_trial",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "中学7年生54クラスで4か月の数学練習を比較。両条件で同じ最後の復習を行い、1か月後の予告なしテストで混合練習61％、まとまった練習38％を報告した。",
+      "limitations_ja": "23はパーセントポイントの差であり、全員の得点が23％上がるという意味ではない。限定した数学単元・地域の結果で、大学や全教科への直接的な証明ではない。本文全体の精査は未実施。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Publisher abstract",
+        "US IES What Works Clearinghouse study review 88770 (methods corroboration)"
+      ]
+    },
+    {
+      "id": "RL7-walking2014",
+      "source_id": "SRC083",
+      "topic_ids": [
+        "PSY-CRE-001"
+      ],
+      "design": "four_experiments",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "屋内外の歩行と座位等を比較した4実験で、主にアイデアを増やす発散課題への利点を報告。正解を絞る課題にも一様に改善がある結果ではない。",
+      "limitations_ja": "一つの論文の4実験を4つの独立チームによる追試と数えない。実験課題から実際の企画の質や仕事全体の改善率を計算しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-walking2026",
+      "source_id": "SRC287",
+      "topic_ids": [
+        "PSY-CRE-001"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "16論文23研究を整理。発散的思考はd=.93/CI[.44,1.42]、収束的思考はd=.16/CI[-.31,.63]。著者の確実性評価は前者中程度、後者非常に低い。ランダム化研究だけの解析も発散課題の利点を報告した。",
+      "limitations_ja": "標本は主に高等教育の学生。異質性が大きく、独自のバイアス評価法にも制約。著者によるGRADEを当方の正式評価と表示しない。Oppezzoら2014年研究との重複に注意。人数とRCT数の本文内不一致があり、記事ではその正確な総数を使わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract",
+        "Methods: search through 8 January 2025, certainty approach",
+        "Results: study characteristics and divergent/convergent thinking",
+        "Discussion and limitations"
+      ]
+    },
+    {
+      "id": "RL7-sisk2018",
+      "source_id": "SRC048",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "two_meta_analyses",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "信念と学業の関連、介入の効果を別々に統合し、全体では小さな効果を報告。社会経済的な条件や学業上のリスクによる違いを検討した。",
+      "limitations_ja": "相関と介入を混ぜず、サブグループ結果を全員に適用しない。後年レビューとの研究重複に注意。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-yeager2019",
+      "source_id": "SRC049",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "preregistered_school_experiment",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "米国中等教育の広い学校標本で、短いオンライン介入が低成績層の成績や上級数学参加に及ぼす効果を検討。学校の仲間の規範等の条件差も報告した。",
+      "limitations_ja": "日本の学校や成人の仕事に直接一般化しない。レビューに収載される試験と独立した追加人数として合算しない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-mindcritical2023",
+      "source_id": "SRC288",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "systematic_review_meta_analysis",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "63研究97672人。全研究の学業効果はd=.05、出版バイアス補正後は明確でなくなった。著者の基準で質が高い6研究ではd=.02/CI[-.06,.10]を報告。",
+      "limitations_ja": "全文・全コードの再解析は未実施。小さい平均効果から個別の学校の効果を否定しない。研究選別・分析をめぐる他のレビューとの議論を残す。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-mindconditions2023",
+      "source_id": "SRC289",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "systematic_review_meta_analysis_randomized_trials",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "複数の結果を扱う53独立標本の無作為化研究を整理。学業では支援対象を絞り実施の忠実度が高い条件でd=.14/CI[.06,.22]を報告し、予測区間は[-.08,.35]だった。",
+      "limitations_ja": "53すべてが学業試験とは限らない。条件付き推定を全員の平均へ置き換えない。信頼区間と新しい場面の予測区間は別。Macnamaraらと収載試験が重なり得る。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract"
+      ]
+    },
+    {
+      "id": "RL7-mindstructured2025",
+      "source_id": "SRC290",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "structured_review",
+      "review_scope": "abstract",
+      "additional_reading_scope": "selected_fulltext_sections",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "学齢期の知能についてのマインドセットを扱う24RCTを整理。とくに信頼できると著者が評価した4試験は無効果から小さな効果の範囲とまとめた。",
+      "limitations_ja": "新たなメタ分析の統合値ではない。学齢期・知能の信念に限定し、性格、成人、他の心理指標へ拡張しない。著者の品質判断を独立して再実施したものではない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 3,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract",
+        "Eligibility and review of school-age randomized trials",
+        "Discussion: most trustworthy trials"
+      ]
+    },
+    {
+      "id": "RL7-mindproposal2026",
+      "source_id": "SRC291",
+      "topic_ids": [
+        "PSY-MOT-008"
+      ],
+      "design": "perspective_and_research_proposal",
+      "review_scope": "abstract",
+      "additional_reading_scope": "abstract",
+      "review_method": "AI_assisted_single_review",
+      "reviewed_on": "2026-09-11",
+      "key_findings_ja": "成長への信念と実際の学習行動を結びつけ、思い出す練習等との組み合わせを今後検証する必要を提案している。",
+      "limitations_ja": "組み合わせの上乗せ効果を検証した介入試験ではない。新しい論文という理由で、提案を確立済みの方法と扱わない。",
+      "conclusion_direction": "mixed",
+      "topic_relevance": 5,
+      "relevance_scope": "source_text_screened",
+      "method_signals": 2,
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false,
+      "delivery_id": "learning-20260911",
+      "source_locators": [
+        "Abstract; publication metadata"
+      ]
     }
   ],
   "updated_on": "2026-09-11"

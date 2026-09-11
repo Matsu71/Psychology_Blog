@@ -61,11 +61,17 @@
       "priority": 1,
       "source_ids": [
         "SRC027",
-        "SRC052"
+        "SRC052",
+        "SRC286"
       ],
       "caution_ja": "2013年のレビューを現時点の最終評価にしない。教材と初心者への負荷を確認する。",
       "research_brief_ids": [
         "RB-31556629"
+      ],
+      "source_review_ids": [
+        "RL7-dunlosky2013",
+        "RL7-interleave2019",
+        "RL7-math2020"
       ]
     },
     {
@@ -94,9 +100,14 @@
       "search_query": "highlighting rereading learning effectiveness delayed tests review",
       "priority": 1,
       "source_ids": [
-        "SRC027"
+        "SRC027",
+        "SRC282"
       ],
-      "caution_ja": "マーカーや再読は一切無意味という二択にしない。目的と使い方を確認する。"
+      "caution_ja": "マーカーや再読は一切無意味という二択にしない。目的と使い方を確認する。",
+      "source_review_ids": [
+        "RL7-dunlosky2013",
+        "RL7-highlight2022"
+      ]
     },
     {
       "id": "PSY-LEA-006",
@@ -144,11 +155,22 @@
       "search_query": "learning styles meshing hypothesis systematic review randomized study",
       "priority": 1,
       "source_ids": [
-        "SRC053"
+        "SRC053",
+        "SRC027",
+        "SRC283",
+        "SRC284",
+        "SRC285"
       ],
       "caution_ja": "学習スタイル説の検証と、障害に応じた合理的配慮を混同しない。",
       "research_brief_ids": [
         "RB-26162104"
+      ],
+      "source_review_ids": [
+        "RL7-pashler2008",
+        "RL7-dunlosky2013",
+        "RL7-matching2024",
+        "RL7-meshing2025",
+        "RL7-hattie2025"
       ]
     },
     {

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "source_id": "SRC052",
+    "review_scope": "legacy_not_reassessed",
+    "method_signals": null,
+    "formal_risk_of_bias": "not_assessed",
+    "formal_evidence_certainty": "not_assessed",
+    "reliability_ja": "既存資料・今回は未再評価",
+    "integrity_status": "not_completed",
+    "integrity_notices": []
+  }
+}

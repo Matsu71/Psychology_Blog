@@ -6,16 +6,16 @@
       "id": "EV-PSY-CRE-001-SRC083",
       "topic_id": "PSY-CRE-001",
       "source_id": "SRC083",
-      "relation_role": "unassessed_legacy_link",
-      "relevance_1_to_5": null,
-      "relevance_scope": "not_reassessed",
-      "source_review_id": null,
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL7-walking2014",
       "legacy_brief_ids": [
         "RB-24749966"
       ],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "finding_scope_ja": "屋内外の歩行と座位等を比較した4実験で、主にアイデアを増やす発散課題への利点を報告。正解を絞る課題にも一様に改善がある結果ではない。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "一つの論文の4実験を4つの独立チームによる追試と数えない。実験課題から実際の企画の質や仕事全体の改善率を計算しない。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -176,6 +176,20 @@
       "finding_scope_ja": "資源、ルール、締切などの制約と創造性・革新の関係を複数分野から整理し、制約の種類や働く仕組みの違いを示しています。相反する研究結果を単一の法則へまとめないレビューです。",
       "conclusion_direction": "mixed",
       "limits_ja": "無作為化された一つの介入の効果量ではありません。仕事量を増やしたり危険な締切を設けたりすることを、創造性のためと正当化しません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-001-SRC287",
+      "topic_id": "PSY-CRE-001",
+      "source_id": "SRC287",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "RL7-walking2026",
+      "finding_scope_ja": "16論文23研究を整理。発散的思考はd=.93/CI[.44,1.42]、収束的思考はd=.16/CI[-.31,.63]。著者の確実性評価は前者中程度、後者非常に低い。ランダム化研究だけの解析も発散課題の利点を報告した。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "標本は主に高等教育の学生。異質性が大きく、独自のバイアス評価法にも制約。著者によるGRADEを当方の正式評価と表示しない。Oppezzoら2014年研究との重複に注意。人数とRCT数の本文内不一致があり、記事ではその正確な総数を使わない。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

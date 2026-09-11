@@ -425,3 +425,167 @@ AASM/SRS声明は18～60歳に日常的な7時間以上を推奨。既存証拠�
 **限界：** 短期の気分と長期生活満足を分離。事前設定の逐次募集停止と片側検定の手続きも記載。日本の全家計の最適支出額を決定しない。
 
 **記載上の注意：** 2022-10-19はOSF事前登録リンク更新。データ撤回として扱わない。 [change_history_checked]
+
+## SL7-pashler2008 — Learning Styles: Concepts and Evidence.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/26162104/)
+
+範囲：abstract / Abstract
+
+学び方の好みの存在と、好みに対応した教授方法で各群が特によく学べるという仮説を区別した。仮説に必要な比較設計を提示し、適切な根拠が不足すると評価した。
+
+**限界：** 2008年の基礎レビューで現在の全研究の最終評価ではない。障害への配慮や教材内容に合う表現の選択を否定しない。
+
+## SL7-dunlosky2013 — Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/26173288/)
+
+範囲：abstract / Abstract
+
+複数の学習技法の汎用性と根拠を比較し、思い出す練習・分散学習を高く評価した。ハイライトや再読の有用性の評価は低かった。
+
+**限界：** 低い有用性評価は、すべての教材・状況で効果ゼロという意味ではない。2013年以後の研究と比較する。
+
+## SL7-highlight2022 — Effects of Learner-Generated Highlighting and Instructor-Provided Highlighting on Learning from Text: A Meta-Analysis
+
+[確認した出典](https://link.springer.com/article/10.1007/s10648-021-09654-1)
+
+範囲：abstract / Abstract; publication metadata (7 January 2022)
+
+36論文85効果量の統合。学習者が引く線と教える側が事前に引く線、記憶と理解を分けた。学習者の線は記憶で利点、理解では明確でない。提供された線は記憶・理解の双方で平均的な利点を報告した。
+
+**限界：** 全文は取得・精査していない。異なる比較群の平均効果から、教師の線が自分の線より直接比較で優れるとは言わない。最適な色・割合や個人の得点増加率は不明。
+
+## SL7-matching2024 — Is it really a neuromyth? A meta-analysis of the learning styles matching hypothesis
+
+[確認した出典](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full)
+
+範囲：selected_fulltext_sections / Abstract; Methods: eligibility and crossover interactions; Results and Table 3; Crossover interactions; Discussion
+
+21研究1712人を統合し、小さな平均的なマッチングの利点を報告した。ただし研究の質、異質性、型別の交差パターンに問題が残る。42学習成果指標のうち11指標で、少なくとも二つの型に合う方法がそれぞれ有利な方向を示した。
+
+**限界：** 11/42は研究数でも、統計的に有意な交互作用の件数でもない。平均差だけで固定タイプ別の推奨を確定しない。抄録と本文で統合値が異なり、正しい値を推測せず記事には精密な平均値を掲載しない。
+
+**記載上の注意：** 抄録g=.31/CI[.05,.57]、本文g=.32/CI[.07,.57]。勝手に訂正しない。記事は小さな平均差と表現し、監査表に両値を保存。 [open_original_paper_check]
+
+## SL7-meshing2025 — Testing the meshing hypothesis in prospective teachers: Are there effects of matching learning style and presentation mode on learning performance and on metacognitive aspects of learning?
+
+[確認した出典](https://link.springer.com/article/10.1007/s11251-024-09689-1)
+
+範囲：selected_fulltext_sections / Abstract; Method: participants, design and procedure; Results: learning performance; Discussion and limitations
+
+ドイツの教員志望学生222人で、図と文章の提示と学習スタイルとの対応を検討した。成績に対する型と提示方法の有意な交互作用は認められなかった。
+
+**限界：** 222人は主分析標本。追跡51人と混同しない。学習スタイルは学習後に測定し、全効果の不存在や他集団との同等性を証明したものではない。事前登録リンクは確認したが登録内容との独立照合は未実施。
+
+## SL7-hattie2025 — Learning Styles, Preferences, or Strategies? An Explanation for the Resurgence of Styles Across Many Meta-analyses
+
+[確認した出典](https://link.springer.com/article/10.1007/s10648-025-10002-w)
+
+範囲：selected_fulltext_sections / Abstract; What Does the Meta-Research Reveal?; Matching Studies Overview
+
+17のメタ分析を手がかりに、学習スタイル、好み、学習方略を混ぜると結論が変わる問題を整理した。相関研究と、教授法の一致を直接比較する研究を区別している。
+
+**限界：** 17は独立した介入や独立した標本の数ではない。構成研究の重複や比較の違いがあり、この論考を追加の実験的な裏付けと数えない。
+
+## SL7-interleave2019 — Similarity matters: A meta-analysis of interleaved learning and its moderators.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/31556629/)
+
+範囲：abstract / Abstract
+
+59研究238効果量を統合した平均効果はg=.42。絵画の分類・数学では利点、単語ではまとまった練習が優位という条件差を報告した。説明文等は曖昧だった。
+
+**限界：** 教材別結果と個人への最適な練習法を同一視しない。科目やアプリの無関係な切替の有用性を示さない。
+
+## SL7-math2020 — A randomized controlled trial of interleaved mathematics practice
+
+[確認した出典](https://doi.org/10.1037/edu0000367)
+
+範囲：abstract / Publisher abstract; US IES What Works Clearinghouse study review 88770 (methods corroboration)
+
+中学7年生54クラスで4か月の数学練習を比較。両条件で同じ最後の復習を行い、1か月後の予告なしテストで混合練習61％、まとまった練習38％を報告した。
+
+**限界：** 23はパーセントポイントの差であり、全員の得点が23％上がるという意味ではない。限定した数学単元・地域の結果で、大学や全教科への直接的な証明ではない。本文全体の精査は未実施。
+
+## SL7-walking2014 — Give your ideas some legs: the positive effect of walking on creative thinking.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/24749966/)
+
+範囲：abstract / Abstract
+
+屋内外の歩行と座位等を比較した4実験で、主にアイデアを増やす発散課題への利点を報告。正解を絞る課題にも一様に改善がある結果ではない。
+
+**限界：** 一つの論文の4実験を4つの独立チームによる追試と数えない。実験課題から実際の企画の質や仕事全体の改善率を計算しない。
+
+## SL7-walking2026 — The impact of walking on creative thinking: A systematic review and meta-analysis
+
+[確認した出典](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347878)
+
+範囲：selected_fulltext_sections / Abstract; Methods: search through 8 January 2025, certainty approach; Results: study characteristics and divergent/convergent thinking; Discussion and limitations
+
+16論文23研究を整理。発散的思考はd=.93/CI[.44,1.42]、収束的思考はd=.16/CI[-.31,.63]。著者の確実性評価は前者中程度、後者非常に低い。ランダム化研究だけの解析も発散課題の利点を報告した。
+
+**限界：** 標本は主に高等教育の学生。異質性が大きく、独自のバイアス評価法にも制約。著者によるGRADEを当方の正式評価と表示しない。Oppezzoら2014年研究との重複に注意。人数とRCT数の本文内不一致があり、記事ではその正確な総数を使わない。
+
+**記載上の注意：** 抄録・結果は1036人、考察は1039人。RCT数も抄録・結果12と限界節13が不一致。正しい総数を独断で決めず、両箇所を保存し記事の正確な総数表示を避ける。 [open_original_paper_check]
+
+## SL7-sisk2018 — To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses.
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/29505339/)
+
+範囲：abstract / Abstract
+
+信念と学業の関連、介入の効果を別々に統合し、全体では小さな効果を報告。社会経済的な条件や学業上のリスクによる違いを検討した。
+
+**限界：** 相関と介入を混ぜず、サブグループ結果を全員に適用しない。後年レビューとの研究重複に注意。
+
+## SL7-yeager2019 — A national experiment reveals where a growth mindset improves achievement.
+
+[確認した出典](https://www.nature.com/articles/s41586-019-1466-y)
+
+範囲：abstract / Abstract
+
+米国中等教育の広い学校標本で、短いオンライン介入が低成績層の成績や上級数学参加に及ぼす効果を検討。学校の仲間の規範等の条件差も報告した。
+
+**限界：** 日本の学校や成人の仕事に直接一般化しない。レビューに収載される試験と独立した追加人数として合算しない。
+
+## SL7-mindcritical2023 — Do growth mindset interventions impact students' academic achievement? A systematic review and meta-analysis with recommendations for best practices
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/36326645/)
+
+範囲：abstract / Abstract
+
+63研究97672人。全研究の学業効果はd=.05、出版バイアス補正後は明確でなくなった。著者の基準で質が高い6研究ではd=.02/CI[-.06,.10]を報告。
+
+**限界：** 全文・全コードの再解析は未実施。小さい平均効果から個別の学校の効果を否定しない。研究選別・分析をめぐる他のレビューとの議論を残す。
+
+## SL7-mindconditions2023 — A systematic review and meta-analysis of growth mindset interventions: For whom, how, and why might such interventions work?
+
+[確認した出典](https://pubmed.ncbi.nlm.nih.gov/36227318/)
+
+範囲：abstract / Abstract
+
+複数の結果を扱う53独立標本の無作為化研究を整理。学業では支援対象を絞り実施の忠実度が高い条件でd=.14/CI[.06,.22]を報告し、予測区間は[-.08,.35]だった。
+
+**限界：** 53すべてが学業試験とは限らない。条件付き推定を全員の平均へ置き換えない。信頼区間と新しい場面の予測区間は別。Macnamaraらと収載試験が重なり得る。
+
+## SL7-mindstructured2025 — Can growth mindset interventions improve academic achievement? A structured review of the existing evidence
+
+[確認した出典](https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.70066)
+
+範囲：selected_fulltext_sections / Abstract; Eligibility and review of school-age randomized trials; Discussion: most trustworthy trials
+
+学齢期の知能についてのマインドセットを扱う24RCTを整理。とくに信頼できると著者が評価した4試験は無効果から小さな効果の範囲とまとめた。
+
+**限界：** 新たなメタ分析の統合値ではない。学齢期・知能の信念に限定し、性格、成人、他の心理指標へ拡張しない。著者の品質判断を独立して再実施したものではない。
+
+## SL7-mindproposal2026 — Why Growth Mindset Training Alone may not Improve Academic Outcomes: A Call for Research on Bundling Growth Mindset and Retrieval Practice Interventions
+
+[確認した出典](https://link.springer.com/article/10.1007/s10648-026-10188-7)
+
+範囲：abstract / Abstract; publication metadata
+
+成長への信念と実際の学習行動を結びつけ、思い出す練習等との組み合わせを今後検証する必要を提案している。
+
+**限界：** 組み合わせの上乗せ効果を検証した介入試験ではない。新しい論文という理由で、提案を確立済みの方法と扱わない。

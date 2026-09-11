@@ -1,58 +1,95 @@
 {
   "schema_version": "1.0",
   "topic_id": "PSY-LEA-003",
-  "title": "似た問題を混ぜて解くと伸びる？混合練習が向く課題、向かない課題",
-  "batch_id": "continuation-20260911b",
-  "source_ids": [
-    "SRC052",
-    "SRC027"
-  ],
+  "title": "同じ問題を繰り返すより混ぜて解く？「解き方を選ぶ」練習の研究",
+  "delivery_id": "learning-20260911",
+  "authoring_input_sha256": "e91b266d3308a81bfb1a013acf886ab704519226d2afdb903573181910e6206a",
   "claims": [
     {
-      "id": "PSY-LEA-003-C02",
-      "claim_id": "PSY-LEA-003-C02",
-      "text": "BrunmairとRichterのメタ分析は、混合練習と種類ごとにまとめた練習を比較する59研究、238効果量を扱っています。平均的には混合練習の利点が見られましたが、結果は教材によって異なりました。絵画の分類や数学の課題と、単語や説明文を同じに扱うことはできず、単語ではまとめた練習が優位だった条件もありました。",
-      "claim_type": "research_finding",
+      "id": "PSY-LEA-003-L01",
+      "text_ja": "二次方程式の章を開いていれば、次の問題でも同じ解き方を使うと予想できます。違う種類が混ざれば、問題の特徴から方法を選ぶ必要が出ます。混合練習で狙うことの一つは、実行だけでなく、この見分ける部分も練習することです。\n\nただし、まだ方法そのものを知らない人に難問を混ぜればよいとは限りません。比較する種類、似かた、すでに持っている知識によって条件は変わります。",
       "source_ids": [
         "SRC052"
       ],
-      "support_assessment": "existing_source_review_reused_article_check_pending",
-      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
-      "formal_evidence_certainty": "not_assessed",
-      "publication_ready": false
-    },
-    {
-      "id": "PSY-LEA-003-C03",
-      "claim_id": "PSY-LEA-003-C03",
-      "text": "この結果から『今日からすべての科目を数分ごとに切り替える』という方法は導けません。混合練習は、通知に反応して作業を中断することとも違います。教材の種類や学習者がすでに知っていることを考えながら、見分ける必要のある内容を組み合わせる考え方です。基礎的な学習技法のレビューでも、各方法が使える条件を分けて評価しています。",
-      "claim_type": "limitations",
-      "source_ids": [
-        "SRC052",
-        "SRC027"
+      "source_check_ids": [
+        "SL7-interleave2019"
       ],
-      "support_assessment": "existing_source_review_reused_article_check_pending",
-      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
-      "formal_evidence_certainty": "not_assessed",
+      "population_and_scope_ja": "教材の類似性や課題の種類による条件差を扱うメタ分析。",
+      "not_supported_ja": "初心者への一律の最適順序を証明したとしない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-003-L02",
+      "text_ja": "2019年のメタ分析は59研究を統合し、全体では混合練習の平均的な利点を報告しました。しかし、絵画の分類や数学での結果と、単語や説明文での結果は同じではありません。単語では、種類ごとにまとめて練習する方が有利だった結果もありました。\n\nつまり「混ぜるほど脳に負荷がかかるから、何にでも効く」という説明では不十分です。何を覚えるか、何を見分けるかが違えば、練習方法を同じにする理由も弱くなります。",
+      "source_ids": [
+        "SRC052"
+      ],
+      "source_check_ids": [
+        "SL7-interleave2019"
+      ],
+      "population_and_scope_ja": "材料別の統合効果。",
+      "not_supported_ja": "教材カテゴリ間の統合差を個人に必ず生じる因果的な差と扱わない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-003-L03",
+      "text_ja": "2020年の無作為化比較研究では、中学7年生の54クラスで4か月間の数学練習を比較しました。最後に両条件で共通の復習を行い、1か月後に予告なしのテストをすると、平均正答率は混合練習の条件で61％、まとめた練習の条件で38％でした。差は23パーセントポイントです。\n\nこれは具体的な授業での結果という点で重要ですが、自分の資格試験でも同じ点差が得られるという意味ではありません。対象の学年、単元、教材、練習期間を含めて読む必要があります。",
+      "source_ids": [
+        "SRC286"
+      ],
+      "source_check_ids": [
+        "SL7-math2020"
+      ],
+      "population_and_scope_ja": "特定地域の7年生の数学におけるクラス単位の比較。",
+      "not_supported_ja": "23％の相対的増加と誤記しない。全科目・個人への保証ではない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-003-L04",
+      "text_ja": "似た問題を見分けるために並べ替えることと、勉強中にニュースやSNSへ移ることは別です。前者は一つの学習目標の中で比較を作っています。後者まで有効だと、これらの研究から結論づけることはできません。\n\nまた、練習中に簡単に感じるかだけで選ぶのも不十分です。今回の授業研究は時間を空けた後の成績を測りました。一方で、難しく感じるという理由だけで練習が優秀になるわけでもありません。",
+      "source_ids": [
+        "SRC286",
+        "SRC052"
+      ],
+      "source_check_ids": [
+        "SL7-math2020",
+        "SL7-interleave2019"
+      ],
+      "population_and_scope_ja": "混合練習の操作と遅延テストの範囲。",
+      "not_supported_ja": "一般的なマルチタスクを推奨しない。難しさ自体を成果の証拠にしない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
       "publication_ready": false
     }
   ],
-  "applications": [
-    {
-      "section": 4,
-      "text": "説明用の例として、まず例題でそれぞれの考え方を確認し、その後、二つか三つの似た問題を混ぜて解きます。答え合わせでは正誤に加えて『この問題のどの言葉からこの方法を選んだか』を書きます。混ぜる個数は研究で確定した最適値ではありません。まだ内容を理解していない場合は、解説に戻る段階も残します。",
-      "type": "editorial_application_or_illustrative_scenario",
-      "observed_in_a_study": false
-    },
-    {
-      "section": 5,
-      "text": "すらすら解ける感覚と、時間がたってから自力で解けることは別の評価です。一方、難しく感じる練習が常に優秀なわけでもありません。日常で比較するなら、翌日など少し間を置いた確認問題で、方法を自分で選べるかを見ます。これは学習の点検例であり、個人の小さな試行だけで一般的な効果を証明するものではありません。",
-      "type": "editorial_application_or_illustrative_scenario",
-      "observed_in_a_study": false
-    }
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "資格の問題集なら、例題を理解した後に、混同しやすい種類を組み合わせます。答え合わせでは正誤だけでなく、「どの条件から、その方法を選んだか」を説明します。間違えたら解法の使い分けに戻り、後日もう一度見分けられるか確かめます。混ぜる種類の数や復習日は、今回の研究から固定できる最適値ではありません。",
+    "safety": "できない問題が続く場合は、基礎説明や例題へ戻る余地を残してください。苦しさを増やすことが目的ではありません。"
+  },
+  "review_items": [
+    "2020年試験は出版社抄録と公的な方法評価を確認。全補足資料・元データの独立再解析は未実施。",
+    "2019年レビューと個別試験の収載関係・標本重複を網羅的に確認していないため、人数を合算しない。"
   ],
-  "publication_ready": false,
-  "review_method": "new_manuscript_using_prior_source_reviews",
-  "article_level_scientific_review": "pending",
+  "unresolved_source_keys": [],
   "independent_review_completed": false,
-  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": "75906ddcb85c12f003cbb517c4dd1a48245828b85168ecc4a00edfeaa9104f78"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "excludes": "Git history, working caches, generated build/, and this report",
-  "canonical_and_derived_data_bytes": 6219203,
-  "data_json_file_count": 230,
+  "canonical_and_derived_data_bytes": 6501461,
+  "data_json_file_count": 278,
   "largest_files": [
     {
       "path": "data/literature/candidates.json",
@@ -10,27 +10,27 @@
     },
     {
       "path": "data/sources.json",
-      "bytes": 345035
+      "bytes": 353784
     },
     {
       "path": "data/research/history/pre_editorial_delivery_sources.json",
       "bytes": 286989
     },
     {
+      "path": "data/research/source_reviews.json",
+      "bytes": 228551
+    },
+    {
+      "path": "data/source_assessments.json",
+      "bytes": 213713
+    },
+    {
       "path": "data/literature/search_log.json",
       "bytes": 210536
     },
     {
-      "path": "data/research/source_reviews.json",
-      "bytes": 209522
-    },
-    {
-      "path": "data/source_assessments.json",
-      "bytes": 200332
-    },
-    {
       "path": "data/rankings/research_queue.json",
-      "bytes": 195512
+      "bytes": 195311
     },
     {
       "path": "data/index/topics.json",
@@ -38,11 +38,11 @@
     },
     {
       "path": "data/rankings/sources_global.json",
-      "bytes": 109128
+      "bytes": 113502
     },
     {
-      "path": "data/research/round4_continuation/sources.json",
-      "bytes": 95377
+      "path": "data/articles/catalog.json",
+      "bytes": 98544
     }
   ],
   "files_above_internal_1MiB": []

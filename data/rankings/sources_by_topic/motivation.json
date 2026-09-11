@@ -315,46 +315,132 @@
       "topic_id": "PSY-MOT-008",
       "sources": [
         {
-          "edge_id": "EV-PSY-MOT-008-SRC048",
-          "source_id": "SRC048",
-          "title": "To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "edge_id": "EV-PSY-MOT-008-SRC290",
+          "source_id": "SRC290",
+          "title": "Can growth mindset interventions improve academic achievement? A structured review of the existing evidence",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "新たなメタ分析の統合値ではない。学齢期・知能の信念に限定し、性格、成人、他の心理指標へ拡張しない。著者の品質判断を独立して再実施したものではない。",
+          "priority_score": 87.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-MOT-008-SRC048",
+          "source_id": "SRC048",
+          "title": "To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "相関と介入を混ぜず、サブグループ結果を全員に適用しない。後年レビューとの研究重複に注意。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-MOT-008-SRC049",
           "source_id": "SRC049",
           "title": "A national experiment reveals where a growth mindset improves achievement.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "日本の学校や成人の仕事に直接一般化しない。レビューに収載される試験と独立した追加人数として合算しない。",
+          "priority_score": 82.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
-          "display_position": 2
+          "priority_rank": 2,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-MOT-008-SRC288",
+          "source_id": "SRC288",
+          "title": "Do growth mindset interventions impact students' academic achievement? A systematic review and meta-analysis with recommendations for best practices",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "全文・全コードの再解析は未実施。小さい平均効果から個別の学校の効果を否定しない。研究選別・分析をめぐる他のレビューとの議論を残す。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 4
+        },
+        {
+          "edge_id": "EV-PSY-MOT-008-SRC289",
+          "source_id": "SRC289",
+          "title": "A systematic review and meta-analysis of growth mindset interventions: For whom, how, and why might such interventions work?",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "53すべてが学業試験とは限らない。条件付き推定を全員の平均へ置き換えない。信頼区間と新しい場面の予測区間は別。Macnamaraらと収載試験が重なり得る。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 5
+        },
+        {
+          "edge_id": "EV-PSY-MOT-008-SRC291",
+          "source_id": "SRC291",
+          "title": "Why Growth Mindset Training Alone may not Improve Academic Outcomes: A Call for Research on Bundling Growth Mindset and Retrieval Practice Interventions",
+          "review_scope": "abstract",
+          "relation_role": "context_only",
+          "conclusion_direction": "mixed",
+          "limits_ja": "組み合わせの上乗せ効果を検証した介入試験ではない。新しい論文という理由で、提案を確立済みの方法と扱わない。",
+          "priority_score": 55,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 6,
+          "display_position": 6
         }
       ]
     },

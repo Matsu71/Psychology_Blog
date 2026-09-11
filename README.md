@@ -2,9 +2,9 @@
 
 **最終目標：一般向けに面白く、科学的根拠をたどれる300記事。**
 
-28分野・300テーマ。出典281件。出典未登録0テーマ。
+28分野・300テーマ。出典291件。出典未登録0テーマ。
 
-本文44件、主張対応表44件。 限定した原文照合記録あり20件。公開承認済み0件。
+本文46件、主張対応表46件。 限定した原文照合記録あり20件。公開承認済み0件。
 
 - [記事の現在地](docs/ARTICLE_PROGRESS.md)
 - [次の作業](docs/NEXT_STEPS.md)
@@ -31,3 +31,4 @@ python scripts/reconcile_article_progress.py --check
 
 - [CONTINUATION_20260911B](docs/CONTINUATION_20260911B.md)
 - [CONTINUATION_20260911D](docs/CONTINUATION_20260911D.md)
+- [CONTINUATION_LEARNING_20260911](docs/CONTINUATION_LEARNING_20260911.md)

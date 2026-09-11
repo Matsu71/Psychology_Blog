@@ -1,6 +1,6 @@
 # 記事制作の現在地
 
-目標300記事。本文44件、主張対応表44件。
+目標300記事。本文46件、主張対応表46件。
 
 限定した原文照合の記録がある原稿：20件。公開承認済み：0件。
 
@@ -65,14 +65,14 @@
 | PSY-MOT-005 成功を想像するだけで行動は増える？ | 未着手 | research_pending |
 | PSY-MOT-006 完璧にやろうとするほど着手できなくなる？ | 未着手 | research_pending |
 | PSY-MOT-007 ご褒美をもらうと好きなことまで嫌になる？ | 未着手 | research_pending |
-| PSY-MOT-008 成長マインドセットは誰に、どんな場面で役立つ？ | 未着手 | research_pending |
+| PSY-MOT-008 成長マインドセットは誰に、どんな場面で役立つ？ | [原稿](../articles/manuscripts/PSY-MOT-008.md) | manuscript_pending_article_review |
 | PSY-MOT-009 失敗したとき、自分に厳しい方が再挑戦できる？ | [原稿](../articles/manuscripts/PSY-MOT-009.md) | revised_manuscript_pending_review |
 | PSY-MOT-010 新年や月曜日にやる気が出る『フレッシュスタート』は続く？ | 未着手 | research_pending |
 | PSY-LEA-001 読み直すより思い出す練習：テスト効果を勉強に使うには？ | [原稿](../articles/manuscripts/PSY-LEA-001.md) | source_checked_manuscript |
 | PSY-LEA-002 一夜漬けと分散学習、長く覚えられるのはどちら？ | [原稿](../articles/manuscripts/PSY-LEA-002.md) | revised_manuscript_pending_review |
 | PSY-LEA-003 似た問題をまとめず、混ぜて解くと学びやすい？ | [原稿](../articles/manuscripts/PSY-LEA-003.md) | manuscript_pending_article_review |
 | PSY-LEA-004 人に説明するつもりで学ぶと理解は深まる？ | 未着手 | research_pending |
-| PSY-LEA-005 マーカーだらけのノートは勉強になる？ | 未着手 | research_pending |
+| PSY-LEA-005 マーカーだらけのノートは勉強になる？ | [原稿](../articles/manuscripts/PSY-LEA-005.md) | manuscript_pending_article_review |
 | PSY-LEA-006 『なぜそうなる？』を自分に問う学習は役立つ？ | 未着手 | research_pending |
 | PSY-LEA-007 『分かったつもり』はどうすれば見抜ける？ | 未着手 | research_pending |
 | PSY-LEA-008 視覚型・聴覚型に合わせて学ぶ方法には根拠がある？ | [原稿](../articles/manuscripts/PSY-LEA-008.md) | manuscript_pending_article_review |
@@ -338,3 +338,4 @@
 
 - [CONTINUATION_20260911B](CONTINUATION_20260911B.md)
 - [CONTINUATION_20260911D](CONTINUATION_20260911D.md)
+- [CONTINUATION_LEARNING_20260911](CONTINUATION_LEARNING_20260911.md)

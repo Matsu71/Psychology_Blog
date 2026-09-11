@@ -10,22 +10,45 @@
           "edge_id": "EV-PSY-CRE-001-SRC083",
           "source_id": "SRC083",
           "title": "Give your ideas some legs: the positive effect of walking on creative thinking.",
-          "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
-          "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
-          "priority_score": null,
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一つの論文の4実験を4つの独立チームによる追試と数えない。実験課題から実際の企画の質や仕事全体の改善率を計算しない。",
+          "priority_score": 82.5,
           "components": {
-            "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
-          "priority_rank": null,
+          "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-CRE-001-SRC287",
+          "source_id": "SRC287",
+          "title": "The impact of walking on creative thinking: A systematic review and meta-analysis",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "標本は主に高等教育の学生。異質性が大きく、独自のバイアス評価法にも制約。著者によるGRADEを当方の正式評価と表示しない。Oppezzoら2014年研究との重複に注意。人数とRCT数の本文内不一致があり、記事ではその正確な総数を使わない。",
+          "priority_score": 65,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [
+            "unresolved_reporting_issue_max_65"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
         }
       ]
     },
@@ -140,15 +163,15 @@
           "edge_id": "EV-PSY-CRE-006-SRC083",
           "source_id": "SRC083",
           "title": "Give your ideas some legs: the positive effect of walking on creative thinking.",
-          "review_scope": "legacy_not_reassessed",
+          "review_scope": "abstract",
           "relation_role": "unassessed_legacy_link",
           "conclusion_direction": "not_classified",
           "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
-            "method_signals_0_to_4": null,
-            "reading_depth_0_to_4": null
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
           },
           "caps": [],
           "excluded_from_evidence_priority": false,

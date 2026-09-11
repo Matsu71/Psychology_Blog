@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-LEA-008",
+  "title": "自分は視覚型だから音声学習は苦手？学習スタイルの好みと効果を分ける",
+  "batch_id": "continuation-20260911b",
+  "source_ids": [
+    "SRC053",
+    "SRC027"
+  ],
+  "claims": [
+    {
+      "id": "PSY-LEA-008-C02",
+      "claim_id": "PSY-LEA-008-C02",
+      "text": "Pashlerらのレビューは、視覚型・聴覚型などの好みに教授方法を合わせるという仮説を、必要な研究設計から検討しています。好みの違いを示すことと、好みに対応する方法がそれぞれの学習成果を特に高めることを区別し、後者を支える適切な証拠の不足を指摘しました。これは学ぶ人の違いが一切ないという主張ではありません。",
+      "claim_type": "research_finding",
+      "source_ids": [
+        "SRC053"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-008-C03",
+      "claim_id": "PSY-LEA-008-C03",
+      "text": "地図や形の関係を説明する場面では、図そのものが扱いたい情報に対応していることがあります。発音を学ぶなら音声を確認したいでしょう。こうした教材内容に応じた表現と、人を固定的な型に分けることは違います。視覚・聴覚の障害や読み書きの困難に応じた配慮を、学習スタイル説と一緒に否定してはいけません。",
+      "claim_type": "interpretation",
+      "source_ids": [
+        "SRC053"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-008-C04",
+      "claim_id": "PSY-LEA-008-C04",
+      "text": "説明用の例として、図の多い解説を読んだ後に、見ずに仕組みを説明してみます。音声なら、聞き終えた後に要点を自分の言葉で書きます。どの方法が心地よいかに加え、後から何を使えるかを確認する考え方です。学習技法のレビューには、思い出す練習や間隔を空ける練習など、方法の条件を比較する別の視点もあります。",
+      "claim_type": "illustrative_scenario",
+      "source_ids": [
+        "SRC027"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-LEA-008-C05",
+      "claim_id": "PSY-LEA-008-C05",
+      "text": "中心に引用したレビューは2008年の基礎的な検討であり、現在のすべての研究を網羅する最新の評価ではありません。それでも『好きな方法で成果が出た』だけで、合わせる仮説を確認したことにはならない、という読み方は記事の出発点になります。具体的な教材の効果を述べるときは、その教材を比較した研究を別に確認する必要があります。",
+      "claim_type": "limitations",
+      "source_ids": [
+        "SRC053"
+      ],
+      "support_assessment": "existing_source_review_reused_article_check_pending",
+      "causal_scope": "limited_to_cited_study_design_not_general_life_effect",
+      "formal_evidence_certainty": "not_assessed",
+      "publication_ready": false
+    }
+  ],
+  "applications": [
+    {
+      "section": 4,
+      "text": "説明用の例として、図の多い解説を読んだ後に、見ずに仕組みを説明してみます。音声なら、聞き終えた後に要点を自分の言葉で書きます。どの方法が心地よいかに加え、後から何を使えるかを確認する考え方です。学習技法のレビューには、思い出す練習や間隔を空ける練習など、方法の条件を比較する別の視点もあります。",
+      "type": "editorial_application_or_illustrative_scenario",
+      "observed_in_a_study": false
+    }
+  ],
+  "publication_ready": false,
+  "review_method": "new_manuscript_using_prior_source_reviews",
+  "article_level_scientific_review": "pending",
+  "independent_review_completed": false,
+  "limits_ja": "出典の一意な照合は科学的主張の妥当性の自動認定ではありません。既存読解を再利用し、この処理で全文を新たに読んだとは記録しません。"
+}

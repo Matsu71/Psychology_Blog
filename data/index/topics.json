@@ -578,7 +578,7 @@
       "topic_file": "data/topics/06_motivation.json",
       "evidence_file": "data/evidence/motivation.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
-      "source_count": 2,
+      "source_count": 6,
       "editorial_score": null
     },
     {
@@ -628,7 +628,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -648,7 +648,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -678,7 +678,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 5,
       "editorial_score": null
     },
     {
@@ -2648,7 +2648,7 @@
       "topic_file": "data/topics/26_creativity.json",
       "evidence_file": "data/evidence/creativity.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {

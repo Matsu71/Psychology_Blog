@@ -13,7 +13,8 @@
       "search_query": "walking divergent thinking systematic review human study",
       "priority": 1,
       "source_ids": [
-        "SRC083"
+        "SRC083",
+        "SRC287"
       ],
       "caution_ja": "発散課題の成績を全種類の仕事の質に一般化しない。",
       "related_topic_ids": [
@@ -27,6 +28,10 @@
       },
       "research_brief_ids": [
         "RB-24749966"
+      ],
+      "source_review_ids": [
+        "RL7-walking2014",
+        "RL7-walking2026"
       ]
     },
     {

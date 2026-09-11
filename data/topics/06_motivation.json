@@ -154,12 +154,24 @@
       "priority": 2,
       "source_ids": [
         "SRC048",
-        "SRC049"
+        "SRC049",
+        "SRC288",
+        "SRC289",
+        "SRC290",
+        "SRC291"
       ],
       "caution_ja": "信じるだけで能力が上がるとしない。効果の大きさと支援環境を確認する。",
       "research_brief_ids": [
         "RB-29505339",
         "RB-31391586"
+      ],
+      "source_review_ids": [
+        "RL7-sisk2018",
+        "RL7-yeager2019",
+        "RL7-mindcritical2023",
+        "RL7-mindconditions2023",
+        "RL7-mindstructured2025",
+        "RL7-mindproposal2026"
       ]
     },
     {

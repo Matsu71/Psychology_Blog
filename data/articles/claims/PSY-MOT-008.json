@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PSY-MOT-008",
+  "title": "「努力すれば伸びる」と信じれば成績は上がる？成長マインドセットの効果を読み直す",
+  "delivery_id": "learning-20260911",
+  "authoring_input_sha256": "b9aa83e90f2f27dd8f2fa6ec3062fdf927cf7bc967598a3184add1dee7cd7a3b",
+  "claims": [
+    {
+      "id": "PSY-MOT-008-L01",
+      "text_ja": "成長できると考える人の成績が高くても、その信念だけが原因とは限りません。学習環境や過去の成功経験が両方に関わる可能性があります。介入を受けた群と受けない群を比べる必要があるのは、このためです。\n\n2018年の二つのメタ分析は、信念と学業の関連、信念への介入を分けて検討し、全体として小さな効果を報告しました。「努力を信じれば大きく伸びる」という単純な宣伝とは距離があります。",
+      "source_ids": [
+        "SRC048"
+      ],
+      "source_check_ids": [
+        "SL7-sisk2018"
+      ],
+      "population_and_scope_ja": "信念の相関と介入研究の区別。",
+      "not_supported_ja": "本人の成績や家庭環境を信念だけで説明しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-008-L02",
+      "text_ja": "一方のレビューは63研究を統合し、学業への平均効果は小さく、出版バイアスを考慮すると明確でなくなると報告しました。著者らが質の高いものとした研究に絞っても、はっきりした改善は見られませんでした。\n\nもう一方のレビューは「誰に、どう実施したか」に注目し、対象を絞って予定通りに実施できた条件では、小さな学業上の改善があると報告しました。ただし、新しい場面で想定される効果の範囲にはゼロや負の値も含まれました。これは全員への平均効果ではありません。\n\nこの二つを、効果ありの論文と効果なしの論文の多数決にするべきではありません。選んだ研究や統合方法、全体平均と条件付き効果という問いの違いがあるからです。",
+      "source_ids": [
+        "SRC288",
+        "SRC289"
+      ],
+      "source_check_ids": [
+        "SL7-mindcritical2023",
+        "SL7-mindconditions2023"
+      ],
+      "population_and_scope_ja": "全体平均、品質別分析、対象と実施忠実度を限定した学業結果を対比。",
+      "not_supported_ja": "条件付きd=.14を全員の効果としない。レビュー同士の重複を独立実験の票数にしない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-008-L03",
+      "text_ja": "米国の学校で行われた2019年の実験は、低成績層の改善だけでなく、挑戦を支える仲間の規範などによって結果が異なることを報告しました。2025年の学齢期の試験を対象にした整理でも、信頼性を重視して残した試験の効果は無効果から小さな範囲にとどまるとされています。\n\n「信じられなかったから伸びなかった」と子どもを責めるのは、研究からは導けません。挑戦できる教材、質問できる相手、失敗後に修正する機会などを、本人の言葉遣いと切り離さず考えます。",
+      "source_ids": [
+        "SRC049",
+        "SRC290"
+      ],
+      "source_check_ids": [
+        "SL7-yeager2019",
+        "SL7-mindstructured2025"
+      ],
+      "population_and_scope_ja": "米国の学校試験と学齢期の知能観に限定したレビュー。",
+      "not_supported_ja": "日本・成人・すべての能力への一律な効果を主張しない。",
+      "kind": "evidence",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    },
+    {
+      "id": "PSY-MOT-008-L04",
+      "text_ja": "2026年には、成長への信念を教えるだけでなく、思い出す練習など実際の学習行動との組み合わせを調べようという論考も出ています。これは実用的な問いですが、その論文自体が組み合わせの上乗せ効果を確かめた試験ではありません。\n\n新しい研究でも、実験の結果なのか、次に検証する提案なのかを分ける必要があります。「最新論文に書かれた」だけでは、効果が確定したとは言えません。",
+      "source_ids": [
+        "SRC291"
+      ],
+      "source_check_ids": [
+        "SL7-mindproposal2026"
+      ],
+      "population_and_scope_ja": "学習法との複合介入を提案する論考。",
+      "not_supported_ja": "組み合わせの相乗効果を実証済みとしない。",
+      "kind": "limitations",
+      "evidence_certainty": "not_formally_assessed",
+      "publication_ready": false
+    }
+  ],
+  "application": {
+    "type": "editorial_application_not_directly_validated_protocol",
+    "text": "例えばテスト後なら、「才能がない」や「もっと努力しよう」だけで終えず、どこで方法を選べなかったか、次はどの例題に戻るかを一緒に確認します。声かけを、次に実行できる作業と支援へつなげる考え方です。これは編集上の応用例で、この会話の文言や順番の効果が比較試験で保証されたわけではありません。",
+    "safety": "努力不足や信じ方を成績の唯一の原因にしないでください。学習上の困難、時間、経済条件、必要な支援も考慮します。"
+  },
+  "review_items": [
+    "2023年の二つのメタ分析は抄録中心の確認。全コード・選別基準の独立再現は未実施。",
+    "2025年レビューと2026年の提案を、新しい独立介入試験の人数として加算していない。"
+  ],
+  "unresolved_source_keys": [],
+  "independent_review_completed": false,
+  "publication_ready": false,
+  "editorial_self_check": {
+    "completed": true,
+    "method": "single_AI_claim_and_scope_check",
+    "checks": [
+      "主張と引用の一致",
+      "反対結果と条件差の併記",
+      "数値の分母と比較条件",
+      "応用例の明示",
+      "未確認の報告不一致を推測しない"
+    ]
+  },
+  "previous_manuscript_sha256": null
+}
