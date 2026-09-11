@@ -1,0 +1,29 @@
+name: One-shot literature discovery
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/collect_literature.py'
+      - 'scripts/research_queries.json'
+      - '.github/workflows/collect-literature.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect candidate metadata from Europe PMC
+        run: python3 scripts/collect_literature.py
+      - name: Save temporary evidence-reading bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: literature-research-bundle
+          path: research_output/
+          if-no-files-found: error
+          retention-days: 1
