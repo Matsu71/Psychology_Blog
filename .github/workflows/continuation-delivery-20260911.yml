@@ -4,68 +4,92 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'research/continuation_delivery_20260911/articles_*.json'
-      - 'scripts/build_continuation_delivery_20260911.py'
+      - 'research/editorial_pass_20260911/**'
+      - 'scripts/install_continuation_checks.py'
+      - 'scripts/apply_editorial_pass.py'
+      - 'scripts/validate_editorial_pass.py'
       - '.github/workflows/continuation-delivery-20260911.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: psychology-continuation-delivery-20260911
+  group: psychology-canonical-editorial-delivery
   cancel-in-progress: false
 
 jobs:
   deliver:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Check authored prose, source selectors, claim scopes and protected data
+      - name: Integrate scoped source checks and render canonical manuscripts
         run: |
-          python3 scripts/build_continuation_delivery_20260911.py
+          python3 scripts/install_continuation_checks.py
+          python3 scripts/apply_editorial_pass.py
+      - name: Validate identifiers, claims, protected data and output
+        run: |
           python3 scripts/validate.py
           python3 scripts/validate_research.py
           python3 scripts/validate_round3.py
-      - name: Confirm deterministic rendering
+          python3 scripts/validate_editorial_pass.py
+          python3 - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          def before(path):
+              return json.loads(subprocess.check_output(['git','show','HEAD:'+path],text=True))
+          count=0
+          for category in before('data/categories.json')['categories']:
+              path=category['file']
+              old=before(path)['topics']; new=json.loads(Path(path).read_text())['topics']
+              assert [(t['id'],t['title_ja']) for t in old]==[(t['id'],t['title_ja']) for t in new]
+              for a,b in zip(old,new): assert set(a['source_ids'])<=set(b['source_ids'])
+              count+=len(old)
+          assert count==300
+          p=json.loads(Path('data/articles/progress.json').read_text())
+          assert p['top20_source_checked_count']==20 and not p['goal_completed']
+          assert p['publication_ready_count']==0
+          selected=['DEC-006','SLP-007','SLP-001','LEA-001','WRK-002','DIG-001','WEL-005','HAB-005','LAN-008','MON-001']
+          for tid in selected:
+              a=json.loads(Path('research/editorial_pass_20260911/PSY-'+tid+'.json').read_text())['article']
+              assert len(a['lead'])+sum(len(s['text']) for s in a['sections'])>=1000,tid
+          print('PASS: all original 300 theme IDs, titles, order and source links; 20/20 top-theme dossiers; no premature release.')
+          PY
+      - name: Confirm deterministic canonical rendering
         run: |
           python3 - <<'PY'
           import hashlib,subprocess
           from pathlib import Path
-          paths=list(Path('articles/continuation_20260911').glob('*.md'))
-          paths+=list(Path('data/articles/continuation_20260911').rglob('*.json'))
-          before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
-          subprocess.run(['python3','scripts/build_continuation_delivery_20260911.py'],check=True)
-          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in before.items())
-          print('PASS: deterministic output. This is not a scientific or publication approval.')
+          paths=list(Path('articles/manuscripts').glob('*.md'))+list(Path('data/articles/claims').glob('*.json'))
+          paths += [Path('data/articles/progress.json'),Path('data/sources.json')]
+          hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+          subprocess.run(['python3','scripts/apply_editorial_pass.py'],check=True)
+          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in hashes.items())
+          print('PASS: deterministic manuscripts, claims, progress and registry.')
           PY
-      - name: Commit verified generated manuscripts without overwriting concurrent edits
+      - name: Commit validated data without workflow changes or force push
         run: |
-          original=$(git rev-parse HEAD)
-          remote=$(git ls-remote origin refs/heads/main | cut -f1)
-          test "$original" = "$remote" || { echo 'Concurrent main change; preserve output for reconciliation.'; exit 1; }
+          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent change; preserve output and reconcile.'; exit 1; }
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add articles/continuation_20260911 data/articles/continuation_20260911 docs/CONTINUATION_DELIVERY.md
+          git add research/editorial_pass_20260911 scripts data docs articles README.md
           if ! git diff --cached --quiet; then
-            git commit -m 'editorial: persist ten continuation manuscripts and scoped claim dossiers'
+            git commit -m 'editorial: complete scoped source checks for top 20 and persist revised canonical manuscripts'
             git push origin HEAD:main
           fi
-      - name: Export a recoverable snapshot and any uncommitted output
+      - name: Export recoverable snapshot and exact commit
         if: always()
         run: |
           mkdir -p continuation-export
           git archive --format=zip --output=continuation-export/repository.zip HEAD
           git rev-parse HEAD > continuation-export/source_commit.txt
           git status --short > continuation-export/uncommitted_status.txt
+          git diff --binary > continuation-export/uncommitted.patch
           python3 - <<'PY'
-          from pathlib import Path
           import shutil
-          out=Path('continuation-export')
-          for src,dst in [('articles/continuation_20260911','manuscripts'),('data/articles/continuation_20260911','dossiers')]:
-              if Path(src).is_dir():shutil.copytree(src,out/dst,dirs_exist_ok=True)
-          p=Path('docs/CONTINUATION_DELIVERY.md')
-          if p.is_file():shutil.copyfile(p,out/p.name)
+          from pathlib import Path
+          p=Path('data/articles/progress.json')
+          if p.is_file():shutil.copyfile(p,'continuation-export/article_progress.json')
           PY
       - uses: actions/upload-artifact@v4
         if: always()
