@@ -1,0 +1,60 @@
+name: Supplement key literature
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/supplement-literature.yml'
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve additional key studies and corrections
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures, json
+          from pathlib import Path
+          from scripts.collect_literature import search
+          queries = [
+            'DOI:10.1038/s41586-024-07500-2',
+            'DOI:10.1038/s41562-025-02259-6',
+            'TITLE:"chatbot" AND AUTH_LAST:Heinz AND FIRST_PDATE:[2025-01-01 TO 2025-12-31]',
+            'TITLE:"boredom" AND AUTH_LAST:Tam AND FIRST_PDATE:[2024-01-01 TO 2024-12-31]',
+            'TITLE:"marshmallow" AND AUTH_LAST:Watts AND FIRST_PDATE:[2018-01-01 TO 2018-12-31]',
+            'TITLE:"social media" AND AUTH_LAST:Valkenburg AND FIRST_PDATE:[2022-01-01 TO 2022-12-31]',
+            'TITLE:"choice overload" AND FIRST_PDATE:[2010-01-01 TO 2010-12-31]',
+            'TITLE:"cognitive" AND TITLE:"depression" AND AUTH_LAST:Cuijpers AND FIRST_PDATE:[2023-01-01 TO 2023-12-31]',
+            'TITLE:"Weekend Recovery Sleep" AND FIRST_PDATE:[2019-01-01 TO 2019-12-31]',
+            'TITLE:"Job strain" AND TITLE:"coronary" AND FIRST_PDATE:[2012-01-01 TO 2012-12-31]',
+            'TITLE:"Long working hours" AND TITLE:"stroke" AND FIRST_PDATE:[2015-01-01 TO 2015-12-31]',
+            'TITLE:"foreign" AND TITLE:"language" AND AUTH_LAST:Keysar AND FIRST_PDATE:[2012-01-01 TO 2012-12-31]',
+            'EXT_ID:38806193 AND SRC:MED',
+            'EXT_ID:30646107 AND SRC:MED',
+            'EXT_ID:40111841 AND SRC:MED',
+            'TITLE:"stress" AND TITLE:"common cold" AND AUTH_LAST:Cohen',
+            'TITLE:"cashless" AND FIRST_PDATE:[2024-01-01 TO 2024-12-31]',
+            'TITLE:"brainstorming" AND TITLE:"meta-analysis"',
+            'TITLE:"psychological treatments" AND TITLE:"procrastination"',
+            'TITLE:"self-compassion" AND TITLE:"meta-analysis" AND FIRST_PDATE:[2023-01-01 TO 2023-12-31]'
+          ]
+          def task(q):
+              try:
+                  rows, url = search(q)
+                  return {'query': q, 'url': url, 'status': 'completed', 'records': rows}
+              except Exception as e:
+                  return {'query': q, 'status': 'failed', 'error': str(e), 'records': []}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+              results = list(pool.map(task, queries))
+          p = Path('supplement_output'); p.mkdir(exist_ok=True)
+          (p/'supplement.json').write_text(json.dumps(results, ensure_ascii=False, indent=2))
+          print(json.dumps([{'query':x['query'],'status':x['status'],'hits':len(x['records'])} for x in results]))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: supplemental-literature
+          path: supplement_output/
+          retention-days: 1
+          if-no-files-found: error
