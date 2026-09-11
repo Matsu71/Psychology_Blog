@@ -1,0 +1,55 @@
+name: Round 4 bibliography cross-check
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/round4-bibliography-crosscheck.yml']
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Obtain public metadata for unresolved references
+        run: |
+          python3 - <<'PY'
+          import json,time,urllib.request,urllib.parse,concurrent.futures,datetime
+          from pathlib import Path
+          def get(url):
+              req=urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/1.0'})
+              with urllib.request.urlopen(req,timeout=25) as f:return json.load(f)
+          jobs=[]
+          dois=['10.1093/qje/qjs017','10.1037/0033-2909.110.1.109','10.1016/j.jretai.2024.05.003','10.1086/651235','10.1016/s0065-2601(06)38002-1','10.1016/j.socec.2020.101629','10.1080/17439760.2014.967799','10.1080/1750984x.2021.1923055','10.1037/0022-3514.35.4.250','10.1016/j.jenvp.2006.10.002','10.1016/j.jenvp.2021.101638','10.1016/j.avb.2015.05.019','10.1016/j.jretai.2022.06.003','10.1257/aer.20190658','10.1038/s44271-024-00167-5','10.1016/j.jcps.2015.07.001']
+          for doi in dois:
+              jobs.append(('crossref_doi',doi,'https://api.crossref.org/works/'+urllib.parse.quote(doi,safe='')))
+              jobs.append(('semantic_scholar',doi,'https://api.semanticscholar.org/graph/v1/paper/DOI:'+urllib.parse.quote(doi,safe='')+'?fields=title,year,authors,abstract,externalIds,url,openAccessPdf'))
+          queries=[
+          ('PSY-DIG-007','TITLE:phubbing AND (TITLE:meta OR TITLE:experiment)'),
+          ('PSY-DIG-008','TITLE:cyberbullying AND TITLE:coping AND SRC:MED'),
+          ('PSY-ENV-011','TITLE:crowding AND (TITLE_ABS:stress OR TITLE_ABS:commuting) AND SRC:MED'),
+          ('PSY-SOC-004','TITLE:"halo effect" AND TITLE_ABS:judgment AND SRC:MED'),
+          ('PSY-ATT-009','TITLE:flow AND (TITLE:psychological OR TITLE_ABS:"optimal experience") AND TITLE:review AND SRC:MED'),
+          ('PSY-HAB-006','DOI:"10.1093/qje/qjs017"'),
+          ('PSY-CRE-010','TITLE:nostalgia AND AUTH_LAST:Newman AND SRC:MED'),
+          ('PSY-SLP-009','TITLE:"bedtime procrastination" AND (TITLE:trial OR TITLE:intervention) AND SRC:MED'),
+          ('PSY-LIF-005','EXT_ID:41705737 AND SRC:MED')]
+          for tid,q in queries:
+              u='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':'('+q+') AND FIRST_PDATE:[1900-01-01 TO 2026-09-11]','format':'json','resultType':'core','pageSize':10})
+              jobs.append(('epmc',tid,u))
+          out=[]
+          for i,(provider,key,url) in enumerate(jobs,1):
+              try:body=get(url);result={'status':'success','body':body}
+              except Exception as e:result={'status':'failed','error':str(e)}
+              result.update(id=f'R4-X{i:03d}',provider=provider,key=key,api_url=url,checked_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat());out.append(result)
+              print(provider,key,result['status'],flush=True)
+              if provider=='semantic_scholar':time.sleep(1)
+          p=Path('round4_crosscheck');p.mkdir(exist_ok=True);(p/'crosscheck.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round4-bibliography-check
+          path: round4_crosscheck/
+          retention-days: 1
+          if-no-files-found: error
