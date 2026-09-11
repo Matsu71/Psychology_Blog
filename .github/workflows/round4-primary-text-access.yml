@@ -1,0 +1,51 @@
+name: Round 4 primary text access
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/round4-primary-text-access.yml']
+permissions:
+  contents: read
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve public primary text without credentials
+        run: |
+          python3 - <<'PY'
+          import json,time,urllib.request,urllib.parse,concurrent.futures,datetime,xml.etree.ElementTree as ET
+          from pathlib import Path
+          tasks=[]
+          for pii in ['S0022435924000216','S2214804320306728','S0272494406000636','S0272494421000918','S1359178915000802']:
+              tasks.append(('publisher_text',pii,'https://api.elsevier.com/content/article/PII:'+pii+'?httpAccept=text/xml'))
+          qs=[('halo_meta','DOI:"10.1037/0033-2909.110.1.109"'),('halo_experiment','DOI:"10.3389/fpsyg.2025.1653843"'),('anchor_price','TITLE:"Anchors on prices of consumer goods"'),('commuting_stress','TITLE:"Rail commuting duration"'),('crowding_perception','DOI:"10.1038/s41598-026-43541-5"'),('credit_card','DOI:"10.1038/s41598-021-83488-3"'),('planning','TITLE:"implementation intentions" AND TITLE:"physical activity" AND (TITLE:meta OR TITLE:review) AND SRC:MED'),('eating_trial','TITLE:"Playing a computer game during lunch"'),('optimism','TITLE:"Unrealistic optimism" AND TITLE:"future life events"'),('nostalgia_daily','TITLE:"bittersweet taste of nostalgia"')]
+          for key,q in qs:
+              tasks.append(('epmc',key,'https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':'('+q+') AND FIRST_PDATE:[1900-01-01 TO 2026-09-11]','format':'json','resultType':'core','pageSize':6})))
+          for pmc in ['PMC11608366','PMC4434546','PMC4062817','PMC5559044']:
+              tasks.append(('open_xml',pmc,'https://www.ebi.ac.uk/europepmc/webservices/rest/'+pmc+'/fullTextXML'))
+          tasks.append(('publisher_html','choice2010','https://academic.oup.com/jcr/article-lookup/doi/10.1086/651235'))
+          def run(x):
+              provider,key,url=x
+              out={'provider':provider,'key':key,'url':url,'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+              try:
+                  req=urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/1.0'})
+                  with urllib.request.urlopen(req,timeout=35) as f:b=f.read();ct=f.headers.get('Content-Type','')
+                  if provider=='epmc':out['body']=json.loads(b)
+                  elif provider in ('publisher_text','open_xml'):
+                      tree=ET.fromstring(b);out['text']=' '.join(tree.itertext());out['xml']=b.decode('utf-8')
+                  else:out['text']=b.decode('utf-8')
+                  out.update(status='success',content_type=ct)
+              except Exception as e:out.update(status='failed',error=str(e))
+              return out
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:results=list(ex.map(run,tasks))
+          p=Path('round4_primary');p.mkdir(exist_ok=True);(p/'primary.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
+          print([(x['key'],x['status']) for x in results])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round4-primary-text
+          path: round4_primary/
+          retention-days: 1
+          if-no-files-found: error
