@@ -1,0 +1,88 @@
+name: Round 4 targeted source resolution
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/round4-resolve-targeted-gaps.yml']
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve exact study titles without broad keyword substitution
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,datetime,json,time,urllib.request,urllib.parse
+          from pathlib import Path
+          seeds=[
+          ('PSY-HAB-006','choice architecture interventions Mertens Herberz Hahnel Brosch'),
+          ('PSY-HAB-006','Nudge units randomized controlled trials DellaVigna Linos'),
+          ('PSY-HAB-006','Defaults are not the same by default cafeteria proximity food randomized'),
+          ('PSY-PER-009','Sensory Processing Sensitivity in the context of Environmental Sensitivity Greven'),
+          ('PSY-ATT-008','Task performance under stress time pressure Szalma Hancock Quinn'),
+          ('PSY-ATT-008','The speed accuracy tradeoff history physiology methodology behavior Heitz'),
+          ('PSY-ATT-009','The challenge skill balance and antecedents of flow Fong Zaleski Leach'),
+          ('PSY-ATT-009','Flow interventions systematic review sport exercise'),
+          ('PSY-DEC-002','Anchoring in economics meta analysis willingness pay willingness accept'),
+          ('PSY-DEC-008','Unrealistic optimism about future life events Weinstein'),
+          ('PSY-SOC-004','The halo effect Evidence for unconscious alteration of judgments Nisbett Wilson'),
+          ('PSY-WEL-007','A social comparison theory meta analysis 60 years Gerber Wheeler Suls'),
+          ('PSY-DIG-003','Doomscrolling Scale development associations personality distress Satici'),
+          ('PSY-DIG-007','Partner phubbing relationship satisfaction meta analysis'),
+          ('PSY-DIG-008','Coping with cyberbullying systematic literature review Perren'),
+          ('PSY-DIG-008','coping online harassment adults review strategies'),
+          ('PSY-MON-004','The red and the black mental accounting of savings and debt Prelec Loewenstein'),
+          ('PSY-MON-005','Impulse buying meta analytic review Iyer Blut Xiao Grewal'),
+          ('PSY-MON-009','Scarcity tactics marketing meta analysis product scarcity purchase intentions'),
+          ('PSY-INT-008','More information than you ever wanted does Facebook bring out the green eyed monster Muise'),
+          ('PSY-INT-008','Social networking sites romantic relationships surveillance jealousy systematic review'),
+          ('PSY-ENV-011','Crowding and personal space invasion on the train Please do not make me sit in the middle Evans Wener'),
+          ('PSY-CRE-010','Nostalgia content triggers functions Wildschut Sedikides Arndt Routledge'),
+          ('PSY-CRE-010','The bittersweet taste of nostalgia in daily life Newman Sachs Stone Schwarz'),
+          ('PSY-LIF-004','A longitudinal analysis of satisfaction with migration decisions Nowok Findlay McCollum'),
+          ('PSY-LIF-004','Residential relocation changes subjective wellbeing Nowok van Ham Findlay Gayle'),
+          ('PSY-LIF-005','Empty nest well being biological parents stepparents'),
+          ('PSY-LIF-005','She is leaving home large sample empty nest life satisfaction'),
+          ('PSY-SLP-009','Bedtime procrastination daily diary chronotype self regulatory resources'),
+          ('PSY-SLP-009','bedtime procrastination intervention randomized trial Chung 2023'),
+          ('PSY-MOT-001','procrastination interventions randomized controlled trial internet cognitive behavioral therapy Rozental'),
+          ('PSY-LEA-001','Retrieval practice produces more learning than elaborative studying with concept mapping Karpicke Blunt'),
+          ('PSY-MON-001','Buying time promotes happiness Whillans Dunn Smeets Bekkers Norton'),
+          ('PSY-PER-002','Volitional personality trait change interventions systematic review'),
+          ('PSY-DIG-004','Does a break from social media improve well being systematic review meta analysis'),
+          ('PSY-WEL-005','Experienced well being rises with income even above 75000 Killingsworth'),
+          ('PSY-ATT-004','Brief and rare mental breaks keep you focused deactivation reactivation vigilance goals Ariga Lleras')]
+          def get(url):
+              for attempt in range(3):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'PsychologyBlogResearch/1.0'})
+                      with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
+                  except Exception:
+                      if attempt==2:raise
+                      time.sleep(attempt+1)
+          def cr(item):
+              tid,q=item;url='https://api.crossref.org/works?'+urllib.parse.urlencode({'query.title':q,'rows':5,'filter':'until-pub-date:2026-09-11'})
+              try:rows=get(url)['message']['items'];return {'topic_id':tid,'query':q,'api_url':url,'provider':'crossref','status':'success','records':rows}
+              except Exception as e:return {'topic_id':tid,'query':q,'api_url':url,'provider':'crossref','status':'failed','error':str(e),'records':[]}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:results=list(ex.map(cr,seeds))
+          dois=list(dict.fromkeys(r['DOI'] for q in results for r in q['records'][:3] if r.get('DOI')))
+          def ep(doi):
+              query='DOI:"'+doi+'" AND FIRST_PDATE:[1900-01-01 TO 2026-09-11]'
+              url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':query,'format':'json','resultType':'core','pageSize':5})
+              try:return {'query':query,'api_url':url,'provider':'epmc','status':'success','records':get(url).get('resultList',{}).get('result',[])}
+              except Exception as e:return {'query':query,'api_url':url,'provider':'epmc','status':'failed','error':str(e),'records':[]}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:results+=list(ex.map(ep,dois))
+          for i,q in enumerate(results,1):q.update(id=f'R4-S{i:03d}',checked_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+          p=Path('round4_supplement');p.mkdir(exist_ok=True)
+          (p/'supplement.json').write_text(json.dumps({'searches':results},ensure_ascii=False,indent=2))
+          print(json.dumps({'searches':len(results),'failures':sum(q['status']!='success' for q in results)}))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: psychology-round4-targeted-reading
+          path: round4_supplement/
+          retention-days: 1
+          if-no-files-found: error
