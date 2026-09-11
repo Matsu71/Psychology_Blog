@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/verify-editorial-delivery.yml'
       - 'scripts/apply_editorial_delivery.py'
+      - 'scripts/build_editorial_articles.py'
+      - 'scripts/validate_editorial_articles.py'
       - 'research/editorial_delivery/**'
 permissions:
   contents: write
@@ -17,34 +19,35 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Apply reviewed data when a delivery exists
+      - name: Apply reviewed data and compatible views
         run: |
-          if [ -f scripts/apply_editorial_delivery.py ]; then
-            python3 scripts/apply_editorial_delivery.py
-          fi
-      - name: Validate existing database
+          python3 scripts/upgrade_editorial_views.py
+          python3 scripts/apply_editorial_delivery.py
+      - name: Validate database and any article dossiers
         run: |
           python3 scripts/validate.py
           python3 scripts/validate_research.py
           python3 scripts/validate_round3.py
-      - name: Commit data without workflow changes or force push
+          if [ -f scripts/validate_editorial_articles.py ]; then python3 scripts/validate_editorial_articles.py; fi
+      - name: Commit without workflow changes or force push
         run: |
           test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)" || { echo 'Concurrent update; reconcile before retrying.'; exit 1; }
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data docs README.md
+          git add data docs README.md scripts
           if [ -d articles ]; then git add articles; fi
           if ! git diff --cached --quiet; then
             git commit -m 'data: integrate reviewed sources, claim dossiers and editorial progress'
             git push origin HEAD:main
           fi
-      - name: Export current tracked files for independent verification
+      - name: Export tracked files and uncommitted recovery data
         if: always()
         run: |
           mkdir -p editorial-export
           git archive --format=zip --output=editorial-export/repository.zip HEAD
           git rev-parse HEAD > editorial-export/source_commit.txt
           git status --short > editorial-export/uncommitted_status.txt
+          git diff > editorial-export/uncommitted.patch
       - uses: actions/upload-artifact@v4
         if: always()
         with:
