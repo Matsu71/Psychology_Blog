@@ -217,6 +217,34 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-008-SRC233",
+      "topic_id": "PSY-ATT-008",
+      "source_id": "SRC233",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-6c6a3ce05b12",
+      "finding_scope_ja": "不確実な選択課題で、時間制約の有無による気分と情報処理の変化を検討しています。時間圧力の影響は課題の構造や必要な処理に依存し、単純に判断が速く正確になるという結果ではありません。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "実験室の意思決定と、仕事の締切による長期の成果・創造性は別です。締切があれば誰でも集中できるという処方には使いません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-009-SRC234",
+      "topic_id": "PSY-ATT-009",
+      "source_id": "SRC234",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-47d54d3d0304",
+      "finding_scope_ja": "スポーツと運動におけるフローへの介入29研究を整理したレビューです。単一事例研究や準実験が多く、現状の研究からフローを確実に生じさせる方法を特定するには不十分としています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "仕事や学習への効果を直接検証した統合研究ではありません。挑戦と技能を合わせれば必ずフローに入れるという保証にしません。オンライン公開2021年、掲載巻の年は2023年です。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

@@ -163,6 +163,76 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-004-SRC249",
+      "topic_id": "PSY-MON-004",
+      "source_id": "SRC249",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-7864133217d3",
+      "finding_scope_ja": "消費の楽しさと支払いの不快感が互いに意識される仕組みを、心理的な会計モデルと調査から検討しています。支払う時期や料金方式が、消費と支払いの結び付きに関わるという説明です。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "痛みという表現は支払いに伴う心理的経験であり、脳内の単一部位や実際の損失額を診断するものではありません。モデルの適合とすべての購入行動の因果説明を区別します。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-005-SRC250",
+      "topic_id": "PSY-MON-005",
+      "source_id": "SRC250",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-0b19867b7a11",
+      "finding_scope_ja": "100論文の178関係を統合し、衝動買いが衝動性、感情、店舗環境など複数の要因と関連することを検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "疲れた夜だから購入が増える、という因果を直接示す統合結果ではありません。疲労・時刻・気分の効果を一緒にせず、タイトルの中心疑問には追加の直接研究が必要です。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-008-SRC251",
+      "topic_id": "PSY-MON-008",
+      "source_id": "SRC251",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-abd448a7dc98",
+      "finding_scope_ja": "大規模なカード決済データで、カード交換により能動的な更新が必要な月には解約が増えることを示しています。不注意と切り替え費用というモデルで、更新・解約の摩擦を検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "売上への影響の推定にはモデルと固定した初期加入者という仮定があります。売上が増えるという推定を、全利用者の損失が同率で増えるという話にしません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-008-SRC252",
+      "topic_id": "PSY-MON-008",
+      "source_id": "SRC252",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-c9aa7405844b",
+      "finding_scope_ja": "米国のスポーツクラブ3施設、7752人の契約と利用を調べ、実際の利用頻度に比べて定額契約が割高になる例や、解約の遅れを検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "2006年の特定の施設・料金設定です。すべての定額契約が損という根拠ではなく、将来の利用予測や便利さの価値を分けます。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-009-SRC253",
+      "topic_id": "PSY-MON-009",
+      "source_id": "SRC253",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-475d53f9626f",
+      "finding_scope_ja": "商品の希少性を、需要・供給・品ぞろえ・時間や数量などに分け、購入判断との関係を統合しています。どの希少性の手がかりでも同じように働くわけではないと整理しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "期間限定なら必ず売れる、という法則ではありません。購入意図と実際の支出、商品の種類を区別し、人を焦らせる設計の指南にしません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

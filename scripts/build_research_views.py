@@ -201,6 +201,9 @@ def build() -> dict:
         current_selected_fulltext_topic_count=sum(r['selected_fulltext_source_count']>0 for r in queue))
     save('data/research/coverage.json',coverage)
     render_docs(categories, documents, editorial, queue, by_topic, sources, coverage)
+    if (ROOT/'data/research/editorial_delivery_report.json').exists():
+        from apply_editorial_delivery import render_delivery_docs
+        render_delivery_docs()
     return {'topic_count':len(topics),'source_count':len(sources),'edge_count':len(edges),
         'editorial_count':len(editorial),'queue_count':len(queue),'source_unregistered_count':coverage['search_pending_count']}
 
@@ -220,6 +223,8 @@ def render_docs(categories, documents, editorial, queue, by_topic, sources, cove
     notes=['# 第3回：追加出典の確認メモ', '',
         '書誌のみと抄録を分離しています。点数は調査の優先順であり、真である確率ではありません。全文の指定箇所の確認はdata/source_assessments.jsonを参照してください。', '']
     for review in load('data/research/source_reviews.json')['reviews']:
+        if review.get('delivery_id'):
+            continue
         source=sources[review['source_id']]
         notes += [f"## {review['id']} / {review['source_id']} — {source['title']}", '',
             f"{source['authors_display']} / {source['year']} / {source['journal']}", '',
@@ -230,7 +235,7 @@ def render_docs(categories, documents, editorial, queue, by_topic, sources, cove
     text('docs/ROUND3_SOURCE_NOTES.md','\n'.join(notes))
     index=['# 全300テーマの索引', '', '正本のID・並び順を維持。新しい資料は書誌だけの場合もあります。', '']
     for category in categories:
-        index += ['## '+category['name_ja'], '', '| ID | テーマ | 登録資料数 | 第3回読解メモ数 |','|---|---|---:|---:|']
+        index += ['## '+category['name_ja'], '', '| ID | テーマ | 登録資料数 | 累計読解メモ数 |','|---|---|---:|---:|']
         for t in documents[category['id']]['topics']:
             index.append(f"| {t['id']} | {t['title_ja']} | {len(t['source_ids'])} | {len(t.get('source_review_ids',[]))} |")
         index.append('')

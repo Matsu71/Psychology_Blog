@@ -1,0 +1,501 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "topics": [
+    {
+      "topic_id": "PSY-HAB-006",
+      "title_ja": "やる気を増やすより、始める手間を減らす方がよい？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC231"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC231",
+          "limits_ja": "大学進学の申請という特定状況の複合介入です。運動着を出しておく効果や、意欲を高める方法より手間を減らす方が常に優れることを検証した研究ではありません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-PER-009",
+      "title_ja": "『繊細な人』という言葉は研究ではどう扱われる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC232"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC232",
+          "limits_ja": "概念を吟味するレビューであり、ネット上のHSP診断の妥当性や特定の治療・職業選択を保証する資料ではありません。タイプ分けの確定診断と混同しません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-008",
+      "title_ja": "締切が近いほど集中できるのはよいこと？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC233"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC233",
+          "limits_ja": "実験室の意思決定と、仕事の締切による長期の成果・創造性は別です。締切があれば誰でも集中できるという処方には使いません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ATT-009",
+      "title_ja": "フロー状態は狙って作れる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC234"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC234",
+          "limits_ja": "仕事や学習への効果を直接検証した統合研究ではありません。挑戦と技能を合わせれば必ずフローに入れるという保証にしません。オンライン公開2021年、掲載巻の年は2023年です。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-002",
+      "title_ja": "最初に見た値段が判断の基準になる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC235",
+        "SRC236"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC235",
+          "limits_ja": "実際の購入額を常に同じ割合で変える効果ではありません。質問の数値推定と実際のお金を使う選択を分け、より大規模な追試と比較します。"
+        },
+        {
+          "source_id": "SRC236",
+          "limits_ja": "特定の実験の追試であり、すべてのアンカリング現象を否定したものではありません。異なる研究手続きや対象まで同じ効果量を当てはめません。 自己追試であり完全に独立した再現ではありません。標本・アンカー幅・謝礼なども変更されています。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "title_ja": "もう払ったお金が、やめる判断を邪魔する？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC237"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC237",
+          "limits_ja": "一つの普遍的な倍率で説明しません。将来の便益、解約費用、学習効果など本当にこれから変わる要素まで無視するべき、という意味ではありません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-007",
+      "title_ja": "未来の自分より今の自分を優先してしまうのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC238"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC238",
+          "limits_ja": "すぐ得られる報酬を選ぶだけで現在バイアスと診断できません。不確実性や手持ち資金なども選択に影響します。別DOI表記・書籍再録は独立した裏付けに数えません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-008",
+      "title_ja": "『自分は大丈夫』と思うのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC239",
+        "SRC240",
+        "SRC241"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC239",
+          "limits_ja": "希望を持つことすべてが誤りという主張ではありません。各人の現実のリスクを、この一般論から診断できません。資金提供先の記載を訂正した告知を別途確認しました。"
+        },
+        {
+          "source_id": "SRC240",
+          "limits_ja": "独立した効果研究ではありません。結果を支持する論文本数には数えません。"
+        },
+        {
+          "source_id": "SRC241",
+          "limits_ja": "測定上の批判の対象と、すべての種類の楽観の不存在は同じではありません。4分類のレビューと併読し、相反する結論を単純な多数決にしません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-SOC-004",
+      "title_ja": "第一印象が他の評価まで引っ張る？ハロー効果",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC242",
+        "SRC243"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC242",
+          "limits_ja": "古典的メタ分析の書誌を確認。一次の抄録・全文を今回取得できず、結果は未読解として保留。後続の追試と混同しない。"
+        },
+        {
+          "source_id": "SRC243",
+          "limits_ja": "魅力がある人ほど必ず正確に理解される、という単純な結論にはできません。古典的ハロー効果の全操作を追試した研究でもありません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "title_ja": "他人と比べるほど満足しにくくなる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC244"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC244",
+          "limits_ja": "他人との比較をすべて禁止する根拠ではありません。比較しない対照条件がない研究もあり、実験内の気分と長期の生活満足を区別します。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-002",
+      "title_ja": "SNSは見るだけと交流する使い方で違う？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC245"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC245",
+          "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-003",
+      "title_ja": "不安なニュースを見続けてしまうのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC246"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC246",
+          "limits_ja": "横断データの統計的媒介は時間の順序や因果機序の証明ではありません。不安なニュースを読む人の診断や、利用を減らす介入の効果とは分けます。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-007",
+      "title_ja": "会話中にスマホを見ると、相手はどう感じる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC247"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC247",
+          "limits_ja": "机に電話があるだけで必ず関係が悪化する、としません。緊急連絡や仕事上必要な確認と、会話をないがしろにする行動を区別します。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DIG-008",
+      "title_ja": "オンラインの嫌な交流から心を守るには？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC248"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC248",
+          "limits_ja": "主に関連を扱う研究群で、全被害者が同じ症状を持つとは言えません。ブロックや記録保存の手順の治療効果を比較したレビューでもなく、被害者の責任にしません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-004",
+      "title_ja": "買うときに支払いの痛みを感じるのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC249"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC249",
+          "limits_ja": "痛みという表現は支払いに伴う心理的経験であり、脳内の単一部位や実際の損失額を診断するものではありません。モデルの適合とすべての購入行動の因果説明を区別します。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-005",
+      "title_ja": "疲れた夜に衝動買いしやすくなる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC250"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC250",
+          "limits_ja": "疲れた夜だから購入が増える、という因果を直接示す統合結果ではありません。疲労・時刻・気分の効果を一緒にせず、タイトルの中心疑問には追加の直接研究が必要です。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "title_ja": "使わないサブスクを解約できないのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC251",
+        "SRC252"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC251",
+          "limits_ja": "売上への影響の推定にはモデルと固定した初期加入者という仮定があります。売上が増えるという推定を、全利用者の損失が同率で増えるという話にしません。"
+        },
+        {
+          "source_id": "SRC252",
+          "limits_ja": "2006年の特定の施設・料金設定です。すべての定額契約が損という根拠ではなく、将来の利用予測や便利さの価値を分けます。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-MON-009",
+      "title_ja": "期間限定や残りわずかに弱いのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC253"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC253",
+          "limits_ja": "期間限定なら必ず売れる、という法則ではありません。購入意図と実際の支出、商品の種類を区別し、人を焦らせる設計の指南にしません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-003",
+      "title_ja": "性的な頻度が多いほど満足度は高い？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC254"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC254",
+          "limits_ja": "頻度を増やす実験ではなく、最適な回数や義務を示していません。相手の同意、希望の違い、身体状況を優先し、平均を個人の基準にしません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-007",
+      "title_ja": "睡眠不足の日はパートナーと衝突しやすい？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC255"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC255",
+          "limits_ja": "睡眠を無作為に奪う実験ではありません。対立から睡眠が悪くなる可能性や残る交絡を考慮し、暴力や支配を寝不足で正当化しません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-INT-008",
+      "title_ja": "SNSで相手を確認し続けると安心できる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC256"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC256",
+          "limits_ja": "2009年のFacebookを使う学生の横断調査です。循環や監視の因果を確定していません。現在の全SNSに一般化せず、無断閲覧や追跡を勧めません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-HPS-006",
+      "title_ja": "自分の体を好きになれないとき、無理に肯定すべき？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC257",
+        "SRC258"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC257",
+          "limits_ja": "限定された女性標本と短い追跡です。身体機能を評価することと、近年のボディニュートラルという言葉全体を同一視しません。病気や障害のある人にできることの多さを競わせません。"
+        },
+        {
+          "source_id": "SRC258",
+          "limits_ja": "関連研究の割合が高く、身体への肯定がすべての問題を治すという結論ではありません。小規模試験とレビューを独立した人数として足しません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-ENV-011",
+      "title_ja": "混雑した場所が疲れるのはなぜ？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC259"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC259",
+          "limits_ja": "観察研究で、混雑がすべての疲労の原因とは言えません。2021年の訂正告知の存在を確認しましたが、影響評価は未完了なので数値の中心根拠としては保留します。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-CRE-008",
+      "title_ja": "大人が遊ぶ時間にはどんな価値がある？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC260"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC260",
+          "limits_ja": "抄録の533人を全割付人数と扱いません。脱落742人で、完了者中心の推定、自己報告、ドイツ語圏の女性が多い標本、未事前登録という制約があります。誰でも遊べば幸福になるとは言えません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-CRE-010",
+      "title_ja": "懐かしさを感じると孤独や不安は変わる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC261"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC261",
+          "limits_ja": "短期的な想起の効果と、自然に懐かしさを感じる日の状態は別です。気分の改善は一様ではなく、悲しみやつらい記憶を無理に思い出すことを勧めません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-CRE-011",
+      "title_ja": "制約がある方がアイデアを出しやすい？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC262"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC262",
+          "limits_ja": "無作為化された一つの介入の効果量ではありません。仕事量を増やしたり危険な締切を設けたりすることを、創造性のためと正当化しません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LAN-003",
+      "title_ja": "外国語で考えると判断や感情は変わる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC263"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC263",
+          "limits_ja": "外国語なら必ず合理的・倫理的になるとは言えません。道徳課題の功利的選択、リスクへの態度、実際の生活上の良い判断は同じではありません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-004",
+      "title_ja": "引っ越しで生活満足度や人間関係はどう変わる？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC264"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC264",
+          "limits_ja": "無作為化された転居の試験ではなく、同時に起こる家族・仕事の変化を完全には分けられません。引っ越せば全員が幸せになる、長距離なら不幸になる、のどちらも示しません。"
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-LIF-005",
+      "title_ja": "子どもが独立した後の寂しさにはどんな個人差がある？",
+      "previous_source_count": 0,
+      "registered_source_ids": [
+        "SRC265"
+      ],
+      "registry_integrated": true,
+      "research_question_fully_resolved": false,
+      "limitations_by_source": [
+        {
+          "source_id": "SRC265",
+          "limits_ja": "女性のみの特定の時代・文化の観察研究です。子どもの独立に寂しさを感じることを異常とせず、独立前後の別の出来事も考慮します。"
+        }
+      ]
+    }
+  ],
+  "note_ja": "統合の完了は参照の整合性。科学的結論の確定・記事公開の承認ではありません。"
+}

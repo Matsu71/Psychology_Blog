@@ -113,11 +113,15 @@
       "priority": 1,
       "source_ids": [
         "SRC009",
-        "SRC039"
+        "SRC039",
+        "SRC268"
       ],
       "caution_ja": "参照論文は行動習慣の入口。運動種別の比較は追加研究が必要。",
       "research_brief_ids": [
         "RB-39685110"
+      ],
+      "source_review_ids": [
+        "R5-2108da7ac1fc"
       ]
     },
     {

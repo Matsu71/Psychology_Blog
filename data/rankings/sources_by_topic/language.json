@@ -78,7 +78,29 @@
     },
     {
       "topic_id": "PSY-LAN-003",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-LAN-003-SRC263",
+          "source_id": "SRC263",
+          "title": "The foreign language effect on decision-making: A meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "外国語なら必ず合理的・倫理的になるとは言えません。道徳課題の功利的選択、リスクへの態度、実際の生活上の良い判断は同じではありません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-LAN-004",

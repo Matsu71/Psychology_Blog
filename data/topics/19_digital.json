@@ -14,11 +14,13 @@
       "priority": 1,
       "source_ids": [
         "SRC012",
-        "SRC160"
+        "SRC160",
+        "SRC245"
       ],
       "caution_ja": "2013年の若年成人・Facebook研究を現在の全SNSや全世代の因果効果としない。",
       "source_review_ids": [
-        "R3-C053"
+        "R3-C053",
+        "R5-c3b567a85fb6"
       ]
     },
     {
@@ -31,8 +33,13 @@
       "angle_ja": "時間だけでなく、相手、内容、目的を分けて研究する。",
       "search_query": "active passive social media use well being meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "見るだけは必ず悪いという単純な二分類にせず、測定方法を確認する。"
+      "source_ids": [
+        "SRC245"
+      ],
+      "caution_ja": "見るだけは必ず悪いという単純な二分類にせず、測定方法を確認する。",
+      "source_review_ids": [
+        "R5-c3b567a85fb6"
+      ]
     },
     {
       "id": "PSY-DIG-003",
@@ -44,8 +51,13 @@
       "angle_ja": "不確実さを減らしたい行動と、不安の循環を調べる。",
       "search_query": "doomscrolling negative news anxiety longitudinal study",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "新しい概念の尺度や因果性は未確立な場合がある。情報確認の必要性と区別する。"
+      "source_ids": [
+        "SRC246"
+      ],
+      "caution_ja": "新しい概念の尺度や因果性は未確立な場合がある。情報確認の必要性と区別する。",
+      "source_review_ids": [
+        "R5-97dbaa2294fe"
+      ]
     },
     {
       "id": "PSY-DIG-004",
@@ -120,8 +132,13 @@
       "angle_ja": "必要な連絡と無意識の確認、受け手の解釈を分ける。",
       "search_query": "phubbing smartphone conversation relationship quality experimental meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "仕事やケア上の必要な利用を一方的に非難しない。相関研究の限界を確認する。"
+      "source_ids": [
+        "SRC247"
+      ],
+      "caution_ja": "仕事やケア上の必要な利用を一方的に非難しない。相関研究の限界を確認する。",
+      "source_review_ids": [
+        "R5-2db3153706d0"
+      ]
     },
     {
       "id": "PSY-DIG-008",
@@ -133,8 +150,13 @@
       "angle_ja": "ミュート、相談、支援などの行動について効果と限界を調べる。",
       "search_query": "online harassment coping social support mental health systematic review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "被害者に原因を求めず、差し迫る危険や犯罪は心理対処だけで済ませない。"
+      "source_ids": [
+        "SRC248"
+      ],
+      "caution_ja": "被害者に原因を求めず、差し迫る危険や犯罪は心理対処だけで済ませない。",
+      "source_review_ids": [
+        "R5-6f9985ba2517"
+      ]
     },
     {
       "id": "PSY-DIG-009",

@@ -66,8 +66,15 @@
       "angle_ja": "採用や商品評価で、別々の能力を分けて見る方法を調べる。",
       "search_query": "halo effect impression formation personnel evaluation experiment",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "見た目から性格を推測する診断にしない。評価方法による違いを確認する。"
+      "source_ids": [
+        "SRC242",
+        "SRC243"
+      ],
+      "caution_ja": "見た目から性格を推測する診断にしない。評価方法による違いを確認する。",
+      "source_review_ids": [
+        "R5-9974087440cb",
+        "R5-56c4d7c23cfc"
+      ]
     },
     {
       "id": "PSY-SOC-005",

@@ -187,7 +187,29 @@
     },
     {
       "topic_id": "PSY-CRE-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-CRE-008-SRC260",
+          "source_id": "SRC260",
+          "title": "Can Playfulness be Stimulated? A Randomised Placebo-Controlled Online Playfulness Intervention Study on Effects on Trait Playfulness, Well-Being, and Depression",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "抄録の533人を全割付人数と扱いません。脱落742人で、完了者中心の推定、自己報告、ドイツ語圏の女性が多い標本、未事前登録という制約があります。誰でも遊べば幸福になるとは言えません。",
+          "priority_score": 80.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-CRE-009",
@@ -217,11 +239,55 @@
     },
     {
       "topic_id": "PSY-CRE-010",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-CRE-010-SRC261",
+          "source_id": "SRC261",
+          "title": "Pancultural nostalgia in action: Prevalence, triggers, and psychological functions of nostalgia across cultures.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "短期的な想起の効果と、自然に懐かしさを感じる日の状態は別です。気分の改善は一様ではなく、悲しみやつらい記憶を無理に思い出すことを勧めません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-CRE-011",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-CRE-011-SRC262",
+          "source_id": "SRC262",
+          "title": "Creativity and Innovation Under Constraints: A Cross-Disciplinary Integrative Review",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "無作為化された一つの介入の効果量ではありません。仕事量を増やしたり危険な締切を設けたりすることを、創造性のためと正当化しません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-CRE-012",

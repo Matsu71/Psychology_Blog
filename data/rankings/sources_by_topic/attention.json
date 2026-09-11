@@ -294,11 +294,55 @@
     },
     {
       "topic_id": "PSY-ATT-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-008-SRC233",
+          "source_id": "SRC233",
+          "title": "Effects of time pressure on decision making under uncertainty: changes in affective state and information processing strategy",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "実験室の意思決定と、仕事の締切による長期の成果・創造性は別です。締切があれば誰でも集中できるという処方には使いません。",
+          "priority_score": 65.0,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-ATT-009",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ATT-009-SRC234",
+          "source_id": "SRC234",
+          "title": "A systematic review of flow interventions in sport and exercise",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "仕事や学習への効果を直接検証した統合研究ではありません。挑戦と技能を合わせれば必ずフローに入れるという保証にしません。オンライン公開2021年、掲載巻の年は2023年です。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-ATT-010",

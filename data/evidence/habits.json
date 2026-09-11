@@ -158,12 +158,12 @@
       "source_id": "SRC124",
       "relation_role": "direct_or_targeted_evidence",
       "relevance_1_to_5": 5,
-      "relevance_scope": "title_only_provisional",
-      "source_review_id": "R3-C017",
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-f88e34000058",
       "legacy_brief_ids": [],
-      "finding_scope_ja": null,
-      "conclusion_direction": "not_evaluated",
-      "limits_ja": "実行意図の基礎的統合研究の書誌のみ。書籍シリーズの章であり、本文や効果量を今回確認していない。",
+      "finding_scope_ja": "実行する機会と行動を「もし〜なら〜する」と結びつける実行意図の94検討を統合しています。目標達成に平均的な利点を報告し、目標を持つことと実行の機会に反応する計画を分けています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "2006年の基礎レビューで、今日の全場面の最終評価ではありません。dという標準化効果量を成功率や得点増加率に変換しません。理想と障害の対比を加えた複合介入とは分けます。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -222,6 +222,34 @@
       "finding_scope_ja": "スウェーデンのジム会員1629人で、金銭を伴う契約の提示と来館行動の変化を比較。",
       "conclusion_direction": "supports",
       "limits_ja": "契約の提示効果と実際に契約した人の効果を分ける。損失や負担があり、罰金式の自己管理を一律に勧めない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-HAB-006-SRC231",
+      "topic_id": "PSY-HAB-006",
+      "source_id": "SRC231",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 4,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-ab17d9d14636",
+      "finding_scope_ja": "米国の低所得層に、学生援助申請の情報とその場での記入支援を提供した無作為化フィールド実験です。情報と支援を組み合わせた条件では申請や進学に改善が見られましたが、情報だけでは同様の改善は見られませんでした。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "大学進学の申請という特定状況の複合介入です。運動着を出しておく効果や、意欲を高める方法より手間を減らす方が常に優れることを検証した研究ではありません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-HAB-005-SRC268",
+      "topic_id": "PSY-HAB-005",
+      "source_id": "SRC268",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-2108da7ac1fc",
+      "finding_scope_ja": "成人の身体活動に対する実行意図を扱う13の無作為化試験を整理しています。計画を後から強化する条件では、身体活動に小さな平均的改善が報告されました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

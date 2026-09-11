@@ -281,7 +281,9 @@
       "angle_ja": "満員電車や混んだ店で同じ時間でも疲労が違う。",
       "search_query": "crowding personal space systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC259"
+      ],
       "caution_ja": "人の多さだけでなく選択可能性や安全感を考慮する。",
       "related_topic_ids": [
         "PSY-EMO-001",
@@ -291,7 +293,10 @@
         "type": "illustrative_scenario",
         "description_ja": "満員電車や混んだ店で同じ時間でも疲労が違う。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-bd6074453223"
+      ]
     },
     {
       "id": "PSY-ENV-012",

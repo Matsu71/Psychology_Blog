@@ -205,7 +205,29 @@
     },
     {
       "topic_id": "PSY-WEL-007",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-WEL-007-SRC244",
+          "source_id": "SRC244",
+          "title": "A social comparison theory meta-analysis 60+ years on.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "他人との比較をすべて禁止する根拠ではありません。比較しない対照条件がない研究もあり、実験内の気分と長期の生活満足を区別します。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-WEL-008",

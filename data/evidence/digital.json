@@ -175,6 +175,76 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-002-SRC245",
+      "topic_id": "PSY-DIG-002",
+      "source_id": "SRC245",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-c3b567a85fb6",
+      "finding_scope_ja": "141研究、約14万5千人に関する897効果量を統合しています。能動的・受動的利用と多くの心理指標の関連は小さく、交流やオンライン支援との関係、利用する場、年齢などで結果が違いました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-001-SRC245",
+      "topic_id": "PSY-DIG-001",
+      "source_id": "SRC245",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-c3b567a85fb6",
+      "finding_scope_ja": "141研究、約14万5千人に関する897効果量を統合しています。能動的・受動的利用と多くの心理指標の関連は小さく、交流やオンライン支援との関係、利用する場、年齢などで結果が違いました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-003-SRC246",
+      "topic_id": "PSY-DIG-003",
+      "source_id": "SRC246",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-97dbaa2294fe",
+      "finding_scope_ja": "不安な情報を見続ける行動の尺度を作り、別の標本で性格、SNS利用、心理的苦痛、幸福との関連を調べた3研究です。尺度の測定結果と心理的苦痛との関連を報告しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "横断データの統計的媒介は時間の順序や因果機序の証明ではありません。不安なニュースを読む人の診断や、利用を減らす介入の効果とは分けます。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-007-SRC247",
+      "topic_id": "PSY-DIG-007",
+      "source_id": "SRC247",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-2db3153706d0",
+      "finding_scope_ja": "携帯電話と対面の交流を扱う43研究を統合しています。単に電話が置かれている研究6件と、会話中に電話を見る行動を扱う37件では結果が異なり、後者では相手の否定的な受け止めとの関係が示されました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "机に電話があるだけで必ず関係が悪化する、としません。緊急連絡や仕事上必要な確認と、会話をないがしろにする行動を区別します。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DIG-008-SRC248",
+      "topic_id": "PSY-DIG-008",
+      "source_id": "SRC248",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-6f9985ba2517",
+      "finding_scope_ja": "成人のサイバーストーキング・ハラスメントと精神的健康を扱う43研究を整理し、多くの研究で不安、抑うつ、苦痛などとの関連が報告されたことを示しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "主に関連を扱う研究群で、全被害者が同じ症状を持つとは言えません。ブロックや記録保存の手順の治療効果を比較したレビューでもなく、被害者の責任にしません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

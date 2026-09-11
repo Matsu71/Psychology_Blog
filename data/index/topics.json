@@ -88,7 +88,7 @@
       "topic_file": "data/topics/01_sleep.json",
       "evidence_file": "data/evidence/sleep.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/sleep.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 100
     },
     {
@@ -348,7 +348,7 @@
       "topic_file": "data/topics/04_habits.json",
       "evidence_file": "data/evidence/habits.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": 89
     },
     {
@@ -358,7 +358,7 @@
       "topic_file": "data/topics/04_habits.json",
       "evidence_file": "data/evidence/habits.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/habits.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -488,7 +488,7 @@
       "topic_file": "data/topics/05_personality.json",
       "evidence_file": "data/evidence/personality.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/personality.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -508,7 +508,7 @@
       "topic_file": "data/topics/06_motivation.json",
       "evidence_file": "data/evidence/motivation.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 100
     },
     {
@@ -588,7 +588,7 @@
       "topic_file": "data/topics/06_motivation.json",
       "evidence_file": "data/evidence/motivation.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/motivation.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -778,7 +778,7 @@
       "topic_file": "data/topics/08_attention.json",
       "evidence_file": "data/evidence/attention.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -788,7 +788,7 @@
       "topic_file": "data/topics/08_attention.json",
       "evidence_file": "data/evidence/attention.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -818,7 +818,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 0,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -838,7 +838,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": 88
     },
     {
@@ -858,7 +858,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": 95
     },
     {
@@ -868,7 +868,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -878,7 +878,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 0,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -1238,7 +1238,7 @@
       "topic_file": "data/topics/13_social.json",
       "evidence_file": "data/evidence/social.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/social.json",
-      "source_count": 0,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -1368,7 +1368,7 @@
       "topic_file": "data/topics/14_wellbeing.json",
       "evidence_file": "data/evidence/wellbeing.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/wellbeing.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -1458,7 +1458,7 @@
       "topic_file": "data/topics/15_exercise.json",
       "evidence_file": "data/evidence/exercise.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/exercise.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -1808,7 +1808,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 2,
+      "source_count": 3,
       "editorial_score": 91
     },
     {
@@ -1818,7 +1818,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -1828,7 +1828,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -1868,7 +1868,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -1878,7 +1878,7 @@
       "topic_file": "data/topics/19_digital.json",
       "evidence_file": "data/evidence/digital.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/digital.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2178,7 +2178,7 @@
       "topic_file": "data/topics/22_money_consumption.json",
       "evidence_file": "data/evidence/money_consumption.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2188,7 +2188,7 @@
       "topic_file": "data/topics/22_money_consumption.json",
       "evidence_file": "data/evidence/money_consumption.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2218,7 +2218,7 @@
       "topic_file": "data/topics/22_money_consumption.json",
       "evidence_file": "data/evidence/money_consumption.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
-      "source_count": 0,
+      "source_count": 2,
       "editorial_score": 88
     },
     {
@@ -2228,7 +2228,7 @@
       "topic_file": "data/topics/22_money_consumption.json",
       "evidence_file": "data/evidence/money_consumption.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2308,7 +2308,7 @@
       "topic_file": "data/topics/23_intimacy.json",
       "evidence_file": "data/evidence/intimacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2348,7 +2348,7 @@
       "topic_file": "data/topics/23_intimacy.json",
       "evidence_file": "data/evidence/intimacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2358,7 +2358,7 @@
       "topic_file": "data/topics/23_intimacy.json",
       "evidence_file": "data/evidence/intimacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/intimacy.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2458,7 +2458,7 @@
       "topic_file": "data/topics/24_health_psychology.json",
       "evidence_file": "data/evidence/health_psychology.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/health_psychology.json",
-      "source_count": 0,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -2628,7 +2628,7 @@
       "topic_file": "data/topics/25_environment.json",
       "evidence_file": "data/evidence/environment.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/environment.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2718,7 +2718,7 @@
       "topic_file": "data/topics/26_creativity.json",
       "evidence_file": "data/evidence/creativity.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2738,7 +2738,7 @@
       "topic_file": "data/topics/26_creativity.json",
       "evidence_file": "data/evidence/creativity.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2748,7 +2748,7 @@
       "topic_file": "data/topics/26_creativity.json",
       "evidence_file": "data/evidence/creativity.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/creativity.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2788,7 +2788,7 @@
       "topic_file": "data/topics/27_language.json",
       "evidence_file": "data/evidence/language.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/language.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2918,7 +2918,7 @@
       "topic_file": "data/topics/28_life_transitions.json",
       "evidence_file": "data/evidence/life_transitions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {
@@ -2928,7 +2928,7 @@
       "topic_file": "data/topics/28_life_transitions.json",
       "evidence_file": "data/evidence/life_transitions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/life_transitions.json",
-      "source_count": 0,
+      "source_count": 1,
       "editorial_score": null
     },
     {

@@ -149,7 +149,10 @@
       "angle_ja": "見た目より体が日常でできることに目を向ける考え方を調べる。",
       "search_query": "body neutrality body functionality appreciation systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC257",
+        "SRC258"
+      ],
       "caution_ja": "新しい概念は介入研究の量と尺度の妥当性を確認する。",
       "related_topic_ids": [
         "PSY-PER-010",
@@ -159,7 +162,11 @@
         "type": "illustrative_scenario",
         "description_ja": "見た目より体が日常でできることに目を向ける考え方を調べる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-95e557b960c4",
+        "R5-21ed97d49401"
+      ]
     },
     {
       "id": "PSY-HPS-007",

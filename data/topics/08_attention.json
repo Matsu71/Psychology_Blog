@@ -150,8 +150,13 @@
       "angle_ja": "短期の着手促進と、ミス・疲れ・創造性への影響を分ける。",
       "search_query": "time pressure cognitive performance speed accuracy creativity meta analysis",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "追い込めば必ず成果が上がるとしない。職場の過重負担を正当化しない。"
+      "source_ids": [
+        "SRC233"
+      ],
+      "caution_ja": "追い込めば必ず成果が上がるとしない。職場の過重負担を正当化しない。",
+      "source_review_ids": [
+        "R5-6c6a3ce05b12"
+      ]
     },
     {
       "id": "PSY-ATT-009",
@@ -163,8 +168,13 @@
       "angle_ja": "没頭と技能・課題の難度・フィードバックの関係を調べる。",
       "search_query": "flow state challenge skill balance intervention systematic review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "没頭の自己報告を客観的な成果向上と同一視しない。"
+      "source_ids": [
+        "SRC234"
+      ],
+      "caution_ja": "没頭の自己報告を客観的な成果向上と同一視しない。",
+      "source_review_ids": [
+        "R5-47d54d3d0304"
+      ]
     },
     {
       "id": "PSY-ATT-010",

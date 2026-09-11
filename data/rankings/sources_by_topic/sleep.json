@@ -530,6 +530,27 @@
       "topic_id": "PSY-SLP-009",
       "sources": [
         {
+          "edge_id": "EV-PSY-SLP-009-SRC266",
+          "source_id": "SRC266",
+          "title": "Procrastination and the Priority of Short-Term Mood Regulation: Consequences for Future Self",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-SLP-009-SRC010",
           "source_id": "SRC010",
           "title": "Bedtime procrastination: introducing a new area of procrastination",
@@ -548,7 +569,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         }
       ]
     },

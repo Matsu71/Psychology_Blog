@@ -7,6 +7,27 @@
       "topic_id": "PSY-MOT-001",
       "sources": [
         {
+          "edge_id": "EV-PSY-MOT-001-SRC266",
+          "source_id": "SRC266",
+          "title": "Procrastination and the Priority of Short-Term Mood Regulation: Consequences for Future Self",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-MOT-001-SRC010",
           "source_id": "SRC010",
           "title": "Bedtime procrastination: introducing a new area of procrastination",
@@ -25,7 +46,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-MOT-001-SRC104",
@@ -46,7 +67,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },
@@ -341,6 +362,27 @@
       "topic_id": "PSY-MOT-009",
       "sources": [
         {
+          "edge_id": "EV-PSY-MOT-009-SRC267",
+          "source_id": "SRC267",
+          "title": "Self-Compassion Increases Self-Improvement Motivation",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "短期の実験で、長期の能力や仕事の成果の改善を保証しません。心の症状のメタ分析とは別に、再挑戦に近い行動を直接調べた根拠として扱います。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-MOT-009-SRC105",
           "source_id": "SRC105",
           "title": "Effects of Self-Compassion Interventions on Reducing Depressive Symptoms, Anxiety, and Stress: A Meta-Analysis.",
@@ -359,7 +401,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-MOT-009-SRC106",
@@ -380,7 +422,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },

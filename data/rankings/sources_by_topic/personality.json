@@ -301,7 +301,29 @@
     },
     {
       "topic_id": "PSY-PER-009",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-PER-009-SRC232",
+          "source_id": "SRC232",
+          "title": "Sensory Processing Sensitivity in the context of Environmental Sensitivity: A critical review and development of research agenda.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "概念を吟味するレビューであり、ネット上のHSP診断の妥当性や特定の治療・職業選択を保証する資料ではありません。タイプ分けの確定診断と混同しません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-PER-010",

@@ -135,6 +135,48 @@
       "conclusion_direction": "not_evaluated",
       "limits_ja": "集団のブレインストーミングと生産性を扱う統合研究の書誌。案の数・質と現在のオンライン協働への適用を追加確認する。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-008-SRC260",
+      "topic_id": "PSY-CRE-008",
+      "source_id": "SRC260",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-569a167be142",
+      "finding_scope_ja": "3種類の遊び心を意識するオンライン課題と対照課題を比較しています。本文では1275人が割り付けられ、533人が全測定を完了したと記載されています。自己報告の遊び心や一部の幸福指標の変化を検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "抄録の533人を全割付人数と扱いません。脱落742人で、完了者中心の推定、自己報告、ドイツ語圏の女性が多い標本、未事前登録という制約があります。誰でも遊べば幸福になるとは言えません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-010-SRC261",
+      "topic_id": "PSY-CRE-010",
+      "source_id": "SRC261",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-c38a9f70bbc8",
+      "finding_scope_ja": "28か国と香港の若年成人2606人で、懐かしい記憶と日常的な記憶を想起する条件などを比較しました。懐かしい記憶で社会的つながりや自己の連続性、人生の意味が高まる傾向を示し、文化による差も検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "短期的な想起の効果と、自然に懐かしさを感じる日の状態は別です。気分の改善は一様ではなく、悲しみやつらい記憶を無理に思い出すことを勧めません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-CRE-011-SRC262",
+      "topic_id": "PSY-CRE-011",
+      "source_id": "SRC262",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-41d58a1207b3",
+      "finding_scope_ja": "資源、ルール、締切などの制約と創造性・革新の関係を複数分野から整理し、制約の種類や働く仕組みの違いを示しています。相反する研究結果を単一の法則へまとめないレビューです。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "無作為化された一つの介入の効果量ではありません。仕事量を増やしたり危険な締切を設けたりすることを、創造性のためと正当化しません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

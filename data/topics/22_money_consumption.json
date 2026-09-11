@@ -91,7 +91,9 @@
       "angle_ja": "月額料金は気にならないのに一括料金を高く感じる。",
       "search_query": "pain of paying payment coupling systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC249"
+      ],
       "caution_ja": "脳画像から実際の損得や依存症を診断しない。",
       "related_topic_ids": [
         "PSY-DEC-005"
@@ -100,7 +102,10 @@
         "type": "illustrative_scenario",
         "description_ja": "月額料金は気にならないのに一括料金を高く感じる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-7864133217d3"
+      ]
     },
     {
       "id": "PSY-MON-005",
@@ -112,7 +117,9 @@
       "angle_ja": "帰宅後に通販を眺め、予定外の商品を買ってしまう。",
       "search_query": "impulse buying affect self regulation systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC250"
+      ],
       "caution_ja": "疲労で自制心が必ず枯渇するという単純モデルに固定しない。",
       "related_topic_ids": [
         "PSY-EMO-001",
@@ -122,7 +129,10 @@
         "type": "illustrative_scenario",
         "description_ja": "帰宅後に通販を眺め、予定外の商品を買ってしまう。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-0b19867b7a11"
+      ]
     },
     {
       "id": "PSY-MON-006",
@@ -189,7 +199,10 @@
       "angle_ja": "無料期間が終わっても契約を見直さない。",
       "search_query": "subscription inertia default effects systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC251",
+        "SRC252"
+      ],
       "caution_ja": "基本概念の応用記事として位置づけ、デフォルト効果の重複説明に終始しない。",
       "related_topic_ids": [
         "PSY-DEC-010",
@@ -203,6 +216,10 @@
       "parent_topic_ids": [
         "PSY-DEC-010",
         "PSY-DEC-004"
+      ],
+      "source_review_ids": [
+        "R5-abd448a7dc98",
+        "R5-c9aa7405844b"
       ]
     },
     {
@@ -215,7 +232,9 @@
       "angle_ja": "必要か考える前にタイムセールで注文する。",
       "search_query": "scarcity appeals purchase urgency systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC253"
+      ],
       "caution_ja": "希少性の演出と本当の供給制約を分け、売り手の操作技法にしない。",
       "related_topic_ids": [
         "PSY-DIG-005",
@@ -225,7 +244,10 @@
         "type": "illustrative_scenario",
         "description_ja": "必要か考える前にタイムセールで注文する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-475d53f9626f"
+      ]
     },
     {
       "id": "PSY-MON-010",

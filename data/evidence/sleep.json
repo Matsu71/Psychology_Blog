@@ -419,6 +419,20 @@
       "conclusion_direction": "mixed",
       "limits_ja": "男性が多い限定標本で、1夜の結果。製品の世代とアルゴリズム更新を区別する。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SLP-009-SRC266",
+      "topic_id": "PSY-SLP-009",
+      "source_id": "SRC266",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-0bf714065f18",
+      "finding_scope_ja": "嫌な課題に直面したとき、将来の目標より今の気分を優先することが先延ばしに関わる、という理論的な整理です。時間をまたぐ自己の捉え方と気分調整を結びつけています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

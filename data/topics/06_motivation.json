@@ -14,11 +14,15 @@
       "priority": 1,
       "source_ids": [
         "SRC010",
-        "SRC104"
+        "SRC104",
+        "SRC266"
       ],
       "caution_ja": "就寝先延ばしの研究は一例。仕事や学業への一般化は追加文献で確認する。",
       "research_brief_ids": [
         "RB-30214421"
+      ],
+      "source_review_ids": [
+        "R5-0bf714065f18"
       ]
     },
     {
@@ -168,12 +172,16 @@
       "priority": 1,
       "source_ids": [
         "SRC105",
-        "SRC106"
+        "SRC106",
+        "SRC267"
       ],
       "caution_ja": "短期の実験課題から長期の人生成果を保証しない。",
       "research_brief_ids": [
         "RB-37362192",
         "RB-37554304"
+      ],
+      "source_review_ids": [
+        "R5-3ed1f19c4641"
       ]
     },
     {

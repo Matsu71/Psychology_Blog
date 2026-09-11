@@ -147,6 +147,34 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-004-SRC242",
+      "topic_id": "PSY-SOC-004",
+      "source_id": "SRC242",
+      "legacy_brief_ids": [],
+      "relation_role": "context_only",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "title_only_provisional",
+      "source_review_id": "R5-9974087440cb",
+      "finding_scope_ja": "書誌のみ。結果は未確認。",
+      "conclusion_direction": "not_assessed",
+      "limits_ja": "古典的メタ分析の書誌を確認。一次の抄録・全文を今回取得できず、結果は未読解として保留。後続の追試と混同しない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-SOC-004-SRC243",
+      "topic_id": "PSY-SOC-004",
+      "source_id": "SRC243",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-56c4d7c23cfc",
+      "finding_scope_ja": "547人のデータによる追試・拡張です。広く一致する外見の魅力と、評価者個人が感じる魅力を分けると、好ましい印象や人物理解の正確さとの関係は同じではありませんでした。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "魅力がある人ほど必ず正確に理解される、という単純な結論にはできません。古典的ハロー効果の全操作を追試した研究でもありません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

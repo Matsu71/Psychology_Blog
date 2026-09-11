@@ -173,6 +173,34 @@
       "conclusion_direction": "mixed",
       "limits_ja": "行動を評価した比較はなく、理解度から健康行動の改善を直接推論しない。古いレビューで更新調査が必要。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-HPS-006-SRC257",
+      "topic_id": "PSY-HPS-006",
+      "source_id": "SRC257",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-95e557b960c4",
+      "finding_scope_ja": "体への否定的なイメージを持つ女性81人を対象に、体の機能に注目する構造化された筆記と能動的な対照介入を比較しました。体への満足・尊重などに改善を報告し、1週間後も評価しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "限定された女性標本と短い追跡です。身体機能を評価することと、近年のボディニュートラルという言葉全体を同一視しません。病気や障害のある人にできることの多さを競わせません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-HPS-006-SRC258",
+      "topic_id": "PSY-HPS-006",
+      "source_id": "SRC258",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-21ed97d49401",
+      "finding_scope_ja": "身体機能への感謝・尊重を扱う56研究を整理しています。多くは横断研究で、体のイメージや心の健康との関連を報告し、7つの無作為化試験ではその特性を育てる介入も検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "関連研究の割合が高く、身体への肯定がすべての問題を治すという結論ではありません。小規模試験とレビューを独立した人数として足しません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

@@ -145,6 +145,48 @@
       "conclusion_direction": "not_evaluated",
       "limits_ja": "関係の運命観・成長観を扱う基礎研究の書誌。危険な関係への努力継続を正当化しない。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-003-SRC254",
+      "topic_id": "PSY-INT-003",
+      "source_id": "SRC254",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-fed8dec5e50e",
+      "finding_scope_ja": "3研究、計30645人のデータで性的頻度と幸福・関係満足の曲線的な関連を検討しています。関係の有無で関連が異なり、関係がある人でも頻度が高いほど際限なく幸福が増すという形ではありませんでした。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "頻度を増やす実験ではなく、最適な回数や義務を示していません。相手の同意、希望の違い、身体状況を優先し、平均を個人の基準にしません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-007-SRC255",
+      "topic_id": "PSY-INT-007",
+      "source_id": "SRC255",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-6ca4ac4e3207",
+      "finding_scope_ja": "14日間の日誌調査とカップルの実験室での会話観察で、睡眠が悪い夜の後の対立や、会話中の感情・共感の正確さとの関連を検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "睡眠を無作為に奪う実験ではありません。対立から睡眠が悪くなる可能性や残る交絡を考慮し、暴力や支配を寝不足で正当化しません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-INT-008-SRC256",
+      "topic_id": "PSY-INT-008",
+      "source_id": "SRC256",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-4192e6e68e0f",
+      "finding_scope_ja": "大学生308人の調査で、Facebookの利用とFacebookに関係する嫉妬の関連を検討しています。相手の曖昧な情報に触れることと、さらに確認することの循環を著者らは仮説として論じています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "2009年のFacebookを使う学生の横断調査です。循環や監視の因果を確定していません。現在の全SNSに一般化せず、無断閲覧や追跡を勧めません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

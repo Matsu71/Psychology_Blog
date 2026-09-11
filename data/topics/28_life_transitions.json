@@ -95,7 +95,9 @@
       "angle_ja": "便利な家への移転と、なじみの関係を離れる負担を比較する。",
       "search_query": "residential relocation social networks systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC264"
+      ],
       "caution_ja": "習慣の変更ではなく生活満足と関係再構築を扱う。",
       "related_topic_ids": [
         "PSY-HAB-009",
@@ -105,7 +107,10 @@
         "type": "illustrative_scenario",
         "description_ja": "便利な家への移転と、なじみの関係を離れる負担を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-fd0788c3a201"
+      ]
     },
     {
       "id": "PSY-LIF-005",
@@ -117,7 +122,9 @@
       "angle_ja": "子ども中心の生活から自分の時間を作り直す。",
       "search_query": "empty nest parental well being systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC265"
+      ],
       "caution_ja": "空の巣という言葉で全親を病理化しない。",
       "related_topic_ids": [
         "PSY-DEV-010",
@@ -127,7 +134,10 @@
         "type": "illustrative_scenario",
         "description_ja": "子ども中心の生活から自分の時間を作り直す。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-5ed7b81a6d78"
+      ]
     },
     {
       "id": "PSY-LIF-006",

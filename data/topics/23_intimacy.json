@@ -66,7 +66,9 @@
       "angle_ja": "他人の平均と自分たちの満足の違いを整理する。",
       "search_query": "sexual frequency relationship well being systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC254"
+      ],
       "caution_ja": "頻度を義務にしない。関連と因果を分け、同意と個人差を優先する。",
       "related_topic_ids": [
         "PSY-WEL-001"
@@ -75,7 +77,10 @@
         "type": "illustrative_scenario",
         "description_ja": "他人の平均と自分たちの満足の違いを整理する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-fed8dec5e50e"
+      ]
     },
     {
       "id": "PSY-INT-004",
@@ -169,7 +174,9 @@
       "angle_ja": "寝不足の翌日にいつもなら気にならない一言で言い合いになる。",
       "search_query": "sleep and couple conflict emotion regulation systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC255"
+      ],
       "caution_ja": "睡眠を原因と決めつけず、暴力や支配を疲れで正当化しない。",
       "related_topic_ids": [
         "PSY-SLP-001",
@@ -179,7 +186,10 @@
         "type": "illustrative_scenario",
         "description_ja": "寝不足の翌日にいつもなら気にならない一言で言い合いになる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-6ca4ac4e3207"
+      ]
     },
     {
       "id": "PSY-INT-008",
@@ -191,7 +201,9 @@
       "angle_ja": "既読やオンライン表示が気になり何度も確かめる。",
       "search_query": "romantic jealousy digital surveillance systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC256"
+      ],
       "caution_ja": "監視やアカウントの無断閲覧を勧めず、プライバシーを尊重する。",
       "related_topic_ids": [
         "PSY-DIG-005",
@@ -201,7 +213,10 @@
         "type": "illustrative_scenario",
         "description_ja": "既読やオンライン表示が気になり何度も確かめる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-4192e6e68e0f"
+      ]
     },
     {
       "id": "PSY-INT-009",

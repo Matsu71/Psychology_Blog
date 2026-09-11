@@ -83,7 +83,53 @@
     },
     {
       "topic_id": "PSY-SOC-004",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-SOC-004-SRC243",
+          "source_id": "SRC243",
+          "title": "Is what is beautiful good and still more accurately understood? A replication and extension of Lorenzo et al. (2010)",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "魅力がある人ほど必ず正確に理解される、という単純な結論にはできません。古典的ハロー効果の全操作を追試した研究でもありません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-SOC-004-SRC242",
+          "source_id": "SRC242",
+          "title": "What is beautiful is good, but...: A meta-analytic review of research on the physical attractiveness stereotype",
+          "review_scope": "bibliography",
+          "relation_role": "context_only",
+          "conclusion_direction": "not_assessed",
+          "limits_ja": "古典的メタ分析の書誌を確認。一次の抄録・全文を今回取得できず、結果は未読解として保留。後続の追試と混同しない。",
+          "priority_score": 49,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 1
+          },
+          "caps": [
+            "bibliography_only_max_49",
+            "background_only_max_55"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
     },
     {
       "topic_id": "PSY-SOC-005",

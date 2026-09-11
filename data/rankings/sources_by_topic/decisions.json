@@ -31,7 +31,50 @@
     },
     {
       "topic_id": "PSY-DEC-002",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-002-SRC236",
+          "source_id": "SRC236",
+          "title": "Underpowered studies and exaggerated effects: A replication and re-evaluation of the magnitude of anchoring effects",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "特定の実験の追試であり、すべてのアンカリング現象を否定したものではありません。異なる研究手続きや対象まで同じ効果量を当てはめません。 自己追試であり完全に独立した再現ではありません。標本・アンカー幅・謝礼なども変更されています。",
+          "priority_score": 87.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DEC-002-SRC235",
+          "source_id": "SRC235",
+          "title": "Anchoring in Economics: A Meta-Analysis of Studies on Willingness-To-Pay and Willingness-To-Accept",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "実際の購入額を常に同じ割合で変える効果ではありません。質問の数値推定と実際のお金を使う選択を分け、より大規模な追試と比較します。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
     },
     {
       "topic_id": "PSY-DEC-003",
@@ -63,7 +106,29 @@
     },
     {
       "topic_id": "PSY-DEC-004",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-004-SRC237",
+          "source_id": "SRC237",
+          "title": "On the sunk-cost effect in economic decision-making: a meta-analytic review",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "一つの普遍的な倍率で説明しません。将来の便益、解約費用、学習効果など本当にこれから変わる要素まで無視するべき、という意味ではありません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-DEC-005",
@@ -119,19 +184,85 @@
           "edge_id": "EV-PSY-DEC-006-SRC136",
           "source_id": "SRC136",
           "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
-          "review_scope": "bibliography",
+          "review_scope": "abstract",
           "relation_role": "direct_or_targeted_evidence",
-          "conclusion_direction": "not_evaluated",
-          "limits_ja": "選択肢過多のメタ分析の書誌のみ確認。効果量や条件差は原文確認後に記載する。",
-          "priority_score": 49,
+          "conclusion_direction": "mixed",
+          "limits_ja": "平均がゼロであることは、すべての人・場面で影響がないことではありません。後の条件別レビューや分析手法の研究と比較します。2015年の別レビューの訂正をこの論文の訂正として扱いません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DEC-006-SRC269",
+          "source_id": "SRC269",
+          "title": "Choice overload: A conceptual review and meta‐analysis",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "2010年レビューと収載研究が重なり得るため独立した参加者として足しません。2016年訂正は回帰係数bとt値の表記を修正しています。条件別分析を万人への最適個数に変換しません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-DEC-006-SRC270",
+          "source_id": "SRC270",
+          "title": "Corrigendum to “Choice overload: A conceptual review and meta‐analysis” [J Consum Psychol 22 (2015) 333–358]",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "correction_notice",
+          "conclusion_direction": "correction",
+          "limits_ja": "独立した効果研究ではありません。2010年レビューへの訂正ではなく、出典IDを分けて結び付けます。",
+          "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": 5,
             "method_signals_0_to_4": 1,
-            "reading_depth_0_to_4": 1
+            "reading_depth_0_to_4": 3
           },
-          "caps": [
-            "bibliography_only_max_49"
-          ],
+          "caps": [],
+          "excluded_from_evidence_priority": true,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        }
+      ]
+    },
+    {
+      "topic_id": "PSY-DEC-007",
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-007-SRC238",
+          "source_id": "SRC238",
+          "title": "Time Discounting and Time Preference: A Critical Review",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "すぐ得られる報酬を選ぶだけで現在バイアスと診断できません。不確実性や手持ち資金なども選択に影響します。別DOI表記・書籍再録は独立した裏付けに数えません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
           "excluded_from_evidence_priority": false,
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
@@ -141,12 +272,72 @@
       ]
     },
     {
-      "topic_id": "PSY-DEC-007",
-      "sources": []
-    },
-    {
       "topic_id": "PSY-DEC-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DEC-008-SRC239",
+          "source_id": "SRC239",
+          "title": "Taking Stock of Unrealistic Optimism",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "希望を持つことすべてが誤りという主張ではありません。各人の現実のリスクを、この一般論から診断できません。資金提供先の記載を訂正した告知を別途確認しました。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DEC-008-SRC241",
+          "source_id": "SRC241",
+          "title": "Unrealistic optimism about future life events: a cautionary note.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "測定上の批判の対象と、すべての種類の楽観の不存在は同じではありません。4分類のレビューと併読し、相反する結論を単純な多数決にしません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-DEC-008-SRC240",
+          "source_id": "SRC240",
+          "title": "Erratum: Taking Stock of Unrealistic Optimism",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "correction_notice",
+          "conclusion_direction": "correction",
+          "limits_ja": "独立した効果研究ではありません。結果を支持する論文本数には数えません。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": true,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        }
+      ]
     },
     {
       "topic_id": "PSY-DEC-009",

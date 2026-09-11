@@ -96,8 +96,8 @@ def validate():
         require(r['work_priority_score']==round(.55*appeal+.45*r['gap_score'],2),'Queue formula')
         require(r['publication_ready'] is False,'Queue is not publication approval')
     coverage=read('data/research/coverage.json')
-    require(coverage['round3_source_review_count']==len(reviews),'Review count')
-    require(coverage['round3_abstract_review_count']==sum(r['review_scope']=='abstract' for r in reviews.values()),'Abstract count')
+    require(coverage.get('source_review_count',coverage['round3_source_review_count'])==len(reviews),'Review count')
+    require(coverage.get('abstract_review_count',coverage['round3_abstract_review_count'])==sum(r['review_scope']=='abstract' for r in reviews.values()),'Abstract count')
     require(coverage['selected_fulltext_checks_count']==sum(a['review_scope']=='selected_fulltext_sections' for a in assessments.values()),'Fulltext scope count')
     require(coverage['search_pending_count']==sum(not t['source_ids'] for t in topics.values()),'Unregistered count')
     require(coverage['evidence_edge_count']==len(edges),'Edge count')
@@ -106,8 +106,8 @@ def validate():
     shards=[(p,n) for p,n in sizes if p.startswith('data/literature/round3/')]
     require(all(n<1024*1024 for p,n in shards),'Research shard exceeds internal 1MiB threshold')
     return {'schema_version':'1.0','status':'passed','topics':len(topics),'sources':len(sources),
-        'new_source_reviews':len(reviews),'new_abstract_reviews':coverage['round3_abstract_review_count'],
-        'bibliography_only':coverage['round3_bibliography_only_count'],'selected_fulltext_checks':coverage['selected_fulltext_checks_count'],
+        'source_reviews_total':len(reviews),'abstract_reviews_total':coverage.get('abstract_review_count',coverage['round3_abstract_review_count']),
+        'bibliography_only':coverage.get('bibliography_review_count',coverage['round3_bibliography_only_count']),'selected_fulltext_checks':coverage['selected_fulltext_checks_count'],
         'evidence_edges':len(edges),'source_unregistered':coverage['search_pending_count'],
         'editorial_topics_assessed':len(editorial),'research_queue_topics':len(queue),
         'data_json_bytes':sum(n for _,n in sizes),'largest_data_json_bytes':max(n for _,n in sizes),

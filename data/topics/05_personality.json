@@ -165,8 +165,13 @@
       "angle_ja": "日常語、測定される特性、診断名の違いを整理する。",
       "search_query": "sensory processing sensitivity differential susceptibility measurement review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "HSPというラベルだけで診断しない。研究上の尺度と商業的説明を分ける。"
+      "source_ids": [
+        "SRC232"
+      ],
+      "caution_ja": "HSPというラベルだけで診断しない。研究上の尺度と商業的説明を分ける。",
+      "source_review_ids": [
+        "R5-62bdd458d5eb"
+      ]
     },
     {
       "id": "PSY-PER-010",

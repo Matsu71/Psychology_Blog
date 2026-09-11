@@ -203,7 +203,9 @@
       "angle_ja": "成果や上達だけを目的にせず遊ぶ時間を考える。",
       "search_query": "adult playfulness play well being systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC260"
+      ],
       "caution_ja": "遊びの定義と自己選択を確認し、時間や金銭の余裕を無視しない。",
       "related_topic_ids": [
         "PSY-WEL-009",
@@ -213,7 +215,10 @@
         "type": "illustrative_scenario",
         "description_ja": "成果や上達だけを目的にせず遊ぶ時間を考える。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-569a167be142"
+      ]
     },
     {
       "id": "PSY-CRE-009",
@@ -252,7 +257,9 @@
       "angle_ja": "昔の音楽や写真を見る時間の感情を調べる。",
       "search_query": "nostalgia social connectedness systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC261"
+      ],
       "caution_ja": "よい思い出だけとは限らず、悲嘆や苦痛への個人差を扱う。",
       "related_topic_ids": [
         "PSY-REL-002",
@@ -262,7 +269,10 @@
         "type": "illustrative_scenario",
         "description_ja": "昔の音楽や写真を見る時間の感情を調べる。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-c38a9f70bbc8"
+      ]
     },
     {
       "id": "PSY-CRE-011",
@@ -274,7 +284,9 @@
       "angle_ja": "自由に考える場合と予算や材料を決めた場合を比較する。",
       "search_query": "creative constraints innovation systematic review human study",
       "priority": 2,
-      "source_ids": [],
+      "source_ids": [
+        "SRC262"
+      ],
       "caution_ja": "過剰な締切や労働負担を創造性のためと正当化しない。",
       "related_topic_ids": [
         "PSY-MOT-004"
@@ -283,7 +295,10 @@
         "type": "illustrative_scenario",
         "description_ja": "自由に考える場合と予算や材料を決めた場合を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-41d58a1207b3"
+      ]
     },
     {
       "id": "PSY-CRE-012",

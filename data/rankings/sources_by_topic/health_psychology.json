@@ -158,7 +158,50 @@
     },
     {
       "topic_id": "PSY-HPS-006",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-HPS-006-SRC257",
+          "source_id": "SRC257",
+          "title": "Expand Your Horizon: A programme that improves body image and reduces self-objectification by training women to focus on body functionality.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "限定された女性標本と短い追跡です。身体機能を評価することと、近年のボディニュートラルという言葉全体を同一視しません。病気や障害のある人にできることの多さを競わせません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-HPS-006-SRC258",
+          "source_id": "SRC258",
+          "title": "Functionality appreciation and its correlates: Systematic review and meta-analysis.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "関連研究の割合が高く、身体への肯定がすべての問題を治すという結論ではありません。小規模試験とレビューを独立した人数として足しません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        }
+      ]
     },
     {
       "topic_id": "PSY-HPS-007",

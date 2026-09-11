@@ -4,17 +4,17 @@
   "category_count": 28,
   "topic_count": 300,
   "new_topic_count": 100,
-  "source_count": 270,
+  "source_count": 230,
   "legacy_source_count": 35,
   "added_source_count": 71,
   "reviewed_research_count": 68,
-  "correction_notice_count": 6,
+  "correction_notice_count": 4,
   "brief_linked_topic_count": 139,
   "original_topics_with_new_briefs": 106,
   "new_topics_with_briefs": 33,
   "previously_unreferenced_original_topics_now_linked": 52,
-  "reference_linked_count": 300,
-  "search_pending_count": 0,
+  "reference_linked_count": 271,
+  "search_pending_count": 29,
   "illustrative_scenario_count": 168,
   "study_context_count": 68,
   "search_request_count": 810,
@@ -31,8 +31,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 4
+      "source_unregistered_count": 0
     },
     {
       "category_id": "genetics",
@@ -41,8 +40,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 5,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 3
+      "source_unregistered_count": 0
     },
     {
       "category_id": "addiction",
@@ -51,28 +49,25 @@
       "reference_linked_count": 10,
       "brief_linked_count": 5,
       "round3_source_review_topic_count": 2,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 2
+      "source_unregistered_count": 0
     },
     {
       "category_id": "habits",
       "name_ja": "習慣形成・行動変容",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 9,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 4,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_unregistered_count": 1
     },
     {
       "category_id": "personality",
       "name_ja": "性格・自己理解",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 9,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 4
+      "source_unregistered_count": 1
     },
     {
       "category_id": "motivation",
@@ -81,8 +76,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 8,
       "round3_source_review_topic_count": 2,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 4
+      "source_unregistered_count": 0
     },
     {
       "category_id": "learning",
@@ -91,28 +85,25 @@
       "reference_linked_count": 10,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 0,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 0
+      "source_unregistered_count": 0
     },
     {
       "category_id": "attention",
       "name_ja": "注意・集中・仕事の効率",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 8,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_unregistered_count": 2
     },
     {
       "category_id": "decisions",
       "name_ja": "意思決定・認知バイアス",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 6,
       "brief_linked_count": 1,
       "round3_source_review_topic_count": 5,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 9
+      "source_unregistered_count": 4
     },
     {
       "category_id": "emotions",
@@ -121,8 +112,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 9,
       "round3_source_review_topic_count": 1,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 1
+      "source_unregistered_count": 0
     },
     {
       "category_id": "mental_health",
@@ -131,8 +121,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 8,
       "round3_source_review_topic_count": 1,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 1
+      "source_unregistered_count": 0
     },
     {
       "category_id": "relationships",
@@ -141,28 +130,25 @@
       "reference_linked_count": 10,
       "brief_linked_count": 7,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 3
+      "source_unregistered_count": 0
     },
     {
       "category_id": "social",
       "name_ja": "社会心理・集団・心理効果",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 9,
       "brief_linked_count": 3,
       "round3_source_review_topic_count": 6,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 7
+      "source_unregistered_count": 1
     },
     {
       "category_id": "wellbeing",
       "name_ja": "幸福・生活満足度",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 9,
       "brief_linked_count": 5,
       "round3_source_review_topic_count": 4,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_unregistered_count": 1
     },
     {
       "category_id": "exercise",
@@ -171,8 +157,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 7,
       "round3_source_review_topic_count": 2,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 3
+      "source_unregistered_count": 0
     },
     {
       "category_id": "nutrition",
@@ -181,8 +166,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 2,
       "round3_source_review_topic_count": 4,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 4
+      "source_unregistered_count": 0
     },
     {
       "category_id": "development",
@@ -191,8 +175,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 1,
       "round3_source_review_topic_count": 5,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_unregistered_count": 0
     },
     {
       "category_id": "aging",
@@ -201,18 +184,16 @@
       "reference_linked_count": 10,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 2,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 2
+      "source_unregistered_count": 0
     },
     {
       "category_id": "digital",
       "name_ja": "スマホ・SNS・デジタル生活",
       "topic_count": 10,
-      "reference_linked_count": 10,
+      "reference_linked_count": 6,
       "brief_linked_count": 3,
       "round3_source_review_topic_count": 4,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 8
+      "source_unregistered_count": 4
     },
     {
       "category_id": "research_literacy",
@@ -221,8 +202,7 @@
       "reference_linked_count": 10,
       "brief_linked_count": 6,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 3
+      "source_unregistered_count": 0
     },
     {
       "category_id": "work",
@@ -231,78 +211,70 @@
       "reference_linked_count": 14,
       "brief_linked_count": 7,
       "round3_source_review_topic_count": 7,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 7
+      "source_unregistered_count": 0
     },
     {
       "category_id": "money_consumption",
       "name_ja": "お金・買い物・消費心理",
       "topic_count": 14,
-      "reference_linked_count": 14,
+      "reference_linked_count": 10,
       "brief_linked_count": 3,
       "round3_source_review_topic_count": 7,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 11
+      "source_unregistered_count": 4
     },
     {
       "category_id": "intimacy",
       "name_ja": "恋愛・親密さ・パートナーシップ",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 9,
       "brief_linked_count": 2,
       "round3_source_review_topic_count": 7,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 10
+      "source_unregistered_count": 3
     },
     {
       "category_id": "health_psychology",
       "name_ja": "身体感覚・ホルモン・健康行動",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 11,
       "brief_linked_count": 2,
       "round3_source_review_topic_count": 9,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 10
+      "source_unregistered_count": 1
     },
     {
       "category_id": "environment",
       "name_ja": "生活環境・感覚・快適さ",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 11,
       "brief_linked_count": 5,
       "round3_source_review_topic_count": 6,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 7
+      "source_unregistered_count": 1
     },
     {
       "category_id": "creativity",
       "name_ja": "好奇心・創造性・遊び",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 9,
       "brief_linked_count": 4,
       "round3_source_review_topic_count": 5,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 8
+      "source_unregistered_count": 3
     },
     {
       "category_id": "language",
       "name_ja": "言葉・会話・語学・思考",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 11,
       "brief_linked_count": 3,
       "round3_source_review_topic_count": 8,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 9
+      "source_unregistered_count": 1
     },
     {
       "category_id": "life_transitions",
       "name_ja": "人生の変化・喪失・適応",
       "topic_count": 12,
-      "reference_linked_count": 12,
+      "reference_linked_count": 10,
       "brief_linked_count": 7,
       "round3_source_review_topic_count": 3,
-      "source_unregistered_count": 0,
-      "source_review_topic_count": 5
+      "source_unregistered_count": 2
     }
   ],
   "limits_ja": [
@@ -312,9 +284,7 @@
     "探索検索であり系統的レビューではない。出典未登録テーマを無関係な資料で埋めない。",
     "今回の510検索は507成功・3失敗。0件も研究不存在の証明ではない。",
     "編集ランキングは50テーマの仮説的評価。閲覧数・検索数・市場調査は用いていない。",
-    "出典の点数は調査の優先順。正しさの確率、GRADE、AMSTAR 2の合計点ではない。",
-    "出典未登録ゼロと、全テーマの問いへの十分な回答・根拠評価完了は別です。部分的な資料・書誌のみを区別しています。",
-    "round3_*は第3回の履歴。source_review_count等が累計です。"
+    "出典の点数は調査の優先順。正しさの確率、GRADE、AMSTAR 2の合計点ではない。"
   ],
   "relevance_links_removed_in_final_audit": 7,
   "round3_added_source_count": 124,
@@ -326,8 +296,8 @@
   "round3_missing_with_targeted_abstract": 79,
   "round3_existing_with_targeted_abstract": 9,
   "round3_new_search_request_count": 510,
-  "selected_fulltext_checks_count": 11,
-  "evidence_edge_count": 494,
+  "selected_fulltext_checks_count": 7,
+  "evidence_edge_count": 451,
   "editorial_scored_topic_count": 50,
   "round3_remaining_unregistered": [
     "PSY-HAB-006",
@@ -361,13 +331,6 @@
     "PSY-LIF-005"
   ],
   "research_queue_count": 300,
-  "current_targeted_review_topic_count": 136,
-  "current_selected_fulltext_topic_count": 13,
-  "source_review_count": 166,
-  "abstract_review_count": 143,
-  "bibliography_review_count": 23,
-  "editorial_delivery_added_sources": 40,
-  "editorial_delivery_review_count": 42,
-  "current_source_unregistered_topic_ids": [],
-  "updated_on": "2026-09-11"
+  "current_targeted_review_topic_count": 101,
+  "current_selected_fulltext_topic_count": 11
 }

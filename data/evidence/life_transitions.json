@@ -201,6 +201,34 @@
       "conclusion_direction": "supports",
       "limits_ja": "特定の大学生集団の試験。日本の転職や全集団への一般化、実際の差別の否定には使わない。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-004-SRC264",
+      "topic_id": "PSY-LIF-004",
+      "source_id": "SRC264",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-fd0788c3a201",
+      "finding_scope_ja": "英国世帯パネル調査12時点を用い、転居の前後の生活満足を分析しています。平均的には転居前に幸福が下がり、転居後に以前の水準へ戻るという時間的な形を報告しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "無作為化された転居の試験ではなく、同時に起こる家族・仕事の変化を完全には分けられません。引っ越せば全員が幸せになる、長距離なら不幸になる、のどちらも示しません。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LIF-005-SRC265",
+      "topic_id": "PSY-LIF-005",
+      "source_id": "SRC265",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-5ed7b81a6d78",
+      "finding_scope_ja": "オーストラリアの中年女性を追跡し、最後の子どもが家を離れる前後の生活の質を検討しています。平均的な変化とともに、事前の心配の有無などによる違いを報告し、全員に悪化が起こるという見方を支持しません。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "女性のみの特定の時代・文化の観察研究です。子どもの独立に寂しさを感じることを異常とせず、独立前後の別の出来事も考慮します。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

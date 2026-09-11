@@ -231,6 +231,20 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WEL-007-SRC244",
+      "topic_id": "PSY-WEL-007",
+      "source_id": "SRC244",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-fe1cd8a9cff4",
+      "finding_scope_ja": "比較相手の選択と、比較した後の自己評価・感情の変化を分けて統合しています。上方比較を選びやすく、比較後には自分と相手の差を感じる対比が多い一方、類似性や脅威などの条件を検討しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "他人との比較をすべて禁止する根拠ではありません。比較しない対照条件がない研究もあり、実験内の気分と長期の生活満足を区別します。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

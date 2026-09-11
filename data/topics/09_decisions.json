@@ -30,8 +30,15 @@
       "angle_ja": "値札、交渉、見積もりで最初の数字の影響を調べる。",
       "search_query": "anchoring numeric judgment consumer prices meta analysis replication",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "実験内の効果を実際の全購入場面に一律適用しない。"
+      "source_ids": [
+        "SRC235",
+        "SRC236"
+      ],
+      "caution_ja": "実験内の効果を実際の全購入場面に一律適用しない。",
+      "source_review_ids": [
+        "R5-f02e047ff253",
+        "R5-45de362d3c7a"
+      ]
     },
     {
       "id": "PSY-DEC-003",
@@ -61,8 +68,13 @@
       "angle_ja": "合わない習い事、使わない契約、進行中の計画を例に調べる。",
       "search_query": "sunk cost effect escalation commitment meta analysis decision making",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "将来得られる便益まで無視すべきという話にしない。"
+      "source_ids": [
+        "SRC237"
+      ],
+      "caution_ja": "将来得られる便益まで無視すべきという話にしない。",
+      "source_review_ids": [
+        "R5-14fb6f3495da"
+      ]
     },
     {
       "id": "PSY-DEC-005",
@@ -95,11 +107,16 @@
       "search_query": "choice overload meta analysis moderators preference uncertainty",
       "priority": 1,
       "source_ids": [
-        "SRC136"
+        "SRC136",
+        "SRC269",
+        "SRC270"
       ],
       "caution_ja": "有名な一実験だけで『選択肢は少ないほどよい』と一般化しない。",
       "source_review_ids": [
-        "R3-C029"
+        "R3-C029",
+        "R5-91974ea83e24",
+        "R5-d10dbd50267e",
+        "R5-64c7edeb622e"
       ]
     },
     {
@@ -112,8 +129,13 @@
       "angle_ja": "運動、学習、消費の選択を短期と長期の視点で研究する。",
       "search_query": "present bias delay discounting health behavior systematic review",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "経済的制約による合理的な短期選択を心理的欠陥と扱わない。"
+      "source_ids": [
+        "SRC238"
+      ],
+      "caution_ja": "経済的制約による合理的な短期選択を心理的欠陥と扱わない。",
+      "source_review_ids": [
+        "R5-b422c9e6acbd"
+      ]
     },
     {
       "id": "PSY-DEC-008",
@@ -125,8 +147,17 @@
       "angle_ja": "健康リスクや締切予測を、自分と他人でどう見積もるか調べる。",
       "search_query": "unrealistic optimism risk perception intervention systematic review",
       "priority": 2,
-      "source_ids": [],
-      "caution_ja": "希望を持つことと、リスクを過小評価することを区別する。"
+      "source_ids": [
+        "SRC239",
+        "SRC240",
+        "SRC241"
+      ],
+      "caution_ja": "希望を持つことと、リスクを過小評価することを区別する。",
+      "source_review_ids": [
+        "R5-18662d4d04bd",
+        "R5-ddb1ece216d7",
+        "R5-fefe4364bd78"
+      ]
     },
     {
       "id": "PSY-DEC-009",

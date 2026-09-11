@@ -28,6 +28,27 @@
           "display_position": 1
         },
         {
+          "edge_id": "EV-PSY-DIG-001-SRC245",
+          "source_id": "SRC245",
+          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 2
+        },
+        {
           "edge_id": "EV-PSY-DIG-001-SRC012",
           "source_id": "SRC012",
           "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
@@ -46,17 +67,61 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         }
       ]
     },
     {
       "topic_id": "PSY-DIG-002",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-002-SRC245",
+          "source_id": "SRC245",
+          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-DIG-003",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-003-SRC246",
+          "source_id": "SRC246",
+          "title": "Doomscrolling Scale: its Association with Personality Traits, Psychological Distress, Social Media Use, and Wellbeing.",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "横断データの統計的媒介は時間の順序や因果機序の証明ではありません。不安なニュースを読む人の診断や、利用を減らす介入の効果とは分けます。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-DIG-004",
@@ -203,11 +268,55 @@
     },
     {
       "topic_id": "PSY-DIG-007",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-007-SRC247",
+          "source_id": "SRC247",
+          "title": "A Meta-Analysis of Mobile Phone Use and Presence",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "机に電話があるだけで必ず関係が悪化する、としません。緊急連絡や仕事上必要な確認と、会話をないがしろにする行動を区別します。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-DIG-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-DIG-008-SRC248",
+          "source_id": "SRC248",
+          "title": "Cyber Stalking, Cyber Harassment, and Adult Mental Health: A Systematic Review",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "主に関連を扱う研究群で、全被害者が同じ症状を持つとは言えません。ブロックや記録保存の手順の治療効果を比較したレビューでもなく、被害者の責任にしません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-DIG-009",

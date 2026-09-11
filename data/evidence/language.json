@@ -193,6 +193,20 @@
       "conclusion_direction": "mixed",
       "limits_ja": "説得力は正しさの証拠ではない。一般の物語研究と健康情報の個別判断を区別する。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-LAN-003-SRC263",
+      "topic_id": "PSY-LAN-003",
+      "source_id": "SRC263",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-d33583a19c9c",
+      "finding_scope_ja": "17研究に含まれる47実験を統合し、母語と外国語で判断する場合の道徳的選択やリスク選好の違いを検討しています。使用言語で選択が変わる傾向がある一方、領域や言語間の近さも考慮しています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "外国語なら必ず合理的・倫理的になるとは言えません。道徳課題の功利的選択、リスクへの態度、実際の生活上の良い判断は同じではありません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

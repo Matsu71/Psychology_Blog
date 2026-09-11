@@ -330,7 +330,31 @@
     },
     {
       "topic_id": "PSY-ENV-011",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-ENV-011-SRC259",
+          "source_id": "SRC259",
+          "title": "Crowding and personal space invasion on the train: Please don't make me sit in the middle",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "観察研究で、混雑がすべての疲労の原因とは言えません。2021年の訂正告知の存在を確認しましたが、影響評価は未完了なので数値の中心根拠としては保留します。",
+          "priority_score": 65,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [
+            "unresolved_indexed_correction_max_65"
+          ],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": true,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-ENV-012",

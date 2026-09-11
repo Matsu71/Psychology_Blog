@@ -346,19 +346,24 @@
     },
     {
       "source_id": "SRC124",
-      "review_scope": "bibliography",
-      "method_signals": 1,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "書誌のみ・信頼性未評価",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
       "provenance_review_ids": [
-        "R3-C017"
+        "R3-C017",
+        "R5-f88e34000058"
       ],
       "limitations_ja": [
-        "実行意図の基礎的統合研究の書誌のみ。書籍シリーズの章であり、本文や効果量を今回確認していない。"
+        "2006年の基礎レビューで、今日の全場面の最終評価ではありません。dという標準化効果量を成功率や得点増加率に変換しません。理想と障害の対比を加えた複合介入とは分けます。"
       ],
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
     },
     {
       "source_id": "SRC125",
@@ -568,19 +573,24 @@
     },
     {
       "source_id": "SRC136",
-      "review_scope": "bibliography",
-      "method_signals": 1,
+      "review_scope": "abstract",
+      "method_signals": 3,
       "formal_risk_of_bias": "not_assessed",
       "formal_evidence_certainty": "not_assessed",
-      "reliability_ja": "書誌のみ・信頼性未評価",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
       "provenance_review_ids": [
-        "R3-C029"
+        "R3-C029",
+        "R5-91974ea83e24"
       ],
       "limitations_ja": [
-        "選択肢過多のメタ分析の書誌のみ確認。効果量や条件差は原文確認後に記載する。"
+        "平均がゼロであることは、すべての人・場面で影響がないことではありません。後の条件別レビューや分析手法の研究と比較します。2015年の別レビューの訂正をこの論文の訂正として扱いません。"
       ],
-      "integrity_status": "not_completed",
-      "integrity_notices": []
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
     },
     {
       "source_id": "SRC137",
@@ -3915,6 +3925,834 @@
       "reliability_ja": "既存資料・今回は未再評価",
       "integrity_status": "not_completed",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC231",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "大学進学の申請という特定状況の複合介入です。運動着を出しておく効果や、意欲を高める方法より手間を減らす方が常に優れることを検証した研究ではありません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-ab17d9d14636"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC232",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "概念を吟味するレビューであり、ネット上のHSP診断の妥当性や特定の治療・職業選択を保証する資料ではありません。タイプ分けの確定診断と混同しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [
+        {
+          "id": "PPR55642",
+          "source": "PPR",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "provenance_review_ids": [
+        "R5-62bdd458d5eb"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC233",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "実験室の意思決定と、仕事の締切による長期の成果・創造性は別です。締切があれば誰でも集中できるという処方には使いません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-6c6a3ce05b12"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC234",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "仕事や学習への効果を直接検証した統合研究ではありません。挑戦と技能を合わせれば必ずフローに入れるという保証にしません。オンライン公開2021年、掲載巻の年は2023年です。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-47d54d3d0304"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC235",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "実際の購入額を常に同じ割合で変える効果ではありません。質問の数値推定と実際のお金を使う選択を分け、より大規模な追試と比較します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-f02e047ff253"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC236",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "特定の実験の追試であり、すべてのアンカリング現象を否定したものではありません。異なる研究手続きや対象まで同じ効果量を当てはめません。 自己追試であり完全に独立した再現ではありません。標本・アンカー幅・謝礼なども変更されています。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-45de362d3c7a"
+      ],
+      "checked_sections": [
+        "Methods: HomeVISE-replication, n=621; Results; Conclusion"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC237",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "一つの普遍的な倍率で説明しません。将来の便益、解約費用、学習効果など本当にこれから変わる要素まで無視するべき、という意味ではありません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-14fb6f3495da"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC238",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "すぐ得られる報酬を選ぶだけで現在バイアスと診断できません。不確実性や手持ち資金なども選択に影響します。別DOI表記・書籍再録は独立した裏付けに数えません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-b422c9e6acbd"
+      ],
+      "checked_sections": [
+        "American Economic Association, Abstract。出版社再録の序論も参照したが、正式な全文評価とはしない。"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC239",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "希望を持つことすべてが誤りという主張ではありません。各人の現実のリスクを、この一般論から診断できません。資金提供先の記載を訂正した告知を別途確認しました。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [
+        {
+          "type": "correction_content_checked",
+          "doi": "10.1177/1745691613504191",
+          "scope_ja": "資金提供の帰属先。結果・解析の修正を指示する告知ではない。"
+        }
+      ],
+      "provenance_review_ids": [
+        "R5-18662d4d04bd"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC240",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 1,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "独立した効果研究ではありません。結果を支持する論文本数には数えません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-ddb1ece216d7"
+      ],
+      "checked_sections": [
+        "訂正本文：Funding paragraph on p. 407"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC241",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "測定上の批判の対象と、すべての種類の楽観の不存在は同じではありません。4分類のレビューと併読し、相反する結論を単純な多数決にしません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-fefe4364bd78"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC242",
+      "review_scope": "bibliography",
+      "method_signals": 1,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "古典的メタ分析の書誌を確認。一次の抄録・全文を今回取得できず、結果は未読解として保留。後続の追試と混同しない。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-9974087440cb"
+      ],
+      "checked_sections": [
+        "書誌：出版社の引用情報・原著者を含む後続研究の参考文献"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC243",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "魅力がある人ほど必ず正確に理解される、という単純な結論にはできません。古典的ハロー効果の全操作を追試した研究でもありません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-56c4d7c23cfc"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC244",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "他人との比較をすべて禁止する根拠ではありません。比較しない対照条件がない研究もあり、実験内の気分と長期の生活満足を区別します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-fe1cd8a9cff4"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC245",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "見るだけは悪く発信すれば良い、という二択の根拠ではありません。人同士の比較から一人の使い方を変えた効果を推定せず、相関と因果を分けます。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-c3b567a85fb6"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC246",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "横断データの統計的媒介は時間の順序や因果機序の証明ではありません。不安なニュースを読む人の診断や、利用を減らす介入の効果とは分けます。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-97dbaa2294fe"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC247",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "机に電話があるだけで必ず関係が悪化する、としません。緊急連絡や仕事上必要な確認と、会話をないがしろにする行動を区別します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-2db3153706d0"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC248",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "主に関連を扱う研究群で、全被害者が同じ症状を持つとは言えません。ブロックや記録保存の手順の治療効果を比較したレビューでもなく、被害者の責任にしません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-6f9985ba2517"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC249",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "痛みという表現は支払いに伴う心理的経験であり、脳内の単一部位や実際の損失額を診断するものではありません。モデルの適合とすべての購入行動の因果説明を区別します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-7864133217d3"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC250",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "疲れた夜だから購入が増える、という因果を直接示す統合結果ではありません。疲労・時刻・気分の効果を一緒にせず、タイトルの中心疑問には追加の直接研究が必要です。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-0b19867b7a11"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC251",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "売上への影響の推定にはモデルと固定した初期加入者という仮定があります。売上が増えるという推定を、全利用者の損失が同率で増えるという話にしません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-abd448a7dc98"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC252",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "2006年の特定の施設・料金設定です。すべての定額契約が損という根拠ではなく、将来の利用予測や便利さの価値を分けます。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-c9aa7405844b"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC253",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "期間限定なら必ず売れる、という法則ではありません。購入意図と実際の支出、商品の種類を区別し、人を焦らせる設計の指南にしません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-475d53f9626f"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC254",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "頻度を増やす実験ではなく、最適な回数や義務を示していません。相手の同意、希望の違い、身体状況を優先し、平均を個人の基準にしません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-fed8dec5e50e"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC255",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "睡眠を無作為に奪う実験ではありません。対立から睡眠が悪くなる可能性や残る交絡を考慮し、暴力や支配を寝不足で正当化しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-6ca4ac4e3207"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC256",
+      "review_scope": "abstract",
+      "method_signals": 1,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "2009年のFacebookを使う学生の横断調査です。循環や監視の因果を確定していません。現在の全SNSに一般化せず、無断閲覧や追跡を勧めません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-4192e6e68e0f"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC257",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "限定された女性標本と短い追跡です。身体機能を評価することと、近年のボディニュートラルという言葉全体を同一視しません。病気や障害のある人にできることの多さを競わせません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-95e557b960c4"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC258",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "関連研究の割合が高く、身体への肯定がすべての問題を治すという結論ではありません。小規模試験とレビューを独立した人数として足しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-21ed97d49401"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC259",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "観察研究で、混雑がすべての疲労の原因とは言えません。2021年の訂正告知の存在を確認しましたが、影響評価は未完了なので数値の中心根拠としては保留します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [
+        {
+          "type": "Erratum in",
+          "doi": "10.1016/j.jenvp.2021.101638",
+          "status": "content_pending"
+        }
+      ],
+      "provenance_review_ids": [
+        "R5-bd6074453223"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC260",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "抄録の533人を全割付人数と扱いません。脱落742人で、完了者中心の推定、自己報告、ドイツ語圏の女性が多い標本、未事前登録という制約があります。誰でも遊べば幸福になるとは言えません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-569a167be142"
+      ],
+      "checked_sections": [
+        "Methods: Participants and procedure / Attrition",
+        "Results and limitations: self-report, no preregistration"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC261",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "短期的な想起の効果と、自然に懐かしさを感じる日の状態は別です。気分の改善は一様ではなく、悲しみやつらい記憶を無理に思い出すことを勧めません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-c38a9f70bbc8"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC262",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "無作為化された一つの介入の効果量ではありません。仕事量を増やしたり危険な締切を設けたりすることを、創造性のためと正当化しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-41d58a1207b3"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC263",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "外国語なら必ず合理的・倫理的になるとは言えません。道徳課題の功利的選択、リスクへの態度、実際の生活上の良い判断は同じではありません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-d33583a19c9c"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC264",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "無作為化された転居の試験ではなく、同時に起こる家族・仕事の変化を完全には分けられません。引っ越せば全員が幸せになる、長距離なら不幸になる、のどちらも示しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-fd0788c3a201"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC265",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "女性のみの特定の時代・文化の観察研究です。子どもの独立に寂しさを感じることを異常とせず、独立前後の別の出来事も考慮します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-5ed7b81a6d78"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC266",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-0bf714065f18"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC267",
+      "review_scope": "abstract",
+      "method_signals": 2,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "短期の実験で、長期の能力や仕事の成果の改善を保証しません。心の症状のメタ分析とは別に、再挑戦に近い行動を直接調べた根拠として扱います。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-3ed1f19c4641"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC268",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-2108da7ac1fc"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC269",
+      "review_scope": "abstract",
+      "method_signals": 3,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "2010年レビューと収載研究が重なり得るため独立した参加者として足しません。2016年訂正は回帰係数bとt値の表記を修正しています。条件別分析を万人への最適個数に変換しません。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [
+        {
+          "type": "correction_content_checked",
+          "doi": "10.1016/j.jcps.2015.07.001",
+          "scope_ja": "p.348のbとt値の表記修正。原著と告知の対応を確認。"
+        }
+      ],
+      "provenance_review_ids": [
+        "R5-d10dbd50267e"
+      ],
+      "checked_sections": [
+        "Abstract / 抄録"
+      ],
+      "checked_on": "2026-09-11"
+    },
+    {
+      "source_id": "SRC270",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": 1,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+      "limitations_ja": [
+        "独立した効果研究ではありません。2010年レビューへの訂正ではなく、出典IDを分けて結び付けます。"
+      ],
+      "integrity_status": "selected_notices_checked_not_exhaustive",
+      "integrity_notices": [],
+      "provenance_review_ids": [
+        "R5-64c7edeb622e"
+      ],
+      "checked_sections": [
+        "本文全体：p.348 The mean effect of assortment size on choice overload の記載訂正"
+      ],
+      "checked_on": "2026-09-11"
     }
-  ]
+  ],
+  "updated_on": "2026-09-11"
 }

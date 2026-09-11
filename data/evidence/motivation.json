@@ -263,6 +263,34 @@
       "conclusion_direction": "association",
       "limits_ja": "行動開始の観察と、長期の習慣維持への因果効果は別。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MOT-001-SRC266",
+      "topic_id": "PSY-MOT-001",
+      "source_id": "SRC266",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-0bf714065f18",
+      "finding_scope_ja": "嫌な課題に直面したとき、将来の目標より今の気分を優先することが先延ばしに関わる、という理論的な整理です。時間をまたぐ自己の捉え方と気分調整を結びつけています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "理論レビューだけで先延ばしの原因を一つに確定できません。時間管理・注意・負担・生活環境など他の説明を排除せず、介入効果のメタ分析とは別の役割で引用します。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MOT-009-SRC267",
+      "topic_id": "PSY-MOT-009",
+      "source_id": "SRC267",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-3ed1f19c4641",
+      "finding_scope_ja": "失敗後に自分へ思いやりを向ける操作を、自尊感情を高める条件や気をそらす条件などと比較した4実験です。実験の一つでは失敗後の難しいテストに向けて勉強する時間が長くなりました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "短期の実験で、長期の能力や仕事の成果の改善を保証しません。心の症状のメタ分析とは別に、再挑戦に近い行動を直接調べた根拠として扱います。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

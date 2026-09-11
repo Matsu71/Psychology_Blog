@@ -179,9 +179,13 @@
       "search_query": "bedtime procrastination chronotype self regulation longitudinal intervention",
       "priority": 1,
       "source_ids": [
-        "SRC010"
+        "SRC010",
+        "SRC266"
       ],
-      "caution_ja": "初期研究は自己報告の相関研究。自己管理の弱さだけを原因にしない。"
+      "caution_ja": "初期研究は自己報告の相関研究。自己管理の弱さだけを原因にしない。",
+      "source_review_ids": [
+        "R5-0bf714065f18"
+      ]
     },
     {
       "id": "PSY-SLP-010",

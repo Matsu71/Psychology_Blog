@@ -91,14 +91,17 @@
       "source_ids": [
         "SRC026",
         "SRC098",
-        "SRC124"
+        "SRC124",
+        "SRC268"
       ],
       "caution_ja": "書誌情報は確認したが効果量は未評価。行動の難度や実行機会の有無を確認する。",
       "research_brief_ids": [
         "RB-34054628"
       ],
       "source_review_ids": [
-        "R3-C017"
+        "R3-C017",
+        "R5-f88e34000058",
+        "R5-2108da7ac1fc"
       ]
     },
     {
@@ -111,8 +114,13 @@
       "angle_ja": "道具の配置や選択肢の見え方と行動を調べる。",
       "search_query": "behavioral friction environmental restructuring physical activity intervention",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "対象行動と介入内容を明確にし、万能のライフハックにしない。"
+      "source_ids": [
+        "SRC231"
+      ],
+      "caution_ja": "対象行動と介入内容を明確にし、万能のライフハックにしない。",
+      "source_review_ids": [
+        "R5-ab17d9d14636"
+      ]
     },
     {
       "id": "PSY-HAB-007",

@@ -123,8 +123,13 @@
       "angle_ja": "上方比較と下方比較、刺激になる場合と苦しくなる場合を調べる。",
       "search_query": "social comparison upward downward subjective well being meta analysis",
       "priority": 1,
-      "source_ids": [],
-      "caution_ja": "すべての比較を悪いとせず、目的や本人の状況を確認する。"
+      "source_ids": [
+        "SRC244"
+      ],
+      "caution_ja": "すべての比較を悪いとせず、目的や本人の状況を確認する。",
+      "source_review_ids": [
+        "R5-fe1cd8a9cff4"
+      ]
     },
     {
       "id": "PSY-WEL-008",

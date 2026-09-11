@@ -87,11 +87,55 @@
     },
     {
       "topic_id": "PSY-MON-004",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-004-SRC249",
+          "source_id": "SRC249",
+          "title": "The Red and the Black: Mental Accounting of Savings and Debt",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "痛みという表現は支払いに伴う心理的経験であり、脳内の単一部位や実際の損失額を診断するものではありません。モデルの適合とすべての購入行動の因果説明を区別します。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-MON-005",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-005-SRC250",
+          "source_id": "SRC250",
+          "title": "Antecedents and consequences of impulse buying: a meta-analytic study",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "疲れた夜だから購入が増える、という因果を直接示す統合結果ではありません。疲労・時刻・気分の効果を一緒にせず、タイトルの中心疑問には追加の直接研究が必要です。",
+          "priority_score": 65.0,
+          "components": {
+            "theme_relevance_1_to_5": 4,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-MON-006",
@@ -168,11 +212,76 @@
     },
     {
       "topic_id": "PSY-MON-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-008-SRC251",
+          "source_id": "SRC251",
+          "title": "Selling Subscriptions",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "売上への影響の推定にはモデルと固定した初期加入者という仮定があります。売上が増えるという推定を、全利用者の損失が同率で増えるという話にしません。",
+          "priority_score": 82.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-MON-008-SRC252",
+          "source_id": "SRC252",
+          "title": "Paying Not to Go to the Gym",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "2006年の特定の施設・料金設定です。すべての定額契約が損という根拠ではなく、将来の利用予測や便利さの価値を分けます。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 2,
+          "display_position": 2
+        }
+      ]
     },
     {
       "topic_id": "PSY-MON-009",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-MON-009-SRC253",
+          "source_id": "SRC253",
+          "title": "A meta‐analysis on the effects of product scarcity",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "期間限定なら必ず売れる、という法則ではありません。購入意図と実際の支出、商品の種類を区別し、人を焦らせる設計の指南にしません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-MON-010",

@@ -5,12 +5,12 @@
   "created_on": "2026-09-11",
   "timezone": "Asia/Tokyo",
   "repository": "Matsu71/Psychology_Blog",
-  "phase": "topic_discovery_and_preliminary_evidence_mapping",
+  "phase": "claim_evidence_mapping_and_manuscript_revision",
   "category_count": 28,
   "topic_count": 300,
-  "source_count": 230,
-  "reference_linked_count": 271,
-  "search_pending_count": 29,
+  "source_count": 270,
+  "reference_linked_count": 300,
+  "search_pending_count": 0,
   "topic_defaults": {
     "record_status": "theme_candidate",
     "evidence_appraisal": "not_assessed",
@@ -41,7 +41,8 @@
     "source_assessments": "data/source_assessments.json",
     "evidence_catalog": "data/evidence/catalog.json",
     "literature_catalog": "data/literature/catalog.json",
-    "rankings": "data/rankings/"
+    "rankings": "data/rankings/",
+    "editorial_delivery": "data/research/editorial_delivery_report.json"
   },
   "initial_shortlist": [
     "PSY-SLP-001",
@@ -72,5 +73,6 @@
   "brief_linked_topic_count": 139,
   "candidate_record_count": 3018,
   "search_request_count": 810,
-  "research_round": "round3-ranked-evidence-v1"
+  "research_round": "round3-ranked-evidence-v1",
+  "latest_delivery": "editorial-2026-09-11-v1"
 }

@@ -349,6 +349,20 @@
       "conclusion_direction": "association",
       "limits_ja": "多くが横断研究で臨床標本も少ない。頻繁に運動することだけで依存と診断しない。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-EXE-006-SRC268",
+      "topic_id": "PSY-EXE-006",
+      "source_id": "SRC268",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-2108da7ac1fc",
+      "finding_scope_ja": "成人の身体活動に対する実行意図を扱う13の無作為化試験を整理しています。計画を後から強化する条件では、身体活動に小さな平均的改善が報告されました。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "対象者や介入が多様で、計画を一度書くだけの効果と、強化を含む介入を同一視しません。2016年までの検索であり、個人への運動処方には使いません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

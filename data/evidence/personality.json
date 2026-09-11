@@ -217,6 +217,20 @@
       "conclusion_direction": "not_classified",
       "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-PER-009-SRC232",
+      "topic_id": "PSY-PER-009",
+      "source_id": "SRC232",
+      "legacy_brief_ids": [],
+      "relation_role": "direct_or_targeted_evidence",
+      "relevance_1_to_5": 5,
+      "relevance_scope": "source_text_screened",
+      "source_review_id": "R5-62bdd458d5eb",
+      "finding_scope_ja": "感覚処理感受性を環境感受性の枠組みで整理し、測定方法、連続性、他の性格特性、発達との関係を検討しています。否定的環境への負担だけでなく支援的環境からの便益も論じる一方、客観的で信頼できる測定の不足を研究課題としています。",
+      "conclusion_direction": "mixed",
+      "limits_ja": "概念を吟味するレビューであり、ネット上のHSP診断の妥当性や特定の治療・職業選択を保証する資料ではありません。タイプ分けの確定診断と混同しません。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

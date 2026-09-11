@@ -59,7 +59,29 @@
     },
     {
       "topic_id": "PSY-INT-003",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-003-SRC254",
+          "source_id": "SRC254",
+          "title": "Sexual Frequency Predicts Greater Well-Being, But More is Not Always Better",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "頻度を増やす実験ではなく、最適な回数や義務を示していません。相手の同意、希望の違い、身体状況を優先し、平均を個人の基準にしません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-INT-004",
@@ -162,11 +184,55 @@
     },
     {
       "topic_id": "PSY-INT-007",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-007-SRC255",
+          "source_id": "SRC255",
+          "title": "The Role of Sleep in Interpersonal Conflict",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "睡眠を無作為に奪う実験ではありません。対立から睡眠が悪くなる可能性や残る交絡を考慮し、暴力や支配を寝不足で正当化しません。",
+          "priority_score": 75.0,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 2,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-INT-008",
-      "sources": []
+      "sources": [
+        {
+          "edge_id": "EV-PSY-INT-008-SRC256",
+          "source_id": "SRC256",
+          "title": "More information than you ever wanted: does Facebook bring out the green-eyed monster of jealousy?",
+          "review_scope": "abstract",
+          "relation_role": "direct_or_targeted_evidence",
+          "conclusion_direction": "mixed",
+          "limits_ja": "2009年のFacebookを使う学生の横断調査です。循環や監視の因果を確定していません。現在の全SNSに一般化せず、無断閲覧や追跡を勧めません。",
+          "priority_score": 67.5,
+          "components": {
+            "theme_relevance_1_to_5": 5,
+            "method_signals_0_to_4": 1,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": 1,
+          "display_position": 1
+        }
+      ]
     },
     {
       "topic_id": "PSY-INT-009",

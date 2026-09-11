@@ -68,7 +68,9 @@
       "angle_ja": "日本語と学習中の言語で選択を考える場面を比較する。",
       "search_query": "foreign language effect decision bias systematic review human study",
       "priority": 1,
-      "source_ids": [],
+      "source_ids": [
+        "SRC263"
+      ],
       "caution_ja": "言語能力や課題の理解度を統制し、外国語なら常に合理的としない。",
       "related_topic_ids": [
         "PSY-DEC-005",
@@ -78,7 +80,10 @@
         "type": "illustrative_scenario",
         "description_ja": "日本語と学習中の言語で選択を考える場面を比較する。",
         "observed_in_a_study": false
-      }
+      },
+      "source_review_ids": [
+        "R5-d33583a19c9c"
+      ]
     },
     {
       "id": "PSY-LAN-004",
