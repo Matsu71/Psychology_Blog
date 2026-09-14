@@ -6,7 +6,9 @@
 
 - 配送コミット：ad6fdb231b4dd226e80d007c85974a092ec10adc
 - 検証済み生成コミット：c5b09a59e0cc869a3a85bb57cf4a09c9794d0fb0
-- 実行：[Reader site / 34797312986](https://github.com/Matsu71/Psychology_Blog/actions/runs/34797312986)
+- 初回実行：[Reader site / 34797312986](https://github.com/Matsu71/Psychology_Blog/actions/runs/34797312986)
+- 更新処理の修正コミット：b9dc8e4ed89cfafd62a88dbd28a4ef259994f401
+- 最終再検査：[Reader site / 34798095210](https://github.com/Matsu71/Psychology_Blog/actions/runs/34798095210)。生成、既存データ検証、ブラウザ検査、mainとの整合確認、Pages再ビルド要求、成果物保存の全工程が成功しました。
 - 一時配送用の`.delivery/`は、チェックサム照合とソースの展開後に削除済みです。通常のPython・JSON・Markdown・CSS・JavaScript・HTMLを直接編集できます。
 - 既存の原稿、研究資料、テーマID、研究用の題名は保持しています。既存のmaterialize/refineワークフローは使っていません。
 
@@ -21,8 +23,20 @@
 
 機械可読の結果は`docs/READER_SITE_TESTS.json`と`docs/READER_BROWSER_TESTS.json`にあります。原稿64テーマ、準備中236テーマ、公開承認済み0件を区別します。検査合格は科学的内容の正しさや専門家監修の認定ではありません。
 
+## 同時更新の扱い
+
+追加修正時の実行34797767220では、既存Editorial maintenanceが同じREADME更新を先に保存し、Reader siteのpushだけが競合しました。原稿や表示ファイルが失われたものではありません。
+
+Reader siteは現在、検査したツリーとmainが同一なら重複コミットを作らず成功にします。別の同時更新がある場合は変更を保持してrebaseし、生成・検査を再実行します。本当の内容競合は停止して明示し、force-pushや一方の内容の自動破棄はしません。
+
+同じ保存用シェルをローカルの一時Gitリポジトリで、変更なし、新しい生成物、他処理による同一変更、別ファイルの同時更新、本当の内容競合の5条件で検査しました。5条件とも期待どおりに動作し、本当の競合では他の変更を保持して失敗することを確認しました。これは本番の同時更新を網羅した負荷試験ではありません。
+
 ## 配信と残る確認
 
-GitHub Pages標準のmain/(root)用に`index.html`と相対リンクを生成しています。現段階は制作プレビューで、全ページをnoindexにしています。リポジトリ内の反映とブラウザ操作試験の成功を、公開URLでの配信確認とは区別します。
+[Pages実行34798149600](https://github.com/Matsu71/Psychology_Blog/actions/runs/34798149600)で、b9dc8e4ed89cfafd62a88dbd28a4ef259994f401のビルド・デプロイ・状態報告がすべて成功しました。
+
+配信先：<https://matsu71.github.io/Psychology_Blog/>
+
+GitHub Pagesのmain/(root)用に`index.html`と相対リンクを生成しています。現段階は制作プレビューで、全ページをnoindexにしています。GitHub上の配信処理の成功と、外部の公開URLにアクセスしたHTTP・実画面検証は別です。今回の実ブラウザ検査はGitHub Actions内のローカル配信を対象にしています。
 
 最終目標は世界最高水準の心理学情報・トピックサイトです。300テーマは制作対象の現在値で、目標の上限ではありません。次の優先順位は、既存48稿の本文再編集、未作成236テーマの執筆、主張単位の原文点検、心理学の基礎・用語への入口、実ユーザーテストとアクセシビリティ検査です。独立した専門家確認と公開判断は別に記録します。
