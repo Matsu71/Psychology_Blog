@@ -11,6 +11,7 @@ on:
       - 'scripts/reader_navigation.py'
       - 'scripts/reader_references.py'
       - 'scripts/test_reader_wellbeing.py'
+      - 'scripts/test_reader_motivation.py'
       - 'scripts/validate.py'
       - 'scripts/test_reader_emotions.py'
       - 'scripts/test_reader_learning.py'
@@ -69,6 +70,7 @@ jobs:
           python scripts/test_reader_learning.py
           python scripts/test_reader_emotions.py
           python scripts/test_reader_wellbeing.py
+          python scripts/test_reader_motivation.py
       - name: Commit validated editable source and generated pages
         id: commit
         run: |
@@ -117,6 +119,7 @@ jobs:
             python scripts/test_reader_learning.py
             python scripts/test_reader_emotions.py
             python scripts/test_reader_wellbeing.py
+            python scripts/test_reader_motivation.py
           done
           echo 'Main kept changing during safe publication; no force-push performed.' >&2
           exit 1
