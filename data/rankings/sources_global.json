@@ -3434,6 +3434,36 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 298
+    },
+    {
+      "source_id": "SRC299",
+      "title": "Executive control of cognitive processes in task switching.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 299
+    },
+    {
+      "source_id": "SRC300",
+      "title": "American Statistical Association Releases Statement on Statistical Significance and P-Values",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 300
+    },
+    {
+      "source_id": "SRC301",
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 301
     }
   ]
 }

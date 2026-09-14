@@ -1,0 +1,653 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-14",
+  "publication_ready": false,
+  "editions": [
+    {
+      "topic_id": "PSY-SLP-004",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-SLP-004.md",
+      "summary": "量と就寝までの時間から、コーヒーの飲み方を考えます。",
+      "answer": "カフェインと睡眠の関係は、時刻だけでなく量でも変わります。「飲んでも眠れる」という感覚だけでは、影響がないとは判断できません。",
+      "source_ids": [
+        "SRC038",
+        "SRC111"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC038の公開本文・抄録と既存の指定箇所点検を照合。SRC111は既存稿の統合研究の記述を保持。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "量・時刻の試験は健康な成人男性23人の解析。100mgで明確な差がないことは全員への安全保証ではない。",
+          "source_ids": [
+            "SRC038",
+            "SRC111"
+          ],
+          "checked_locator": "SRC038: Abstract / Methods / Results、従来の主張対応表",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-SLP-001",
+        "PSY-SLP-009",
+        "PSY-HAB-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-SLP-009",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-SLP-009.md",
+      "summary": "寝たいのに夜更かしする行動を、不眠や時間不足と分けます。",
+      "answer": "就寝先延ばしは、寝る機会があるのに予定より遅らせる行動です。眠れないことや、仕事・介護で寝られない状況とは区別します。",
+      "source_ids": [
+        "SRC010",
+        "SRC272",
+        "SRC273"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC272のPubMed抄録を再確認。定義と日本語尺度の詳細は既存稿・主張対応表を引き継ぐ。介入効果の再評価ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "43研究の統合で関連を報告。関連だけで原因の順序や対処法の効果を確定しない。",
+          "source_ids": [
+            "SRC010",
+            "SRC272",
+            "SRC273"
+          ],
+          "checked_locator": "SRC272: Abstract Results / Conclusions",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-SLP-004",
+        "PSY-MOT-001",
+        "PSY-DIG-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-HAB-001",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-HAB-001.md",
+      "summary": "「21日」「66日」という数字と、習慣形成の個人差。",
+      "answer": "習慣が身につくまでの日数は一律ではありません。連続して実行した日数と、自然に始められる程度も別のものです。",
+      "source_ids": [
+        "SRC039"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC039の書誌・検索で取得した研究抄録の期間記載と、既存稿の指定箇所点検を照合。今回の出版社本文取得は成功していない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "習慣形成日数は研究の定義・行動・個人で異なり、一律の完成期限ではない。",
+          "source_ids": [
+            "SRC039"
+          ],
+          "checked_locator": "SRC039: Abstract、従来の主張対応表。本文の全再確認は未実施。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-HAB-005",
+        "PSY-HAB-007",
+        "PSY-MOT-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-HAB-005",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-HAB-005.md",
+      "summary": "目標だけでなく、行動する場面を決める計画の考え方。",
+      "answer": "「いつ・どこで・何をするか」を決める計画は行動を助ける候補です。ただし、計画を書くだけで必ず続くわけではなく、実行できる条件が必要です。",
+      "source_ids": [
+        "SRC268"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC268のPubMed抄録と既存の原文点検を照合。全体結果と強化条件の結果を分離し、後者だけを方法全体の結論にしない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "13件の試験のレビュー。全体の信頼区間は差なしを含み、計画強化条件の結果と区別する。",
+          "source_ids": [
+            "SRC268"
+          ],
+          "checked_locator": "SRC268: Abstract Results、従来の全体分析の主張対応表",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-HAB-001",
+        "PSY-MOT-001",
+        "PSY-HAB-007"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-MOT-001",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-MOT-001.md",
+      "summary": "時間の使い方だけでなく、課題への気分から先延ばしを考えます。",
+      "answer": "先延ばしには、課題に伴う嫌な気分を一時的に避ける働きが関わる、という説明があります。ただし、時間不足や疲れまで同じ原因にはまとめられません。",
+      "source_ids": [
+        "SRC266",
+        "SRC104"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC266の出版社掲載抄録とSRC104のPubMed抄録を再確認。説明モデルと介入研究を分ける。個人の原因診断は行わない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "短期的な気分の調整は理論的説明。12研究・718人の介入統合は原因の特定や方法の優劣の証明ではない。",
+          "source_ids": [
+            "SRC266",
+            "SRC104"
+          ],
+          "checked_locator": "SRC266: Abstract / SRC104: Abstract Results and Discussion",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-HAB-005",
+        "PSY-SLP-009",
+        "PSY-MOT-006"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-LEA-001",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-LEA-001.md",
+      "summary": "読むだけの復習に、思い出して確かめる時間を加えます。",
+      "answer": "学んだ内容を記憶から取り出す練習には、後の学習成績を高める平均的な利点が報告されています。間違いを確かめ、目的に合う問いで練習することが重要です。",
+      "source_ids": [
+        "SRC050",
+        "SRC277"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC050のPubMed抄録を再確認。SRC277の条件差は既存稿・主張対応表から継承。すべての教材での効果保証はしない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "教室の222研究を統合。標準化効果量g=0.499を49.9％の得点増加と解釈しない。",
+          "source_ids": [
+            "SRC050",
+            "SRC277"
+          ],
+          "checked_locator": "SRC050: Abstract、従来のSRC277条件別点検",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-002",
+        "PSY-LEA-003",
+        "PSY-LEA-005"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-LEA-002",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-LEA-002.md",
+      "summary": "復習する回数と、次に思い出すまでの間隔を考えます。",
+      "answer": "復習を複数の機会に分ける学習には利点があります。適した間隔は、いつまで覚えていたいかによっても変わり、万人共通の日程にはできません。",
+      "source_ids": [
+        "SRC051",
+        "SRC027"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC051の書誌と研究抄録の情報、既存原稿の引用を照合。今回のPubMed本文表示は取得できていないため、全文再点検とはしない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "保持したい期間と学習間隔の関係を扱う統合研究。固定の1・3・7日ルールを証明した研究ではない。",
+          "source_ids": [
+            "SRC051",
+            "SRC027"
+          ],
+          "checked_locator": "SRC051: Abstract / 既存原稿と主張対応表",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-003",
+        "PSY-LAN-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-ATT-004",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-ATT-004.md",
+      "summary": "疲れが減ることと、仕事の成績が上がることを分けます。",
+      "answer": "短い休憩には、疲労や活力への小さな平均的利点が報告されています。一方、課題の成績全体が改善するかは明確ではありません。",
+      "source_ids": [
+        "SRC054"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC054のPubMed抄録を再確認。疲労・活力と成績を分け、決まった休憩時間を最適解としない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "22独立標本の統合。疲労と活力の改善に対し、全体の成績の効果は統計的に明確ではない。",
+          "source_ids": [
+            "SRC054"
+          ],
+          "checked_locator": "SRC054: Abstract Results / Conclusions",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-ATT-001",
+        "PSY-ATT-003",
+        "PSY-CRE-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-EMO-008.md",
+      "summary": "発散する行動の種類と、怒りが落ち着くことの違い。",
+      "answer": "興奮を高める行動が、怒りを鎮めるとは限りません。怒りへの対処を調べた統合研究では、興奮を下げる活動の方に平均的な利点が見られました。",
+      "source_ids": [
+        "SRC058",
+        "SRC057"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC058の研究抄録情報と既存原稿を照合。SRC057は既存稿の補助的記述を引き継ぐ。研究の全個別試験の再監査ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "興奮を増やす活動と減らす活動の統合結果は異なる。これを運動全般の有害性に広げない。",
+          "source_ids": [
+            "SRC058",
+            "SRC057"
+          ],
+          "checked_locator": "SRC058: Abstract / 既存の主張対応表",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-001",
+        "PSY-ATT-004",
+        "PSY-MOT-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-GEN-002",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-GEN-002.md",
+      "summary": "個人の内訳ではなく、集団のばらつきを表す数値。",
+      "answer": "遺伝率50％は「あなたの半分が遺伝で決まり、変えられない」という意味ではありません。特定の集団で見られる個人差を、遺伝的な違いと関連づけて推定する指標です。",
+      "source_ids": [
+        "SRC004",
+        "SRC005",
+        "SRC006"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "2026-09-11の既存稿・確認記録を引き継いだ読者向け改稿。今回の公的ページ再取得は成功していない。50％は説明用の仮定で、特定研究の実測値ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "遺伝率は集団の分散に関する指標で、個人の原因割合や変えにくさそのものではない。",
+          "source_ids": [
+            "SRC004",
+            "SRC005",
+            "SRC006"
+          ],
+          "checked_locator": "SRC004 公的解説 / SRC005・006抄録：既存の指定箇所点検",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-GEN-001",
+        "PSY-PER-002",
+        "PSY-RES-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-PER-002",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-PER-002.md",
+      "summary": "性格尺度の変化と、望みどおりに変わることは別です。",
+      "answer": "成人の性格の尺度にも変化は見られます。ただし、誰もが希望どおりに変わることや、その変化が長期に続くことまで保証されたわけではありません。",
+      "source_ids": [
+        "SRC046",
+        "SRC047"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC046の書誌・抄録情報と既存稿を照合。SRC047の人数・比較条件は既存の指定箇所点検を引き継ぐ。長期効果は未保証。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "性格変化の207研究はすべて無作為化試験ではない。臨床研究と一般成人のデジタル介入の範囲を分ける。",
+          "source_ids": [
+            "SRC046",
+            "SRC047"
+          ],
+          "checked_locator": "SRC046: Abstract / SRC047: 既存の参加者フローと比較条件の点検",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-GEN-002",
+        "PSY-PER-003",
+        "PSY-HAB-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-CRE-001",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-CRE-001.md",
+      "summary": "アイデアを広げることと、よい案を選ぶことの違い。",
+      "answer": "歩行にはアイデアの候補を広げる課題での利点が報告されています。一つの正解を選ぶ力や、仕事全体の成果まで同じように改善するとは言えません。",
+      "source_ids": [
+        "SRC083",
+        "SRC287"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC287の出版社本文の抄録、Study characteristics、Discussion、GRADE assessmentを再確認。人数記載の不一致（1,036対1,039）は保留し、著者評価を独自評価と呼ばない。SRC083は既存抄録点検を継承。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2026年レビューは発散的思考に平均的利点を報告。収束的思考は不確かで、人数の記載にも未解決の差がある。",
+          "source_ids": [
+            "SRC083",
+            "SRC287"
+          ],
+          "checked_locator": "SRC287: Abstract Results / Study characteristics / Discussion / GRADE assessment",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常への応用節",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-ATT-004",
+        "PSY-CRE-003",
+        "PSY-CRE-002"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-ATT-001",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-ATT-001.md",
+      "summary": "同時に進めるつもりでも、作業を切り替える時間がかかります。",
+      "answer": "注意を使う作業を交互に行うと、切り替えに時間がかかることがあります。実験の切り替え時間を、仕事全体の損失率に置き換えることはできません。",
+      "source_ids": [
+        "SRC299"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "論文書誌と出版社由来の抄録を確認し、APAの研究発表とも照合。本文全体と個別実験データの再解析は未実施。通知研究を直接の代替根拠にしない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "四つの実験で切り替えに時間コストがあり、規則の複雑さ等により異なる。",
+          "source_ids": [
+            "SRC299"
+          ],
+          "checked_locator": "Abstract、APAの2001年研究発表",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "仕事全体の損失率や最適な返信間隔は、この研究だけでは決まらない。",
+          "source_ids": [
+            "SRC299"
+          ],
+          "checked_locator": "実験の課題・アウトカムの適用範囲",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "返信の時間を分ける、再開メモを残す。",
+          "source_ids": [],
+          "checked_locator": "日常で試すには",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-ATT-002",
+        "PSY-ATT-003",
+        "PSY-ATT-004"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-RES-005",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-005.md",
+      "summary": "「95％正しい」ではないp値の意味と、効果の大きさの見方。",
+      "answer": "p値0.05は「仮説が95％正しい」という意味ではありません。特定のモデルと仮定の下で、観察結果以上に極端な統計量が得られる確率を表します。",
+      "source_ids": [
+        "SRC300"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "ASAの公式発表PDFの六原則を本文・ページ画像で確認。数学的説明は当該原則に沿った編集上の説明。刊行声明論文の全文、各分野の検定実務を網羅したものではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "p値は仮説が正しい確率でも、効果量でもない。",
+          "source_ids": [
+            "SRC300"
+          ],
+          "checked_locator": "公式発表PDF p.2、原則2・5",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "閾値だけで結論を出さず、透明な報告を必要とする。",
+          "source_ids": [
+            "SRC300"
+          ],
+          "checked_locator": "公式発表PDF p.2、原則3・4",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "有意差なしを同等性の証明としない。",
+          "source_ids": [],
+          "checked_locator": "検定の論理上の区別",
+          "status": "mathematical_explanation"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-DEC-001"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-DEC-001",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-DEC-001.md",
+      "summary": "確かめたいはずなのに、自分の考えに合う情報を集めていないか。",
+      "answer": "確証バイアスは、すでにある考えに都合のよい方向へ、情報の探し方や解釈が偏ることです。反対意見を無条件で信じるのではなく、証拠の扱い方を点検します。",
+      "source_ids": [
+        "SRC301"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "大学掲載の原論文PDF pp.175–176とp.175の画像を確認。レビュー全46ページ、後続研究、対処法の効果の網羅評価は未実施。誤情報研究を定義の直接根拠に流用しない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "既存の信念に偏る情報探索・解釈を含む。",
+          "source_ids": [
+            "SRC301"
+          ],
+          "checked_locator": "pp.175–176、定義と導入",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "非意図的な選択と意図的な擁護を区別する。",
+          "source_ids": [
+            "SRC301"
+          ],
+          "checked_locator": "p.175 Deliberate Versus Spontaneous Case Building",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "判断を変える条件を書き、同じ基準で証拠を読む。",
+          "source_ids": [],
+          "checked_locator": "日常への編集例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-005",
+        "PSY-DEC-006"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-REL-002",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-REL-002.md",
+      "summary": "一人で過ごすこと、つながりの少なさ、寂しさを分けます。",
+      "answer": "孤独感は、望むつながりが満たされないという主観的な感覚です。人との接触の少なさを表す社会的孤立とは異なり、一人でいることだけでは判断できません。",
+      "source_ids": [
+        "SRC064"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "ResearchGate上で著者が公開した原論文の抄録とpp.227–228に相当する導入を確認。個別研究の再解析、因果の確定、治療・支援効果の網羅評価は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "孤独感と社会的孤立は主観的な体験と客観的な接触で区別され、一致しない場合がある。",
+          "source_ids": [
+            "SRC064"
+          ],
+          "checked_locator": "pp.227–228 definitions / Introduction",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "孤独感等と死亡との関連を統合した研究であり、選んだ一人時間の因果的な害を測るものではない。",
+          "source_ids": [
+            "SRC064"
+          ],
+          "checked_locator": "Abstract、対象アウトカムの範囲",
+          "status": "selected_scope_checked"
+        },
+        {
+          "claim_ja": "必要な関わりを言葉にして無理のない相談先を考える。",
+          "source_ids": [],
+          "checked_locator": "本文の編集上の例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-WEL-005",
+        "PSY-SOC-009",
+        "PSY-LIF-004"
+      ],
+      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    }
+  ]
+}

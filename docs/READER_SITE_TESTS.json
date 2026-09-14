@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "passed": true,
+  "checks": 8622,
+  "html_pages": 104,
+  "source_count": 301,
+  "search_states": {
+    "draft": 64,
+    "pending": 236
+  },
+  "errors": [],
+  "scientific_validity_certified": false,
+  "browser_test": "separate test_reader_browser.py",
+  "asset_bytes": {
+    "index.html": 8946,
+    "assets/site.css": 16407,
+    "assets/app.js": 4665
+  }
+}

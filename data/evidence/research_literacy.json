@@ -417,6 +417,20 @@
       "conclusion_direction": "context",
       "limits_ja": "日常の自己記録がそのまま因果実験になるわけではない。薬・睡眠削減等の危険な自己実験は対象外。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-RES-005-SRC300",
+      "topic_id": "PSY-RES-005",
+      "source_id": "SRC300",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：ASAの2016年3月7日付公式発表PDF、2ページ目の六原則を本文と画像で確認。刊行論文（10.1080/00031305.2016.1154108）そのものの全文を読んだ記録ではない。統計上の原則を示す資料であり心理介入の効果を測る研究ではない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

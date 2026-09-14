@@ -6,7 +6,7 @@
       "id": "EV-PSY-ATT-001-SRC055",
       "topic_id": "PSY-ATT-001",
       "source_id": "SRC055",
-      "relation_role": "unassessed_legacy_link",
+      "relation_role": "context_only",
       "relevance_1_to_5": null,
       "relevance_scope": "not_reassessed",
       "source_review_id": null,
@@ -15,7 +15,7 @@
       ],
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "limits_ja": "通知の中断／誤情報への注意喚起を扱う背景資料。今回の課題切り替え／確証バイアスの定義に直接対応する資料としては使わない。従来の書誌・主張記録は保持。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -286,6 +286,20 @@
       "finding_scope_ja": "95論文154実験6246人の背景音楽と認知課題を整理。課題、歌詞、難度、標本によって結果が異なり、言語・記憶課題で妨害が多い。",
       "conclusion_direction": "mixed",
       "limits_ja": "方向の票数等で統合するSWiM型で、標準化効果量をプールしたメタ分析ではない。若年成人に偏り、検索は2020年7月まで。歌詞なしならいつでも安全、有利という証明ではない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-ATT-001-SRC299",
+      "topic_id": "PSY-ATT-001",
+      "source_id": "SRC299",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：書誌と論文抄録（PubMed記録、ResearchGate上の出版社由来抄録）を確認。APA発表 https://www.newswise.com/articles/is-multitasking-more-efficient も照合。4実験の課題切り替え、規則の複雑さ、切り替え時間が対象。論文全文未確認。仕事全体の損失率や万能な対処法は推定しない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

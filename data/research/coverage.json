@@ -4,7 +4,7 @@
   "category_count": 28,
   "topic_count": 300,
   "new_topic_count": 100,
-  "source_count": 298,
+  "source_count": 301,
   "legacy_source_count": 35,
   "added_source_count": 71,
   "reviewed_research_count": 68,
@@ -326,8 +326,8 @@
   "round3_missing_with_targeted_abstract": 79,
   "round3_existing_with_targeted_abstract": 9,
   "round3_new_search_request_count": 510,
-  "selected_fulltext_checks_count": 36,
-  "evidence_edge_count": 525,
+  "selected_fulltext_checks_count": 37,
+  "evidence_edge_count": 528,
   "editorial_scored_topic_count": 50,
   "round3_remaining_unregistered": [
     "PSY-HAB-006",
@@ -369,7 +369,7 @@
   "editorial_delivery_added_sources": 40,
   "editorial_delivery_review_count": 42,
   "current_source_unregistered_topic_ids": [],
-  "updated_on": "2026-09-11",
+  "updated_on": "2026-09-14",
   "source_check_pass": "source-editorial-pass-20260911",
   "source_check_pass_records": 41,
   "official_page_review_count": 1

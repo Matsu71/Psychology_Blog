@@ -5916,6 +5916,48 @@
       "integrity_notices": [],
       "reporting_issues": [],
       "latest_source_check_id": "SL8-impostor2026"
+    },
+    {
+      "source_id": "SRC299",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立査読・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：書誌と論文抄録（PubMed記録、ResearchGate上の出版社由来抄録）を確認。APA発表 https://www.newswise.com/articles/is-multitasking-more-efficient も照合。4実験の課題切り替え、規則の複雑さ、切り替え時間が対象。論文全文未確認。仕事全体の損失率や万能な対処法は推定しない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC300",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立査読・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：ASAの2016年3月7日付公式発表PDF、2ページ目の六原則を本文と画像で確認。刊行論文（10.1080/00031305.2016.1154108）そのものの全文を読んだ記録ではない。統計上の原則を示す資料であり心理介入の効果を測る研究ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC301",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立査読・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：大学掲載の論文PDFのpp.175–176、定義と意図的／非意図的な選択、動機づけの区別を確認。p.175のページ画像も確認。46ページ全体の網羅的な点検ではない。日常のチェックリストは編集上の例で、効果保証の根拠にしない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

@@ -103,7 +103,8 @@
       "search_query": "p values interpretation probability hypothesis true statistical inference",
       "priority": 1,
       "source_ids": [
-        "SRC015"
+        "SRC015",
+        "SRC300"
       ],
       "caution_ja": "p値だけで真偽を判定しない。例に使う数値は架空か実測かを明記する。"
     },

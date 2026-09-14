@@ -11,9 +11,9 @@
           "source_id": "SRC067",
           "title": "Shifting attention to accuracy can reduce misinformation online.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "通知の中断／誤情報への注意喚起を扱う背景資料。今回の課題切り替え／確証バイアスの定義に直接対応する資料としては使わない。従来の書誌・主張記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -26,6 +26,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-DEC-001-SRC301",
+          "source_id": "SRC301",
+          "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },

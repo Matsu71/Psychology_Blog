@@ -6783,6 +6783,45 @@
       "accessed_on": "2026-09-11",
       "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
       "correction_retraction_check": "not_exhaustive"
+    },
+    {
+      "id": "SRC299",
+      "title": "Executive control of cognitive processes in task switching.",
+      "authors_display": "Rubinstein JS; Meyer DE; Evans JE",
+      "year": 2001,
+      "journal": "Journal of Experimental Psychology: Human Perception and Performance 27(4):763–797",
+      "source_type": "journal_article",
+      "doi": "10.1037/0096-1523.27.4.763",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11518143/",
+      "verified_via_url": "https://www.researchgate.net/publication/11827832_Executive_Control_of_Cognitive_Processes_in_Task_Switching",
+      "verification_scope": "abstract_reviewed",
+      "notes_ja": "2026-09-14：書誌と論文抄録（PubMed記録、ResearchGate上の出版社由来抄録）を確認。APA発表 https://www.newswise.com/articles/is-multitasking-more-efficient も照合。4実験の課題切り替え、規則の複雑さ、切り替え時間が対象。論文全文未確認。仕事全体の損失率や万能な対処法は推定しない。"
+    },
+    {
+      "id": "SRC300",
+      "title": "American Statistical Association Releases Statement on Statistical Significance and P-Values",
+      "authors_display": "American Statistical Association",
+      "year": 2016,
+      "journal": null,
+      "source_type": "official_bibliography",
+      "doi": null,
+      "url": "https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf",
+      "verified_via_url": "https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "2026-09-14：ASAの2016年3月7日付公式発表PDF、2ページ目の六原則を本文と画像で確認。刊行論文（10.1080/00031305.2016.1154108）そのものの全文を読んだ記録ではない。統計上の原則を示す資料であり心理介入の効果を測る研究ではない。"
+    },
+    {
+      "id": "SRC301",
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises.",
+      "authors_display": "Nickerson RS",
+      "year": 1998,
+      "journal": "Review of General Psychology 2(2):175–220",
+      "source_type": "journal_article",
+      "doi": "10.1037/1089-2680.2.2.175",
+      "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+      "verified_via_url": "https://pages.ucsd.edu/~mckenzie/nickersonConfirmationBias.pdf",
+      "verification_scope": "article_text_reviewed",
+      "notes_ja": "2026-09-14：大学掲載の論文PDFのpp.175–176、定義と意図的／非意図的な選択、動機づけの区別を確認。p.175のページ画像も確認。46ページ全体の網羅的な点検ではない。日常のチェックリストは編集上の例で、効果保証の根拠にしない。"
     }
   ],
   "updated_on": "2026-09-11"

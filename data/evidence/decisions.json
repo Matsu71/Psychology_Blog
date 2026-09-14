@@ -6,7 +6,7 @@
       "id": "EV-PSY-DEC-001-SRC067",
       "topic_id": "PSY-DEC-001",
       "source_id": "SRC067",
-      "relation_role": "unassessed_legacy_link",
+      "relation_role": "context_only",
       "relevance_1_to_5": null,
       "relevance_scope": "not_reassessed",
       "source_review_id": null,
@@ -15,7 +15,7 @@
       ],
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "limits_ja": "通知の中断／誤情報への注意喚起を扱う背景資料。今回の課題切り替え／確証バイアスの定義に直接対応する資料としては使わない。従来の書誌・主張記録は保持。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -226,6 +226,20 @@
       "finding_scope_ja": "2015年レビューの回帰係数bとt値の3箇所の記載を訂正。オンライン2015年、巻号2016年。",
       "conclusion_direction": "mixed",
       "limits_ja": "2010年の別レビューへの訂正ではない。独立した効果研究や元データの再解析に数えない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-DEC-001-SRC301",
+      "topic_id": "PSY-DEC-001",
+      "source_id": "SRC301",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：大学掲載の論文PDFのpp.175–176、定義と意図的／非意図的な選択、動機づけの区別を確認。p.175のページ画像も確認。46ページ全体の網羅的な点検ではない。日常のチェックリストは編集上の例で、効果保証の根拠にしない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

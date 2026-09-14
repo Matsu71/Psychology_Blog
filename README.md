@@ -1,8 +1,8 @@
 # Psychology Blog — 人間の科学・記事制作データベース
 
-**最終目標：一般向けに面白く、科学的根拠をたどれる300記事。**
+**最終目標：世界最高水準の心理学情報・トピックサイト。300テーマは最初の制作対象です。**
 
-28分野・300テーマ。出典298件。出典未登録0テーマ。
+28分野・300テーマ。出典301件。出典未登録0テーマ。
 
 本文60件、主張対応表60件。 限定した原文照合記録あり20件。公開承認済み0件。
 
@@ -33,3 +33,23 @@ python scripts/reconcile_article_progress.py --check
 - [CONTINUATION_20260911D](docs/CONTINUATION_20260911D.md)
 - [CONTINUATION_DAILY_LIFE_20260911](docs/CONTINUATION_DAILY_LIFE_20260911.md)
 - [CONTINUATION_LEARNING_20260911](docs/CONTINUATION_LEARNING_20260911.md)
+
+## 読者向けサイト（2026-09-14）
+
+[制作プレビュー](https://matsu71.github.io/Psychology_Blog/) / [参考サイト比較](docs/redesign/REFERENCE_REVIEW.md) / [編集基準](docs/redesign/EDITORIAL_STANDARD.md)
+
+8つの入口、28分野、300テーマ。読者向け本文は64テーマ（従来の60原稿に、新稿4テーマを追加。そのうち既存12テーマは読者向けに改稿）。原稿数は公開承認数ではありません。
+
+タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。
+
+配置は main / (root)。追加ビルド設定なしで生成済み index.html から閲覧できます。再生成は次の順序です。
+
+```bash
+python scripts/register_reader_sources.py
+python scripts/build_research_views.py
+python scripts/reconcile_article_progress.py
+python scripts/build_reader_site.py
+python scripts/test_reader_site.py
+```
+
+構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)。科学的真偽や医療監修を自動認定するテストではありません。

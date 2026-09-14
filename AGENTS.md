@@ -14,3 +14,11 @@
 10. 正本変更後にpython scripts/build_research_views.pyと3つのvalidateスクリプトを実行。source_review_ids、source_ids、evidence、coverageの整合性を保つ。
 
 新規候補・検索ログは100件程度で分割し、literature/catalog.jsonに登録する。通常のJSONは内部目安1MiB以内。完成した可搬出力はbuild/database/、生成物は正本ではない。定期作業は現在設定していない。
+
+## 読者向けサイト方針（2026-09-14）
+
+最終目標は世界一の心理学情報・トピックサイト。300テーマは初期対象であり最終到達点ではない。既存のChatGPT案を良いものと仮定せず、既存の心理学・科学・情報サイトの構造を比較して改善する。参照先・採否はdocs/redesign/REFERENCE_REVIEW.md、文章と点検の基準はdocs/redesign/EDITORIAL_STANDARD.md。
+
+長い抽象的な宣伝文を見出しに置かない。短い名詞句または具体的な疑問を使う。本文の必要な情報まで一律に短縮しない。表示用の短い題名はsite/editorial.jsonで管理し、研究正本のID・題名・順序を保持する。読者向け改稿はarticles/reader、主張確認範囲はsite/reader_editions.jsonに保存し、改稿を別テーマとして水増ししない。
+
+site/research_additions.jsonは追加書誌の一回限りの移行入力であり、書誌の正本はdata/sources.json。register_reader_sources.pyは既存書誌の変更を上書きしない。通常の再生成・検証はREADMEの順序に従う。表示の検査合格を科学的正確性・公開承認に読み替えない。全ページは当面、状態を明示した制作プレビューとする。

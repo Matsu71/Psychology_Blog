@@ -340,6 +340,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-RES-005-SRC300",
+          "source_id": "SRC300",
+          "title": "American Statistical Association Releases Statement on Statistical Significance and P-Values",
+          "review_scope": "official_page_reviewed",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },

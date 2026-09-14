@@ -65,7 +65,7 @@ def products():
         lines+=['','## 追加原稿・別の改稿案','','同じテーマの改稿案は別記事として数えません。','']
         lines += [f'- [{x.stem}]({x.name})' for x in extras]
     missing=sum(not t['source_ids'] for t in topics)
-    nxt=['# 次の作業','',f"最終目標：根拠をたどれる一般向け{p['goal_articles']}記事。",'',
+    nxt=['# 次の作業','',f"最終目標：世界最高水準の心理学情報・トピックサイト。現在の制作対象は{p['goal_articles']}テーマ。",'',
         f'出典{len(sources)}件、出典未登録{missing}テーマ。'+count,'',
         f'本文未作成は{len(topics)-len(manuscripts)}テーマ。公開承認済みは{ready}件。','',
         '## 実行順','',
@@ -79,7 +79,7 @@ def products():
         '## 更新コマンド','','```bash','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py',
         'python scripts/reconcile_article_progress.py --check','```','',boundary,'','会話終了後の自動執筆や定期公開は設定していません。']
     readme=['# Psychology Blog — 人間の科学・記事制作データベース','',
-        '**最終目標：一般向けに面白く、科学的根拠をたどれる300記事。**','',
+        '**最終目標：世界最高水準の心理学情報・トピックサイト。300テーマは最初の制作対象です。**','',
         f'{len(categories)}分野・{len(topics)}テーマ。出典{len(sources)}件。出典未登録{missing}テーマ。','',
         count+f' 限定した原文照合記録あり{len(checked)}件。公開承認済み{ready}件。','',
         '- [記事の現在地](docs/ARTICLE_PROGRESS.md)','- [次の作業](docs/NEXT_STEPS.md)',
@@ -92,6 +92,18 @@ def products():
         '全文・抄録の原文は公開データに転載しません。想定例と実際の研究場面を分けます。定期執筆・自動サイト公開は設定していません。']
     if extras:
         readme+=['','## 追加原稿・改稿案','']+[f'- [{x.stem}](docs/{x.name})' for x in extras]
+    if (ROOT/'site/editorial.json').exists():
+        editions=read('site/reader_editions.json')['editions']
+        extra=sum(x['kind']=='new_draft' for x in editions)
+        rewrites=sum(x['kind']=='rewrite' for x in editions)
+        readme+=['','## 読者向けサイト（2026-09-14）','',
+          '[制作プレビュー](https://matsu71.github.io/Psychology_Blog/) / [参考サイト比較](docs/redesign/REFERENCE_REVIEW.md) / [編集基準](docs/redesign/EDITORIAL_STANDARD.md)','',
+          f'8つの入口、28分野、300テーマ。読者向け本文は{len(manuscripts)+extra}テーマ（従来の60原稿に、新稿{extra}テーマを追加。そのうち既存{rewrites}テーマは読者向けに改稿）。原稿数は公開承認数ではありません。','',
+          'タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。','',
+          '配置は main / (root)。追加ビルド設定なしで生成済み index.html から閲覧できます。再生成は次の順序です。','',
+          '```bash','python scripts/register_reader_sources.py','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py','python scripts/build_reader_site.py','python scripts/test_reader_site.py','```','',
+          '構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)。科学的真偽や医療監修を自動認定するテストではありません。']
+        nxt+=['','## 読者版の次の改善','','[編集基準と優先順位](redesign/EDITORIAL_STANDARD.md)を正とします。旧300記事目標を最終到達点にしません。本文・情報探索・アクセシビリティ・主張単位の点検・訂正運用を継続して改善します。']
     out={'data/articles/progress.json':json.dumps(p,ensure_ascii=False,indent=2)+'\n',
          'docs/ARTICLE_PROGRESS.md':'\n'.join(lines)+'\n','docs/NEXT_STEPS.md':'\n'.join(nxt)+'\n','README.md':'\n'.join(readme)+'\n'}
     return out,p

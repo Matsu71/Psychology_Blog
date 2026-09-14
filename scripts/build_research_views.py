@@ -7,7 +7,7 @@ from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = 'work-priority-1.1'
-DATE = '2026-09-11'
+DATE = json.loads((ROOT / 'data/manifest.json').read_text(encoding='utf-8')).get('updated_on', '2026-09-11')
 
 
 def load(path: str):

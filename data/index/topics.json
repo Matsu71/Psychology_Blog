@@ -708,7 +708,7 @@
       "topic_file": "data/topics/08_attention.json",
       "evidence_file": "data/evidence/attention.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/attention.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -808,7 +808,7 @@
       "topic_file": "data/topics/09_decisions.json",
       "evidence_file": "data/evidence/decisions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/decisions.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -1948,7 +1948,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
