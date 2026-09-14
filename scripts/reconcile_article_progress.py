@@ -89,7 +89,7 @@ def products():
         '```bash','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py','python scripts/validate.py',
         'python scripts/validate_research.py','python scripts/validate_round3.py','python scripts/validate_editorial_pass.py',
         'python scripts/reconcile_article_progress.py --check','```','',
-        '全文・抄録の原文は公開データに転載しません。想定例と実際の研究場面を分けます。定期執筆・自動サイト公開は設定していません。']
+        '全文・抄録の原文は公開データに転載しません。想定例と実際の研究場面を分けます。定期的な自動執筆は設定していません。サイトの生成・配信は、下記の読者版の説明を参照してください。']
     if extras:
         readme+=['','## 追加原稿・改稿案','']+[f'- [{x.stem}](docs/{x.name})' for x in extras]
     if (ROOT/'site/editorial.json').exists():
@@ -100,7 +100,7 @@ def products():
           '[制作プレビュー](https://matsu71.github.io/Psychology_Blog/) / [参考サイト比較](docs/redesign/REFERENCE_REVIEW.md) / [編集基準](docs/redesign/EDITORIAL_STANDARD.md)','',
           f'8つの入口、28分野、300テーマ。読者向け本文は{len(manuscripts)+extra}テーマ（従来の60原稿に、新稿{extra}テーマを追加。そのうち既存{rewrites}テーマは読者向けに改稿）。原稿数は公開承認数ではありません。','',
           'タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。','',
-          '配置は main / (root)。追加ビルド設定なしで生成済み index.html から閲覧できます。再生成は次の順序です。','',
+          '配置は main / (root)。Reader siteワークフローが変更されたソースを検証・生成し、生成物をmainへ保存してPagesの再ビルドを要求します。記事の公開承認を自動で付与するものではありません。手元で再生成する場合は次の順序です。','',
           '```bash','python scripts/register_reader_sources.py','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py','python scripts/build_reader_site.py','python scripts/test_reader_site.py','```','',
           '構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)。科学的真偽や医療監修を自動認定するテストではありません。']
         nxt+=['','## 読者版の次の改善','','[編集基準と優先順位](redesign/EDITORIAL_STANDARD.md)を正とします。旧300記事目標を最終到達点にしません。本文・情報探索・アクセシビリティ・主張単位の点検・訂正運用を継続して改善します。']

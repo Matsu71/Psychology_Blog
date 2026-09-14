@@ -17,6 +17,7 @@ on:
       - 'data/**'
 permissions:
   contents: write
+  pages: write
 concurrency:
   group: reader-site-main
   cancel-in-progress: false
@@ -53,6 +54,7 @@ jobs:
       - name: Test responsive reading and search
         run: python scripts/test_reader_browser.py
       - name: Commit validated editable source and generated pages
+        id: commit
         run: |
           set -euo pipefail
           git add AGENTS.md README.md data articles/reader scripts site docs index.html .nojekyll assets topics read about search
@@ -62,7 +64,13 @@ jobs:
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git commit -m 'Build researched psychology reader site: 300 topics, 64 editorial manuscripts'
             git push origin HEAD:main
+            echo "updated=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Request Pages rebuild from generated main
+        if: steps.commit.outputs.updated == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" --jq '{status, url}'
       - name: Prepare review snapshot
         if: always()
         run: |
