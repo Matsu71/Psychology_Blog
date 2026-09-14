@@ -25,7 +25,7 @@ python scripts/validate_editorial_pass.py
 python scripts/reconcile_article_progress.py --check
 ```
 
-全文・抄録の原文は公開データに転載しません。想定例と実際の研究場面を分けます。定期執筆・自動サイト公開は設定していません。
+全文・抄録の原文は公開データに転載しません。想定例と実際の研究場面を分けます。定期的な自動執筆は設定していません。サイトの生成・配信は、下記の読者版の説明を参照してください。
 
 ## 追加原稿・改稿案
 
@@ -42,7 +42,7 @@ python scripts/reconcile_article_progress.py --check
 
 タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。
 
-配置は main / (root)。追加ビルド設定なしで生成済み index.html から閲覧できます。再生成は次の順序です。
+配置は main / (root)。Reader siteワークフローが変更されたソースを検証・生成し、生成物をmainへ保存してPagesの再ビルドを要求します。記事の公開承認を自動で付与するものではありません。手元で再生成する場合は次の順序です。
 
 ```bash
 python scripts/register_reader_sources.py
