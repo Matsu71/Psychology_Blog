@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/reader-site.yml'
       - 'scripts/build_reader_site.py'
+      - 'scripts/reader_foundations.py'
+      - 'scripts/test_reader_foundations.py'
       - 'scripts/test_reader_site.py'
       - 'scripts/test_reader_browser.py'
       - 'scripts/register_reader_sources.py'
@@ -20,6 +22,8 @@ permissions:
 concurrency:
   group: reader-site-main
   cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -51,7 +55,10 @@ jobs:
           python -m playwright install --with-deps chromium
           sudo apt-get install -y fonts-noto-cjk
       - name: Test responsive reading and search
-        run: python scripts/test_reader_browser.py
+        run: |
+          set -euo pipefail
+          python scripts/test_reader_browser.py
+          python scripts/test_reader_foundations.py
       - name: Commit validated editable source and generated pages
         id: commit
         run: |
@@ -59,7 +66,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
-            git add AGENTS.md README.md data articles/reader scripts site docs index.html .nojekyll assets topics read about search
+            git add AGENTS.md README.md data articles/reader scripts/*.py site docs index.html .nojekyll assets topics read about search learn glossary
             git add -u
             if ! git diff --cached --quiet; then
               git commit -m 'Build validated psychology reader site'
@@ -96,6 +103,7 @@ jobs:
             python scripts/validate_editorial_pass.py
             python scripts/reconcile_article_progress.py --check
             python scripts/test_reader_browser.py
+            python scripts/test_reader_foundations.py
           done
           echo 'Main kept changing during safe publication; no force-push performed.' >&2
           exit 1
@@ -108,7 +116,7 @@ jobs:
         if: always()
         run: |
           mkdir -p /tmp/psychology-review
-          for item in .github data articles docs scripts site assets topics read about search index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll research schemas review-screenshots; do
+          for item in .github data articles docs scripts site assets topics read about search learn glossary index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll research schemas review-screenshots; do
             if [ -e "$item" ]; then cp -R "$item" /tmp/psychology-review/; fi
           done
       - uses: actions/upload-artifact@v4
