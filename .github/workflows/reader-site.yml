@@ -1,0 +1,56 @@
+name: Reader site
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/reader-site.yml'
+      - 'scripts/build_reader_site.py'
+      - 'scripts/test_reader_site.py'
+      - 'site/**'
+      - 'articles/reader/**'
+permissions:
+  contents: write
+concurrency:
+  group: reader-site-main
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and verify reader site
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f scripts/build_reader_site.py ]; then
+            python scripts/build_reader_site.py
+            python scripts/test_reader_site.py
+            python scripts/validate.py
+            python scripts/validate_research.py
+            python scripts/validate_round3.py
+            python scripts/validate_editorial_pass.py
+            python scripts/reconcile_article_progress.py --check
+            git add index.html .nojekyll assets/ topics/ read/ about/ search/ docs/READER_SITE_BUILD.json
+            if ! git diff --cached --quiet; then
+              git config user.name 'github-actions[bot]'
+              git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+              git commit -m 'Build reader-facing psychology site from source data'
+              git push origin HEAD:main
+            fi
+          fi
+      - name: Prepare review snapshot
+        if: always()
+        run: |
+          mkdir -p /tmp/psychology-review
+          for item in data articles docs scripts site assets topics read about search index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll; do
+            if [ -e "$item" ]; then cp -R "$item" /tmp/psychology-review/; fi
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reader-site-review
+          path: /tmp/psychology-review
+          include-hidden-files: true
+          retention-days: 7
