@@ -18,6 +18,7 @@ import shutil
 import statistics
 import sys
 from reader_foundations import Foundations
+from reader_learning import inject_check
 from urllib.parse import urlparse, quote
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -314,6 +315,7 @@ def build_readers():
         # Reader-facing provenance is rendered separately rather than repeated.
         text=normalized_manuscript(text)
         rendered,toc=render_markdown(text,p,entry['path'])
+        rendered,toc=inject_check(ROOT,tid,rendered,toc,EDITIONS.get(tid,{}))
         toc_html=''.join(f'<li><a href="#{esc(anchor)}">{esc(label)}</a></li>' for anchor,label in toc)
         reader_summary=EDITIONS.get(tid,{}).get('answer')
         if reader_summary:
@@ -334,6 +336,8 @@ def build_readers():
             links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/reader_editions.json">今回の主張確認記録</a>'
         if tid in {x['topic_id'] for x in load('site/foundation_claims.json')['claims']}:
             links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/foundation_claims.json">段落別の出典対応</a>'
+        if tid in {x['topic_id'] for x in load('site/learning_claims.json')['claims']}:
+            links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/learning_claims.json">学習記事の段落別出典</a>'
         related=EDITIONS.get(tid,{}).get('related_ids',[])
         related=[r for r in related if r in READERS and r!=tid]
         if len(related)<3:
@@ -395,7 +399,7 @@ def main():
     build_home();build_topics();build_readers();build_search();build_about();FOUNDATIONS.build(sys.modules[__name__])
     original=[len(x['title_ja']) for x in TOPICS.values()]
     shortened=[len(x) for x in CONFIG['display_titles'].values()]
-    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
+    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'comprehension_check_count':len(load('site/learning_checks.json')['items']),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
     write('docs/READER_SITE_BUILD.json',json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='generated_files'},ensure_ascii=False,indent=2))
 

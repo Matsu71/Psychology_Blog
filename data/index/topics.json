@@ -608,7 +608,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": 93
     },
     {
@@ -618,7 +618,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 4,
+      "source_count": 5,
       "editorial_score": null
     },
     {
@@ -638,7 +638,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -658,7 +658,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -668,7 +668,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": null
     },
     {
@@ -688,7 +688,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -698,7 +698,7 @@
       "topic_file": "data/topics/07_learning.json",
       "evidence_file": "data/evidence/learning.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/learning.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": null
     },
     {

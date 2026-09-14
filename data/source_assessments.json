@@ -6112,6 +6112,118 @@
       ],
       "integrity_status": "not_exhaustive",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC318",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC314",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC320",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のSummary。ノートなし説明・ノートを使う説明・想起・計算課題の比較と1週間後の理解。想起が唯一の機序だと証明したものではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC313",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract。64報告・69効果量の自己説明誘発の統合。本文・付録・個別研究の独立評価は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC315",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract。学習時に答えが見えること、テスト経験、判断を遅らせる操作の結果。本文全体は未確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC316",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC317",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC319",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：Introduction、Encoding、Vocabulary、Discussion Questions、引用表示を確認。年はページの引用推奨年。原文・設問・写真を転載せず、基礎概念を独自の短い日本語と架空例で説明。CC BY-NC-SA素材そのものをサイトへ組み込まない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

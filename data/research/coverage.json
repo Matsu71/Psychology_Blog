@@ -4,7 +4,7 @@
   "category_count": 28,
   "topic_count": 300,
   "new_topic_count": 100,
-  "source_count": 312,
+  "source_count": 320,
   "legacy_source_count": 35,
   "added_source_count": 71,
   "reviewed_research_count": 68,
@@ -327,7 +327,7 @@
   "round3_existing_with_targeted_abstract": 9,
   "round3_new_search_request_count": 510,
   "selected_fulltext_checks_count": 39,
-  "evidence_edge_count": 550,
+  "evidence_edge_count": 560,
   "editorial_scored_topic_count": 50,
   "round3_remaining_unregistered": [
     "PSY-HAB-006",

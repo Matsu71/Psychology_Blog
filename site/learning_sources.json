@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "migration_id": "learning-reader-20260914",
+  "updated_on": "2026-09-14",
+  "entries": [
+    {
+      "topic_id": "PSY-LEA-001",
+      "source": {
+        "id": "SRC050",
+        "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
+        "authors_display": "Yang C, Luo L, Vadillo MA, Yu R, Shanks DR.",
+        "year": 2021,
+        "journal": "Psychological bulletin",
+        "source_type": "journal_article",
+        "doi": "10.1037/bul0000309",
+        "pmid": "33683913",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33683913/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Testing%22+AND+TITLE%3A%22classroom+learning%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2021-03-08",
+        "provenance_query_ids": [
+          "SEED-016"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+        "latest_source_check_id": "SC7-SRC050",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC050",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedのAbstract。教室場面の222研究・48,478人、条件差。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-001",
+      "source": {
+        "id": "SRC318",
+        "title": "The science of effective learning with spacing and retrieval practice",
+        "authors_display": "Carpenter SK; Pan SC; Butler AC",
+        "year": 2022,
+        "journal": "Nature Reviews Psychology 1:496–511",
+        "source_type": "journal_article",
+        "doi": "10.1038/s44159-022-00089-1",
+        "url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verified_via_url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+      },
+      "assessment": {
+        "source_id": "SRC318",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-002",
+      "source": {
+        "id": "SRC318",
+        "title": "The science of effective learning with spacing and retrieval practice",
+        "authors_display": "Carpenter SK; Pan SC; Butler AC",
+        "year": 2022,
+        "journal": "Nature Reviews Psychology 1:496–511",
+        "source_type": "journal_article",
+        "doi": "10.1038/s44159-022-00089-1",
+        "url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verified_via_url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+      },
+      "assessment": {
+        "source_id": "SRC318",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "source": {
+        "id": "SRC052",
+        "title": "Similarity matters: A meta-analysis of interleaved learning and its moderators.",
+        "authors_display": "Brunmair M, Richter T.",
+        "year": 2019,
+        "journal": "Psychological bulletin",
+        "source_type": "journal_article",
+        "doi": "10.1037/bul0000209",
+        "pmid": "31556629",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31556629/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22meta-analysis+of+interleaved+learning%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2019-09-26",
+        "provenance_query_ids": [
+          "SEED-018"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC052",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedのAbstract。教材による結果差と、説明文・単語での限界。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-004",
+      "source": {
+        "id": "SRC314",
+        "title": "Expecting to teach enhances learning and organization of knowledge in free recall of text passages",
+        "authors_display": "Nestojko JF; Bui DC; Kornell N; Bjork EL",
+        "year": 2014,
+        "journal": "Memory & Cognition 42:1038–1048",
+        "source_type": "journal_article",
+        "doi": "10.3758/s13421-014-0416-z",
+        "url": "https://link.springer.com/article/10.3758/s13421-014-0416-z",
+        "verified_via_url": "https://link.springer.com/article/10.3758/s13421-014-0416-z",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。"
+      },
+      "assessment": {
+        "source_id": "SRC314",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-004",
+      "source": {
+        "id": "SRC320",
+        "title": "The learning benefits of teaching: A retrieval practice hypothesis",
+        "authors_display": "Koh AWL; Lee SC; Lim SWH",
+        "year": 2018,
+        "journal": "Applied Cognitive Psychology 32(3):401–410",
+        "source_type": "journal_article",
+        "doi": "10.1002/acp.3410",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3410",
+        "verified_via_url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3410",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のSummary。ノートなし説明・ノートを使う説明・想起・計算課題の比較と1週間後の理解。想起が唯一の機序だと証明したものではない。"
+      },
+      "assessment": {
+        "source_id": "SRC320",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のSummary。ノートなし説明・ノートを使う説明・想起・計算課題の比較と1週間後の理解。想起が唯一の機序だと証明したものではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-005",
+      "source": {
+        "id": "SRC282",
+        "doi": "10.1007/s10648-021-09654-1",
+        "title": "Effects of Learner-Generated Highlighting and Instructor-Provided Highlighting on Learning from Text: A Meta-Analysis",
+        "authors_display": "Ponce HR; Mayer RE; Méndez EE",
+        "year": 2022,
+        "journal": "Educational Psychology Review 34:989–1024",
+        "url": "https://link.springer.com/article/10.1007/s10648-021-09654-1",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verification_scope": "abstract_reviewed",
+        "verified_via_url": "https://link.springer.com/article/10.1007/s10648-021-09654-1",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC282",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "出版社のAbstract。自分で引く場合と提示済みの場合、記憶と理解の差。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-006",
+      "source": {
+        "id": "SRC313",
+        "title": "Inducing Self-Explanation: a Meta-Analysis",
+        "authors_display": "Bisra K; Liu Q; Nesbit JC; Salimi F; Winne PH",
+        "year": 2018,
+        "journal": "Educational Psychology Review 30:703–725",
+        "source_type": "journal_article",
+        "doi": "10.1007/s10648-018-9434-x",
+        "url": "https://link.springer.com/article/10.1007/s10648-018-9434-x",
+        "verified_via_url": "https://link.springer.com/article/10.1007/s10648-018-9434-x",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstract。64報告・69効果量の自己説明誘発の統合。本文・付録・個別研究の独立評価は未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC313",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。64報告・69効果量の自己説明誘発の統合。本文・付録・個別研究の独立評価は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-007",
+      "source": {
+        "id": "SRC315",
+        "title": "Illusions of competence during study can be remedied by manipulations that enhance learners’ sensitivity to retrieval conditions at test",
+        "authors_display": "Koriat A; Bjork RA",
+        "year": 2006,
+        "journal": "Memory & Cognition 34:959–972",
+        "source_type": "journal_article",
+        "doi": "10.3758/BF03193244",
+        "url": "https://link.springer.com/article/10.3758/BF03193244",
+        "verified_via_url": "https://link.springer.com/article/10.3758/BF03193244",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstract。学習時に答えが見えること、テスト経験、判断を遅らせる操作の結果。本文全体は未確認。"
+      },
+      "assessment": {
+        "source_id": "SRC315",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。学習時に答えが見えること、テスト経験、判断を遅らせる操作の結果。本文全体は未確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-007",
+      "source": {
+        "id": "SRC318",
+        "title": "The science of effective learning with spacing and retrieval practice",
+        "authors_display": "Carpenter SK; Pan SC; Butler AC",
+        "year": 2022,
+        "journal": "Nature Reviews Psychology 1:496–511",
+        "source_type": "journal_article",
+        "doi": "10.1038/s44159-022-00089-1",
+        "url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verified_via_url": "https://link.springer.com/article/10.1038/s44159-022-00089-1",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+      },
+      "assessment": {
+        "source_id": "SRC318",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "source": {
+        "id": "SRC283",
+        "doi": "10.3389/fpsyg.2024.1428732",
+        "title": "Is it really a neuromyth? A meta-analysis of the learning styles matching hypothesis",
+        "authors_display": "Clinton-Lisell V; Litzinger C",
+        "year": 2024,
+        "journal": "Frontiers in Psychology 15:1428732",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verification_scope": "abstract_reviewed",
+        "verified_via_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC283",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "公開本文のAbstract、Crossover interactions。符号に基づく11/42と統計的な有意差を区別。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "source": {
+        "id": "SRC284",
+        "doi": "10.1007/s11251-024-09689-1",
+        "title": "Testing the meshing hypothesis in prospective teachers: Are there effects of matching learning style and presentation mode on learning performance and on metacognitive aspects of learning?",
+        "authors_display": "Melzner L; Kappes C",
+        "year": 2025,
+        "journal": "Instructional Science 53",
+        "url": "https://link.springer.com/article/10.1007/s11251-024-09689-1",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verification_scope": "abstract_reviewed",
+        "verified_via_url": "https://link.springer.com/article/10.1007/s11251-024-09689-1",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC284",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Abstract、Participants、Procedure。オンライン公開2024年・巻年2025年、222人、質問票の測定順。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-009",
+      "source": {
+        "id": "SRC316",
+        "title": "Unsuccessful retrieval attempts enhance subsequent learning",
+        "authors_display": "Kornell N; Hays MJ; Bjork RA",
+        "year": 2009,
+        "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition 35(4):989–998",
+        "source_type": "journal_article",
+        "doi": "10.1037/a0015729",
+        "url": "https://doi.org/10.1037/a0015729",
+        "verified_via_url": "https://www.researchgate.net/publication/26655655_Unsuccessful_Retrieval_Attempts_Enhance_Subsequent_Learning",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC316",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-009",
+      "source": {
+        "id": "SRC050",
+        "title": "Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review.",
+        "authors_display": "Yang C, Luo L, Vadillo MA, Yu R, Shanks DR.",
+        "year": 2021,
+        "journal": "Psychological bulletin",
+        "source_type": "journal_article",
+        "doi": "10.1037/bul0000309",
+        "pmid": "33683913",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33683913/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Testing%22+AND+TITLE%3A%22classroom+learning%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2021-03-08",
+        "provenance_query_ids": [
+          "SEED-016"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+        "latest_source_check_id": "SC7-SRC050",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC050",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedのAbstract。教室場面の222研究・48,478人、条件差。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-010",
+      "source": {
+        "id": "SRC317",
+        "title": "About sleep's role in memory",
+        "authors_display": "Rasch B; Born J",
+        "year": 2013,
+        "journal": "Physiological Reviews 93(2):681–766",
+        "source_type": "journal_article",
+        "doi": "10.1152/physrev.00032.2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23589831/",
+        "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/23589831/",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。"
+      },
+      "assessment": {
+        "source_id": "SRC317",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-LEA-010",
+      "source": {
+        "id": "SRC319",
+        "title": "Memory (Encoding, Storage, Retrieval)",
+        "authors_display": "McDermott KB; Roediger HL III",
+        "year": 2026,
+        "journal": "Noba textbook series: Psychology",
+        "source_type": "book_chapter",
+        "doi": null,
+        "url": "https://nobaproject.com/modules/memory-encoding-storage-retrieval",
+        "verified_via_url": "https://nobaproject.com/modules/memory-encoding-storage-retrieval",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：Introduction、Encoding、Vocabulary、Discussion Questions、引用表示を確認。年はページの引用推奨年。原文・設問・写真を転載せず、基礎概念を独自の短い日本語と架空例で説明。CC BY-NC-SA素材そのものをサイトへ組み込まない。"
+      },
+      "assessment": {
+        "source_id": "SRC319",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：Introduction、Encoding、Vocabulary、Discussion Questions、引用表示を確認。年はページの引用推奨年。原文・設問・写真を転載せず、基礎概念を独自の短い日本語と架空例で説明。CC BY-NC-SA素材そのものをサイトへ組み込まない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "source": {
+        "id": "SRC055",
+        "title": "The attentional cost of receiving a cell phone notification.",
+        "authors_display": "Stothart C, Mitchum A, Yehnert C.",
+        "year": 2015,
+        "journal": "Journal of experimental psychology. Human perception and performance",
+        "source_type": "journal_article",
+        "doi": "10.1037/xhp0000100",
+        "pmid": "26121498",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26121498/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22attentional+cost%22+AND+notification%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2015-06-29",
+        "provenance_query_ids": [
+          "SEED-021"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC055",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "source": {
+        "id": "SRC296",
+        "doi": "10.1177/20592043221134392",
+        "title": "Background Music and Cognitive Task Performance: A Systematic Review of Task, Music, and Population Impact",
+        "authors_display": "Cheah Y; Wong HK; Spitzer M; Coutinho E",
+        "year": 2022,
+        "journal": "Music & Science 5",
+        "url": "https://journals.sagepub.com/doi/10.1177/20592043221134392",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verification_scope": "abstract_reviewed",
+        "verified_via_url": "https://journals.sagepub.com/doi/10.1177/20592043221134392",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC296",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "出版社のAbstract、Introduction。95報告・154実験、効果方向の集計。全表・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    }
+  ]
+}

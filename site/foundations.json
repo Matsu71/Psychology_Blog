@@ -18,6 +18,10 @@
     {
       "id": "open",
       "name": "確認と更新"
+    },
+    {
+      "id": "memory-learning",
+      "name": "記憶・学習"
     }
   ],
   "series": [
@@ -41,12 +45,32 @@
     {
       "id": "learning",
       "title": "記憶と学習",
-      "description": "覚え方と、注意の向け方を分けて考えます。",
+      "description": "覚える、説明する、確かめる。学び方の違いを10本で整理します。",
       "topic_ids": [
         "PSY-LEA-001",
         "PSY-LEA-002",
-        "PSY-ATT-001",
-        "PSY-ATT-004"
+        "PSY-LEA-003",
+        "PSY-LEA-005",
+        "PSY-LEA-004",
+        "PSY-LEA-006",
+        "PSY-LEA-007",
+        "PSY-LEA-008",
+        "PSY-LEA-009",
+        "PSY-LEA-010"
+      ],
+      "goals": [
+        {
+          "label": "覚え方",
+          "topic_id": "PSY-LEA-001"
+        },
+        {
+          "label": "理解を深める",
+          "topic_id": "PSY-LEA-006"
+        },
+        {
+          "label": "理解を確かめる",
+          "topic_id": "PSY-LEA-007"
+        }
       ]
     },
     {
@@ -69,6 +93,17 @@
         "PSY-DEC-004",
         "PSY-MON-002",
         "PSY-MON-008"
+      ]
+    },
+    {
+      "id": "attention",
+      "title": "集中と休憩",
+      "description": "同時作業、通知、音楽、短い休憩を分けて考えます。",
+      "topic_ids": [
+        "PSY-ATT-001",
+        "PSY-ATT-002",
+        "PSY-ATT-005",
+        "PSY-ATT-004"
       ]
     }
   ],
@@ -553,6 +588,265 @@
       "locator": "PubMed Abstract",
       "topic_ids": [
         "PSY-RES-010"
+      ]
+    },
+    {
+      "id": "encoding",
+      "title": "符号化",
+      "reading": "ふごうか",
+      "aliases": [
+        "encoding",
+        "覚える",
+        "取り込む"
+      ],
+      "group": "memory-learning",
+      "definition": "出来事や情報を、後で記憶として利用できる形に取り込む過程。",
+      "example": "架空例：初めて習う用語を、意味と一緒にメモする。ページを開いていた時間だけでは、何を取り込んだかは分かりません。",
+      "source_ids": [
+        "SRC319"
+      ],
+      "locator": "Introduction / Encoding / Vocabulary",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-010"
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "保持",
+      "reading": "ほじ",
+      "aliases": [
+        "storage",
+        "保存",
+        "記憶の保持"
+      ],
+      "group": "memory-learning",
+      "definition": "取り込んだ情報が、時間を越えて残ること。",
+      "example": "架空例：昨日読んだ用語の意味を翌週も覚えている。取り込むことや思い出すこととは、分析上区別する概念です。",
+      "source_ids": [
+        "SRC319"
+      ],
+      "locator": "Introduction / Vocabulary",
+      "topic_ids": [
+        "PSY-LEA-002",
+        "PSY-LEA-010"
+      ]
+    },
+    {
+      "id": "retrieval",
+      "title": "想起",
+      "reading": "そうき",
+      "aliases": [
+        "retrieval",
+        "思い出す",
+        "検索"
+      ],
+      "group": "memory-learning",
+      "definition": "記憶にある情報を、その場で取り出すこと。",
+      "example": "架空例：資料を閉じて昨日の説明を言う。取り出せない一回の経験だけで、記憶が全く残っていないとまでは分かりません。",
+      "source_ids": [
+        "SRC319"
+      ],
+      "locator": "Introduction / Vocabulary",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-007"
+      ]
+    },
+    {
+      "id": "retrieval-practice",
+      "title": "想起練習",
+      "reading": "そうきれんしゅう",
+      "aliases": [
+        "retrieval practice",
+        "active recall",
+        "アクティブリコール",
+        "テスト効果"
+      ],
+      "group": "memory-learning",
+      "definition": "学んだ内容を見ずに思い出す活動を、復習として使うこと。",
+      "example": "架空例：教科書を閉じて要点を書き、答え合わせをする。点数を付ける試験だけに限りません。",
+      "source_ids": [
+        "SRC050",
+        "SRC318"
+      ],
+      "locator": "各Abstract。学習目的の小テストと想起練習",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-004",
+        "PSY-LEA-009"
+      ]
+    },
+    {
+      "id": "spacing",
+      "title": "分散学習",
+      "reading": "ぶんさんがくしゅう",
+      "aliases": [
+        "spacing",
+        "spaced practice",
+        "間隔反復",
+        "分散練習"
+      ],
+      "group": "memory-learning",
+      "definition": "同じ内容への学習機会を、一度に固めず時間的に分けること。",
+      "example": "架空例：一つの章を学び、別の日にも戻る。特定の日程を万人に最適とする意味ではありません。",
+      "source_ids": [
+        "SRC318"
+      ],
+      "locator": "Abstract。分散学習の総説。日程の数値は採用しない",
+      "topic_ids": [
+        "PSY-LEA-002",
+        "PSY-LEA-001"
+      ]
+    },
+    {
+      "id": "interleaving",
+      "title": "交互学習",
+      "reading": "こうごがくしゅう",
+      "aliases": [
+        "interleaving",
+        "インターリービング",
+        "交互練習"
+      ],
+      "group": "memory-learning",
+      "definition": "異なる種類の課題を混ぜて、どの考え方を使うかも選ぶように配置する学習。",
+      "example": "架空例：解き方の違う問題A・Bを混ぜる。効果は教材で異なり、無関係な通知で中断されることとは別です。",
+      "source_ids": [
+        "SRC052"
+      ],
+      "locator": "Abstract。課題種類による差",
+      "topic_ids": [
+        "PSY-LEA-003"
+      ]
+    },
+    {
+      "id": "self-explanation",
+      "title": "自己説明",
+      "reading": "じこせつめい",
+      "aliases": [
+        "self explanation",
+        "self-explanation",
+        "説明する",
+        "なぜ"
+      ],
+      "group": "memory-learning",
+      "definition": "教材の因果関係や概念のつながりを、自分で説明する活動。",
+      "example": "架空例：計算の各段階で、なぜその式を使うか説明する。文章をそのまま読むこととは区別し、説明は教材で照合します。",
+      "source_ids": [
+        "SRC313"
+      ],
+      "locator": "Abstract。自己説明誘発の定義と統合",
+      "topic_ids": [
+        "PSY-LEA-006",
+        "PSY-LEA-004"
+      ]
+    },
+    {
+      "id": "metacognition",
+      "title": "メタ認知",
+      "reading": "めたにんち",
+      "aliases": [
+        "metacognition",
+        "学習の自己調整"
+      ],
+      "group": "memory-learning",
+      "definition": "自分の理解や記憶の状態を捉え、それをもとに学び方を調整する働き。",
+      "example": "架空例：説明できない箇所を確認して、次に復習する範囲を選ぶ。「頭がよい人」の分類名ではありません。",
+      "source_ids": [
+        "SRC318"
+      ],
+      "locator": "Abstract。learner awareness and regulation",
+      "topic_ids": [
+        "PSY-LEA-007",
+        "PSY-LEA-001"
+      ]
+    },
+    {
+      "id": "judgment-of-learning",
+      "title": "学習判断",
+      "reading": "がくしゅうはんだん",
+      "aliases": [
+        "judgment of learning",
+        "judgement of learning",
+        "JOL",
+        "分かったつもり"
+      ],
+      "group": "memory-learning",
+      "definition": "学んだ内容を、後でどのくらい思い出せるかという自己予測。",
+      "example": "架空例：答え合わせの前に「後でも説明できそう」と予測する。答えを見ながらの自信と、実際の正答は分けます。",
+      "source_ids": [
+        "SRC315"
+      ],
+      "locator": "Abstract。学習時とテスト時の手がかりの違い",
+      "topic_ids": [
+        "PSY-LEA-007"
+      ]
+    },
+    {
+      "id": "consolidation",
+      "title": "記憶の固定化",
+      "reading": "きおくのこていか",
+      "aliases": [
+        "consolidation",
+        "固定化",
+        "睡眠と記憶"
+      ],
+      "group": "memory-learning",
+      "definition": "学習後に、記憶が安定していく過程を表す概念。",
+      "example": "架空例：学んだ翌日に内容を確かめる。「眠るだけで未学習の内容を覚える」と同じ意味ではありません。",
+      "source_ids": [
+        "SRC317",
+        "SRC319"
+      ],
+      "locator": "SRC317 Abstract / SRC319 Vocabulary",
+      "topic_ids": [
+        "PSY-LEA-010"
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "フィードバック",
+      "reading": "ふぃーどばっく",
+      "aliases": [
+        "feedback",
+        "答え合わせ",
+        "訂正",
+        "正誤"
+      ],
+      "group": "memory-learning",
+      "definition": "ここでは、回答の正誤や修正すべき点を知るための情報。",
+      "example": "架空例：誤答を見つけた後、正しい解法を確認する。間違いを罰することや、答えだけを写すこととは区別します。",
+      "source_ids": [
+        "SRC050",
+        "SRC316"
+      ],
+      "locator": "各Abstract。小テストの訂正条件・回答後の正解提示",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-009"
+      ]
+    },
+    {
+      "id": "learning-style-matching",
+      "title": "学習スタイルの一致仮説",
+      "reading": "がくしゅうすたいるのいっちかせつ",
+      "aliases": [
+        "meshing hypothesis",
+        "learning styles",
+        "視覚型",
+        "聴覚型",
+        "学習タイプ"
+      ],
+      "group": "memory-learning",
+      "definition": "学習者のタイプに教える形式を合わせると、合わない形式より成果が上がるという仮説。",
+      "example": "架空例：「視覚型には必ず図を使う」という方針。好み、教材の内容、アクセスのための配慮は、この仮説と分けます。",
+      "source_ids": [
+        "SRC283",
+        "SRC284"
+      ],
+      "locator": "各Abstract / SRC283 Crossover interactions",
+      "topic_ids": [
+        "PSY-LEA-008"
       ]
     }
   ]

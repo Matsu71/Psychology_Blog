@@ -15,3 +15,16 @@ h1,h2,h3{text-wrap:balance}.feature{display:flex;flex-direction:column}.feature-
 [hidden]{display:none!important}
 @media(max-width:760px){.utility-nav{font-size:13px;gap:20px}.learning-entry a{display:block;padding:15px}.learning-entry span{display:block;margin-top:7px}.learning-entry strong{font-size:16px}.learning-grid{grid-template-columns:1fr;gap:18px}.learning-card{padding:20px}.learning-card h2{font-size:22px}.learning-steps li{grid-template-columns:30px 1fr;gap:14px}.learning-steps h2{font-size:21px}.glossary-term{grid-template-columns:1fr;gap:8px}.glossary-term dt{font-size:20px}.glossary-group{margin:30px 0}.reading-path{padding:16px}.reading-path>div{gap:14px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+/* Learning additions use the existing site palette and native disclosures. */
+.guide-goals{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap;margin:0 0 1.5rem}
+.guide-goals>span{font-size:.85rem;color:var(--muted)}
+.guide-goals a{border:1px solid var(--line);padding:.5rem .85rem;border-radius:4px;text-decoration:none}
+.learning-check{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:1.2rem;margin:2rem 0;scroll-margin-top:2rem}
+.learning-check h2{margin:0 0 .75rem!important;font-size:1.2rem!important}
+.learning-check>p{margin:.5rem 0 1rem}
+.learning-check details{border-top:1px solid var(--line);padding-top:.7rem}
+.learning-check summary{cursor:pointer;font-weight:700;padding:.4rem 0}
+.learning-check small{display:block;font-size:.78rem;color:var(--muted);margin-top:1rem;line-height:1.7}
+.learning-check:target,.glossary-term:target{outline:2px solid var(--brand);outline-offset:5px}
+@media print{.learning-check{break-inside:avoid;background:none}}

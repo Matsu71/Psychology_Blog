@@ -32,8 +32,8 @@ def main():
     for term in data['terms']:
         check(bool(term['definition'] and term['locator'] and term['source_ids']),'term provenance: '+term['id'])
         check(len(term['definition'])<=120,'term concise definition: '+term['id'])
-    check(len({x['id'] for x in data['terms']})==24,'24 distinct terms')
-    check(len(data['series'])==4,'four learning paths')
+    check(len({x['id'] for x in data['terms']})==len(data['terms']) and len(data['terms'])>=24,'distinct glossary terms; original coverage retained')
+    check({'research','learning','habits','decisions'}<={x['id'] for x in data['series']},'original learning paths retained')
     research=next(x for x in data['series'] if x['id']=='research')['topic_ids']
     check(set(research)=={f'PSY-RES-{n:03d}' for n in range(1,11)},'research path covers all ten research topics')
     for series in data['series']:
@@ -80,7 +80,7 @@ def main():
             page.screenshot(path=str(out/'foundations-home-1440.png'),full_page=True);screens.append('foundations-home-1440.png')
             go(page,'glossary/index.html')
             visible=page.locator('[data-term]:visible')
-            check(visible.count()==24,'glossary: all24 initially visible')
+            check(visible.count()==len(data['terms']),'glossary: all terms initially visible')
             for query,expected in [('こうかりょう','effect-size'),('ＣＩ','confidence-interval'),('メタアナリシス','meta-analysis'),('ｐｒｅｒｅｇｉｓｔｒａｔｉｏｎ','preregistration')]:
                 page.locator('#glossary-query').fill(query)
                 page.locator('#glossary-search button').click()
@@ -88,7 +88,7 @@ def main():
                 check(visible.count()>0,'glossary: results '+query)
             page.locator('#glossary-query').fill('zznonexistentzz');page.locator('#glossary-search button').click()
             check(visible.count()==0 and page.locator('#glossary-empty').is_visible(),'glossary: empty state')
-            page.locator('#glossary-clear').click();check(visible.count()==24,'glossary: clear restores all groups')
+            page.locator('#glossary-clear').click();check(visible.count()==len(data['terms']),'glossary: clear restores all groups')
             page.locator('#effect-size details summary').click();check(page.locator('#effect-size details').get_attribute('open') is not None,'glossary: example disclosure')
             page.locator('#glossary-query').fill('<script>alert(1)</script>');page.locator('#glossary-search button').click()
             check(visible.count()==0,'glossary: markup query treated as text')
@@ -121,12 +121,12 @@ def main():
                 go(page,'glossary/index.html#glossary-ref-SRC302')
                 check(page.locator('.glossary-sources details').get_attribute('open') is not None,'navigation: deep source link opens disclosure')
                 go(page,'glossary/index.html?q=こうかりょう')
-                check(page.locator('#effect-size').is_visible() and page.locator('[data-term]:visible').count()<24,'navigation: glossary query survives URL load')
+                check(page.locator('#effect-size').is_visible() and page.locator('[data-term]:visible').count()<len(data['terms']),'navigation: glossary query survives URL load')
                 page.reload(wait_until='networkidle')
                 check(page.locator('#glossary-query').input_value()=='こうかりょう','navigation: glossary query survives reload')
             plainctx=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':900})
             plain=plainctx.new_page();go(plain,'glossary/index.html',js=False)
-            check(plain.locator('[data-term]:visible').count()==24,'noJS: all glossary definitions available')
+            check(plain.locator('[data-term]:visible').count()==len(data['terms']),'noJS: all glossary definitions available')
             plain.locator('#effect-size details summary').click();check(plain.locator('#effect-size details').get_attribute('open') is not None,'noJS: native disclosure works')
             go(plain,'learn/research/index.html',js=False);check(plain.locator('.learning-steps a').count()==10,'noJS: learning links available')
             plain.keyboard.press('Tab');check(plain.locator('.skip').evaluate('(e)=>e===document.activeElement'),'keyboard: first focus is skip link')

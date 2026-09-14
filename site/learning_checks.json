@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-14",
+  "notice": "学力・心理状態の診断や採点ではありません。答えを開く前に、本文の要点を一つ思い出すための編集上の問題です。",
+  "items": [
+    {
+      "topic_id": "PSY-LEA-001",
+      "question": "答えを読んで納得できれば、翌日も説明できると判断してよい？",
+      "answer": "その時の納得だけでは判断できません。答えを隠した確認と、時間を置いた確認を分けます。",
+      "source_ids": [
+        "SRC050",
+        "SRC318"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-002",
+      "question": "復習を分けたら、勉強時間が増えても分散の効果だけを比べられる？",
+      "answer": "比べられません。合計時間の違いも成績に関係し得るため、配置以外の条件も確認します。",
+      "source_ids": [
+        "SRC318"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "question": "交互学習の研究から、どんな教材でも混ぜた方がよいと言える？",
+      "answer": "言えません。課題による差があり、単語を使う課題ではまとめて学ぶ側が有利な結果もあります。",
+      "source_ids": [
+        "SRC052"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-004",
+      "question": "2014年の研究は、実際に人へ教える活動の効果を測った？",
+      "answer": "いいえ。教えるつもりで学ぶ条件を比べましたが、実際には誰も教えていません。",
+      "source_ids": [
+        "SRC314"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-005",
+      "question": "自分で線を引いた研究で記憶が改善したなら、理解も同じように改善した？",
+      "answer": "同じとは言えません。このメタ分析では、記憶と理解で結論が異なりました。",
+      "source_ids": [
+        "SRC282"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-006",
+      "question": "自己説明では、理由を思いつけば資料で確かめなくてもよい？",
+      "answer": "いいえ。説明を作れることと、その説明が正しいことは別です。分からない点は教材と照合します。",
+      "source_ids": [
+        "SRC313"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-007",
+      "question": "答えを見ながらの自信と、見ずに答える確認は同じ条件？",
+      "answer": "違います。答えや手がかりが見えるかどうかが異なるため、自信だけをそのまま後の成績とみなせません。",
+      "source_ids": [
+        "SRC315"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "question": "一致仮説への根拠が弱ければ、字幕や読み上げへの配慮も不要？",
+      "answer": "不要とは言えません。教材へのアクセスを確保する配慮と、タイプ一致による成績向上は別の問いです。",
+      "source_ids": [
+        "SRC283",
+        "SRC284"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-009",
+      "question": "先に間違える利点があれば、答え合わせを省いてもよい？",
+      "answer": "いいえ。紹介した実験は、答えを試みた後に正解を示しています。誤りの放置の効果を調べたものではありません。",
+      "source_ids": [
+        "SRC316"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-LEA-010",
+      "question": "睡眠が記憶に関わるなら、未学習の教材を寝ながら流すだけで十分？",
+      "answer": "その結論は出ません。学習後の記憶保持と、睡眠中に未学習の内容を習得することは別です。",
+      "source_ids": [
+        "SRC317"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "question": "メッセージ群の誤反応が増えた量だけを見れば十分？",
+      "answer": "十分ではありません。開始時点の誤反応の差や、対照群との比較も確認する必要があります。",
+      "source_ids": [
+        "SRC055"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "question": "歌詞付き音楽が不利な傾向なら、器楽曲は必ず有利？",
+      "answer": "そうは言えません。不利が小さいことと、音楽なしより成果が上がることは別です。",
+      "source_ids": [
+        "SRC296"
+      ],
+      "kind": "editorial_comprehension_check",
+      "publication_ready": false
+    }
+  ]
+}

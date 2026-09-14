@@ -12,6 +12,7 @@ def save(path,value):(ROOT/path).write_text(json.dumps(value,ensure_ascii=False,
 def main():
     packs=[read('site/research_additions.json')]
     if (ROOT/'site/foundation_sources.json').exists():packs.append(read('site/foundation_sources.json'))
+    if (ROOT/'site/learning_sources.json').exists():packs.append(read('site/learning_sources.json'))
     pack={'entries':[e for p in packs for e in p['entries']], 'updated_on':max(p['updated_on'] for p in packs)}
     sources=read('data/sources.json'); assessments=read('data/source_assessments.json')
     cats=read('data/categories.json')['categories']
@@ -43,6 +44,9 @@ def main():
             if (edge['topic_id'],edge['source_id']) in [('PSY-ATT-001','SRC055'),('PSY-DEC-001','SRC067')]:
                 edge['relation_role']='context_only'
                 edge['limits_ja']='通知の中断／誤情報への注意喚起を扱う背景資料。今回の課題切り替え／確証バイアスの定義に直接対応する資料としては使わない。従来の書誌・主張記録は保持。'
+            if (edge['topic_id'],edge['source_id']) in [('PSY-LEA-002','SRC092'),('PSY-LEA-007','SRC084')]:
+                edge['relation_role']='context_only'
+                edge['limits_ja']='第二言語の習得年齢／好奇心の研究。分散学習／学習判断の主張を直接支える根拠として読者版で使用しない。既存ID・書誌・確認記録は保持。'
     save('data/sources.json',sources);save('data/source_assessments.json',assessments)
     for p,d in docs.items():save(p,d)
     for p,d in edgedocs.items():save(p,d)

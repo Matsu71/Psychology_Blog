@@ -200,79 +200,98 @@
       "topic_id": "PSY-LEA-001",
       "kind": "rewrite",
       "path": "articles/reader/PSY-LEA-001.md",
-      "summary": "読むだけの復習に、思い出して確かめる時間を加えます。",
-      "answer": "学んだ内容を記憶から取り出す練習には、後の学習成績を高める平均的な利点が報告されています。間違いを確かめ、目的に合う問いで練習することが重要です。",
+      "summary": "読み直しと小テストを、後日の記憶で比べます。",
+      "answer": "復習の一部を、答えを見ずに思い出す時間に変える方法には研究の裏付けがあります。正解だけでなく、間違いの訂正と後日の確認も組み合わせます。",
       "source_ids": [
         "SRC050",
-        "SRC277"
+        "SRC318"
       ],
       "reviewed_on": "2026-09-14",
       "publication_ready": false,
-      "review_scope": "SRC050のPubMed抄録を再確認。SRC277の条件差は既存稿・主張対応表から継承。すべての教材での効果保証はしない。",
+      "review_scope": "SRC050: PubMedのAbstract。教室場面の222研究・48,478人、条件差。 / SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
       "formal_evidence_certainty": "not_assessed",
       "independent_review": "pending",
       "claims": [
         {
-          "claim_ja": "教室の222研究を統合。標準化効果量g=0.499を49.9％の得点増加と解釈しない。",
+          "claim_ja": "2021年のメタ分析は、教室場面の222研究、48,478人をまとめ、小テストを使う学習に平均的な利点を報告しました。標準化した効果量はg＝0.499です。これは「点数が約50％上がる」という意味ではありません。",
           "source_ids": [
-            "SRC050",
-            "SRC277"
+            "SRC050"
           ],
-          "checked_locator": "SRC050: Abstract、従来のSRC277条件別点検",
-          "status": "selected_scope_or_inherited_check"
+          "checked_locator": "SRC050: PubMedのAbstract。教室場面の222研究・48,478人、条件差。",
+          "status": "selected_scope_check"
         },
         {
-          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "claim_ja": "比較相手の学習法、出題形式、教材との対応、訂正フィードバックなどで結果は違いました。問題を解いた回数だけで、学習の質は決まりません。",
+          "source_ids": [
+            "SRC050"
+          ],
+          "checked_locator": "SRC050: PubMedのAbstract。教室場面の222研究・48,478人、条件差。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "分散学習と想起練習を扱う2022年の総説は、学習者が自分の学び方をどう評価するかも検討しています。効果的な方法が十分使われない背景として、学習についての思い込みや、手応えと効果の直感的なずれを挙げています。",
+          "source_ids": [
+            "SRC318"
+          ],
+          "checked_locator": "SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
           "source_ids": [],
-          "checked_locator": "本文の日常への応用節",
+          "checked_locator": "本文の応用・想定例",
           "status": "editorial_application"
         }
       ],
       "related_ids": [
         "PSY-LEA-002",
-        "PSY-LEA-003",
-        "PSY-LEA-005"
+        "PSY-LEA-007"
       ],
-      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
     },
     {
       "topic_id": "PSY-LEA-002",
       "kind": "rewrite",
       "path": "articles/reader/PSY-LEA-002.md",
-      "summary": "復習する回数と、次に思い出すまでの間隔を考えます。",
-      "answer": "復習を複数の機会に分ける学習には利点があります。適した間隔は、いつまで覚えていたいかによっても変わり、万人共通の日程にはできません。",
+      "summary": "復習を分ける意味と、日程を決める考え方を整理します。",
+      "answer": "同じ内容への学習機会を分ける方法には根拠があります。ただし「全員が翌日・3日後・7日後」という固定日程まで、この根拠から決まるわけではありません。",
       "source_ids": [
-        "SRC051",
-        "SRC027"
+        "SRC318"
       ],
       "reviewed_on": "2026-09-14",
       "publication_ready": false,
-      "review_scope": "SRC051の書誌と研究抄録の情報、既存原稿の引用を照合。今回のPubMed本文表示は取得できていないため、全文再点検とはしない。",
+      "review_scope": "SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
       "formal_evidence_certainty": "not_assessed",
       "independent_review": "pending",
       "claims": [
         {
-          "claim_ja": "保持したい期間と学習間隔の関係を扱う統合研究。固定の1・3・7日ルールを証明した研究ではない。",
+          "claim_ja": "分散学習は、同じ内容への学習機会を時間的に離す方法です。2022年の総説は、想起練習とともに、さまざまな学習領域や教育場面の研究を取り上げています。",
           "source_ids": [
-            "SRC051",
-            "SRC027"
+            "SRC318"
           ],
-          "checked_locator": "SRC051: Abstract / 既存原稿と主張対応表",
-          "status": "selected_scope_or_inherited_check"
+          "checked_locator": "SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
+          "status": "selected_scope_check"
         },
         {
-          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "claim_ja": "この総説の公開抄録は、個人別の最適間隔や一律の日程を示していません。したがって「翌日・3日後・7日後が科学的な唯一の正解」といった表示はしません。",
+          "source_ids": [
+            "SRC318"
+          ],
+          "checked_locator": "SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
           "source_ids": [],
-          "checked_locator": "本文の日常への応用節",
+          "checked_locator": "本文の応用・想定例",
           "status": "editorial_application"
         }
       ],
       "related_ids": [
         "PSY-LEA-001",
-        "PSY-LEA-003",
-        "PSY-LAN-001"
+        "PSY-LEA-007"
       ],
-      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
     },
     {
       "topic_id": "PSY-ATT-004",
@@ -1119,6 +1138,517 @@
         "PSY-MON-002"
       ],
       "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-LEA-003",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-LEA-003.md",
+      "summary": "交互学習が向く課題と、まとめて練習する意味を分けます。",
+      "answer": "似た問題を区別して解く練習では、種類を混ぜる方法が役立つ場合があります。ただし、単語学習などを含め、何でも混ぜればよいわけではありません。",
+      "source_ids": [
+        "SRC052"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC052: PubMedのAbstract。教材による結果差と、説明文・単語での限界。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2019年のメタ分析は59研究をまとめ、平均では交互学習の利点を報告しました。ただし、利点は学ぶ対象によって大きく違いました。",
+          "source_ids": [
+            "SRC052"
+          ],
+          "checked_locator": "SRC052: PubMedのAbstract。教材による結果差と、説明文・単語での限界。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "絵画の分類では比較的大きい利点があり、数学課題ではより小さい利点が報告されました。一方、説明文では明確な優位が示されず、単語を使う課題ではまとめて学ぶ側が有利でした。",
+          "source_ids": [
+            "SRC052"
+          ],
+          "checked_locator": "SRC052: PubMedのAbstract。教材による結果差と、説明文・単語での限界。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-004",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-LEA-004.md",
+      "summary": "教える準備と、実際に説明する活動を区別します。",
+      "answer": "誰かに教えるつもりで読むことが、要点の整理に役立つ場合があります。ただし、教える準備・自分で説明すること・相手との対話は同じ活動ではありません。",
+      "source_ids": [
+        "SRC314",
+        "SRC320"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC314: 2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。 / SRC320: 2026-09-14：出版社のSummary。ノートなし説明・ノートを使う説明・想起・計算課題の比較と1週間後の理解。想起が唯一の機序だと証明したものではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2014年の2実験では、文章を読んで後でテストを受けるつもりの群と、別の学生に教えるつもりの群を比べました。実際には誰も教えず、全員がテストを受けています。教えるつもりの群では、自由再生の内容や整理の仕方などに利点が報告されました。",
+          "source_ids": [
+            "SRC314"
+          ],
+          "checked_locator": "SRC314: 2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "「教えた効果」ではなく「教えると予期して学んだ効果」です。論文の注記では、要点の分類基準を変えると一部の交互作用が有意でなくなったことも示されています。全結果が条件によらず同じ強さとは扱いません。",
+          "source_ids": [
+            "SRC314"
+          ],
+          "checked_locator": "SRC314: 2026-09-14：出版社のAbstractとNotes。2実験、実際には全員がテストを受け、教える活動は行わない。主点分類の感度に関する注記を確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2018年の実験は、ノートなしの説明、ノートを使った説明、想起練習、計算課題を比較しました。1週間後の理解では、ノートなしの説明と想起練習が、他の2条件よりよい成績でした。",
+          "source_ids": [
+            "SRC320"
+          ],
+          "checked_locator": "SRC320: 2026-09-14：出版社のSummary。ノートなし説明・ノートを使う説明・想起・計算課題の比較と1週間後の理解。想起が唯一の機序だと証明したものではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-005",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-LEA-005.md",
+      "summary": "線を引く人と、記憶・理解の違いから研究を読みます。",
+      "answer": "マーカーを引くことが無意味とは言えません。ただし、記憶と理解では結果が違い、線を引けたことだけで内容を理解したとは判断できません。",
+      "source_ids": [
+        "SRC282"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC282: 出版社のAbstract。自分で引く場合と提示済みの場合、記憶と理解の差。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2022年のメタ分析は、学術的な文章へのマーカー使用を調べた36報告から85効果量をまとめました。自分で線を引く条件では記憶への利点が報告されましたが、理解への明確な利点は示されませんでした。",
+          "source_ids": [
+            "SRC282"
+          ],
+          "checked_locator": "SRC282: 出版社のAbstract。自分で引く場合と提示済みの場合、記憶と理解の差。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "教師などが重要箇所をあらかじめ示した条件では、記憶と理解の両方に利点が報告されました。自分で重要箇所を選ぶ活動と、選ばれた箇所を読む活動は、同じものとしてまとめない方が正確です。",
+          "source_ids": [
+            "SRC282"
+          ],
+          "checked_locator": "SRC282: 出版社のAbstract。自分で引く場合と提示済みの場合、記憶と理解の差。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "学習者が線を引く場合の結果は、大学生と学校段階の児童・生徒でも違いました。集団の平均に差があることは、ある人に必ず効く・効かないと決める診断ではありません。",
+          "source_ids": [
+            "SRC282"
+          ],
+          "checked_locator": "SRC282: 出版社のAbstract。自分で引く場合と提示済みの場合、記憶と理解の差。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-006",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-LEA-006.md",
+      "summary": "言い換えと、理由を自分で説明する活動を分けます。",
+      "answer": "理由や概念の関係を自分で説明する活動には、学習を支える研究があります。ただし、もっともらしい説明を作るだけでは不十分で、内容の照合が必要です。",
+      "source_ids": [
+        "SRC313"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC313: 2026-09-14：出版社のAbstract。64報告・69効果量の自己説明誘発の統合。本文・付録・個別研究の独立評価は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2018年のメタ分析では、自己説明を促す研究を統合し、平均的な学習上の利点を報告しました。扱われたのは、因果関係や概念のつながりについて学習者が推論を作る活動です。",
+          "source_ids": [
+            "SRC313"
+          ],
+          "checked_locator": "SRC313: 2026-09-14：出版社のAbstract。64報告・69効果量の自己説明誘発の統合。本文・付録・個別研究の独立評価は未実施。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-007",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-LEA-007.md",
+      "summary": "答えが見えるときの自信と、自力で答える力を分けます。",
+      "answer": "答えを見ながら感じる自信だけでは、後で思い出せるか分かりません。答えを隠す、時間を置くなど、確認する条件を本番に近づけて点検します。",
+      "source_ids": [
+        "SRC315",
+        "SRC318"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC315: 2026-09-14：出版社のAbstract。学習時に答えが見えること、テスト経験、判断を遅らせる操作の結果。本文全体は未確認。 / SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2006年の研究は、学習中に答えが見えることが、後で覚えているという判断を過大にする問題を扱いました。テストの経験や、判断の時点を遅らせる操作によって、このずれを小さくできることを報告しています。",
+          "source_ids": [
+            "SRC315"
+          ],
+          "checked_locator": "SRC315: 2026-09-14：出版社のAbstract。学習時に答えが見えること、テスト経験、判断を遅らせる操作の結果。本文全体は未確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "自分が何を知り、何をまだ説明できないかを捉え、学び方を調整する働きはメタ認知として扱われます。分散学習・想起練習の2022年の総説でも、この学習の自己評価と調整が論点になっています。",
+          "source_ids": [
+            "SRC318"
+          ],
+          "checked_locator": "SRC318: 2026-09-14：出版社のAbstract。分散学習・想起練習・メタ認知の総説。図の一覧は確認範囲に含めず、効果量や最適な日程はこの抄録から算出しない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-008",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-LEA-008.md",
+      "summary": "好きな学び方と、その方法で成績が伸びることを分けます。",
+      "answer": "「視覚型だから必ず図、聴覚型だから必ず音声」と固定する方法を、一般的な学習方針として勧める根拠は十分ではありません。好みや配慮の必要性は別に扱います。",
+      "source_ids": [
+        "SRC283",
+        "SRC284"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC283: 公開本文のAbstract、Crossover interactions。符号に基づく11/42と統計的な有意差を区別。 / SRC284: Abstract、Participants、Procedure。オンライン公開2024年・巻年2025年、222人、質問票の測定順。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2024年のメタ分析は、21研究を統合し、一致条件に小さい平均的な利点を報告しました。一方で、少なくとも二つのタイプがそれぞれ一致した教え方で有利になるパターンは、比較できた42指標中11指標でした。",
+          "source_ids": [
+            "SRC283"
+          ],
+          "checked_locator": "SRC283: 公開本文のAbstract、Crossover interactions。符号に基づく11/42と統計的な有意差を区別。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "この11指標は効果量の符号に基づく集計で、11件すべてに統計的に有意な交互作用が確認されたという意味ではありません。著者らは研究の質や導入コストも考慮し、広い導入を正当化するには利点が小さく、一貫しないと結論しています。",
+          "source_ids": [
+            "SRC283"
+          ],
+          "checked_locator": "SRC283: 公開本文のAbstract、Crossover interactions。符号に基づく11/42と統計的な有意差を区別。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2025年の巻に掲載された教員志望者222人の実験では、同じ内容を図または文章で学びました。提示形式と学習スタイルの有意な交互作用はなく、形式を合わせる利点は示されませんでした。オンライン公開は2024年です。",
+          "source_ids": [
+            "SRC284"
+          ],
+          "checked_locator": "SRC284: Abstract、Participants、Procedure。オンライン公開2024年・巻年2025年、222人、質問票の測定順。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "この実験では学習資料の提示後にスタイルの質問票を測定しています。特定の参加者・教材・測定順序で得られた結果であり、どの個人差も存在しないと示したものではありません。",
+          "source_ids": [
+            "SRC284"
+          ],
+          "checked_locator": "SRC284: Abstract、Participants、Procedure。オンライン公開2024年・巻年2025年、222人、質問票の測定順。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-009",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-LEA-009.md",
+      "summary": "先に答えを考えることと、誤りを放置することを分けます。",
+      "answer": "答えを知らなくても、先に考えてから正解を学ぶことが役立つ場合があります。ただし、間違いを放置してよい、難しいほどよいという意味ではありません。",
+      "source_ids": [
+        "SRC316",
+        "SRC050"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC316: 2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。 / SRC050: PubMedのAbstract。教室場面の222研究・48,478人、条件差。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2009年の研究は、答えられないようにした架空の知識問題や、正解を当てにくい語の組み合わせを使いました。先に答えを試みてから正解を示す条件と、最初から問題と正解を一緒に示す条件を比べ、前者に後の学習の利点を報告しました。",
+          "source_ids": [
+            "SRC316"
+          ],
+          "checked_locator": "SRC316: 2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "この研究では、答えを試みた後に正解を見ています。「間違った答えのまま繰り返す方がよい」という比較ではありません。教室場面の小テストを統合した研究でも、訂正フィードバックなどの条件が結果に関係していました。",
+          "source_ids": [
+            "SRC316",
+            "SRC050"
+          ],
+          "checked_locator": "SRC316: 2026-09-14：PubMed書誌を検索で確認。著者Kornellが公開したResearchGateの論文HTML冒頭の抄録を確認。架空質問・弱い連想語、回答提示前の失敗した想起。全実験・図表の再解析は未実施。 / SRC050: PubMedのAbstract。教室場面の222研究・48,478人、条件差。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-LEA-010",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-LEA-010.md",
+      "summary": "睡眠による記憶の整理と、寝ながら新しく覚える話を分けます。",
+      "answer": "睡眠は、学んだ内容が後まで残る過程に関わります。ただし、眠れば未学習の内容を覚えられる、全員に同じ復習時刻が最適、とまでは言えません。",
+      "source_ids": [
+        "SRC317",
+        "SRC319"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC317: 2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。 / SRC319: 2026-09-14：Introduction、Encoding、Vocabulary、Discussion Questions、引用表示を確認。年はページの引用推奨年。原文・設問・写真を転載せず、基礎概念を独自の短い日本語と架空例で説明。CC BY-NC-SA素材そのものをサイトへ組み込まない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "記憶の固定化は、取り込んだ情報がその後に安定していく過程を表す概念です。最初に覚えること、時間を越えて残ること、必要な場面で思い出すことを分けて考えると、睡眠の研究の問いが明確になります。",
+          "source_ids": [
+            "SRC319"
+          ],
+          "checked_locator": "SRC319: 2026-09-14：Introduction、Encoding、Vocabulary、Discussion Questions、引用表示を確認。年はページの引用推奨年。原文・設問・写真を転載せず、基礎概念を独自の短い日本語と架空例で説明。CC BY-NC-SA素材そのものをサイトへ組み込まない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2013年の総説は、睡眠が記憶保持に関わる研究を整理し、睡眠中の再活性化や固定化のモデルを論じています。単に外から邪魔が入らないだけでなく、睡眠中の過程に役割があるという考え方です。",
+          "source_ids": [
+            "SRC317"
+          ],
+          "checked_locator": "SRC317: 2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "「特定の睡眠段階だけが、ある教科の記憶を担当する」といった単純な対応表も、ここでは示しません。総説で論じられた機序のモデルと、個人の毎晩の記憶を説明しきることは別です。",
+          "source_ids": [
+            "SRC317"
+          ],
+          "checked_locator": "SRC317: 2026-09-14：PubMedの書誌・抄録。記憶保持と能動的固定化のレビュー。2013年時点の総説であり、最新の網羅的な文献レビューではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-LEA-007"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-ATT-002",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-ATT-002.md",
+      "summary": "スマホを見ない場合の実験と、解釈上の注意点を確認します。",
+      "answer": "スマホに触らなくても、通知が注意課題を妨げる場合があります。ただし、通話通知とメッセージ通知の結果は同じ強さで解釈できません。",
+      "source_ids": [
+        "SRC055"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC055: 著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2015年の研究では、数字に反応する持続的注意課題を行い、通話通知、メッセージ通知、通知なしの群を比較しました。著者の研究解説によると、スマホを見たり触ったりした参加者は解析から除かれています。",
+          "source_ids": [
+            "SRC055"
+          ],
+          "checked_locator": "SRC055: 著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "通知が届く群では、最初の課題区間から後半への誤反応の増加が、対照群より大きくなりました。これは、通知が届いたが端末を操作しない場合にも、注意の成績が変わり得るという結果です。",
+          "source_ids": [
+            "SRC055"
+          ],
+          "checked_locator": "SRC055: 著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "著者は、メッセージ群が最初から対照群より誤反応が少なく、後半は同程度になった点を指摘しています。変化量の差に開始時点の差が関係し得るため、メッセージ通知の証拠は、単純な説明より慎重に読む必要があります。",
+          "source_ids": [
+            "SRC055"
+          ],
+          "checked_locator": "SRC055: 著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "「誰からだろう」と考えることが注意を奪うという説明は、著者が挙げた機序の仮説です。通知を受けた全員の思考内容を直接確認した事実としては扱いません。",
+          "source_ids": [
+            "SRC055"
+          ],
+          "checked_locator": "SRC055: 著者の研究解説 How we tested attention / What we found。メッセージ群の開始時成績差。原論文全文ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-ATT-001",
+        "PSY-ATT-004",
+        "PSY-LEA-001"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-ATT-005",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-ATT-005.md",
+      "summary": "歌詞、課題の種類、気分と成績を分けて考えます。",
+      "answer": "音楽の影響は、何をしているかや歌詞の有無で変わります。「気分がよい」と「課題の成績が上がる」を分けて確かめます。",
+      "source_ids": [
+        "SRC296"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC296: 出版社のAbstract、Introduction。95報告・154実験、効果方向の集計。全表・付録は未点検。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2022年のシステマティックレビューは、95報告・154実験を対象に、背景音楽と認知課題の成績を整理しました。記憶や言語の課題では妨げになる傾向があり、歌詞のある音楽は器楽曲より不利になりやすいと報告しています。",
+          "source_ids": [
+            "SRC296"
+          ],
+          "checked_locator": "SRC296: 出版社のAbstract、Introduction。95報告・154実験、効果方向の集計。全表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "一方、多くの条件では明確な効果が見られませんでした。音楽は常に害になる、器楽曲なら必ず成績が上がる、という結論ではありません。課題や参加者などの条件を分けて読む必要があります。",
+          "source_ids": [
+            "SRC296"
+          ],
+          "checked_locator": "SRC296: 出版社のAbstract、Introduction。95報告・154実験、効果方向の集計。全表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "このレビューは、効果の方向を集計する方法を使っています。異なる実験の効果量をまとめて「平均で何％効く」と算出した研究ではありません。報告数が多くても、全ての条件が十分研究されたわけではないと著者らも述べています。",
+          "source_ids": [
+            "SRC296"
+          ],
+          "checked_locator": "SRC296: 出版社のAbstract、Introduction。95報告・154実験、効果方向の集計。全表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "具体的な手順と架空例は編集上の応用であり、その組合せの効果を個別に検証していない。",
+          "source_ids": [],
+          "checked_locator": "本文の応用・想定例",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-ATT-001",
+        "PSY-ATT-004",
+        "PSY-LEA-001"
+      ],
+      "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
     }
   ]
 }

@@ -21,7 +21,7 @@ class Foundations:
         return ' '.join(w for t in terms for w in [t['title'], t['reading'], *t['aliases']])
 
     def home_links(self, current, rel):
-        return f'''<nav class="learning-entry" aria-label="読み始める"><a href="{esc(rel(current,'learn/index.html'))}"><strong>基礎から学ぶ</strong><span>4つの学習ガイド</span></a><a href="{esc(rel(current,'glossary/index.html'))}"><strong>用語を調べる</strong><span>研究を読むための24語</span></a></nav>'''
+        return f'''<nav class="learning-entry" aria-label="読み始める"><a href="{esc(rel(current,'learn/index.html'))}"><strong>基礎から学ぶ</strong><span>{len(self.series)}つの学習ガイド</span></a><a href="{esc(rel(current,'glossary/index.html'))}"><strong>用語を調べる</strong><span>記憶・学習と研究の{len(self.terms)}語</span></a></nav>'''
 
     def reader_links(self, tid, current, rel, title):
         terms = [t for t in self.terms if tid in t['topic_ids']]
@@ -66,6 +66,8 @@ class Foundations:
         for series in self.series:
             if not series['topic_ids'] or not set(series['topic_ids']) <= set(site.READERS):
                 raise ValueError('Learning paths may link only to actual manuscripts')
+            if any(g['topic_id'] not in series['topic_ids'] for g in series.get('goals', [])):
+                raise ValueError('Learning goal must point inside its path')
         for term in self.terms:
             if not set(term['source_ids']) <= set(site.SOURCES):
                 raise ValueError('Unknown glossary source: '+term['id'])
@@ -83,20 +85,24 @@ class Foundations:
             url=site.rel(p,f'learn/{series["id"]}/index.html')
             mins=sum(site.minutes(t) for t in series['topic_ids'])
             body += f'<section class="learning-card"><span class="eyebrow">{len(series["topic_ids"])}本 · 合計約{mins}分</span><h2><a href="{esc(url)}">{esc(series["title"])}</a></h2><p>{esc(series["description"])}</p><a class="learning-start" href="{esc(url)}">読む順番を見る →</a></section>'
-        body += f'</div><p class="guide-note">用語だけ確かめるときは、<a href="{esc(site.rel(p,"glossary/index.html"))}">研究用語集</a>へ。所要時間は文字数による目安です。</p>'
+        body += f'</div><p class="guide-note">用語だけ確かめるときは、<a href="{esc(site.rel(p,"glossary/index.html"))}">用語集</a>へ。所要時間は文字数による目安です。</p>'
         site.write(p,site.shell(p,'基礎から学ぶ','研究、学習、習慣、判断を順に読む学習ガイド。',body))
         for series in self.series:
             p=f'learn/{series["id"]}/index.html'
             body=site.breadcrumbs(p,[('基礎から学ぶ','learn/index.html'),(series['title'],None)])
-            body+=f'<div class="page-heading"><h1>{esc(series["title"])}</h1><p>{esc(series["description"])}</p></div><ol class="learning-steps">'
+            body+=f'<div class="page-heading"><h1>{esc(series["title"])}</h1><p>{esc(series["description"])}</p></div>'
+            if series.get('goals'):
+                body+='<nav class="guide-goals" aria-label="目的から選ぶ"><span>目的から</span>'
+                body+=''.join(f'<a href="{esc(site.reader_link(p,g["topic_id"]))}">{esc(g["label"])}</a>' for g in series['goals'])+'</nav>'
+            body+='<ol class="learning-steps">'
             for n,tid in enumerate(series['topic_ids'],1):
                 body+=f'<li><span class="step-number" aria-hidden="true">{n:02d}</span><div><h2><a href="{esc(site.reader_link(p,tid))}">{esc(site.title(tid))}</a></h2><p>{esc(site.summary(tid))}</p><small>編集稿 · 約{site.minutes(tid)}分</small></div></li>'
             body+='</ol><p class="guide-note">上から順に読むほか、必要な解説だけ選んでも構いません。記事は編集・確認中です。</p>'
             site.write(p,site.shell(p,series['title'],series['description'],body))
         p='glossary/index.html'
-        body=site.breadcrumbs(p,[('研究用語集',None)])
-        body+='<div class="page-heading"><h1>研究用語集</h1><p>論文や解説に出てくる24語。意味から、例・原資料・記事へ進めます。</p></div>'
-        body+='<form id="glossary-search" class="search-form" role="search"><label for="glossary-query">用語を検索</label><input id="glossary-query" type="search" name="q" placeholder="例：こうかりょう、追試、CI" maxlength="150"><button type="submit">検索</button></form><div id="glossary-tools" hidden><p id="glossary-count" role="status" aria-live="polite"></p><button type="button" id="glossary-clear">検索をクリア</button></div><noscript><p class="notice">全用語を表示しています。ブラウザのページ内検索も利用できます。</p></noscript>'
+        body=site.breadcrumbs(p,[('用語集',None)])
+        body+=f'<div class="page-heading"><h1>用語集</h1><p>記憶・学習と研究の{len(self.terms)}語。短い意味から、例や解説へ進めます。</p></div>'
+        body+='<form id="glossary-search" class="search-form" role="search"><label for="glossary-query">用語を検索</label><input id="glossary-query" type="search" name="q" placeholder="例：分散学習、こうかりょう" maxlength="150"><button type="submit">検索</button></form><div id="glossary-tools" hidden><p id="glossary-count" role="status" aria-live="polite"></p><button type="button" id="glossary-clear">検索をクリア</button></div><noscript><p class="notice">全用語を表示しています。ブラウザのページ内検索も利用できます。</p></noscript>'
         body+='<nav class="index-links" aria-label="用語の分類">'+''.join(f'<a href="#group-{esc(g["id"])}" data-glossary-group-link="{esc(g["id"])}">{esc(g["name"])}</a>' for g in self.groups)+'</nav><p id="glossary-empty" class="notice" hidden>一致する用語はありません。短い言葉や別の表記で検索してください。</p>'
         for group in self.groups:
             body+=f'<section class="glossary-group" id="group-{esc(group["id"])}" data-glossary-group="{esc(group["id"])}"><h2>{esc(group["name"])}</h2><dl class="glossary-list">'
@@ -111,4 +117,4 @@ class Foundations:
             locators=' / '.join(dict.fromkeys(t['locator'] for t in self.terms if sid in t['source_ids']))
             body+=f'<li id="glossary-ref-{esc(sid)}">{esc(sid)} · <a href="{esc(s["url"])}">{esc(s["title"])}</a><p>{esc(locators)}。全文の網羅的な点検ではありません。</p></li>'
         body+='</ul></details></section>'
-        site.write(p,site.shell(p,'研究用語集','相関、効果量、メタ分析、追試など24語を例と出典で確認。',body))
+        site.write(p,site.shell(p,'用語集',f'記憶・学習と研究の{len(self.terms)}語を例と出典で確認。',body))

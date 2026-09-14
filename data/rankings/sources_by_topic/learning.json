@@ -68,6 +68,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-LEA-001-SRC318",
+          "source_id": "SRC318",
+          "title": "The science of effective learning with spacing and retrieval practice",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -142,9 +163,9 @@
           "source_id": "SRC092",
           "title": "A critical period for second language acquisition: Evidence from 2/3 million English speakers.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "第二言語の習得年齢／好奇心の研究。分散学習／学習判断の主張を直接支える根拠として読者版で使用しない。既存ID・書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -157,6 +178,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 4
+        },
+        {
+          "edge_id": "EV-PSY-LEA-002-SRC318",
+          "source_id": "SRC318",
+          "title": "The science of effective learning with spacing and retrieval practice",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 5
         }
       ]
     },
@@ -251,6 +293,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LEA-004-SRC314",
+          "source_id": "SRC314",
+          "title": "Expecting to teach enhances learning and organization of knowledge in free recall of text passages",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-LEA-004-SRC320",
+          "source_id": "SRC320",
+          "title": "The learning benefits of teaching: A retrieval practice hypothesis",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     },
@@ -324,6 +408,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LEA-006-SRC313",
+          "source_id": "SRC313",
+          "title": "Inducing Self-Explanation: a Meta-Analysis",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -356,9 +461,9 @@
           "source_id": "SRC084",
           "title": "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "第二言語の習得年齢／好奇心の研究。分散学習／学習判断の主張を直接支える根拠として読者版で使用しない。既存ID・書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -371,6 +476,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-LEA-007-SRC315",
+          "source_id": "SRC315",
+          "title": "Illusions of competence during study can be remedied by manipulations that enhance learners’ sensitivity to retrieval conditions at test",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-LEA-007-SRC318",
+          "source_id": "SRC318",
+          "title": "The science of effective learning with spacing and retrieval practice",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -511,6 +658,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LEA-009-SRC316",
+          "source_id": "SRC316",
+          "title": "Unsuccessful retrieval attempts enhance subsequent learning",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -537,6 +705,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-LEA-010-SRC317",
+          "source_id": "SRC317",
+          "title": "About sleep's role in memory",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-LEA-010-SRC319",
+          "source_id": "SRC319",
+          "title": "Memory (Encoding, Storage, Retrieval)",
+          "review_scope": "official_page_reviewed",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     }

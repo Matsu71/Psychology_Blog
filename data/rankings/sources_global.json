@@ -3574,6 +3574,86 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 312
+    },
+    {
+      "source_id": "SRC313",
+      "title": "Inducing Self-Explanation: a Meta-Analysis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 313
+    },
+    {
+      "source_id": "SRC314",
+      "title": "Expecting to teach enhances learning and organization of knowledge in free recall of text passages",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 314
+    },
+    {
+      "source_id": "SRC315",
+      "title": "Illusions of competence during study can be remedied by manipulations that enhance learners’ sensitivity to retrieval conditions at test",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 315
+    },
+    {
+      "source_id": "SRC316",
+      "title": "Unsuccessful retrieval attempts enhance subsequent learning",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 316
+    },
+    {
+      "source_id": "SRC317",
+      "title": "About sleep's role in memory",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 317
+    },
+    {
+      "source_id": "SRC318",
+      "title": "The science of effective learning with spacing and retrieval practice",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 318
+    },
+    {
+      "source_id": "SRC319",
+      "title": "Memory (Encoding, Storage, Retrieval)",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 319
+    },
+    {
+      "source_id": "SRC320",
+      "title": "The learning benefits of teaching: A retrieval practice hypothesis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 320
     }
   ]
 }
