@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply integrity-checked editable source patch
+      - name: Apply integrity-checked editable content patch
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -53,13 +53,17 @@ jobs:
               assert not p.startswith('.github/') or p == '.github/workflows/reader-site.yml'
           path = pathlib.Path('/tmp/reader-wellbeing.patch')
           path.write_bytes(patch)
-          if subprocess.run(['git','apply','--check',str(path)],capture_output=True).returncode == 0:
-              subprocess.run(['git','apply',str(path)],check=True)
-              print('Applied verified 30-file patch, including the routine validation workflow.')
-          elif subprocess.run(['git','apply','--reverse','--check',str(path)],capture_output=True).returncode == 0:
-              print('Patch already applied; rebuilding and retesting current main.')
+          # The Actions token is authorized for content, not workflow changes.
+          # Apply those separately through the already-authorized GitHub connector.
+          apply = ['git','apply','--exclude=.github/workflows/reader-site.yml']
+          if subprocess.run(apply+['--check',str(path)],capture_output=True).returncode == 0:
+              subprocess.run(apply+[str(path)],check=True)
+              print('Applied 29 verified content files. Workflow files left unchanged.')
+          elif subprocess.run(apply+['--reverse','--check',str(path)],capture_output=True).returncode == 0:
+              print('Content patch already applied; rebuilding and retesting current main.')
           else:
-              subprocess.run(['git','apply','--check',str(path)],check=True)
+              subprocess.run(apply+['--check',str(path)],check=True)
+          assert not subprocess.check_output(['git','diff','--name-only','--','.github']).strip()
           PY
       - name: Build and validate canonical data and reader pages
         run: |
@@ -87,16 +91,15 @@ jobs:
           python scripts/test_reader_learning.py
           python scripts/test_reader_emotions.py
           python scripts/test_reader_wellbeing.py
-      - name: Commit only validated source and generated pages
+      - name: Commit only validated content and generated pages
         id: commit
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          # This one-time delivery is complete; retain the normal validation workflow.
-          git rm --ignore-unmatch .github/workflows/reader-wellbeing-20260914.yml
           for attempt in 1 2 3; do
-            git add .github/workflows/reader-site.yml README.md data articles/reader scripts/*.py site docs index.html .nojekyll assets topics read about search learn glossary
+            git add README.md data articles/reader scripts/*.py site docs index.html .nojekyll assets topics read about search learn glossary
+            test -z "$(git diff --cached --name-only -- .github)"
             if ! git diff --cached --quiet; then
               git commit -m 'Improve 9 wellbeing/work editions and source navigation across 90 articles'
             fi
@@ -106,9 +109,14 @@ jobs:
               exit 0
             fi
             if git merge-base --is-ancestor origin/main HEAD; then
-              if git push origin HEAD:main; then
+              if git push origin HEAD:main 2> /tmp/reader-push.log; then
+                cat /tmp/reader-push.log
                 echo 'validated=true' >> "$GITHUB_OUTPUT"
                 exit 0
+              fi
+              cat /tmp/reader-push.log >&2
+              if grep -Eqi 'permission|denied|refusing to allow' /tmp/reader-push.log; then
+                exit 1
               fi
               continue
             fi
@@ -133,7 +141,7 @@ jobs:
             python scripts/test_reader_emotions.py
             python scripts/test_reader_wellbeing.py
           done
-          echo 'Main kept changing; no force-push performed.' >&2
+          echo 'Validated changes could not be published; no force-push performed.' >&2
           exit 1
       - name: Request Pages rebuild of validated main
         if: steps.commit.outputs.validated == 'true'
