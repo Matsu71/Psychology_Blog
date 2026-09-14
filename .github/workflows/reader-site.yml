@@ -5,10 +5,16 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/reader-site.yml'
+      - '.delivery/**'
       - 'scripts/build_reader_site.py'
       - 'scripts/test_reader_site.py'
+      - 'scripts/test_reader_browser.py'
+      - 'scripts/register_reader_sources.py'
+      - 'scripts/build_research_views.py'
+      - 'scripts/reconcile_article_progress.py'
       - 'site/**'
-      - 'articles/reader/**'
+      - 'articles/**'
+      - 'data/**'
 permissions:
   contents: write
 concurrency:
@@ -17,34 +23,51 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Build and verify reader site
-        shell: bash
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply verified source delivery when present
+        run: |
+          if [ -f .delivery/apply.py ]; then python .delivery/apply.py; fi
+      - name: Build and validate source and reader pages
         run: |
           set -euo pipefail
-          if [ -f scripts/build_reader_site.py ]; then
-            python scripts/build_reader_site.py
-            python scripts/test_reader_site.py
-            python scripts/validate.py
-            python scripts/validate_research.py
-            python scripts/validate_round3.py
-            python scripts/validate_editorial_pass.py
-            python scripts/reconcile_article_progress.py --check
-            git add index.html .nojekyll assets/ topics/ read/ about/ search/ docs/READER_SITE_BUILD.json
-            if ! git diff --cached --quiet; then
-              git config user.name 'github-actions[bot]'
-              git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-              git commit -m 'Build reader-facing psychology site from source data'
-              git push origin HEAD:main
-            fi
+          python scripts/register_reader_sources.py
+          python scripts/build_research_views.py
+          python scripts/reconcile_article_progress.py
+          python scripts/build_reader_site.py
+          python scripts/test_reader_site.py
+          python scripts/validate.py
+          python scripts/validate_research.py
+          python scripts/validate_round3.py
+          python scripts/validate_editorial_pass.py
+          python scripts/reconcile_article_progress.py --check
+      - name: Install browser testing dependencies
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test responsive reading and search
+        run: python scripts/test_reader_browser.py
+      - name: Commit validated editable source and generated pages
+        run: |
+          set -euo pipefail
+          git add AGENTS.md README.md data articles/reader scripts site docs index.html .nojekyll assets topics read about search
+          git add -u
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Build researched psychology reader site: 300 topics, 64 editorial manuscripts'
+            git push origin HEAD:main
           fi
       - name: Prepare review snapshot
         if: always()
         run: |
           mkdir -p /tmp/psychology-review
-          for item in data articles docs scripts site assets topics read about search index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll; do
+          for item in data articles docs scripts site assets topics read about search index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll research schemas review-screenshots; do
             if [ -e "$item" ]; then cp -R "$item" /tmp/psychology-review/; fi
           done
       - uses: actions/upload-artifact@v4
