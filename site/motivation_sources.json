@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "migration_id": "reader-motivation-20260914",
+  "updated_on": "2026-09-14",
+  "entries": [
+    {
+      "topic_id": "PSY-MOT-003",
+      "source": {
+        "id": "SRC333",
+        "title": "Goal striving, need satisfaction, and longitudinal well-being: the self-concordance model",
+        "authors_display": "Sheldon KM; Elliot AJ",
+        "year": 1999,
+        "journal": "Journal of Personality and Social Psychology 76(3):482–497",
+        "source_type": "journal_article",
+        "doi": "10.1037/0022-3514.76.3.482",
+        "pmid": "10101878",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10101878/",
+        "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/10101878/",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "抄録の3つの縦断データセット、目標と関心・価値の一致、努力・達成との関連を確認。自由選択を無作為化した因果試験とは扱わない。",
+        "accessed_on": "2026-09-14",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC333",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMed Abstract。3縦断データセットでの自己一致と努力・達成。全モデル・参加者内訳は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "source": {
+        "id": "SRC334",
+        "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+        "authors_display": "Locke EA; Latham GP",
+        "year": 2002,
+        "journal": "American Psychologist 57(9):705–717",
+        "source_type": "journal_article",
+        "doi": "10.1037/0003-066X.57.9.705",
+        "pmid": "12237980",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12237980/",
+        "verified_via_url": "https://med.stanford.edu/content/dam/sm/s-spire/documents/PD.locke-and-latham-retrospective_Paper.pdf",
+        "verification_scope": "article_text_reviewed",
+        "notes_ja": "著者の理論総説。大学公開PDFの706–709頁を画像・テキストで確認。難度、能力・目標への関与、フィードバック、複雑な課題の学習目標を区別。全収載研究の再解析ではない。",
+        "accessed_on": "2026-09-14",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC334",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "source": {
+        "id": "SRC334",
+        "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+        "authors_display": "Locke EA; Latham GP",
+        "year": 2002,
+        "journal": "American Psychologist 57(9):705–717",
+        "source_type": "journal_article",
+        "doi": "10.1037/0003-066X.57.9.705",
+        "pmid": "12237980",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12237980/",
+        "verified_via_url": "https://med.stanford.edu/content/dam/sm/s-spire/documents/PD.locke-and-latham-retrospective_Paper.pdf",
+        "verification_scope": "article_text_reviewed",
+        "notes_ja": "著者の理論総説。大学公開PDFの706–709頁を画像・テキストで確認。難度、能力・目標への関与、フィードバック、複雑な課題の学習目標を区別。全収載研究の再解析ではない。",
+        "accessed_on": "2026-09-14",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC334",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "source": {
+        "id": "SRC335",
+        "title": "Intrinsic motivation and extrinsic incentives jointly predict performance: a 40-year meta-analysis",
+        "authors_display": "Cerasoli CP; Nicklin JM; Ford MT",
+        "year": 2014,
+        "journal": "Psychological Bulletin 140(4):980–1008",
+        "source_type": "journal_article",
+        "doi": "10.1037/a0035661",
+        "pmid": "24491020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24491020/",
+        "verified_via_url": "https://www.researchgate.net/publication/260089258_Intrinsic_Motivation_and_Extrinsic_Incentives_Jointly_Predict_Performance_A_40-Year_Meta-Analysis",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "APA提供の出版社プレビューと抄録を確認。183研究、質と量、内発的動機と報酬による成績の予測を区別。動機の因果的操作だけを統合した試験ではない。",
+        "accessed_on": "2026-09-14",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC335",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "APA提供のResearchGate出版社プレビューと抄録。183研究、成果の質・量との予測関係。全文未取得。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "source": {
+        "id": "SRC098",
+        "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
+        "authors_display": "Wang G, Wang Y, Gai X.",
+        "year": 2021,
+        "journal": "Frontiers in psychology",
+        "source_type": "journal_article",
+        "doi": "10.3389/fpsyg.2021.565202",
+        "pmid": "34054628",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34054628/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22implementation+intentions%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2021-05-12",
+        "provenance_query_ids": [
+          "SEED-075"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC098",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    }
+  ]
+}

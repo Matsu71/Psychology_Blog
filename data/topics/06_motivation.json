@@ -38,7 +38,8 @@
       "search_query": "task initiation graded tasks behavioral activation motivation randomized trial",
       "priority": 1,
       "source_ids": [
-        "SRC104"
+        "SRC104",
+        "SRC098"
       ],
       "caution_ja": "日常の行動開始と臨床的な行動活性化療法を同一視しない。",
       "research_brief_ids": [
@@ -57,7 +58,9 @@
       "priority": 1,
       "source_ids": [
         "SRC047",
-        "SRC084"
+        "SRC084",
+        "SRC333",
+        "SRC334"
       ],
       "caution_ja": "自律性を支援の不要さと取り違えない。文化や制度による違いを確認する。",
       "research_brief_ids": [
@@ -77,7 +80,8 @@
       "priority": 1,
       "source_ids": [
         "SRC045",
-        "SRC098"
+        "SRC098",
+        "SRC334"
       ],
       "caution_ja": "難しい目標が常に最適とはしない。不正や疲弊など副作用も調べる。",
       "research_brief_ids": [
@@ -138,7 +142,8 @@
       "priority": 2,
       "source_ids": [
         "SRC128",
-        "SRC129"
+        "SRC129",
+        "SRC335"
       ],
       "caution_ja": "『褒めるとやる気が消える』という極端な一般化を避ける。",
       "source_review_ids": [

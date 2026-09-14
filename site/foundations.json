@@ -187,6 +187,37 @@
         "PSY-WRK-002",
         "PSY-WRK-011"
       ]
+    },
+    {
+      "id": "motivation",
+      "title": "やる気と目標",
+      "description": "着手、目標の置き方、続け方を研究から考えます。",
+      "topic_ids": [
+        "PSY-MOT-001",
+        "PSY-MOT-002",
+        "PSY-MOT-003",
+        "PSY-MOT-004",
+        "PSY-MOT-005",
+        "PSY-MOT-006",
+        "PSY-MOT-007",
+        "PSY-MOT-008",
+        "PSY-MOT-009",
+        "PSY-MOT-010"
+      ],
+      "goals": [
+        {
+          "label": "始められない",
+          "topic_id": "PSY-MOT-002"
+        },
+        {
+          "label": "目標を決める",
+          "topic_id": "PSY-MOT-004"
+        },
+        {
+          "label": "失敗したとき",
+          "topic_id": "PSY-MOT-009"
+        }
+      ]
     }
   ],
   "terms": [

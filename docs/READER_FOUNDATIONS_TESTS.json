@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "passed": true,
-  "checks": 300,
+  "checks": 302,
   "check_labels": [
     "claim text still present: PSY-RES-001/2",
     "claim sources registered: PSY-RES-001/2",
@@ -210,6 +210,8 @@
     "real article endpoints: wellbeing",
     "no duplicate step: work-rest",
     "real article endpoints: work-rest",
+    "no duplicate step: motivation",
+    "real article endpoints: motivation",
     "HTTP200 learn/index.html",
     "learn/320: one main heading",
     "learn/320: no horizontal page overflow",

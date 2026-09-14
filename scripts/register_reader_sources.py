@@ -15,6 +15,7 @@ def main():
     if (ROOT/'site/learning_sources.json').exists():packs.append(read('site/learning_sources.json'))
     if (ROOT/'site/emotion_sources.json').exists():packs.append(read('site/emotion_sources.json'))
     if (ROOT/'site/wellbeing_sources.json').exists():packs.append(read('site/wellbeing_sources.json'))
+    if (ROOT/'site/motivation_sources.json').exists():packs.append(read('site/motivation_sources.json'))
     pack={'entries':[e for p in packs for e in p['entries']], 'updated_on':max(p['updated_on'] for p in packs)}
     sources=read('data/sources.json'); assessments=read('data/source_assessments.json')
     cats=read('data/categories.json')['categories']
@@ -62,6 +63,19 @@ def main():
             if (edge['topic_id'],edge['source_id']) in wellbeing_context:
                 edge['relation_role']='context_only'
                 edge['limits_ja']='所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。'
+    motivation_context={
+        ('PSY-MOT-003','SRC047'):'性格への介入の資料であり、目標と本人の価値の一致を直接検証した資料ではない。',
+        ('PSY-MOT-003','SRC084'):'好奇心の資料であり、目標の自己選択や自己一致の直接根拠ではない。',
+        ('PSY-MOT-004','SRC045'):'進捗確認への介入であり、目標の難度や学習目標との比較の直接根拠ではない。',
+        ('PSY-MOT-004','SRC098'):'障害の検討と行動計画の組合せであり、目標の難度そのものの比較ではない。',
+        ('PSY-MOT-006','SRC104'):'先延ばしへの介入の資料であり、完璧主義の二側面と先延ばしの相関の直接根拠ではない。',
+    }
+    for doc in edgedocs.values():
+        for edge in doc['edges']:
+            pair=(edge['topic_id'],edge['source_id'])
+            if pair in motivation_context:
+                edge['relation_role']='context_only'
+                edge['limits_ja']=motivation_context[pair]+'旧書誌と照合記録は保持。'
     save('data/sources.json',sources);save('data/source_assessments.json',assessments)
     for p,d in docs.items():save(p,d)
     for p,d in edgedocs.items():save(p,d)

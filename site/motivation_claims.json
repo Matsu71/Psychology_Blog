@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "independent_review_completed": false,
+  "claims": [
+    {
+      "topic_id": "PSY-ATT-003",
+      "paragraph_index": 2,
+      "claim_ja": "別の仕事へ移っても、前の課題への注意が残ることを「注意残余」と呼ぶ研究があります。目の前の仕事が変わっても、頭の中では前の仕事を引きずる、という問題です。",
+      "source_ids": [
+        "SRC131"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC131: 旧稿PSY-ATT-003の抄録照合を継承。今回DOI経由の本文取得は未完了。注意残余の概念の背景として使用。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "paragraph_index": 3,
+      "claim_ja": "LeroyとGlombの4研究は、後で時間に追われながら元の仕事へ戻ると予想したとき、割り込み先に集中しにくくなるという問題を扱いました。戻り方を短く考えて計画する介入により、注意残余や割り込み先の成績への悪影響が和らいだと報告されています。",
+      "source_ids": [
+        "SRC293"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC293: 出版社Abstract。4研究、再開時の時間圧を予期した状況と再開計画。主な成績は割り込み先の仕事。あらゆる中断からの回復時間を測ったと書かない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "paragraph_index": 5,
+      "claim_ja": "この研究の特徴は、主に「割り込み先の仕事」での成績を扱っていることです。「中断すると必ず何十分も無駄になる」という一律の回復時間を示す資料としては使えません。",
+      "source_ids": [
+        "SRC293"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC293: 出版社Abstract。4研究、再開時の時間圧を予期した状況と再開計画。主な成績は割り込み先の仕事。あらゆる中断からの回復時間を測ったと書かない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "paragraph_index": 7,
+      "claim_ja": "Hodgettsらの実験は、手順を考えて駒を移す、簡単なTower of London課題の途中に中断を入れています。中断前に手がかりを覚える機会があると再開時間のコストが小さくなり、視覚的な手がかりが後で変わると、再開が妨げられました。職場の長いプロジェクトを直接比較した研究ではありません。",
+      "source_ids": [
+        "SRC294"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC294: Cardiff大学機関リポジトリの原論文Abstract。簡単なTower of London課題、中断前の手がかり準備と再開時間。実際の業務を直接試した資料ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "paragraph_index": 2,
+      "claim_ja": "Harkinらのメタ分析は、進捗を確認する働きかけについて、138の無作為割付研究を統合しています。目標達成に対する平均の効果はd=0.40でした。これは達成率が40％増えたという意味ではありません。",
+      "source_ids": [
+        "SRC045"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC045: PubMed Abstract。138無作為割付研究、目標達成d=0.40と記録頻度の効果を区別。記録・公開による条件差を個別の方法の保証にしない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "paragraph_index": 3,
+      "claim_ja": "進捗を確認する頻度への効果と、実際の目標達成への効果も別です。「記録の回数が増えた」だけで、「目標を達成した」と呼ぶことはできません。",
+      "source_ids": [
+        "SRC045"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC045: PubMed Abstract。138無作為割付研究、目標達成d=0.40と記録頻度の効果を区別。記録・公開による条件差を個別の方法の保証にしない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "paragraph_index": 8,
+      "claim_ja": "同じメタ分析では、進捗を実際に書き留めた場合や、結果を他人に報告・公開した場合に、効果が大きいという条件差が見られました。これは研究をまたぐ比較で、誰でも公開した方がよいという保証ではありません。",
+      "source_ids": [
+        "SRC045"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC045: PubMed Abstract。138無作為割付研究、目標達成d=0.40と記録頻度の効果を区別。記録・公開による条件差を個別の方法の保証にしない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "paragraph_index": 3,
+      "claim_ja": "2018年のメタ分析は、先延ばしに対する心理的介入を非介入対照と比べた12研究・718人を統合しました。平均の差はg=0.34でしたが、研究間の違いも大きく、これを一つの短い行動手順の効果とは呼べません。",
+      "source_ids": [
+        "SRC104"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC104: PubMed Abstract。12研究・21比較・718人、非介入対照、g=0.34と異質性。特定の開始時間や単一手順の効果を示す資料ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "paragraph_index": 5,
+      "claim_ja": "目標の望ましい結果と現実の障害を比べ、「もしこの場面になったら、この行動をする」という計画を組み合わせる方法は、目標達成のメタ分析で検討されています。ただし、開始時刻を決めることだけの効果を切り出した研究ではありません。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC098: Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "paragraph_index": 11,
+      "claim_ja": "先延ばしの介入研究では、複数の働きかけを含むプログラムの評価と、個別の技法の評価を区別する必要があります。平均の改善を「誰でも、始めさえすればよい」と言い換えないことが大切です。",
+      "source_ids": [
+        "SRC104"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC104: PubMed Abstract。12研究・21比較・718人、非介入対照、g=0.34と異質性。特定の開始時間や単一手順の効果を示す資料ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "paragraph_index": 3,
+      "claim_ja": "SheldonとElliotの研究は、関心や価値と目標の一致を調べた3つの縦断データセットを扱っています。一致した目標ほど、持続的な努力や達成と関連していました。目標を自由に選ぶ群へ無作為に割り付けた試験とは異なるため、選択そのものの因果効果とは断定できません。",
+      "source_ids": [
+        "SRC333"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC333: PubMed Abstract。3縦断データセットでの自己一致と努力・達成。全モデル・参加者内訳は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "paragraph_index": 5,
+      "claim_ja": "目標設定の総説では、目標を一緒に決めた場合と与えられた場合の成績について、難度や伝え方を考慮しています。目的や理由を説明した割り当て目標が、参加して設定した目標と同程度に有効だった研究も紹介されています。",
+      "source_ids": [
+        "SRC334"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC334: 大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "paragraph_index": 11,
+      "claim_ja": "縦断研究で見られた関連だけでは、関心に合う目標を選んだ人が必ず達成するとは分かりません。実行できる時間や資源の違いまで、すべて取り除いた結論でもありません。",
+      "source_ids": [
+        "SRC333"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC333: PubMed Abstract。3縦断データセットでの自己一致と努力・達成。全モデル・参加者内訳は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "paragraph_index": 2,
+      "claim_ja": "目標設定の理論総説は、具体的で難しい目標が、単に「最善を尽くす」と伝える場合より高い成績につながった研究をまとめています。一方で、能力の限界や目標への関与の低下に達すると、成績が頭打ちになったり下がったりする条件も記しています。",
+      "source_ids": [
+        "SRC334"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC334: 大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "paragraph_index": 5,
+      "claim_ja": "同じ総説は、複雑で新しい課題では、高い成績を求める目標が方法の習得を妨げる場合もあると説明しています。そのような場面では、課題を解く方法や戦略を獲得する「学習目標」を区別しています。",
+      "source_ids": [
+        "SRC334"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC334: 大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "paragraph_index": 8,
+      "claim_ja": "目標と現在の状態を比べられるフィードバックも、総説が挙げる重要な条件です。達成地点だけが決まっていても、どこまで進んだか分からなければ、努力や方法の修正が難しくなります。",
+      "source_ids": [
+        "SRC334"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC334: 大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "paragraph_index": 2,
+      "claim_ja": "メンタル・コントラスティングと実行意図を組み合わせる手法は、望む未来と現実の障害を対比し、障害に出会ったときの行動を計画するものです。「よい結果を想像する」という部分だけでなく、その後の検討も含みます。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC098: Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "paragraph_index": 5,
+      "claim_ja": "2021年のメタ分析は、21論文の24の独立した効果量を統合し、目標達成に平均g=0.336の差を報告しました。これは約34％の人が成功するという意味でも、達成率が34％上がるという意味でもありません。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC098: Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "paragraph_index": 6,
+      "claim_ja": "研究の比較は、組み合わせた手法と対照条件についてです。この平均値から、「成功を想像するだけの方法は常に逆効果」「計画だけより必ず優れる」とまでは言えません。結論を、実際に比べた条件より広げないことが大切です。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC098: Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "paragraph_index": 8,
+      "claim_ja": "同じメタ分析では、実施方法による違いがあり、出版バイアスの可能性も指摘されました。報告された平均の効果が過大で、実際にはもう少し小さい可能性を残しています。",
+      "source_ids": [
+        "SRC098"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC098: Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "paragraph_index": 2,
+      "claim_ja": "「きちんと仕上げたい」と「失敗したら自分には価値がない」は、同じ意味ではありません。完璧主義の研究でも、高い基準へ向かう側面と、間違いや評価を強く気にする側面を区別しています。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC295: 出版社Abstract。懸念r=0.23、高い基準への努力r=-0.22、測定による違い。本文・個別研究は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "paragraph_index": 3,
+      "claim_ja": "2017年のメタ分析では、完璧主義的な懸念と先延ばしの相関はr=0.23、高い基準を追求する側面ではr=-0.22でした。二つの推定は、完璧主義のどの側面を測ったかによって方向が違うことを示しています。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC295: 出版社Abstract。懸念r=0.23、高い基準への努力r=-0.22、測定による違い。本文・個別研究は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "paragraph_index": 5,
+      "claim_ja": "この結果は、「失敗を恐れる気持ちだけが先延ばしの原因」「基準を高くすれば先延ばしが治る」という証明ではありません。メタ分析では、使用する測定尺度による違いも検討されています。",
+      "source_ids": [
+        "SRC295"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC295: 出版社Abstract。懸念r=0.23、高い基準への努力r=-0.22、測定による違い。本文・個別研究は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "paragraph_index": 3,
+      "claim_ja": "1999年の128研究のメタ分析は、課題への参加・完了・成績に結びつく報酬などが、自由に選べる場面での内発的動機を弱めたと報告しました。一方、肯定的なフィードバックでは、自発的な活動と自己報告の興味の両方に、平均的な増加がありました。",
+      "source_ids": [
+        "SRC128"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC128: 大学の研究業績ページの原論文抄録。128研究、自由選択・自己報告、物的報酬と肯定的フィードバックを区別。著者順は既存のPubMed書誌を保持。本文・コメントは未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "paragraph_index": 5,
+      "claim_ja": "2014年のメタ分析は、学校・仕事・身体活動などの183研究で、内発的動機と外的な報酬が成績をどう予測するかを調べています。内発的動機は成果の質、報酬は成果の量を、相対的によく予測するという違いが報告されました。",
+      "source_ids": [
+        "SRC335"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC335: APA提供のResearchGate出版社プレビューと抄録。183研究、成果の質・量との予測関係。全文未取得。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "paragraph_index": 6,
+      "claim_ja": "これは、「報酬を付ければ量が必ず増える」という因果的な保証ではありません。ただ、成果を考えるときに、報酬と興味が必ず敵同士だと決めつけないための資料です。",
+      "source_ids": [
+        "SRC335"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC335: APA提供のResearchGate出版社プレビューと抄録。183研究、成果の質・量との予測関係。全文未取得。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 2,
+      "claim_ja": "成長マインドセットは、能力を固定したものと見なさず、学びを通して伸ばせると捉える考え方です。そう考える人の成績との関連と、その考え方を教える介入の効果は、別に評価する必要があります。2018年の二つのメタ分析も、この二つを分けています。",
+      "source_ids": [
+        "SRC048"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC048: 既存のarticles/manuscripts/PSY-MOT-008.mdと対応する主張記録の2018年2メタ分析の区別を継承。今回は原抄録・全文の再取得未完了。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 4,
+      "claim_ja": "2023年のMacnamaraらのレビューでは、63研究の学業への平均効果はd=0.05で、出版バイアスを補正すると明確ではありませんでした。著者らが質の高い証拠とした6研究の推定も、ゼロと区別できない範囲でした。",
+      "source_ids": [
+        "SRC288"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC288: PubMed Abstract。63研究の全体推定と質を絞った推定、出版バイアス補正の区別。本文・全コード未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 5,
+      "claim_ja": "同年のBurnetteらは、対象や実施の条件に注目しています。対象を絞り、予定どおりに実施した条件での学業効果はd=0.14でしたが、新しい場面の効果を見込む予測区間は-0.08〜0.35でした。全53標本が学業の試験という意味でも、誰にでも0.14の効果があるという意味でもありません。",
+      "source_ids": [
+        "SRC289"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC289: 著者公開版のAbstractとResults/Descriptive Analysis冒頭。53独立介入標本はすべて学業ではなく、学業32研究。対象と実施の条件付き学業d=0.14、予測区間-0.08〜0.35。図表・全解析未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 8,
+      "claim_ja": "2019年の米国の実験では、事前に定めた低成績層6,320人・65校の解析で、介入群の主要教科の評定平均が対照群より0.10点高くなりました。差の大きさには、挑戦を支える仲間の規範との関係も報告されています。これは10％の成績向上ではありません。",
+      "source_ids": [
+        "SRC049"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC049: Abstract、Defining the primary outcome and student subgroup、Average effects on core course GPAs、Moderation by peer norms、Advanced mathematics course enrolment。成績解析6320人65校、差0.10評定点。表・図・付録と原データの再解析は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 9,
+      "claim_ja": "2025年の学齢期の24試験を扱う構造化レビューは、証拠の信頼性を重視すると、無効果またはごく小さい効果が中心としています。学校での大きな一律の改善を約束しにくい点を残します。",
+      "source_ids": [
+        "SRC290"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC290: 出版社Abstract、Introductionのレビュー間の違い、Methodsの選択・評価手順。学齢期24RCT、強い証拠の無〜小効果。著者の評価と当サイトの正式評価は別。表・個別効果の再解析未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "paragraph_index": 11,
+      "claim_ja": "2026年の論考は、成長への信念と思い出す練習を組み合わせて検討することを提案しています。この論考自体は、組み合わせの上乗せ効果を測った新しい介入試験ではありません。",
+      "source_ids": [
+        "SRC291"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC291: 出版社の書誌・Abstract。2026年6月のReflection on the Field。想起練習との組合せを提案した論考であり、新たな介入効果の試験ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "paragraph_index": 2,
+      "claim_ja": "ここでいうセルフ・コンパッションは、つらい経験をした自分への思いやりを扱う考え方です。「何も悪くなかった」と事実を否定することや、修正の必要がないと決めることとは分けて考えます。",
+      "source_ids": [
+        "SRC267"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC267: 出版社Abstract。4実験、弱みの改善・償いへの動機、失敗後の勉強時間。長期の達成や成績改善の保証には使わない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "paragraph_index": 3,
+      "claim_ja": "2012年の4つの実験では、自分への思いやりを促された参加者は、自尊心を高める働きかけや対照条件と比べ、弱みを改善したいという動機などが高まりました。難しい試験に失敗した後の実験では、その後の勉強に使う時間も長くなりました。",
+      "source_ids": [
+        "SRC267"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC267: 出版社Abstract。4実験、弱みの改善・償いへの動機、失敗後の勉強時間。長期の達成や成績改善の保証には使わない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "paragraph_index": 5,
+      "claim_ja": "この結果が測ったのは、改善への動機、償いへの動機、勉強時間などです。長期的な成功や、すべての人の成績向上が確定したわけではありません。自尊心の高さを普段の性格として比較した研究とも区別します。",
+      "source_ids": [
+        "SRC267"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC267: 出版社Abstract。4実験、弱みの改善・償いへの動機、失敗後の勉強時間。長期の達成や成績改善の保証には使わない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "paragraph_index": 6,
+      "claim_ja": "セルフ・コンパッションの介入には、抑うつ・不安・ストレスを扱うメタ分析もありますが、その指標を仕事や勉強の成績に置き換えることはできません。",
+      "source_ids": [
+        "SRC105"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC105: 旧稿PSY-MOT-009の抄録照合を継承。抑うつ・不安・ストレスの指標と、自己改善動機は別。今回のPubMed再取得は空応答で、全文再確認ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-010",
+      "paragraph_index": 2,
+      "claim_ja": "2014年の研究は、年・月・週の始まりや誕生日など、時間の区切りと行動の関係を調べています。既存の行動記録を分析した3つの研究で、ダイエットの検索、ジムへの訪問、目標への取り組みの登録が区切りの後に増える傾向が報告されました。",
+      "source_ids": [
+        "SRC130"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC130: 出版社Abstract。3つのアーカイブ型フィールド研究、検索・ジム訪問・目標へのコミットメントと時間の区切り。長期継続効果や最適な再開日を保証しない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-010",
+      "paragraph_index": 5,
+      "claim_ja": "検索をしたこと、ジムに行ったこと、目標を登録したことは、それぞれ異なる行動です。研究は、すべての人が年末まで習慣を維持したことを示したものではありません。",
+      "source_ids": [
+        "SRC130"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC130: 出版社Abstract。3つのアーカイブ型フィールド研究、検索・ジム訪問・目標へのコミットメントと時間の区切り。長期継続効果や最適な再開日を保証しない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    }
+  ]
+}

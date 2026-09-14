@@ -21,7 +21,7 @@ from reader_foundations import Foundations
 from reader_learning import inject_check
 from reader_navigation import ReaderNavigation
 from reader_references import ReaderReferences
-from urllib.parse import urlparse, quote
+from urllib.parse import urlparse, quote, urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED: list[str] = []
@@ -186,6 +186,8 @@ def build_topics():
         p=f'topics/category/{cid}/index.html'; gid=GROUP_OF[cid]
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(GROUPS[gid]['name'],f'topics/{gid}/index.html'),(category_label(cid),None)])
         body+=f'<div class="page-heading"><h1>{esc(category_label(cid))}</h1><p>{esc(CONFIG["category_descriptions"].get(cid, category["scope_ja"]))}</p></div>{NAVIGATION.category(cid,p,sys.modules[__name__])}{rows(p,topic_ids(cid))}'
+        search_url=rel(p,'search/index.html')+'?'+urlencode({'category':cid,'status':'draft'})
+        body+=f'<p class="category-search"><a href="{esc(search_url)}">この分野の解説を検索 →</a></p>'
         write(p,shell(p,category_label(cid),f'{category_label(cid)}のテーマと参考文献付き解説。',body,active=gid))
 
 def safe_link(url: str, current: str, origin: str) -> str | None:
@@ -365,6 +367,8 @@ def build_readers():
             links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/emotion_claims.json">感情・対話記事の段落別出典</a>'
         if tid in {x['topic_id'] for x in load('site/wellbeing_claims.json')['claims']}:
             links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/wellbeing_claims.json">幸福・仕事記事の段落別出典</a>'
+        if tid in {x['topic_id'] for x in load('site/motivation_claims.json')['claims']}:
+            links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/motivation_claims.json">やる気・目標記事の段落別出典</a>'
         related=EDITIONS.get(tid,{}).get('related_ids',[])
         related=[r for r in related if r in READERS and r!=tid]
         if len(related)<3:
@@ -383,7 +387,8 @@ def build_search():
     body+='<form id="topic-search" class="search-form" role="search" method="get"><label for="search-query">キーワード</label><input type="search" name="q" id="search-query" placeholder="例：睡眠、先延ばし、記憶" maxlength="150"><button type="submit">検索</button></form>'
     body+=FOUNDATIONS.search_help(p,rel)
     options=''.join(f'<option value="{esc(gid)}">{esc(g["name"])}</option>' for gid,g in GROUPS.items())
-    body+=f'<div id="search-enhancements" hidden><div class="filters"><label for="search-group">分野<select id="search-group"><option value="">すべての分野</option>{options}</select></label><label for="search-status">本文<select id="search-status"><option value="">すべて</option><option value="draft">編集稿あり</option><option value="pending">準備中</option></select></label><button type="button" data-reset-search>条件をクリア</button></div></div>'
+    categories=''.join(f'<option value="{esc(cid)}" data-group="{esc(GROUP_OF[cid])}">{esc(category_label(cid))}</option>' for cid in CATEGORIES)
+    body+=f'<div id="search-enhancements" hidden><div class="filters"><label for="search-group">分野<select id="search-group"><option value="">すべての分野</option>{options}</select></label><label for="search-category">テーマ<select id="search-category"><option value="">すべてのテーマ</option>{categories}</select></label><label for="search-status">本文<select id="search-status"><option value="">すべて</option><option value="draft">編集稿あり</option><option value="pending">準備中</option></select></label><label for="search-sort">並び順<select id="search-sort" aria-describedby="sort-note"><option value="relevance">関連順</option><option value="updated">更新順</option></select></label></div><div class="filter-footer"><p id="sort-note" hidden>更新履歴のある記事を先に表示します。</p><button type="button" data-reset-search>条件をクリア</button></div></div>'
     body+='<noscript><p class="notice">JavaScriptが無効のため、全テーマを表示しています。ブラウザのページ内検索、またはテーマ一覧をご利用ください。</p></noscript>'
     body+=f'<p id="result-summary" class="result-summary" role="status" aria-live="polite" tabindex="-1">{len(TOPICS)}件のテーマ</p><div id="no-results" class="empty" hidden><h2>見つかりませんでした</h2><p>短い言葉に変えるか、絞り込みを解除してください。</p><button type="button" data-reset-search>条件をクリア</button></div><ul class="search-results">'
     for tid,t in TOPICS.items():
@@ -391,7 +396,10 @@ def build_search():
         ready=tid in READERS
         heading=f'<a href="{esc(reader_link(p,tid))}">{esc(title(tid))}</a>' if ready else f'<span class="pending-title">{esc(title(tid))}</span>'
         desc=summary(tid) if ready else '本文は準備中です。'
-        body+=f'<li class="search-result" data-topic-id="{esc(tid)}" data-search="{esc(corpus)}" data-search-title="{esc(title(tid))}" data-group="{esc(GROUP_OF[t["category_id"]])}" data-status="{"draft" if ready else "pending"}"><span class="eyebrow">{esc(category_label(t["category_id"]))} · {"編集稿" if ready else "準備中"}</span><h2>{heading}</h2><p>{esc(desc)}</p></li>'
+        update=REFERENCES.updates.get(tid)
+        updated=update['updated_on'] if update else ''
+        dated=f'<time class="search-update" datetime="{esc(updated)}">更新 {esc(updated)}</time>' if updated else ''
+        body+=f'<li class="search-result" data-category="{esc(t["category_id"])}" data-updated="{esc(updated)}" data-topic-id="{esc(tid)}" data-search="{esc(corpus)}" data-search-title="{esc(title(tid))}" data-group="{esc(GROUP_OF[t["category_id"]])}" data-status="{"draft" if ready else "pending"}"><span class="eyebrow">{esc(category_label(t["category_id"]))} · {"編集稿" if ready else "準備中"}</span><h2>{heading}</h2><p>{esc(desc)}</p>{dated}</li>'
     body+='</ul><nav id="pagination" class="pagination" aria-label="検索結果のページ" hidden><button id="previous" type="button">前へ</button><span id="page-info"></span><button id="next" type="button">次へ</button></nav>'
     write(p,shell(p,'テーマを探す','300の心理学・行動科学テーマをキーワードと分野で検索。',body))
 

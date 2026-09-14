@@ -75,6 +75,27 @@
       "topic_id": "PSY-MOT-002",
       "sources": [
         {
+          "edge_id": "EV-PSY-MOT-002-SRC098",
+          "source_id": "SRC098",
+          "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
+        {
           "edge_id": "EV-PSY-MOT-002-SRC104",
           "source_id": "SRC104",
           "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
@@ -93,7 +114,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         }
       ]
     },
@@ -105,9 +126,9 @@
           "source_id": "SRC047",
           "title": "Changing personality traits with the help of a digital personality change intervention.",
           "review_scope": "selected_fulltext_sections",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "性格への介入の資料であり、目標と本人の価値の一致を直接検証した資料ではない。旧書誌と照合記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -126,9 +147,9 @@
           "source_id": "SRC084",
           "title": "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "好奇心の資料であり、目標の自己選択や自己一致の直接根拠ではない。旧書誌と照合記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -141,6 +162,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-MOT-003-SRC333",
+          "source_id": "SRC333",
+          "title": "Goal striving, need satisfaction, and longitudinal well-being: the self-concordance model",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-MOT-003-SRC334",
+          "source_id": "SRC334",
+          "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -152,9 +215,9 @@
           "source_id": "SRC045",
           "title": "Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "進捗確認への介入であり、目標の難度や学習目標との比較の直接根拠ではない。旧書誌と照合記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -173,9 +236,9 @@
           "source_id": "SRC098",
           "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "障害の検討と行動計画の組合せであり、目標の難度そのものの比較ではない。旧書誌と照合記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -188,6 +251,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-MOT-004-SRC334",
+          "source_id": "SRC334",
+          "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     },
@@ -267,9 +351,9 @@
           "source_id": "SRC104",
           "title": "Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis.",
           "review_scope": "selected_fulltext_sections",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "先延ばしへの介入の資料であり、完璧主義の二側面と先延ばしの相関の直接根拠ではない。旧書誌と照合記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -329,6 +413,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-MOT-007-SRC335",
+          "source_id": "SRC335",
+          "title": "Intrinsic motivation and extrinsic incentives jointly predict performance: a 40-year meta-analysis",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     },

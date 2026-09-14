@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "checks": [
+    {
+      "source_id": "SRC333",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10101878/",
+      "scope": "abstract",
+      "locator": "PubMed Abstract。3縦断データセットでの自己一致と努力・達成。全モデル・参加者内訳は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC334",
+      "checked_on": "2026-09-14",
+      "url": "https://med.stanford.edu/content/dam/sm/s-spire/documents/PD.locke-and-latham-retrospective_Paper.pdf",
+      "scope": "selected_fulltext_sections",
+      "locator": "大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC335",
+      "checked_on": "2026-09-14",
+      "url": "https://www.researchgate.net/publication/260089258_Intrinsic_Motivation_and_Extrinsic_Incentives_Jointly_Predict_Performance_A_40-Year_Meta-Analysis",
+      "scope": "abstract",
+      "locator": "APA提供のResearchGate出版社プレビューと抄録。183研究、成果の質・量との予測関係。全文未取得。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC128",
+      "checked_on": "2026-09-14",
+      "url": "https://pure.ewha.ac.kr/en/publications/a-meta-analytic-review-of-experiments-examining-the-effects-of-ex/",
+      "scope": "abstract",
+      "locator": "大学の研究業績ページの原論文抄録。128研究、自由選択・自己報告、物的報酬と肯定的フィードバックを区別。著者順は既存のPubMed書誌を保持。本文・コメントは未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC104",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30214421/",
+      "scope": "abstract",
+      "locator": "PubMed Abstract。12研究・21比較・718人、非介入対照、g=0.34と異質性。特定の開始時間や単一手順の効果を示す資料ではない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC098",
+      "checked_on": "2026-09-14",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.565202/full",
+      "scope": "selected_fulltext_sections",
+      "locator": "Abstract、Introductionの手法定義、Methodsの選択基準。21論文・24独立効果量、g=0.336、出版バイアスの留保。表・全分析は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC295",
+      "checked_on": "2026-09-14",
+      "url": "https://journals.sagepub.com/doi/10.1002/per.2098",
+      "scope": "abstract",
+      "locator": "出版社Abstract。懸念r=0.23、高い基準への努力r=-0.22、測定による違い。本文・個別研究は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC049",
+      "checked_on": "2026-09-14",
+      "url": "https://www.nature.com/articles/s41586-019-1466-y",
+      "scope": "selected_fulltext_sections",
+      "locator": "Abstract、Defining the primary outcome and student subgroup、Average effects on core course GPAs、Moderation by peer norms、Advanced mathematics course enrolment。成績解析6320人65校、差0.10評定点。表・図・付録と原データの再解析は未実施。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC288",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36326645/",
+      "scope": "abstract",
+      "locator": "PubMed Abstract。63研究の全体推定と質を絞った推定、出版バイアス補正の区別。本文・全コード未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC289",
+      "checked_on": "2026-09-14",
+      "url": "https://www.researchgate.net/publication/364370114_A_systematic_review_and_meta-analysis_of_growth_mindset_interventions_For_whom_how_and_why_might_such_interventions_work",
+      "scope": "selected_fulltext_sections",
+      "locator": "著者公開版のAbstractとResults/Descriptive Analysis冒頭。53独立介入標本はすべて学業ではなく、学業32研究。対象と実施の条件付き学業d=0.14、予測区間-0.08〜0.35。図表・全解析未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC290",
+      "checked_on": "2026-09-14",
+      "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.70066",
+      "scope": "selected_fulltext_sections",
+      "locator": "出版社Abstract、Introductionのレビュー間の違い、Methodsの選択・評価手順。学齢期24RCT、強い証拠の無〜小効果。著者の評価と当サイトの正式評価は別。表・個別効果の再解析未実施。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC291",
+      "checked_on": "2026-09-14",
+      "url": "https://link.springer.com/article/10.1007/s10648-026-10188-7",
+      "scope": "abstract",
+      "locator": "出版社の書誌・Abstract。2026年6月のReflection on the Field。想起練習との組合せを提案した論考であり、新たな介入効果の試験ではない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC048",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29505339/",
+      "scope": "inherited_abstract_check",
+      "locator": "既存のarticles/manuscripts/PSY-MOT-008.mdと対応する主張記録の2018年2メタ分析の区別を継承。今回は原抄録・全文の再取得未完了。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC267",
+      "checked_on": "2026-09-14",
+      "url": "https://journals.sagepub.com/doi/10.1177/0146167212445599",
+      "scope": "abstract",
+      "locator": "出版社Abstract。4実験、弱みの改善・償いへの動機、失敗後の勉強時間。長期の達成や成績改善の保証には使わない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC105",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37362192/",
+      "scope": "inherited_abstract_check",
+      "locator": "旧稿PSY-MOT-009の抄録照合を継承。抑うつ・不安・ストレスの指標と、自己改善動機は別。今回のPubMed再取得は空応答で、全文再確認ではない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC130",
+      "checked_on": "2026-09-14",
+      "url": "https://doi.org/10.1287/mnsc.2014.1901",
+      "scope": "abstract",
+      "locator": "出版社Abstract。3つのアーカイブ型フィールド研究、検索・ジム訪問・目標へのコミットメントと時間の区切り。長期継続効果や最適な再開日を保証しない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC045",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26479070/",
+      "scope": "abstract",
+      "locator": "PubMed Abstract。138無作為割付研究、目標達成d=0.40と記録頻度の効果を区別。記録・公開による条件差を個別の方法の保証にしない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC293",
+      "checked_on": "2026-09-14",
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2017.1184",
+      "scope": "abstract",
+      "locator": "出版社Abstract。4研究、再開時の時間圧を予期した状況と再開計画。主な成績は割り込み先の仕事。あらゆる中断からの回復時間を測ったと書かない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC294",
+      "checked_on": "2026-09-14",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/33005/",
+      "scope": "abstract",
+      "locator": "Cardiff大学機関リポジトリの原論文Abstract。簡単なTower of London課題、中断前の手がかり準備と再開時間。実際の業務を直接試した資料ではない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC131",
+      "checked_on": "2026-09-14",
+      "url": "https://doi.org/10.1016/j.obhdp.2009.04.002",
+      "scope": "inherited_abstract_check",
+      "locator": "旧稿PSY-ATT-003の抄録照合を継承。今回DOI経由の本文取得は未完了。注意残余の概念の背景として使用。",
+      "independent_review_completed": false
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_id": "SRC129",
+      "url": "https://doi.org/10.1111/j.2044-8325.1992.tb00488.x",
+      "status": "existing_bibliography_retained_not_used_as_new_result",
+      "note": "旧台帳の文献を保存。新規の結果の根拠には今回使用しない。"
+    }
+  ],
+  "retrieval_notes_ja": "PubMedの一部は空応答やブラウザ確認画面。出版社・大学機関リポジトリ・著者公開版の許可された資料で補った。取得できた範囲を各項目で区別し、取得失敗を結果なしと解釈しない。"
+}

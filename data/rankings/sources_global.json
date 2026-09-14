@@ -3774,6 +3774,36 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 332
+    },
+    {
+      "source_id": "SRC333",
+      "title": "Goal striving, need satisfaction, and longitudinal well-being: the self-concordance model",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 333
+    },
+    {
+      "source_id": "SRC334",
+      "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 334
+    },
+    {
+      "source_id": "SRC335",
+      "title": "Intrinsic motivation and extrinsic incentives jointly predict performance: a 40-year meta-analysis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 335
     }
   ]
 }

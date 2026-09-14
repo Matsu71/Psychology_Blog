@@ -1,4 +1,4 @@
-/* Progressive enhancement: the topic index and every article work without JS. */
+/* The full index and articles remain readable without JS. */
 (() => {
   'use strict';
   const normalize = value => value.normalize('NFKC').toLocaleLowerCase('ja')
@@ -50,8 +50,20 @@
   const query = document.querySelector('#search-query');
   const group = document.querySelector('#search-group');
   const status = document.querySelector('#search-status');
+  const category = document.querySelector('#search-category');
+  const sort = document.querySelector('#search-sort');
+  const categoryOptions = [...category.options].slice(1).map(option => option.cloneNode(true));
+  const categoryGroup = new Map(categoryOptions.map(option => [option.value, option.dataset.group]));
+  // Rebuild select options.
+  function updateCategories(value = category.value) {
+    const all = document.createElement('option');
+    all.value = ''; all.textContent = 'すべてのテーマ';
+    category.replaceChildren(all, ...categoryOptions.filter(option => !group.value || option.dataset.group === group.value).map(option => option.cloneNode(true)));
+    category.value = value;
+    if (category.selectedIndex < 0) category.value = '';
+  }
   const list = [...document.querySelectorAll('.search-result')];
-  const corpus = list.map(element => ({element, text: normalize(element.dataset.search), title: normalize(element.dataset.searchTitle || ''), group: element.dataset.group, status: element.dataset.status}));
+  const corpus = list.map((element, index) => ({element, index, category: element.dataset.category, updated: element.dataset.updated || '', text: normalize(element.dataset.search), title: normalize(element.dataset.searchTitle || ''), group: element.dataset.group, status: element.dataset.status}));
   const summary = document.querySelector('#result-summary');
   const empty = document.querySelector('#no-results');
   const pager = document.querySelector('#pagination');
@@ -68,20 +80,28 @@
     status.value = params.get('status') || '';
     if (group.selectedIndex < 0) group.value = '';
     if (status.selectedIndex < 0) status.value = '';
+    const requestedCategory = params.get('category') || '';
+    // Specific category wins.
+    if (categoryGroup.has(requestedCategory)) group.value = categoryGroup.get(requestedCategory);
+    updateCategories(requestedCategory);
+    sort.value = params.get('sort') || 'relevance';
+    if (sort.selectedIndex < 0) sort.value = 'relevance';
     page = Math.max(1, Number.parseInt(params.get('page'), 10) || 1);
   }
   function render(writeURL = true) {
     if (!form.isConnected) return;
     const words = normalize(query.value.trim()).split(/\s+/).filter(Boolean);
-    const found = corpus.filter(item => (!group.value || item.group === group.value) && (!status.value || item.status === status.value) && words.every(word => item.text.includes(word)));
-    // Exact title, then title match, then aliases; stable canonical order for ties.
-    if(words.length) {
-      const phrase=normalize(query.value.trim());
-      const score=item=>item.title===phrase?3:words.every(w=>item.title.includes(w))?2:1;
-      found.sort((a,b)=>score(b)-score(a));
-      const parent=document.querySelector('.search-results');
-      found.forEach(item=>parent.appendChild(item.element));
-    } else {const parent=document.querySelector('.search-results');corpus.forEach(item=>parent.appendChild(item.element));}
+    const found = corpus.filter(item => (!group.value || item.group === group.value) && (!category.value || item.category === category.value) && (!status.value || item.status === status.value) && words.every(word => item.text.includes(word)));
+    const phrase = normalize(query.value.trim());
+    const score = item => !words.length ? 0 : item.title === phrase ? 3 : words.every(w => item.title.includes(w)) ? 2 : 1;
+    // Unknown edit dates remain unknown.
+    found.sort((a, b) => {
+      if (sort.value === 'updated' && a.updated !== b.updated) return a.updated > b.updated ? -1 : 1;
+      return score(b) - score(a) || (sort.value === 'relevance' ? Number(b.status === 'draft') - Number(a.status === 'draft') : 0) || a.index - b.index;
+    });
+    const parent = document.querySelector('.search-results');
+    found.forEach(item => parent.appendChild(item.element));
+    document.querySelector('#sort-note').hidden = sort.value !== 'updated';
     const glossaryHits=document.querySelector('#glossary-hits');let visibleTerms=0;
     document.querySelectorAll('[data-glossary-hit]').forEach(item=>{item.hidden=!(words.length && words.every(w=>normalize(item.dataset.glossaryHit).includes(w)) && visibleTerms<5);if(!item.hidden)visibleTerms++;});
     if(glossaryHits)glossaryHits.hidden=visibleTerms===0;
@@ -100,23 +120,29 @@
       if (query.value.trim()) params.set('q', query.value.trim());
       if (group.value) params.set('group', group.value);
       if (status.value) params.set('status', status.value);
+      if (category.value) params.set('category', category.value);
+      if (sort.value !== 'relevance') params.set('sort', sort.value);
       if (page > 1) params.set('page', String(page));
-      try { history.replaceState(null, '', location.pathname + (params.size ? '?' + params.toString() : '') + location.hash); } catch (_) { /* Downloaded file previews may disallow history writes. */ }
+      try { history.replaceState(null, '', location.pathname + (params.size ? '?' + params.toString() : '') + location.hash); } catch (_) { /* Optional in file previews. */ }
     }
   }
   form.addEventListener('submit', event => { event.preventDefault(); page=1; render(); });
   let timer;
   query.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { page=1; render(); }, 120); });
-  [group,status].forEach(control => control.addEventListener('change', () => { page=1; render(); }));
-  document.querySelectorAll('[data-reset-search]').forEach(button => button.addEventListener('click', () => { query.value=''; group.value=''; status.value=''; page=1; render(); query.focus(); }));
+  group.addEventListener('change', () => { updateCategories(); page=1; render(); });
+  category.addEventListener('change', () => {
+    if (category.value) group.value = categoryGroup.get(category.value);
+    updateCategories(); page=1; render();
+  });
+  [status,sort].forEach(control => control.addEventListener('change', () => { page=1; render(); }));
+  document.querySelectorAll('[data-reset-search]').forEach(button => button.addEventListener('click', () => { query.value=''; group.value=''; status.value=''; updateCategories(''); sort.value='relevance'; page=1; render(); query.focus(); }));
   function move(delta) { page += delta; render(); summary.focus(); summary.scrollIntoView({block:'start'}); }
   previous.addEventListener('click', () => move(-1)); next.addEventListener('click', () => move(1));
   addEventListener('popstate', () => { fromURL(); render(false); });
   fromURL(); render(false);
 })();
 
-// Keep only the last clicked reference position in the DOM, never in storage.
-// Without JavaScript the native return link still reaches a real citation.
+// Reference return state stays in the DOM, never in storage.
 document.addEventListener('click', event => {
   const link = event.target.closest && event.target.closest('a.citation-link');
   if (!link) return;

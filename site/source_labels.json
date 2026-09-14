@@ -56,6 +56,78 @@
     "SRC298": {
       "name": "Gisselbaekら（2026）",
       "topic": "インポスター現象の再検討"
+    },
+    "SRC333": {
+      "name": "Sheldon・Elliot（1999）",
+      "topic": "目標と関心・価値の一致"
+    },
+    "SRC334": {
+      "name": "Locke・Latham（2002）",
+      "topic": "目標設定の理論総説"
+    },
+    "SRC335": {
+      "name": "Cerasoliら（2014）",
+      "topic": "報酬・内発的動機と成果"
+    },
+    "SRC128": {
+      "name": "Deciら（1999）",
+      "topic": "報酬と自発的な活動"
+    },
+    "SRC104": {
+      "name": "Rozentalら（2018）",
+      "topic": "先延ばしへの介入"
+    },
+    "SRC098": {
+      "name": "Wangら（2021）",
+      "topic": "障害の検討と行動計画"
+    },
+    "SRC295": {
+      "name": "Siroisら（2017）",
+      "topic": "完璧主義と先延ばし"
+    },
+    "SRC045": {
+      "name": "Harkinら（2016）",
+      "topic": "進捗確認と目標達成"
+    },
+    "SRC288": {
+      "name": "Macnamara・Burgoyne（2023）",
+      "topic": "成長マインドセットの介入"
+    },
+    "SRC289": {
+      "name": "Burnetteら（2023）",
+      "topic": "マインドセット介入の条件差"
+    },
+    "SRC049": {
+      "name": "Yeagerら（2019）",
+      "topic": "米国の学校での介入"
+    },
+    "SRC290": {
+      "name": "Gazmuri（2025）",
+      "topic": "学齢期の介入の構造化レビュー"
+    },
+    "SRC291": {
+      "name": "Cleary・Robinson（2026）",
+      "topic": "学習行動との組合せの提案"
+    },
+    "SRC267": {
+      "name": "Breines・Chen（2012）",
+      "topic": "自分への思いやりと改善動機"
+    },
+    "SRC130": {
+      "name": "Daiら（2014）",
+      "topic": "時間の区切りと行動"
+    },
+    "SRC293": {
+      "name": "Leroy・Glomb（2018）",
+      "topic": "中断前の再開計画"
+    },
+    "SRC294": {
+      "name": "Hodgetts・Jones（2006）",
+      "topic": "再開するための手がかり"
+    },
+    "SRC131": {
+      "name": "Leroy（2009）",
+      "topic": "仕事の切り替えと注意残余"
     }
   }
 }

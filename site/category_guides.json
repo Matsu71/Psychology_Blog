@@ -70,6 +70,24 @@
           "topic_id": "PSY-WRK-011"
         }
       ]
+    },
+    "motivation": {
+      "guide_id": "motivation",
+      "intro": "始め方、目標、続ける条件を分けて考えます。",
+      "goals": [
+        {
+          "label": "着手の工夫",
+          "topic_id": "PSY-MOT-002"
+        },
+        {
+          "label": "目標の難度",
+          "topic_id": "PSY-MOT-004"
+        },
+        {
+          "label": "ご褒美",
+          "topic_id": "PSY-MOT-007"
+        }
+      ]
     }
   }
 }

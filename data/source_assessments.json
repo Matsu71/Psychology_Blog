@@ -6392,6 +6392,48 @@
       ],
       "integrity_status": "not_exhaustive",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC333",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "PubMed Abstract。3縦断データセットでの自己一致と努力・達成。全モデル・参加者内訳は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC334",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "大学公開PDF706–709頁（PDF2–5頁）のCore Findings、Goal Mechanisms、Moderators。画像と本文を照合。個別の実験・付録の再解析は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC335",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "APA提供のResearchGate出版社プレビューと抄録。183研究、成果の質・量との予測関係。全文未取得。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

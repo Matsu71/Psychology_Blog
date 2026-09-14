@@ -183,6 +183,226 @@
       "reader_sha256": "3d91e2ba9ef654f6c8f8db692727372753f9d90037a3f82c6090247dccb996b2",
       "publication_ready": false,
       "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-002",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC104",
+        "SRC098"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "b8040dc35a8eb83eff5560feb4b7351b00c8dd52c33c0f991684f26d46105ba7",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-003",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC333",
+        "SRC334"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "26789a6cc9f193001ab97f45357f34c5597de5ff17f8653013e08fa0ac7a7aaf",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-004",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC334"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "579e23fa7f54f72d463a4d324ba3a9c8d769ff1e9b6d72ba122171083ee20331",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-005",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC098"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "f0191e4893725bf70324c127205d3db972e8e1116bafd76fc434a8f87391d10c",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-006",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "旧稿から読者版を作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC295"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-MOT-006.md",
+      "previous_sha256": "cbac463400feb131586ada42924a623e86303e299f8a5b050620755adf450fe7",
+      "reader_sha256": "27539f656000799ffac0799bf60a71d3f19deb39bbdd1465eafa01941765950c",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-007",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC128",
+        "SRC335"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "b17375c9752aec6f7271cf41a2e5ea8ba9dff9a03689719296584d71b1553611",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-008",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "旧稿から読者版を作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC048",
+        "SRC288",
+        "SRC289",
+        "SRC049",
+        "SRC290",
+        "SRC291"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-MOT-008.md",
+      "previous_sha256": "b01adc986279c8a74d36295da17863aa35d19a2d3a96d68cf30794c867e11429",
+      "reader_sha256": "151b5364a73fe17dfb35c8d81689972cd0af745733ac9aeb9e726bd9b63398ac",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-009",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "旧稿から読者版を作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC267",
+        "SRC105"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-MOT-009.md",
+      "previous_sha256": "6d80705e6a7080ba10bd08a53f8a06222c516a6e4383809a0bf495d815c3d7ab",
+      "reader_sha256": "9069628c6fc451be17459274092c641168e363ca60eb9d9811c5aa1b23ce2f2e",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MOT-010",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC130"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "66433c3a187b4ca3a675e3d35b6acd257f88dce70484c218a08570b38dfae079",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-HAB-007",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "旧稿から読者版を作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC045"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-HAB-007.md",
+      "previous_sha256": "93cdf19b1d38fbc76fad2638f444811b7cb6f0388569ab51e1e9a7f7e51ffcb0",
+      "reader_sha256": "86544f3dcc3f6e82cc2096b302bbe615704adb007d9c977c24a1e1ff31929772",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-ATT-003",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "旧稿から読者版を作成。",
+        "研究の対象・比較・結果・限界を整理し、主張と出典を対応付け。"
+      ],
+      "source_ids": [
+        "SRC131",
+        "SRC293",
+        "SRC294"
+      ],
+      "source_checks_path": "site/motivation_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-ATT-003.md",
+      "previous_sha256": "8fb9867590e368b8dac4586bb2679e4168c79c3d175a62fb5086048623f852d5",
+      "reader_sha256": "aab1d079d3039c4b9dc731ffc9a548de106a03f7c7c6349d68ae8c733eb3d0fc",
+      "publication_ready": false,
+      "independent_review": "pending"
     }
   ]
 }
