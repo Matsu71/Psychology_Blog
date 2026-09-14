@@ -14,6 +14,7 @@ def main():
     if (ROOT/'site/foundation_sources.json').exists():packs.append(read('site/foundation_sources.json'))
     if (ROOT/'site/learning_sources.json').exists():packs.append(read('site/learning_sources.json'))
     if (ROOT/'site/emotion_sources.json').exists():packs.append(read('site/emotion_sources.json'))
+    if (ROOT/'site/wellbeing_sources.json').exists():packs.append(read('site/wellbeing_sources.json'))
     pack={'entries':[e for p in packs for e in p['entries']], 'updated_on':max(p['updated_on'] for p in packs)}
     sources=read('data/sources.json'); assessments=read('data/source_assessments.json')
     cats=read('data/categories.json')['categories']
@@ -55,6 +56,12 @@ def main():
             if (edge['topic_id'],edge['source_id']) in context_pairs:
                 edge['relation_role']='context_only'
                 edge['limits_ja']='個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。'
+    wellbeing_context={('PSY-WEL-001','SRC068'),('PSY-WEL-005','SRC069'),('PSY-WEL-009','SRC069'),('PSY-WEL-009','SRC100'),('PSY-WRK-002','SRC100')}
+    for doc in edgedocs.values():
+        for edge in doc['edges']:
+            if (edge['topic_id'],edge['source_id']) in wellbeing_context:
+                edge['relation_role']='context_only'
+                edge['limits_ja']='所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。'
     save('data/sources.json',sources);save('data/source_assessments.json',assessments)
     for p,d in docs.items():save(p,d)
     for p,d in edgedocs.items():save(p,d)

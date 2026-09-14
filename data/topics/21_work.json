@@ -42,7 +42,8 @@
       "source_ids": [
         "SRC075",
         "SRC100",
-        "SRC278"
+        "SRC278",
+        "SRC014"
       ],
       "caution_ja": "考えない努力だけを解決策にせず、業務量と連絡ルールも扱う。",
       "related_topic_ids": [
@@ -294,7 +295,8 @@
       "priority": 2,
       "source_ids": [
         "SRC167",
-        "SRC298"
+        "SRC298",
+        "SRC014"
       ],
       "caution_ja": "一般的な経験と診断を混同せず、本人の能力不足と解釈しない。",
       "related_topic_ids": [

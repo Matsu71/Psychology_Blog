@@ -7209,6 +7209,33 @@
       "source_type": "journal_article",
       "notes_ja": "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。",
       "accessed_on": "2026-09-14"
+    },
+    {
+      "id": "SRC331",
+      "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+      "authors_display": "OECD",
+      "year": 2025,
+      "journal": "OECD Publishing",
+      "source_type": "official_methodological_guidance",
+      "doi": "10.1787/9203632a-en",
+      "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html",
+      "verified_via_url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+      "verification_scope": "official_page_reviewed",
+      "notes_ja": "2025-10-03刊。第1章の定義、人生評価・感情・エウダイモニアと、広い生活条件の区別を確認。測定指針であり介入試験ではない。"
+    },
+    {
+      "id": "SRC332",
+      "title": "Having too little or too much time is linked to lower subjective well-being.",
+      "authors_display": "Sharif MA, Mogilner C, Hershfield HE",
+      "year": 2021,
+      "journal": "Journal of Personality and Social Psychology",
+      "source_type": "journal_article",
+      "doi": "10.1037/pspp0000391",
+      "pmid": "34498892",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34498892/",
+      "verified_via_url": "https://www.researchgate.net/publication/354482733_Having_too_little_or_too_much_time_is_linked_to_lower_subjective_well-being",
+      "verification_scope": "article_text_reviewed",
+      "notes_ja": "著者公開版HTMLの抄録、Study 3の設計・Method、Study 4のMethod、General Discussionの指定箇所。2つの米国データと想像課題による2実験を区別。図表・付録・全解析の点検ではない。"
     }
   ],
   "updated_on": "2026-09-11"

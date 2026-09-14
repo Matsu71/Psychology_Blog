@@ -13,7 +13,8 @@
       "search_query": "experienced well being evaluative life satisfaction measurement review",
       "priority": 1,
       "source_ids": [
-        "SRC068"
+        "SRC068",
+        "SRC331"
       ],
       "caution_ja": "別の尺度で測った幸福を一つのランキングに安易に統合しない。",
       "research_brief_ids": [
@@ -53,7 +54,8 @@
       "search_query": "hedonic adaptation positive events savoring intervention review",
       "priority": 1,
       "source_ids": [
-        "SRC145"
+        "SRC145",
+        "SRC331"
       ],
       "caution_ja": "重大な生活困難にも全員が完全適応するとしない。",
       "source_review_ids": [
@@ -91,7 +93,8 @@
       "source_ids": [
         "SRC068",
         "SRC069",
-        "SRC279"
+        "SRC279",
+        "SRC331"
       ],
       "caution_ja": "過去の米国の金額を日本の現在の閾値に換算して断言しない。",
       "research_brief_ids": [
@@ -132,7 +135,8 @@
       "search_query": "social comparison upward downward subjective well being meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC244"
+        "SRC244",
+        "SRC245"
       ],
       "caution_ja": "すべての比較を悪いとせず、目的や本人の状況を確認する。",
       "source_review_ids": [
@@ -169,7 +173,9 @@
       "priority": 2,
       "source_ids": [
         "SRC069",
-        "SRC100"
+        "SRC100",
+        "SRC332",
+        "SRC331"
       ],
       "caution_ja": "失業、介護、病気による時間の変化を自発的な余暇と一括りにしない。",
       "research_brief_ids": [

@@ -38,7 +38,7 @@
       "id": "EV-PSY-WRK-002-SRC100",
       "topic_id": "PSY-WRK-002",
       "source_id": "SRC100",
-      "relation_role": "unassessed_legacy_link",
+      "relation_role": "context_only",
       "relevance_1_to_5": null,
       "relevance_scope": "not_reassessed",
       "source_review_id": null,
@@ -47,7 +47,7 @@
       ],
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "limits_ja": "所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -302,6 +302,34 @@
       "finding_scope_ja": "16レビュー（系統的8・スコーピング8）を整理。概念・尺度が統一されず確立した基準尺度がなく、個人の要因だけでなく職場階層や文脈も論じる。支援介入に有望な結果はあるが質が一定しない。",
       "conclusion_direction": "mixed",
       "limits_ja": "医療・教育分野のレビューが多く、全職種への移植には制限。元レビュー・試験を重ねて独立証拠数にしない。自己学習・コーチングを標準治療として断定しない。著者のAMSTAR-2等の評価を当方の実施結果としない。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-002-SRC014",
+      "topic_id": "PSY-WRK-002",
+      "source_id": "SRC014",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-WRK-011-SRC014",
+      "topic_id": "PSY-WRK-011",
+      "source_id": "SRC014",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

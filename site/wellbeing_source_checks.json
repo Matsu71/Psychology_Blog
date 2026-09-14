@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "checks": [
+    {
+      "source_id": "SRC331",
+      "checked_on": "2026-09-14",
+      "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+      "scope": "official_page",
+      "locator": "第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC332",
+      "checked_on": "2026-09-14",
+      "url": "https://www.researchgate.net/publication/354482733_Having_too_little_or_too_much_time_is_linked_to_lower_subjective_well-being",
+      "scope": "selected_fulltext_sections",
+      "locator": "著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC145",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16719675/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。古典的な理論的総説。2007年のコメント2件の書誌が表示されるが、その内容は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC097",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40627390/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。145論文・163標本、平均効果と国・手法等の違い。国別表と全付録の再点検は未実施。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC014",
+      "checked_on": "2026-09-14",
+      "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+      "scope": "official_page",
+      "locator": "NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC068",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36857342/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。2021年データの再解析、感情水準と所得の関連。個別の年収基準や因果効果を算出しない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC279",
+      "checked_on": "2026-09-14",
+      "url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+      "scope": "abstract",
+      "locator": "FEMM Working Paperの掲載ページ・抄録。2026-02-18公開、連続性の制約と推定方法による結果差。未査読のワーキングペーパー。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC244",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29144145/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。比較対象の選択と比較への反応、対比、比較なし対照の少なさ。全研究・付録は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC245",
+      "checked_on": "2026-09-14",
+      "url": "https://academic.oup.com/jcmc/article/29/1/zmad055/7595758",
+      "scope": "inherited_abstract_plus_publisher_excerpt",
+      "locator": "従来稿の抄録照合を引き継ぎ、今回は出版社の検索結果で書誌・Lay summaryの能動利用と感情・不安の併存を確認。本文取得は失敗。141研究を全件再点検した意味ではない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC099",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38867040/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC075",
+      "checked_on": "2026-09-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+      "scope": "abstract",
+      "locator": "PubMedの書誌・抄録。1998–2020年の検索、30研究・34介入・3725人、平均d=0.36と測定文脈の違い。すべてをRCTと扱わない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC278",
+      "checked_on": "2026-09-14",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+      "scope": "abstract",
+      "locator": "WileyのAbstractとPractitioner points。103人・1127目標の追跡と計画作成の実験操作を区別。2015年オンライン／2016年巻。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC167",
+      "checked_on": "2026-09-14",
+      "url": "https://europepmc.org/article/MED/31848865",
+      "scope": "inherited_selected_scope",
+      "locator": "2020年総説の既存稿・限定照合を保持。今回原文の再点検は未実施。過去の介入研究不足を現在の不存在としない。",
+      "independent_review_completed": false
+    },
+    {
+      "source_id": "SRC298",
+      "checked_on": "2026-09-14",
+      "url": "https://asmepublications.onlinelibrary.wiley.com/doi/10.1111/medu.70076",
+      "scope": "selected_fulltext_sections",
+      "locator": "WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。",
+      "independent_review_completed": false
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "title": "Subjective well-being and adaptation to life events: a meta-analysis.",
+      "doi": "10.1037/a0025948",
+      "year": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22059843/",
+      "status": "bibliography_and_search_excerpt_only",
+      "next_action": "本文・抄録が安定して取得できなかったため、適応の結果や回復期間の主張には使用しない。出来事別の縦断的知見の追加候補。"
+    },
+    {
+      "title": "“Not too little and not too much?” The relationships between spare time, spare money, and subjective well-being",
+      "doi": "10.1080/17439760.2025.2502485",
+      "year": 2025,
+      "url": "https://snf.no/en/publications/2025/not-too-little-and-not-too-much-the-relationships-between-spare-time-spare-money-and-subjective-well-being/",
+      "status": "bibliography_only",
+      "next_action": "著者所属機関で書誌を確認。出版社の本文・抄録は取得できず、結果は推測しない。自由時間の追加確認候補。"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ def main():
     check(digest(json.dumps(canonical,ensure_ascii=False).encode())==baseline['topic_id_title_order_sha256'],'all canonical topic IDs, titles and order retained')
     for path,sha in baseline['canonical_manuscripts'].items():
         check(digest((ROOT/path).read_bytes())==sha,'original manuscript unchanged: '+path)
-    check(set(n['topic_id'] for n in notes)==batch,'each new edition has one scope note')
+    check(batch <= set(n['topic_id'] for n in notes) and len(notes)==len({n['topic_id'] for n in notes}),'each original emotion edition retains one distinct scope note')
     for tid in sorted(batch):
         check(ed[tid]['publication_ready'] is False and ed[tid]['independent_review']=='pending','no invented approval: '+tid)
         check(ed[tid]['kind']==('rewrite' if cat[tid].get('manuscript_path') else 'new_draft'),'correct new/rewrite classification: '+tid)

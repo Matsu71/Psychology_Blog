@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "labels": {
+    "SRC331": {
+      "name": "OECD（2025）",
+      "topic": "幸福の測定指針"
+    },
+    "SRC332": {
+      "name": "Sharifら（2021）",
+      "topic": "自由時間と幸福"
+    },
+    "SRC145": {
+      "name": "Dienerら（2006）",
+      "topic": "快楽順応の理論"
+    },
+    "SRC097": {
+      "name": "Choiら（2025）",
+      "topic": "感謝の取り組み"
+    },
+    "SRC014": {
+      "name": "NIMH",
+      "topic": "心の健康とセルフケア"
+    },
+    "SRC068": {
+      "name": "Killingsworthら（2023）",
+      "topic": "所得と感情的な幸福"
+    },
+    "SRC279": {
+      "name": "Derlinら（2026）",
+      "topic": "所得の再解析・未査読"
+    },
+    "SRC244": {
+      "name": "Gerberら（2018）",
+      "topic": "社会的比較の統合研究"
+    },
+    "SRC245": {
+      "name": "Godardら（2024）",
+      "topic": "SNS利用の統合研究"
+    },
+    "SRC099": {
+      "name": "Bloomら（2024）",
+      "topic": "在宅・出社の比較試験"
+    },
+    "SRC075": {
+      "name": "Karabinskiら（2021）",
+      "topic": "仕事から離れる介入"
+    },
+    "SRC278": {
+      "name": "Smit（2016）",
+      "topic": "未完了の仕事と計画"
+    },
+    "SRC167": {
+      "name": "Bravataら（2020）",
+      "topic": "インポスター現象の総説"
+    },
+    "SRC298": {
+      "name": "Gisselbaekら（2026）",
+      "topic": "インポスター現象の再検討"
+    }
+  }
+}

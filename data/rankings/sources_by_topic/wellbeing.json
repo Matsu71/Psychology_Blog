@@ -11,9 +11,9 @@
           "source_id": "SRC068",
           "title": "Income and emotional well-being: A conflict resolved.",
           "review_scope": "abstract",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -26,6 +26,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-001-SRC331",
+          "source_id": "SRC331",
+          "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -99,6 +120,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-003-SRC331",
+          "source_id": "SRC331",
+          "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -180,9 +222,9 @@
           "source_id": "SRC069",
           "title": "Buying time promotes happiness.",
           "review_scope": "selected_fulltext_sections",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -195,6 +237,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-WEL-005-SRC331",
+          "source_id": "SRC331",
+          "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -247,6 +310,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": 1,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-WEL-007-SRC245",
+          "source_id": "SRC245",
+          "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": 3,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -284,9 +368,9 @@
           "source_id": "SRC069",
           "title": "Buying time promotes happiness.",
           "review_scope": "selected_fulltext_sections",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -305,9 +389,9 @@
           "source_id": "SRC100",
           "title": "Work time reduction via a 4-day workweek finds improvements in workers' well-being.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "所得と感情、時間を買う行動、労働時間短縮の背景資料。幸福の一般定義、自由時間の最適量、心理的切り離し介入の直接の証明として読者版では使用しない。元の書誌・確認記録は保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -320,6 +404,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-WEL-009-SRC331",
+          "source_id": "SRC331",
+          "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-WEL-009-SRC332",
+          "source_id": "SRC332",
+          "title": "Having too little or too much time is linked to lower subjective well-being.",
+          "review_scope": "selected_fulltext_sections",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 3
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },

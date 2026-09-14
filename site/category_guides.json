@@ -36,6 +36,40 @@
           "topic_id": "PSY-REL-002"
         }
       ]
+    },
+    "wellbeing": {
+      "guide_id": "wellbeing",
+      "goals": [
+        {
+          "label": "幸福の意味",
+          "topic_id": "PSY-WEL-001"
+        },
+        {
+          "label": "感謝の記録",
+          "topic_id": "PSY-WEL-002"
+        },
+        {
+          "label": "自由時間",
+          "topic_id": "PSY-WEL-009"
+        }
+      ]
+    },
+    "work": {
+      "guide_id": "work-rest",
+      "goals": [
+        {
+          "label": "在宅と出社",
+          "topic_id": "PSY-WRK-001"
+        },
+        {
+          "label": "仕事が気になる",
+          "topic_id": "PSY-WRK-002"
+        },
+        {
+          "label": "実績と自信",
+          "topic_id": "PSY-WRK-011"
+        }
+      ]
     }
   }
 }

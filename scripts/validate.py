@@ -65,7 +65,7 @@ def load_and_validate() -> tuple[dict[str, Any], dict[str, Any]]:
     sources = source_document['sources']
     require(isinstance(categories, list) and isinstance(sources, list), 'Invalid catalog arrays')
     scopes = {'official_page_reviewed', 'bibliography_verified', 'abstract_reviewed', 'article_text_reviewed'}
-    source_types = {'journal_article', 'book_chapter', 'working_paper', 'official_health_information', 'official_bibliography'}
+    source_types = {'journal_article', 'book_chapter', 'working_paper', 'official_health_information', 'official_bibliography', 'official_methodological_guidance'}
     source_ids: set[str] = set()
     doi_ids: set[str] = set()
     for source in sources:

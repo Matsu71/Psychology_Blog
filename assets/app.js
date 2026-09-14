@@ -114,3 +114,13 @@
   addEventListener('popstate', () => { fromURL(); render(false); });
   fromURL(); render(false);
 })();
+
+// Keep only the last clicked reference position in the DOM, never in storage.
+// Without JavaScript the native return link still reaches a real citation.
+document.addEventListener('click', event => {
+  const link = event.target.closest && event.target.closest('a.citation-link');
+  if (!link) return;
+  const reference = document.getElementById(link.hash.slice(1));
+  const back = reference && reference.querySelector('a.reference-return');
+  if (back) { back.setAttribute('href', '#' + link.id); back.textContent = '今の引用箇所へ戻る'; }
+});

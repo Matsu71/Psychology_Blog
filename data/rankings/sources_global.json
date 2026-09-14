@@ -3754,6 +3754,26 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 330
+    },
+    {
+      "source_id": "SRC331",
+      "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 331
+    },
+    {
+      "source_id": "SRC332",
+      "title": "Having too little or too much time is linked to lower subjective well-being.",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 332
     }
   ]
 }

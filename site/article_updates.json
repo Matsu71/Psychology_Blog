@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-14",
+  "schedule_is_automated": false,
+  "entries": [
+    {
+      "topic_id": "PSY-WEL-001",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の設計と適用範囲、直接根拠を整理。"
+      ],
+      "source_ids": [
+        "SRC331"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "d8c8a1986214635c1856c7032d8c8a1bf3a367363087b1b27aa5d9009c464ba0",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "平均効果量と改善率の混同、前向きさの強制を避ける説明を整理。"
+      ],
+      "source_ids": [
+        "SRC097",
+        "SRC014"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WEL-002.md",
+      "previous_sha256": "1f40484a40ffefed239ff431bc59848f5ddb3aaab8463b48e206018823187c40",
+      "reader_sha256": "4a4e6f2830ab58f19faac6e6b5fe23a048d6044bf853fc12e09d4e7095495a09",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の設計と適用範囲、直接根拠を整理。"
+      ],
+      "source_ids": [
+        "SRC145",
+        "SRC331"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "448777a252317df531b58ab29efdb82427c3debdf0d47a2e265f971440611c0b",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "2026年の未査読再解析と、分析方法による違いを明示。"
+      ],
+      "source_ids": [
+        "SRC068",
+        "SRC279",
+        "SRC331"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WEL-005.md",
+      "previous_sha256": "659cd6dd93a573b59c5080903453e2bd0f49d7102af8e7b0d035d4118688304d",
+      "reader_sha256": "cbc0ab9f43dc91dbe5e1714639e101a91cee88dbc8c2ada9fcbe1274fcc15cf9",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "社会的比較とSNS利用の測定を区別し、確認範囲を表示。"
+      ],
+      "source_ids": [
+        "SRC244",
+        "SRC245"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WEL-007.md",
+      "previous_sha256": "d306881b7842a0327595bac4fc5d13fed71820bf1841cbcf73e24e7769d1e275",
+      "reader_sha256": "aeb1384f39fbd7683c6b5f14a8114bff665a867c68fb4bbfba73ee4703bbd847",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "本文を新規作成。",
+        "研究の設計と適用範囲、直接根拠を整理。"
+      ],
+      "source_ids": [
+        "SRC332",
+        "SRC331"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": null,
+      "previous_sha256": null,
+      "reader_sha256": "54b3d71687470e62179a7baebb1cfd27e1e8d90bdd615f4c8e74d38e9a9ce2b3",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "相対的な離職減少と同等性検定、一般化の限界を明示。"
+      ],
+      "source_ids": [
+        "SRC099"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WRK-001.md",
+      "previous_sha256": "76401cc7b3d814fad56789bcf42bd2817c4c5e4add74d366f9df9efe13a51e46",
+      "reader_sha256": "63f6eb1d9cd2db631a971ed064d23aa0274f5f8a945a8cc9f916400aacc36c7a",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "追跡調査と計画作成の実験操作、対象者の違いを区別。"
+      ],
+      "source_ids": [
+        "SRC075",
+        "SRC278",
+        "SRC014"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WRK-002.md",
+      "previous_sha256": "961c3023e07a4f10864ac2a637ea9e84e7b91727c31782b641410a865c03592c",
+      "reader_sha256": "5b3ad929d0d44b3ba400413a9bfd973466fae41071016f0b404e323d9414dcec",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "updated_on": "2026-09-14",
+      "next_review_on": "2026-12-14",
+      "review_kind": "AI支援による指定範囲の編集",
+      "changes": [
+        "従来稿を短い見出しと具体例で再編集。",
+        "2026年総説を踏まえ、過去の研究不足と現在の支援研究を区別。"
+      ],
+      "source_ids": [
+        "SRC298",
+        "SRC167",
+        "SRC014"
+      ],
+      "source_checks_path": "site/wellbeing_source_checks.json",
+      "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-WRK-011.md",
+      "previous_sha256": "8b8788eca0eb4276beb4deb92878cbd35ed8e25a204154659c33bc12e146eaf2",
+      "reader_sha256": "3d91e2ba9ef654f6c8f8db692727372753f9d90037a3f82c6090247dccb996b2",
+      "publication_ready": false,
+      "independent_review": "pending"
+    }
+  ]
+}

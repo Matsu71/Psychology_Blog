@@ -150,6 +150,43 @@
         "PSY-REL-010",
         "PSY-REL-002"
       ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "幸福感と満足度",
+      "description": "気分、収入、自由時間。幸福を測る視点を6本で整理します。",
+      "topic_ids": [
+        "PSY-WEL-001",
+        "PSY-WEL-002",
+        "PSY-WEL-003",
+        "PSY-WEL-005",
+        "PSY-WEL-007",
+        "PSY-WEL-009"
+      ],
+      "goals": [
+        {
+          "label": "幸福の意味",
+          "topic_id": "PSY-WEL-001"
+        },
+        {
+          "label": "収入との関係",
+          "topic_id": "PSY-WEL-005"
+        },
+        {
+          "label": "自由時間",
+          "topic_id": "PSY-WEL-009"
+        }
+      ]
+    },
+    {
+      "id": "work-rest",
+      "title": "仕事と休息",
+      "description": "働く場所、仕事との距離、自信。条件の違いを3本で考えます。",
+      "topic_ids": [
+        "PSY-WRK-001",
+        "PSY-WRK-002",
+        "PSY-WRK-011"
+      ]
     }
   ],
   "terms": [

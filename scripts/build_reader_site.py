@@ -20,6 +20,7 @@ import sys
 from reader_foundations import Foundations
 from reader_learning import inject_check
 from reader_navigation import ReaderNavigation
+from reader_references import ReaderReferences
 from urllib.parse import urlparse, quote
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -161,6 +162,7 @@ def build_home():
     write(p,shell(p,CONFIG['site_name'],'心理学・行動科学のテーマを、睡眠、習慣、学習、人間関係などから探す情報サイト。',body))
 
 NAVIGATION=ReaderNavigation(ROOT)
+REFERENCES=ReaderReferences(ROOT)
 
 def build_topics():
     p='topics/index.html'
@@ -269,7 +271,7 @@ def inline(text: str, current: str, origin: str) -> str:
     return ''.join(result)
 
 def render_markdown(text: str,current: str,origin: str) -> tuple[str,list[tuple[str,str]]]:
-    out=[]; toc=[]; para=[]; listing=None; code=None
+    out=[]; toc=[]; para=[]; listing=None; code=None; table=[]
     def flush():
         if para:
             value=' '.join(para); para.clear()
@@ -283,14 +285,29 @@ def render_markdown(text: str,current: str,origin: str) -> tuple[str,list[tuple[
         nonlocal listing
         if listing:
             out.append(f'</{listing}>');listing=None
+    def end_table():
+        if not table:
+            return
+        def cells(line):
+            return [c.strip().replace(r'\|','|') for c in re.split(r'(?<!\\)\|',line.strip().strip('|'))]
+        rows=[cells(line) for line in table];table.clear()
+        if len(rows)<2 or not all(re.fullmatch(r':?-{3,}:?',v) for v in rows[1]) or any(len(row)!=len(rows[0]) for row in rows):
+            raise ValueError('Malformed authored table: '+origin)
+        label=toc[-1][1] if toc else '比較表'
+        heads=''.join('<th scope="col">'+inline(v,current,origin)+'</th>' for v in rows[0])
+        data=''.join('<tr>'+''.join('<td>'+inline(v,current,origin)+'</td>' for v in row)+'</tr>' for row in rows[2:])
+        out.append('<div class="table-wrap" role="region" aria-label="'+esc(label)+'の表" tabindex="0"><table><caption>'+esc(label)+'</caption><thead><tr>'+heads+'</tr></thead><tbody>'+data+'</tbody></table></div>')
     for line in text.splitlines():
         stripped=line.strip()
         if stripped.startswith('```'):
-            flush();end_list()
+            end_table();flush();end_list()
             if code is None:code=[]
             else:out.append('<pre><code>'+esc('\n'.join(code))+'</code></pre>');code=None
             continue
         if code is not None:code.append(line);continue
+        if stripped.startswith('|') and stripped.endswith('|'):
+            flush();end_list();table.append(stripped);continue
+        end_table()
         if not stripped:flush();end_list();continue
         if stripped.startswith('# '):flush();end_list();continue
         head=re.match(r'^(#{2,4})\s+(.+)$',stripped)
@@ -309,7 +326,7 @@ def render_markdown(text: str,current: str,origin: str) -> tuple[str,list[tuple[
             out.append('<li>'+inline(item.group(3),current,origin)+'</li>');continue
         if re.match(r'^\[SRC\d+\]\s',stripped):flush()
         end_list();para.append(stripped)
-    flush();end_list()
+    end_table();flush();end_list()
     if code is not None:out.append('<pre><code>'+esc('\n'.join(code))+'</code></pre>')
     return ''.join(out),toc
 
@@ -344,8 +361,10 @@ def build_readers():
             links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/foundation_claims.json">段落別の出典対応</a>'
         if tid in {x['topic_id'] for x in load('site/learning_claims.json')['claims']}:
             links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/learning_claims.json">学習記事の段落別出典</a>'
-        if tid in NAVIGATION.notes:
+        if tid in {x['topic_id'] for x in load('site/emotion_claims.json')['claims']}:
             links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/emotion_claims.json">感情・対話記事の段落別出典</a>'
+        if tid in {x['topic_id'] for x in load('site/wellbeing_claims.json')['claims']}:
+            links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/wellbeing_claims.json">幸福・仕事記事の段落別出典</a>'
         related=EDITIONS.get(tid,{}).get('related_ids',[])
         related=[r for r in related if r in READERS and r!=tid]
         if len(related)<3:
@@ -354,7 +373,8 @@ def build_readers():
         related=related[:3]
         related_html='<section class="related"><h2>あわせて読む</h2><ul>'+''.join(f'<li><a href="{esc(reader_link(p,r))}">{esc(title(r))}</a></li>' for r in related)+'</ul></section>' if related else ''
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
-        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}{NAVIGATION.scope(tid)}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
+        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}{NAVIGATION.scope(tid)}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{REFERENCES.history(tid)}{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
+        body=REFERENCES.enhance(body,SOURCES)
         write(p,shell(p,title(tid),summary(tid),body,active=gid,noindex=True))
 
 def build_search():
@@ -377,11 +397,12 @@ def build_search():
 
 def build_about():
     p='about/index.html'
-    body=breadcrumbs(p,[('このサイトについて',None)])+f'''<article class="about-prose"><h1>このサイトについて</h1><p>心理学と、その周辺にある行動科学の研究を、日常の疑問から読める形に整理するサイトです。睡眠、学習、性格、人間関係などを扱います。</p><h2>いまの掲載状況</h2><p>{len(TOPICS)}テーマの索引と、{len(READERS)}テーマの編集稿を掲載した制作プレビューです。編集稿は公開承認済みの記事ではありません。テーマ数、原稿数、確認済みの主張数を混同しません。</p><h2>記事の読み方</h2><p>新しい編集稿は、短い結論、本文、研究の限界、参考文献の順に読めます。実際の研究結果と、編集上の生活への応用例を分けています。</p><p>「関連がある」と「原因である」、「平均では差がある」と「自分にも効く」は別の主張です。効果量を、そのまま改善率のパーセントとして表しません。</p><h2>出典と確認</h2><p>研究の出典は論文と公的な資料を優先し、本文からたどれるようにしています。既存の研究台帳の題名とIDを保持し、読者向けの短い表示タイトルだけを別に管理しています。</p><p>確認できた範囲を各記事の末尾に記載します。抄録だけを確認した研究を「全文確認済み」とせず、AIによる点検を独立した専門家確認と呼びません。論文の正式なリスク・オブ・バイアス評価やGRADE評価は未実施です。</p><h2>編集と更新</h2><p>AI支援による編集・構造点検を行っています。医師、公認心理師、臨床心理士などが監修したという表示は、実際の確認と本人の了承が得られるまで使いません。編集日の更新だけで、全出典を再確認したようには表示しません。</p><p>記事の誤りは、該当箇所と根拠を確認して修正します。変更履歴と未解決の論点はGitHubに残します。閲覧数を計測していない段階で「人気ランキング」は設けません。</p><h2>健康情報の扱い</h2><p>個別の診断、治療方針、薬の使用量は案内しません。体調や生活上の支障が続く場合は、記事だけで判断せず、医療機関などの専門窓口に相談してください。</p><h2>参考にした構造</h2><p>Psychology Todayのテーマ索引、Greater Goodの分野別導線、NHSの短い見出しと読みやすい色の役割、Simply Psychologyの解説と出典への導線を参考にしています。文章・写真・ロゴ・固有の画面を複製したものではありません。</p><p><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/docs/redesign/REFERENCE_REVIEW.md">参考サイトの比較</a> · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/docs/redesign/EDITORIAL_STANDARD.md">編集基準と課題</a> · <a href="https://github.com/Matsu71/Psychology_Blog/issues">訂正の連絡</a></p><h2>プライバシー</h2><p>この版には広告、アクセス解析、外部フォント、外部埋め込みを追加していません。検索はこのページ内で処理します。本文の文字サイズ設定だけを、このブラウザのローカルストレージに保存します。配信事業者の通常のアクセス記録は、この説明とは別です。</p></article>'''
+    body=breadcrumbs(p,[('このサイトについて',None)])+f'''<article class="about-prose"><h1>このサイトについて</h1><p>心理学と、その周辺にある行動科学の研究を、日常の疑問から読める形に整理するサイトです。睡眠、学習、性格、人間関係などを扱います。</p><h2>いまの掲載状況</h2><p>{len(TOPICS)}テーマの索引と、{len(READERS)}テーマの編集稿を掲載した制作プレビューです。編集稿は公開承認済みの記事ではありません。テーマ数、原稿数、確認済みの主張数を混同しません。</p><h2>記事の読み方</h2><p>新しい編集稿は、短い結論、本文、研究の限界、参考文献の順に読めます。実際の研究結果と、編集上の生活への応用例を分けています。</p><p>「関連がある」と「原因である」、「平均では差がある」と「自分にも効く」は別の主張です。効果量を、そのまま改善率のパーセントとして表しません。</p><h2>出典と確認</h2><p>研究の出典は論文と公的な資料を優先し、本文からたどれるようにしています。既存の研究台帳の題名とIDを保持し、読者向けの短い表示タイトルだけを別に管理しています。</p><p>確認できた範囲を各記事の末尾に記載します。抄録だけを確認した研究を「全文確認済み」とせず、AIによる点検を独立した専門家確認と呼びません。論文の正式なリスク・オブ・バイアス評価やGRADE評価は未実施です。</p><h2>編集と更新</h2><p>AI支援による編集・構造点検を行っています。医師、公認心理師、臨床心理士などが監修したという表示は、実際の確認と本人の了承が得られるまで使いません。編集日の更新だけで、全出典を再確認したようには表示しません。</p><p>記事の誤りは、該当箇所と根拠を確認して修正します。変更履歴と未解決の論点はGitHubに残します。記録を整えた記事では更新履歴も表示します。次回点検の目安は編集計画上の日付で、自動点検の予約ではありません。閲覧数を計測していない段階で「人気ランキング」は設けません。</p><h2>健康情報の扱い</h2><p>個別の診断、治療方針、薬の使用量は案内しません。体調や生活上の支障が続く場合は、記事だけで判断せず、医療機関などの専門窓口に相談してください。</p><h2>参考にした構造</h2><p>Psychology Todayのテーマ索引、Greater Goodの分野別導線、NHSの短い見出しと読みやすい色の役割、Simply Psychologyの解説と出典への導線を参考にしています。文章・写真・ロゴ・固有の画面を複製したものではありません。</p><p><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/docs/redesign/REFERENCE_REVIEW.md">参考サイトの比較</a> · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/docs/redesign/EDITORIAL_STANDARD.md">編集基準と課題</a> · <a href="https://github.com/Matsu71/Psychology_Blog/issues">訂正の連絡</a></p><h2>プライバシー</h2><p>この版には広告、アクセス解析、外部フォント、外部埋め込みを追加していません。検索はこのページ内で処理します。本文の文字サイズ設定だけを、このブラウザのローカルストレージに保存します。配信事業者の通常のアクセス記録は、この説明とは別です。</p></article>'''
     write(p,shell(p,'このサイトについて','出典、記事の確認状況、編集方針と訂正方法。',body))
 
 def main():
     NAVIGATION.validate(sys.modules[__name__])
+    REFERENCES.validate(sys.modules[__name__])
     if set(CONFIG['display_titles']) != set(TOPICS):
         raise ValueError('Display title coverage must match the canonical topic IDs')
     if len(GROUP_OF)!=len(CATEGORIES) or set(GROUP_OF)!=set(CATEGORIES):
@@ -408,7 +429,7 @@ def main():
     build_home();build_topics();build_readers();build_search();build_about();FOUNDATIONS.build(sys.modules[__name__])
     original=[len(x['title_ja']) for x in TOPICS.values()]
     shortened=[len(x) for x in CONFIG['display_titles'].values()]
-    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'comprehension_check_count':len(load('site/learning_checks.json')['items']),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
+    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'comprehension_check_count':len(load('site/learning_checks.json')['items']),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'numbered_reference_page_count':len(READERS),'article_update_record_count':len(REFERENCES.updates),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
     write('docs/READER_SITE_BUILD.json',json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='generated_files'},ensure_ascii=False,indent=2))
 

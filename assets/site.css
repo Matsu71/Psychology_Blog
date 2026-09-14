@@ -46,3 +46,27 @@ h1,h2,h3{text-wrap:balance}.feature{display:flex;flex-direction:column}.feature-
 .study-scope .source-hint{padding-bottom:12px;overflow-wrap:anywhere}
 @media(max-width:480px){.study-scope dl>div{grid-template-columns:1fr;gap:2px}.category-entrance .guide-goals{gap:8px}}
 @media print{.planned-topics{display:none}.study-scope{break-inside:avoid}}
+
+/* Compact source navigation retains the complete bibliography and stable links. */
+.reference-item{padding:1rem 0!important;margin:0!important;border-bottom:1px solid var(--line,#d9e3df);overflow-wrap:anywhere}
+.reference-item:target{background:#edf4f1;outline:2px solid #245c54;outline-offset:4px}
+.reference-heading{display:flex;align-items:baseline;gap:.45rem;font-size:1rem;line-height:1.65;font-weight:600}
+.reference-number{font-variant-numeric:tabular-nums;flex-shrink:0}
+.reference-primary{margin-left:auto;flex-shrink:0;font-size:.9rem}
+.reference-topic{font-size:.94rem!important;margin:.2rem 0!important}
+.reference-bibliography{font-size:.88rem;margin:.35rem 0;line-height:1.75}
+.reference-bibliography summary{width:fit-content;cursor:pointer;color:var(--muted,#52665f);padding:.25rem 0}
+.reference-bibliography p{font-size:inherit!important;margin:.3rem 0!important}
+.reference-return{display:inline-block;font-size:.85rem;padding:.35rem 0;line-height:1.6}
+.citation-link:target{background:#e1eee7;outline:2px solid #245c54;outline-offset:3px}
+.update-history{border-bottom:1px solid var(--line,#d9e3df);padding:1rem 0;font-size:.94rem;line-height:1.85}
+.update-history summary{font-weight:600;cursor:pointer}
+.update-history p,.update-history ul{margin:.65rem 0}
+.update-history ul{padding-left:1.4rem}
+.update-history .review-target{font-size:.86rem;color:var(--muted,#52665f)}
+.table-wrap{max-width:100%;overflow-x:auto;margin:1.5rem 0;overscroll-behavior-x:contain}
+.table-wrap table{width:100%;border-collapse:collapse;font-size:.9em;line-height:1.75}
+.table-wrap th,.table-wrap td{padding:.65rem .6rem;text-align:left;vertical-align:top;border:1px solid #d3ddd8;overflow-wrap:anywhere}
+.table-wrap th{background:#edf4f1;font-weight:600}
+.table-wrap caption{text-align:left;font-size:.9rem;color:#52665f;padding-bottom:.5rem}
+@media(max-width:540px){.table-wrap table{table-layout:fixed}.table-wrap th,.table-wrap td{padding:.55rem .4rem}.reference-heading{flex-wrap:wrap}.reference-primary{margin-left:0}}

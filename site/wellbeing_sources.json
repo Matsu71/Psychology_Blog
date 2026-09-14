@@ -1,0 +1,684 @@
+{
+  "schema_version": "1.0",
+  "migration_id": "reader-wellbeing-20260914",
+  "updated_on": "2026-09-14",
+  "entries": [
+    {
+      "topic_id": "PSY-WEL-001",
+      "source": {
+        "id": "SRC331",
+        "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+        "authors_display": "OECD",
+        "year": 2025,
+        "journal": "OECD Publishing",
+        "source_type": "official_methodological_guidance",
+        "doi": "10.1787/9203632a-en",
+        "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html",
+        "verified_via_url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2025-10-03刊。第1章の定義、人生評価・感情・エウダイモニアと、広い生活条件の区別を確認。測定指針であり介入試験ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC331",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "source": {
+        "id": "SRC097",
+        "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures.",
+        "authors_display": "Choi H, Cha Y, McCullough ME, Coles NA, Oishi S.",
+        "year": 2025,
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "source_type": "journal_article",
+        "doi": "10.1073/pnas.2425193122",
+        "pmid": "40627390",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40627390/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Gratitude%22+AND+TITLE%3A%22meta-analysis%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2025-07-08",
+        "provenance_query_ids": [
+          "SEED-074",
+          "DISC-PSY-WEL-002"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC097",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。145論文・163標本、平均効果と国・手法等の違い。国別表と全付録の再点検は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "source": {
+        "id": "SRC014",
+        "title": "Caring for Your Mental Health",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verified_via_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC014",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "source": {
+        "id": "SRC145",
+        "title": "Beyond the hedonic treadmill: revising the adaptation theory of well-being.",
+        "authors_display": "Diener E, Lucas RE, Scollon CN.",
+        "year": 2006,
+        "journal": "The American psychologist",
+        "source_type": "journal_article",
+        "doi": "10.1037/0003-066x.61.4.305",
+        "pmid": "16719675",
+        "url": "https://europepmc.org/article/MED/16719675",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1037%2F0003-066x.61.4.305%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+        "accessed_on": "2026-09-11",
+        "record_role": "research_entry",
+        "provenance_query_ids": [
+          "R3-C-038",
+          "R3-X-038"
+        ],
+        "indexed_related_records": [
+          {
+            "id": "17874912",
+            "source": "MED",
+            "reference": "Am Psychol. 2007 Sep;62(6):611-2. doi: 10.1037/0003-066X62.6.611",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "id": "17874913",
+            "source": "MED",
+            "reference": "Am Psychol. 2007 Sep;62(6):612-3. doi: 10.1037/0003-066X62.6.612",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC145",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。古典的な理論的総説。2007年のコメント2件の書誌が表示されるが、その内容は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "source": {
+        "id": "SRC331",
+        "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+        "authors_display": "OECD",
+        "year": 2025,
+        "journal": "OECD Publishing",
+        "source_type": "official_methodological_guidance",
+        "doi": "10.1787/9203632a-en",
+        "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html",
+        "verified_via_url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2025-10-03刊。第1章の定義、人生評価・感情・エウダイモニアと、広い生活条件の区別を確認。測定指針であり介入試験ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC331",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "source": {
+        "id": "SRC068",
+        "title": "Income and emotional well-being: A conflict resolved.",
+        "authors_display": "Killingsworth MA, Kahneman D, Mellers B.",
+        "year": 2023,
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "source_type": "journal_article",
+        "doi": "10.1073/pnas.2208661120",
+        "pmid": "36857342",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36857342/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Income+and+emotional+well-being%22+AND+TITLE%3A%22conflict%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2023-03-01",
+        "provenance_query_ids": [
+          "SEED-034"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+        "latest_source_check_id": "SC7-SRC068",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC068",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。2021年データの再解析、感情水準と所得の関連。個別の年収基準や因果効果を算出しない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "source": {
+        "source_type": "working_paper",
+        "record_role": "working_paper",
+        "verified_via_url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+        "verification_scope": "abstract_reviewed",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "2026-02-18公開。大学著者ページでも査読なしの資料。モデル感度の検討であり、新しい参加者の独立追試や確定反証ではない。",
+        "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+        "id": "SRC279",
+        "title": "Connecting the dots: continuity in the relationship between income and emotional well-being",
+        "authors_display": "Derlin M; Keldenich C; Knabe A",
+        "year": 2026,
+        "journal": "FEMM Working Paper Series 2026 No.02",
+        "doi": "10.24352/UB.OVGU-2026-025",
+        "pmid": null,
+        "url": "https://journals.ub.ovgu.de/index.php/FEMM-WPS/article/view/2374",
+        "latest_source_check_id": "SC7-SRC279",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC279",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "FEMM Working Paperの掲載ページ・抄録。2026-02-18公開、連続性の制約と推定方法による結果差。未査読のワーキングペーパー。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "source": {
+        "id": "SRC331",
+        "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+        "authors_display": "OECD",
+        "year": 2025,
+        "journal": "OECD Publishing",
+        "source_type": "official_methodological_guidance",
+        "doi": "10.1787/9203632a-en",
+        "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html",
+        "verified_via_url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2025-10-03刊。第1章の定義、人生評価・感情・エウダイモニアと、広い生活条件の区別を確認。測定指針であり介入試験ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC331",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "source": {
+        "id": "SRC244",
+        "doi": "10.1037/bul0000127",
+        "title": "A social comparison theory meta-analysis 60+ years on.",
+        "authors_display": "Gerber JP, Wheeler L, Suls J.",
+        "year": 2018,
+        "journal": "Psychological bulletin",
+        "pmid": "29144145",
+        "pmcid": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29144145/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fbul0000127%22+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "accessed_on": "2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+        "indexed_related_records": [],
+        "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+        "latest_reviewed_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC244",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。比較対象の選択と比較への反応、対比、比較なし対照の少なさ。全研究・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "source": {
+        "id": "SRC245",
+        "doi": "10.1093/jcmc/zmad055",
+        "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies",
+        "authors_display": "Rebecca Godard; Susan Holtzman",
+        "year": 2024,
+        "journal": "Journal of Computer-Mediated Communication",
+        "pmid": null,
+        "pmcid": null,
+        "url": "https://doi.org/10.1093/jcmc/zmad055",
+        "verified_via_url": "https://api.crossref.org/works?query.bibliographic=active+passive+social+media+use+social+interaction+systematic+review+meta+analysis&rows=5&filter=until-pub-date%3A2026-09-11",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "accessed_on": "2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+        "indexed_related_records": [],
+        "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+        "latest_reviewed_on": "2026-09-11",
+        "metadata_correction_note_ja": "2024-01-31公開。以前の2023表記を出版社の掲載日に基づき修正。",
+        "latest_source_check_id": "SC7-SRC245",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC245",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "従来稿の抄録照合を引き継ぎ、今回は出版社の検索結果で書誌・Lay summaryの能動利用と感情・不安の併存を確認。本文取得は失敗。141研究を全件再点検した意味ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "source": {
+        "id": "SRC332",
+        "title": "Having too little or too much time is linked to lower subjective well-being.",
+        "authors_display": "Sharif MA, Mogilner C, Hershfield HE",
+        "year": 2021,
+        "journal": "Journal of Personality and Social Psychology",
+        "source_type": "journal_article",
+        "doi": "10.1037/pspp0000391",
+        "pmid": "34498892",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34498892/",
+        "verified_via_url": "https://www.researchgate.net/publication/354482733_Having_too_little_or_too_much_time_is_linked_to_lower_subjective_well-being",
+        "verification_scope": "article_text_reviewed",
+        "notes_ja": "著者公開版HTMLの抄録、Study 3の設計・Method、Study 4のMethod、General Discussionの指定箇所。2つの米国データと想像課題による2実験を区別。図表・付録・全解析の点検ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC332",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "source": {
+        "id": "SRC331",
+        "title": "OECD Guidelines on Measuring Subjective Well-being (2025 Update)",
+        "authors_display": "OECD",
+        "year": 2025,
+        "journal": "OECD Publishing",
+        "source_type": "official_methodological_guidance",
+        "doi": "10.1787/9203632a-en",
+        "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html",
+        "verified_via_url": "https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en/full-report/measuring-subjective-well-being_b4b53f27.html",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2025-10-03刊。第1章の定義、人生評価・感情・エウダイモニアと、広い生活条件の区別を確認。測定指針であり介入試験ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC331",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "source": {
+        "id": "SRC099",
+        "title": "Hybrid working from home improves retention without damaging performance.",
+        "authors_display": "Bloom N, Han R, Liang J.",
+        "year": 2024,
+        "journal": "Nature",
+        "source_type": "journal_article",
+        "doi": "10.1038/s41586-024-07500-2",
+        "pmid": "38867040",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38867040/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A10.1038%2Fs41586-024-07500-2%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2024-06-12",
+        "provenance_query_ids": [
+          "SUP-001"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC099",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "source": {
+        "id": "SRC075",
+        "title": "Interventions for improving psychological detachment from work: A meta-analysis.",
+        "authors_display": "Karabinski T, Haun VC, Nübold A, Wendsche J, Wegge J.",
+        "year": 2021,
+        "journal": "Journal of occupational health psychology",
+        "source_type": "journal_article",
+        "doi": "10.1037/ocp0000280",
+        "pmid": "34096763",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22psychological+detachment%22+AND+TITLE%3A%22meta%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2021-06-01",
+        "provenance_query_ids": [
+          "SEED-047"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive",
+        "latest_source_check_id": "SC7-SRC075",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC075",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録。1998–2020年の検索、30研究・34介入・3725人、平均d=0.36と測定文脈の違い。すべてをRCTと扱わない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "source": {
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verified_via_url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+        "verification_scope": "abstract_reviewed",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "オンライン初公開2015-11-12、巻号2016年。Practitioner pointsの将来便益と測定結果を分離。",
+        "correction_retraction_check": "selected_primary_text_checked_not_exhaustive",
+        "id": "SRC278",
+        "title": "Successfully leaving work at work: The self-regulatory underpinnings of psychological detachment",
+        "authors_display": "Smit BW",
+        "year": 2016,
+        "journal": "Journal of Occupational and Organizational Psychology 89(3):493–514",
+        "doi": "10.1111/joop.12137",
+        "pmid": null,
+        "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137",
+        "latest_source_check_id": "SC7-SRC278",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC278",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "WileyのAbstractとPractitioner points。103人・1127目標の追跡と計画作成の実験操作を区別。2015年オンライン／2016年巻。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "source": {
+        "id": "SRC014",
+        "title": "Caring for Your Mental Health",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verified_via_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC014",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "source": {
+        "id": "SRC298",
+        "doi": "10.1111/medu.70076",
+        "title": "Rethinking the impostor phenomenon: An umbrella review of concept, context and interventions",
+        "authors_display": "Gisselbaek M; Seyour M; Saxena S; et al.",
+        "year": 2026,
+        "journal": "Medical Education 60(6):607–624",
+        "url": "https://asmepublications.onlinelibrary.wiley.com/doi/10.1111/medu.70076",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "verification_scope": "abstract_reviewed",
+        "verified_via_url": "https://asmepublications.onlinelibrary.wiley.com/doi/10.1111/medu.70076",
+        "accessed_on": "2026-09-11",
+        "notes_ja": "独自要約。実際の確認範囲・不一致・限界は読解記録を参照。正式な確実性評価ではない。",
+        "correction_retraction_check": "not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC298",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "source": {
+        "id": "SRC167",
+        "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+        "authors_display": "Bravata DM, Watts SA, Keefer AL, Madhusudhan DK, Taylor KT, Clark DM, Nelson RS, Cokley KO, Hagg HK.",
+        "year": 2020,
+        "journal": "Journal of general internal medicine",
+        "source_type": "journal_article",
+        "doi": "10.1007/s11606-019-05364-1",
+        "pmid": "31848865",
+        "url": "https://europepmc.org/article/MED/31848865",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28DOI%3A%2210.1007%2Fs11606-019-05364-1%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+        "accessed_on": "2026-09-11",
+        "record_role": "research_entry",
+        "provenance_query_ids": [
+          "R3-C-057",
+          "R3-X-060"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC167",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2020年総説の既存稿・限定照合を保持。今回原文の再点検は未実施。過去の介入研究不足を現在の不存在としない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "source": {
+        "id": "SRC014",
+        "title": "Caring for Your Mental Health",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verified_via_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "セルフケアと相談に関する公的解説。個別の方法の効果量を検証した原著論文ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC014",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    }
+  ]
+}

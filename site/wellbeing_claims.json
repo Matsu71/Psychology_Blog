@@ -1,0 +1,441 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "independent_review_completed": false,
+  "claims": [
+    {
+      "topic_id": "PSY-WEL-001",
+      "paragraph_index": 2,
+      "claim_ja": "OECDの2025年版指針は、主観的な幸福を、生活を振り返った評価、ある時点での感情、意味や充実に関わる側面に分けています。同じ「幸福度」という見出しでも、使った指標が違えば、答えている問いも違います。",
+      "source_ids": [
+        "SRC331"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-001",
+      "paragraph_index": 9,
+      "claim_ja": "「幸福度が上がった」という説明では、質問の内容、振り返る期間、比較した相手を確認します。昨日の感情と人生全体の評価を取り替えたり、一つの指標の改善をすべての面の改善と呼んだりしないようにします。",
+      "source_ids": [
+        "SRC331"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-001",
+      "paragraph_index": 12,
+      "claim_ja": "OECDは主観的な幸福を、所得、健康、安全、環境、社会的つながりなどと並べて捉えています。本人がどう感じるかは大切ですが、それだけで生活条件の良し悪しを置き換えるものではありません。",
+      "source_ids": [
+        "SRC331"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "paragraph_index": 2,
+      "claim_ja": "2025年の事前登録されたメタ分析は、145論文、163標本、24,804人の結果を統合しました。感謝への取り組みの平均効果はHedgesのgで0.19、95％信頼区間は0.15〜0.22でした。効果量は尺度をそろえて表した差であり、「幸福度が19％上がる」という意味ではありません。",
+      "source_ids": [
+        "SRC097"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC097: PubMedの書誌・抄録。145論文・163標本、平均効果と国・手法等の違い。国別表と全付録の再点検は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "paragraph_index": 3,
+      "claim_ja": "国、測った幸福の側面、取り組み方、研究の割り付け方法によって結果は異なりました。国による違いを、調べた文化指標で単純に説明することもできませんでした。論文数が多いことと、同じ手順が誰にでも合うことは別です。",
+      "source_ids": [
+        "SRC097"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC097: PubMedの書誌・抄録。145論文・163標本、平均効果と国・手法等の違い。国別表と全付録の再点検は未実施。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "paragraph_index": 5,
+      "claim_ja": "NIMHのセルフケア情報でも、感謝できることを具体的に思い出したり、書いたりする方法が紹介されています。同時に、自分に合うセルフケアは人によって違うと説明されています。",
+      "source_ids": [
+        "SRC014"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC014: NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-002",
+      "paragraph_index": 10,
+      "claim_ja": "書くことが負担になったり、できなかった自分を責めたりするなら、続けること自体を目標にしないでください。つらさや生活への支障が続く場合は、日記だけで解決しようとせず、専門家への相談も考えます。セルフケアと専門的な支援は別の役割です。",
+      "source_ids": [
+        "SRC014"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC014: NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "paragraph_index": 2,
+      "claim_ja": "「快楽順応」は、環境や出来事の変化に伴う気分が、そのまま同じ強さでは続かないことを考える概念です。一方、出来事の影響は一時的で必ず同じ状態へ戻るとする強い見方は、修正が必要だと議論されてきました。",
+      "source_ids": [
+        "SRC145"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC145: PubMedの書誌・抄録。古典的な理論的総説。2007年のコメント2件の書誌が表示されるが、その内容は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "paragraph_index": 3,
+      "claim_ja": "2006年の理論的総説は、幸福の基準や出来事への適応に個人差があること、条件によって基準自体が変わりうることを挙げています。また、快い感情、不快な感情、生活満足度が同じ方向に動くとは限らないと整理しています。これは古典的な概念説明であり、近年の全研究を網羅した結論ではありません。",
+      "source_ids": [
+        "SRC145"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC145: PubMedの書誌・抄録。古典的な理論的総説。2007年のコメント2件の書誌が表示されるが、その内容は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-003",
+      "paragraph_index": 6,
+      "claim_ja": "OECDの指針も、ある時点の感情と、生活を振り返った評価、意味や充実を区別しています。気分の変化と生活条件の改善は、同じ物差しだけで扱わないようにします。",
+      "source_ids": [
+        "SRC331"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "paragraph_index": 2,
+      "claim_ja": "人生への満足と、日々の感情は異なる指標です。さらに感情を尋ねる場合にも、経験している最中に答えるのか、過去を振り返るのかで測り方が違います。見出しの「幸福度」だけで研究を比べないことが出発点です。",
+      "source_ids": [
+        "SRC331",
+        "SRC068"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。 / SRC068: PubMedの書誌・抄録。2021年データの再解析、感情水準と所得の関連。個別の年収基準や因果効果を算出しない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "paragraph_index": 4,
+      "claim_ja": "2023年の共同再解析は、2021年の経験サンプリングによるデータを再検討しました。所得が高い範囲で感情的な幸福の上昇が緩やかになる形は、幸福の低い側に限られ、幸福の高い側では異なる関連が示されました。全員に同じ上限があるという説明とは一致しません。",
+      "source_ids": [
+        "SRC068"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC068: PubMedの書誌・抄録。2021年データの再解析、感情水準と所得の関連。個別の年収基準や因果効果を算出しない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "paragraph_index": 7,
+      "claim_ja": "2026年のワーキングペーパーは、所得と幸福の関係を区切って分析するとき、区切り目で線がつながるという制約を置くかどうかで、頭打ちに関する推定が大きく変わると報告しました。未査読の研究であり、これ一つで先行研究が決着したとは扱いません。",
+      "source_ids": [
+        "SRC279"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC279: FEMM Working Paperの掲載ページ・抄録。2026-02-18公開、連続性の制約と推定方法による結果差。未査読のワーキングペーパー。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-005",
+      "paragraph_index": 8,
+      "claim_ja": "この論点は「収入が無意味」という結論でもありません。分布のどの層を見たか、連続性や関係の形をどう仮定したかを確認する必要がある、という問題です。",
+      "source_ids": [
+        "SRC279"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC279: FEMM Working Paperの掲載ページ・抄録。2026-02-18公開、連続性の制約と推定方法による結果差。未査読のワーキングペーパー。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "paragraph_index": 2,
+      "claim_ja": "Gerberらのメタ分析は、比較する相手の選択と、比較後の自己評価・感情などの反応を分けています。自分より上の対象を選びやすいことと、その比較で自信が高まることは同じではありません。",
+      "source_ids": [
+        "SRC244"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC244: PubMedの書誌・抄録。比較対象の選択と比較への反応、対比、比較なし対照の少なさ。全研究・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "paragraph_index": 3,
+      "claim_ja": "比較への反応では、相手との違いを強く感じる「対比」が優勢でした。ただし、類似性の示し方などで結果は異なり、比較しない対照条件を含む研究が少ないといった限界も挙げられています。すべての人や場面に同じ反応を当てはめるものではありません。",
+      "source_ids": [
+        "SRC244"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC244: PubMedの書誌・抄録。比較対象の選択と比較への反応、対比、比較なし対照の少なさ。全研究・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-007",
+      "paragraph_index": 5,
+      "claim_ja": "SNSを能動的に使うことと受動的に見ることを比べた141研究の統合も、単純な「投稿は良い、見るだけは悪い」という整理ではありません。出版社の要約では、能動的な利用の多さが、よい感情だけでなく不安とも関連した点が示されています。",
+      "source_ids": [
+        "SRC245"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC245: 従来稿の抄録照合を引き継ぎ、今回は出版社の検索結果で書誌・Lay summaryの能動利用と感情・不安の併存を確認。本文取得は失敗。141研究を全件再点検した意味ではない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "paragraph_index": 2,
+      "claim_ja": "Sharifらの2021年の研究は、米国の35,375人を含む二つのデータと、二つの実験から自由時間と主観的な幸福の関係を調べました。自由時間が少ない側だけでなく、多い側でも幸福が低くなる関連が示される一方、時間の使い方によっては多い側の低下が弱まる結果が報告されました。",
+      "source_ids": [
+        "SRC332"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC332: 著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "paragraph_index": 3,
+      "claim_ja": "生活時間のデータでは、自由時間を持つ人の健康や就労状況などが同じとは限りません。調整した要因があっても、観察された曲線だけから原因や個人の必要時間は決まりません。",
+      "source_ids": [
+        "SRC332"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC332: 著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "paragraph_index": 5,
+      "claim_ja": "後半の実験では、少ない・中程度・多い自由時間がある生活を想像して答えてもらっています。実際の自由時間を何か月も変更した実験ではありません。観察データの生活満足度と、想像した生活での感情や満足を、同じ測定だとも扱いません。",
+      "source_ids": [
+        "SRC332"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC332: 著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "paragraph_index": 8,
+      "claim_ja": "研究では、有意義だと感じる活動などに時間を使う条件も検討されています。ただし、それは仕事を増やし続けるべきだという結論ではありません。楽しい活動や、自分が価値を感じる過ごし方も含めて考える必要があります。",
+      "source_ids": [
+        "SRC332"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC332: 著者公開ResearchGate版HTMLの抄録、Study 3の設計とMethod、Study 4のMethod、General Discussion。全解析・図表・付録は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WEL-009",
+      "paragraph_index": 12,
+      "claim_ja": "また、楽しさ、生活への満足、意味や充実は異なる側面です。どれが変わったかを確かめながら、生活条件も一緒に見る読み方をします。",
+      "source_ids": [
+        "SRC331"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC331: 第1章 Abstract、Defining subjective well-being、Box 1.1、3成分の定義。図版・全質問票は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "paragraph_index": 2,
+      "claim_ja": "2024年に刊行された研究は、中国の技術企業の従業員1,612人を対象に、2021〜2022年に6か月の無作為化比較試験を行いました。在宅と出社を組み合わせる条件と、通常の出社条件を比較しています。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC099: PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "paragraph_index": 5,
+      "claim_ja": "ハイブリッド勤務では仕事への満足が改善し、離職は比較条件に対して約3分の1減りました。これは相対的な減少であり、離職率が33ポイント下がったという意味ではありません。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC099: PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "paragraph_index": 6,
+      "claim_ja": "仕事の評価については、その後2年間の評価や昇進、プログラムのコード行数などが調べられました。評価等には研究側が設定した同等性検定も用いられ、測定した成績を損なう結果は得られませんでした。「有意差がないからすべて同じ」と言い換えず、対象にした指標と検定の範囲を残します。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC099: PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-001",
+      "paragraph_index": 8,
+      "claim_ja": "この結果から、完全在宅、現場での対応が必要な職種、新人の育成、すべての企業文化について同じ結果だとは言えません。研究で扱った働き方と、自分の職場で検討する働き方がどこまで似ているかが重要です。",
+      "source_ids": [
+        "SRC099"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC099: PubMedの書誌・抄録。1612人、2021–2022年の6か月RCT、離職、2年の評価・昇進、同等性検定の記載。全解析・図表は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "paragraph_index": 2,
+      "claim_ja": "心理的な切り離しは、仕事をしていない時間に仕事のことから離れることを指します。2021年のメタ分析は、30研究・34介入、3,725人をまとめ、切り離しに平均d=0.36の改善を報告しました。これは36％の改善ではなく、異なる尺度をそろえた差です。",
+      "source_ids": [
+        "SRC075"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC075: PubMedの書誌・抄録。1998–2020年の検索、30研究・34介入・3725人、平均d=0.36と測定文脈の違い。すべてをRCTと扱わない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "paragraph_index": 3,
+      "claim_ja": "測定した場面が勤務中か勤務外かなどで効果は異なりました。一つの決まった方法を全員に試した結果ではなく、すべてが無作為化試験だったとも扱えません。",
+      "source_ids": [
+        "SRC075"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC075: PubMedの書誌・抄録。1998–2020年の検索、30研究・34介入・3725人、平均d=0.36と測定文脈の違い。すべてをRCTと扱わない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "paragraph_index": 5,
+      "claim_ja": "Smitの研究では、103人が取り組む1,127の仕事上の目標を追跡し、終わっていない目標、とくに重要な目標があると切り離しにくい関連が見られました。さらに計画作成の実験操作では、ふだん仕事から離れにくい特徴のある人に改善が示されました。追跡の関連と、計画を変えた比較は別の証拠です。",
+      "source_ids": [
+        "SRC278"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC278: WileyのAbstractとPractitioner points。103人・1127目標の追跡と計画作成の実験操作を区別。2015年オンライン／2016年巻。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "paragraph_index": 6,
+      "claim_ja": "誰にでも同程度の効果があるという結果ではありません。「心配を完全に消せなければ失敗」と考える必要もありません。",
+      "source_ids": [
+        "SRC278"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC278: WileyのAbstractとPractitioner points。103人・1127目標の追跡と計画作成の実験操作を区別。2015年オンライン／2016年巻。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-002",
+      "paragraph_index": 12,
+      "claim_ja": "NIMHも、優先順位をつけること、負担が増えすぎる仕事を引き受けないこと、自分に合う休養を探すことをセルフケアの一部としています。眠れないなどのつらさや生活への支障が続く場合は、記事の工夫だけで抱えず専門家へ相談する選択肢があります。",
+      "source_ids": [
+        "SRC014"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC014: NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "paragraph_index": 2,
+      "claim_ja": "インポスター現象は、客観的な達成があっても自分の能力を信じにくく、成功を自分のものとして受け止めにくい経験を扱う概念です。2026年刊行のアンブレラレビューは、概念や測定法が研究間でそろっておらず、標準となる尺度も確立していない点を指摘しています。",
+      "source_ids": [
+        "SRC298"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC298: WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "paragraph_index": 5,
+      "claim_ja": "このレビューは16のレビューを統合し、個人の傾向だけでなく、階層的な環境や社会的に不利な立場などの文脈も整理しました。含まれるレビューの方法上の質にはばらつきがあります。同じ分野のレビューを重ねた数を、そのまま独立した実験の数とは考えません。",
+      "source_ids": [
+        "SRC298"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC298: WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "paragraph_index": 6,
+      "claim_ja": "従来の2020年総説で指摘された介入研究の不足を、「現在も支援研究は存在しない」という説明にはしません。2026年のレビューではコーチング、オンライン教材、マインドフルネスなどに可能性がある一方、方法の不統一や高品質な研究の少なさが残るとされています。",
+      "source_ids": [
+        "SRC298",
+        "SRC167"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC298: WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。 / SRC167: 2020年総説の既存稿・限定照合を保持。今回原文の再点検は未実施。過去の介入研究不足を現在の不存在としない。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "paragraph_index": 11,
+      "claim_ja": "評価基準が曖昧、失敗を相談しにくい、不公平な扱いがある、といった状況を、本人の自信不足だけで片づけないことが重要です。感じ方への支援と、働く条件の改善は分けて検討できます。",
+      "source_ids": [
+        "SRC298"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC298: WileyのAbstract、3.3 Critical appraisal、3.4.1 Conceptual inconsistencies、3.4.2 Contexts。2025-10-28オンライン／2026年6月巻。全表・付録・介入個別試験は未点検。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-WRK-011",
+      "paragraph_index": 12,
+      "claim_ja": "不安や睡眠の問題などが続き、生活や仕事に支障が出る場合は、ラベルだけで判断せず、専門家や職場の相談先につなげます。セルフケアは専門的な支援の代わりではありません。",
+      "source_ids": [
+        "SRC014"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC014: NIMH Caring for Your Mental Healthのセルフケア、個人差、専門家へ相談する節。Last ReviewedはApril 2026。",
+      "scope": "selected_or_inherited_scope_as_recorded",
+      "independent_review": "pending"
+    }
+  ]
+}
