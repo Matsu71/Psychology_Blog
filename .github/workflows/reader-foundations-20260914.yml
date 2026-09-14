@@ -33,29 +33,30 @@ jobs:
           python - <<'PY'
           import base64, hashlib, json, lzma, os, pathlib, subprocess
           shas = ['ee9c3ff1d3eae6211993579dc9cee759b6dda7eb', '02b2b9069b87b4c859c2b0229a2b0d69c497deb7', 'b2d959e692e3ac45c4fcbc3ca0e2e5bf0b23f741', '4560b65d25098a21654df16794a6edf21e2aff5e']
-          chunks = []
-          for sha in shas:
+          def blob(sha):
               result = json.loads(subprocess.check_output(['gh','api',f'repos/{os.environ["REPOSITORY"]}/git/blobs/{sha}']))
               assert result['encoding'] == 'base64'
-              chunk = base64.b64decode(result['content'])
-              actual = hashlib.sha1(b'blob '+str(len(chunk)).encode()+b'\0'+chunk).hexdigest()
+              content = base64.b64decode(result['content'])
+              actual = hashlib.sha1(b'blob '+str(len(content)).encode()+b'\0'+content).hexdigest()
               assert actual == sha, (sha, actual)
-              chunks.append(chunk)
-          patch = lzma.decompress(b''.join(chunks))
+              return content
+          patch = lzma.decompress(b''.join(blob(sha) for sha in shas))
           expected = 'b7fe11915d86ef8803c0acd56c75281c4511dff7d7d2d2ff69bbabffa9abf8fd'
           assert hashlib.sha256(patch).hexdigest() == expected
           path = pathlib.Path('/tmp/reader-foundations.patch')
           path.write_bytes(patch)
-          # The delivery contains only editable UTF-8 source files, never workflow changes.
           paths = [line[6:] for line in patch.decode().splitlines() if line.startswith('+++ b/')]
           assert len(paths) == 26 and not any(p.startswith('.github/') for p in paths)
-          if subprocess.run(['git','apply','--check',str(path)],capture_output=True).returncode == 0:
-              subprocess.run(['git','apply',str(path)],check=True)
-              print('Applied verified 26-file patch to current main without overwriting conflicts.')
-          elif subprocess.run(['git','apply','--reverse','--check',str(path)],capture_output=True).returncode == 0:
-              print('Patch is already applied; rebuilding and revalidating current main.')
-          else:
-              subprocess.run(['git','apply','--check',str(path)],check=True)
+          subprocess.run(['git','apply','--check',str(path)],check=True)
+          subprocess.run(['git','apply',str(path)],check=True)
+          # Correct the test's handling of same-document navigation; do not skip the assertions.
+          fix = blob('d7d550b53a7aeda51c10f79647a81d0de14db652')
+          assert hashlib.sha256(fix).hexdigest() == '7fcec075c29eb9273bca1db01401bf8bde73e22f5d0b18b74d51d2254eb8a5bc'
+          path = pathlib.Path('/tmp/reader-navigation-fix.patch')
+          path.write_bytes(fix)
+          subprocess.run(['git','apply','--check',str(path)],check=True)
+          subprocess.run(['git','apply',str(path)],check=True)
+          print('Applied verified source and navigation-test patches without overwriting conflicts.')
           PY
       - name: Build and validate data and all reader pages
         run: |
