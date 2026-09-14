@@ -648,6 +648,477 @@
         "PSY-LIF-004"
       ],
       "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+    },
+    {
+      "topic_id": "PSY-RES-001",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-RES-001.md",
+      "summary": "「一緒に変わる」と「原因になる」を分けて読みます。",
+      "answer": "二つの事柄に関連があっても、片方がもう片方の原因とは限りません。逆向きの影響や、両方に関わる別の要因も考えます。",
+      "source_ids": [
+        "SRC302",
+        "SRC304"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC302: 25.1–25.2。SRC304: 15.2。方法論の本文指定節を確認。旧稿の個別研究を根拠に一般原則を説明する構成から変更。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "二つの事柄に関連があっても、片方がもう片方の原因とは限りません。逆向きの影響や、両方に関わる別の要因も考えます。",
+          "source_ids": [
+            "SRC302",
+            "SRC304"
+          ],
+          "checked_locator": "SRC302: 25.1–25.2。SRC304: 15.2。方法論の本文指定節を確認。旧稿の個別研究を根拠に一般原則を説明する構成から変更。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-003",
+        "PSY-RES-004",
+        "PSY-RES-006"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-002.md",
+      "summary": "一度の結果を、別のデータでも確かめる意味を整理します。",
+      "answer": "追試は、元の主張を新しいデータで検討する研究です。支持する結果も支持しない結果も、効果の大きさや研究条件と合わせて読みます。",
+      "source_ids": [
+        "SRC307",
+        "SRC304",
+        "SRC308"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "追試は、元の主張を新しいデータで検討する研究です。支持する結果も支持しない結果も、効果の大きさや研究条件と合わせて読みます。",
+          "source_ids": [
+            "SRC307",
+            "SRC304",
+            "SRC308"
+          ],
+          "checked_locator": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-RES-003.md",
+      "summary": "差の大きさと、不確実性を分けて確認します。",
+      "answer": "効果量は差や関連の大きさを表します。p値とは役割が違い、標準化した数値をそのまま改善率のパーセントにはできません。",
+      "source_ids": [
+        "SRC303",
+        "SRC304"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "効果量は差や関連の大きさを表します。p値とは役割が違い、標準化した数値をそのまま改善率のパーセントにはできません。",
+          "source_ids": [
+            "SRC303",
+            "SRC304"
+          ],
+          "checked_locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-004",
+        "PSY-RES-006"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-004.md",
+      "summary": "複数の研究をまとめた結論にも、条件と限界があります。",
+      "answer": "メタ分析は複数の研究結果を統計的にまとめる方法です。研究の数だけでなく、何を集め、どれほど異なる研究をまとめたかを確認します。",
+      "source_ids": [
+        "SRC305",
+        "SRC306",
+        "SRC304"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "メタ分析は複数の研究結果を統計的にまとめる方法です。研究の数だけでなく、何を集め、どれほど異なる研究をまとめたかを確認します。",
+          "source_ids": [
+            "SRC305",
+            "SRC306",
+            "SRC304"
+          ],
+          "checked_locator": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-006"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-006.md",
+      "summary": "世に出た研究が、実施された研究の全体とは限らない理由。",
+      "answer": "研究や結果が公表されるかどうかが、その結果に左右されると、読める論文だけでは全体像が偏り得ます。出版バイアスはその一つです。",
+      "source_ids": [
+        "SRC306",
+        "SRC308"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "研究や結果が公表されるかどうかが、その結果に左右されると、読める論文だけでは全体像が偏り得ます。出版バイアスはその一つです。",
+          "source_ids": [
+            "SRC306",
+            "SRC308"
+          ],
+          "checked_locator": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-007.md",
+      "summary": "仕組みの手がかりと、人への効果を分けます。",
+      "answer": "動物で得られた結果は、人で何を調べるかの手がかりになります。ただし、人での有効性や安全性をそのまま保証するものではありません。",
+      "source_ids": [
+        "SRC310",
+        "SRC304"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "動物で得られた結果は、人で何を調べるかの手がかりになります。ただし、人での有効性や安全性をそのまま保証するものではありません。",
+          "source_ids": [
+            "SRC310",
+            "SRC304"
+          ],
+          "checked_locator": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-008.md",
+      "summary": "国名だけでなく、対象者と生活条件を確認します。",
+      "answer": "海外の研究だから使えないわけでも、同じ人間だからそのまま当てはまるわけでもありません。対象者、課題、言語、生活条件を見比べます。",
+      "source_ids": [
+        "SRC309",
+        "SRC304",
+        "SRC302"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "海外の研究だから使えないわけでも、同じ人間だからそのまま当てはまるわけでもありません。対象者、課題、言語、生活条件を見比べます。",
+          "source_ids": [
+            "SRC309",
+            "SRC304",
+            "SRC302"
+          ],
+          "checked_locator": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-009.md",
+      "summary": "論文の初版だけでなく、その後の更新をたどります。",
+      "answer": "訂正・撤回・懸念表明は同じではありません。論文の現在のページと通知を確認し、どの主張に何が起きたのかを区別します。",
+      "source_ids": [
+        "SRC311",
+        "SRC312"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC311: Errata / Retractions / Expressions of Concern。SRC312: How Crossmark works。特定論文の撤回不存在を保証する点検ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "訂正・撤回・懸念表明は同じではありません。論文の現在のページと通知を確認し、どの主張に何が起きたのかを区別します。",
+          "source_ids": [
+            "SRC311",
+            "SRC312"
+          ],
+          "checked_locator": "SRC311: Errata / Retractions / Expressions of Concern。SRC312: How Crossmark works。特定論文の撤回不存在を保証する点検ではない。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-RES-010.md",
+      "summary": "生活の記録と、厳密な一人の実験を区別します。",
+      "answer": "生活の記録は振り返りの材料になりますが、変えた前後の差だけでは原因を確定できません。何を比べ、何を記録するかを先に決めておくと、変化を整理しやすくなります。",
+      "source_ids": [
+        "SRC224",
+        "SRC302",
+        "SRC308"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC224: PubMed抄録のみ再確認。SRC302: 25.5–25.6。SRC308: 事前計画と変更のFAQ。日常例は独自の例であり臨床プロトコルではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "生活の記録は振り返りの材料になりますが、変えた前後の差だけでは原因を確定できません。何を比べ、何を記録するかを先に決めておくと、変化を整理しやすくなります。",
+          "source_ids": [
+            "SRC224",
+            "SRC302",
+            "SRC308"
+          ],
+          "checked_locator": "SRC224: PubMed抄録のみ再確認。SRC302: 25.5–25.6。SRC308: 事前計画と変更のFAQ。日常例は独自の例であり臨床プロトコルではない。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-004"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-DEC-004.md",
+      "summary": "取り戻せない出費と、これからの判断を分けます。",
+      "answer": "サンクコストは、すでに費やして取り戻せない費用です。これから続けるかどうかは、過去の出費だけでなく、今後の利益と負担を比べて考えます。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "サンクコストは、すでに費やして取り戻せない費用です。これから続けるかどうかは、過去の出費だけでなく、今後の利益と負担を比べて考えます。",
+          "source_ids": [
+            "SRC237"
+          ],
+          "checked_locator": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-MON-002",
+        "PSY-MON-008"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-MON-002.md",
+      "summary": "平均的な傾向を、個人の出費の予測と分けます。",
+      "answer": "研究をまとめると、現金以外の支払いで支出関連の指標がやや高い傾向が報告されています。ただし、全員が同じ割合で使い過ぎるという意味ではありません。",
+      "source_ids": [
+        "SRC169",
+        "SRC303"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC169: 著者公開版HTMLのAbstract / Grand mean effect size and heterogeneity、出版社の検索結果を照合。g=0.135、95%CI[0.068,0.203]、k=392。全文・付録すべての点検ではない。SRC303: 6.5.1。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "研究をまとめると、現金以外の支払いで支出関連の指標がやや高い傾向が報告されています。ただし、全員が同じ割合で使い過ぎるという意味ではありません。",
+          "source_ids": [
+            "SRC169",
+            "SRC303"
+          ],
+          "checked_locator": "SRC169: 著者公開版HTMLのAbstract / Grand mean effect size and heterogeneity、出版社の検索結果を照合。g=0.135、95%CI[0.068,0.203]、k=392。全文・付録すべての点検ではない。SRC303: 6.5.1。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-DEC-004",
+        "PSY-MON-008"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "kind": "rewrite",
+      "path": "articles/reader/PSY-MON-008.md",
+      "summary": "更新の手間と、使うつもりの見積もりを分けます。",
+      "answer": "サブスクの継続には、価値だけでなく、見直すきっかけや手続きの負担も関わり得ます。「使わないなら自然に解約する」とは限りません。",
+      "source_ids": [
+        "SRC251",
+        "SRC252"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC251・SRC252のAEA公式書誌・抄録を2026-09-14に再確認。契約差・モデル仮定の全文再検証は未実施。旧稿の全契約への数値一般化を避ける。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "サブスクの継続には、価値だけでなく、見直すきっかけや手続きの負担も関わり得ます。「使わないなら自然に解約する」とは限りません。",
+          "source_ids": [
+            "SRC251",
+            "SRC252"
+          ],
+          "checked_locator": "SRC251・SRC252のAEA公式書誌・抄録を2026-09-14に再確認。契約差・モデル仮定の全文再検証は未実施。旧稿の全契約への数値一般化を避ける。",
+          "status": "selected_scope_or_inherited_check"
+        },
+        {
+          "claim_ja": "架空例・読み方の提案は編集上の説明であり、観測結果や効果検証済みの手順ではない。",
+          "source_ids": [],
+          "checked_locator": "本文中で架空例・編集上の例と明示した箇所",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-DEC-004",
+        "PSY-MON-002"
+      ],
+      "application_scope_ja": "本文の架空例・日常の確認項目は独自の説明。実際の研究場面の再現でも、検証済みの個別推奨でもない。"
     }
   ]
 }

@@ -43,7 +43,8 @@
       "search_query": "cashless payment spending behavior systematic review human study",
       "priority": 1,
       "source_ids": [
-        "SRC169"
+        "SRC169",
+        "SRC303"
       ],
       "caution_ja": "決済手段の平均効果を個人の必然とせず、予算管理機能の違いも扱う。",
       "related_topic_ids": [

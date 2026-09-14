@@ -3464,6 +3464,116 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 301
+    },
+    {
+      "source_id": "SRC302",
+      "title": "Chapter 25: Assessing risk of bias in a non-randomized study",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 302
+    },
+    {
+      "source_id": "SRC303",
+      "title": "Chapter 6: Choosing effect measures and computing estimates of effect",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 303
+    },
+    {
+      "source_id": "SRC304",
+      "title": "Chapter 15: Interpreting results and drawing conclusions",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 304
+    },
+    {
+      "source_id": "SRC305",
+      "title": "Chapter 10: Analysing data and undertaking meta-analyses",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 305
+    },
+    {
+      "source_id": "SRC306",
+      "title": "Chapter 13: Assessing risk of bias due to missing results in a synthesis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 306
+    },
+    {
+      "source_id": "SRC307",
+      "title": "What is replication?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 307
+    },
+    {
+      "source_id": "SRC308",
+      "title": "Preregistration",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 308
+    },
+    {
+      "source_id": "SRC309",
+      "title": "The weirdest people in the world?",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 309
+    },
+    {
+      "source_id": "SRC310",
+      "title": "Analysis of animal-to-human translation shows that only 5% of animal-tested therapeutic interventions obtain regulatory approval for human applications",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 310
+    },
+    {
+      "source_id": "SRC311",
+      "title": "Errata, Retractions, and Other Linked Citations in PubMed",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 311
+    },
+    {
+      "source_id": "SRC312",
+      "title": "Crossmark",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 312
     }
   ]
 }

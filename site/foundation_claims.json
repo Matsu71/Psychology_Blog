@@ -1,0 +1,554 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "claims": [
+    {
+      "topic_id": "PSY-RES-001",
+      "paragraph_index": 2,
+      "claim_ja": "ある行動が多い人ほど別の特徴も強い。このような観察は、原因を考える入口になります。ただし、観察だけで「その行動を変えれば特徴も変わる」とは決まりません。比較する人たちの背景が違う可能性があるためです。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC302: 25.1–25.2。SRC304: 15.2。方法論の本文指定節を確認。旧稿の個別研究を根拠に一般原則を説明する構成から変更。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-001",
+      "paragraph_index": 6,
+      "claim_ja": "最後のように、比較したい関係に第三の要因が混ざる問題を交絡と呼びます。「性別や年齢を調整済み」でも、重要な要因を測っていなければ交絡は残り得ます。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC302: 25.1–25.2。SRC304: 15.2。方法論の本文指定節を確認。旧稿の個別研究を根拠に一般原則を説明する構成から変更。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-001",
+      "paragraph_index": 8,
+      "claim_ja": "介入をランダムに割り付ける研究は、本人の事情や選好で群が決まる比較よりも、因果関係を検討しやすくします。ただし、脱落や測定の偏りまで自動で消えるわけではありません。また、研究内の比較が妥当かと、結果を自分の生活に当てはめられるかは別問題です。",
+      "source_ids": [
+        "SRC302",
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC302: 25.1–25.2。SRC304: 15.2。方法論の本文指定節を確認。旧稿の個別研究を根拠に一般原則を説明する構成から変更。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "paragraph_index": 2,
+      "claim_ja": "同じデータと手順から同じ数値を得ることと、新しいデータで主張を確かめることは違います。NosekとErringtonは後者を追試の中心に置き、手順をなぞることだけでなく、得られる結果が元の主張を検討できるかを重視しています。",
+      "source_ids": [
+        "SRC307"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "paragraph_index": 4,
+      "claim_ja": "架空例として、最初の研究の平均差が5点、次の研究が3点だったとします。数値が一致しないから即座に失敗とも、どちらもプラスだから確定とも言えません。推定の幅、人数、比較条件を一緒に見る必要があります。有意・非有意の境目だけで結果を二分すると、違いを読み違えることがあります。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "paragraph_index": 6,
+      "claim_ja": "課題、言語、対象者、実施場所などが変われば、何を確かめた追試なのかも考える必要があります。ただし、結果が合わなかったときだけ条件の違いを持ち出すのでは不十分です。支持・不支持のどちらも、主張の適用範囲を見直す材料になります。",
+      "source_ids": [
+        "SRC307"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "paragraph_index": 8,
+      "claim_ja": "事前登録では、結果を見てから決めた分析と、先に計画した分析を区別しやすくします。変更や探索的分析を禁止する仕組みではなく、何を変えたかを明らかにすることが重要です。登録の有無だけで、結果の正しさが決まるわけではありません。",
+      "source_ids": [
+        "SRC308"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC307: Abstract / Introduction / Replication reconsidered。外部査読なしの方法論Perspectiveと明示。SRC304: 15.3。SRC308: FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 2,
+      "claim_ja": "効果量には、点数や時間の差を元の単位で示すものと、ばらつきなどを使って標準化するものがあります。比較する尺度が違う研究をまとめる場合などに、標準化した指標が使われます。",
+      "source_ids": [
+        "SRC303"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 5,
+      "claim_ja": "平均差5点を標準偏差10点で割る単純化した例では、標準化平均差は0.5です。これは「点数が50％上がる」という意味ではありません。実際の指標では、使う標準偏差や小標本の補正も確認します。",
+      "source_ids": [
+        "SRC303"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 7,
+      "claim_ja": "架空の出来事が100人中2人から1人に減った場合、相対的には50％減、絶対的には1パーセントポイント減です。同じ変化でも表現で印象が変わります。割合を読むときは、元の頻度と観察期間を確かめます。",
+      "source_ids": [
+        "SRC303",
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 9,
+      "claim_ja": "信頼区間は、推定の精度を考える材料です。平均差の推定値が同じでも、幅が狭い研究と広い研究では、まだ考えられる差の範囲が違います。ただし、信頼区間に測定の偏りや交絡などの不確実性がすべて含まれるわけではありません。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 10,
+      "claim_ja": "通常の頻度論でいう95％信頼区間は、同じ作り方を繰り返したときの区間の性質です。「この区間に真の値が入る確率が95％」とそのまま読んだり、個人の改善確率と解釈したりしません。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "paragraph_index": 12,
+      "claim_ja": "効果が統計的に検出できること、生活で意味があること、費用や負担に見合うことは同じではありません。読むときは、指標の名前、単位、比較対象、不確実性を並べて確認します。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC303: 6.4 / 6.5.1。SRC304: 15.3 / 15.4。数値例は編集部による架空の計算例。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "paragraph_index": 2,
+      "claim_ja": "システマティックレビューは、あらかじめ定めた問いに沿って研究を探し、選び、評価する取り組みです。その中で数値を統合する方法がメタ分析です。研究同士の違いが大きいなど、数値をまとめない判断が適切な場合もあります。",
+      "source_ids": [
+        "SRC305"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "paragraph_index": 4,
+      "claim_ja": "架空例として、単語を一日後に思い出す課題と、資格試験に半年後に合格するかを調べた研究を考えます。どちらも「学習」と呼べても、測っている成果は同じではありません。対象者、比較する方法、測定尺度、追跡期間を確かめてから、統合された数字を読みます。",
+      "source_ids": [
+        "SRC304",
+        "SRC305"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "paragraph_index": 6,
+      "claim_ja": "研究ごとの効果に違いがあることを異質性と呼びます。ランダム効果モデルはその違いを扱う方法ですが、平均的な効果の信頼区間が、そのまま各場面で生じる効果の範囲になるわけではありません。",
+      "source_ids": [
+        "SRC305"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "paragraph_index": 9,
+      "claim_ja": "公表されにくい研究や、論文内に載らない結果があれば、集めた論文だけの統合は偏る可能性があります。検索方法、未公表研究の扱い、欠けた結果への検討も確認します。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC305: Introduction / 10.10。SRC306: 13.1–13.2。SRC304: 15.2。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "paragraph_index": 2,
+      "claim_ja": "研究が実施されても、結果が論文として公表されないことがあります。公表のされやすさが結果の方向や目立ちやすさに関係すると、読者が見られる研究だけを集めた結論が偏る可能性があります。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "paragraph_index": 5,
+      "claim_ja": "研究全体が未公表になる場合と、測定した項目や分析の一部だけが報告される場合は区別します。たとえば当初決めた主要な項目では差が小さいのに、別の項目だけが大きく紹介されていないかを確認します。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "paragraph_index": 7,
+      "claim_ja": "ファンネル図の左右の非対称性は手がかりになりますが、出版バイアスだけが原因とは限りません。検定で明確な結果が出なかった場合も、バイアスがない保証にはなりません。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "paragraph_index": 9,
+      "claim_ja": "事前登録の計画と最終報告を比べると、当初の分析と追加分析を区別しやすくなります。予定を変えること自体が不正なのではなく、理由と変更内容が説明されているかが重要です。",
+      "source_ids": [
+        "SRC308"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC306: 13.1–13.2 / 13.3.4.3–13.3.4.5。SRC308: preregistration FAQ。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "paragraph_index": 2,
+      "claim_ja": "動物で行動や生理の変化が観察されたことと、人が日常生活で恩恵を得ることは別の問いです。種類、実験条件、介入の与え方、測る結果が変われば、その間をつなぐ検討が必要になります。",
+      "source_ids": [
+        "SRC304",
+        "SRC310"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "paragraph_index": 5,
+      "claim_ja": "2024年のアンブレラレビューは、動物から人への医療介入の移行を扱った122報、367介入を集め、人の研究、ランダム化比較試験、規制当局の承認への進み方を区別しました。心理学のあらゆる実験を集めた研究ではありません。",
+      "source_ids": [
+        "SRC310"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "paragraph_index": 6,
+      "claim_ja": "題名にある「5％」は、対象とした医療介入の承認への移行割合です。「動物研究は5％だけ正しい」「人への効果が95％否定された」という真偽率ではありません。",
+      "source_ids": [
+        "SRC310"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "paragraph_index": 8,
+      "claim_ja": "次は編集上の確認項目です。まず人の研究か動物の研究かを確認し、次に何を測ったかを見ます。人での研究が紹介されているなら、健康な人と患者、短期の変化と長期の成果を分けます。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC310: Abstract / Introduction / Methodsの検索・組入れ範囲。SRC304: 15.2。全表・図・付録の点検は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "paragraph_index": 2,
+      "claim_ja": "大学生、ある職場の従業員、治療中の患者。研究の参加者は、必ずしも世界の人々の縮図ではありません。年齢や生活背景が限られた集団で得た結果を、全員に広げるには根拠が必要です。",
+      "source_ids": [
+        "SRC309"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "paragraph_index": 4,
+      "claim_ja": "Henrichらのレビューは、西洋・高学歴・工業化・豊かさ・民主主義という特徴を持つ社会に研究対象が偏る問題を論じました。重要なのは国ごとの性格を決めることではなく、限られた対象から人間一般を語っていないかという問いです。",
+      "source_ids": [
+        "SRC309"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "paragraph_index": 7,
+      "claim_ja": "研究の比較が妥当だったかという問題と、その結果を別の場面に適用できるかという問題は分けます。対象が限られるからといって、その研究内の比較まで必ず誤りになるわけではありません。",
+      "source_ids": [
+        "SRC302",
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "paragraph_index": 11,
+      "claim_ja": "対象と条件が近いときは適用を検討しやすくなりますが、近いことだけで個人の結果は保証できません。違いが大きい場合には、具体的な効果の予測ではなく、問いの立て方や仕組みを考える参考として扱います。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC309: PubMed書誌・抄録のみ。SRC304: 15.2。SRC302: 25.1.1。個別の文化差の本文検証は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "paragraph_index": 2,
+      "claim_ja": "訂正では、誤記だけでなく科学的な記述や方法に関わる内容が修正されることもあります。撤回は論文の信頼性に重大な問題がある場合などに行われますが、誠実な誤りと不正を、表示だけで区別することはできません。懸念表明も、撤回と同じ最終判断ではありません。",
+      "source_ids": [
+        "SRC311"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC311: Errata / Retractions / Expressions of Concern。SRC312: How Crossmark works。特定論文の撤回不存在を保証する点検ではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "paragraph_index": 4,
+      "claim_ja": "論文を紹介するときは、題名とDOIを確認し、出版社の現在のページを開きます。更新の案内があれば通知本文まで読みます。PubMedに収録されている場合は、元論文に関連付けられた訂正や撤回の記録も確認できます。",
+      "source_ids": [
+        "SRC311"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC311: Errata / Retractions / Expressions of Concern。SRC312: How Crossmark works。特定論文の撤回不存在を保証する点検ではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "paragraph_index": 5,
+      "claim_ja": "Crossmarkがある資料では、更新情報に進めます。ただし、マークがあるだけで内容の正しさや更新の完全性が保証されるわけではありません。",
+      "source_ids": [
+        "SRC312"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC311: Errata / Retractions / Expressions of Concern。SRC312: How Crossmark works。特定論文の撤回不存在を保証する点検ではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "paragraph_index": 2,
+      "claim_ja": "N-of-1試験は、一人の中で条件を複数回切り替えるなどして比較する研究です。日々の記録に価値がないという意味ではありませんが、数日の感想を残すだけで厳密なN-of-1試験になったとは言えません。",
+      "source_ids": [
+        "SRC224"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC224: PubMed抄録のみ再確認。SRC302: 25.5–25.6。SRC308: 事前計画と変更のFAQ。日常例は独自の例であり臨床プロトコルではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "paragraph_index": 4,
+      "claim_ja": "架空例として、机を片づけた週に作業量が増えたとします。同じ週に締め切りが変わった、仕事が少なかったなど、別の要因も考えられます。特に調子の悪い日を出発点にすると、その後の普段に近い状態への戻りを、変更の効果と取り違えることもあります。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC224: PubMed抄録のみ再確認。SRC302: 25.5–25.6。SRC308: 事前計画と変更のFAQ。日常例は独自の例であり臨床プロトコルではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "paragraph_index": 7,
+      "claim_ja": "事前に決めた記録と、途中で追加した観察を分ける考え方は、研究の事前登録にも通じます。ただし、自分用のメモが正式な事前登録になるわけではありません。",
+      "source_ids": [
+        "SRC308"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC224: PubMed抄録のみ再確認。SRC302: 25.5–25.6。SRC308: 事前計画と変更のFAQ。日常例は独自の例であり臨床プロトコルではない。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "paragraph_index": 2,
+      "claim_ja": "お金を払ったという理由で、もう必要ないものを使い続けたり、見込みの薄い計画へ追加投入したりすることがあります。サンクコストの研究では、すでに買ったものを使う判断と、さらに資金などを投入する判断を区別しています。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "paragraph_index": 5,
+      "claim_ja": "どちらも「ここまで払ったから」が理由になり得ますが、今から必要な時間や費用は違います。研究を読むときにも、どちらを調べたのかを確認します。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "paragraph_index": 7,
+      "claim_ja": "取り戻せない出費と、まだ返金できる金額は別です。また、すでに身につけた技能や、今後生じる手続きの負担には、これからの判断に関わる価値があります。過去に関係する情報を全部消すのではなく、今の選択で何が変わるかを分けます。これは概念を判断場面に置き換えた説明です。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "paragraph_index": 12,
+      "claim_ja": "Rothらのメタ分析はサンクコストの影響を検討していますが、その大きさや関わる条件は一様ではありません。概念を知っているだけで、自分の判断の原因を確定することはできません。",
+      "source_ids": [
+        "SRC237"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC237: Abstract / Introduction / 6.1。抄録98効果量、本文6.1はk=100という記載差があるため、記事では統合件数を断定しない。全分析の再計算は未実施。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "paragraph_index": 2,
+      "claim_ja": "Schomburgkらの2024年のメタ分析は、71論文の392効果量をまとめ、現金以外の支払いで支出関連の指標がやや高いという平均的傾向を報告しました。ただし、研究ごとの結果には大きな違いがあります。",
+      "source_ids": [
+        "SRC169"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC169: 著者公開版HTMLのAbstract / Grand mean effect size and heterogeneity、出版社の検索結果を照合。g=0.135、95%CI[0.068,0.203]、k=392。全文・付録すべての点検ではない。SRC303: 6.5.1。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "paragraph_index": 4,
+      "claim_ja": "報告された標準化効果量はg=0.135、95％信頼区間は0.068〜0.203です。これは「出費が13.5％増える」でも、「13.5％の人が使い過ぎる」でもありません。標準化効果量と支出額の割合は、別の尺度です。",
+      "source_ids": [
+        "SRC169",
+        "SRC303"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC169: 著者公開版HTMLのAbstract / Grand mean effect size and heterogeneity、出版社の検索結果を照合。g=0.135、95%CI[0.068,0.203]、k=392。全文・付録すべての点検ではない。SRC303: 6.5.1。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "paragraph_index": 7,
+      "claim_ja": "研究が扱う支出関連の指標には、実際の購入だけでなく、いくらまで払うかという回答なども含まれます。ある商品の一回の判断と、一か月の家計全体は同じではありません。",
+      "source_ids": [
+        "SRC169"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC169: 著者公開版HTMLのAbstract / Grand mean effect size and heterogeneity、出版社の検索結果を照合。g=0.135、95%CI[0.068,0.203]、k=392。全文・付録すべての点検ではない。SRC303: 6.5.1。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "paragraph_index": 2,
+      "claim_ja": "Einavらは決済カードのデータを使い、カード交換に伴って能動的な更新が必要になる月には、解約率が大きく高まることを報告しました。利用者の継続には、注意の向きにくさや切り替えの負担が関わる可能性を検討しています。",
+      "source_ids": [
+        "SRC251"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC251・SRC252のAEA公式書誌・抄録を2026-09-14に再確認。契約差・モデル仮定の全文再検証は未実施。旧稿の全契約への数値一般化を避ける。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "paragraph_index": 3,
+      "claim_ja": "論文の売上に関する推計は、特定のモデルと前提のもとでの値です。「全利用者が支払額の半分を無駄にしている」という個人の損失率ではありません。",
+      "source_ids": [
+        "SRC251"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC251・SRC252のAEA公式書誌・抄録を2026-09-14に再確認。契約差・モデル仮定の全文再検証は未実施。旧稿の全契約への数値一般化を避ける。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "paragraph_index": 5,
+      "claim_ja": "DellaVignaとMalmendierは、米国の3つのヘルスクラブで7,752人の契約と利用を分析しました。将来の利用や解約についての見通しが、実際の行動とずれる可能性を扱っています。特定の時代・施設の研究であり、現在のすべてのサービスに同じ傾向があるとは言えません。",
+      "source_ids": [
+        "SRC252"
+      ],
+      "checked_on": "2026-09-14",
+      "locator": "SRC251・SRC252のAEA公式書誌・抄録を2026-09-14に再確認。契約差・モデル仮定の全文再検証は未実施。旧稿の全契約への数値一般化を避ける。",
+      "scope": "selected_sections_or_abstract_as_recorded",
+      "independent_review": "pending"
+    }
+  ],
+  "publication_ready": false,
+  "formal_evidence_certainty": "not_assessed"
+}

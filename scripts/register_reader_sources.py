@@ -10,7 +10,9 @@ ROOT=Path(__file__).resolve().parents[1]
 def read(path):return json.loads((ROOT/path).read_text())
 def save(path,value):(ROOT/path).write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
 def main():
-    pack=read('site/research_additions.json')
+    packs=[read('site/research_additions.json')]
+    if (ROOT/'site/foundation_sources.json').exists():packs.append(read('site/foundation_sources.json'))
+    pack={'entries':[e for p in packs for e in p['entries']], 'updated_on':max(p['updated_on'] for p in packs)}
     sources=read('data/sources.json'); assessments=read('data/source_assessments.json')
     cats=read('data/categories.json')['categories']
     docs={c['file']:read(c['file']) for c in cats}

@@ -1908,7 +1908,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 5,
+      "source_count": 7,
       "editorial_score": null
     },
     {
@@ -1918,7 +1918,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 4,
+      "source_count": 7,
       "editorial_score": null
     },
     {
@@ -1928,7 +1928,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": null
     },
     {
@@ -1938,7 +1938,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 3,
+      "source_count": 6,
       "editorial_score": null
     },
     {
@@ -1958,7 +1958,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 3,
+      "source_count": 5,
       "editorial_score": null
     },
     {
@@ -1968,7 +1968,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -1978,7 +1978,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 5,
+      "source_count": 8,
       "editorial_score": null
     },
     {
@@ -1988,7 +1988,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 3,
+      "source_count": 5,
       "editorial_score": null
     },
     {
@@ -1998,7 +1998,7 @@
       "topic_file": "data/topics/20_research_literacy.json",
       "evidence_file": "data/evidence/research_literacy.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/research_literacy.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -2158,7 +2158,7 @@
       "topic_file": "data/topics/22_money_consumption.json",
       "evidence_file": "data/evidence/money_consumption.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/money_consumption.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": 96
     },
     {

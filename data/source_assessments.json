@@ -5958,6 +5958,160 @@
       ],
       "integrity_status": "not_exhaustive",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC302",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC303",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC304",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC305",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "章の導入と10.10（異質性・ランダム効果・予測区間）。統合が妥当かを検討する方法論であり、メタ分析の自動的な品質保証ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC306",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "13.1–13.2（欠けた研究・結果）、13.3.4.3–13.3.4.5（ファンネル図と検定の限界）。正式なバイアス評価は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC307",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "Abstract、Introduction、Replication reconsidered / redux。方法論のPerspective。誌面に commissioned; not externally peer reviewed と明記。新規実験・外部査読済み実験報告として扱わない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC308",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC309",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "PubMedの書誌・抄録のみ。比較研究のレビューによる対象集団の偏りと一般化への注意。全文・個別の文化差の再確認は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC310",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "Abstract、Introduction、Materials and methodsの検索・組入れ範囲。医療介入の動物から人への移行を扱うアンブレラレビュー。承認割合を心理学全般の真偽率に転用しない。全表・図・付録は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC311",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "Errata、Retractions and Retraction Notices、Expressions of Concernの説明。個々の論文の訂正・撤回を網羅して調べた記録ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC312",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "Benefits / How Crossmark works。更新・訂正情報への導線と、Crossmarkの存在自体は保証ではないという記載。個々の論文の状態確認ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

@@ -16,10 +16,13 @@ from pathlib import Path
 import re
 import shutil
 import statistics
+import sys
+from reader_foundations import Foundations
 from urllib.parse import urlparse, quote
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED: list[str] = []
+FOUNDATIONS = Foundations(ROOT)
 
 def load(path: str):
     return json.loads((ROOT / path).read_text(encoding='utf-8'))
@@ -109,6 +112,7 @@ def shell(current: str, page_title: str, description: str, body: str, active: st
 <body><a href="#main" class="skip">本文へ移動</a>
 <div class="preview-strip"><div class="wrap"><span>制作プレビュー<span class="preview-detail"> · 記事は編集・確認中です</span></span><a href="{esc(rel(current,'about/index.html'))}">編集方針</a></div></div>
 <header class="masthead"><div class="wrap header-row"><a class="brand" href="{esc(rel(current,'index.html'))}"><span class="brand-mark" aria-hidden="true">ψ</span>{esc(site)}</a><form class="header-search" role="search" aria-label="サイト内検索" method="get" action="{esc(rel(current,'search/index.html'))}"><label class="sr-only" for="header-query">キーワード</label><input id="header-query" name="q" type="search" placeholder="気になるテーマを検索" maxlength="150"><button type="submit" aria-label="検索ページへ">{SEARCH_ICON}</button></form></div><nav class="topic-nav" aria-label="テーマ別"><div class="wrap nav-row">{nav}</div></nav></header>
+<nav class="utility-nav wrap" aria-label="読み方から探す"><a href="{esc(rel(current,'learn/index.html'))}">基礎から</a><a href="{esc(rel(current,'glossary/index.html'))}">用語集</a><a href="{esc(rel(current,'search/index.html'))}?status=draft">解説一覧</a></nav>
 <main id="main" class="{esc(main_class)}" tabindex="-1"><div class="wrap">{body}</div></main>
 <footer class="footer"><div class="wrap"><div class="footer-top"><span class="footer-brand">{esc(site)}</span><nav class="footer-links" aria-label="フッター"><a href="{esc(rel(current,'topics/index.html'))}">テーマ一覧</a><a href="{esc(rel(current,'search/index.html'))}">検索</a><a href="{esc(rel(current,'about/index.html'))}">このサイトについて</a></nav></div><div class="footer-bottom"><p>一般向けの心理学・行動科学の情報を扱います。個別の診断・治療に代わるものではありません。AI支援による制作。独立した専門家確認と公開承認は未完了です。</p></div></div></footer></body></html>'''
 
@@ -145,6 +149,7 @@ def build_home():
     selections=[t for t in selections if t in READERS]
     body=f'''<div class="home-intro"><h1>心理学を読む</h1><span>睡眠、習慣、人間関係。気になるテーマから。</span></div>
 <div class="feature-grid"><article class="feature"><span class="eyebrow">習慣・行動</span><h2 class="feature-title"><a href="{esc(reader_link(p,lead))}">{esc(title(lead))}</a></h2><p class="feature-summary">{esc(summary(lead))}</p>{flow()}<div class="feature-foot"><a href="{esc(reader_link(p,lead))}">解説を読む →</a><span class="draft-label">編集稿</span></div></article><section class="picks" aria-labelledby="picks-heading"><h2 id="picks-heading">まず読む</h2>{picks}</section></div>
+{FOUNDATIONS.home_links(p,rel)}
 <section class="section"><div class="section-heading"><h2>テーマから探す</h2><a href="{esc(rel(p,'topics/index.html'))}">すべてのテーマ →</a></div><div class="group-grid">{''.join(group_card(p,g) for g in GROUPS)}</div></section>
 <section class="section"><div class="section-heading"><h2>日常の疑問</h2><a href="{esc(rel(p,'search/index.html'))}?status=draft">解説一覧 →</a></div><div class="article-grid">{''.join(card(p,t) for t in selections)}</div></section>
 <section class="section editor-note"><h2>根拠と限界を読む</h2><div><p>結論だけでなく、研究の対象と、まだ分からないことを載せます。本文の出典から元の論文や公的資料へ進めます。</p><a href="{esc(rel(p,'about/index.html'))}">編集方針を見る →</a></div></section>'''
@@ -327,6 +332,8 @@ def build_readers():
             links+=f' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/{quote(claim_path,safe="/")}">従来稿の主張対応表</a>'
         if tid in EDITIONS:
             links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/reader_editions.json">今回の主張確認記録</a>'
+        if tid in {x['topic_id'] for x in load('site/foundation_claims.json')['claims']}:
+            links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/foundation_claims.json">段落別の出典対応</a>'
         related=EDITIONS.get(tid,{}).get('related_ids',[])
         related=[r for r in related if r in READERS and r!=tid]
         if len(related)<3:
@@ -335,23 +342,24 @@ def build_readers():
         related=related[:3]
         related_html='<section class="related"><h2>あわせて読む</h2><ul>'+''.join(f'<li><a href="{esc(reader_link(p,r))}">{esc(title(r))}</a></li>' for r in related)+'</ul></section>' if related else ''
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
-        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{related_html}</article></div>'''
+        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
         write(p,shell(p,title(tid),summary(tid),body,active=gid,noindex=True))
 
 def build_search():
     p='search/index.html'
     body=breadcrumbs(p,[('検索',None)])+'<div class="page-heading"><h1>テーマを探す</h1><p>短い言葉でも、元の題名や関連用語でも検索できます。</p></div>'
     body+='<form id="topic-search" class="search-form" role="search" method="get"><label for="search-query">キーワード</label><input type="search" name="q" id="search-query" placeholder="例：睡眠、先延ばし、記憶" maxlength="150"><button type="submit">検索</button></form>'
+    body+=FOUNDATIONS.search_help(p,rel)
     options=''.join(f'<option value="{esc(gid)}">{esc(g["name"])}</option>' for gid,g in GROUPS.items())
     body+=f'<div id="search-enhancements" hidden><div class="filters"><label for="search-group">分野<select id="search-group"><option value="">すべての分野</option>{options}</select></label><label for="search-status">本文<select id="search-status"><option value="">すべて</option><option value="draft">編集稿あり</option><option value="pending">準備中</option></select></label><button type="button" data-reset-search>条件をクリア</button></div></div>'
     body+='<noscript><p class="notice">JavaScriptが無効のため、全テーマを表示しています。ブラウザのページ内検索、またはテーマ一覧をご利用ください。</p></noscript>'
     body+=f'<p id="result-summary" class="result-summary" role="status" aria-live="polite" tabindex="-1">{len(TOPICS)}件のテーマ</p><div id="no-results" class="empty" hidden><h2>見つかりませんでした</h2><p>短い言葉に変えるか、絞り込みを解除してください。</p><button type="button" data-reset-search>条件をクリア</button></div><ul class="search-results">'
     for tid,t in TOPICS.items():
-        corpus=' '.join([title(tid),t['title_ja'],category_label(t['category_id']),*t.get('concepts_en',[])])
+        corpus=' '.join([title(tid),t['title_ja'],category_label(t['category_id']),*t.get('concepts_en',[]),FOUNDATIONS.keywords(tid)])
         ready=tid in READERS
         heading=f'<a href="{esc(reader_link(p,tid))}">{esc(title(tid))}</a>' if ready else f'<span class="pending-title">{esc(title(tid))}</span>'
         desc=summary(tid) if ready else '本文は準備中です。'
-        body+=f'<li class="search-result" data-topic-id="{esc(tid)}" data-search="{esc(corpus)}" data-group="{esc(GROUP_OF[t["category_id"]])}" data-status="{"draft" if ready else "pending"}"><span class="eyebrow">{esc(category_label(t["category_id"]))} · {"編集稿" if ready else "準備中"}</span><h2>{heading}</h2><p>{esc(desc)}</p></li>'
+        body+=f'<li class="search-result" data-topic-id="{esc(tid)}" data-search="{esc(corpus)}" data-search-title="{esc(title(tid))}" data-group="{esc(GROUP_OF[t["category_id"]])}" data-status="{"draft" if ready else "pending"}"><span class="eyebrow">{esc(category_label(t["category_id"]))} · {"編集稿" if ready else "準備中"}</span><h2>{heading}</h2><p>{esc(desc)}</p></li>'
     body+='</ul><nav id="pagination" class="pagination" aria-label="検索結果のページ" hidden><button id="previous" type="button">前へ</button><span id="page-info"></span><button id="next" type="button">次へ</button></nav>'
     write(p,shell(p,'テーマを探す','300の心理学・行動科学テーマをキーワードと分野で検索。',body))
 
@@ -384,10 +392,10 @@ def main():
     write('assets/site.css',(ROOT/'site/style.css').read_text())
     write('assets/app.js',(ROOT/'site/app.js').read_text())
     write('.nojekyll','')
-    build_home();build_topics();build_readers();build_search();build_about()
+    build_home();build_topics();build_readers();build_search();build_about();FOUNDATIONS.build(sys.modules[__name__])
     original=[len(x['title_ja']) for x in TOPICS.values()]
     shortened=[len(x) for x in CONFIG['display_titles'].values()]
-    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
+    report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}
     write('docs/READER_SITE_BUILD.json',json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='generated_files'},ensure_ascii=False,indent=2))
 

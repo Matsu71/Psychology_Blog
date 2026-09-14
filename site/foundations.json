@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-14",
+  "publication_ready": false,
+  "groups": [
+    {
+      "id": "design",
+      "name": "研究の設計"
+    },
+    {
+      "id": "numbers",
+      "name": "数字の読み方"
+    },
+    {
+      "id": "synthesis",
+      "name": "研究の統合"
+    },
+    {
+      "id": "open",
+      "name": "確認と更新"
+    }
+  ],
+  "series": [
+    {
+      "id": "research",
+      "title": "研究の読み方",
+      "description": "関連、差の大きさ、研究の統合。結論を読む前に押さえる10本。",
+      "topic_ids": [
+        "PSY-RES-001",
+        "PSY-RES-003",
+        "PSY-RES-005",
+        "PSY-RES-002",
+        "PSY-RES-004",
+        "PSY-RES-006",
+        "PSY-RES-008",
+        "PSY-RES-007",
+        "PSY-RES-009",
+        "PSY-RES-010"
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "記憶と学習",
+      "description": "覚え方と、注意の向け方を分けて考えます。",
+      "topic_ids": [
+        "PSY-LEA-001",
+        "PSY-LEA-002",
+        "PSY-ATT-001",
+        "PSY-ATT-004"
+      ]
+    },
+    {
+      "id": "habits",
+      "title": "習慣と行動",
+      "description": "先延ばし、行動の計画、夜更かしを順に読みます。",
+      "topic_ids": [
+        "PSY-MOT-001",
+        "PSY-HAB-001",
+        "PSY-HAB-005",
+        "PSY-SLP-009"
+      ]
+    },
+    {
+      "id": "decisions",
+      "title": "判断と買い物",
+      "description": "情報の選び方と、お金を使うときの判断。",
+      "topic_ids": [
+        "PSY-DEC-001",
+        "PSY-DEC-004",
+        "PSY-MON-002",
+        "PSY-MON-008"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "correlation",
+      "title": "相関",
+      "reading": "そうかん",
+      "aliases": [
+        "correlation",
+        "関連"
+      ],
+      "group": "design",
+      "definition": "二つの変数が一緒に変わる傾向。片方を変えたときにもう片方が変わる、という因果関係と同じではありません。",
+      "example": "架空例：通知の回数と疲労感が関連していても、多忙さが両方に関わった可能性があります。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "locator": "25.2.1",
+      "topic_ids": [
+        "PSY-RES-001"
+      ]
+    },
+    {
+      "id": "causation",
+      "title": "因果関係",
+      "reading": "いんがかんけい",
+      "aliases": [
+        "causation",
+        "因果"
+      ],
+      "group": "design",
+      "definition": "ある要因の違いが結果に影響を与える関係。単なる関連や、前後の変化と区別して検討します。",
+      "example": "架空例：机を片づけた後に作業量が増えても、仕事の種類や締め切りが変わっていないかを確認します。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "locator": "25.2 / 25.5",
+      "topic_ids": [
+        "PSY-RES-001",
+        "PSY-RES-010"
+      ]
+    },
+    {
+      "id": "confounding",
+      "title": "交絡",
+      "reading": "こうらく",
+      "aliases": [
+        "confounding",
+        "第三の要因"
+      ],
+      "group": "design",
+      "definition": "比較したい要因と結果の関係に、両方に関わる別の要因の影響が混ざること。調整後にも未測定の交絡が残り得ます。",
+      "example": "架空例：忙しい人ほど通知も疲労感も多いなら、多忙さが第三の要因の候補になります。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "locator": "25.2.1",
+      "topic_ids": [
+        "PSY-RES-001"
+      ]
+    },
+    {
+      "id": "randomization",
+      "title": "ランダム化",
+      "reading": "らんだむか",
+      "aliases": [
+        "randomization",
+        "無作為割付",
+        "RCT",
+        "ランダム化比較試験"
+      ],
+      "group": "design",
+      "definition": "介入などの割り付けを偶然の仕組みで決めること。参加者や担当者の判断で比較群が決まることを防ぎます。",
+      "example": "参加者を社会全体から無作為に選ぶこととは別です。また、脱落や測定の偏りまで自動で消すわけではありません。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "locator": "25.2",
+      "topic_ids": [
+        "PSY-RES-001"
+      ]
+    },
+    {
+      "id": "outcome",
+      "title": "アウトカム",
+      "reading": "あうとかむ",
+      "aliases": [
+        "outcome",
+        "評価項目",
+        "測定項目"
+      ],
+      "group": "design",
+      "definition": "研究で結果として測る項目。何を、どの尺度で、いつ測ったのかを確認します。",
+      "example": "架空例：直後の気分、翌日の記憶、半年後の成績は、同じ成果としては扱えません。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "locator": "15.2",
+      "topic_ids": [
+        "PSY-RES-004",
+        "PSY-RES-007"
+      ]
+    },
+    {
+      "id": "generalizability",
+      "title": "一般化",
+      "reading": "いっぱんか",
+      "aliases": [
+        "generalizability",
+        "外的妥当性",
+        "適用可能性"
+      ],
+      "group": "design",
+      "definition": "ある対象・条件の結果を、別の人や場面に広げて考えること。研究内の比較の妥当性とは区別します。",
+      "example": "架空例：学生の短い実験課題から、会社員の長期的な仕事の成果をそのまま予測しません。",
+      "source_ids": [
+        "SRC302",
+        "SRC304"
+      ],
+      "locator": "25.1.1 / 15.2",
+      "topic_ids": [
+        "PSY-RES-008"
+      ]
+    },
+    {
+      "id": "effect-size",
+      "title": "効果量",
+      "reading": "こうかりょう",
+      "aliases": [
+        "effect size",
+        "効果の大きさ"
+      ],
+      "group": "numbers",
+      "definition": "差や関連の大きさを表す指標。点数差、割合の比、標準化平均差など、指標ごとに意味が違います。",
+      "example": "架空例：1点の差と1パーセントポイントの差は、同じ「1」でも単位が違います。",
+      "source_ids": [
+        "SRC303"
+      ],
+      "locator": "6.4 / 6.5.1",
+      "topic_ids": [
+        "PSY-RES-003"
+      ]
+    },
+    {
+      "id": "standardized-difference",
+      "title": "標準化平均差",
+      "reading": "ひょうじゅんかへいきんさ",
+      "aliases": [
+        "SMD",
+        "Cohen d",
+        "Hedges g",
+        "標準化効果量"
+      ],
+      "group": "numbers",
+      "definition": "平均の差を標準偏差などで標準化した指標。異なる尺度の研究をまとめる場合などに使います。",
+      "example": "架空の単純化した例：5点差÷標準偏差10点=0.5。50％の改善という意味ではありません。",
+      "source_ids": [
+        "SRC303"
+      ],
+      "locator": "6.5.1.2",
+      "topic_ids": [
+        "PSY-RES-003",
+        "PSY-MON-002"
+      ]
+    },
+    {
+      "id": "absolute-relative",
+      "title": "相対差と絶対差",
+      "reading": "そうたいさとぜったいさ",
+      "aliases": [
+        "relative risk",
+        "absolute risk",
+        "相対リスク",
+        "絶対リスク"
+      ],
+      "group": "numbers",
+      "definition": "元の値に対する比で見る変化と、元の尺度で差を取る変化。両方を見ると、大きさを解釈しやすくなります。",
+      "example": "架空例：2％から1％へ減ると、相対的には50％減、絶対的には1パーセントポイント減です。",
+      "source_ids": [
+        "SRC303",
+        "SRC304"
+      ],
+      "locator": "6.4 / 15.4",
+      "topic_ids": [
+        "PSY-RES-003"
+      ]
+    },
+    {
+      "id": "confidence-interval",
+      "title": "信頼区間",
+      "reading": "しんらいくかん",
+      "aliases": [
+        "confidence interval",
+        "CI",
+        "95％信頼区間"
+      ],
+      "group": "numbers",
+      "definition": "推定値の不確実性を示す区間。通常の95％信頼区間は、同じ作り方を繰り返す場合の区間の性質を表します。",
+      "example": "真の値が今回の区間内にある確率や、個人が改善する確率と、そのまま同一視しません。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "locator": "15.3.1 / 15.3.3",
+      "topic_ids": [
+        "PSY-RES-003",
+        "PSY-RES-005"
+      ]
+    },
+    {
+      "id": "significance",
+      "title": "統計的有意性",
+      "reading": "とうけいてきゆういせい",
+      "aliases": [
+        "statistical significance",
+        "有意差",
+        "有意"
+      ],
+      "group": "numbers",
+      "definition": "定めた検定の基準を満たすかという判断。効果の大きさや、実生活で意味があるかとは別です。",
+      "example": "有意でなかった結果も、「違いがないと確定した」とは限りません。推定の幅を確認します。",
+      "source_ids": [
+        "SRC304"
+      ],
+      "locator": "15.3.2",
+      "topic_ids": [
+        "PSY-RES-005",
+        "PSY-RES-003"
+      ]
+    },
+    {
+      "id": "regression-mean",
+      "title": "平均への回帰",
+      "reading": "へいきんへのかいき",
+      "aliases": [
+        "regression to the mean",
+        "平均回帰"
+      ],
+      "group": "numbers",
+      "definition": "極端な値を理由に選んだ後の測定が、より普段の値に近づく現象。介入の効果と取り違える場合があります。",
+      "example": "架空例：特に調子の悪い日から記録を始めると、その後の戻りを新しい習慣の効果だと思うかもしれません。",
+      "source_ids": [
+        "SRC302"
+      ],
+      "locator": "25.6",
+      "topic_ids": [
+        "PSY-RES-010"
+      ]
+    },
+    {
+      "id": "systematic-review",
+      "title": "システマティックレビュー",
+      "reading": "しすてまてぃっくれびゅー",
+      "aliases": [
+        "systematic review",
+        "系統的レビュー"
+      ],
+      "group": "synthesis",
+      "definition": "定めた問いと方法に沿って研究を探し、選び、評価する取り組み。数値の統合を行わない場合もあります。",
+      "example": "レビューと書かれていることだけで、検索や選定が網羅的だったと判断しないようにします。",
+      "source_ids": [
+        "SRC305"
+      ],
+      "locator": "Chapter introduction",
+      "topic_ids": [
+        "PSY-RES-004"
+      ]
+    },
+    {
+      "id": "meta-analysis",
+      "title": "メタ分析",
+      "reading": "めたぶんせき",
+      "aliases": [
+        "meta analysis",
+        "meta-analysis",
+        "メタアナリシス"
+      ],
+      "group": "synthesis",
+      "definition": "複数の研究の結果を統計的にまとめる方法。研究の違いや、集められなかった結果も検討します。",
+      "example": "架空例：同じ「学習法」でも、覚える単語数と試験合格率をどう扱ったかを確認します。",
+      "source_ids": [
+        "SRC305"
+      ],
+      "locator": "Chapter introduction / 10.10",
+      "topic_ids": [
+        "PSY-RES-004"
+      ]
+    },
+    {
+      "id": "heterogeneity",
+      "title": "異質性",
+      "reading": "いしつせい",
+      "aliases": [
+        "heterogeneity",
+        "研究間の違い"
+      ],
+      "group": "synthesis",
+      "definition": "研究間で対象や方法、効果などが異なること。統合した平均だけでは違いが見えない場合があります。",
+      "example": "架空例：現場Aで2点、Bで8点の差なら、平均5点だけでは現場差が伝わりません。",
+      "source_ids": [
+        "SRC305"
+      ],
+      "locator": "10.10",
+      "topic_ids": [
+        "PSY-RES-004"
+      ]
+    },
+    {
+      "id": "publication-bias",
+      "title": "出版バイアス",
+      "reading": "しゅっぱんばいあす",
+      "aliases": [
+        "publication bias",
+        "公表バイアス"
+      ],
+      "group": "synthesis",
+      "definition": "研究が公表されるかどうかが、結果に関わることによって生じる偏り。読める研究だけが全体とは限りません。",
+      "example": "架空例：10研究中、差が大きかった2研究だけが公表されると、紹介できる研究の顔ぶれが偏ります。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "locator": "13.1–13.2",
+      "topic_ids": [
+        "PSY-RES-006"
+      ]
+    },
+    {
+      "id": "selective-reporting",
+      "title": "選択的報告",
+      "reading": "せんたくてきほうこく",
+      "aliases": [
+        "selective reporting",
+        "選択的アウトカム報告"
+      ],
+      "group": "synthesis",
+      "definition": "測定や分析をした結果の一部が、結果に応じて選んで報告されること。研究全体の未公表と区別します。",
+      "example": "計画にある主要項目と、論文で強調された項目が一致するかを確認することが手がかりになります。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "locator": "13.1–13.2",
+      "topic_ids": [
+        "PSY-RES-006"
+      ]
+    },
+    {
+      "id": "funnel-plot",
+      "title": "ファンネル図",
+      "reading": "ふぁんねるず",
+      "aliases": [
+        "funnel plot",
+        "漏斗図"
+      ],
+      "group": "synthesis",
+      "definition": "研究ごとの効果と精度の関係を可視化する図。非対称な形だけで出版バイアスが確定するわけではありません。",
+      "example": "非対称性の検定が明確でなくても、欠けた研究が存在しない保証にはなりません。",
+      "source_ids": [
+        "SRC306"
+      ],
+      "locator": "13.3.4.3–13.3.4.5",
+      "topic_ids": [
+        "PSY-RES-006"
+      ]
+    },
+    {
+      "id": "replication",
+      "title": "追試",
+      "reading": "ついし",
+      "aliases": [
+        "replication",
+        "再現研究"
+      ],
+      "group": "open",
+      "definition": "元の主張を新しいデータで検討する研究。同じデータで同じ計算を行うこととは区別します。",
+      "example": "元の研究と手順が似ているかだけでなく、どの主張を確かめられる比較なのかを確認します。",
+      "source_ids": [
+        "SRC307"
+      ],
+      "locator": "Abstract / Introduction",
+      "topic_ids": [
+        "PSY-RES-002"
+      ]
+    },
+    {
+      "id": "preregistration",
+      "title": "事前登録",
+      "reading": "じぜんとうろく",
+      "aliases": [
+        "preregistration",
+        "pre-registration"
+      ],
+      "group": "open",
+      "definition": "結果を確かめる前に、問いや分析の計画などを記録しておくこと。計画した分析と後から加えた分析を区別します。",
+      "example": "途中の変更や探索は可能です。変えた内容と理由が分かる形で報告することが重要です。",
+      "source_ids": [
+        "SRC308"
+      ],
+      "locator": "FAQ: changes / conditional analyses",
+      "topic_ids": [
+        "PSY-RES-002",
+        "PSY-RES-006",
+        "PSY-RES-010"
+      ]
+    },
+    {
+      "id": "weird",
+      "title": "WEIRD",
+      "reading": "うぃあーど",
+      "aliases": [
+        "Western Educated Industrialized Rich Democratic",
+        "文化差",
+        "海外研究"
+      ],
+      "group": "open",
+      "definition": "西洋・高学歴・工業化・豊かさ・民主主義という特徴を持つ社会を表す語。研究対象の偏りを考える文脈で使われます。",
+      "example": "国民性を固定的に説明するラベルではありません。どの集団を調べた研究かを確かめるための論点です。",
+      "source_ids": [
+        "SRC309"
+      ],
+      "locator": "PubMed Abstract",
+      "topic_ids": [
+        "PSY-RES-008"
+      ]
+    },
+    {
+      "id": "correction",
+      "title": "訂正",
+      "reading": "ていせい",
+      "aliases": [
+        "erratum",
+        "corrigendum",
+        "correction",
+        "訂正論文"
+      ],
+      "group": "open",
+      "definition": "公表済みの論文の内容を修正すること。誤記だけでなく、科学的な記述や方法に関わる場合もあります。",
+      "example": "修正された箇所と、記事の結論に影響するかを区別します。訂正という表示だけで重要性は決まりません。",
+      "source_ids": [
+        "SRC311"
+      ],
+      "locator": "Errata",
+      "topic_ids": [
+        "PSY-RES-009"
+      ]
+    },
+    {
+      "id": "retraction",
+      "title": "撤回",
+      "reading": "てっかい",
+      "aliases": [
+        "retraction",
+        "撤回論文",
+        "懸念表明"
+      ],
+      "group": "open",
+      "definition": "重大な問題などを理由に論文を取り下げること。撤回の表示だけで、誠実な誤りと不正を区別することはできません。",
+      "example": "懸念表明は撤回と同じ最終判断ではありません。元の通知を読み、理由と範囲を確認します。",
+      "source_ids": [
+        "SRC311"
+      ],
+      "locator": "Retractions / Expressions of Concern",
+      "topic_ids": [
+        "PSY-RES-009"
+      ]
+    },
+    {
+      "id": "n-of-1",
+      "title": "N-of-1試験",
+      "reading": "えぬおぶわんしけん",
+      "aliases": [
+        "N of 1",
+        "N-of-1",
+        "一人の実験",
+        "自己実験"
+      ],
+      "group": "open",
+      "definition": "一人を単位とし、条件を複数回切り替えるなどして比較する研究。通常の生活日記とは設計が違います。",
+      "example": "薬の自己調整などを試すための案内ではありません。短い感想の記録から治療効果を確定しません。",
+      "source_ids": [
+        "SRC224"
+      ],
+      "locator": "PubMed Abstract",
+      "topic_ids": [
+        "PSY-RES-010"
+      ]
+    }
+  ]
+}

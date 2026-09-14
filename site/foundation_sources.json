@@ -1,0 +1,887 @@
+{
+  "schema_version": "1.0",
+  "migration_id": "reader-foundations-20260914",
+  "updated_on": "2026-09-14",
+  "entries": [
+    {
+      "topic_id": "PSY-RES-001",
+      "source": {
+        "id": "SRC302",
+        "title": "Chapter 25: Assessing risk of bias in a non-randomized study",
+        "authors_display": "Sterne JAC; Hernán MA; McAleenan A; Reeves BC; Higgins JPT",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC302",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "source": {
+        "id": "SRC302",
+        "title": "Chapter 25: Assessing risk of bias in a non-randomized study",
+        "authors_display": "Sterne JAC; Hernán MA; McAleenan A; Reeves BC; Higgins JPT",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC302",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "source": {
+        "id": "SRC303",
+        "title": "Chapter 6: Choosing effect measures and computing estimates of effect",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC303",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-003",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "source": {
+        "id": "SRC305",
+        "title": "Chapter 10: Analysing data and undertaking meta-analyses",
+        "authors_display": "Deeks JJ; Higgins JPT; Altman DG; McKenzie JE; Veroniki AA (editors)",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：章の導入と10.10（異質性・ランダム効果・予測区間）。統合が妥当かを検討する方法論であり、メタ分析の自動的な品質保証ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC305",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "章の導入と10.10（異質性・ランダム効果・予測区間）。統合が妥当かを検討する方法論であり、メタ分析の自動的な品質保証ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "source": {
+        "id": "SRC306",
+        "title": "Chapter 13: Assessing risk of bias due to missing results in a synthesis",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：13.1–13.2（欠けた研究・結果）、13.3.4.3–13.3.4.5（ファンネル図と検定の限界）。正式なバイアス評価は未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC306",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "13.1–13.2（欠けた研究・結果）、13.3.4.3–13.3.4.5（ファンネル図と検定の限界）。正式なバイアス評価は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "source": {
+        "id": "SRC307",
+        "title": "What is replication?",
+        "authors_display": "Nosek BA; Errington TM",
+        "year": 2020,
+        "journal": "PLOS Biology 18(3):e3000691",
+        "source_type": "journal_article",
+        "doi": "10.1371/journal.pbio.3000691",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691",
+        "verified_via_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691",
+        "verification_scope": "article_text_reviewed",
+        "notes_ja": "2026-09-14：Abstract、Introduction、Replication reconsidered / redux。方法論のPerspective。誌面に commissioned; not externally peer reviewed と明記。新規実験・外部査読済み実験報告として扱わない。"
+      },
+      "assessment": {
+        "source_id": "SRC307",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Abstract、Introduction、Replication reconsidered / redux。方法論のPerspective。誌面に commissioned; not externally peer reviewed と明記。新規実験・外部査読済み実験報告として扱わない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-002",
+      "source": {
+        "id": "SRC308",
+        "title": "Preregistration",
+        "authors_display": "Center for Open Science",
+        "year": null,
+        "journal": null,
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cos.io/initiatives/prereg",
+        "verified_via_url": "https://www.cos.io/initiatives/prereg",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC308",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-006",
+      "source": {
+        "id": "SRC308",
+        "title": "Preregistration",
+        "authors_display": "Center for Open Science",
+        "year": null,
+        "journal": null,
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cos.io/initiatives/prereg",
+        "verified_via_url": "https://www.cos.io/initiatives/prereg",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC308",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "source": {
+        "id": "SRC308",
+        "title": "Preregistration",
+        "authors_display": "Center for Open Science",
+        "year": null,
+        "journal": null,
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cos.io/initiatives/prereg",
+        "verified_via_url": "https://www.cos.io/initiatives/prereg",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC308",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "公式説明・FAQ（事前登録の変更、探索、Registered Reportsとの違い、分析条件の変更）。日付不明は未設定。研究結果の正しさを認定する制度ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "source": {
+        "id": "SRC309",
+        "title": "The weirdest people in the world?",
+        "authors_display": "Henrich J; Heine SJ; Norenzayan A",
+        "year": 2010,
+        "journal": "Behavioral and Brain Sciences 33(2–3):61–83; discussion 83–135",
+        "source_type": "journal_article",
+        "doi": "10.1017/S0140525X0999152X",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20550733/",
+        "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/20550733/",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "2026-09-14：PubMedの書誌・抄録のみ。比較研究のレビューによる対象集団の偏りと一般化への注意。全文・個別の文化差の再確認は未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC309",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "PubMedの書誌・抄録のみ。比較研究のレビューによる対象集団の偏りと一般化への注意。全文・個別の文化差の再確認は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-007",
+      "source": {
+        "id": "SRC310",
+        "title": "Analysis of animal-to-human translation shows that only 5% of animal-tested therapeutic interventions obtain regulatory approval for human applications",
+        "authors_display": "Ineichen BV; Furrer E; Grüninger SL; Zürrer WE; Macleod MR",
+        "year": 2024,
+        "journal": "PLOS Biology 22(6):e3002667",
+        "source_type": "journal_article",
+        "doi": "10.1371/journal.pbio.3002667",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002667",
+        "verified_via_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002667",
+        "verification_scope": "article_text_reviewed",
+        "notes_ja": "2026-09-14：Abstract、Introduction、Materials and methodsの検索・組入れ範囲。医療介入の動物から人への移行を扱うアンブレラレビュー。承認割合を心理学全般の真偽率に転用しない。全表・図・付録は未点検。"
+      },
+      "assessment": {
+        "source_id": "SRC310",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Abstract、Introduction、Materials and methodsの検索・組入れ範囲。医療介入の動物から人への移行を扱うアンブレラレビュー。承認割合を心理学全般の真偽率に転用しない。全表・図・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "source": {
+        "id": "SRC311",
+        "title": "Errata, Retractions, and Other Linked Citations in PubMed",
+        "authors_display": "National Library of Medicine",
+        "year": null,
+        "journal": null,
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.nlm.nih.gov/bsd/policy/errata.html",
+        "verified_via_url": "https://www.nlm.nih.gov/bsd/policy/errata.html",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：Errata、Retractions and Retraction Notices、Expressions of Concernの説明。個々の論文の訂正・撤回を網羅して調べた記録ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC311",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Errata、Retractions and Retraction Notices、Expressions of Concernの説明。個々の論文の訂正・撤回を網羅して調べた記録ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-009",
+      "source": {
+        "id": "SRC312",
+        "title": "Crossmark",
+        "authors_display": "Crossref",
+        "year": 2020,
+        "journal": null,
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.crossref.org/services/crossmark/",
+        "verified_via_url": "https://www.crossref.org/services/crossmark/",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：Benefits / How Crossmark works。更新・訂正情報への導線と、Crossmarkの存在自体は保証ではないという記載。個々の論文の状態確認ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC312",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "Benefits / How Crossmark works。更新・訂正情報への導線と、Crossmarkの存在自体は保証ではないという記載。個々の論文の状態確認ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-001",
+      "source": {
+        "id": "SRC304",
+        "title": "Chapter 15: Interpreting results and drawing conclusions",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+      },
+      "assessment": {
+        "source_id": "SRC304",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "15.2（適用可能性）、15.3.1–15.3.3（信頼区間・有意性・不確実性）、15.4（結果の表し方）。資料の指定節のみ。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-004",
+      "source": {
+        "id": "SRC306",
+        "title": "Chapter 13: Assessing risk of bias due to missing results in a synthesis",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：13.1–13.2（欠けた研究・結果）、13.3.4.3–13.3.4.5（ファンネル図と検定の限界）。正式なバイアス評価は未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC306",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "13.1–13.2（欠けた研究・結果）、13.3.4.3–13.3.4.5（ファンネル図と検定の限界）。正式なバイアス評価は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-008",
+      "source": {
+        "id": "SRC302",
+        "title": "Chapter 25: Assessing risk of bias in a non-randomized study",
+        "authors_display": "Sterne JAC; Hernán MA; McAleenan A; Reeves BC; Higgins JPT",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+      },
+      "assessment": {
+        "source_id": "SRC302",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "25.1–25.2（交絡とランダム化）、25.5–25.6（前後比較・平均への回帰）。臨床研究の方法論を読むために参照。ROBINS-I評価そのものは未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-RES-010",
+      "source": {
+        "id": "SRC224",
+        "title": "N-of-1 Trials, Their Reporting Guidelines, and the Advancement of Open Science Principles.",
+        "authors_display": "Porcino A, Vohra S.",
+        "year": 2022,
+        "journal": "Harvard data science review",
+        "source_type": "journal_article",
+        "doi": "10.1162/99608f92.a65a257a",
+        "pmid": "38031562",
+        "url": "https://europepmc.org/article/MED/38031562",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22N-of-1%22+AND+TITLE%3A%22guidelines%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+        "accessed_on": "2026-09-11",
+        "record_role": "research_entry",
+        "provenance_query_ids": [
+          "R3-X-130"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC224",
+        "review_scope": "abstract",
+        "method_signals": 2,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "抄録による予備点検・正式評価未実施",
+        "provenance_review_ids": [
+          "R3-S130"
+        ],
+        "limitations_ja": [
+          "日常の自己記録がそのまま因果実験になるわけではない。薬・睡眠削減等の危険な自己実験は対象外。"
+        ],
+        "integrity_status": "indexed_links_checked_not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-DEC-004",
+      "source": {
+        "id": "SRC237",
+        "doi": "10.1007/s40685-014-0014-8",
+        "title": "On the sunk-cost effect in economic decision-making: a meta-analytic review",
+        "authors_display": "Stefan Roth; Thomas Robbert; Lennart Straus",
+        "year": 2015,
+        "journal": "Business Research",
+        "pmid": null,
+        "pmcid": null,
+        "url": "https://doi.org/10.1007/s40685-014-0014-8",
+        "verified_via_url": "https://api.crossref.org/works?query.bibliographic=On+the+sunk-cost+effect+in+economic+decision-making+meta-analytic+review&rows=5&filter=until-pub-date%3A2026-09-11",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "accessed_on": "2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+        "indexed_related_records": [],
+        "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+        "latest_reviewed_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC237",
+        "review_scope": "abstract",
+        "method_signals": 3,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+        "limitations_ja": [
+          "一つの普遍的な倍率で説明しません。将来の便益、解約費用、学習効果など本当にこれから変わる要素まで無視するべき、という意味ではありません。"
+        ],
+        "integrity_status": "selected_notices_checked_not_exhaustive",
+        "integrity_notices": [],
+        "provenance_review_ids": [
+          "R5-14fb6f3495da"
+        ],
+        "checked_sections": [
+          "Abstract / 抄録"
+        ],
+        "checked_on": "2026-09-11"
+      }
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "source": {
+        "id": "SRC169",
+        "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+        "authors_display": "Lachlan Schomburgk; Alex Belli; Arvid O.I. Hoffmann",
+        "year": 2024,
+        "journal": "Journal of Retailing",
+        "source_type": "journal_article",
+        "doi": "10.1016/j.jretai.2024.05.003",
+        "pmid": null,
+        "url": "https://doi.org/10.1016/j.jretai.2024.05.003",
+        "verified_via_url": "https://api.crossref.org/works?query.title=Less+cash+more+splash+A+meta-analysis+on+the+cashless+effect&rows=3&filter=until-pub-date%3A2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+        "accessed_on": "2026-09-11",
+        "record_role": "research_entry",
+        "provenance_query_ids": [
+          "R3-C-059"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "not_completed",
+        "latest_source_check_id": "SC6-SRC169",
+        "latest_source_checked_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC169",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": 3,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "確認した原文箇所に対する単独AI読解。正式な確実性評価や独立査読ではない。",
+        "provenance_review_ids": [
+          "R3-C062",
+          "SC6-SRC169"
+        ],
+        "limitations_ja": [
+          "意思額は実支出ではない。gを％の支出増に換算しない。研究間のモデレーターを個人の因果効果とせず、出版バイアス検定で偏りの不存在を保証しない。"
+        ],
+        "integrity_status": "not_completed",
+        "integrity_notices": [],
+        "checked_on": "2026-09-11",
+        "checked_sections": [
+          "3 Methodology: eligibility, selection, outlier removal",
+          "4.1 Overall effect; moderator analyses; robustness",
+          "5 Discussion and limitations"
+        ],
+        "reporting_issues": [],
+        "latest_source_check_id": "SC6-SRC169"
+      }
+    },
+    {
+      "topic_id": "PSY-MON-002",
+      "source": {
+        "id": "SRC303",
+        "title": "Chapter 6: Choosing effect measures and computing estimates of effect",
+        "authors_display": "Cochrane Handbook",
+        "year": 2024,
+        "journal": "Cochrane Handbook for Systematic Reviews of Interventions, version 6.5 (2024)",
+        "source_type": "official_bibliography",
+        "doi": null,
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06",
+        "verified_via_url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "2026-09-14：6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。"
+      },
+      "assessment": {
+        "source_id": "SRC303",
+        "review_scope": "official_page_reviewed",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定箇所のAI支援点検。独立点検・正式評価未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "source": {
+        "id": "SRC251",
+        "doi": "10.1257/aer.20231612",
+        "title": "Selling Subscriptions",
+        "authors_display": "Liran Einav; Ben Klopack; Neale Mahoney",
+        "year": 2025,
+        "journal": "American Economic Review",
+        "pmid": null,
+        "pmcid": null,
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20231612",
+        "verified_via_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20231612",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "accessed_on": "2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+        "indexed_related_records": [],
+        "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+        "latest_reviewed_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC251",
+        "review_scope": "abstract",
+        "method_signals": 3,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+        "limitations_ja": [
+          "売上への影響の推定にはモデルと固定した初期加入者という仮定があります。売上が増えるという推定を、全利用者の損失が同率で増えるという話にしません。"
+        ],
+        "integrity_status": "selected_notices_checked_not_exhaustive",
+        "integrity_notices": [],
+        "provenance_review_ids": [
+          "R5-abd448a7dc98"
+        ],
+        "checked_sections": [
+          "Abstract / 抄録"
+        ],
+        "checked_on": "2026-09-11"
+      }
+    },
+    {
+      "topic_id": "PSY-MON-008",
+      "source": {
+        "id": "SRC252",
+        "doi": "10.1257/aer.96.3.694",
+        "title": "Paying Not to Go to the Gym",
+        "authors_display": "DellaVigna S; Malmendier U",
+        "year": 2006,
+        "journal": "American Economic Review 96(3):694–719",
+        "pmid": null,
+        "pmcid": null,
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.96.3.694",
+        "verified_via_url": "https://www.aeaweb.org/articles?id=10.1257/aer.96.3.694",
+        "source_type": "journal_article",
+        "record_role": "research_entry",
+        "accessed_on": "2026-09-11",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "確認範囲・結果・限界は対応する読解メモを参照。資料登録は確実性評価や公開承認ではありません。",
+        "indexed_related_records": [],
+        "correction_retraction_check": "selected_notices_checked_not_exhaustive",
+        "latest_reviewed_on": "2026-09-11"
+      },
+      "assessment": {
+        "source_id": "SRC252",
+        "review_scope": "abstract",
+        "method_signals": 2,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "研究設計・適用範囲の予備点検。点数は正しさの確率ではありません。",
+        "limitations_ja": [
+          "2006年の特定の施設・料金設定です。すべての定額契約が損という根拠ではなく、将来の利用予測や便利さの価値を分けます。"
+        ],
+        "integrity_status": "selected_notices_checked_not_exhaustive",
+        "integrity_notices": [],
+        "provenance_review_ids": [
+          "R5-c9aa7405844b"
+        ],
+        "checked_sections": [
+          "Abstract / 抄録"
+        ],
+        "checked_on": "2026-09-11"
+      }
+    }
+  ]
+}

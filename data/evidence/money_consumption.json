@@ -233,6 +233,20 @@
       "conclusion_direction": "mixed",
       "limits_ja": "期間限定なら必ず売れる、という法則ではありません。購入意図と実際の支出、商品の種類を区別し、人を焦らせる設計の指南にしません。",
       "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-MON-002-SRC303",
+      "topic_id": "PSY-MON-002",
+      "source_id": "SRC303",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：6.4（相対・絶対尺度）、6.5.1（平均差と標準化平均差）の本文。個別の心理介入の効果を測定した資料ではない。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+      "formal_evidence_certainty": "not_assessed"
     }
   ]
 }

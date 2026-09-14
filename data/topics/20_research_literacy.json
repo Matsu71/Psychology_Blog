@@ -18,7 +18,9 @@
         "SRC012",
         "SRC067",
         "SRC074",
-        "SRC076"
+        "SRC076",
+        "SRC302",
+        "SRC304"
       ],
       "caution_ja": "観察研究がすべて無価値という極端な説明にしない。",
       "research_brief_ids": [
@@ -41,7 +43,10 @@
         "SRC016",
         "SRC066",
         "SRC068",
-        "SRC133"
+        "SRC133",
+        "SRC304",
+        "SRC307",
+        "SRC308"
       ],
       "caution_ja": "一つの追試失敗を全研究の否定にせず、対象の選び方を確認する。",
       "research_brief_ids": [
@@ -64,7 +69,9 @@
       "priority": 1,
       "source_ids": [
         "SRC016",
-        "SRC073"
+        "SRC073",
+        "SRC303",
+        "SRC304"
       ],
       "caution_ja": "大きな効果量だけで研究の質を判断しない。信頼区間と測定尺度を確認する。",
       "research_brief_ids": [
@@ -85,7 +92,10 @@
       "source_ids": [
         "SRC011",
         "SRC013",
-        "SRC048"
+        "SRC048",
+        "SRC304",
+        "SRC305",
+        "SRC306"
       ],
       "caution_ja": "メタ分析という形式だけで強い証拠と評価しない。",
       "research_brief_ids": [
@@ -122,7 +132,9 @@
       "source_ids": [
         "SRC015",
         "SRC016",
-        "SRC091"
+        "SRC091",
+        "SRC306",
+        "SRC308"
       ],
       "caution_ja": "個々の研究者の不正を根拠なく推測しない。制度的要因と不正を区別する。",
       "research_brief_ids": [
@@ -140,7 +152,9 @@
       "search_query": "animal human translation behavioral neuroscience external validity review",
       "priority": 1,
       "source_ids": [
-        "SRC007"
+        "SRC007",
+        "SRC304",
+        "SRC310"
       ],
       "caution_ja": "動物研究を無価値とせず、人への直接的な生活提案とは段階を分ける。"
     },
@@ -160,7 +174,10 @@
         "SRC053",
         "SRC068",
         "SRC097",
-        "SRC133"
+        "SRC133",
+        "SRC304",
+        "SRC309",
+        "SRC302"
       ],
       "caution_ja": "文化を固定的な国民性として扱わず、集団内の違いも考慮する。",
       "research_brief_ids": [
@@ -187,7 +204,9 @@
       "source_ids": [
         "SRC015",
         "SRC017",
-        "SRC032"
+        "SRC032",
+        "SRC311",
+        "SRC312"
       ],
       "caution_ja": "訂正と撤回は別物。訂正があるだけで結論が全部無効とはしない。"
     },
@@ -203,7 +222,9 @@
       "search_query": "N of 1 behavioral intervention self monitoring regression to mean methods",
       "priority": 2,
       "source_ids": [
-        "SRC224"
+        "SRC224",
+        "SRC302",
+        "SRC308"
       ],
       "caution_ja": "薬、断食、睡眠削減など危険な自己実験は扱わない。個人の体験を一般的な因果証拠としない。",
       "source_review_ids": [

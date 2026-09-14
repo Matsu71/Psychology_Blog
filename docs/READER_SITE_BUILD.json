@@ -5,10 +5,12 @@
   "topic_count": 300,
   "category_count": 28,
   "navigation_group_count": 8,
+  "learning_path_count": 4,
+  "glossary_term_count": 24,
   "canonical_manuscript_count": 60,
-  "reader_topic_count": 64,
-  "reader_rewrites": 12,
-  "new_reader_drafts": 4,
+  "reader_topic_count": 71,
+  "reader_rewrites": 17,
+  "new_reader_drafts": 11,
   "approved_article_count": 0,
   "display_title_chars": {
     "original_median": 21.0,
@@ -16,7 +18,7 @@
     "original_max": 31,
     "new_max": 17
   },
-  "html_page_count": 104,
+  "html_page_count": 117,
   "generated_files": [
     "docs/redesign/TITLE_AUDIT.csv",
     "assets/site.css",
@@ -103,8 +105,15 @@
     "read/PSY-DIG-004/index.html",
     "read/PSY-DIG-007/index.html",
     "read/PSY-RES-001/index.html",
+    "read/PSY-RES-002/index.html",
     "read/PSY-RES-003/index.html",
+    "read/PSY-RES-004/index.html",
     "read/PSY-RES-005/index.html",
+    "read/PSY-RES-006/index.html",
+    "read/PSY-RES-007/index.html",
+    "read/PSY-RES-008/index.html",
+    "read/PSY-RES-009/index.html",
+    "read/PSY-RES-010/index.html",
     "read/PSY-WRK-001/index.html",
     "read/PSY-WRK-002/index.html",
     "read/PSY-WRK-011/index.html",
@@ -125,7 +134,13 @@
     "read/PSY-LIF-004/index.html",
     "read/PSY-LIF-005/index.html",
     "search/index.html",
-    "about/index.html"
+    "about/index.html",
+    "learn/index.html",
+    "learn/research/index.html",
+    "learn/learning/index.html",
+    "learn/habits/index.html",
+    "learn/decisions/index.html",
+    "glossary/index.html"
   ],
   "research_truth_validated": false
 }
