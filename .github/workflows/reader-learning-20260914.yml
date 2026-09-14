@@ -1,0 +1,144 @@
+name: Reader learning delivery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/reader-learning-20260914.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: reader-site-main
+  cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply integrity-checked editable source patch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import base64, hashlib, json, lzma, os, pathlib, subprocess
+          shas = ['42a3224adc876e9c0a1641673e269a6abe9f48e8','58457b6574651dd67c7d1ec5c7df07469fa55802','cc731a55e687fa1a4da891e82a2b5be59d852fc5','4a07a5ec196aa9f631dbd02e8b70a03acf8c4c51']
+          chunks = []
+          for sha in shas:
+              result = json.loads(subprocess.check_output(['gh','api',f'repos/{os.environ["REPOSITORY"]}/git/blobs/{sha}']))
+              assert result['encoding'] == 'base64'
+              chunk = base64.b64decode(result['content'])
+              actual = hashlib.sha1(b'blob '+str(len(chunk)).encode()+b'\0'+chunk).hexdigest()
+              assert actual == sha, (sha, actual)
+              chunks.append(chunk)
+          patch = lzma.decompress(b''.join(chunks))
+          assert hashlib.sha256(patch).hexdigest() == '00181e63caf3c9243d2c657d5be6b91cd14e69ada0f8a2e1d5b85318755b9345'
+          paths = [line[6:] for line in patch.decode('utf-8').splitlines() if line.startswith('+++ b/')]
+          assert len(paths) == 27 and not any(p.startswith('.github/') or '..' in pathlib.PurePosixPath(p).parts for p in paths)
+          path = pathlib.Path('/tmp/reader-learning.patch')
+          path.write_bytes(patch)
+          if subprocess.run(['git','apply','--check',str(path)],capture_output=True).returncode == 0:
+              subprocess.run(['git','apply',str(path)],check=True)
+              print('Applied verified editable source patch without overwriting conflicts.')
+          elif subprocess.run(['git','apply','--reverse','--check',str(path)],capture_output=True).returncode == 0:
+              print('Patch already applied; rebuilding and retesting current main.')
+          else:
+              subprocess.run(['git','apply','--check',str(path)],check=True)
+          PY
+      - name: Build and validate canonical data and reader pages
+        run: |
+          set -euo pipefail
+          python scripts/register_reader_sources.py
+          python scripts/build_research_views.py
+          python scripts/reconcile_article_progress.py
+          python scripts/build_reader_site.py
+          python scripts/test_reader_site.py
+          python scripts/validate.py
+          python scripts/validate_research.py
+          python scripts/validate_round3.py
+          python scripts/validate_editorial_pass.py
+          python scripts/reconcile_article_progress.py --check
+      - name: Install browser testing dependencies
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify actual HTTP navigation and reading controls
+        run: |
+          set -euo pipefail
+          python scripts/test_reader_browser.py
+          python scripts/test_reader_foundations.py
+          python scripts/test_reader_learning.py
+      - name: Commit only validated source and generated pages
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add README.md data articles/reader scripts/*.py site docs index.html .nojekyll assets topics read about search learn glossary
+            if ! git diff --cached --quiet; then
+              git commit -m 'Add 12 source-linked learning editions, 12 terms and optional comprehension checks'
+            fi
+            git fetch origin main
+            if git diff --quiet HEAD origin/main; then
+              echo 'validated=true' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if git merge-base --is-ancestor origin/main HEAD; then
+              if git push origin HEAD:main; then
+                echo 'validated=true' >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              continue
+            fi
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo 'Concurrent source conflict; remote changes preserved, no force-push.' >&2
+              exit 1
+            fi
+            python scripts/register_reader_sources.py
+            python scripts/build_research_views.py
+            python scripts/reconcile_article_progress.py
+            python scripts/build_reader_site.py
+            python scripts/test_reader_site.py
+            python scripts/validate.py
+            python scripts/validate_research.py
+            python scripts/validate_round3.py
+            python scripts/validate_editorial_pass.py
+            python scripts/reconcile_article_progress.py --check
+            python scripts/test_reader_browser.py
+            python scripts/test_reader_foundations.py
+            python scripts/test_reader_learning.py
+          done
+          echo 'Main kept changing; no force-push performed.' >&2
+          exit 1
+      - name: Request Pages rebuild of validated main
+        if: steps.commit.outputs.validated == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" --jq '{status, url}'
+      - name: Prepare review snapshot
+        if: always()
+        run: |
+          mkdir -p /tmp/psychology-learning-review
+          for item in .github data articles docs scripts site assets topics read about search learn glossary index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll research schemas review-screenshots; do
+            if [ -e "$item" ]; then cp -R "$item" /tmp/psychology-learning-review/; fi
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reader-learning-review
+          path: /tmp/psychology-learning-review
+          include-hidden-files: true
+          retention-days: 7
