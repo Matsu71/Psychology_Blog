@@ -7,6 +7,8 @@ on:
       - '.github/workflows/reader-site.yml'
       - 'scripts/build_reader_site.py'
       - 'scripts/reader_foundations.py'
+      - 'scripts/reader_learning.py'
+      - 'scripts/test_reader_learning.py'
       - 'scripts/test_reader_foundations.py'
       - 'scripts/test_reader_site.py'
       - 'scripts/test_reader_browser.py'
@@ -59,6 +61,7 @@ jobs:
           set -euo pipefail
           python scripts/test_reader_browser.py
           python scripts/test_reader_foundations.py
+          python scripts/test_reader_learning.py
       - name: Commit validated editable source and generated pages
         id: commit
         run: |
@@ -104,6 +107,7 @@ jobs:
             python scripts/reconcile_article_progress.py --check
             python scripts/test_reader_browser.py
             python scripts/test_reader_foundations.py
+            python scripts/test_reader_learning.py
           done
           echo 'Main kept changing during safe publication; no force-push performed.' >&2
           exit 1
