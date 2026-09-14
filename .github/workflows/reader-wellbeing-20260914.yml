@@ -1,0 +1,156 @@
+name: Reader wellbeing delivery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/reader-wellbeing-20260914.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: reader-site-main
+  cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply integrity-checked editable source patch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          git merge-base --is-ancestor a1240987e53adad27c6fc3e77b1516cd42045e00 HEAD
+          python - <<'PY'
+          import base64, hashlib, json, lzma, os, pathlib, subprocess
+          shas = ['7d13a902e2b471971f1de2e92913532c375e86b7','5882fbc933da6523b6a34c88b5c944260689b014','facfd6896b662cd040e6d7ab547a31a9fb4478e1']
+          chunks = []
+          for sha in shas:
+              result = json.loads(subprocess.check_output(['gh','api',f'repos/{os.environ["REPOSITORY"]}/git/blobs/{sha}']))
+              assert result['encoding'] == 'base64'
+              chunk = base64.b64decode(result['content'])
+              actual = hashlib.sha1(b'blob '+str(len(chunk)).encode()+b'\0'+chunk).hexdigest()
+              assert actual == sha, (sha, actual)
+              chunks.append(chunk)
+          compressed = b''.join(chunks)
+          assert len(compressed) == 37332
+          patch = lzma.decompress(compressed)
+          assert hashlib.sha256(patch).hexdigest() == '219f01b956bc94406bc9b4b2b16a74375c8bee74466eb01ec7decab4db2680a7'
+          paths = [line[6:] for line in patch.decode('utf-8').splitlines() if line.startswith('+++ b/')]
+          assert len(paths) == 30 and len(set(paths)) == 30
+          for p in paths:
+              assert not p.startswith('/') and '..' not in pathlib.PurePosixPath(p).parts
+              assert not p.startswith('.github/') or p == '.github/workflows/reader-site.yml'
+          path = pathlib.Path('/tmp/reader-wellbeing.patch')
+          path.write_bytes(patch)
+          if subprocess.run(['git','apply','--check',str(path)],capture_output=True).returncode == 0:
+              subprocess.run(['git','apply',str(path)],check=True)
+              print('Applied verified 30-file patch, including the routine validation workflow.')
+          elif subprocess.run(['git','apply','--reverse','--check',str(path)],capture_output=True).returncode == 0:
+              print('Patch already applied; rebuilding and retesting current main.')
+          else:
+              subprocess.run(['git','apply','--check',str(path)],check=True)
+          PY
+      - name: Build and validate canonical data and reader pages
+        run: |
+          set -euo pipefail
+          python scripts/register_reader_sources.py
+          python scripts/build_research_views.py
+          python scripts/reconcile_article_progress.py
+          python scripts/build_reader_site.py
+          python scripts/test_reader_site.py
+          python scripts/validate.py
+          python scripts/validate_research.py
+          python scripts/validate_round3.py
+          python scripts/validate_editorial_pass.py
+          python scripts/reconcile_article_progress.py --check
+      - name: Install browser testing dependencies
+        run: |
+          python -m pip install playwright==1.57.0 beautifulsoup4==4.14.3
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify real HTTP reading, reference return links and all previous features
+        run: |
+          set -euo pipefail
+          python scripts/test_reader_browser.py
+          python scripts/test_reader_foundations.py
+          python scripts/test_reader_learning.py
+          python scripts/test_reader_emotions.py
+          python scripts/test_reader_wellbeing.py
+      - name: Commit only validated source and generated pages
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # This one-time delivery is complete; retain the normal validation workflow.
+          git rm --ignore-unmatch .github/workflows/reader-wellbeing-20260914.yml
+          for attempt in 1 2 3; do
+            git add .github/workflows/reader-site.yml README.md data articles/reader scripts/*.py site docs index.html .nojekyll assets topics read about search learn glossary
+            if ! git diff --cached --quiet; then
+              git commit -m 'Improve 9 wellbeing/work editions and source navigation across 90 articles'
+            fi
+            git fetch origin main
+            if git diff --quiet HEAD origin/main; then
+              echo 'validated=true' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if git merge-base --is-ancestor origin/main HEAD; then
+              if git push origin HEAD:main; then
+                echo 'validated=true' >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              continue
+            fi
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo 'Concurrent source conflict; remote changes preserved, no force-push.' >&2
+              exit 1
+            fi
+            python scripts/register_reader_sources.py
+            python scripts/build_research_views.py
+            python scripts/reconcile_article_progress.py
+            python scripts/build_reader_site.py
+            python scripts/test_reader_site.py
+            python scripts/validate.py
+            python scripts/validate_research.py
+            python scripts/validate_round3.py
+            python scripts/validate_editorial_pass.py
+            python scripts/reconcile_article_progress.py --check
+            python scripts/test_reader_browser.py
+            python scripts/test_reader_foundations.py
+            python scripts/test_reader_learning.py
+            python scripts/test_reader_emotions.py
+            python scripts/test_reader_wellbeing.py
+          done
+          echo 'Main kept changing; no force-push performed.' >&2
+          exit 1
+      - name: Request Pages rebuild of validated main
+        if: steps.commit.outputs.validated == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" --jq '{status, url}'
+      - name: Prepare review snapshot
+        if: always()
+        run: |
+          mkdir -p /tmp/psychology-wellbeing-review
+          for item in .github data articles docs scripts site assets topics read about search learn glossary index.html README.md AGENTS.md DEVELOPMENT_POLICY.md .nojekyll research schemas review-screenshots; do
+            if [ -e "$item" ]; then cp -R "$item" /tmp/psychology-wellbeing-review/; fi
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reader-wellbeing-review
+          path: /tmp/psychology-wellbeing-review
+          include-hidden-files: true
+          retention-days: 7
