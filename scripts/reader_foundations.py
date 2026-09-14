@@ -21,7 +21,7 @@ class Foundations:
         return ' '.join(w for t in terms for w in [t['title'], t['reading'], *t['aliases']])
 
     def home_links(self, current, rel):
-        return f'''<nav class="learning-entry" aria-label="読み始める"><a href="{esc(rel(current,'learn/index.html'))}"><strong>基礎から学ぶ</strong><span>{len(self.series)}つの学習ガイド</span></a><a href="{esc(rel(current,'glossary/index.html'))}"><strong>用語を調べる</strong><span>記憶・学習と研究の{len(self.terms)}語</span></a></nav>'''
+        return f'''<nav class="learning-entry" aria-label="読み始める"><a href="{esc(rel(current,'learn/index.html'))}"><strong>基礎から学ぶ</strong><span>{len(self.series)}つの学習ガイド</span></a><a href="{esc(rel(current,'glossary/index.html'))}"><strong>用語を調べる</strong><span>心理学・研究の{len(self.terms)}語</span></a></nav>'''
 
     def reader_links(self, tid, current, rel, title):
         terms = [t for t in self.terms if tid in t['topic_ids']]
@@ -86,7 +86,7 @@ class Foundations:
             mins=sum(site.minutes(t) for t in series['topic_ids'])
             body += f'<section class="learning-card"><span class="eyebrow">{len(series["topic_ids"])}本 · 合計約{mins}分</span><h2><a href="{esc(url)}">{esc(series["title"])}</a></h2><p>{esc(series["description"])}</p><a class="learning-start" href="{esc(url)}">読む順番を見る →</a></section>'
         body += f'</div><p class="guide-note">用語だけ確かめるときは、<a href="{esc(site.rel(p,"glossary/index.html"))}">用語集</a>へ。所要時間は文字数による目安です。</p>'
-        site.write(p,site.shell(p,'基礎から学ぶ','研究、学習、習慣、判断を順に読む学習ガイド。',body))
+        site.write(p,site.shell(p,'基礎から学ぶ','研究、学習、習慣、感情、対話を順に読む学習ガイド。',body))
         for series in self.series:
             p=f'learn/{series["id"]}/index.html'
             body=site.breadcrumbs(p,[('基礎から学ぶ','learn/index.html'),(series['title'],None)])
@@ -101,7 +101,7 @@ class Foundations:
             site.write(p,site.shell(p,series['title'],series['description'],body))
         p='glossary/index.html'
         body=site.breadcrumbs(p,[('用語集',None)])
-        body+=f'<div class="page-heading"><h1>用語集</h1><p>記憶・学習と研究の{len(self.terms)}語。短い意味から、例や解説へ進めます。</p></div>'
+        body+=f'<div class="page-heading"><h1>用語集</h1><p>心理学・研究の{len(self.terms)}語。短い意味から、例や解説へ進めます。</p></div>'
         body+='<form id="glossary-search" class="search-form" role="search"><label for="glossary-query">用語を検索</label><input id="glossary-query" type="search" name="q" placeholder="例：分散学習、こうかりょう" maxlength="150"><button type="submit">検索</button></form><div id="glossary-tools" hidden><p id="glossary-count" role="status" aria-live="polite"></p><button type="button" id="glossary-clear">検索をクリア</button></div><noscript><p class="notice">全用語を表示しています。ブラウザのページ内検索も利用できます。</p></noscript>'
         body+='<nav class="index-links" aria-label="用語の分類">'+''.join(f'<a href="#group-{esc(g["id"])}" data-glossary-group-link="{esc(g["id"])}">{esc(g["name"])}</a>' for g in self.groups)+'</nav><p id="glossary-empty" class="notice" hidden>一致する用語はありません。短い言葉や別の表記で検索してください。</p>'
         for group in self.groups:
@@ -117,4 +117,4 @@ class Foundations:
             locators=' / '.join(dict.fromkeys(t['locator'] for t in self.terms if sid in t['source_ids']))
             body+=f'<li id="glossary-ref-{esc(sid)}">{esc(sid)} · <a href="{esc(s["url"])}">{esc(s["title"])}</a><p>{esc(locators)}。全文の網羅的な点検ではありません。</p></li>'
         body+='</ul></details></section>'
-        site.write(p,site.shell(p,'用語集',f'記憶・学習と研究の{len(self.terms)}語を例と出典で確認。',body))
+        site.write(p,site.shell(p,'用語集',f'心理学・研究の{len(self.terms)}語を例と出典で確認。',body))

@@ -22,6 +22,10 @@
     {
       "id": "memory-learning",
       "name": "記憶・学習"
+    },
+    {
+      "id": "emotion-dialogue",
+      "name": "感情・対話"
     }
   ],
   "series": [
@@ -104,6 +108,47 @@
         "PSY-ATT-002",
         "PSY-ATT-005",
         "PSY-ATT-004"
+      ]
+    },
+    {
+      "id": "emotions",
+      "title": "感情とストレス",
+      "description": "緊張、怒り、考えすぎ。対処法の違いと研究の限界を10本で読みます。",
+      "topic_ids": [
+        "PSY-EMO-001",
+        "PSY-EMO-006",
+        "PSY-EMO-008",
+        "PSY-EMO-002",
+        "PSY-EMO-003",
+        "PSY-EMO-005",
+        "PSY-EMO-004",
+        "PSY-EMO-007",
+        "PSY-EMO-010",
+        "PSY-EMO-009"
+      ],
+      "goals": [
+        {
+          "label": "緊張を考える",
+          "topic_id": "PSY-EMO-006"
+        },
+        {
+          "label": "考えを整理する",
+          "topic_id": "PSY-EMO-004"
+        },
+        {
+          "label": "怒りに向き合う",
+          "topic_id": "PSY-EMO-008"
+        }
+      ]
+    },
+    {
+      "id": "dialogue",
+      "title": "対話と理解",
+      "description": "聞く、確かめる、一人の時間。相手との距離を考える3本。",
+      "topic_ids": [
+        "PSY-REL-004",
+        "PSY-REL-010",
+        "PSY-REL-002"
       ]
     }
   ],
@@ -848,6 +893,242 @@
       "topic_ids": [
         "PSY-LEA-008"
       ]
+    },
+    {
+      "id": "emotion-regulation",
+      "title": "感情調整",
+      "reading": "かんじょうちょうせい",
+      "aliases": [
+        "emotion regulation",
+        "感情の調整"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "感情の体験や表し方などに働きかけること。落ち着かせることだけを指すわけではありません。",
+      "example": "架空例：発表前の緊張の捉え方を変える。感情を完全に消す能力のことではありません。",
+      "source_ids": [
+        "SRC321"
+      ],
+      "topic_ids": [
+        "PSY-EMO-002",
+        "PSY-EMO-003"
+      ],
+      "locator": "Gross 1998 Abstract"
+    },
+    {
+      "id": "reappraisal",
+      "title": "認知的再評価",
+      "reading": "にんちてきさいひょうか",
+      "aliases": [
+        "cognitive reappraisal",
+        "リフレーミング"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "出来事の意味の捉え方を変え、感情への影響を変えようとする方略。",
+      "example": "架空例：短い返信を、拒絶ではなく忙しさの可能性として考える。どちらも未確認なら推測です。",
+      "source_ids": [
+        "SRC321"
+      ],
+      "topic_ids": [
+        "PSY-EMO-002"
+      ],
+      "locator": "Gross 1998 Abstract"
+    },
+    {
+      "id": "expressive-suppression",
+      "title": "表出の抑制",
+      "reading": "ひょうしゅつのよくせい",
+      "aliases": [
+        "expressive suppression",
+        "感情抑制"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "感情が表情や行動に表れるのを抑えようとすること。主観的な体験とは区別します。",
+      "example": "架空例：怒っていても会議中に顔へ出さない。内側の気分が変わるかは、別に確かめる問いです。",
+      "source_ids": [
+        "SRC329"
+      ],
+      "topic_ids": [
+        "PSY-EMO-003"
+      ],
+      "locator": "Jonesら Abstract"
+    },
+    {
+      "id": "repetitive-thought",
+      "title": "反復思考",
+      "reading": "はんぷくしこう",
+      "aliases": [
+        "repetitive thought",
+        "反すう",
+        "反芻",
+        "はんすう",
+        "rumination"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "同じ問題や経験を繰り返し考えること。役立つ振り返りと、つらさが続く考え方を分けます。",
+      "example": "架空例：「次は何を準備するか」と「なぜ自分は駄目か」の繰り返しは同じではありません。診断用の区分ではありません。",
+      "source_ids": [
+        "SRC322"
+      ],
+      "topic_ids": [
+        "PSY-EMO-004"
+      ],
+      "locator": "Watkins Abstract"
+    },
+    {
+      "id": "affect-labeling",
+      "title": "感情ラベリング",
+      "reading": "かんじょうらべりんぐ",
+      "aliases": [
+        "affect labeling",
+        "感情に名前をつける"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "感情を表す言葉をつけること。脳画像の課題と、日常で自分の気持ちを話す場面は同一ではありません。",
+      "example": "架空例：「不安かもしれない」と仮に表現する。言葉が出ないことを失敗とみなしません。",
+      "source_ids": [
+        "SRC323"
+      ],
+      "topic_ids": [
+        "PSY-EMO-005"
+      ],
+      "locator": "Liebermanら Abstract"
+    },
+    {
+      "id": "arousal",
+      "title": "覚醒",
+      "reading": "かくせい",
+      "aliases": [
+        "arousal",
+        "体の興奮"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "ここでは、感情に伴う体の活動や興奮の程度。怒りの強さそのものと同義ではありません。",
+      "example": "架空例：同じ胸の高鳴りでも、発表への期待と怒りは違います。心拍だけで感情を決めつけません。",
+      "source_ids": [
+        "SRC058"
+      ],
+      "topic_ids": [
+        "PSY-EMO-008"
+      ],
+      "locator": "著者所属機関OSUの研究解説"
+    },
+    {
+      "id": "paced-breathing",
+      "title": "ペース呼吸",
+      "reading": "ぺーすこきゅう",
+      "aliases": [
+        "paced breathing",
+        "coherent breathing",
+        "呼吸法"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "一定の合図やペースに合わせて呼吸する方法。速さ以外の条件も区別して評価します。",
+      "example": "架空例：音の合図で呼吸する実験。最適な回数の指示ではなく、無理な息止めや速い呼吸は勧めません。",
+      "source_ids": [
+        "SRC324"
+      ],
+      "topic_ids": [
+        "PSY-EMO-006"
+      ],
+      "locator": "Finchamら2023 RCT Abstract"
+    },
+    {
+      "id": "expressive-writing",
+      "title": "表出筆記",
+      "reading": "ひょうしゅつひっき",
+      "aliases": [
+        "expressive writing",
+        "筆記開示",
+        "感情を書き出す"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "感情を伴う経験について書く課題。予定や出来事だけを記録する日記とは区別します。",
+      "example": "架空例：困った出来事への気持ちを文章にする。つらい経験を詳しく書いたり、他人に見せたりする義務はありません。",
+      "source_ids": [
+        "SRC325"
+      ],
+      "topic_ids": [
+        "PSY-EMO-007"
+      ],
+      "locator": "Guo Abstract"
+    },
+    {
+      "id": "affective-forecasting",
+      "title": "感情予測",
+      "reading": "かんじょうよそく",
+      "aliases": [
+        "affective forecasting",
+        "インパクトバイアス"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "未来の出来事に、自分がどのように感じるかを予想すること。強さと持続を分けます。",
+      "example": "架空例：転職の合否を知った瞬間と、一週間後の普段の暮らしを別々に考える。実測値ではありません。",
+      "source_ids": [
+        "SRC326"
+      ],
+      "topic_ids": [
+        "PSY-EMO-009"
+      ],
+      "locator": "Wilson・Gilbert Abstract"
+    },
+    {
+      "id": "facial-feedback",
+      "title": "表情フィードバック",
+      "reading": "ひょうじょうふぃーどばっく",
+      "aliases": [
+        "facial feedback",
+        "笑顔の効果"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "顔の動作が感情の体験に影響するという考え方。操作方法によって結果が違う可能性があります。",
+      "example": "架空例：表情を変えた直後の気分を比べる実験。つらいときにも笑うべきだという意味ではありません。",
+      "source_ids": [
+        "SRC066"
+      ],
+      "topic_ids": [
+        "PSY-EMO-010"
+      ],
+      "locator": "Many Smiles Abstract"
+    },
+    {
+      "id": "high-quality-listening",
+      "title": "質の高い傾聴",
+      "reading": "しつのたかいけいちょう",
+      "aliases": [
+        "high-quality listening",
+        "傾聴",
+        "けいちょう"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "注意を向け、理解しようとし、善意が伝わる聞き方。沈黙や全てへの同意だけを意味しません。",
+      "example": "架空例：聞いた内容が合っているか相手に確かめる。うなずきの回数や目線を一律に求めるものではありません。",
+      "source_ids": [
+        "SRC327"
+      ],
+      "topic_ids": [
+        "PSY-REL-004"
+      ],
+      "locator": "Itzchakovら Abstract・導入の定義"
+    },
+    {
+      "id": "perspective-getting",
+      "title": "本人から確かめる",
+      "reading": "ほんにんからたしかめる",
+      "aliases": [
+        "perspective getting",
+        "視点取得",
+        "相手の立場"
+      ],
+      "group": "emotion-dialogue",
+      "definition": "相手の内面を想像するだけでなく、会話などから本人の考えについて情報を得ること。",
+      "example": "架空例：「何を優先したい？」と尋ねる。話したくない内容を聞き出すことや、希望への無条件の同意とは別です。",
+      "source_ids": [
+        "SRC209"
+      ],
+      "topic_ids": [
+        "PSY-REL-010"
+      ],
+      "locator": "Eyalら 著者公開Abstract"
     }
   ]
 }

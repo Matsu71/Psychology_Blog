@@ -19,6 +19,7 @@ import statistics
 import sys
 from reader_foundations import Foundations
 from reader_learning import inject_check
+from reader_navigation import ReaderNavigation
 from urllib.parse import urlparse, quote
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -127,14 +128,17 @@ def group_card(current: str, gid: str) -> str:
     return f'<div class="group-card"><h3><a href="{esc(rel(current,"topics/"+gid+"/index.html"))}">{esc(g["name"])}</a></h3><p>{esc(labels)}</p></div>'
 
 def rows(current: str, tids: list[str]) -> str:
-    output = []
+    ready=[];pending=[]
     for tid in tids:
         if tid in READERS:
-            line = f'<a href="{esc(reader_link(current,tid))}">{esc(title(tid))}</a><small>編集稿 · 約{minutes(tid)}分</small>'
+            line=f'<a href="{esc(reader_link(current,tid))}">{esc(title(tid))}</a><small>編集稿 · 約{minutes(tid)}分</small>'
+            ready.append(f'<li class="topic-row" data-topic-id="{esc(tid)}">{line}</li>')
         else:
-            line = f'<span class="pending-title">{esc(title(tid))}</span><small>準備中</small>'
-        output.append(f'<li class="topic-row" data-topic-id="{esc(tid)}">{line}</li>')
-    return '<ul class="topic-list">' + ''.join(output) + '</ul>'
+            pending.append(f'<li class="topic-row" data-topic-id="{esc(tid)}"><span class="pending-title">{esc(title(tid))}</span><small>準備中</small></li>')
+    out='<ul class="topic-list ready-topics">'+''.join(ready)+'</ul>' if ready else '<p class="category-empty">この分野の解説は準備中です。</p>'
+    if pending:
+        out+=f'<details class="planned-topics"><summary>準備中（{len(pending)}件）</summary><ul class="topic-list">'+''.join(pending)+'</ul></details>'
+    return out
 
 def topic_ids(cid: str) -> list[str]:
     return [tid for tid,t in TOPICS.items() if t['category_id']==cid]
@@ -156,6 +160,8 @@ def build_home():
 <section class="section editor-note"><h2>根拠と限界を読む</h2><div><p>結論だけでなく、研究の対象と、まだ分からないことを載せます。本文の出典から元の論文や公的資料へ進めます。</p><a href="{esc(rel(p,'about/index.html'))}">編集方針を見る →</a></div></section>'''
     write(p,shell(p,CONFIG['site_name'],'心理学・行動科学のテーマを、睡眠、習慣、学習、人間関係などから探す情報サイト。',body))
 
+NAVIGATION=ReaderNavigation(ROOT)
+
 def build_topics():
     p='topics/index.html'
     body=breadcrumbs(p,[('テーマ一覧',None)])+f'<div class="page-heading"><h1>テーマ一覧</h1><p>{len(CATEGORIES)}分野・{len(TOPICS)}テーマ。編集稿のあるテーマと、準備中のテーマを分けて表示しています。</p></div>'
@@ -169,7 +175,7 @@ def build_topics():
     for gid,g in GROUPS.items():
         p=f'topics/{gid}/index.html'
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(g['name'],None)])
-        body+=f'<div class="page-heading"><h1>{esc(g["name"])}</h1><p>短い解説から入り、参考文献までたどれます。準備中のテーマには、まだ本文がありません。</p></div><nav class="index-links" aria-label="この分野の分類">'
+        body+=f'<div class="page-heading"><h1>{esc(g["name"])}</h1><p>読める解説を先に表示しています。準備中のテーマは一覧を開いて確認できます。</p></div><nav class="index-links" aria-label="この分野の分類">'
         body+=''.join(f'<a href="#category-{esc(cid)}">{esc(category_label(cid))}</a>' for cid in g['categories'])+'</nav>'
         for cid in g['categories']:
             body+=f'<section class="category-block" id="category-{esc(cid)}"><h2><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a><span class="count">{len(topic_ids(cid))}テーマ</span></h2>{rows(p,topic_ids(cid))}</section>'
@@ -177,7 +183,7 @@ def build_topics():
     for cid,category in CATEGORIES.items():
         p=f'topics/category/{cid}/index.html'; gid=GROUP_OF[cid]
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(GROUPS[gid]['name'],f'topics/{gid}/index.html'),(category_label(cid),None)])
-        body+=f'<div class="page-heading"><h1>{esc(category_label(cid))}</h1><p>{esc(category["scope_ja"])}</p></div>{rows(p,topic_ids(cid))}'
+        body+=f'<div class="page-heading"><h1>{esc(category_label(cid))}</h1><p>{esc(CONFIG["category_descriptions"].get(cid, category["scope_ja"]))}</p></div>{NAVIGATION.category(cid,p,sys.modules[__name__])}{rows(p,topic_ids(cid))}'
         write(p,shell(p,category_label(cid),f'{category_label(cid)}のテーマと参考文献付き解説。',body,active=gid))
 
 def safe_link(url: str, current: str, origin: str) -> str | None:
@@ -338,6 +344,8 @@ def build_readers():
             links+=' · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/foundation_claims.json">段落別の出典対応</a>'
         if tid in {x['topic_id'] for x in load('site/learning_claims.json')['claims']}:
             links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/learning_claims.json">学習記事の段落別出典</a>'
+        if tid in NAVIGATION.notes:
+            links+='<br><a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/emotion_claims.json">感情・対話記事の段落別出典</a>'
         related=EDITIONS.get(tid,{}).get('related_ids',[])
         related=[r for r in related if r in READERS and r!=tid]
         if len(related)<3:
@@ -346,7 +354,7 @@ def build_readers():
         related=related[:3]
         related_html='<section class="related"><h2>あわせて読む</h2><ul>'+''.join(f'<li><a href="{esc(reader_link(p,r))}">{esc(title(r))}</a></li>' for r in related)+'</ul></section>' if related else ''
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
-        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
+        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}{NAVIGATION.scope(tid)}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
         write(p,shell(p,title(tid),summary(tid),body,active=gid,noindex=True))
 
 def build_search():
@@ -373,6 +381,7 @@ def build_about():
     write(p,shell(p,'このサイトについて','出典、記事の確認状況、編集方針と訂正方法。',body))
 
 def main():
+    NAVIGATION.validate(sys.modules[__name__])
     if set(CONFIG['display_titles']) != set(TOPICS):
         raise ValueError('Display title coverage must match the canonical topic IDs')
     if len(GROUP_OF)!=len(CATEGORIES) or set(GROUP_OF)!=set(CATEGORIES):

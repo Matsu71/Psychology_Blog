@@ -1,0 +1,772 @@
+{
+  "schema_version": "1.0",
+  "migration_id": "emotion-dialogue-20260914",
+  "updated_on": "2026-09-14",
+  "entries": [
+    {
+      "topic_id": "PSY-EMO-001",
+      "source": {
+        "id": "SRC028",
+        "title": "I’m So Stressed Out! Fact Sheet",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verified_via_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "ストレス・不安・セルフケア・相談に関する概説。呼吸法や筆記介入の個別試験の代わりにはしない。"
+      },
+      "assessment": {
+        "source_id": "SRC028",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-001",
+      "source": {
+        "id": "SRC330",
+        "title": "困ったときの相談先｜こころもメンテしよう",
+        "authors_display": "厚生労働省",
+        "year": null,
+        "journal": "こころもメンテしよう",
+        "doi": null,
+        "url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verified_via_url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verification_scope": "official_page_reviewed",
+        "source_type": "official_health_information",
+        "notes_ja": "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC330",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-002",
+      "source": {
+        "id": "SRC321",
+        "title": "Antecedent- and response-focused emotion regulation: divergent consequences for experience, expression, and physiology",
+        "authors_display": "Gross JJ",
+        "year": 1998,
+        "journal": "Journal of Personality and Social Psychology",
+        "doi": "10.1037/0022-3514.74.1.224",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9457784/",
+        "verified_via_url": "https://www.researchgate.net/publication/374669518_Antecedent-_and_Response-Focused_Emotion_Regulation_Divergent_Consequences_for_Experience_Expression_and_Physiology",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC321",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-002",
+      "source": {
+        "id": "SRC056",
+        "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
+        "authors_display": "Webb TL, Miles E, Sheeran P.",
+        "year": 2012,
+        "journal": "Psychological bulletin",
+        "source_type": "journal_article",
+        "doi": "10.1037/a0027600",
+        "pmid": "22582737",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22582737/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Dealing+with+feeling%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2012-05-14",
+        "provenance_query_ids": [
+          "SEED-023"
+        ],
+        "indexed_related_records": [
+          {
+            "id": "23607433",
+            "source": "MED",
+            "reference": "Psychol Bull. 2013 May;139(3):725-9. doi: 10.1037/a0030026",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC056",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "取得できたPubMed Abstract（306比較、方略・結果指標・調整要因）を確認。再取得は空応答。全論文点検、正式なバイアス評価、方法論コメントの解決は未実施。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-003",
+      "source": {
+        "id": "SRC321",
+        "title": "Antecedent- and response-focused emotion regulation: divergent consequences for experience, expression, and physiology",
+        "authors_display": "Gross JJ",
+        "year": 1998,
+        "journal": "Journal of Personality and Social Psychology",
+        "doi": "10.1037/0022-3514.74.1.224",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9457784/",
+        "verified_via_url": "https://www.researchgate.net/publication/374669518_Antecedent-_and_Response-Focused_Emotion_Regulation_Divergent_Consequences_for_Experience_Expression_and_Physiology",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC321",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-003",
+      "source": {
+        "id": "SRC329",
+        "title": "Conceal and Don’t Feel as Much? Experiential Effects of Expressive Suppression",
+        "authors_display": "Jones JL; Isaacowitz DM; Ayduk Ö",
+        "year": 2026,
+        "journal": "Personality and Social Psychology Bulletin",
+        "doi": "10.1177/01461672241290397",
+        "url": "https://journals.sagepub.com/doi/10.1177/01461672241290397",
+        "verified_via_url": "https://journals.sagepub.com/doi/10.1177/01461672241290397",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC329",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "source": {
+        "id": "SRC322",
+        "title": "Constructive and unconstructive repetitive thought",
+        "authors_display": "Watkins ER",
+        "year": 2008,
+        "journal": "Psychological Bulletin",
+        "doi": "10.1037/0033-2909.134.2.163",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18298268/",
+        "verified_via_url": "https://pubmed.ncbi.nlm.nih.gov/18298268/",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC322",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "source": {
+        "id": "SRC028",
+        "title": "I’m So Stressed Out! Fact Sheet",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verified_via_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "ストレス・不安・セルフケア・相談に関する概説。呼吸法や筆記介入の個別試験の代わりにはしない。"
+      },
+      "assessment": {
+        "source_id": "SRC028",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "source": {
+        "id": "SRC330",
+        "title": "困ったときの相談先｜こころもメンテしよう",
+        "authors_display": "厚生労働省",
+        "year": null,
+        "journal": "こころもメンテしよう",
+        "doi": null,
+        "url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verified_via_url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verification_scope": "official_page_reviewed",
+        "source_type": "official_health_information",
+        "notes_ja": "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC330",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-005",
+      "source": {
+        "id": "SRC323",
+        "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+        "authors_display": "Lieberman MD; Eisenberger NI; Crockett MJ; Tom SM; Pfeifer JH; Way BM",
+        "year": 2007,
+        "journal": "Psychological Science",
+        "doi": "10.1111/j.1467-9280.2007.01916.x",
+        "url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2007.01916.x",
+        "verified_via_url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2007.01916.x",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC323",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "source": {
+        "id": "SRC057",
+        "title": "Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials.",
+        "authors_display": "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K.",
+        "year": 2023,
+        "journal": "Scientific reports",
+        "source_type": "journal_article",
+        "doi": "10.1038/s41598-022-27247-y",
+        "pmid": "36624160",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36624160/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Effect+of+breathwork+on+stress%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2023-01-09",
+        "provenance_query_ids": [
+          "SEED-024"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC057",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "出版社のAbstract、Methodsの比較条件、Resultsの対象者・ストレス・著者によるバイアス評価を確認。785人、12RCT、2022年2月までの検索。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "source": {
+        "id": "SRC324",
+        "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+        "authors_display": "Fincham GW; Strauss C; Cavanagh K",
+        "year": 2023,
+        "journal": "Scientific Reports",
+        "doi": "10.1038/s41598-023-49279-8",
+        "url": "https://link.springer.com/article/10.1038/s41598-023-49279-8",
+        "verified_via_url": "https://link.springer.com/article/10.1038/s41598-023-49279-8",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC324",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "source": {
+        "id": "SRC028",
+        "title": "I’m So Stressed Out! Fact Sheet",
+        "authors_display": "NIMH",
+        "year": null,
+        "journal": null,
+        "source_type": "official_health_information",
+        "doi": null,
+        "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verified_via_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "verification_scope": "official_page_reviewed",
+        "notes_ja": "ストレス・不安・セルフケア・相談に関する概説。呼吸法や筆記介入の個別試験の代わりにはしない。"
+      },
+      "assessment": {
+        "source_id": "SRC028",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-007",
+      "source": {
+        "id": "SRC325",
+        "title": "The delayed, durable effect of expressive writing on depression, anxiety and stress: A meta-analytic review of studies with long-term follow-ups",
+        "authors_display": "Guo L",
+        "year": 2023,
+        "journal": "British Journal of Clinical Psychology",
+        "doi": "10.1111/bjc.12408",
+        "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12408",
+        "verified_via_url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12408",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC325",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-007",
+      "source": {
+        "id": "SRC330",
+        "title": "困ったときの相談先｜こころもメンテしよう",
+        "authors_display": "厚生労働省",
+        "year": null,
+        "journal": "こころもメンテしよう",
+        "doi": null,
+        "url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verified_via_url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verification_scope": "official_page_reviewed",
+        "source_type": "official_health_information",
+        "notes_ja": "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC330",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "source": {
+        "id": "SRC058",
+        "title": "A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage?",
+        "authors_display": "Kjærvik SL, Bushman BJ.",
+        "year": 2024,
+        "journal": "Clinical psychology review",
+        "source_type": "journal_article",
+        "doi": "10.1016/j.cpr.2024.102414",
+        "pmid": "38518585",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38518585/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22anger%22+AND+TITLE%3A%22arousal%22+AND+FIRST_PDATE%3A%5B2024-01-01+TO+2024-12-31%5D%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2024-03-11",
+        "provenance_query_ids": [
+          "SEED-025"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC058",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "著者所属機関の研究解説の154研究10189人、覚醒の増減、活動ごとの違いを確認。原論文全文は今回取得できず。既存書誌を保持。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "source": {
+        "id": "SRC324",
+        "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+        "authors_display": "Fincham GW; Strauss C; Cavanagh K",
+        "year": 2023,
+        "journal": "Scientific Reports",
+        "doi": "10.1038/s41598-023-49279-8",
+        "url": "https://link.springer.com/article/10.1038/s41598-023-49279-8",
+        "verified_via_url": "https://link.springer.com/article/10.1038/s41598-023-49279-8",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC324",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "source": {
+        "id": "SRC330",
+        "title": "困ったときの相談先｜こころもメンテしよう",
+        "authors_display": "厚生労働省",
+        "year": null,
+        "journal": "こころもメンテしよう",
+        "doi": null,
+        "url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verified_via_url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+        "verification_scope": "official_page_reviewed",
+        "source_type": "official_health_information",
+        "notes_ja": "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC330",
+        "review_scope": "official_page",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-009",
+      "source": {
+        "id": "SRC326",
+        "title": "Affective Forecasting: Knowing What to Want",
+        "authors_display": "Wilson TD; Gilbert DT",
+        "year": 2005,
+        "journal": "Current Directions in Psychological Science",
+        "doi": "10.1111/j.0963-7214.2005.00355.x",
+        "url": "https://journals.sagepub.com/doi/10.1111/j.0963-7214.2005.00355.x",
+        "verified_via_url": "https://journals.sagepub.com/doi/10.1111/j.0963-7214.2005.00355.x",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC326",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-EMO-010",
+      "source": {
+        "id": "SRC066",
+        "title": "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration.",
+        "authors_display": "Coles NA, March DS, Marmolejo-Ramos F, Larsen JT, Arinze NC, Ndukaihe ILG, Willis ML, Foroni F, Reggev N, Mokady A, Forscher PS, Hunter JF, Kaminski G, Yüvrük E, Kapucu A, Nagy T, Hajdu N, Tejada J, Freitag RMK, Zambrano D, Som B, Aczel B, Barzykowski K, Adamus S, Filip K, Yamada Y, Ikeda A, Eaves DL, Levitan CA, Leiweke S, Parzuchowski M, Butcher N, Pfuhl G, Basnight-Brown DM, Hinojosa JA, Montoro PR, Javela D LG, Vezirian K, IJzerman H, Trujillo N, Pressman SD, Gygax PM, Özdoğru AA, Ruiz-Fernandez S, Ellsworth PC, Gaertner L, Strack F, Marozzi M, Liuzza MT.",
+        "year": 2022,
+        "journal": "Nature human behaviour",
+        "source_type": "journal_article",
+        "doi": "10.1038/s41562-022-01458-9",
+        "pmid": "36266452",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36266452/",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22multi-lab%22+AND+TITLE%3A%22facial+feedback%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "Europe PMC収載の書誌・抄録をAI支援で確認。全文の批判的評価、独立した二重選別、解析の再現は未実施。",
+        "accessed_on": "2026-09-11",
+        "record_role": "reviewed_research",
+        "first_publication_date": "2022-10-20",
+        "provenance_query_ids": [
+          "SEED-032"
+        ],
+        "indexed_related_records": [
+          {
+            "id": "PPR324358",
+            "source": "PPR",
+            "type": "Preprint in",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10002
+          }
+        ],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC066",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-REL-004",
+      "source": {
+        "id": "SRC327",
+        "title": "Connection Heals Wounds: Feeling Listened to Reduces Speakers’ Loneliness Following a Social Rejection Disclosure",
+        "authors_display": "Itzchakov G; Weinstein N; Saluk D; Amar M",
+        "year": 2023,
+        "journal": "Personality and Social Psychology Bulletin",
+        "doi": "10.1177/01461672221100369",
+        "url": "https://journals.sagepub.com/doi/10.1177/01461672221100369",
+        "verified_via_url": "https://journals.sagepub.com/doi/10.1177/01461672221100369",
+        "verification_scope": "article_text_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC327",
+        "review_scope": "selected_fulltext_sections",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-REL-004",
+      "source": {
+        "id": "SRC328",
+        "title": "High-quality listening behaviors linked to social connection between strangers",
+        "authors_display": "West TN; Huston S; Chandler KR; Zhou J; Fredrickson BL",
+        "year": 2025,
+        "journal": "Communications Psychology",
+        "doi": "10.1038/s44271-025-00342-2",
+        "url": "https://www.nature.com/articles/s44271-025-00342-2",
+        "verified_via_url": "https://www.nature.com/articles/s44271-025-00342-2",
+        "verification_scope": "abstract_reviewed",
+        "source_type": "journal_article",
+        "notes_ja": "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。",
+        "accessed_on": "2026-09-14"
+      },
+      "assessment": {
+        "source_id": "SRC328",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    },
+    {
+      "topic_id": "PSY-REL-010",
+      "source": {
+        "id": "SRC209",
+        "title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective.",
+        "authors_display": "Eyal T, Steffel M, Epley N.",
+        "year": 2018,
+        "journal": "Journal of personality and social psychology",
+        "source_type": "journal_article",
+        "doi": "10.1037/pspa0000115",
+        "pmid": "29620401",
+        "url": "https://europepmc.org/article/MED/29620401",
+        "verified_via_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22Perspective+mistaking%22%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-11%5D&format=json&resultType=core&pageSize=5",
+        "verification_scope": "abstract_reviewed",
+        "notes_ja": "テーマとの関連性を予備選別。確認範囲・結論・限界はsource_reviewsとevidenceの対応表を参照。正式な確実性評価ではない。",
+        "accessed_on": "2026-09-11",
+        "record_role": "research_entry",
+        "provenance_query_ids": [
+          "R3-X-104"
+        ],
+        "indexed_related_records": [],
+        "correction_retraction_check": "indexed_links_checked_not_exhaustive"
+      },
+      "assessment": {
+        "source_id": "SRC209",
+        "review_scope": "abstract",
+        "method_signals": null,
+        "formal_risk_of_bias": "not_assessed",
+        "formal_evidence_certainty": "not_assessed",
+        "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+        "provenance_review_ids": [],
+        "limitations_ja": [
+          "著者公開の当該論文Abstract（Perspective mistaking、2018）。25実験と最後の会話条件。実験別全文・全解析は未点検。"
+        ],
+        "integrity_status": "not_exhaustive",
+        "integrity_notices": []
+      }
+    }
+  ]
+}

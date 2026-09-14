@@ -3654,6 +3654,106 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 320
+    },
+    {
+      "source_id": "SRC321",
+      "title": "Antecedent- and response-focused emotion regulation: divergent consequences for experience, expression, and physiology",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 321
+    },
+    {
+      "source_id": "SRC322",
+      "title": "Constructive and unconstructive repetitive thought",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 322
+    },
+    {
+      "source_id": "SRC323",
+      "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 323
+    },
+    {
+      "source_id": "SRC324",
+      "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 324
+    },
+    {
+      "source_id": "SRC325",
+      "title": "The delayed, durable effect of expressive writing on depression, anxiety and stress: A meta-analytic review of studies with long-term follow-ups",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 325
+    },
+    {
+      "source_id": "SRC326",
+      "title": "Affective Forecasting: Knowing What to Want",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 326
+    },
+    {
+      "source_id": "SRC327",
+      "title": "Connection Heals Wounds: Feeling Listened to Reduces Speakers’ Loneliness Following a Social Rejection Disclosure",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 327
+    },
+    {
+      "source_id": "SRC328",
+      "title": "High-quality listening behaviors linked to social connection between strangers",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 328
+    },
+    {
+      "source_id": "SRC329",
+      "title": "Conceal and Don’t Feel as Much? Experiential Effects of Expressive Suppression",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 329
+    },
+    {
+      "source_id": "SRC330",
+      "title": "困ったときの相談先｜こころもメンテしよう",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 330
     }
   ]
 }

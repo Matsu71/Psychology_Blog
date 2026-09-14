@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-14",
+  "scope": "指定箇所の内容確認。正式なRoB・GRADE・独立査読・撤回の網羅調査は未実施。",
+  "sources": [
+    {
+      "source_id": "SRC321",
+      "url": "https://www.researchgate.net/publication/374669518_Antecedent-_and_Response-Focused_Emotion_Regulation_Divergent_Consequences_for_Experience_Expression_and_Physiology",
+      "scope_ja": "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。"
+    },
+    {
+      "source_id": "SRC322",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18298268/",
+      "scope_ja": "2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。"
+    },
+    {
+      "source_id": "SRC323",
+      "url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2007.01916.x",
+      "scope_ja": "2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。"
+    },
+    {
+      "source_id": "SRC324",
+      "url": "https://link.springer.com/article/10.1038/s41598-023-49279-8",
+      "scope_ja": "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。"
+    },
+    {
+      "source_id": "SRC325",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12408",
+      "scope_ja": "2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。"
+    },
+    {
+      "source_id": "SRC326",
+      "url": "https://journals.sagepub.com/doi/10.1111/j.0963-7214.2005.00355.x",
+      "scope_ja": "2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。"
+    },
+    {
+      "source_id": "SRC327",
+      "url": "https://journals.sagepub.com/doi/10.1177/01461672221100369",
+      "scope_ja": "2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。"
+    },
+    {
+      "source_id": "SRC328",
+      "url": "https://www.nature.com/articles/s44271-025-00342-2",
+      "scope_ja": "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。"
+    },
+    {
+      "source_id": "SRC329",
+      "url": "https://journals.sagepub.com/doi/10.1177/01461672241290397",
+      "scope_ja": "2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。"
+    },
+    {
+      "source_id": "SRC330",
+      "url": "https://www.mhlw.go.jp/kokoro/youth/consultation/",
+      "scope_ja": "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+    },
+    {
+      "source_id": "SRC028",
+      "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "scope_ja": "NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。"
+    },
+    {
+      "source_id": "SRC056",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22582737/",
+      "scope_ja": "取得できたPubMed Abstract（306比較、方略・結果指標・調整要因）を確認。再取得は空応答。全論文点検、正式なバイアス評価、方法論コメントの解決は未実施。"
+    },
+    {
+      "source_id": "SRC057",
+      "url": "https://link.springer.com/article/10.1038/s41598-022-27247-y",
+      "scope_ja": "出版社のAbstract、Methodsの比較条件、Resultsの対象者・ストレス・著者によるバイアス評価を確認。785人、12RCT、2022年2月までの検索。"
+    },
+    {
+      "source_id": "SRC058",
+      "url": "https://news.osu.edu/breathe-dont-vent-turning-down-the-heat-is-key-to-managing-anger/",
+      "scope_ja": "著者所属機関の研究解説の154研究10189人、覚醒の増減、活動ごとの違いを確認。原論文全文は今回取得できず。既存書誌を保持。"
+    },
+    {
+      "source_id": "SRC066",
+      "url": "https://www.nature.com/articles/s41562-022-01458-9",
+      "scope_ja": "出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。"
+    },
+    {
+      "source_id": "SRC209",
+      "url": "https://www.nicholasepley.com/publications",
+      "scope_ja": "著者公開の当該論文Abstract（Perspective mistaking、2018）。25実験と最後の会話条件。実験別全文・全解析は未点検。"
+    }
+  ],
+  "known_methodological_discussion": [
+    {
+      "source_id": "SRC056",
+      "comment_doi": "10.1037/a0030026",
+      "comment_url": "https://www.researchgate.net/publication/236264533_Accuracy_and_Generalizability_in_Summaries_of_Affect_Regulation_Strategies_Comment_on",
+      "scope_ja": "出版社提供のコメント抄録プレビュー：採択基準・操作・効果量選択への異論を確認。同ページの著者応答抄録は基準の誤解等として異論を述べている。論争の決着・再解析は未確認。記事では方略の普遍的な優劣を結論づけない。"
+    }
+  ]
+}

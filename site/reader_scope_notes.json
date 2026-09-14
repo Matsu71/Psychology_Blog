@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "notes": [
+    {
+      "topic_id": "PSY-EMO-001",
+      "design": "公的解説",
+      "outcome": "ストレスと不安、相談の目安",
+      "limit": "診断や個人の許容量の判定ではありません。",
+      "source_ids": [
+        "SRC028",
+        "SRC330"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-002",
+      "design": "実験・メタ分析",
+      "outcome": "短期の感情体験・表出・体の反応",
+      "limit": "職場や生活の問題を解決する効果とは別です。",
+      "source_ids": [
+        "SRC321",
+        "SRC056"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-003",
+      "design": "条件の異なる実験",
+      "outcome": "表情の抑制と主観的な感情",
+      "limit": "一時的な変化を長期の健康へ広げません。",
+      "source_ids": [
+        "SRC321",
+        "SRC329"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "design": "理論的総説",
+      "outcome": "繰り返す思考の内容と状況",
+      "limit": "具体的な自助手順の比較試験ではありません。",
+      "source_ids": [
+        "SRC322"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-005",
+      "design": "脳画像実験",
+      "outcome": "画像に感情ラベルをつけた際の脳活動",
+      "limit": "脳活動の変化は安心や治療効果と同一ではありません。",
+      "source_ids": [
+        "SRC323"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "design": "メタ分析・比較試験",
+      "outcome": "主観的ストレス、比較条件の違い",
+      "limit": "呼吸を遅くする特有の効果は一貫していません。",
+      "source_ids": [
+        "SRC057",
+        "SRC324"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-007",
+      "design": "メタ分析",
+      "outcome": "健康・閾値下の人の症状と追跡結果",
+      "limit": "どの日記でも即効性があるとは言えません。",
+      "source_ids": [
+        "SRC325"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-008",
+      "design": "メタ分析の著者側解説",
+      "outcome": "怒りと、覚醒を変える活動",
+      "limit": "今回は原論文全文ではなく所属機関の解説を確認。",
+      "source_ids": [
+        "SRC058"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-009",
+      "design": "古典的総説",
+      "outcome": "将来の感情を予想するときの偏り",
+      "limit": "個別の出来事の回復日数を予測するものではありません。",
+      "source_ids": [
+        "SRC326"
+      ]
+    },
+    {
+      "topic_id": "PSY-EMO-010",
+      "design": "多施設の事前登録研究",
+      "outcome": "顔の動作による短期的な幸福感",
+      "limit": "方法差を残し、長期の治療効果と区別します。",
+      "source_ids": [
+        "SRC066"
+      ]
+    },
+    {
+      "topic_id": "PSY-REL-004",
+      "design": "実験・会話行動の研究",
+      "outcome": "その場の孤独感とつながり",
+      "limit": "慢性的な孤独や関係全体の解消とは別です。",
+      "source_ids": [
+        "SRC327",
+        "SRC328"
+      ]
+    },
+    {
+      "topic_id": "PSY-REL-010",
+      "design": "実験シリーズ",
+      "outcome": "相手の考えや好みを予測する正確さ",
+      "limit": "共感や関係の価値全体を測ったわけではありません。",
+      "source_ids": [
+        "SRC209"
+      ]
+    }
+  ]
+}

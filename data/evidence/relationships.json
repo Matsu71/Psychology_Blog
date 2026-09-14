@@ -128,7 +128,7 @@
       "id": "EV-PSY-REL-004-SRC093",
       "topic_id": "PSY-REL-004",
       "source_id": "SRC093",
-      "relation_role": "unassessed_legacy_link",
+      "relation_role": "context_only",
       "relevance_1_to_5": null,
       "relevance_scope": "not_reassessed",
       "source_review_id": null,
@@ -137,14 +137,14 @@
       ],
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
       "id": "EV-PSY-REL-004-SRC094",
       "topic_id": "PSY-REL-004",
       "source_id": "SRC094",
-      "relation_role": "unassessed_legacy_link",
+      "relation_role": "context_only",
       "relevance_1_to_5": null,
       "relevance_scope": "not_reassessed",
       "source_review_id": null,
@@ -153,7 +153,7 @@
       ],
       "finding_scope_ja": null,
       "conclusion_direction": "not_classified",
-      "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+      "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
       "formal_evidence_certainty": "not_assessed"
     },
     {
@@ -260,6 +260,34 @@
       "finding_scope_ja": "25実験で、相手の立場を想像するだけでは心の読み取りの正確さが一貫して改善せず、直接会話して情報を得ることが役立つ条件を示した。",
       "conclusion_direction": "challenges",
       "limits_ja": "共感そのものが無意味という結論ではない。正確性と他者への配慮を区別する。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-REL-004-SRC327",
+      "topic_id": "PSY-REL-004",
+      "source_id": "SRC327",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+      "formal_evidence_certainty": "not_assessed"
+    },
+    {
+      "id": "EV-PSY-REL-004-SRC328",
+      "topic_id": "PSY-REL-004",
+      "source_id": "SRC328",
+      "relation_role": "reader_definition_or_result",
+      "relevance_1_to_5": null,
+      "relevance_scope": "selected_claim_scope_not_scored",
+      "source_review_id": null,
+      "legacy_brief_ids": [],
+      "finding_scope_ja": "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。",
+      "conclusion_direction": "not_classified",
+      "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
       "formal_evidence_certainty": "not_assessed"
     }
   ]

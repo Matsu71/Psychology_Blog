@@ -6224,6 +6224,146 @@
       ],
       "integrity_status": "not_exhaustive",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC330",
+      "review_scope": "official_page",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC321",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC329",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC322",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC323",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC324",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC325",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC326",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC327",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC328",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "指定範囲のAI支援点検。独立した内容確認・正式評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

@@ -908,7 +908,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 5,
+      "source_count": 6,
       "editorial_score": null
     },
     {
@@ -918,7 +918,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": null
     },
     {
@@ -928,7 +928,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": null
     },
     {
@@ -938,7 +938,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 3,
+      "source_count": 6,
       "editorial_score": null
     },
     {
@@ -948,7 +948,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -958,7 +958,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 3,
+      "source_count": 4,
       "editorial_score": null
     },
     {
@@ -968,7 +968,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": null
     },
     {
@@ -978,7 +978,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 1,
+      "source_count": 3,
       "editorial_score": 87
     },
     {
@@ -988,7 +988,7 @@
       "topic_file": "data/topics/10_emotions.json",
       "evidence_file": "data/evidence/emotions.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/emotions.json",
-      "source_count": 1,
+      "source_count": 2,
       "editorial_score": null
     },
     {
@@ -1138,7 +1138,7 @@
       "topic_file": "data/topics/12_relationships.json",
       "evidence_file": "data/evidence/relationships.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/relationships.json",
-      "source_count": 2,
+      "source_count": 4,
       "editorial_score": null
     },
     {

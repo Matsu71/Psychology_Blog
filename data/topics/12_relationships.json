@@ -76,7 +76,9 @@
       "priority": 1,
       "source_ids": [
         "SRC093",
-        "SRC094"
+        "SRC094",
+        "SRC327",
+        "SRC328"
       ],
       "caution_ja": "共感することを、事実に反する内容まで同意することと混同しない。",
       "research_brief_ids": [

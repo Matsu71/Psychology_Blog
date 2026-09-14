@@ -17,7 +17,8 @@
         "SRC059",
         "SRC096",
         "SRC102",
-        "SRC103"
+        "SRC103",
+        "SRC330"
       ],
       "caution_ja": "適度なストレスを口実に過重労働や苦痛を正当化しない。",
       "research_brief_ids": [
@@ -40,7 +41,8 @@
       "source_ids": [
         "SRC030",
         "SRC056",
-        "SRC203"
+        "SRC203",
+        "SRC321"
       ],
       "caution_ja": "基礎論文の個人差相関を治療効果に読み替えない。不当な扱いを我慢する方法にしない。",
       "research_brief_ids": [
@@ -62,7 +64,9 @@
       "priority": 1,
       "source_ids": [
         "SRC030",
-        "SRC056"
+        "SRC056",
+        "SRC321",
+        "SRC329"
       ],
       "caution_ja": "抑制を常に悪いと断言せず、文化と状況による適切さを確認する。",
       "research_brief_ids": [
@@ -82,7 +86,10 @@
       "source_ids": [
         "SRC056",
         "SRC075",
-        "SRC105"
+        "SRC105",
+        "SRC322",
+        "SRC028",
+        "SRC330"
       ],
       "caution_ja": "思考の多さだけで診断しない。生活への支障と背景を確認する。",
       "research_brief_ids": [
@@ -102,7 +109,8 @@
       "search_query": "affect labeling emotion differentiation regulation experimental study",
       "priority": 2,
       "source_ids": [
-        "SRC056"
+        "SRC056",
+        "SRC323"
       ],
       "caution_ja": "脳活動の変化だけで日常の改善を証明したとしない。",
       "research_brief_ids": [
@@ -122,7 +130,8 @@
       "source_ids": [
         "SRC028",
         "SRC057",
-        "SRC058"
+        "SRC058",
+        "SRC324"
       ],
       "caution_ja": "息止めや過換気を伴う危険な自己実践にしない。疾患やめまいへの注意を確認する。",
       "research_brief_ids": [
@@ -141,7 +150,9 @@
       "search_query": "expressive writing psychological health systematic review randomized trial",
       "priority": 1,
       "source_ids": [
-        "SRC028"
+        "SRC028",
+        "SRC325",
+        "SRC330"
       ],
       "caution_ja": "一般的な日記の提案と介入効果を混同しない。トラウマ体験の詳述を強要しない。"
     },
@@ -156,7 +167,9 @@
       "search_query": "anger venting catharsis arousal reducing activities meta analysis",
       "priority": 1,
       "source_ids": [
-        "SRC058"
+        "SRC058",
+        "SRC324",
+        "SRC330"
       ],
       "caution_ja": "物や人への攻撃を対処法として勧めない。相談することと攻撃的発散を分ける。",
       "research_brief_ids": [
@@ -174,7 +187,8 @@
       "search_query": "affective forecasting impact bias adaptation meta analysis",
       "priority": 2,
       "source_ids": [
-        "SRC086"
+        "SRC086",
+        "SRC326"
       ],
       "caution_ja": "つらい出来事から全員すぐ回復できるという意味にしない。",
       "research_brief_ids": [

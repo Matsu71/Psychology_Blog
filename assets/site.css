@@ -28,3 +28,21 @@ h1,h2,h3{text-wrap:balance}.feature{display:flex;flex-direction:column}.feature-
 .learning-check small{display:block;font-size:.78rem;color:var(--muted);margin-top:1rem;line-height:1.7}
 .learning-check:target,.glossary-term:target{outline:2px solid var(--brand);outline-offset:5px}
 @media print{.learning-check{break-inside:avoid;background:none}}
+
+/* Ready content is primary; planned work remains accessible without JavaScript. */
+.planned-topics{margin:12px 0 30px;border-top:1px solid var(--line,#d6dfd9);padding-top:8px}
+.planned-topics>summary{cursor:pointer;padding:12px 0;font-size:.95rem;color:var(--muted,#51615b);min-height:44px}
+.planned-topics .topic-row{padding:13px 0}
+.category-empty{margin:20px 0;color:var(--muted,#51615b)}
+.category-entrance{margin-bottom:20px;padding-bottom:8px;border-bottom:1px solid var(--line,#d6dfd9)}
+.category-entrance .guide-goals{margin-bottom:8px}
+.category-entrance>p{margin:0 0 14px;font-size:.95rem}
+.study-scope{margin:0 0 28px;padding:0 16px;border:1px solid var(--line,#d6dfd9);border-radius:6px;background:#f7f9f6}
+.study-scope>summary{cursor:pointer;min-height:44px;padding:12px 0;font-weight:650;font-size:.95rem}
+.study-scope dl{margin:2px 0 12px}
+.study-scope dl>div{display:grid;grid-template-columns:6.5em minmax(0,1fr);gap:12px;padding:8px 0}
+.study-scope dt{font-size:.85rem;color:var(--muted,#51615b)}
+.study-scope dd{margin:0;font-size:.95rem;line-height:1.65;overflow-wrap:anywhere}
+.study-scope .source-hint{padding-bottom:12px;overflow-wrap:anywhere}
+@media(max-width:480px){.study-scope dl>div{grid-template-columns:1fr;gap:2px}.category-entrance .guide-goals{gap:8px}}
+@media print{.planned-topics{display:none}.study-scope{break-inside:avoid}}

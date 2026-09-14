@@ -334,40 +334,57 @@
       "topic_id": "PSY-EMO-008",
       "kind": "rewrite",
       "path": "articles/reader/PSY-EMO-008.md",
-      "summary": "発散する行動の種類と、怒りが落ち着くことの違い。",
-      "answer": "興奮を高める行動が、怒りを鎮めるとは限りません。怒りへの対処を調べた統合研究では、興奮を下げる活動の方に平均的な利点が見られました。",
+      "summary": "興奮する活動と、問題を人に話すことを分けます。",
+      "answer": "物に当たるような発散を、怒りを鎮める方法として勧める根拠はありません。体の興奮を下げることと、原因となる問題を解決することを分けます。",
       "source_ids": [
         "SRC058",
-        "SRC057"
+        "SRC324",
+        "SRC330"
       ],
       "reviewed_on": "2026-09-14",
       "publication_ready": false,
-      "review_scope": "SRC058の研究抄録情報と既存原稿を照合。SRC057は既存稿の補助的記述を引き継ぐ。研究の全個別試験の再監査ではない。",
+      "review_scope": "SRC058: 著者所属機関の研究解説の154研究10189人、覚醒の増減、活動ごとの違いを確認。原論文全文は今回取得できず。既存書誌を保持。 / SRC324: 2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
       "formal_evidence_certainty": "not_assessed",
       "independent_review": "pending",
       "claims": [
         {
-          "claim_ja": "興奮を増やす活動と減らす活動の統合結果は異なる。これを運動全般の有害性に広げない。",
+          "claim_ja": "2024年のメタ分析について、著者所属機関の解説は154研究・10189人を対象に、体の覚醒を下げる活動で怒りの低下が見られたと報告しています。一方、覚醒を上げる活動全体では明確な改善がなく、活動によって結果は異なりました。",
           "source_ids": [
-            "SRC058",
-            "SRC057"
+            "SRC058"
           ],
-          "checked_locator": "SRC058: Abstract / 既存の主張対応表",
-          "status": "selected_scope_or_inherited_check"
+          "checked_locator": "SRC058: 著者所属機関の研究解説の154研究10189人、覚醒の増減、活動ごとの違いを確認。原論文全文は今回取得できず。既存書誌を保持。",
+          "status": "selected_scope_check"
         },
         {
-          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "claim_ja": "球技などとジョギングでは違う結果も紹介されており、「すべての運動が怒りを増やす」とは言えません。ふだんの健康づくりと、怒った直後に気持ちを鎮める目的も区別します。今回は著者所属機関の説明を確認したもので、元論文の全解析を再検証したわけではありません。",
+          "source_ids": [
+            "SRC058"
+          ],
+          "checked_locator": "SRC058: 著者所属機関の研究解説の154研究10189人、覚醒の増減、活動ごとの違いを確認。原論文全文は今回取得できず。既存書誌を保持。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "呼吸法にも、比べ方によって異なる研究結果があります。何か一つをすれば怒らなくなる、という約束にはできません。差し迫った暴力の危険や制御しにくい苦しさは、記事の自己対処だけに頼らず安全と支援を優先してください。",
+          "source_ids": [
+            "SRC324",
+            "SRC330"
+          ],
+          "checked_locator": "SRC324: 2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
           "source_ids": [],
-          "checked_locator": "本文の日常への応用節",
+          "checked_locator": "本文の日常例と安全上の区別",
           "status": "editorial_application"
         }
       ],
       "related_ids": [
-        "PSY-EMO-001",
-        "PSY-ATT-004",
-        "PSY-MOT-001"
+        "PSY-EMO-006",
+        "PSY-EMO-002",
+        "PSY-REL-010"
       ],
-      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
     },
     {
       "topic_id": "PSY-GEN-002",
@@ -1649,6 +1666,617 @@
         "PSY-LEA-001"
       ],
       "application_scope_ja": "日常の具体例・確認問題は独自の編集上の例。個別手順の効果・測定妥当性の検証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-001",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-001.md",
+      "summary": "短い緊張と、生活を妨げる負担を分けます。",
+      "answer": "ストレスには行動のきっかけになる面もあります。ただし、長引いて睡眠や生活を妨げる負担を「成長のため」と我慢する必要はありません。",
+      "source_ids": [
+        "SRC028",
+        "SRC330"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "NIMHの公的解説では、ストレスは外からのきっかけに対する反応で、短く終わる場合も繰り返す場合もあると説明しています。締め切りへの取り組みを促す一方、眠りを妨げることもあります。「ストレスはすべて有害」「多いほど鍛えられる」のどちらでもありません。",
+          "source_ids": [
+            "SRC028"
+          ],
+          "checked_locator": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "ストレスの原因が去った後も、不安が続くことがあります。NIMHは、目の前に脅威がなくても起こる持続的な不安を、ストレスと区別して説明しています。両者には重なる症状もあり、この区別だけで自分の状態を診断することはできません。",
+          "source_ids": [
+            "SRC028"
+          ],
+          "checked_locator": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "つらさが続き、睡眠・学業・仕事などを妨げる場合は、自己対処だけで抱えず専門家への相談を検討します。厚生労働省の案内からも相談先を探せます。緊急性の高い状態や安全への危険は、記事を読むことより安全の確保を優先してください。",
+          "source_ids": [
+            "SRC028",
+            "SRC330"
+          ],
+          "checked_locator": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-006",
+        "PSY-EMO-004",
+        "PSY-REL-004"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-002",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-002.md",
+      "summary": "再評価は、事実を無理に肯定することではありません。",
+      "answer": "出来事の意味を捉え直すと、感情の体験が変わる場合があります。ただし、嫌な出来事を良かったことに変換したり、問題を我慢したりする方法ではありません。",
+      "source_ids": [
+        "SRC321",
+        "SRC056"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。 / SRC056: 取得できたPubMed Abstract（306比較、方略・結果指標・調整要因）を確認。再取得は空応答。全論文点検、正式なバイアス評価、方法論コメントの解決は未実施。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "返信が遅いとき、「嫌われた」とも「今は手が離せない」とも考えられます。起きたことは同じでも、解釈は一つとは限りません。このように意味の捉え方を変える方略が、認知的再評価です。",
+          "source_ids": [
+            "SRC321"
+          ],
+          "checked_locator": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "Grossの1998年の実験では、120人が嫌悪を誘う映像を見ました。意味の捉え方を変える条件と、感情を外に見せない条件は、どちらも表情などの表出を減らしました。しかし、嫌悪の主観的な体験の低下は再評価条件で見られ、抑制条件では交感神経の活動が増えました。",
+          "source_ids": [
+            "SRC321"
+          ],
+          "checked_locator": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "306の実験比較を整理した2012年のメタ分析でも、認知的な変更に平均的な効果が報告されています。一方、方略の細かな手続きや、何の感情を何で測ったかによって結果は異なりました。方法を一つ選べば、誰にでも同じように効くという順位表にはできません。",
+          "source_ids": [
+            "SRC056"
+          ],
+          "checked_locator": "SRC056: 取得できたPubMed Abstract（306比較、方略・結果指標・調整要因）を確認。再取得は空応答。全論文点検、正式なバイアス評価、方法論コメントの解決は未実施。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "短い映像を見た際の変化と、日常の慢性的な苦しさへの効果は同じではありません。この記事は再評価という考え方の入口です。自力で気分を変えられないことを、努力不足の証拠として扱わないでください。",
+          "source_ids": [
+            "SRC321"
+          ],
+          "checked_locator": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-003",
+        "PSY-EMO-004",
+        "PSY-REL-010"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-003",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-003.md",
+      "summary": "表情を抑えることと、内側の変化を区別します。",
+      "answer": "感情を外に出さなくても、内側で同じだけ落ち着くとは限りません。一方、抑制で主観的な感情が弱まった実験もあり、「必ず逆効果」とも断定できません。",
+      "source_ids": [
+        "SRC321",
+        "SRC329"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。 / SRC329: 2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "会議で怒った顔を見せないことと、怒りそのものが小さくなることは別です。「感情を抑える」という言葉では、表情、体験、体の反応のどれを変えたいかが曖昧になりがちです。",
+          "source_ids": [
+            "SRC321"
+          ],
+          "checked_locator": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "1998年の嫌悪映像の実験では、表情を抑える指示によって感情の表出は減りましたが、再評価と同じ体験の変化は得られず、体の反応にも違いがありました。この結果は、外から落ち着いて見えることだけで内面を判断できない理由になります。",
+          "source_ids": [
+            "SRC321"
+          ],
+          "checked_locator": "SRC321: 2026-09-14：出版社提供プレビューのAbstract（ResearchGate掲載）を確認。120人の嫌悪映像課題。元論文の全方法・表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2024年にオンライン公開され、2026年の巻に掲載されたJonesらの研究は、同じ人の中で条件を比べる二つの実験を報告しています。自然に反応する場合などに比べ、表出の抑制によって負の感情の主観的な体験も低下しました。「抑制では気持ちは絶対に変わらない」という説明は強すぎます。",
+          "source_ids": [
+            "SRC329"
+          ],
+          "checked_locator": "SRC329: 2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "この二つの実験から、いつも本音を隠す生活が長期的に健康によいとは言えません。瞬間の感情調整、相手に何を伝えるか、長期的な関係は異なる問いです。ここでは抄録で確認できた範囲を紹介しており、効果量や個々人への最適な使い方を補っていません。",
+          "source_ids": [
+            "SRC329"
+          ],
+          "checked_locator": "SRC329: 2026-09-14：出版社のAbstractとInformation（2024年11月6日オンライン、2026年3月巻52(3)）。被験者内2研究で抑制による負の感情体験の低下。効果量、全手続き、長期影響は抄録から補わない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-002",
+        "PSY-EMO-005",
+        "PSY-REL-010"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-004",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-004.md",
+      "summary": "同じ考えを繰り返すこと自体が、すべて悪いわけではありません。",
+      "answer": "考える時間の長さだけでなく、具体的な理解や次の行動につながっているかを見ます。反復する思考には役立つ面も、つらさを長引かせる面もあります。",
+      "source_ids": [
+        "SRC322",
+        "SRC028",
+        "SRC330"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC322: 2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。 / SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "Watkinsの総説は、反復する思考に、気分の悪化などの不利益と、計画や立ち直りに役立つ面の両方があると整理しています。違いに関わる候補は、考える内容、その人や状況、抽象的に考えるか具体的に考えるかです。これは「考えるのをやめればよい」という説明ではありません。",
+          "source_ids": [
+            "SRC322"
+          ],
+          "checked_locator": "SRC322: 2026-09-14：PubMedの書誌・Abstract。思考内容、個人と状況、抽象的／具体的処理という整理。古い理論的総説で、個別手順の比較試験ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "考えごとで睡眠や日常生活が継続して妨げられる場合は、相談という選択肢もあります。専門家に伝える際は、内容をすべて説明できなくても、どのくらい続き、何に困っているかから始められます。",
+          "source_ids": [
+            "SRC028",
+            "SRC330"
+          ],
+          "checked_locator": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-005",
+        "PSY-EMO-007",
+        "PSY-REL-004"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-005",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-005.md",
+      "summary": "言葉にすることと、脳画像研究が示すことを分けます。",
+      "answer": "「不安」「悔しい」などと言葉にすることは、状態を整理する入口になります。ただし、感情に名前をつければ必ず安心できるとまでは、脳画像研究だけで言えません。",
+      "source_ids": [
+        "SRC323"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC323: 2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "Liebermanらの2007年の研究は、感情を引き起こす画像を見ながら言葉をつける課題と、別の処理を行う課題を比べました。感情ラベルをつける条件では、扁桃体などの反応が小さく、右の腹外側前頭前野の活動が大きくなりました。",
+          "source_ids": [
+            "SRC323"
+          ],
+          "checked_locator": "SRC323: 2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "これは脳活動を測った結果です。「自分の気持ちを口にすると誰でもすぐ楽になる」「長期の症状が治る」と同じ結果ではありません。画像に対する課題と、自分の経験を言葉にする日常の場面にも違いがあります。",
+          "source_ids": [
+            "SRC323"
+          ],
+          "checked_locator": "SRC323: 2026-09-14：出版社のAbstract。画像への感情ラベルとfMRI反応。主観的な安心、長期症状、自分の感情を言う日常手順の効果には読み替えない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-004",
+        "PSY-EMO-007",
+        "PSY-REL-004"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-006",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-006.md",
+      "summary": "改善を示す分析と、上乗せ効果が出なかった試験を読みます。",
+      "answer": "呼吸を調整する方法でストレスが軽くなる可能性はあります。ただし、比較条件をそろえた試験では遅い呼吸の上乗せ効果が見られず、特定の速さを万能の処方にはできません。",
+      "source_ids": [
+        "SRC057",
+        "SRC324",
+        "SRC028"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC057: 出版社のAbstract、Methodsの比較条件、Resultsの対象者・ストレス・著者によるバイアス評価を確認。785人、12RCT、2022年2月までの検索。 / SRC324: 2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。 / SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "2023年のメタ分析は、成人785人を含む12件のランダム化比較試験で、呼吸法を行わない比較条件より主観的ストレスが小さくなる平均的な効果を報告しました。ただし対象者や方法はさまざまで、著者によるバイアス評価にも懸念が残りました。",
+          "source_ids": [
+            "SRC057"
+          ],
+          "checked_locator": "SRC057: 出版社のAbstract、Methodsの比較条件、Resultsの対象者・ストレス・著者によるバイアス評価を確認。785人、12RCT、2022年2月までの検索。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "同じ年の別の試験は400人を、約5.5回／分と12回／分のペースに割り当てました。注意を向ける時間や期待などをそろえた比較では、4週間後のストレスに、遅い呼吸の明確な上乗せ効果は見られませんでした。両群の改善と、群間の差は別です。",
+          "source_ids": [
+            "SRC324"
+          ],
+          "checked_locator": "SRC324: 2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "メタ分析とこの試験は、まったく同じ問いを扱っているわけではありません。呼吸に取り組む時間を設けること、期待、呼吸の速さそれぞれの寄与を分ける必要があります。有意差がない結果も無効果の証明ではなく、この記事で最適な回数を決める根拠にもできません。",
+          "source_ids": [
+            "SRC057",
+            "SRC324"
+          ],
+          "checked_locator": "SRC057: 出版社のAbstract、Methodsの比較条件、Resultsの対象者・ストレス・著者によるバイアス評価を確認。785人、12RCT、2022年2月までの検索。 / SRC324: 2026-09-14：出版社のAbstractと書誌。400人、約5.5回／分対12回／分、4週間。期待と注意をそろえた比較で群間の上乗せ効果は検出されず。全表・付録の点検ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "落ち着く工夫と、負担の原因を変えることは別です。例えば締め切りが過密なら、呼吸を工夫するだけでなく、予定や支援を見直す余地があります。継続する強い苦しさや生活への支障を、呼吸の練習だけで解決しようとしないでください。",
+          "source_ids": [
+            "SRC028"
+          ],
+          "checked_locator": "SRC028: NIMH Fact Sheetのストレスと不安の違い、生活への影響、対処・専門家への相談の節を確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-001",
+        "PSY-EMO-008",
+        "PSY-RES-001"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-007",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-007.md",
+      "summary": "日記、出来事の整理、研究の筆記課題を区別します。",
+      "answer": "感情を伴う経験を書く課題には、小さい平均的な改善を示す分析があります。ただし即効性や全員への効果は保証されず、つらい経験を無理に書く必要はありません。",
+      "source_ids": [
+        "SRC325",
+        "SRC330"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC325: 2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。 / SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "Guoのメタ分析は、健康な人や症状が診断の閾値に達しない人を対象とした31の比較試験、4012人を分析しました。感情を伴う経験を書く課題は、抑うつ・不安・ストレスについて小さい平均的改善を示し、変化は遅れて現れる傾向が報告されました。",
+          "source_ids": [
+            "SRC325"
+          ],
+          "checked_locator": "SRC325: 2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "平均効果は小さく、この結果を「一度書けばすっきりする」と読むのは適切ではありません。治療を受けている人すべてに同じ効果がある、特定のノートやアプリが優れている、という結果でもありません。通常の日記と研究用の筆記課題を区別します。",
+          "source_ids": [
+            "SRC325"
+          ],
+          "checked_locator": "SRC325: 2026-09-14：出版社のAbstract（BackgroundからConclusion）と書誌。31研究・4012人、健康／閾値下の対象。2022年12月オンライン、2023年巻。臨床患者全般・即効性・特定の日記習慣を保証しない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "気持ちの記録は、支援につながる代わりとは限りません。生活に影響するつらさが続く場合は、相談先を利用する選択肢もあります。「書けなかったから改善しない」と自分を責める材料にしないでください。",
+          "source_ids": [
+            "SRC330"
+          ],
+          "checked_locator": "SRC330: 2026-09-14：公的な相談先の入口を確認。若者向けの案内。特定窓口の受付時間・空き状況や医療効果の確認ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-004",
+        "PSY-EMO-005",
+        "PSY-REL-004"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-009",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-009.md",
+      "summary": "大きな出来事だけで、その後の暮らしを判断しないために。",
+      "answer": "将来の感情の強さや長さを大きく見積もる場合があります。大きな出来事だけでなく、その後も続く日常を一緒に考える視点が役立ちます。",
+      "source_ids": [
+        "SRC326"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC326: 2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "WilsonとGilbertの古典的総説は、将来の出来事への感情の強さや持続を過大に見積もる傾向を、インパクト・バイアスとして整理しています。理由の一つは、他の出来事も考えや気分に影響することを小さく見積もる「焦点化」です。",
+          "source_ids": [
+            "SRC326"
+          ],
+          "checked_locator": "SRC326: 2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "総説は回復を予期しにくいことも論じていますが、誰もがすぐ回復する、被害は大したことがない、と言う根拠にはなりません。長く続く困難や環境の問題まで、予測の癖だけで説明しないことが重要です。",
+          "source_ids": [
+            "SRC326"
+          ],
+          "checked_locator": "SRC326: 2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "ここでは2005年の総説を概念の入口に使っています。あらゆる人生の出来事を対象にした最新の効果量や、回復するまでの日数を示す記事ではありません。将来を完全に読めないことと、準備や支援に意味がないことも別です。",
+          "source_ids": [
+            "SRC326"
+          ],
+          "checked_locator": "SRC326: 2026-09-14：出版社のAbstractと書誌。感情予測、インパクト・バイアス、焦点化の古典的整理。近年の全研究・個別の出来事・長期回復率を確認した意味ではない。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-DEC-004",
+        "PSY-RES-008",
+        "PSY-REL-010"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-EMO-010",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-EMO-010.md",
+      "summary": "追試では、顔の動かし方によって結果が異なりました。",
+      "answer": "表情の動作によって、短期的な幸福感が変わった実験はあります。ただし方法によって結果は異なり、つらい人に笑顔を求める根拠にはなりません。",
+      "source_ids": [
+        "SRC066"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC066: 出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "楽しいから笑うだけでなく、笑顔を作ることが気分に影響するのか。表情フィードバックの研究は、こうした体の動作と感情の関係を調べています。",
+          "source_ids": [
+            "SRC066"
+          ],
+          "checked_locator": "SRC066: 出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2022年のMany Smiles共同研究は、19か国の3878人が参加した事前登録研究です。顔の模倣と随意的な表情動作では幸福感への影響が支持されましたが、口でペンを保持する条件の結果は、同じほど明確ではありませんでした。",
+          "source_ids": [
+            "SRC066"
+          ],
+          "checked_locator": "SRC066: 出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "「顔を動かす」という共通点があっても、指示や動作は同じではありません。一つの条件の成功や失敗だけで、すべての方法が正しい／間違っていると結論づけない読み方が必要です。この記事は出版社の抄録で確認した結果を紹介しています。",
+          "source_ids": [
+            "SRC066"
+          ],
+          "checked_locator": "SRC066: 出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "実験中の幸福感の変化は、悲しみを消す治療や、笑顔を保つ生活の長期的な効果とは別です。「笑わないからつらい」「笑っていれば治る」と人に求めることは、この結果から導けません。",
+          "source_ids": [
+            "SRC066"
+          ],
+          "checked_locator": "SRC066: 出版社のAbstract。事前登録・多施設、19か国3878人、顔の模倣／随意動作とペン条件の違い。本文・図表・付録は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-EMO-003",
+        "PSY-RES-002",
+        "PSY-REL-010"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-REL-004",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-REL-004.md",
+      "summary": "一時的な孤独感と、長い関係への効果を分けて読みます。",
+      "answer": "理解しようと聞いてもらうことで、話した直後の孤独感が和らいだ実験があります。ただし、何回うなずけばよい、といった決まった処方ではありません。",
+      "source_ids": [
+        "SRC327",
+        "SRC328"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC327: 2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。 / SRC328: 2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "助言をもらうより、まず話を聞いてほしいときがあります。研究でいう質の高い聞き方は、黙っていることではなく、注意、理解、善意が伝わる聞き方として扱われています。",
+          "source_ids": [
+            "SRC327"
+          ],
+          "checked_locator": "SRC327: 2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "Itzchakovらの5実験、計1643人では、過去の拒絶体験を話す場面で、通常の聞き方などより質の高い聞き方の条件で、その場の孤独感が低下しました。実際の会話だけでなく、想像や場面提示を使った実験も含まれています。",
+          "source_ids": [
+            "SRC327"
+          ],
+          "checked_locator": "SRC327: 2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "2025年の別の研究は、初対面の人同士の会話における聞き方と、つながりの関連を調べました。追質問などの言語行動は、深い会話では複数の指標と関連しましたが、雑談では結果が一貫しませんでした。特定の聞く動作を増やせば、必ず関係がよくなるとは言えません。",
+          "source_ids": [
+            "SRC328"
+          ],
+          "checked_locator": "SRC328: 2026-09-14：出版社のAbstractと書誌（2025年11月21日）。事前登録2研究646人。観察された聞き方とつながりの関連、介入と会話の違い。雑談では言語指標が一貫せず、介入による聞き方の増加も検出されなかった。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "実験直後の孤独感は、慢性的な孤立の解消や治療の結果ではありません。つらい出来事を話させること自体を目的にせず、本人の希望、安全、必要な支援を優先します。親密さが深まったように見えるだけで、問題全体が解決したとは判断しません。",
+          "source_ids": [
+            "SRC327"
+          ],
+          "checked_locator": "SRC327: 2026-09-14：出版社のAbstract、導入、What Does Listening Entailの定義を確認。5実験1643人、想像された会話と実際の会話を含む。2022年オンライン、2023年巻。全解析・媒介の因果・長期孤独の改善は未確認。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-REL-002",
+        "PSY-REL-010",
+        "PSY-EMO-005"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
+    },
+    {
+      "topic_id": "PSY-REL-010",
+      "kind": "new_draft",
+      "path": "articles/reader/PSY-REL-010.md",
+      "summary": "想像することと、本人から情報を得ることの違い。",
+      "answer": "相手の立場を想像するだけでは、考えや好みを正確に当てられるとは限りません。安全に話せる場面では、本人に確認して新しい情報を得ることが大切です。",
+      "source_ids": [
+        "SRC209"
+      ],
+      "reviewed_on": "2026-09-14",
+      "publication_ready": false,
+      "review_scope": "SRC209: 著者公開の当該論文Abstract（Perspective mistaking、2018）。25実験と最後の会話条件。実験別全文・全解析は未点検。",
+      "formal_evidence_certainty": "not_assessed",
+      "independent_review": "pending",
+      "claims": [
+        {
+          "claim_ja": "Eyalらの研究は、感情、好み、態度などを予測する25実験で、相手の視点を取るよう指示すると正確さが上がるかを検討しました。一貫した改善は見られず、ときには判断への自信だけが高まりました。最後の実験では、会話から直接情報を得る条件で正確さが改善しました。",
+          "source_ids": [
+            "SRC209"
+          ],
+          "checked_locator": "SRC209: 著者公開の当該論文Abstract（Perspective mistaking、2018）。25実験と最後の会話条件。実験別全文・全解析は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "測っているのは主に予測の正確さです。思いやり、相手への関心、対立後の関係のすべてを測ったわけではありません。「想像は無駄」と切り捨てるのではなく、想像を答え合わせ済みの事実として扱わない、という読み方です。",
+          "source_ids": [
+            "SRC209"
+          ],
+          "checked_locator": "SRC209: 著者公開の当該論文Abstract（Perspective mistaking、2018）。25実験と最後の会話条件。実験別全文・全解析は未点検。",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "架空の会話・メモ・行動例は独自の編集上の応用。個別手順の効果を検証したものではない。",
+          "source_ids": [],
+          "checked_locator": "本文の日常例と安全上の区別",
+          "status": "editorial_application"
+        }
+      ],
+      "related_ids": [
+        "PSY-REL-004",
+        "PSY-REL-002",
+        "PSY-EMO-002"
+      ],
+      "application_scope_ja": "日常例は独自の編集上の例。診断・治療手順、個別の効果保証ではありません。"
     }
   ]
 }

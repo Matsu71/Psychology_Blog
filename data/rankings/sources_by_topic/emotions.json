@@ -53,9 +53,9 @@
           "source_id": "SRC096",
           "title": "Management of Premenstrual Disorders: ACOG Clinical Practice Guideline No. 7.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -110,6 +110,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 5
+        },
+        {
+          "edge_id": "EV-PSY-EMO-001-SRC330",
+          "source_id": "SRC330",
+          "title": "困ったときの相談先｜こころもメンテしよう",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 6
         }
       ]
     },
@@ -178,6 +199,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-EMO-002-SRC321",
+          "source_id": "SRC321",
+          "title": "Antecedent- and response-focused emotion regulation: divergent consequences for experience, expression, and physiology",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -225,12 +267,75 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-EMO-003-SRC321",
+          "source_id": "SRC321",
+          "title": "Antecedent- and response-focused emotion regulation: divergent consequences for experience, expression, and physiology",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-EMO-003-SRC329",
+          "source_id": "SRC329",
+          "title": "Conceal and Don’t Feel as Much? Experiential Effects of Expressive Suppression",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
     {
       "topic_id": "PSY-EMO-004",
       "sources": [
+        {
+          "edge_id": "EV-PSY-EMO-004-SRC028",
+          "source_id": "SRC028",
+          "title": "I’m So Stressed Out! Fact Sheet",
+          "review_scope": "legacy_not_reassessed",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 1
+        },
         {
           "edge_id": "EV-PSY-EMO-004-SRC056",
           "source_id": "SRC056",
@@ -250,7 +355,7 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 1
+          "display_position": 2
         },
         {
           "edge_id": "EV-PSY-EMO-004-SRC075",
@@ -271,16 +376,16 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 2
+          "display_position": 3
         },
         {
           "edge_id": "EV-PSY-EMO-004-SRC105",
           "source_id": "SRC105",
           "title": "Effects of Self-Compassion Interventions on Reducing Depressive Symptoms, Anxiety, and Stress: A Meta-Analysis.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -292,7 +397,49 @@
           "integrity_requires_followup": false,
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
-          "display_position": 3
+          "display_position": 4
+        },
+        {
+          "edge_id": "EV-PSY-EMO-004-SRC322",
+          "source_id": "SRC322",
+          "title": "Constructive and unconstructive repetitive thought",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 5
+        },
+        {
+          "edge_id": "EV-PSY-EMO-004-SRC330",
+          "source_id": "SRC330",
+          "title": "困ったときの相談先｜こころもメンテしよう",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 6
         }
       ]
     },
@@ -304,9 +451,9 @@
           "source_id": "SRC056",
           "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -319,6 +466,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-EMO-005-SRC323",
+          "source_id": "SRC323",
+          "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },
@@ -387,6 +555,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 3
+        },
+        {
+          "edge_id": "EV-PSY-EMO-006-SRC324",
+          "source_id": "SRC324",
+          "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 4
         }
       ]
     },
@@ -398,9 +587,9 @@
           "source_id": "SRC028",
           "title": "I’m So Stressed Out! Fact Sheet",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -413,6 +602,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-EMO-007-SRC325",
+          "source_id": "SRC325",
+          "title": "The delayed, durable effect of expressive writing on depression, anxiety and stress: A meta-analytic review of studies with long-term follow-ups",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-EMO-007-SRC330",
+          "source_id": "SRC330",
+          "title": "困ったときの相談先｜こころもメンテしよう",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     },
@@ -439,6 +670,48 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-EMO-008-SRC324",
+          "source_id": "SRC324",
+          "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
+        },
+        {
+          "edge_id": "EV-PSY-EMO-008-SRC330",
+          "source_id": "SRC330",
+          "title": "困ったときの相談先｜こころもメンテしよう",
+          "review_scope": "official_page",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": null
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 3
         }
       ]
     },
@@ -450,9 +723,9 @@
           "source_id": "SRC086",
           "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
           "review_scope": "legacy_not_reassessed",
-          "relation_role": "unassessed_legacy_link",
+          "relation_role": "context_only",
           "conclusion_direction": "not_classified",
-          "limits_ja": "既存読解メモを参照。テーマ全体への主張単位の適用は未評価。",
+          "limits_ja": "個別疾患の指針、別の介入、概説、レジリエンス、質問と好意等の背景資料。今回の読者稿の直接根拠に使用しない。旧ID・訂正記録・主張対応を保持。",
           "priority_score": null,
           "components": {
             "theme_relevance_1_to_5": null,
@@ -465,6 +738,27 @@
           "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
           "priority_rank": null,
           "display_position": 1
+        },
+        {
+          "edge_id": "EV-PSY-EMO-009-SRC326",
+          "source_id": "SRC326",
+          "title": "Affective Forecasting: Knowing What to Want",
+          "review_scope": "abstract",
+          "relation_role": "reader_definition_or_result",
+          "conclusion_direction": "not_classified",
+          "limits_ja": "読者版の指定主張に使用。サイト全体の内容確認や効果保証ではない。正式な採点は未実施。",
+          "priority_score": null,
+          "components": {
+            "theme_relevance_1_to_5": null,
+            "method_signals_0_to_4": null,
+            "reading_depth_0_to_4": 2
+          },
+          "caps": [],
+          "excluded_from_evidence_priority": false,
+          "integrity_requires_followup": false,
+          "score_interpretation": "reading_and_research_priority_not_probability_of_truth",
+          "priority_rank": null,
+          "display_position": 2
         }
       ]
     },

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "categories": {
+    "emotions": {
+      "guide_id": "emotions",
+      "intro": "緊張、怒り、考えすぎ。気になる問いから読めます。",
+      "goals": [
+        {
+          "label": "呼吸と緊張",
+          "topic_id": "PSY-EMO-006"
+        },
+        {
+          "label": "考えすぎ",
+          "topic_id": "PSY-EMO-004"
+        },
+        {
+          "label": "怒りの発散",
+          "topic_id": "PSY-EMO-008"
+        }
+      ]
+    },
+    "relationships": {
+      "guide_id": "dialogue",
+      "intro": "話を聞く、本人に確かめる、一人で過ごす。",
+      "goals": [
+        {
+          "label": "話を聞く",
+          "topic_id": "PSY-REL-004"
+        },
+        {
+          "label": "相手を理解する",
+          "topic_id": "PSY-REL-010"
+        },
+        {
+          "label": "一人と孤独",
+          "topic_id": "PSY-REL-002"
+        }
+      ]
+    }
+  }
+}

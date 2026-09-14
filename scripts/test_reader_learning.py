@@ -118,7 +118,7 @@ def main():
             plain.keyboard.press('Enter');check(plain.locator('.learning-check details').get_attribute('open') is None,'no JS and keyboard: answer closes')
             name='learning-check-mobile.png';plain.screenshot(path=str(out/name),full_page=True);screens.append(name)
             go(plain,'learn/learning/index.html',js=False);check(plain.locator('.learning-steps a').count()==10,'no JS: ten real learning links')
-            go(plain,'glossary/index.html',js=False);check(plain.locator('[data-term]:visible').count()==36,'no JS: all 36 definitions readable')
+            go(plain,'glossary/index.html',js=False);check(plain.locator('[data-term]:visible').count()==len(cfg['terms']),'no JS: all current definitions readable')
             plainctx.close();ctx.close();browser.close()
     except Exception as exc:errors.append(type(exc).__name__+': '+str(exc))
     finally:
