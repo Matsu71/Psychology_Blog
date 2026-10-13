@@ -86,3 +86,43 @@
   - Kreager et al. (2014), *Where Have All the Good Men Gone? Gendered Interactions in Online Dating*, Journal of Marriage and Family：男女の接触開始・応答行動の違いを観測した研究。対象は過去の米国サイトであり、現代日本の全アプリには一般化しない。https://doi.org/10.1111/jomf.12072
   - リクルート「婚活実態調査2024」：2023年婚姻者のうちネット系婚活サービス経由は11.4％。「アプリ」や「1年以内婚姻者」を対象とした他調査とは定義・抽出方法が違うため直接の大小比較はしない。https://souken.zexy.net/research_news/lovemaking/konkatsu.html
 - **編集上の注意**：男女二元論に固定せず、対象の性別・性的指向・年齢・希望する関係の定義を明記する。アプリの宣伝や「必勝法」にせず、双方の立場における負担と安全性を公平に扱う。特定個人の属性を断定的に評価しない。
+
+## 2026-10-13 追加：AIと人間の関係がもたらす影響
+
+**ステータス：将来の記事候補（調査・執筆・公開未着手）。** 個別の記事タイトルはまだ決めない。大きなテーマとして「AIと人間の関わりによる人間自身への影響」を置き、以下の論点を単独記事または連載に分割可能とする。インターネット普及以来の大きな生活・情報環境の変化となる可能性を、歴史比較も含めて検討する。
+
+### A. AIを使うと賢くなるのか、それとも自分で考えなくなるのか
+
+- **中心的な疑問**：AIによる正答率・生産性の向上と、AIが使えない場面での個人の実力・学習意欲・粘り強さは両立するか。「AIなしだと頑張らなくなる」という説明は、実際には動機低下、学習不足、認知的オフロード（外部への認知負荷の委譲）のどれか。
+- **比較観点**：AIなし／答えを直接示すAI／ヒントや問い返し中心の学習支援AI、の条件で「AI使用中の成果」と「AIなしでの後日の成果」を別々に測る。知識定着、批判的思考、独立した問題解決能力、自己効力感、AIへの過信、活用スキルを区別。
+- **研究の入口**：Bastani et al. (2025), *Generative AI without guardrails can harm learning: Evidence from high school mathematics*, PNAS。約1,000人の高校数学で、通常型のAI利用中の成績改善と、AIを除去した後の比較群に対する低い成績を報告。学習を支える設計では悪影響が緩和。**学習意欲そのものが減ったと断定しない**。刊行後に訂正告知あり：内容を確認すること。https://doi.org/10.1073/pnas.2422633122
+- **研究の入口**：Lee et al. (2025), *The Impact of Generative AI on Critical Thinking*, CHI。知識労働者319人の自己報告では、AIへの信頼が高いほど批判的思考の実施が少ない傾向。**自己報告・関連の研究であり、思考力の因果的低下や知能低下を証明するものではない**。https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/
+
+### B. AIと会話する人は増えているのか、誰が何のために話しているのか
+
+- **中心的な疑問**：AIの自然な会話能力の向上とともに、仕事・学習以外の雑談、相談、感情的支援、友人・伴侶としての利用はどう変化するか。普及の予測は予測として扱い、実際の推移と区別。
+- **記事で見たい統計**：国別・年齢別の利用率、利用頻度・時間、音声／テキスト、仕事／調べ物／娯楽／感情的支援／伴侶目的の構成、同一設問の経年推移。一般AIの利用率とAIコンパニオン専用サービスの利用率を混同しない。
+- **調査の入口**：Pew Research Center (2026-06-17)、米国成人の2026年2月調査：ChatGPTを使ったことがある44％、18〜29歳では61％。同年齢層でチャットボットを感情的な支え・相談に利用したことがある20％、伴侶目的7％（設問・複数回答に注意）。**日本の利用率や増加率を意味しない**。https://www.pewresearch.org/internet/2026/06/17/how-opinions-and-use-of-ai-differ-by-age/
+- **調査の入口**：Common Sense Media (2025-07-16)、米国13〜17歳の「AIコンパニオン」を使ったことがある割合72％。対象は特定定義のAIコンパニオンであり一般AIの数字と比較しない。https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions
+
+### C. AIとの会話はストレス・孤独感・対人関係をどう変えるか
+
+- **両方向の仮説**：AIは相談相手として安心感や気持ちの整理、会話練習を助けうる。一方、過度の使用・依存・人間との交流の置き換えが孤独感や対人関係に影響する可能性もある。
+- **評価指標**：短期のストレス・不安・気分と、長期的な孤独感、社会的つながり、実際の対人交流時間、依存、心理的幸福感を区別。AI利用が孤独を招くのか、孤独な人がAIを多く使うのか、双方向性を検証する。
+- **研究の入口**：OpenAI × MIT Media Lab (2025)、4週間約981人の無作為化比較研究。会話形式など割当条件の主要な効果は有意でなかった一方、自発的に使用時間が長い参加者ほど孤独感・依存等が高い関連。**後者は単純な因果を示さない**。https://www.media.mit.edu/publications/how-ai-and-human-behaviors-shape-psychosocial-effects-of-chatbot-use-a-longitudinal-controlled-study/
+- **研究の入口**：Folk & Dunn (2026), *How Does Turning to AI for Companionship Predict Loneliness and Vice Versa?*, Psychological Science。欧米4か国の成人2,000人超の12か月縦断データ。使用増と孤独感の増加の関連を示す一方、孤独や社会的つながりの指標によって結果は異なり、著者も解釈に注意を促している。https://doi.org/10.1177/09567976261427747
+- **対照となる研究の入口**：*AI companions and subjective well-being: Moderation by social connectedness and loneliness* (2026), Technology in Society。AIコンパニオン利用と主観的幸福感の正の関連が、孤独感などに応じて異なると報告。**相関から治療効果・全体的有益性を断定しない**。https://doi.org/10.1016/j.techsoc.2026.103229
+
+### D. AIを恋人・パートナーと感じることは人間をどう変えるか
+
+- **論点**：AIを友人・恋人・伴侶と感じる現象、AIとの「結婚」と表現される象徴的な関係、愛着形成・擬人化・一方的な親密感、社会からの評価、満足と孤独・依存、対人関係への影響、モデル更新やサービス停止による喪失感、個人情報と同意の問題。
+- **定義の注意**：「AIと結婚」を**法的婚姻、儀式、当事者の自己認識、記事上の比喩**に分ける。言語的に人間らしい応答をすることと、人間の感情や法的人格を持つことを同一視しない。人間との恋愛が必ず弱まる／AI関係が必ず有害という前提を置かない。
+- **研究の入口**：*Potential and pitfalls of romantic Artificial Intelligence (AI) companions: A systematic review* (2025)、関連23論文のレビュー。感情的支援や幸福感の可能性と、過度の依存、操作、プライバシー、現実の人間関係への影響などを両方整理。各研究の質・対象範囲は執筆時に精査する。https://doi.org/10.1016/j.chbr.2025.100715
+- **研究の入口**：*Emotional attachment to AI chatbots: Evidence from Germany, China, South Africa, and the United States* (2026)、4か国7,027人を対象とした調査。愛着・依存と知覚された支援を検討。選択回答・調査対象・文化差を明記し日本への一般化を避ける。https://doi.org/10.1016/j.techsoc.2026.103379
+
+### E. インターネット以降の社会変化として位置づける
+
+- 検索エンジン／スマートフォン／SNSが変えた「情報の入手・注意・人との接触」と、対話AIが変えるかもしれない「思考の外部化・相談・親密さ」を比較。
+- 普及速度、日常の利用時間、職業・教育・人間関係への影響を同じ指標で比較できるかを検討。**AIがインターネットと同規模の変化を起こすというのは現時点の問題提起・仮説**として記述。
+
+**横断する編集上の注意**：サービス別・目的別の違い、短期／長期、観察研究／介入研究、相関／因果、成人／未成年、日本／海外、利益／不利益を区別。センセーショナルな「AIが人間をだめにする／人間関係を奪う」等の断定を避ける。研究の出典は後で原文・訂正履歴を照合し、正式な研究台帳登録・記事執筆・公開は別工程とする。
