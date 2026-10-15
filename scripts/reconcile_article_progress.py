@@ -79,7 +79,9 @@ def products():
         '## 更新コマンド','','```bash','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py',
         'python scripts/reconcile_article_progress.py --check','```','',boundary,'','会話終了後の自動執筆や定期公開は設定していません。']
     readme=['# Psychology Blog — 人間の科学・記事制作データベース','',
-        '**最終目標：世界最高水準の心理学情報・トピックサイト。300テーマは最初の制作対象です。**','',
+        '**最終目標：心理学に限らず、人間に関すること全般を扱う、世界最高水準の調査・解説サイト。既存300テーマは最初の制作対象です。**','',
+        '## 対象分野の方針（2026-10-13）','',
+        '心理・行動だけでなく、恋愛、結婚、仕事、社会制度、人間関係、文化、技術と暮らしなど**人間に関すること全般**を記事候補とする。ブログ名や既存記事のタイトルは変更せず、調査根拠と編集基準を維持する。将来の記事企画は [追加テーマ候補](research/topic_candidates.md) に記録する。','',
         f'{len(categories)}分野・{len(topics)}テーマ。出典{len(sources)}件。出典未登録{missing}テーマ。','',
         count+f' 限定した原文照合記録あり{len(checked)}件。公開承認済み{ready}件。','',
         '- [記事の現在地](docs/ARTICLE_PROGRESS.md)','- [次の作業](docs/NEXT_STEPS.md)',
@@ -100,9 +102,12 @@ def products():
           '[制作プレビュー](https://matsu71.github.io/Psychology_Blog/) / [参考サイト比較](docs/redesign/REFERENCE_REVIEW.md) / [編集基準](docs/redesign/EDITORIAL_STANDARD.md)','',
           f'8つの入口、28分野、300テーマ。読者向け本文は{len(manuscripts)+extra}テーマ（従来の60原稿に、新稿{extra}テーマを追加。そのうち既存{rewrites}テーマは読者向けに改稿）。原稿数は公開承認数ではありません。','',
           'タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。','',
-          '配置は main / (root)。Reader siteワークフローが変更されたソースを検証・生成し、生成物をmainへ保存してPagesの再ビルドを要求します。記事の公開承認を自動で付与するものではありません。手元で再生成する場合は次の順序です。','',
+          '### 構成と特集記事（2026-10-15）','',
+          '見出しを1段のメニュー（記事一覧・テーマ・基礎から学ぶ・用語集）にまとめ、[記事一覧](https://matsu71.github.io/Psychology_Blog/read/)で全記事をテーマ別のカードで確認できるようにしました。トップは特集・テーマ・おすすめ記事の3つに整理しています。','',
+          '特集記事は `articles/features/<ID>.html`（本文と図）と `articles/features/<ID>.js`（動く図。任意）で書き、`site/reader_editions.json` に `kind: feature` で登録します。本文の「くわしく」欄（`details.deep`）と統計用語の補足（`span.pro`）は、記事上部の「やさしく／くわしく」で表示を切り替えます。参考文献は本文の `[SRC…]` 引用から番号付きで自動生成し、出典は `site/<分野>_sources.json` → `register_reader_sources.py` で正本へ登録します。最初の特集は PSY-GEN-002「親から何がどれくらい遺伝する？」です。','',
+          '配置は main / (root)。GitHub Actionsは使わず（2026-10-09 方針）、手元で生成・検証してからmainへ保存します。記事の公開承認を自動で付与するものではありません。再生成は次の順序です。','',
           '```bash','python scripts/register_reader_sources.py','python scripts/build_research_views.py','python scripts/reconcile_article_progress.py','python scripts/build_reader_site.py','python scripts/test_reader_site.py','```','',
-          '構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)。科学的真偽や医療監修を自動認定するテストではありません。']
+          '構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)（`test_reader_*.py` はPlaywrightとBeautifulSoupが必要）。科学的真偽や医療監修を自動認定するテストではありません。']
         nxt+=['','## 読者版の次の改善','','[編集基準と優先順位](redesign/EDITORIAL_STANDARD.md)を正とします。旧300記事目標を最終到達点にしません。本文・情報探索・アクセシビリティ・主張単位の点検・訂正運用を継続して改善します。']
     out={'data/articles/progress.json':json.dumps(p,ensure_ascii=False,indent=2)+'\n',
          'docs/ARTICLE_PROGRESS.md':'\n'.join(lines)+'\n','docs/NEXT_STEPS.md':'\n'.join(nxt)+'\n','README.md':'\n'.join(readme)+'\n'}

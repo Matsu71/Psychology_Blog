@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build a dependency-free static reader site without changing research originals.
 
 Python 3.9+. The site is an explicitly labelled editorial preview. Publication
@@ -66,7 +67,10 @@ for tid, topic in TOPICS.items():
             raise ValueError(f'Unsafe manuscript path: {manuscript}')
         if not file.exists():
             raise ValueError(f'Missing manuscript: {manuscript}')
-        READERS[tid] = dict(entry, path=manuscript, text=file.read_text(encoding='utf-8'))
+        # Feature articles are trusted, hand-authored HTML fragments with figures.
+        READERS[tid] = dict(entry, path=manuscript, text=file.read_text(encoding='utf-8'), feature=manuscript.endswith('.html'))
+GROUP_INDEX = {gid: n for n, gid in enumerate(GROUPS, 1)}
+FEATURES = [tid for tid in READERS if READERS[tid]['feature']]
 
 SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>'
 
@@ -91,9 +95,21 @@ def summary(tid: str) -> str:
         return '研究で分かっていることと、その限界を整理します。'
     return original
 
-def minutes(tid: str) -> int:
-    plain = re.sub(r'https?://\S+|\[[^\]]+\]|[#*`>]', '', READERS[tid]['text'])
+def minutes(tid: str, detail: bool = False) -> int:
+    text = READERS[tid]['text']
+    if READERS[tid]['feature']:
+        # Basic reading time excludes the optional deep-dive boxes and data tables.
+        if not detail:
+            text = re.sub(r'<details class="(?:deep|fig-data)">.*?</details>', '', text, flags=re.S)
+        text = re.sub(r'<[^>]+>', '', text)
+    plain = re.sub(r'https?://\S+|\[[^\]]+\]|[#*`>]', '', text)
     return max(1, math.ceil(len(plain) / 550))
+
+def group_of(tid: str) -> str:
+    return GROUP_OF[TOPICS[tid]['category_id']]
+
+def gclass(gid: str) -> str:
+    return f'g{GROUP_INDEX[gid]}'
 
 def reader_link(current: str, tid: str) -> str:
     return rel(current, f'read/{tid}/index.html')
@@ -105,87 +121,116 @@ def breadcrumbs(current: str, items: list[tuple[str,str | None]]) -> str:
         nodes.append(f'<li>{content}</li>')
     return '<nav aria-label="現在地"><ol class="breadcrumbs">' + ''.join(nodes) + '</ol></nav>'
 
-def shell(current: str, page_title: str, description: str, body: str, active: str = '', main_class: str = '', noindex: bool = True) -> str:
-    nav = ''.join(f'<a href="{esc(rel(current,"topics/"+g["id"]+"/index.html"))}"'+(' aria-current="page"' if g['id']==active else '')+f'>{esc(g["name"])}</a>' for g in CONFIG['groups'])
+NAV_ITEMS = [('articles','記事一覧','read/index.html'),('topics','テーマ','topics/index.html'),('learn','基礎から学ぶ','learn/index.html'),('glossary','用語集','glossary/index.html')]
+
+def nav_key(current: str, active: str) -> str:
+    for key, prefix in (('articles','read/'),('topics','topics/'),('learn','learn/'),('glossary','glossary/')):
+        if current.startswith(prefix):
+            return key
+    return 'topics' if active in GROUPS else active
+
+def shell(current: str, page_title: str, description: str, body: str, active: str = '', main_class: str = '', noindex: bool = True, head_extra: str = '') -> str:
+    key = nav_key(current, active)
+    nav = ''.join(f'<a href="{esc(rel(current,target))}"'+(' aria-current="page"' if k==key else '')+f'>{esc(label)}</a>' for k,label,target in NAV_ITEMS)
     site = CONFIG['site_name']
     full_title = f'{page_title} | {site}' if page_title != site else site
     canonical = CONFIG['canonical_base'] + ('' if current == 'index.html' else current.removesuffix('index.html'))
     return f'''<!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(full_title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow'}"><meta name="theme-color" content="#245c54"><link rel="canonical" href="{esc(canonical)}"><link rel="stylesheet" href="{esc(rel(current,'assets/site.css'))}"><script src="{esc(rel(current,'assets/app.js'))}" defer></script></head>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(full_title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow'}"><meta name="theme-color" content="#1d6b5f"><link rel="canonical" href="{esc(canonical)}"><link rel="stylesheet" href="{esc(rel(current,'assets/site.css'))}"><script src="{esc(rel(current,'assets/app.js'))}" defer></script>{head_extra}</head>
 <body><a href="#main" class="skip">本文へ移動</a>
-<div class="preview-strip"><div class="wrap"><span>制作プレビュー<span class="preview-detail"> · 記事は編集・確認中です</span></span><a href="{esc(rel(current,'about/index.html'))}">編集方針</a></div></div>
-<header class="masthead"><div class="wrap header-row"><a class="brand" href="{esc(rel(current,'index.html'))}"><span class="brand-mark" aria-hidden="true">ψ</span>{esc(site)}</a><form class="header-search" role="search" aria-label="サイト内検索" method="get" action="{esc(rel(current,'search/index.html'))}"><label class="sr-only" for="header-query">キーワード</label><input id="header-query" name="q" type="search" placeholder="気になるテーマを検索" maxlength="150"><button type="submit" aria-label="検索ページへ">{SEARCH_ICON}</button></form></div><nav class="topic-nav" aria-label="テーマ別"><div class="wrap nav-row">{nav}</div></nav></header>
-<nav class="utility-nav wrap" aria-label="読み方から探す"><a href="{esc(rel(current,'learn/index.html'))}">基礎から</a><a href="{esc(rel(current,'glossary/index.html'))}">用語集</a><a href="{esc(rel(current,'search/index.html'))}?status=draft">解説一覧</a></nav>
+<header class="site-header"><div class="wrap hdr"><span class="brand-wrap"><a class="brand" href="{esc(rel(current,'index.html'))}"><span class="brand-mark" aria-hidden="true">ψ</span>{esc(site)}</a> <a class="preview-pill" href="{esc(rel(current,'about/index.html'))}" title="記事は編集・確認中です">制作プレビュー</a></span><nav class="main-nav" aria-label="メイン">{nav}</nav><form class="header-search" role="search" aria-label="サイト内検索" method="get" action="{esc(rel(current,'search/index.html'))}"><label class="sr-only" for="header-query">キーワード</label><input id="header-query" name="q" type="search" placeholder="キーワードで検索" maxlength="150"><button type="submit" aria-label="検索ページへ">{SEARCH_ICON}</button></form></div></header>
 <main id="main" class="{esc(main_class)}" tabindex="-1"><div class="wrap">{body}</div></main>
-<footer class="footer"><div class="wrap"><div class="footer-top"><span class="footer-brand">{esc(site)}</span><nav class="footer-links" aria-label="フッター"><a href="{esc(rel(current,'topics/index.html'))}">テーマ一覧</a><a href="{esc(rel(current,'search/index.html'))}">検索</a><a href="{esc(rel(current,'about/index.html'))}">このサイトについて</a></nav></div><div class="footer-bottom"><p>一般向けの心理学・行動科学の情報を扱います。個別の診断・治療に代わるものではありません。AI支援による制作。独立した専門家確認と公開承認は未完了です。</p></div></div></footer></body></html>'''
+<footer class="footer"><div class="wrap"><div class="footer-top"><span class="footer-brand">{esc(site)}</span><nav class="footer-links" aria-label="フッター"><a href="{esc(rel(current,'read/index.html'))}">記事一覧</a><a href="{esc(rel(current,'topics/index.html'))}">テーマ</a><a href="{esc(rel(current,'search/index.html'))}">検索</a><a href="{esc(rel(current,'about/index.html'))}">このサイトについて</a></nav></div><div class="footer-bottom"><p>心理学・行動科学の研究を、一般向けに解説する制作プレビューです。記事は編集・確認中で、個別の診断・治療に代わるものではありません。AI支援による制作。独立した専門家確認と公開承認は未完了です。</p></div></div></footer></body></html>'''
 
-def card(current: str, tid: str) -> str:
-    cat = category_label(TOPICS[tid]['category_id'])
-    return f'<article class="article-card"><span class="eyebrow">{esc(cat)}</span><h3><a href="{esc(reader_link(current,tid))}">{esc(title(tid))}</a></h3><p>{esc(summary(tid))}</p><div class="card-foot"><span>約{minutes(tid)}分</span><span class="draft-label">編集稿</span></div></article>'
+def ready_in(gid: str) -> list[str]:
+    return [t for t in TOPICS if t in READERS and group_of(t)==gid]
 
-def group_card(current: str, gid: str) -> str:
-    g = GROUPS[gid]
-    labels = ' / '.join(category_label(c) for c in g['categories'])
-    return f'<div class="group-card"><h3><a href="{esc(rel(current,"topics/"+gid+"/index.html"))}">{esc(g["name"])}</a></h3><p>{esc(labels)}</p></div>'
+def card(current: str, tid: str, heading: str = 'h3') -> str:
+    gid = group_of(tid)
+    label = category_label(TOPICS[tid]['category_id'])
+    extra = ' is-feature' if READERS[tid]['feature'] else ''
+    tag = '<span>特集 · 図解あり</span>' if READERS[tid]['feature'] else ''
+    return f'<article class="card {gclass(gid)}{extra}"><span class="cat">{esc(label)}</span><{heading}><a href="{esc(reader_link(current,tid))}">{esc(title(tid))}</a></{heading}><p>{esc(summary(tid))}</p><div class="meta"><span>約{minutes(tid)}分</span>{tag}</div></article>'
 
-def rows(current: str, tids: list[str]) -> str:
-    ready=[];pending=[]
-    for tid in tids:
-        if tid in READERS:
-            line=f'<a href="{esc(reader_link(current,tid))}">{esc(title(tid))}</a><small>編集稿 · 約{minutes(tid)}分</small>'
-            ready.append(f'<li class="topic-row" data-topic-id="{esc(tid)}">{line}</li>')
-        else:
-            pending.append(f'<li class="topic-row" data-topic-id="{esc(tid)}"><span class="pending-title">{esc(title(tid))}</span><small>準備中</small></li>')
-    out='<ul class="topic-list ready-topics">'+''.join(ready)+'</ul>' if ready else '<p class="category-empty">この分野の解説は準備中です。</p>'
-    if pending:
-        out+=f'<details class="planned-topics"><summary>準備中（{len(pending)}件）</summary><ul class="topic-list">'+''.join(pending)+'</ul></details>'
-    return out
+def cards(current: str, tids: list[str], heading: str = 'h3') -> str:
+    # Ready articles stay a list with topic IDs so canonical order can be checked.
+    return '<ul class="card-grid ready-topics">' + ''.join(f'<li class="topic-row" data-topic-id="{esc(t)}">{card(current, t, heading)}</li>' for t in tids) + '</ul>'
+
+def pending(tids: list[str]) -> str:
+    rows = [f'<li class="topic-row" data-topic-id="{esc(t)}"><span class="pending-title">{esc(title(t))}</span><small>準備中</small></li>' for t in tids if t not in READERS]
+    if not rows:
+        return ''
+    return f'<details class="planned-topics"><summary>準備中のテーマ（{len(rows)}件）</summary><ul class="topic-list">' + ''.join(rows) + '</ul></details>'
 
 def topic_ids(cid: str) -> list[str]:
     return [tid for tid,t in TOPICS.items() if t['category_id']==cid]
 
-def flow() -> str:
-    return '''<figure class="mini-flow"><div class="flow-track"><div class="flow-step"><b>気が重い</b><span>課題に向き合う</span></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-step"><b>後回し</b><span>いったん避ける</span></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-step"><b>一時的に楽</b><span>負担は後に残る</span></div></div><figcaption>短期的な気分の調整という説明モデルの概念図。全員に当てはまる原因ではありません。</figcaption></figure>'''
+def mini_bars(items: list[dict]) -> str:
+    rows = ''.join(f'<div class="hb-row"><span class="hb-lab">{esc(x["label"])}</span><span class="hb-trk"><i class="hb-bar" style="--v:{float(x["value"]):g}"></i><b class="hb-val" style="--v:{float(x["value"]):g}">{esc(x["text"])}</b></span></div>' for x in items)
+    return f'<div class="hbar" aria-hidden="true">{rows}</div>'
 
 def build_home():
-    p='index.html'; lead='PSY-MOT-001'
-    chosen=[tid for tid in CONFIG['featured'] if tid in READERS and tid!=lead][:4]
-    picks=''.join(f'<article class="pick"><span class="eyebrow">{esc(category_label(TOPICS[t]["category_id"]))}</span><h3><a href="{esc(reader_link(p,t))}">{esc(title(t))}</a></h3><p>{esc(summary(t))}</p></article>' for t in chosen)
-    selections=['PSY-GEN-002','PSY-ATT-004','PSY-REL-002','PSY-RES-005','PSY-PER-002','PSY-CRE-001']
-    selections=[t for t in selections if t in READERS]
-    body=f'''<div class="home-intro"><h1>心理学を読む</h1><span>睡眠、習慣、人間関係。気になるテーマから。</span></div>
-<div class="feature-grid"><article class="feature"><span class="eyebrow">習慣・行動</span><h2 class="feature-title"><a href="{esc(reader_link(p,lead))}">{esc(title(lead))}</a></h2><p class="feature-summary">{esc(summary(lead))}</p>{flow()}<div class="feature-foot"><a href="{esc(reader_link(p,lead))}">解説を読む →</a><span class="draft-label">編集稿</span></div></article><section class="picks" aria-labelledby="picks-heading"><h2 id="picks-heading">まず読む</h2>{picks}</section></div>
-{FOUNDATIONS.home_links(p,rel)}
-<section class="section"><div class="section-heading"><h2>テーマから探す</h2><a href="{esc(rel(p,'topics/index.html'))}">すべてのテーマ →</a></div><div class="group-grid">{''.join(group_card(p,g) for g in GROUPS)}</div></section>
-<section class="section"><div class="section-heading"><h2>日常の疑問</h2><a href="{esc(rel(p,'search/index.html'))}?status=draft">解説一覧 →</a></div><div class="article-grid">{''.join(card(p,t) for t in selections)}</div></section>
-<section class="section editor-note"><h2>根拠と限界を読む</h2><div><p>結論だけでなく、研究の対象と、まだ分からないことを載せます。本文の出典から元の論文や公的資料へ進めます。</p><a href="{esc(rel(p,'about/index.html'))}">編集方針を見る →</a></div></section>'''
-    write(p,shell(p,CONFIG['site_name'],'心理学・行動科学のテーマを、睡眠、習慣、学習、人間関係などから探す情報サイト。',body))
+    p='index.html'
+    feature = FEATURES[0] if FEATURES else None
+    body=f'''<section class="hero"><h1>心と行動のふしぎを、研究から。</h1><p>心理学・行動科学の研究を、日常の疑問からわかりやすく解説します。結論だけでなく、どこまで分かっていて、何がまだ分からないのかも伝えます。</p><div class="hero-stats"><span>{len(READERS)}本の記事</span><span>{len(GROUPS)}つのテーマ</span><span>参考文献つき</span></div></section>'''
+    if feature:
+        ed = EDITIONS[feature]
+        tags = ''.join(f'<li>{esc(t)}</li>' for t in ed.get('tags', []))
+        body += f'''<article class="feature-card"><div><span class="eyebrow {gclass(group_of(feature))}">特集 · {esc(category_label(TOPICS[feature]['category_id']))}</span><h2 class="feature-title"><a href="{esc(reader_link(p,feature))}">{esc(ed.get('title_main', title(feature)))}</a></h2><p class="sub">{esc(ed.get('subtitle',''))}</p><p>{esc(ed.get('teaser_text', summary(feature)))}</p><ul class="tags">{tags}<li>約{minutes(feature)}分</li></ul></div><div class="feature-visual">{mini_bars(ed.get('teaser', []))}<small>{esc(ed.get('teaser_note',''))}</small></div></article>'''
+    tiles = ''
+    for gid, g in GROUPS.items():
+        n = len(ready_in(gid))
+        cats = '・'.join(category_label(c) for c in g['categories'])
+        tiles += f'<div class="tile {gclass(gid)}"><h3><a href="{esc(rel(p,"topics/"+gid+"/index.html"))}">{esc(g["name"])}</a></h3><b>{n}本</b><p>{esc(cats)}</p></div>'
+    body += f'<section class="section"><div class="section-heading"><h2>テーマから探す</h2><a href="{esc(rel(p,"read/index.html"))}">記事一覧 →</a></div><div class="tiles">{tiles}</div></section>'
+    chosen = [t for t in CONFIG['featured'] if t in READERS and t != feature][:6]
+    body += f'<section class="section"><div class="section-heading"><h2>まず読みたい記事</h2><a href="{esc(rel(p,"read/index.html"))}">すべての記事 →</a></div>{cards(p, chosen)}</section>'
+    body += f'<section class="section"><div class="section-heading"><h2>基礎から学ぶ</h2></div><nav class="learn-links learning-entry" aria-label="学び方"><a href="{esc(rel(p,"learn/index.html"))}"><strong>学習ガイド</strong><span>{len(FOUNDATIONS.series)}つのテーマを、短い解説で順に読めます。</span></a><a href="{esc(rel(p,"glossary/index.html"))}"><strong>用語集</strong><span>心理学・研究の{len(FOUNDATIONS.terms)}語を、例と出典で確かめられます。</span></a></nav></section>'
+    body += f'<section class="section editor-note"><h2>根拠と限界をいっしょに</h2><p>記事の数字や主張には参考文献をつけ、研究の対象と、まだ分からないことも書いています。記事はAI支援で編集中の制作プレビューです。</p><a href="{esc(rel(p,"about/index.html"))}">編集方針を見る →</a></section>'
+    write(p,shell(p,CONFIG['site_name'],'心理学・行動科学の研究を、日常の疑問からわかりやすく解説するサイト。',body))
+
+def build_articles():
+    p='read/index.html'
+    chips = ''.join(f'<a class="chip {gclass(gid)}" href="#group-{esc(gid)}">{esc(g["name"])} <small>{len(ready_in(gid))}</small></a>' for gid,g in GROUPS.items())
+    body = breadcrumbs(p,[('記事一覧',None)]) + f'<div class="page-heading"><h1>記事一覧</h1><p>{len(READERS)}本の解説を、{len(GROUPS)}つのテーマに分けて並べています。気になるテーマから選んでください。</p></div><nav class="chip-nav" aria-label="テーマへ移動">{chips}</nav>'
+    for gid, g in GROUPS.items():
+        body += f'<section class="group-block {gclass(gid)}" id="group-{esc(gid)}"><h2><a href="{esc(rel(p,"topics/"+gid+"/index.html"))}">{esc(g["name"])}</a><small>{len(ready_in(gid))}本</small></h2>'
+        for cid in g['categories']:
+            ids = [t for t in topic_ids(cid) if t in READERS]
+            if ids:
+                body += f'<div class="cat-block"><h3><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a></h3>{cards(p, ids, "h4")}</div>'
+        body += '</section>'
+    write(p,shell(p,'記事一覧',f'{len(READERS)}本の心理学・行動科学の解説をテーマ別に一覧。',body))
 
 NAVIGATION=ReaderNavigation(ROOT)
 REFERENCES=ReaderReferences(ROOT)
 
 def build_topics():
     p='topics/index.html'
-    body=breadcrumbs(p,[('テーマ一覧',None)])+f'<div class="page-heading"><h1>テーマ一覧</h1><p>{len(CATEGORIES)}分野・{len(TOPICS)}テーマ。編集稿のあるテーマと、準備中のテーマを分けて表示しています。</p></div>'
+    body=breadcrumbs(p,[('テーマ一覧',None)])+f'<div class="page-heading"><h1>テーマ一覧</h1><p>{len(GROUPS)}つのテーマ、{len(CATEGORIES)}の分野に分けています。数字は読める記事の本数です。準備中のテーマは各分野のページで確認できます。</p></div>'
     for gid,g in GROUPS.items():
-        body+=f'<section class="section"><div class="section-heading"><h2>{esc(g["name"])}</h2><a href="{esc(rel(p,"topics/"+gid+"/index.html"))}">この分野を見る →</a></div><div class="group-grid">'
+        body+=f'<section class="group-block {gclass(gid)}"><h2><a href="{esc(rel(p,"topics/"+gid+"/index.html"))}">{esc(g["name"])}</a><small>{len(ready_in(gid))}本</small></h2><div class="tiles">'
         for cid in g['categories']:
             ids=topic_ids(cid); ready=sum(t in READERS for t in ids)
-            body+=f'<div class="group-card"><h3><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a></h3><p>{len(ids)}テーマ · 編集稿{ready}本</p></div>'
+            body+=f'<div class="tile {gclass(gid)}"><h3><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a></h3><b>{ready}本</b><p>準備中 {len(ids)-ready}テーマ</p></div>'
         body+='</div></section>'
-    write(p,shell(p,'テーマ一覧','28分野の心理学・行動科学のテーマ索引。',body))
+    write(p,shell(p,'テーマ一覧',f'{len(CATEGORIES)}分野の心理学・行動科学のテーマ索引。',body))
     for gid,g in GROUPS.items():
         p=f'topics/{gid}/index.html'
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(g['name'],None)])
-        body+=f'<div class="page-heading"><h1>{esc(g["name"])}</h1><p>読める解説を先に表示しています。準備中のテーマは一覧を開いて確認できます。</p></div><nav class="index-links" aria-label="この分野の分類">'
+        body+=f'<div class="page-heading"><span class="eyebrow {gclass(gid)}">テーマ</span><h1>{esc(g["name"])}</h1><p>{len(ready_in(gid))}本の解説があります。分野ごとに並べ、準備中のテーマは各分野の最後にまとめています。</p></div><nav class="index-links" aria-label="この分野の分類">'
         body+=''.join(f'<a href="#category-{esc(cid)}">{esc(category_label(cid))}</a>' for cid in g['categories'])+'</nav>'
         for cid in g['categories']:
-            body+=f'<section class="category-block" id="category-{esc(cid)}"><h2><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a><span class="count">{len(topic_ids(cid))}テーマ</span></h2>{rows(p,topic_ids(cid))}</section>'
-        write(p,shell(p,g['name'],f'{g["name"]}の心理学・行動科学のテーマ一覧。',body,active=gid))
+            ids=topic_ids(cid); ready=[t for t in ids if t in READERS]
+            body+=f'<section class="cat-block category-block" id="category-{esc(cid)}"><h2><a href="{esc(rel(p,"topics/category/"+cid+"/index.html"))}">{esc(category_label(cid))}</a> <small class="count">{len(ready)}本</small></h2>'
+            body+=(cards(p,ready) if ready else '<p class="category-empty">この分野の解説は準備中です。</p>')+pending(ids)+'</section>'
+        write(p,shell(p,g['name'],f'{g["name"]}の心理学・行動科学の解説一覧。',body,active=gid))
     for cid,category in CATEGORIES.items():
         p=f'topics/category/{cid}/index.html'; gid=GROUP_OF[cid]
         body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(GROUPS[gid]['name'],f'topics/{gid}/index.html'),(category_label(cid),None)])
-        body+=f'<div class="page-heading"><h1>{esc(category_label(cid))}</h1><p>{esc(CONFIG["category_descriptions"].get(cid, category["scope_ja"]))}</p></div>{NAVIGATION.category(cid,p,sys.modules[__name__])}{rows(p,topic_ids(cid))}'
+        ids=topic_ids(cid); ready=[t for t in ids if t in READERS]
+        body+=f'<div class="page-heading"><span class="eyebrow {gclass(gid)}">{esc(GROUPS[gid]["name"])}</span><h1>{esc(category_label(cid))}</h1><p>{esc(CONFIG["category_descriptions"].get(cid, category["scope_ja"]))}</p></div>{NAVIGATION.category(cid,p,sys.modules[__name__])}'
+        body+=(cards(p,ready,'h2') if ready else '<p class="category-empty">この分野の解説は準備中です。</p>')+pending(ids)
         search_url=rel(p,'search/index.html')+'?'+urlencode({'category':cid,'status':'draft'})
         body+=f'<p class="category-search"><a href="{esc(search_url)}">この分野の解説を検索 →</a></p>'
         write(p,shell(p,category_label(cid),f'{category_label(cid)}のテーマと参考文献付き解説。',body,active=gid))
@@ -332,8 +377,57 @@ def render_markdown(text: str,current: str,origin: str) -> tuple[str,list[tuple[
     if code is not None:out.append('<pre><code>'+esc('\n'.join(code))+'</code></pre>')
     return ''.join(out),toc
 
+FONT_CONTROLS = '<div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div>'
+
+def bibliography(sid: str) -> str:
+    s = SOURCES[sid]
+    year = f' ({s["year"]})' if s.get('year') else ''
+    journal = f' {esc(s["journal"])}.' if s.get('journal') else ''
+    return f'{esc(s["authors_display"])}{year}. {esc(s["title"])}.{journal} <a href="{esc(s["url"])}">{esc(s["url"])}</a>'
+
+def feature_citations(tid: str) -> list[str]:
+    return list(dict.fromkeys(re.findall(r'href="#ref-(SRC\d+)"', READERS[tid]['text'])))
+
+def feature_reference_items(tid: str) -> str:
+    return ''.join(f'<p class="reference-item" id="ref-{sid}"><a href="#ref-{sid}">[{sid}]</a> {bibliography(sid)}</p>' for sid in feature_citations(tid))
+
+def related_links(p: str, tid: str) -> str:
+    related=[r for r in EDITIONS.get(tid,{}).get('related_ids',[]) if r in READERS and r!=tid]
+    if len(related)<3:
+        related+=[r for r in READERS if group_of(r)==group_of(tid) and r!=tid and r not in related][:3-len(related)]
+    related=related[:3]
+    return '<section class="related"><h2>あわせて読む</h2><ul>'+''.join(f'<li><a href="{esc(reader_link(p,r))}">{esc(title(r))}</a></li>' for r in related)+'</ul></section>' if related else ''
+
+def build_feature(tid: str, entry: dict):
+    """Render a hand-authored feature with figures and optional deep-dive boxes."""
+    p=f'read/{tid}/index.html'; cid=TOPICS[tid]['category_id']; gid=group_of(tid); ed=EDITIONS[tid]
+    fragment=entry['text']
+    if re.search(r'<h1[\s>]|<script', fragment):
+        raise ValueError('Feature fragment must not contain h1 or inline scripts: '+tid)
+    cited=feature_citations(tid)
+    if set(cited)!=set(ed['source_ids']):
+        raise ValueError('Feature citations must match the edition source list: '+tid)
+    toc=re.findall(r'<h2 id="([^"]+)">([^<]+)</h2>', fragment)+[('s-refs','参考文献')]
+    refs='<h2 id="s-refs">参考文献</h2><p class="source-line">本文の番号は、下の文献に対応します。各文献で確認した範囲は「出典の確認状況」と書誌情報に記載しています。</p>'
+    refs+=feature_reference_items(tid)
+    toc_html=''.join(f'<li><a href="#{esc(a)}">{esc(l)}</a></li>' for a,l in toc)
+    points=''.join(f'<li>{esc(x)}</li>' for x in ed['keypoints'])
+    m, m2 = minutes(tid), minutes(tid, True)
+    links=f'<a href="https://github.com/Matsu71/Psychology_Blog/blob/main/{quote(entry["path"],safe="/")}">この記事の原稿</a> · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/reader_editions.json">主張と出典の対応表</a> · <a href="https://github.com/Matsu71/Psychology_Blog/blob/main/site/genetics_sources.json">出典の確認記録</a>'
+    body=breadcrumbs(p,[('記事一覧','read/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
+    body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">約{m}分 · くわしく読むと約{m2}分</p></details></aside><article class="reader feature" data-topic-id="{esc(tid)}"><span class="eyebrow {gclass(gid)}">特集 · {esc(category_label(cid))}</span><h1>{esc(ed['title_main'])}<span class="subtitle">{esc(ed['subtitle'])}</span></h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>更新 {esc(ed['reviewed_on'])}</span><span>約{m}分（くわしく読むと約{m2}分）</span>{FONT_CONTROLS}</div><section class="keypoints" aria-labelledby="s-points"><h2 id="s-points">この記事のポイント</h2><ol>{points}</ol></section><div class="depth-switch" role="group" aria-label="読み方" hidden><span>読み方</span><button type="button" data-depth-set="basic" aria-pressed="true">やさしく</button><button type="button" data-depth-set="detail" aria-pressed="false">くわしく</button><small>「くわしく」を選ぶと、統計の用語と、青い線の「くわしく」欄もすべて開きます。</small></div><div class="prose">{fragment}{refs}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(ed['review_scope'])}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この記事の点検は別です。</p><p>{links}</p></details>{REFERENCES.history(tid)}{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_links(p,tid)}</article></div>'''
+    body=REFERENCES.enhance(body,SOURCES)
+    head='<script src="'+esc(rel(p,'assets/feature.js'))+'" defer></script>'
+    script=ROOT/'articles/features'/(tid+'.js')
+    if script.exists():
+        write(f'read/{tid}/figures.js', script.read_text(encoding='utf-8'))
+        head+='<script src="figures.js" defer></script>'
+    write(p,shell(p,title(tid),summary(tid),body,active=gid,noindex=True,head_extra=head))
+
 def build_readers():
     for tid,entry in READERS.items():
+        if entry['feature']:
+            build_feature(tid,entry);continue
         p=f'read/{tid}/index.html';cid=TOPICS[tid]['category_id'];gid=GROUP_OF[cid]
         text=entry['text']
         # Legacy footer is internal operational metadata, preserved in GitHub.
@@ -376,8 +470,8 @@ def build_readers():
             related+=candidates[:3-len(related)]
         related=related[:3]
         related_html='<section class="related"><h2>あわせて読む</h2><ul>'+''.join(f'<li><a href="{esc(reader_link(p,r))}">{esc(title(r))}</a></li>' for r in related)+'</ul></section>' if related else ''
-        body=breadcrumbs(p,[('テーマ一覧','topics/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
-        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}{NAVIGATION.scope(tid)}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{REFERENCES.history(tid)}{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
+        body=breadcrumbs(p,[('記事一覧','read/index.html'),(category_label(cid),f'topics/category/{cid}/index.html'),(title(tid),None)])
+        body+=f'''<div class="reader-shell"><aside><details class="reader-toc" open><summary>この記事の目次</summary><ol>{toc_html}</ol><p class="toc-meta">編集稿 · 約{minutes(tid)}分</p></details></aside><article class="reader" data-topic-id="{esc(tid)}"><span class="eyebrow {gclass(gid)}">{esc(category_label(cid))}</span><h1>{esc(title(tid))}</h1><div class="reader-meta"><span class="draft-label">編集稿</span><span>{esc(date_text)}</span><span>約{minutes(tid)}分</span><div class="font-controls" role="group" aria-label="本文の文字サイズ"><button data-reader-size="18" aria-pressed="true" aria-label="文字サイズ 標準18ピクセル">標準</button><button data-reader-size="20" aria-pressed="false" aria-label="文字サイズ 大20ピクセル">大</button><button data-reader-size="22" aria-pressed="false" aria-label="文字サイズ 特大22ピクセル">特大</button></div></div>{answer}{NAVIGATION.scope(tid)}<div class="prose">{rendered}</div><details class="review-panel"><summary>出典の確認状況</summary><p>{esc(basis)}</p><p>AI支援による編集です。独立した専門家確認・公開承認・網羅的な撤回調査は未完了です。正式なエビデンス確実性評価は行っていません。掲載論文の査読と、この編集稿の点検は別です。</p><p>{links}</p></details>{REFERENCES.history(tid)}{FOUNDATIONS.reader_links(tid,p,rel,title)}{related_html}</article></div>'''
         body=REFERENCES.enhance(body,SOURCES)
         write(p,shell(p,title(tid),summary(tid),body,active=gid,noindex=True))
 
@@ -433,8 +527,9 @@ def main():
     write('docs/redesign/TITLE_AUDIT.csv',audit.getvalue())
     write('assets/site.css',(ROOT/'site/style.css').read_text())
     write('assets/app.js',(ROOT/'site/app.js').read_text())
+    write('assets/feature.js',(ROOT/'site/feature.js').read_text())
     write('.nojekyll','')
-    build_home();build_topics();build_readers();build_search();build_about();FOUNDATIONS.build(sys.modules[__name__])
+    build_home();build_articles();build_topics();build_readers();build_search();build_about();FOUNDATIONS.build(sys.modules[__name__])
     original=[len(x['title_ja']) for x in TOPICS.values()]
     shortened=[len(x) for x in CONFIG['display_titles'].values()]
     report={'schema_version':'1.0','built_from_editorial_date':CONFIG['updated_on'],'site_status':'editorial_preview','topic_count':len(TOPICS),'category_count':len(CATEGORIES),'navigation_group_count':len(GROUPS),'learning_path_count':len(FOUNDATIONS.series),'glossary_term_count':len(FOUNDATIONS.terms),'comprehension_check_count':len(load('site/learning_checks.json')['items']),'canonical_manuscript_count':sum(bool(x.get('manuscript_path')) for x in CATALOG.values()),'reader_topic_count':len(READERS),'numbered_reference_page_count':len(READERS),'article_update_record_count':len(REFERENCES.updates),'reader_rewrites':sum(x['kind']=='rewrite' for x in EDITIONS.values()),'new_reader_drafts':sum(x['kind']=='new_draft' for x in EDITIONS.values()),'approved_article_count':sum(x.get('publication_ready') is True for x in CATALOG.values()),'display_title_chars':{'original_median':statistics.median(original),'new_median':statistics.median(shortened),'original_max':max(original),'new_max':max(shortened)},'html_page_count':sum(p.endswith('.html') for p in GENERATED),'generated_files':list(GENERATED),'research_truth_validated':False}

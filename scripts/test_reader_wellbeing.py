@@ -62,7 +62,10 @@ def main():
         check(not p.select('.reference-bibliography[open]'),'full metadata folded by default: '+tid)
         # Compare against the same normalized, rendered bibliography before UI
         # enhancement, not against a second hand-maintained source list.
-        original,_=site.render_markdown(site.normalized_manuscript(site.READERS[tid]['text']),str(path.relative_to(ROOT)),site.READERS[tid]['path'])
+        if site.READERS[tid]['feature']:
+            original=site.feature_reference_items(tid)  # feature bibliography is generated from the source register
+        else:
+            original,_=site.render_markdown(site.normalized_manuscript(site.READERS[tid]['text']),str(path.relative_to(ROOT)),site.READERS[tid]['path'])
         old=BeautifulSoup(original,'html.parser')
         for ref in refs:
             sid=ref['id'].removeprefix('ref-');num=int(ref['data-reference-number'])

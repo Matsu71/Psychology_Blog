@@ -6434,6 +6434,314 @@
       ],
       "integrity_status": "not_exhaustive",
       "integrity_notices": []
+    },
+    {
+      "source_id": "SRC336",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録と本文の該当箇所（数値・考察）を確認。全文の批判的評価は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC337",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC338",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC339",
+      "review_scope": "selected_fulltext_sections",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録と本文の該当箇所（数値・考察）を確認。全文の批判的評価は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC340",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC341",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC342",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC343",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC344",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC345",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC346",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC347",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC348",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC349",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC350",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC351",
+      "review_scope": "abstract",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "抄録の範囲を確認。全文の方法・表は未点検。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC352",
+      "review_scope": "bibliography",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "書誌と要旨を確認。原典全文の精読は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC353",
+      "review_scope": "bibliography",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "書誌と要旨を確認。原典全文の精読は未実施。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC354",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "公的機関の解説・統計資料の該当箇所を確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC355",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "公的機関の解説・統計資料の該当箇所を確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC356",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "公的機関の解説・統計資料の該当箇所を確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
+    },
+    {
+      "source_id": "SRC357",
+      "review_scope": "official_page_reviewed",
+      "method_signals": null,
+      "formal_risk_of_bias": "not_assessed",
+      "formal_evidence_certainty": "not_assessed",
+      "reliability_ja": "Claude Opus 5.5による指定範囲のAI支援点検。独立した確認・正式なバイアス評価は未実施。",
+      "provenance_review_ids": [],
+      "limitations_ja": [
+        "公的機関の解説・統計資料の該当箇所を確認。"
+      ],
+      "integrity_status": "not_exhaustive",
+      "integrity_notices": []
     }
   ],
   "updated_on": "2026-09-11"

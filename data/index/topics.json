@@ -118,7 +118,7 @@
       "topic_file": "data/topics/02_genetics.json",
       "evidence_file": "data/evidence/genetics.json",
       "ranked_sources_file": "data/rankings/sources_by_topic/genetics.json",
-      "source_count": 4,
+      "source_count": 26,
       "editorial_score": 77
     },
     {

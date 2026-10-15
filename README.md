@@ -6,7 +6,7 @@
 
 心理・行動だけでなく、恋愛、結婚、仕事、社会制度、人間関係、文化、技術と暮らしなど**人間に関すること全般**を記事候補とする。ブログ名や既存記事のタイトルは変更せず、調査根拠と編集基準を維持する。将来の記事企画は [追加テーマ候補](research/topic_candidates.md) に記録する。
 
-28分野・300テーマ。出典335件。出典未登録0テーマ。
+28分野・300テーマ。出典357件。出典未登録0テーマ。
 
 本文60件、主張対応表60件。 限定した原文照合記録あり20件。公開承認済み0件。
 
@@ -42,11 +42,17 @@ python scripts/reconcile_article_progress.py --check
 
 [制作プレビュー](https://matsu71.github.io/Psychology_Blog/) / [参考サイト比較](docs/redesign/REFERENCE_REVIEW.md) / [編集基準](docs/redesign/EDITORIAL_STANDARD.md)
 
-8つの入口、28分野、300テーマ。読者向け本文は96テーマ（従来の60原稿に、新稿36テーマを追加。そのうち既存33テーマは読者向けに改稿）。原稿数は公開承認数ではありません。
+8つの入口、28分野、300テーマ。読者向け本文は96テーマ（従来の60原稿に、新稿36テーマを追加。そのうち既存32テーマは読者向けに改稿）。原稿数は公開承認数ではありません。
 
 タイトル・導入・見出しは既存媒体の情報設計を参照して再設計しました。正本の題名・ID・元原稿は保持し、表示タイトルと読者版を別管理しています。全ページは編集確認中のためnoindexです。
 
-配置は main / (root)。Reader siteワークフローが変更されたソースを検証・生成し、生成物をmainへ保存してPagesの再ビルドを要求します。記事の公開承認を自動で付与するものではありません。手元で再生成する場合は次の順序です。
+### 構成と特集記事（2026-10-15）
+
+見出しを1段のメニュー（記事一覧・テーマ・基礎から学ぶ・用語集）にまとめ、[記事一覧](https://matsu71.github.io/Psychology_Blog/read/)で全記事をテーマ別のカードで確認できるようにしました。トップは特集・テーマ・おすすめ記事の3つに整理しています。
+
+特集記事は `articles/features/<ID>.html`（本文と図）と `articles/features/<ID>.js`（動く図。任意）で書き、`site/reader_editions.json` に `kind: feature` で登録します。本文の「くわしく」欄（`details.deep`）と統計用語の補足（`span.pro`）は、記事上部の「やさしく／くわしく」で表示を切り替えます。参考文献は本文の `[SRC…]` 引用から番号付きで自動生成し、出典は `site/<分野>_sources.json` → `register_reader_sources.py` で正本へ登録します。最初の特集は PSY-GEN-002「親から何がどれくらい遺伝する？」です。
+
+配置は main / (root)。GitHub Actionsは使わず（2026-10-09 方針）、手元で生成・検証してからmainへ保存します。記事の公開承認を自動で付与するものではありません。再生成は次の順序です。
 
 ```bash
 python scripts/register_reader_sources.py
@@ -56,4 +62,4 @@ python scripts/build_reader_site.py
 python scripts/test_reader_site.py
 ```
 
-構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)。科学的真偽や医療監修を自動認定するテストではありません。
+構造点検は [READER_SITE_TESTS.json](docs/READER_SITE_TESTS.json)、実ブラウザ点検は [READER_BROWSER_TESTS.json](docs/READER_BROWSER_TESTS.json)（`test_reader_*.py` はPlaywrightとBeautifulSoupが必要）。科学的真偽や医療監修を自動認定するテストではありません。

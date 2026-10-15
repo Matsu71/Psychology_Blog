@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-09-14",
+  "updated_on": "2026-10-15",
   "schedule_is_automated": false,
   "entries": [
     {
@@ -401,6 +401,51 @@
       "previous_reader_or_manuscript_path": "articles/manuscripts/PSY-ATT-003.md",
       "previous_sha256": "8fb9867590e368b8dac4586bb2679e4168c79c3d175a62fb5086048623f852d5",
       "reader_sha256": "aab1d079d3039c4b9dc731ffc9a548de106a03f7c7c6349d68ae8c733eb3d0fc",
+      "publication_ready": false,
+      "independent_review": "pending"
+    },
+    {
+      "topic_id": "PSY-GEN-002",
+      "updated_on": "2026-10-15",
+      "next_review_on": "2027-01-15",
+      "review_kind": "AI支援による新規作成（特集）",
+      "changes": [
+        "以前の読者版を、図8点と「くわしく」欄つきの特集記事に置き換え。",
+        "双子研究・遺伝子研究・公的統計など22件の出典を追加し、数値を抄録と公的資料で確認。"
+      ],
+      "source_ids": [
+        "SRC356",
+        "SRC346",
+        "SRC353",
+        "SRC004",
+        "SRC357",
+        "SRC336",
+        "SRC340",
+        "SRC337",
+        "SRC339",
+        "SRC036",
+        "SRC345",
+        "SRC344",
+        "SRC343",
+        "SRC342",
+        "SRC341",
+        "SRC352",
+        "SRC006",
+        "SRC347",
+        "SRC348",
+        "SRC005",
+        "SRC349",
+        "SRC338",
+        "SRC354",
+        "SRC355",
+        "SRC046",
+        "SRC350",
+        "SRC351"
+      ],
+      "source_checks_path": "site/genetics_sources.json",
+      "previous_reader_or_manuscript_path": "articles/reader/PSY-GEN-002.md",
+      "previous_sha256": "7509d833913d89439943769d789820e79371e4cc20b6e1d8718660414a452d5c",
+      "reader_sha256": "3df24fb6573999a67ad9f61702d9fe2fa3967a2d06dbc538a616aaee77a5118b",
       "publication_ready": false,
       "independent_review": "pending"
     }

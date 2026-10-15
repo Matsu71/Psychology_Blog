@@ -16,6 +16,7 @@ def main():
     if (ROOT/'site/emotion_sources.json').exists():packs.append(read('site/emotion_sources.json'))
     if (ROOT/'site/wellbeing_sources.json').exists():packs.append(read('site/wellbeing_sources.json'))
     if (ROOT/'site/motivation_sources.json').exists():packs.append(read('site/motivation_sources.json'))
+    if (ROOT/'site/genetics_sources.json').exists():packs.append(read('site/genetics_sources.json'))
     pack={'entries':[e for p in packs for e in p['entries']], 'updated_on':max(p['updated_on'] for p in packs)}
     sources=read('data/sources.json'); assessments=read('data/source_assessments.json')
     cats=read('data/categories.json')['categories']

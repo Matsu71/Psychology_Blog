@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "excludes": "Git history, working caches, generated build/, and this report",
-  "canonical_and_derived_data_bytes": 6896462,
+  "canonical_and_derived_data_bytes": 6979381,
   "data_json_file_count": 312,
   "largest_files": [
     {
@@ -10,19 +10,19 @@
     },
     {
       "path": "data/sources.json",
-      "bytes": 390516
+      "bytes": 412133
     },
     {
       "path": "data/research/history/pre_editorial_delivery_sources.json",
       "bytes": 286989
     },
     {
-      "path": "data/research/source_reviews.json",
-      "bytes": 254305
+      "path": "data/source_assessments.json",
+      "bytes": 263636
     },
     {
-      "path": "data/source_assessments.json",
-      "bytes": 250984
+      "path": "data/research/source_reviews.json",
+      "bytes": 254305
     },
     {
       "path": "data/literature/search_log.json",
@@ -34,11 +34,11 @@
     },
     {
       "path": "data/rankings/sources_global.json",
-      "bytes": 129425
+      "bytes": 137218
     },
     {
       "path": "data/index/topics.json",
-      "bytes": 122436
+      "bytes": 122437
     },
     {
       "path": "data/articles/catalog.json",

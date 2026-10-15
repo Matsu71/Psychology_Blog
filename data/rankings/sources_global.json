@@ -3804,6 +3804,226 @@
       "formal_evidence_certainty": "not_assessed",
       "priority_rank": null,
       "display_position": 335
+    },
+    {
+      "source_id": "SRC336",
+      "title": "Meta-analysis of the heritability of human traits based on fifty years of twin studies",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 336
+    },
+    {
+      "source_id": "SRC337",
+      "title": "The heritability of general cognitive ability increases linearly from childhood to young adulthood",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 337
+    },
+    {
+      "source_id": "SRC338",
+      "title": "Top 10 Replicated Findings From Behavioral Genetics",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 338
+    },
+    {
+      "source_id": "SRC339",
+      "title": "Genetic and environmental variation in educational attainment: an individual-based analysis of 28 twin cohorts",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "selected_fulltext_sections",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 339
+    },
+    {
+      "source_id": "SRC340",
+      "title": "Heritability of adult body height: a comparative study of twin cohorts in eight countries",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 340
+    },
+    {
+      "source_id": "SRC341",
+      "title": "Genetic epidemiology of major depression: review and meta-analysis",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 341
+    },
+    {
+      "source_id": "SRC342",
+      "title": "Genetics of attention deficit hyperactivity disorder",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 342
+    },
+    {
+      "source_id": "SRC343",
+      "title": "Heritability of autism spectrum disorders: a meta-analysis of twin studies",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 343
+    },
+    {
+      "source_id": "SRC344",
+      "title": "Heritability of Schizophrenia and Schizophrenia Spectrum Based on the Nationwide Danish Twin Register",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 344
+    },
+    {
+      "source_id": "SRC345",
+      "title": "Genetics of wellbeing and its components satisfaction with life, happiness, and quality of life: a review and meta-analysis of heritability studies",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 345
+    },
+    {
+      "source_id": "SRC346",
+      "title": "Assumption-free estimation of heritability from genome-wide identity-by-descent sharing between full siblings",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 346
+    },
+    {
+      "source_id": "SRC347",
+      "title": "Socioeconomic status modifies heritability of IQ in young children",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 347
+    },
+    {
+      "source_id": "SRC348",
+      "title": "Large Cross-National Differences in Gene × Socioeconomic Status Interaction on Intelligence",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 348
+    },
+    {
+      "source_id": "SRC349",
+      "title": "The nature of nurture: Effects of parental genotypes",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 349
+    },
+    {
+      "source_id": "SRC350",
+      "title": "A saturated map of common genetic variants associated with human height",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 350
+    },
+    {
+      "source_id": "SRC351",
+      "title": "Polygenic prediction of educational attainment within and between families from genome-wide association analyses in 3 million individuals",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "abstract",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 351
+    },
+    {
+      "source_id": "SRC352",
+      "title": "Three Laws of Behavior Genetics and What They Mean",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 352
+    },
+    {
+      "source_id": "SRC353",
+      "title": "Regression Towards Mediocrity in Hereditary Stature",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "bibliography",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 353
+    },
+    {
+      "source_id": "SRC354",
+      "title": "令和7年度学校保健統計（学校保健統計調査の結果）の公表について",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 354
+    },
+    {
+      "source_id": "SRC355",
+      "title": "Phenylketonuria",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 355
+    },
+    {
+      "source_id": "SRC356",
+      "title": "Chromosome (Talking Glossary of Genomic and Genetic Terms)",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 356
+    },
+    {
+      "source_id": "SRC357",
+      "title": "Mitochondrial DNA (Talking Glossary of Genomic and Genetic Terms)",
+      "priority_score": null,
+      "best_matched_topic_ids": [],
+      "review_scope": "official_page_reviewed",
+      "formal_evidence_certainty": "not_assessed",
+      "priority_rank": null,
+      "display_position": 357
     }
   ]
 }

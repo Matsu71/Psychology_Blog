@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "built_from_editorial_date": "2026-09-14",
+  "built_from_editorial_date": "2026-10-15",
   "site_status": "editorial_preview",
   "topic_count": 300,
   "category_count": 28,
@@ -11,8 +11,8 @@
   "canonical_manuscript_count": 60,
   "reader_topic_count": 96,
   "numbered_reference_page_count": 96,
-  "article_update_record_count": 20,
-  "reader_rewrites": 33,
+  "article_update_record_count": 21,
+  "reader_rewrites": 32,
   "new_reader_drafts": 36,
   "approved_article_count": 0,
   "display_title_chars": {
@@ -21,13 +21,15 @@
     "original_max": 31,
     "new_max": 17
   },
-  "html_page_count": 148,
+  "html_page_count": 149,
   "generated_files": [
     "docs/redesign/TITLE_AUDIT.csv",
     "assets/site.css",
     "assets/app.js",
+    "assets/feature.js",
     ".nojekyll",
     "index.html",
+    "read/index.html",
     "topics/index.html",
     "topics/health/index.html",
     "topics/habits/index.html",
@@ -70,6 +72,7 @@
     "read/PSY-SLP-007/index.html",
     "read/PSY-SLP-009/index.html",
     "read/PSY-GEN-001/index.html",
+    "read/PSY-GEN-002/figures.js",
     "read/PSY-GEN-002/index.html",
     "read/PSY-ADD-001/index.html",
     "read/PSY-HAB-001/index.html",

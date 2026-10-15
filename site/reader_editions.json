@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-09-14",
+  "updated_on": "2026-10-15",
   "publication_ready": false,
   "editions": [
     {
@@ -388,35 +388,245 @@
     },
     {
       "topic_id": "PSY-GEN-002",
-      "kind": "rewrite",
-      "path": "articles/reader/PSY-GEN-002.md",
-      "summary": "個人の内訳ではなく、集団のばらつきを表す数値。",
-      "answer": "遺伝率50％は「あなたの半分が遺伝で決まり、変えられない」という意味ではありません。特定の集団で見られる個人差を、遺伝的な違いと関連づけて推定する指標です。",
-      "source_ids": [
-        "SRC004",
-        "SRC005",
-        "SRC006"
+      "kind": "feature",
+      "path": "articles/features/PSY-GEN-002.html",
+      "title_main": "親から何がどれくらい遺伝する？",
+      "subtitle": "「遺伝率50％」の本当の意味",
+      "summary": "身長・知能・性格・心の病気への遺伝の影響と、「遺伝率50％」の正しい読み方を図で解説。",
+      "answer": "遺伝率50％は「あなたの半分が遺伝で決まる」という意味ではありません。ある集団に見られる人と人との違いの約半分が、遺伝の違いと結びついているという集団についての数字です。",
+      "keypoints": [
+        "子どもは両親からDNAを半分ずつ受け継ぎます。身長・知能・性格・心の病気のなりやすさなど、調べられたほぼすべての特徴に遺伝の影響があり、双子研究の平均では約50％です。",
+        "ただし「遺伝率50％」は「あなたの半分が遺伝で決まる」ではありません。「人と人との違い（ばらつき）の約半分が、遺伝の違いと結びついている」という、集団についての数字です。",
+        "遺伝の影響が大きくても、変えられないわけではありません。遺伝率が約80％の身長でも、日本の17歳男子の平均は1948年度から約10cm伸びました。"
       ],
-      "reviewed_on": "2026-09-14",
+      "teaser_text": "身長、知能、性格、心の病気。遺伝はどれくらい影響するのか、そして「遺伝率50％」が何を意味するのかを、8つの図で解説します。",
+      "teaser": [
+        {
+          "label": "身長",
+          "value": 80,
+          "text": "約80％"
+        },
+        {
+          "label": "知能（17歳）",
+          "value": 66,
+          "text": "66％"
+        },
+        {
+          "label": "最終学歴",
+          "value": 43,
+          "text": "43％"
+        },
+        {
+          "label": "性格",
+          "value": 40,
+          "text": "40％"
+        }
+      ],
+      "teaser_note": "主な特徴の遺伝率（研究による推定値）。この数字の意味を記事で解説します。",
+      "tags": [
+        "図解8点",
+        "くわしい解説つき"
+      ],
+      "source_ids": [
+        "SRC356",
+        "SRC346",
+        "SRC353",
+        "SRC004",
+        "SRC357",
+        "SRC336",
+        "SRC340",
+        "SRC337",
+        "SRC339",
+        "SRC036",
+        "SRC345",
+        "SRC344",
+        "SRC343",
+        "SRC342",
+        "SRC341",
+        "SRC352",
+        "SRC006",
+        "SRC347",
+        "SRC348",
+        "SRC005",
+        "SRC349",
+        "SRC338",
+        "SRC354",
+        "SRC355",
+        "SRC046",
+        "SRC350",
+        "SRC351"
+      ],
+      "reviewed_on": "2026-10-15",
       "publication_ready": false,
-      "review_scope": "2026-09-11の既存稿・確認記録を引き継いだ読者向け改稿。今回の公的ページ再取得は成功していない。50％は説明用の仮定で、特定研究の実測値ではない。",
+      "review_scope": "Claude Opus 5.5が2026-10-15に新規作成した特集記事です。数値は各論文の抄録（2015年の双子研究の統合と2020年の学歴研究は本文の表・考察も）と、公的機関の資料の該当箇所で確認しました。図3・図4と「くわしく」欄の一部の計算は、単純化したモデルによる編集部の説明・計算例です。以前の読者版（articles/reader/PSY-GEN-002.md）を置き換えました。",
       "formal_evidence_certainty": "not_assessed",
       "independent_review": "pending",
+      "author": {
+        "actor": "feature-writing",
+        "model": "claude-opus-5-5",
+        "reasoningEffort": "?"
+      },
       "claims": [
         {
-          "claim_ja": "遺伝率は集団の分散に関する指標で、個人の原因割合や変えにくさそのものではない。",
+          "claim_ja": "子は染色体の各組の1本ずつを両親から受け継ぎ、ミトコンドリアDNAは母親から受け継ぐ。",
           "source_ids": [
-            "SRC004",
+            "SRC356",
+            "SRC357"
+          ],
+          "checked_locator": "NHGRI用語解説",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "きょうだいのDNA共有率は平均約50％で、実測は37.4〜61.7％。この方法による身長の遺伝率は0.80。",
+          "source_ids": [
+            "SRC346"
+          ],
+          "checked_locator": "抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "子の身長の平均からの偏差は、両親の平均の偏差のおよそ3分の2。",
+          "source_ids": [
+            "SRC353"
+          ],
+          "checked_locator": "書誌と比の引用・再解析",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "遺伝率は集団内のばらつきの指標で、個人の割合ではなく、集団と環境に固有で変わり得る。話す言語の遺伝率は0、髪の色は遺伝率が高いが染められる。双子比較の論理。",
+          "source_ids": [
+            "SRC004"
+          ],
+          "checked_locator": "公的解説ページ",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "約50年分の双子研究の統合：2,748論文、17,804特徴、延べ14,558,903組。遺伝率平均0.488、共有環境0.174、遺伝率0の特徴なし。表2の双子相関。",
+          "source_ids": [
+            "SRC336"
+          ],
+          "checked_locator": "本文・表1・表2",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "身長、知能、学歴、性格、幸福感、統合失調症、自閉スペクトラム症、ADHD、うつ病の遺伝率の推定値（図2）。",
+          "source_ids": [
+            "SRC340",
+            "SRC346",
+            "SRC337",
+            "SRC339",
+            "SRC036",
+            "SRC345",
+            "SRC344",
+            "SRC343",
+            "SRC342",
+            "SRC341"
+          ],
+          "checked_locator": "各抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "行動遺伝学の三法則の要旨。",
+          "source_ids": [
+            "SRC352"
+          ],
+          "checked_locator": "書誌と要旨",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "米国の研究では低SESで知能の遺伝率が低いが、西欧・豪州では見られない。",
+          "source_ids": [
+            "SRC347",
+            "SRC348"
+          ],
+          "checked_locator": "各抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "学歴の遺伝率は世代で異なり、共有環境は31％。同類交配が共有環境の推定を高めた可能性。",
+          "source_ids": [
+            "SRC339"
+          ],
+          "checked_locator": "抄録・考察",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "親が子に伝えなかった遺伝子のスコアも子の学歴と関連し、その効果は伝えたスコアの29.9％。",
+          "source_ids": [
+            "SRC349"
+          ],
+          "checked_locator": "抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "知能の遺伝率は9歳41％、12歳55％、17歳66％と上昇し、乳児期約20％から成人期約60％。理由として遺伝と環境の相関。",
+          "source_ids": [
+            "SRC337",
+            "SRC338"
+          ],
+          "checked_locator": "各抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "日本の17歳の平均身長は1948年度の男子160.6cm・女子152.1cmから、2025年度は170.6cm・157.9cm。平成10年度前後まで上昇し、その後横ばい。",
+          "source_ids": [
+            "SRC354"
+          ],
+          "checked_locator": "令和7年度公表資料",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "フェニルケトン尿症は単一遺伝子の病気だが、新生児スクリーニングと食事療法で重い症状はまれ。",
+          "source_ids": [
+            "SRC355"
+          ],
+          "checked_locator": "公的解説ページ",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "統合失調症の遺伝率79％、一卵性の一致率33％。",
+          "source_ids": [
+            "SRC344"
+          ],
+          "checked_locator": "抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "介入研究207件の統合で、平均24週間で性格検査の値が変化（d=0.37など）。",
+          "source_ids": [
+            "SRC046"
+          ],
+          "checked_locator": "抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "身長に関わる12,111個のSNPが分散の約40％（他の祖先では10〜20％）を説明。学歴の多遺伝子指標は12〜16％、直接効果は約半分。",
+          "source_ids": [
+            "SRC350",
+            "SRC351"
+          ],
+          "checked_locator": "各抄録",
+          "status": "selected_scope_check"
+        },
+        {
+          "claim_ja": "失われた遺伝率の原因候補、広義・狭義の遺伝率。遺伝率という指標への批判。",
+          "source_ids": [
             "SRC005",
             "SRC006"
           ],
-          "checked_locator": "SRC004 公的解説 / SRC005・006抄録：既存の指定箇所点検",
-          "status": "selected_scope_or_inherited_check"
+          "checked_locator": "各抄録",
+          "status": "selected_scope_check"
         },
         {
-          "claim_ja": "日常の具体例は編集上の応用であり、検証済みの個別手順ではない。",
+          "claim_ja": "ファルコナーの式による簡易計算、親子の回帰と残差の計算、図4のシミュレーションは編集部の計算例。",
           "source_ids": [],
-          "checked_locator": "本文の日常への応用節",
+          "checked_locator": "本文の「くわしく」欄と図4",
+          "status": "editorial_calculation"
+        },
+        {
+          "claim_ja": "本好きの子の例、身長の伸びに栄養や衛生が関わるという解釈、学歴の共有環境に家庭条件が関わる可能性は編集上の説明。",
+          "source_ids": [],
+          "checked_locator": "本文の該当段落",
           "status": "editorial_application"
         }
       ],
@@ -425,7 +635,7 @@
         "PSY-PER-002",
         "PSY-RES-001"
       ],
-      "application_scope_ja": "日常の具体例は編集上の提案。紹介した手順の効果を個別に検証した意味ではない。"
+      "application_scope_ja": "一般向けの解説です。遺伝子検査の結果や病気のリスクの個別判断には使えません。"
     },
     {
       "topic_id": "PSY-PER-002",

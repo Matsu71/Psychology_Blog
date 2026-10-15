@@ -84,7 +84,7 @@ def main():
         p=pages[f'read/{x["topic_id"]}/index.html']
         check(all('ref-'+s in p.ids for s in x['source_ids']),f'{x["topic_id"]}: edition source anchors')
     check(report['approved_article_count']==0,'Preview does not invent publication approvals')
-    expected=report['reader_topic_count']+len(cats)+len(cfg['groups'])+4+report['learning_path_count']+2
+    expected=report['reader_topic_count']+len(cats)+len(cfg['groups'])+5+report['learning_path_count']+2  # +1: read/index.html article list
     check(len(files)==expected,f'Expected {expected} HTML pages from actual content')
     check((ROOT/'assets/site.css').stat().st_size<30000,'CSS budget 30 kB')
     check((ROOT/'assets/app.js').stat().st_size<10000,'JS budget 10 kB')

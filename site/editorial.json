@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-09-14",
+  "updated_on": "2026-10-15",
   "site_name": "心理学トピック",
   "site_status": "editorial_preview",
   "canonical_base": "https://matsu71.github.io/Psychology_Blog/",
@@ -124,7 +124,7 @@
     "PSY-SLP-009": "眠いのに寝ないのはなぜ？",
     "PSY-SLP-010": "睡眠アプリは信頼できる？",
     "PSY-GEN-001": "性格と遺伝の関係",
-    "PSY-GEN-002": "遺伝率50％の意味",
+    "PSY-GEN-002": "親から何がどれくらい遺伝する？",
     "PSY-GEN-003": "双子の研究で分かること",
     "PSY-GEN-004": "きょうだいで性格が違う理由",
     "PSY-GEN-005": "遺伝の影響は変えられる？",
@@ -420,7 +420,8 @@
     "PSY-HAB-001",
     "PSY-LEA-001",
     "PSY-EMO-008",
-    "PSY-GEN-002"
+    "PSY-GEN-002",
+    "PSY-RES-001"
   ],
   "title_policy": {
     "preferred_max": 26,

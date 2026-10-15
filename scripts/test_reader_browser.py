@@ -65,7 +65,7 @@ def main():
             check(page.locator('[data-reader-size="22"]').get_attribute('aria-pressed')=='true','reader: size selected')
             page.reload(wait_until='networkidle')
             check(page.locator('[data-reader-size="22"]').get_attribute('aria-pressed')=='true','reader: size survives reload')
-            page.locator('.reader-toc a').first.click();check('#section-' in page.url,'reader: table of contents navigation')
+            toc=page.locator('.reader-toc a').first;target=toc.get_attribute('href');toc.click();check(page.url.endswith(target),'reader: table of contents navigation')
             source=page.locator('.prose a[href^="#ref-"]').first
             if source.count():
                 source.click();check('#ref-' in page.url,'reader: reference anchor navigation')
